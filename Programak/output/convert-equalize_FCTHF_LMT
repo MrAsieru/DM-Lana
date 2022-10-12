@@ -1,0 +1,195 @@
+
+Options: -I -1 -M 15 -W 0.0 
+
+=== Classifier model (full training set) ===
+
+Logistic model tree 
+------------------
+: LM_1:11/11 (416)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class K1 :
+-1.64 + 
+[FCTH0] * 0.29 +
+[FCTH3] * 0.36 +
+[FCTH11] * 0.32 +
+[FCTH15] * -0.35 +
+[FCTH20] * 0.22 +
+[FCTH28] * -0.5 +
+[FCTH29] * -0.3 +
+[FCTH47] * 0.53 +
+[FCTH49] * -0.39 +
+[FCTH51] * 0.61 +
+[FCTH71] * -1.09
+
+Class K2 :
+-4.1 + 
+[FCTH0] * 0.86 +
+[FCTH4] * 0.32 +
+[FCTH7] * 0.23 +
+[FCTH12] * -0.56 +
+[FCTH25] * -0.41 +
+[FCTH27] * 0.38 +
+[FCTH48] * -0.84 +
+[FCTH49] * -0.92 +
+[FCTH69] * 0.84 +
+[FCTH75] * -0.89
+
+Class K3 :
+1.58 + 
+[FCTH0] * -0.51 +
+[FCTH6] * -0.42 +
+[FCTH14] * -0.52 +
+[FCTH15] * 0.28 +
+[FCTH20] * -0.4 +
+[FCTH25] * 0.44 +
+[FCTH33] * -0.95 +
+[FCTH58] * -1.11 +
+[FCTH77] * 1.73 +
+[FCTH87] * -1.96 +
+[FCTH104] * 2.04
+
+Class K4 :
+0.65 + 
+[FCTH0] * -0.45 +
+[FCTH2] * 0.21 +
+[FCTH3] * -0.38 +
+[FCTH12] * 0.4  +
+[FCTH21] * -0.42 +
+[FCTH49] * 0.3  +
+[FCTH58] * 1.16 +
+[FCTH63] * 1.45 +
+[FCTH68] * 1.08 +
+[FCTH125] * 2.04 +
+[FCTH144] * 1.63
+
+Class K5 :
+-1.1 + 
+[FCTH2] * -0.2 +
+[FCTH19] * 0.64 +
+[FCTH21] * -0.73 +
+[FCTH22] * 0.97 +
+[FCTH38] * 0.46 +
+[FCTH62] * 3.07 +
+[FCTH71] * 1.15 +
+[FCTH100] * 1.45 +
+[FCTH135] * 2.53
+
+Class K6 :
+-2.04 + 
+[FCTH3] * -1.73 +
+[FCTH4] * -0.85 +
+[FCTH14] * 1.13 +
+[FCTH33] * 1.35 +
+[FCTH36] * 1.78 +
+[FCTH39] * 1.3  +
+[FCTH67] * 1.46 +
+[FCTH91] * 0.66
+
+Class K7 :
+-9.81 + 
+[FCTH7] * -0 +
+[FCTH16] * 0    +
+[FCTH19] * 0    +
+[FCTH27] * -0 +
+[FCTH69] * -0 +
+[FCTH72] * -0 +
+[FCTH189] * -0
+
+Class K8 :
+-9.81 + 
+[FCTH7] * -0 +
+[FCTH16] * 0    +
+[FCTH19] * 0    +
+[FCTH27] * -0 +
+[FCTH69] * -0 +
+[FCTH72] * -0 +
+[FCTH189] * -0
+
+
+Time taken to build model: 1.56 seconds
+
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         375               90.1442 %
+Incorrectly Classified Instances        41                9.8558 %
+Kappa statistic                          0.872 
+Mean absolute error                      0.0549
+Root mean squared error                  0.1428
+Relative absolute error                 28.0652 %
+Root relative squared error             45.72   %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.535    0.008    0.885      0.535    0.667      0.663    0.965     0.789     K1
+                 0.973    0.082    0.867      0.973    0.917      0.871    0.986     0.974     K2
+                 0.895    0.024    0.895      0.895    0.895      0.871    0.991     0.961     K3
+                 0.852    0.020    0.881      0.852    0.867      0.844    0.992     0.958     K4
+                 1.000    0.003    0.985      1.000    0.992      0.991    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.901    0.038    0.902      0.901    0.896      0.871    0.988     0.955     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  23  20   0   0   0   0   0   0 |   a = K1
+   3 144   0   0   1   0   0   0 |   b = K2
+   0   1  68   7   0   0   0   0 |   c = K3
+   0   1   8  52   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 11.9 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         332               79.8077 %
+Incorrectly Classified Instances        84               20.1923 %
+Kappa statistic                          0.7386
+Mean absolute error                      0.0607
+Root mean squared error                  0.1916
+Relative absolute error                 31.002  %
+Root relative squared error             61.3252 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.302    0.038    0.481      0.302    0.371      0.327    0.894     0.471     K1
+                 0.899    0.104    0.826      0.899    0.861      0.781    0.961     0.922     K2
+                 0.803    0.056    0.763      0.803    0.782      0.732    0.963     0.823     K3
+                 0.639    0.051    0.684      0.639    0.661      0.606    0.938     0.766     K4
+                 0.984    0.009    0.955      0.984    0.969      0.964    0.998     0.985     K5
+                 0.958    0.005    0.920      0.958    0.939      0.935    0.999     0.992     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.798    0.060    0.783      0.798    0.788      0.736    0.959     0.848     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  13  27   1   2   0   0   0   0 |   a = K1
+  13 133   0   0   2   0   0   0 |   b = K2
+   0   0  61  15   0   0   0   0 |   c = K3
+   1   1  18  39   0   2   0   0 |   d = K4
+   0   0   0   1  63   0   0   0 |   e = K5
+   0   0   0   0   1  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

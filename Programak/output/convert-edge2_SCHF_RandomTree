@@ -1,0 +1,359 @@
+
+Options: -K 0 -M 1.0 -V 0.001 -S 1 
+
+=== Classifier model (full training set) ===
+
+
+RandomTree
+==========
+
+RGB Color Histogram4 < 3.5
+|   RGB Color Histogram63 < 83
+|   |   RGB Color Histogram16 < 8.5
+|   |   |   RGB Color Histogram38 < 0.5
+|   |   |   |   RGB Color Histogram26 < 1.5
+|   |   |   |   |   RGB Color Histogram63 < 10
+|   |   |   |   |   |   RGB Color Histogram22 < 1.5
+|   |   |   |   |   |   |   RGB Color Histogram17 < 0.5
+|   |   |   |   |   |   |   |   RGB Color Histogram42 < 2.5
+|   |   |   |   |   |   |   |   |   RGB Color Histogram42 < 1.5
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram21 < 13.5
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram63 < 0.5 : K2 (6/0)
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram63 >= 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram21 < 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram42 < 0.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram42 >= 0.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram21 >= 6 : K2 (3/0)
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram21 >= 13.5
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram21 < 16
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram5 < 1.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram5 >= 1.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram21 >= 16 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram42 >= 1.5 : K2 (10/0)
+|   |   |   |   |   |   |   |   RGB Color Histogram42 >= 2.5
+|   |   |   |   |   |   |   |   |   RGB Color Histogram4 < 0.5
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram42 < 3.5
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram16 < 1.5
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 < 1.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 >= 1.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram16 >= 1.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram42 >= 3.5
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram63 < 5.5
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 < 1.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram21 < 16.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram21 >= 16.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram21 < 21 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram21 >= 21 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 >= 1.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram63 >= 5.5 : K1 (2/0)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram4 >= 0.5 : K2 (3/0)
+|   |   |   |   |   |   |   RGB Color Histogram17 >= 0.5
+|   |   |   |   |   |   |   |   RGB Color Histogram17 < 1.5
+|   |   |   |   |   |   |   |   |   RGB Color Histogram22 < 0.5 : K2 (33/0)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram22 >= 0.5
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram20 < 0.5
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram16 < 1.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram16 >= 1.5 : K2 (5/0)
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram20 >= 0.5
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram47 < 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram16 < 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram26 < 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram42 < 4.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram42 >= 4.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram5 < 2.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram5 >= 2.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram26 >= 0.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram16 >= 4 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram47 >= 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 < 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram42 < 5.5 : K2 (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram42 >= 5.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 >= 5 : K2 (2/0)
+|   |   |   |   |   |   |   |   RGB Color Histogram17 >= 1.5 : K2 (5/0)
+|   |   |   |   |   |   RGB Color Histogram22 >= 1.5
+|   |   |   |   |   |   |   RGB Color Histogram21 < 20 : K1 (1/0)
+|   |   |   |   |   |   |   RGB Color Histogram21 >= 20
+|   |   |   |   |   |   |   |   RGB Color Histogram37 < 0.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   RGB Color Histogram37 >= 0.5 : K1 (1/0)
+|   |   |   |   |   RGB Color Histogram63 >= 10
+|   |   |   |   |   |   RGB Color Histogram47 < 1.5
+|   |   |   |   |   |   |   RGB Color Histogram22 < 1.5
+|   |   |   |   |   |   |   |   RGB Color Histogram17 < 0.5 : K1 (2/0)
+|   |   |   |   |   |   |   |   RGB Color Histogram17 >= 0.5
+|   |   |   |   |   |   |   |   |   RGB Color Histogram16 < 7.5
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram5 < 3.5
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 < 1.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 >= 1.5
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram42 < 5.5 : K2 (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram42 >= 5.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram47 < 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 < 3.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram63 < 14 : K1 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram63 >= 14 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 >= 3.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram47 >= 0.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram5 >= 3.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram16 >= 7.5 : K1 (1/0)
+|   |   |   |   |   |   |   RGB Color Histogram22 >= 1.5 : K1 (1/0)
+|   |   |   |   |   |   RGB Color Histogram47 >= 1.5
+|   |   |   |   |   |   |   RGB Color Histogram20 < 1.5
+|   |   |   |   |   |   |   |   RGB Color Histogram21 < 28 : K1 (4/0)
+|   |   |   |   |   |   |   |   RGB Color Histogram21 >= 28 : K2 (1/0)
+|   |   |   |   |   |   |   RGB Color Histogram20 >= 1.5 : K1 (1/0)
+|   |   |   |   RGB Color Histogram26 >= 1.5
+|   |   |   |   |   RGB Color Histogram63 < 3 : K2 (2/0)
+|   |   |   |   |   RGB Color Histogram63 >= 3
+|   |   |   |   |   |   RGB Color Histogram4 < 1.5
+|   |   |   |   |   |   |   RGB Color Histogram26 < 3.5
+|   |   |   |   |   |   |   |   RGB Color Histogram20 < 1.5
+|   |   |   |   |   |   |   |   |   RGB Color Histogram1 < 6.5 : K1 (8/0)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram1 >= 6.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   RGB Color Histogram20 >= 1.5 : K1 (4/0)
+|   |   |   |   |   |   |   RGB Color Histogram26 >= 3.5 : K2 (1/0)
+|   |   |   |   |   |   RGB Color Histogram4 >= 1.5
+|   |   |   |   |   |   |   RGB Color Histogram26 < 2.5 : K2 (3/0)
+|   |   |   |   |   |   |   RGB Color Histogram26 >= 2.5 : K1 (1/0)
+|   |   |   RGB Color Histogram38 >= 0.5 : K2 (1/0)
+|   |   RGB Color Histogram16 >= 8.5
+|   |   |   RGB Color Histogram17 < 2.5
+|   |   |   |   RGB Color Histogram5 < 2.5 : K1 (1/0)
+|   |   |   |   RGB Color Histogram5 >= 2.5
+|   |   |   |   |   RGB Color Histogram37 < 3.5
+|   |   |   |   |   |   RGB Color Histogram4 < 1.5
+|   |   |   |   |   |   |   RGB Color Histogram47 < 0.5 : K2 (4/0)
+|   |   |   |   |   |   |   RGB Color Histogram47 >= 0.5
+|   |   |   |   |   |   |   |   RGB Color Histogram4 < 0.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   RGB Color Histogram4 >= 0.5
+|   |   |   |   |   |   |   |   |   RGB Color Histogram20 < 1.5 : K2 (4/0)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram20 >= 1.5
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram22 < 1.5
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram5 < 5.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram5 >= 5.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram22 >= 1.5 : K1 (1/0)
+|   |   |   |   |   |   RGB Color Histogram4 >= 1.5
+|   |   |   |   |   |   |   RGB Color Histogram16 < 10.5
+|   |   |   |   |   |   |   |   RGB Color Histogram4 < 2.5 : K2 (5/0)
+|   |   |   |   |   |   |   |   RGB Color Histogram4 >= 2.5
+|   |   |   |   |   |   |   |   |   RGB Color Histogram21 < 21 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram21 >= 21 : K2 (1/0)
+|   |   |   |   |   |   |   RGB Color Histogram16 >= 10.5 : K2 (11/0)
+|   |   |   |   |   RGB Color Histogram37 >= 3.5 : K1 (1/0)
+|   |   |   RGB Color Histogram17 >= 2.5
+|   |   |   |   RGB Color Histogram16 < 14.5
+|   |   |   |   |   RGB Color Histogram6 < 1.5 : K4 (1/0)
+|   |   |   |   |   RGB Color Histogram6 >= 1.5 : K2 (1/0)
+|   |   |   |   RGB Color Histogram16 >= 14.5 : K2 (6/0)
+|   RGB Color Histogram63 >= 83
+|   |   RGB Color Histogram37 < 1.5
+|   |   |   RGB Color Histogram55 < 1.5
+|   |   |   |   RGB Color Histogram36 < 0.5
+|   |   |   |   |   RGB Color Histogram1 < 3.5
+|   |   |   |   |   |   RGB Color Histogram16 < 5.5
+|   |   |   |   |   |   |   RGB Color Histogram32 < 4
+|   |   |   |   |   |   |   |   RGB Color Histogram37 < 0.5 : K3 (6/0)
+|   |   |   |   |   |   |   |   RGB Color Histogram37 >= 0.5
+|   |   |   |   |   |   |   |   |   RGB Color Histogram1 < 2.5
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram5 < 3.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram5 >= 3.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram1 >= 2.5 : K3 (2/0)
+|   |   |   |   |   |   |   RGB Color Histogram32 >= 4 : K4 (1/0)
+|   |   |   |   |   |   RGB Color Histogram16 >= 5.5
+|   |   |   |   |   |   |   RGB Color Histogram15 < 3
+|   |   |   |   |   |   |   |   RGB Color Histogram10 < 0.5 : K4 (4/0)
+|   |   |   |   |   |   |   |   RGB Color Histogram10 >= 0.5 : K3 (1/0)
+|   |   |   |   |   |   |   RGB Color Histogram15 >= 3 : K3 (1/0)
+|   |   |   |   |   RGB Color Histogram1 >= 3.5 : K4 (7/0)
+|   |   |   |   RGB Color Histogram36 >= 0.5 : K3 (2/0)
+|   |   |   RGB Color Histogram55 >= 1.5 : K3 (2/0)
+|   |   RGB Color Histogram37 >= 1.5 : K3 (6/0)
+RGB Color Histogram4 >= 3.5
+|   RGB Color Histogram62 < 0.5
+|   |   RGB Color Histogram42 < 7.5
+|   |   |   RGB Color Histogram33 < 0.5
+|   |   |   |   RGB Color Histogram7 < 5
+|   |   |   |   |   RGB Color Histogram43 < 0.5
+|   |   |   |   |   |   RGB Color Histogram1 < 8.5
+|   |   |   |   |   |   |   RGB Color Histogram1 < 2.5 : K3 (2/0)
+|   |   |   |   |   |   |   RGB Color Histogram1 >= 2.5
+|   |   |   |   |   |   |   |   RGB Color Histogram6 < 0.5
+|   |   |   |   |   |   |   |   |   RGB Color Histogram48 < 1
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram4 < 4.5
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram37 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram26 < 0.5 : K4 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram26 >= 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram21 < 13.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram5 < 4.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram21 < 11.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram21 >= 11.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram5 >= 4.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram21 >= 13.5 : K4 (3/0)
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram37 >= 2.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram4 >= 4.5
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram25 < 0.5 : K3 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram25 >= 0.5 : K4 (2/0)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram48 >= 1 : K4 (1/0)
+|   |   |   |   |   |   |   |   RGB Color Histogram6 >= 0.5 : K4 (2/0)
+|   |   |   |   |   |   RGB Color Histogram1 >= 8.5
+|   |   |   |   |   |   |   RGB Color Histogram5 < 6.5 : K5 (2/0)
+|   |   |   |   |   |   |   RGB Color Histogram5 >= 6.5 : K2 (1/0)
+|   |   |   |   |   RGB Color Histogram43 >= 0.5
+|   |   |   |   |   |   RGB Color Histogram63 < 36
+|   |   |   |   |   |   |   RGB Color Histogram42 < 3.5 : K2 (1/0)
+|   |   |   |   |   |   |   RGB Color Histogram42 >= 3.5 : K3 (4/0)
+|   |   |   |   |   |   RGB Color Histogram63 >= 36
+|   |   |   |   |   |   |   RGB Color Histogram26 < 4.5 : K4 (3/0)
+|   |   |   |   |   |   |   RGB Color Histogram26 >= 4.5 : K3 (1/0)
+|   |   |   |   RGB Color Histogram7 >= 5 : K5 (4/0)
+|   |   |   RGB Color Histogram33 >= 0.5
+|   |   |   |   RGB Color Histogram26 < 5.5
+|   |   |   |   |   RGB Color Histogram31 < 6.5
+|   |   |   |   |   |   RGB Color Histogram5 < 7.5
+|   |   |   |   |   |   |   RGB Color Histogram1 < 2.5 : K4 (1/0)
+|   |   |   |   |   |   |   RGB Color Histogram1 >= 2.5
+|   |   |   |   |   |   |   |   RGB Color Histogram18 < 0.5
+|   |   |   |   |   |   |   |   |   RGB Color Histogram63 < 39.5 : K3 (4/0)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram63 >= 39.5
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram4 < 6.5
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 < 6.5
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram8 < 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram33 < 2.5 : K4 (5/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram33 >= 2.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram8 >= 0.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 >= 6.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram4 >= 6.5 : K3 (2/0)
+|   |   |   |   |   |   |   |   RGB Color Histogram18 >= 0.5 : K3 (1/0)
+|   |   |   |   |   |   RGB Color Histogram5 >= 7.5
+|   |   |   |   |   |   |   RGB Color Histogram63 < 55.5 : K3 (12/0)
+|   |   |   |   |   |   |   RGB Color Histogram63 >= 55.5
+|   |   |   |   |   |   |   |   RGB Color Histogram48 < 1.5
+|   |   |   |   |   |   |   |   |   RGB Color Histogram47 < 6.5 : K3 (2/0)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram47 >= 6.5 : K4 (2/0)
+|   |   |   |   |   |   |   |   RGB Color Histogram48 >= 1.5 : K3 (7/0)
+|   |   |   |   |   RGB Color Histogram31 >= 6.5 : K4 (2/0)
+|   |   |   |   RGB Color Histogram26 >= 5.5 : K4 (2/0)
+|   |   RGB Color Histogram42 >= 7.5
+|   |   |   RGB Color Histogram1 < 5.5
+|   |   |   |   RGB Color Histogram33 < 0.5
+|   |   |   |   |   RGB Color Histogram5 < 4.5 : K2 (1/0)
+|   |   |   |   |   RGB Color Histogram5 >= 4.5 : K4 (3/0)
+|   |   |   |   RGB Color Histogram33 >= 0.5 : K4 (1/0)
+|   |   |   RGB Color Histogram1 >= 5.5 : K2 (5/0)
+|   RGB Color Histogram62 >= 0.5
+|   |   RGB Color Histogram7 < 2.5
+|   |   |   RGB Color Histogram1 < 17.5
+|   |   |   |   RGB Color Histogram2 < 1.5
+|   |   |   |   |   RGB Color Histogram17 < 5.5
+|   |   |   |   |   |   RGB Color Histogram32 < 3.5
+|   |   |   |   |   |   |   RGB Color Histogram42 < 5.5
+|   |   |   |   |   |   |   |   RGB Color Histogram57 < 0.5 : K3 (8/0)
+|   |   |   |   |   |   |   |   RGB Color Histogram57 >= 0.5
+|   |   |   |   |   |   |   |   |   RGB Color Histogram21 < 10 : K3 (3/0)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram21 >= 10
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 < 5.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 >= 5.5 : K3 (1/0)
+|   |   |   |   |   |   |   RGB Color Histogram42 >= 5.5
+|   |   |   |   |   |   |   |   RGB Color Histogram46 < 1.5
+|   |   |   |   |   |   |   |   |   RGB Color Histogram4 < 4.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram4 >= 4.5 : K4 (2/0)
+|   |   |   |   |   |   |   |   RGB Color Histogram46 >= 1.5 : K4 (1/0)
+|   |   |   |   |   |   RGB Color Histogram32 >= 3.5
+|   |   |   |   |   |   |   RGB Color Histogram49 < 2 : K4 (4/0)
+|   |   |   |   |   |   |   RGB Color Histogram49 >= 2 : K3 (1/0)
+|   |   |   |   |   RGB Color Histogram17 >= 5.5 : K2 (1/0)
+|   |   |   |   RGB Color Histogram2 >= 1.5 : K4 (7/0)
+|   |   |   RGB Color Histogram1 >= 17.5
+|   |   |   |   RGB Color Histogram2 < 1.5 : K5 (2/0)
+|   |   |   |   RGB Color Histogram2 >= 1.5 : K6 (18/0)
+|   |   RGB Color Histogram7 >= 2.5
+|   |   |   RGB Color Histogram16 < 16.5
+|   |   |   |   RGB Color Histogram63 < 91
+|   |   |   |   |   RGB Color Histogram7 < 3.5 : K6 (6/0)
+|   |   |   |   |   RGB Color Histogram7 >= 3.5 : K5 (2/0)
+|   |   |   |   RGB Color Histogram63 >= 91 : K5 (7/0)
+|   |   |   RGB Color Histogram16 >= 16.5 : K5 (47/0)
+
+Size of the tree : 265
+
+Time taken to build model: 0.17 seconds
+
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         416              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K1
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K2
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K3
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  43   0   0   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0   0   0 |   b = K2
+   0   0  76   0   0   0   0   0 |   c = K3
+   0   0   0  61   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.06 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         301               72.3558 %
+Incorrectly Classified Instances       115               27.6442 %
+Kappa statistic                          0.6453
+Mean absolute error                      0.0691
+Root mean squared error                  0.2629
+Relative absolute error                 35.3097 %
+Root relative squared error             84.1348 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.349    0.067    0.375      0.349    0.361      0.291    0.641     0.198     K1
+                 0.804    0.119    0.788      0.804    0.796      0.682    0.842     0.703     K2
+                 0.618    0.062    0.691      0.618    0.653      0.582    0.778     0.497     K3
+                 0.574    0.099    0.500      0.574    0.534      0.449    0.738     0.349     K4
+                 1.000    0.003    0.985      1.000    0.992      0.991    0.999     0.985     K5
+                 0.875    0.003    0.955      0.875    0.913      0.909    0.936     0.842     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.724    0.076    0.725      0.724    0.723      0.650    0.824     0.613     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  15  27   0   1   0   0   0   0 |   a = K1
+  22 119   1   5   1   0   0   0 |   b = K2
+   1   1  47  27   0   0   0   0 |   c = K3
+   2   4  19  35   0   1   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   1   2   0  21   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

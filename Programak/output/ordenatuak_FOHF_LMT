@@ -1,0 +1,900 @@
+
+Options: -I -1 -M 15 -W 0.0 
+
+=== Classifier model (full training set) ===
+
+Logistic model tree 
+------------------
+
+Fuzzy Opponent Histogram19 <= 0
+|   Fuzzy Opponent Histogram13 <= 45
+|   |   Fuzzy Opponent Histogram10 <= 0
+|   |   |   Fuzzy Opponent Histogram23 <= 6: LM_1:98/490 (249)
+|   |   |   Fuzzy Opponent Histogram23 > 6: LM_2:98/490 (93)
+|   |   Fuzzy Opponent Histogram10 > 0: LM_3:17/311 (8)
+|   Fuzzy Opponent Histogram13 > 45: LM_4:98/294 (42)
+Fuzzy Opponent Histogram19 > 0: LM_5:18/116 (24)
+
+Number of Leaves  : 	5
+
+Size of the Tree : 	9
+
+
+
+
+LM_1:
+Class K1 :
+0.31 + 
+[Fuzzy Opponent Histogram4] * 0.05 +
+[Fuzzy Opponent Histogram5] * 0    +
+[Fuzzy Opponent Histogram7] * -0.05 +
+[Fuzzy Opponent Histogram8] * -0 +
+[Fuzzy Opponent Histogram9] * -0.73 +
+[Fuzzy Opponent Histogram10] * -4.73 +
+[Fuzzy Opponent Histogram13] * 0.02 +
+[Fuzzy Opponent Histogram14] * 0.01 +
+[Fuzzy Opponent Histogram16] * -0.09 +
+[Fuzzy Opponent Histogram17] * 0.01 +
+[Fuzzy Opponent Histogram18] * -0.01 +
+[Fuzzy Opponent Histogram20] * -7 +
+[Fuzzy Opponent Histogram22] * -0.1 +
+[Fuzzy Opponent Histogram23] * 0.25 +
+[Fuzzy Opponent Histogram25] * 0.03 +
+[Fuzzy Opponent Histogram26] * -0.12 +
+[Fuzzy Opponent Histogram27] * -5.35 +
+[Fuzzy Opponent Histogram31] * -0.01 +
+[Fuzzy Opponent Histogram32] * 0.04 +
+[Fuzzy Opponent Histogram34] * 0.01 +
+[Fuzzy Opponent Histogram35] * -0.03
+
+Class K2 :
+-0.14 + 
+[Fuzzy Opponent Histogram4] * 0.08 +
+[Fuzzy Opponent Histogram5] * 0.02 +
+[Fuzzy Opponent Histogram7] * -0.11 +
+[Fuzzy Opponent Histogram8] * 0.01 +
+[Fuzzy Opponent Histogram9] * -1.09 +
+[Fuzzy Opponent Histogram10] * -0.33 +
+[Fuzzy Opponent Histogram13] * -0.1 +
+[Fuzzy Opponent Histogram14] * 0.01 +
+[Fuzzy Opponent Histogram16] * 0.06 +
+[Fuzzy Opponent Histogram17] * 0.02 +
+[Fuzzy Opponent Histogram18] * 0.07 +
+[Fuzzy Opponent Histogram20] * -4.43 +
+[Fuzzy Opponent Histogram21] * 8.18 +
+[Fuzzy Opponent Histogram22] * -0.05 +
+[Fuzzy Opponent Histogram23] * 0.34 +
+[Fuzzy Opponent Histogram25] * 0.01 +
+[Fuzzy Opponent Histogram26] * -0.19 +
+[Fuzzy Opponent Histogram27] * 0.33 +
+[Fuzzy Opponent Histogram30] * 0.24 +
+[Fuzzy Opponent Histogram31] * -0 +
+[Fuzzy Opponent Histogram32] * -0 +
+[Fuzzy Opponent Histogram34] * 0.01 +
+[Fuzzy Opponent Histogram35] * -0.01
+
+Class K3 :
+0.14 + 
+[Fuzzy Opponent Histogram4] * -0.06 +
+[Fuzzy Opponent Histogram5] * -0.02 +
+[Fuzzy Opponent Histogram7] * 0.14 +
+[Fuzzy Opponent Histogram8] * -0.02 +
+[Fuzzy Opponent Histogram9] * -0.05 +
+[Fuzzy Opponent Histogram10] * -6.44 +
+[Fuzzy Opponent Histogram13] * -0.03 +
+[Fuzzy Opponent Histogram14] * -0.01 +
+[Fuzzy Opponent Histogram16] * 0.03 +
+[Fuzzy Opponent Histogram17] * -0 +
+[Fuzzy Opponent Histogram18] * 0.01 +
+[Fuzzy Opponent Histogram20] * 0.04 +
+[Fuzzy Opponent Histogram22] * -0.04 +
+[Fuzzy Opponent Histogram23] * -0.04 +
+[Fuzzy Opponent Histogram25] * 0.03 +
+[Fuzzy Opponent Histogram26] * -0 +
+[Fuzzy Opponent Histogram27] * -0.04 +
+[Fuzzy Opponent Histogram29] * -1.13 +
+[Fuzzy Opponent Histogram31] * 0.06 +
+[Fuzzy Opponent Histogram32] * -0.15 +
+[Fuzzy Opponent Histogram34] * 0.04 +
+[Fuzzy Opponent Histogram35] * 0.03
+
+Class K4 :
+-0.82 + 
+[Fuzzy Opponent Histogram4] * -0.05 +
+[Fuzzy Opponent Histogram5] * -0.02 +
+[Fuzzy Opponent Histogram7] * 0.15 +
+[Fuzzy Opponent Histogram8] * -0.02 +
+[Fuzzy Opponent Histogram9] * 0.2  +
+[Fuzzy Opponent Histogram10] * -3.47 +
+[Fuzzy Opponent Histogram13] * -0.03 +
+[Fuzzy Opponent Histogram14] * -0.01 +
+[Fuzzy Opponent Histogram16] * 0.04 +
+[Fuzzy Opponent Histogram17] * -0.01 +
+[Fuzzy Opponent Histogram18] * -0.11 +
+[Fuzzy Opponent Histogram20] * 0.02 +
+[Fuzzy Opponent Histogram21] * -0.99 +
+[Fuzzy Opponent Histogram22] * 0.07 +
+[Fuzzy Opponent Histogram23] * -0.34 +
+[Fuzzy Opponent Histogram25] * 0.06 +
+[Fuzzy Opponent Histogram26] * 0.07 +
+[Fuzzy Opponent Histogram27] * -0.05 +
+[Fuzzy Opponent Histogram28] * 1.29 +
+[Fuzzy Opponent Histogram29] * 0.17 +
+[Fuzzy Opponent Histogram30] * -1.08 +
+[Fuzzy Opponent Histogram31] * -0.02 +
+[Fuzzy Opponent Histogram32] * 0.04 +
+[Fuzzy Opponent Histogram34] * -0.01 +
+[Fuzzy Opponent Histogram35] * 0   
+
+Class K5 :
+-24.48 + 
+[Fuzzy Opponent Histogram4] * 0.97 +
+[Fuzzy Opponent Histogram5] * 0.01 +
+[Fuzzy Opponent Histogram7] * -1.89 +
+[Fuzzy Opponent Histogram8] * -0.03 +
+[Fuzzy Opponent Histogram9] * -0.09 +
+[Fuzzy Opponent Histogram10] * 0.12 +
+[Fuzzy Opponent Histogram11] * 1.22 +
+[Fuzzy Opponent Histogram13] * 0.2  +
+[Fuzzy Opponent Histogram14] * -0 +
+[Fuzzy Opponent Histogram15] * 3.5  +
+[Fuzzy Opponent Histogram16] * 0.59 +
+[Fuzzy Opponent Histogram17] * -0.03 +
+[Fuzzy Opponent Histogram18] * -2.71 +
+[Fuzzy Opponent Histogram19] * 7.78 +
+[Fuzzy Opponent Histogram20] * -0.59 +
+[Fuzzy Opponent Histogram22] * 0.1  +
+[Fuzzy Opponent Histogram23] * 0.01 +
+[Fuzzy Opponent Histogram25] * -0.01 +
+[Fuzzy Opponent Histogram26] * 0.02 +
+[Fuzzy Opponent Histogram27] * -1.64 +
+[Fuzzy Opponent Histogram31] * 0.05 +
+[Fuzzy Opponent Histogram32] * -0.09 +
+[Fuzzy Opponent Histogram34] * -0.01 +
+[Fuzzy Opponent Histogram35] * 0.1 
+
+Class K6 :
+-74.15 + 
+[Fuzzy Opponent Histogram4] * 0.19 +
+[Fuzzy Opponent Histogram5] * 0.4  +
+[Fuzzy Opponent Histogram7] * -0.26 +
+[Fuzzy Opponent Histogram8] * -3.53 +
+[Fuzzy Opponent Histogram10] * 1.06 +
+[Fuzzy Opponent Histogram11] * -2.01 +
+[Fuzzy Opponent Histogram13] * 1.05 +
+[Fuzzy Opponent Histogram14] * 0.11 +
+[Fuzzy Opponent Histogram16] * -3.18 +
+[Fuzzy Opponent Histogram17] * -1.66 +
+[Fuzzy Opponent Histogram18] * -0.8 +
+[Fuzzy Opponent Histogram21] * -0.76 +
+[Fuzzy Opponent Histogram22] * 0.11 +
+[Fuzzy Opponent Histogram23] * -0.22 +
+[Fuzzy Opponent Histogram25] * -0.53 +
+[Fuzzy Opponent Histogram26] * -1 +
+[Fuzzy Opponent Histogram31] * -0.08 +
+[Fuzzy Opponent Histogram32] * -0.58 +
+[Fuzzy Opponent Histogram34] * -0.68
+
+Class K7 :
+-428.95 + 
+[Fuzzy Opponent Histogram7] * 0    +
+[Fuzzy Opponent Histogram8] * 0    +
+[Fuzzy Opponent Histogram26] * -0
+
+Class K8 :
+-428.95 + 
+[Fuzzy Opponent Histogram7] * 0    +
+[Fuzzy Opponent Histogram8] * 0    +
+[Fuzzy Opponent Histogram26] * -0
+
+LM_2:
+Class K1 :
+8.68 + 
+[Fuzzy Opponent Histogram4] * -2.84 +
+[Fuzzy Opponent Histogram5] * 0    +
+[Fuzzy Opponent Histogram7] * -0.02 +
+[Fuzzy Opponent Histogram8] * 0.32 +
+[Fuzzy Opponent Histogram9] * -0.73 +
+[Fuzzy Opponent Histogram10] * -4.73 +
+[Fuzzy Opponent Histogram13] * -0.06 +
+[Fuzzy Opponent Histogram14] * 0.02 +
+[Fuzzy Opponent Histogram16] * 0.09 +
+[Fuzzy Opponent Histogram17] * 0.03 +
+[Fuzzy Opponent Histogram18] * -0.02 +
+[Fuzzy Opponent Histogram20] * -7 +
+[Fuzzy Opponent Histogram22] * -0.01 +
+[Fuzzy Opponent Histogram23] * 0.03 +
+[Fuzzy Opponent Histogram25] * 0.04 +
+[Fuzzy Opponent Histogram26] * -1.08 +
+[Fuzzy Opponent Histogram27] * -5.35 +
+[Fuzzy Opponent Histogram31] * -1.55 +
+[Fuzzy Opponent Histogram32] * 0.04 +
+[Fuzzy Opponent Histogram34] * 0.01 +
+[Fuzzy Opponent Histogram35] * -0.03
+
+Class K2 :
+-6.5 + 
+[Fuzzy Opponent Histogram4] * -0.15 +
+[Fuzzy Opponent Histogram5] * 0.07 +
+[Fuzzy Opponent Histogram7] * -0.1 +
+[Fuzzy Opponent Histogram8] * 0.01 +
+[Fuzzy Opponent Histogram9] * -1.09 +
+[Fuzzy Opponent Histogram10] * -0.33 +
+[Fuzzy Opponent Histogram13] * -0.11 +
+[Fuzzy Opponent Histogram14] * 0.19 +
+[Fuzzy Opponent Histogram16] * 0.06 +
+[Fuzzy Opponent Histogram17] * 0.23 +
+[Fuzzy Opponent Histogram18] * 0.7  +
+[Fuzzy Opponent Histogram20] * -4.43 +
+[Fuzzy Opponent Histogram21] * 8.18 +
+[Fuzzy Opponent Histogram22] * -0.18 +
+[Fuzzy Opponent Histogram23] * -0.12 +
+[Fuzzy Opponent Histogram25] * -0.48 +
+[Fuzzy Opponent Histogram26] * 0.01 +
+[Fuzzy Opponent Histogram27] * 0.18 +
+[Fuzzy Opponent Histogram30] * 0.24 +
+[Fuzzy Opponent Histogram32] * 0.04 +
+[Fuzzy Opponent Histogram34] * 0.01 +
+[Fuzzy Opponent Histogram35] * -0.01
+
+Class K3 :
+0.96 + 
+[Fuzzy Opponent Histogram4] * -0.03 +
+[Fuzzy Opponent Histogram5] * -0.02 +
+[Fuzzy Opponent Histogram7] * 0.12 +
+[Fuzzy Opponent Histogram8] * -0.02 +
+[Fuzzy Opponent Histogram9] * 0.07 +
+[Fuzzy Opponent Histogram10] * -6.44 +
+[Fuzzy Opponent Histogram13] * 0.01 +
+[Fuzzy Opponent Histogram14] * -0.02 +
+[Fuzzy Opponent Histogram16] * -0 +
+[Fuzzy Opponent Histogram17] * -0.03 +
+[Fuzzy Opponent Histogram18] * -0.13 +
+[Fuzzy Opponent Histogram20] * 0.03 +
+[Fuzzy Opponent Histogram22] * -0.01 +
+[Fuzzy Opponent Histogram23] * -0 +
+[Fuzzy Opponent Histogram25] * 0.08 +
+[Fuzzy Opponent Histogram26] * -0.02 +
+[Fuzzy Opponent Histogram27] * 0.01 +
+[Fuzzy Opponent Histogram29] * -1.13 +
+[Fuzzy Opponent Histogram31] * 0.1  +
+[Fuzzy Opponent Histogram32] * -0.11 +
+[Fuzzy Opponent Histogram34] * 0.25 +
+[Fuzzy Opponent Histogram35] * -0.55
+
+Class K4 :
+0.7  + 
+[Fuzzy Opponent Histogram4] * -0.03 +
+[Fuzzy Opponent Histogram5] * -0.01 +
+[Fuzzy Opponent Histogram7] * 0.13 +
+[Fuzzy Opponent Histogram8] * -0.06 +
+[Fuzzy Opponent Histogram9] * -0.01 +
+[Fuzzy Opponent Histogram10] * -3.47 +
+[Fuzzy Opponent Histogram13] * -0.03 +
+[Fuzzy Opponent Histogram14] * 0.01 +
+[Fuzzy Opponent Histogram16] * 0.05 +
+[Fuzzy Opponent Histogram17] * -0.01 +
+[Fuzzy Opponent Histogram18] * 0.02 +
+[Fuzzy Opponent Histogram20] * 0.03 +
+[Fuzzy Opponent Histogram21] * -0.99 +
+[Fuzzy Opponent Histogram22] * 0.02 +
+[Fuzzy Opponent Histogram23] * 0    +
+[Fuzzy Opponent Histogram25] * -0.04 +
+[Fuzzy Opponent Histogram26] * 0.02 +
+[Fuzzy Opponent Histogram27] * -0.05 +
+[Fuzzy Opponent Histogram28] * 1.29 +
+[Fuzzy Opponent Histogram29] * 0.17 +
+[Fuzzy Opponent Histogram30] * -1.08 +
+[Fuzzy Opponent Histogram31] * -0.03 +
+[Fuzzy Opponent Histogram32] * -0.02 +
+[Fuzzy Opponent Histogram34] * -0.23 +
+[Fuzzy Opponent Histogram35] * 0.22
+
+Class K5 :
+-15.68 + 
+[Fuzzy Opponent Histogram4] * -0.01 +
+[Fuzzy Opponent Histogram5] * 0.21 +
+[Fuzzy Opponent Histogram7] * -0.2 +
+[Fuzzy Opponent Histogram8] * 0.01 +
+[Fuzzy Opponent Histogram9] * -0.09 +
+[Fuzzy Opponent Histogram10] * 0.12 +
+[Fuzzy Opponent Histogram11] * 1.22 +
+[Fuzzy Opponent Histogram13] * 0.32 +
+[Fuzzy Opponent Histogram14] * -0.06 +
+[Fuzzy Opponent Histogram15] * 3.5  +
+[Fuzzy Opponent Histogram16] * 0.03 +
+[Fuzzy Opponent Histogram17] * 0.06 +
+[Fuzzy Opponent Histogram18] * -2.71 +
+[Fuzzy Opponent Histogram19] * 7.78 +
+[Fuzzy Opponent Histogram20] * -0.59 +
+[Fuzzy Opponent Histogram22] * -0.04 +
+[Fuzzy Opponent Histogram23] * -0.02 +
+[Fuzzy Opponent Histogram25] * -0.01 +
+[Fuzzy Opponent Histogram26] * 0.05 +
+[Fuzzy Opponent Histogram27] * -1.64 +
+[Fuzzy Opponent Histogram31] * 0.03 +
+[Fuzzy Opponent Histogram32] * -0.09 +
+[Fuzzy Opponent Histogram34] * -0.01 +
+[Fuzzy Opponent Histogram35] * 0.44
+
+Class K6 :
+22.24 + 
+[Fuzzy Opponent Histogram4] * 0.32 +
+[Fuzzy Opponent Histogram5] * 0.44 +
+[Fuzzy Opponent Histogram7] * -0.26 +
+[Fuzzy Opponent Histogram8] * -4.58 +
+[Fuzzy Opponent Histogram10] * 1.06 +
+[Fuzzy Opponent Histogram11] * -2.01 +
+[Fuzzy Opponent Histogram13] * 1.05 +
+[Fuzzy Opponent Histogram14] * 0.32 +
+[Fuzzy Opponent Histogram16] * -4.02 +
+[Fuzzy Opponent Histogram17] * -1.66 +
+[Fuzzy Opponent Histogram18] * -0.8 +
+[Fuzzy Opponent Histogram21] * -0.76 +
+[Fuzzy Opponent Histogram22] * 0.36 +
+[Fuzzy Opponent Histogram23] * -0.8 +
+[Fuzzy Opponent Histogram25] * -0.53 +
+[Fuzzy Opponent Histogram26] * -2.68 +
+[Fuzzy Opponent Histogram31] * -0.93 +
+[Fuzzy Opponent Histogram32] * -0.58 +
+[Fuzzy Opponent Histogram34] * -0.92 +
+[Fuzzy Opponent Histogram35] * 1.75
+
+Class K7 :
+-428.95 + 
+[Fuzzy Opponent Histogram7] * 0    +
+[Fuzzy Opponent Histogram8] * 0    +
+[Fuzzy Opponent Histogram26] * -0
+
+Class K8 :
+-428.95 + 
+[Fuzzy Opponent Histogram7] * 0    +
+[Fuzzy Opponent Histogram8] * 0    +
+[Fuzzy Opponent Histogram26] * -0
+
+LM_3:
+Class K1 :
+-14.02 + 
+[Fuzzy Opponent Histogram4] * 0.03 +
+[Fuzzy Opponent Histogram5] * 0    +
+[Fuzzy Opponent Histogram7] * -0.02 +
+[Fuzzy Opponent Histogram8] * -0 +
+[Fuzzy Opponent Histogram9] * -0.73 +
+[Fuzzy Opponent Histogram10] * -4.73 +
+[Fuzzy Opponent Histogram13] * -0.01 +
+[Fuzzy Opponent Histogram14] * 0.01 +
+[Fuzzy Opponent Histogram16] * -0.05 +
+[Fuzzy Opponent Histogram17] * 0.01 +
+[Fuzzy Opponent Histogram18] * -0.02 +
+[Fuzzy Opponent Histogram20] * -7 +
+[Fuzzy Opponent Histogram22] * -0.03 +
+[Fuzzy Opponent Histogram23] * 0.01 +
+[Fuzzy Opponent Histogram25] * 0.04 +
+[Fuzzy Opponent Histogram26] * -0.21 +
+[Fuzzy Opponent Histogram27] * -4.47 +
+[Fuzzy Opponent Histogram31] * -0.01 +
+[Fuzzy Opponent Histogram32] * 0.03 +
+[Fuzzy Opponent Histogram34] * 0    +
+[Fuzzy Opponent Histogram35] * -0.03
+
+Class K2 :
+-14.71 + 
+[Fuzzy Opponent Histogram4] * 0.06 +
+[Fuzzy Opponent Histogram5] * 0.02 +
+[Fuzzy Opponent Histogram7] * -0.09 +
+[Fuzzy Opponent Histogram8] * 0.02 +
+[Fuzzy Opponent Histogram9] * -0.92 +
+[Fuzzy Opponent Histogram10] * -0.33 +
+[Fuzzy Opponent Histogram13] * -0.11 +
+[Fuzzy Opponent Histogram14] * 0.01 +
+[Fuzzy Opponent Histogram16] * 0.06 +
+[Fuzzy Opponent Histogram17] * 0.02 +
+[Fuzzy Opponent Histogram18] * 0.06 +
+[Fuzzy Opponent Histogram20] * -3.22 +
+[Fuzzy Opponent Histogram21] * 5.58 +
+[Fuzzy Opponent Histogram22] * -0.03 +
+[Fuzzy Opponent Histogram23] * -0.01 +
+[Fuzzy Opponent Histogram25] * -0.01 +
+[Fuzzy Opponent Histogram26] * -0.09 +
+[Fuzzy Opponent Histogram27] * 0.18 +
+[Fuzzy Opponent Histogram30] * 0.24 +
+[Fuzzy Opponent Histogram32] * -0 +
+[Fuzzy Opponent Histogram34] * 0.01 +
+[Fuzzy Opponent Histogram35] * -0
+
+Class K3 :
+-14.9 + 
+[Fuzzy Opponent Histogram4] * -0.04 +
+[Fuzzy Opponent Histogram5] * -0.01 +
+[Fuzzy Opponent Histogram7] * 0.12 +
+[Fuzzy Opponent Histogram8] * -0.03 +
+[Fuzzy Opponent Histogram9] * -0.01 +
+[Fuzzy Opponent Histogram10] * -6.44 +
+[Fuzzy Opponent Histogram13] * 0.01 +
+[Fuzzy Opponent Histogram14] * -0.01 +
+[Fuzzy Opponent Histogram16] * 0    +
+[Fuzzy Opponent Histogram17] * -0.01 +
+[Fuzzy Opponent Histogram18] * -0 +
+[Fuzzy Opponent Histogram20] * 0.03 +
+[Fuzzy Opponent Histogram22] * -0 +
+[Fuzzy Opponent Histogram23] * 0    +
+[Fuzzy Opponent Histogram25] * 0.06 +
+[Fuzzy Opponent Histogram26] * -0 +
+[Fuzzy Opponent Histogram27] * 0.01 +
+[Fuzzy Opponent Histogram29] * -1 +
+[Fuzzy Opponent Histogram31] * 0.02 +
+[Fuzzy Opponent Histogram32] * -0.11 +
+[Fuzzy Opponent Histogram34] * 0.02 +
+[Fuzzy Opponent Histogram35] * 0.01
+
+Class K4 :
+-15.54 + 
+[Fuzzy Opponent Histogram4] * -0.03 +
+[Fuzzy Opponent Histogram5] * -0.01 +
+[Fuzzy Opponent Histogram7] * 0.12 +
+[Fuzzy Opponent Histogram8] * -0.04 +
+[Fuzzy Opponent Histogram9] * 0.08 +
+[Fuzzy Opponent Histogram10] * -3.47 +
+[Fuzzy Opponent Histogram13] * -0.03 +
+[Fuzzy Opponent Histogram14] * -0 +
+[Fuzzy Opponent Histogram16] * 0.05 +
+[Fuzzy Opponent Histogram17] * -0.01 +
+[Fuzzy Opponent Histogram18] * -0.03 +
+[Fuzzy Opponent Histogram20] * 0.03 +
+[Fuzzy Opponent Histogram21] * -0.67 +
+[Fuzzy Opponent Histogram22] * 0.01 +
+[Fuzzy Opponent Histogram23] * -0 +
+[Fuzzy Opponent Histogram25] * 0.03 +
+[Fuzzy Opponent Histogram26] * 0.01 +
+[Fuzzy Opponent Histogram27] * -0.04 +
+[Fuzzy Opponent Histogram28] * 1.29 +
+[Fuzzy Opponent Histogram29] * 0.17 +
+[Fuzzy Opponent Histogram30] * -1.08 +
+[Fuzzy Opponent Histogram31] * -0.02 +
+[Fuzzy Opponent Histogram32] * 0.03 +
+[Fuzzy Opponent Histogram34] * -0.01
+
+Class K5 :
+12 + 
+[Fuzzy Opponent Histogram4] * -0.01 +
+[Fuzzy Opponent Histogram5] * 0.01 +
+[Fuzzy Opponent Histogram7] * 0    +
+[Fuzzy Opponent Histogram8] * 0.01 +
+[Fuzzy Opponent Histogram9] * -0.09 +
+[Fuzzy Opponent Histogram10] * 0.12 +
+[Fuzzy Opponent Histogram11] * 1.22 +
+[Fuzzy Opponent Histogram13] * 0.15 +
+[Fuzzy Opponent Histogram14] * -0.02 +
+[Fuzzy Opponent Histogram15] * 3.5  +
+[Fuzzy Opponent Histogram16] * -0.03 +
+[Fuzzy Opponent Histogram17] * -0.03 +
+[Fuzzy Opponent Histogram18] * -0.11 +
+[Fuzzy Opponent Histogram19] * 7.78 +
+[Fuzzy Opponent Histogram20] * -0.59 +
+[Fuzzy Opponent Histogram22] * -0.01 +
+[Fuzzy Opponent Histogram23] * -0 +
+[Fuzzy Opponent Histogram25] * -0.01 +
+[Fuzzy Opponent Histogram26] * 0.03 +
+[Fuzzy Opponent Histogram27] * -1.4 +
+[Fuzzy Opponent Histogram31] * 0.04 +
+[Fuzzy Opponent Histogram32] * -0.07 +
+[Fuzzy Opponent Histogram34] * -0.01 +
+[Fuzzy Opponent Histogram35] * 0.08
+
+Class K6 :
+-9.4 + 
+[Fuzzy Opponent Histogram4] * 0.19 +
+[Fuzzy Opponent Histogram5] * 0.2  +
+[Fuzzy Opponent Histogram7] * -0.26 +
+[Fuzzy Opponent Histogram8] * -2.02 +
+[Fuzzy Opponent Histogram10] * 1.06 +
+[Fuzzy Opponent Histogram11] * -2.01 +
+[Fuzzy Opponent Histogram13] * 0.41 +
+[Fuzzy Opponent Histogram14] * 0.11 +
+[Fuzzy Opponent Histogram16] * -1.52 +
+[Fuzzy Opponent Histogram17] * -0.83 +
+[Fuzzy Opponent Histogram18] * -0.8 +
+[Fuzzy Opponent Histogram21] * -0.76 +
+[Fuzzy Opponent Histogram22] * 0.11 +
+[Fuzzy Opponent Histogram23] * -0.17 +
+[Fuzzy Opponent Histogram25] * -0.28 +
+[Fuzzy Opponent Histogram26] * -0.53 +
+[Fuzzy Opponent Histogram31] * -0.08 +
+[Fuzzy Opponent Histogram32] * -0.19 +
+[Fuzzy Opponent Histogram34] * -0.68
+
+Class K7 :
+-272.32 + 
+[Fuzzy Opponent Histogram7] * 0    +
+[Fuzzy Opponent Histogram8] * 0    +
+[Fuzzy Opponent Histogram26] * -0
+
+Class K8 :
+-272.32 + 
+[Fuzzy Opponent Histogram7] * 0    +
+[Fuzzy Opponent Histogram8] * 0    +
+[Fuzzy Opponent Histogram26] * -0
+
+LM_4:
+Class K1 :
+-85.02 + 
+[Fuzzy Opponent Histogram4] * 0.03 +
+[Fuzzy Opponent Histogram5] * 0    +
+[Fuzzy Opponent Histogram7] * -0.02 +
+[Fuzzy Opponent Histogram8] * -0 +
+[Fuzzy Opponent Histogram9] * -0.57 +
+[Fuzzy Opponent Histogram10] * -4.73 +
+[Fuzzy Opponent Histogram13] * -0.01 +
+[Fuzzy Opponent Histogram14] * 0.01 +
+[Fuzzy Opponent Histogram16] * -0.05 +
+[Fuzzy Opponent Histogram17] * 0.01 +
+[Fuzzy Opponent Histogram18] * -0.03 +
+[Fuzzy Opponent Histogram20] * -5.24 +
+[Fuzzy Opponent Histogram22] * -0.03 +
+[Fuzzy Opponent Histogram23] * 0.01 +
+[Fuzzy Opponent Histogram25] * 0.04 +
+[Fuzzy Opponent Histogram26] * -0.21 +
+[Fuzzy Opponent Histogram27] * -3.59 +
+[Fuzzy Opponent Histogram31] * -0 +
+[Fuzzy Opponent Histogram32] * 0.02 +
+[Fuzzy Opponent Histogram34] * -0 +
+[Fuzzy Opponent Histogram35] * -0.01
+
+Class K2 :
+-72.65 + 
+[Fuzzy Opponent Histogram4] * -0 +
+[Fuzzy Opponent Histogram5] * -0.02 +
+[Fuzzy Opponent Histogram7] * -0.09 +
+[Fuzzy Opponent Histogram8] * 0.02 +
+[Fuzzy Opponent Histogram9] * -0.4 +
+[Fuzzy Opponent Histogram10] * -0.33 +
+[Fuzzy Opponent Histogram13] * -0.1 +
+[Fuzzy Opponent Histogram14] * 0    +
+[Fuzzy Opponent Histogram16] * 0.62 +
+[Fuzzy Opponent Histogram17] * -0.04 +
+[Fuzzy Opponent Histogram18] * 0.05 +
+[Fuzzy Opponent Histogram20] * -1.75 +
+[Fuzzy Opponent Histogram21] * 2.93 +
+[Fuzzy Opponent Histogram22] * -0.03 +
+[Fuzzy Opponent Histogram23] * -0.02 +
+[Fuzzy Opponent Histogram25] * 0.59 +
+[Fuzzy Opponent Histogram26] * -0.09 +
+[Fuzzy Opponent Histogram27] * 0.18 +
+[Fuzzy Opponent Histogram30] * 0.24 +
+[Fuzzy Opponent Histogram34] * 0   
+
+Class K3 :
+-85.81 + 
+[Fuzzy Opponent Histogram4] * -0.03 +
+[Fuzzy Opponent Histogram5] * -0.01 +
+[Fuzzy Opponent Histogram7] * 0.11 +
+[Fuzzy Opponent Histogram8] * -0.02 +
+[Fuzzy Opponent Histogram9] * -0.01 +
+[Fuzzy Opponent Histogram10] * -4.69 +
+[Fuzzy Opponent Histogram13] * -0.01 +
+[Fuzzy Opponent Histogram14] * -0 +
+[Fuzzy Opponent Histogram17] * -0.01 +
+[Fuzzy Opponent Histogram20] * 0.03 +
+[Fuzzy Opponent Histogram22] * -0 +
+[Fuzzy Opponent Histogram23] * 0    +
+[Fuzzy Opponent Histogram25] * 0.06 +
+[Fuzzy Opponent Histogram26] * -0 +
+[Fuzzy Opponent Histogram29] * -0.63 +
+[Fuzzy Opponent Histogram31] * 0.02 +
+[Fuzzy Opponent Histogram32] * -0.1 +
+[Fuzzy Opponent Histogram34] * 0    +
+[Fuzzy Opponent Histogram35] * 0   
+
+Class K4 :
+-83.13 + 
+[Fuzzy Opponent Histogram4] * 0.03 +
+[Fuzzy Opponent Histogram5] * -0.01 +
+[Fuzzy Opponent Histogram7] * 0.73 +
+[Fuzzy Opponent Histogram8] * 0.01 +
+[Fuzzy Opponent Histogram9] * 0.07 +
+[Fuzzy Opponent Histogram10] * -3.47 +
+[Fuzzy Opponent Histogram16] * 0.02 +
+[Fuzzy Opponent Histogram17] * -0.01 +
+[Fuzzy Opponent Histogram18] * -0.03 +
+[Fuzzy Opponent Histogram20] * 0.03 +
+[Fuzzy Opponent Histogram21] * -0.23 +
+[Fuzzy Opponent Histogram22] * 0.01 +
+[Fuzzy Opponent Histogram23] * -0 +
+[Fuzzy Opponent Histogram25] * 0.03 +
+[Fuzzy Opponent Histogram26] * 0.01 +
+[Fuzzy Opponent Histogram27] * -0.03 +
+[Fuzzy Opponent Histogram28] * 1.29 +
+[Fuzzy Opponent Histogram29] * 0.17 +
+[Fuzzy Opponent Histogram30] * -1.08 +
+[Fuzzy Opponent Histogram31] * -0.02 +
+[Fuzzy Opponent Histogram32] * 0.02 +
+[Fuzzy Opponent Histogram34] * -0.01
+
+Class K5 :
+-90.81 + 
+[Fuzzy Opponent Histogram4] * -0.01 +
+[Fuzzy Opponent Histogram5] * 0.01 +
+[Fuzzy Opponent Histogram7] * -0 +
+[Fuzzy Opponent Histogram8] * 0.01 +
+[Fuzzy Opponent Histogram9] * -0.09 +
+[Fuzzy Opponent Histogram10] * 0.29 +
+[Fuzzy Opponent Histogram11] * 1.22 +
+[Fuzzy Opponent Histogram13] * 0.12 +
+[Fuzzy Opponent Histogram14] * 0.1  +
+[Fuzzy Opponent Histogram15] * 3.5  +
+[Fuzzy Opponent Histogram16] * -0.08 +
+[Fuzzy Opponent Histogram17] * 0.16 +
+[Fuzzy Opponent Histogram18] * -0.09 +
+[Fuzzy Opponent Histogram19] * 7.78 +
+[Fuzzy Opponent Histogram20] * -0.59 +
+[Fuzzy Opponent Histogram22] * 0.92 +
+[Fuzzy Opponent Histogram23] * 0.05 +
+[Fuzzy Opponent Histogram25] * -0.06 +
+[Fuzzy Opponent Histogram26] * 0.04 +
+[Fuzzy Opponent Histogram27] * -0.25 +
+[Fuzzy Opponent Histogram31] * 0.02 +
+[Fuzzy Opponent Histogram32] * 0.14 +
+[Fuzzy Opponent Histogram34] * 0.01 +
+[Fuzzy Opponent Histogram35] * 0.08
+
+Class K6 :
+-30.24 + 
+[Fuzzy Opponent Histogram4] * 0.32 +
+[Fuzzy Opponent Histogram5] * 0.03 +
+[Fuzzy Opponent Histogram7] * 0.82 +
+[Fuzzy Opponent Histogram8] * -0.51 +
+[Fuzzy Opponent Histogram10] * 1.06 +
+[Fuzzy Opponent Histogram11] * -2.01 +
+[Fuzzy Opponent Histogram13] * 0.16 +
+[Fuzzy Opponent Histogram14] * -2.4 +
+[Fuzzy Opponent Histogram16] * 0.03 +
+[Fuzzy Opponent Histogram17] * -0.25 +
+[Fuzzy Opponent Histogram18] * -0.8 +
+[Fuzzy Opponent Histogram21] * -0.76 +
+[Fuzzy Opponent Histogram22] * 0.09 +
+[Fuzzy Opponent Histogram23] * -0.17 +
+[Fuzzy Opponent Histogram25] * 0.01 +
+[Fuzzy Opponent Histogram26] * 0.92 +
+[Fuzzy Opponent Histogram31] * -0.08 +
+[Fuzzy Opponent Histogram32] * 0.04 +
+[Fuzzy Opponent Histogram34] * -0.03
+
+Class K7 :
+-257.45 + 
+[Fuzzy Opponent Histogram7] * 0    +
+[Fuzzy Opponent Histogram8] * 0    +
+[Fuzzy Opponent Histogram26] * -0
+
+Class K8 :
+-257.45 + 
+[Fuzzy Opponent Histogram7] * 0    +
+[Fuzzy Opponent Histogram8] * 0    +
+[Fuzzy Opponent Histogram26] * -0
+
+LM_5:
+Class K1 :
+-14.89 + 
+[Fuzzy Opponent Histogram4] * 0.02 +
+[Fuzzy Opponent Histogram5] * 0    +
+[Fuzzy Opponent Histogram7] * -0.01 +
+[Fuzzy Opponent Histogram8] * -0 +
+[Fuzzy Opponent Histogram9] * -0.29 +
+[Fuzzy Opponent Histogram10] * -2.97 +
+[Fuzzy Opponent Histogram13] * -0.01 +
+[Fuzzy Opponent Histogram14] * 0.01 +
+[Fuzzy Opponent Histogram16] * -0.05 +
+[Fuzzy Opponent Histogram17] * 0.01 +
+[Fuzzy Opponent Histogram18] * -0.04 +
+[Fuzzy Opponent Histogram20] * -4.36 +
+[Fuzzy Opponent Histogram22] * -0.03 +
+[Fuzzy Opponent Histogram23] * 0.01 +
+[Fuzzy Opponent Histogram25] * 0.03 +
+[Fuzzy Opponent Histogram26] * -0.19 +
+[Fuzzy Opponent Histogram27] * -2.7 +
+[Fuzzy Opponent Histogram32] * 0.01 +
+[Fuzzy Opponent Histogram34] * -0 +
+[Fuzzy Opponent Histogram35] * -0
+
+Class K2 :
+-15.33 + 
+[Fuzzy Opponent Histogram4] * 0.03 +
+[Fuzzy Opponent Histogram5] * 0.01 +
+[Fuzzy Opponent Histogram7] * -0.06 +
+[Fuzzy Opponent Histogram8] * 0.01 +
+[Fuzzy Opponent Histogram9] * -0.1 +
+[Fuzzy Opponent Histogram10] * -0.2 +
+[Fuzzy Opponent Histogram13] * -0.08 +
+[Fuzzy Opponent Histogram14] * 0    +
+[Fuzzy Opponent Histogram16] * 0.05 +
+[Fuzzy Opponent Histogram17] * 0.02 +
+[Fuzzy Opponent Histogram18] * 0.04 +
+[Fuzzy Opponent Histogram20] * -0.16 +
+[Fuzzy Opponent Histogram22] * -0.03 +
+[Fuzzy Opponent Histogram23] * -0.02 +
+[Fuzzy Opponent Histogram25] * 0    +
+[Fuzzy Opponent Histogram26] * -0.09 +
+[Fuzzy Opponent Histogram27] * 0.18 +
+[Fuzzy Opponent Histogram30] * 0.24
+
+Class K3 :
+-15.81 + 
+[Fuzzy Opponent Histogram4] * -0.02 +
+[Fuzzy Opponent Histogram5] * -0.01 +
+[Fuzzy Opponent Histogram7] * 0.08 +
+[Fuzzy Opponent Histogram8] * -0.02 +
+[Fuzzy Opponent Histogram10] * -2.92 +
+[Fuzzy Opponent Histogram13] * -0.01 +
+[Fuzzy Opponent Histogram14] * -0 +
+[Fuzzy Opponent Histogram17] * -0 +
+[Fuzzy Opponent Histogram18] * -0 +
+[Fuzzy Opponent Histogram20] * 0.03 +
+[Fuzzy Opponent Histogram22] * -0 +
+[Fuzzy Opponent Histogram23] * 0    +
+[Fuzzy Opponent Histogram25] * 0.06 +
+[Fuzzy Opponent Histogram26] * -0 +
+[Fuzzy Opponent Histogram29] * -0.51 +
+[Fuzzy Opponent Histogram31] * 0.02 +
+[Fuzzy Opponent Histogram32] * -0.07 +
+[Fuzzy Opponent Histogram34] * 0.01
+
+Class K4 :
+-16.64 + 
+[Fuzzy Opponent Histogram4] * -0.01 +
+[Fuzzy Opponent Histogram5] * -0.01 +
+[Fuzzy Opponent Histogram7] * 0.09 +
+[Fuzzy Opponent Histogram8] * -0.03 +
+[Fuzzy Opponent Histogram9] * 0.06 +
+[Fuzzy Opponent Histogram10] * -1.66 +
+[Fuzzy Opponent Histogram16] * 0.02 +
+[Fuzzy Opponent Histogram17] * -0.01 +
+[Fuzzy Opponent Histogram18] * -0.03 +
+[Fuzzy Opponent Histogram20] * 0.02 +
+[Fuzzy Opponent Histogram22] * 0.01 +
+[Fuzzy Opponent Histogram23] * -0 +
+[Fuzzy Opponent Histogram25] * 0.03 +
+[Fuzzy Opponent Histogram26] * 0.01 +
+[Fuzzy Opponent Histogram27] * -0.02 +
+[Fuzzy Opponent Histogram28] * 1.29 +
+[Fuzzy Opponent Histogram29] * 0.17 +
+[Fuzzy Opponent Histogram30] * -1.08 +
+[Fuzzy Opponent Histogram31] * -0.01 +
+[Fuzzy Opponent Histogram32] * 0.01
+
+Class K5 :
+13.6 + 
+[Fuzzy Opponent Histogram4] * -0.01 +
+[Fuzzy Opponent Histogram5] * 0    +
+[Fuzzy Opponent Histogram8] * 0.01 +
+[Fuzzy Opponent Histogram10] * 0.04 +
+[Fuzzy Opponent Histogram11] * 1.22 +
+[Fuzzy Opponent Histogram13] * 0.09 +
+[Fuzzy Opponent Histogram14] * -0.01 +
+[Fuzzy Opponent Histogram15] * 2.62 +
+[Fuzzy Opponent Histogram16] * -0.01 +
+[Fuzzy Opponent Histogram17] * -0.02 +
+[Fuzzy Opponent Histogram18] * -0.03 +
+[Fuzzy Opponent Histogram19] * 7.78 +
+[Fuzzy Opponent Histogram20] * -0.19 +
+[Fuzzy Opponent Histogram22] * 0.02 +
+[Fuzzy Opponent Histogram23] * -0.01 +
+[Fuzzy Opponent Histogram25] * -0.07 +
+[Fuzzy Opponent Histogram26] * 0.04 +
+[Fuzzy Opponent Histogram27] * -0.25 +
+[Fuzzy Opponent Histogram31] * 0.01 +
+[Fuzzy Opponent Histogram32] * -0.03 +
+[Fuzzy Opponent Histogram34] * 0.01 +
+[Fuzzy Opponent Histogram35] * 0.04
+
+Class K6 :
+-17.7 + 
+[Fuzzy Opponent Histogram4] * 0.07 +
+[Fuzzy Opponent Histogram5] * 0.03 +
+[Fuzzy Opponent Histogram7] * -0.04 +
+[Fuzzy Opponent Histogram8] * -0.33 +
+[Fuzzy Opponent Histogram10] * 0.28 +
+[Fuzzy Opponent Histogram11] * -2.01 +
+[Fuzzy Opponent Histogram13] * 0.15 +
+[Fuzzy Opponent Histogram14] * -0.01 +
+[Fuzzy Opponent Histogram17] * -0.2 +
+[Fuzzy Opponent Histogram18] * -0.38 +
+[Fuzzy Opponent Histogram22] * 0.07 +
+[Fuzzy Opponent Histogram23] * -0.12 +
+[Fuzzy Opponent Histogram26] * 0.06 +
+[Fuzzy Opponent Histogram31] * -0.05
+
+Class K7 :
+-101.7 + 
+[Fuzzy Opponent Histogram7] * 0    +
+[Fuzzy Opponent Histogram8] * 0    +
+[Fuzzy Opponent Histogram26] * -0
+
+Class K8 :
+-101.7 + 
+[Fuzzy Opponent Histogram7] * 0    +
+[Fuzzy Opponent Histogram8] * 0    +
+[Fuzzy Opponent Histogram26] * -0
+
+
+Time taken to build model: 6.9 seconds
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         338               81.25   %
+Incorrectly Classified Instances        78               18.75   %
+Kappa statistic                          0.7544
+Mean absolute error                      0.0659
+Root mean squared error                  0.1797
+Relative absolute error                 33.6774 %
+Root relative squared error             57.5069 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.302    0.019    0.650      0.302    0.413      0.404    0.896     0.571     K1
+                 0.946    0.134    0.795      0.946    0.864      0.786    0.960     0.918     K2
+                 0.803    0.076    0.701      0.803    0.748      0.690    0.961     0.832     K3
+                 0.590    0.025    0.800      0.590    0.679      0.643    0.953     0.808     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.813    0.067    0.807      0.813    0.798      0.753    0.961     0.868     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  13  27   2   1   0   0   0   0 |   a = K1
+   4 140   3   1   0   0   0   0 |   b = K2
+   2   6  61   7   0   0   0   0 |   c = K3
+   1   3  21  36   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 34.13 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         285               68.5096 %
+Incorrectly Classified Instances       131               31.4904 %
+Kappa statistic                          0.5912
+Mean absolute error                      0.0906
+Root mean squared error                  0.2453
+Relative absolute error                 46.2885 %
+Root relative squared error             78.5212 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.163    0.054    0.259      0.163    0.200      0.135    0.764     0.264     K1
+                 0.845    0.149    0.758      0.845    0.799      0.680    0.884     0.760     K2
+                 0.605    0.109    0.554      0.605    0.579      0.480    0.870     0.537     K3
+                 0.377    0.059    0.523      0.377    0.438      0.366    0.778     0.504     K4
+                 0.969    0.026    0.873      0.969    0.919      0.905    0.993     0.931     K5
+                 0.917    0.010    0.846      0.917    0.880      0.873    0.996     0.905     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.685    0.092    0.657      0.685    0.667      0.587    0.877     0.665     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+   7  29   4   2   1   0   0   0 |   a = K1
+  11 125   6   2   3   1   0   0 |   b = K2
+   2   7  46  17   2   2   0   0 |   c = K3
+   5   4  27  23   1   1   0   0 |   d = K4
+   2   0   0   0  62   0   0   0 |   e = K5
+   0   0   0   0   2  22   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

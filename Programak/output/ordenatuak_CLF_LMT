@@ -1,0 +1,205 @@
+
+Options: -I -1 -M 15 -W 0.0 
+
+=== Classifier model (full training set) ===
+
+Logistic model tree 
+------------------
+: LM_1:30/30 (416)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class K1 :
+0.55 + 
+[MPEG-7 Color Layout1] * -0.13 +
+[MPEG-7 Color Layout2] * 0.04 +
+[MPEG-7 Color Layout6] * 0.4  +
+[MPEG-7 Color Layout8] * 0.24 +
+[MPEG-7 Color Layout9] * 0.07 +
+[MPEG-7 Color Layout17] * -0.36 +
+[MPEG-7 Color Layout18] * 0.11 +
+[MPEG-7 Color Layout22] * -0.17 +
+[MPEG-7 Color Layout23] * -0.44 +
+[MPEG-7 Color Layout25] * 0.41 +
+[MPEG-7 Color Layout27] * -0.05 +
+[MPEG-7 Color Layout28] * 0.15 +
+[MPEG-7 Color Layout29] * -0.14 +
+[MPEG-7 Color Layout30] * -0.17 +
+[MPEG-7 Color Layout31] * 0.32 +
+[MPEG-7 Color Layout32] * -0.35
+
+Class K2 :
+-39.91 + 
+[MPEG-7 Color Layout5] * 0.04 +
+[MPEG-7 Color Layout6] * -0.11 +
+[MPEG-7 Color Layout7] * -0.1 +
+[MPEG-7 Color Layout10] * 0.35 +
+[MPEG-7 Color Layout12] * 0.57 +
+[MPEG-7 Color Layout13] * 0.16 +
+[MPEG-7 Color Layout14] * 1.04 +
+[MPEG-7 Color Layout17] * 0.15 +
+[MPEG-7 Color Layout26] * 0.14 +
+[MPEG-7 Color Layout27] * 0.06 +
+[MPEG-7 Color Layout28] * -0.3 +
+[MPEG-7 Color Layout29] * 0.78 +
+[MPEG-7 Color Layout31] * -0.28
+
+Class K3 :
+30.48 + 
+[MPEG-7 Color Layout2] * -0.42 +
+[MPEG-7 Color Layout3] * -0.24 +
+[MPEG-7 Color Layout5] * -0.08 +
+[MPEG-7 Color Layout9] * 0.85 +
+[MPEG-7 Color Layout10] * -0.45 +
+[MPEG-7 Color Layout11] * 0.64 +
+[MPEG-7 Color Layout14] * -0.16 +
+[MPEG-7 Color Layout15] * 0.76 +
+[MPEG-7 Color Layout16] * -0.35 +
+[MPEG-7 Color Layout18] * -1.22 +
+[MPEG-7 Color Layout20] * -0.94 +
+[MPEG-7 Color Layout25] * 0.44 +
+[MPEG-7 Color Layout28] * -0.18 +
+[MPEG-7 Color Layout30] * -0.23 +
+[MPEG-7 Color Layout31] * -0.68
+
+Class K4 :
+21.16 + 
+[MPEG-7 Color Layout2] * 0.47 +
+[MPEG-7 Color Layout5] * -0.46 +
+[MPEG-7 Color Layout7] * -0.34 +
+[MPEG-7 Color Layout9] * -0.86 +
+[MPEG-7 Color Layout10] * -0.71 +
+[MPEG-7 Color Layout11] * -0.34 +
+[MPEG-7 Color Layout19] * 0.41 +
+[MPEG-7 Color Layout20] * 0.5  +
+[MPEG-7 Color Layout21] * -0.2 +
+[MPEG-7 Color Layout24] * 0.1  +
+[MPEG-7 Color Layout25] * -0.93 +
+[MPEG-7 Color Layout28] * 0.23 +
+[MPEG-7 Color Layout30] * 0.64 +
+[MPEG-7 Color Layout32] * 0.07
+
+Class K5 :
+18 + 
+[MPEG-7 Color Layout1] * 0.1  +
+[MPEG-7 Color Layout3] * 0.54 +
+[MPEG-7 Color Layout11] * 0.34 +
+[MPEG-7 Color Layout14] * 0.35 +
+[MPEG-7 Color Layout16] * 0.39 +
+[MPEG-7 Color Layout21] * 0.16 +
+[MPEG-7 Color Layout22] * -0.61 +
+[MPEG-7 Color Layout24] * -0.48 +
+[MPEG-7 Color Layout25] * -0.84 +
+[MPEG-7 Color Layout26] * -1.09 +
+[MPEG-7 Color Layout27] * -0.21
+
+Class K6 :
+57.52 + 
+[MPEG-7 Color Layout1] * -0.32 +
+[MPEG-7 Color Layout10] * 0.42 +
+[MPEG-7 Color Layout24] * -0.14 +
+[MPEG-7 Color Layout25] * 0.51 +
+[MPEG-7 Color Layout26] * -1.79 +
+[MPEG-7 Color Layout27] * -1.86 +
+[MPEG-7 Color Layout32] * 0.23
+
+Class K7 :
+-26.38 + 
+[MPEG-7 Color Layout0] * 0    +
+[MPEG-7 Color Layout1] * 0    +
+[MPEG-7 Color Layout5] * -0 +
+[MPEG-7 Color Layout31] * -0
+
+Class K8 :
+-26.38 + 
+[MPEG-7 Color Layout0] * 0    +
+[MPEG-7 Color Layout1] * 0    +
+[MPEG-7 Color Layout5] * -0 +
+[MPEG-7 Color Layout31] * -0
+
+
+Time taken to build model: 0.71 seconds
+
+Time taken to test model on training data: 0 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         400               96.1538 %
+Incorrectly Classified Instances        16                3.8462 %
+Kappa statistic                          0.9504
+Mean absolute error                      0.0221
+Root mean squared error                  0.0893
+Relative absolute error                 11.3057 %
+Root relative squared error             28.5688 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.744    0.008    0.914      0.744    0.821      0.807    0.988     0.926     K1
+                 0.980    0.041    0.929      0.980    0.954      0.928    0.996     0.992     K2
+                 0.987    0.003    0.987      0.987    0.987      0.984    1.000     1.000     K3
+                 0.984    0.003    0.984      0.984    0.984      0.981    1.000     0.999     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.962    0.016    0.961      0.962    0.960      0.949    0.997     0.989     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  32  11   0   0   0   0   0   0 |   a = K1
+   3 145   0   0   0   0   0   0 |   b = K2
+   0   0  75   1   0   0   0   0 |   c = K3
+   0   0   1  60   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 2.07 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         375               90.1442 %
+Incorrectly Classified Instances        41                9.8558 %
+Kappa statistic                          0.873 
+Mean absolute error                      0.0352
+Root mean squared error                  0.1439
+Relative absolute error                 17.9824 %
+Root relative squared error             46.0548 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.535    0.029    0.676      0.535    0.597      0.562    0.878     0.561     K1
+                 0.932    0.063    0.890      0.932    0.911      0.860    0.964     0.915     K2
+                 0.934    0.024    0.899      0.934    0.916      0.897    0.989     0.933     K3
+                 0.902    0.011    0.932      0.902    0.917      0.903    0.987     0.959     K4
+                 1.000    0.003    0.985      1.000    0.992      0.991    1.000     0.998     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.901    0.032    0.897      0.901    0.898      0.871    0.970     0.906     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  23  17   2   0   1   0   0   0 |   a = K1
+   9 138   1   0   0   0   0   0 |   b = K2
+   1   0  71   4   0   0   0   0 |   c = K3
+   1   0   5  55   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

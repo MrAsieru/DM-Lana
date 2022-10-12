@@ -1,0 +1,225 @@
+
+Options: -K 0 -M 1.0 -V 0.001 -S 1 
+
+=== Classifier model (full training set) ===
+
+
+RandomTree
+==========
+
+Histogram of JPEG Coefficients54 < 26.5
+|   Histogram of JPEG Coefficients161 < 2
+|   |   Histogram of JPEG Coefficients42 < 7 : K3 (6/0)
+|   |   Histogram of JPEG Coefficients42 >= 7
+|   |   |   Histogram of JPEG Coefficients119 < 70.5 : K3 (1/0)
+|   |   |   Histogram of JPEG Coefficients119 >= 70.5 : K4 (4/0)
+|   Histogram of JPEG Coefficients161 >= 2
+|   |   Histogram of JPEG Coefficients47 < 26
+|   |   |   Histogram of JPEG Coefficients120 < 64.5
+|   |   |   |   Histogram of JPEG Coefficients53 < 0.5
+|   |   |   |   |   Histogram of JPEG Coefficients10 < 28.5 : K3 (1/0)
+|   |   |   |   |   Histogram of JPEG Coefficients10 >= 28.5 : K2 (5/0)
+|   |   |   |   Histogram of JPEG Coefficients53 >= 0.5
+|   |   |   |   |   Histogram of JPEG Coefficients172 < 10
+|   |   |   |   |   |   Histogram of JPEG Coefficients109 < 26
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients102 < 11 : K1 (1/0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients102 >= 11 : K2 (5/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients109 >= 26 : K1 (3/0)
+|   |   |   |   |   Histogram of JPEG Coefficients172 >= 10 : K1 (10/0)
+|   |   |   Histogram of JPEG Coefficients120 >= 64.5
+|   |   |   |   Histogram of JPEG Coefficients165 < 26.5
+|   |   |   |   |   Histogram of JPEG Coefficients151 < 75.5 : K2 (44/0)
+|   |   |   |   |   Histogram of JPEG Coefficients151 >= 75.5
+|   |   |   |   |   |   Histogram of JPEG Coefficients62 < 11.5
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients166 < 34.5 : K2 (31/0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients166 >= 34.5
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients11 < 75.5 : K2 (15/0)
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients11 >= 75.5
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients181 < 37
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients26 < 79
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients33 < 87.5
+|   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients24 < 163.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients144 < 53.5 : K1 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients144 >= 53.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients24 >= 163.5 : K2 (10/0)
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients33 >= 87.5 : K1 (2/0)
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients26 >= 79 : K1 (2/0)
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients181 >= 37 : K2 (13/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients62 >= 11.5
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients0 < 134
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients133 < 159 : K1 (3/0)
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients133 >= 159
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients35 < 22 : K2 (4/0)
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients35 >= 22 : K1 (1/0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients0 >= 134 : K1 (3/0)
+|   |   |   |   Histogram of JPEG Coefficients165 >= 26.5
+|   |   |   |   |   Histogram of JPEG Coefficients172 < 16.5 : K2 (8/0)
+|   |   |   |   |   Histogram of JPEG Coefficients172 >= 16.5
+|   |   |   |   |   |   Histogram of JPEG Coefficients157 < 21 : K2 (3/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients157 >= 21
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients1 < 36.5
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients43 < 12.5
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients43 < 5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients43 >= 5 : K2 (4/0)
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients43 >= 12.5 : K1 (3/0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients1 >= 36.5 : K1 (10/0)
+|   |   Histogram of JPEG Coefficients47 >= 26
+|   |   |   Histogram of JPEG Coefficients137 < 184.5
+|   |   |   |   Histogram of JPEG Coefficients135 < 100.5 : K3 (2/0)
+|   |   |   |   Histogram of JPEG Coefficients135 >= 100.5 : K5 (6/0)
+|   |   |   Histogram of JPEG Coefficients137 >= 184.5 : K2 (2/0)
+Histogram of JPEG Coefficients54 >= 26.5
+|   Histogram of JPEG Coefficients15 < 118.5
+|   |   Histogram of JPEG Coefficients128 < 22
+|   |   |   Histogram of JPEG Coefficients146 < 17.5
+|   |   |   |   Histogram of JPEG Coefficients161 < 14.5
+|   |   |   |   |   Histogram of JPEG Coefficients59 < 18.5
+|   |   |   |   |   |   Histogram of JPEG Coefficients187 < 143.5 : K4 (6/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients187 >= 143.5 : K3 (1/0)
+|   |   |   |   |   Histogram of JPEG Coefficients59 >= 18.5
+|   |   |   |   |   |   Histogram of JPEG Coefficients12 < 89.5 : K3 (9/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients12 >= 89.5
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients25 < 71 : K4 (2/0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients25 >= 71 : K3 (3/0)
+|   |   |   |   Histogram of JPEG Coefficients161 >= 14.5
+|   |   |   |   |   Histogram of JPEG Coefficients29 < 24
+|   |   |   |   |   |   Histogram of JPEG Coefficients88 < 42
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients26 < 136.5 : K4 (1/0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients26 >= 136.5 : K3 (1/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients88 >= 42 : K2 (2/0)
+|   |   |   |   |   Histogram of JPEG Coefficients29 >= 24 : K5 (3/0)
+|   |   |   Histogram of JPEG Coefficients146 >= 17.5
+|   |   |   |   Histogram of JPEG Coefficients66 < 136
+|   |   |   |   |   Histogram of JPEG Coefficients28 < 77
+|   |   |   |   |   |   Histogram of JPEG Coefficients150 < 20.5 : K3 (2/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients150 >= 20.5
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients170 < 39 : K5 (14/0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients170 >= 39 : K6 (4/0)
+|   |   |   |   |   Histogram of JPEG Coefficients28 >= 77 : K5 (39/0)
+|   |   |   |   Histogram of JPEG Coefficients66 >= 136 : K1 (2/0)
+|   |   Histogram of JPEG Coefficients128 >= 22
+|   |   |   Histogram of JPEG Coefficients27 < 78.5
+|   |   |   |   Histogram of JPEG Coefficients146 < 47.5
+|   |   |   |   |   Histogram of JPEG Coefficients130 < 123.5
+|   |   |   |   |   |   Histogram of JPEG Coefficients12 < 141.5
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients135 < 180.5
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients98 < 19.5 : K3 (7/0)
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients98 >= 19.5
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients42 < 44 : K3 (4/0)
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients42 >= 44 : K4 (4/0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients135 >= 180.5
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients186 < 115 : K4 (16/0)
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients186 >= 115
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients53 < 27.5 : K4 (2/0)
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients53 >= 27.5 : K3 (3/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients12 >= 141.5 : K3 (4/0)
+|   |   |   |   |   Histogram of JPEG Coefficients130 >= 123.5 : K4 (6/0)
+|   |   |   |   Histogram of JPEG Coefficients146 >= 47.5 : K4 (8/0)
+|   |   |   Histogram of JPEG Coefficients27 >= 78.5
+|   |   |   |   Histogram of JPEG Coefficients117 < 78
+|   |   |   |   |   Histogram of JPEG Coefficients30 < 37.5
+|   |   |   |   |   |   Histogram of JPEG Coefficients59 < 66.5 : K4 (6/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients59 >= 66.5 : K3 (1/0)
+|   |   |   |   |   Histogram of JPEG Coefficients30 >= 37.5
+|   |   |   |   |   |   Histogram of JPEG Coefficients8 < 5
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients13 < 76 : K3 (1/0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients13 >= 76 : K4 (2/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients8 >= 5 : K3 (10/0)
+|   |   |   |   Histogram of JPEG Coefficients117 >= 78 : K3 (16/0)
+|   Histogram of JPEG Coefficients15 >= 118.5
+|   |   Histogram of JPEG Coefficients0 < 53
+|   |   |   Histogram of JPEG Coefficients51 < 28
+|   |   |   |   Histogram of JPEG Coefficients36 < 45 : K5 (2/0)
+|   |   |   |   Histogram of JPEG Coefficients36 >= 45 : K3 (1/0)
+|   |   |   Histogram of JPEG Coefficients51 >= 28
+|   |   |   |   Histogram of JPEG Coefficients87 < 81.5 : K4 (1/0)
+|   |   |   |   Histogram of JPEG Coefficients87 >= 81.5 : K6 (20/0)
+|   |   Histogram of JPEG Coefficients0 >= 53
+|   |   |   Histogram of JPEG Coefficients104 < 21 : K3 (3/0)
+|   |   |   Histogram of JPEG Coefficients104 >= 21 : K4 (3/0)
+
+Size of the tree : 131
+
+Time taken to build model: 0.18 seconds
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         416              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K1
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K2
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K3
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  43   0   0   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0   0   0 |   b = K2
+   0   0  76   0   0   0   0   0 |   c = K3
+   0   0   0  61   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.07 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         298               71.6346 %
+Incorrectly Classified Instances       118               28.3654 %
+Kappa statistic                          0.6387
+Mean absolute error                      0.0709
+Root mean squared error                  0.2663
+Relative absolute error                 36.2308 %
+Root relative squared error             85.2251 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.581    0.067    0.500      0.581    0.538      0.482    0.757     0.334     K1
+                 0.838    0.067    0.873      0.838    0.855      0.778    0.885     0.789     K2
+                 0.513    0.082    0.582      0.513    0.545      0.453    0.715     0.388     K3
+                 0.459    0.101    0.438      0.459    0.448      0.351    0.679     0.280     K4
+                 0.953    0.026    0.871      0.953    0.910      0.895    0.964     0.838     K5
+                 0.875    0.005    0.913      0.875    0.894      0.887    0.935     0.806     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.716    0.065    0.720      0.716    0.717      0.650    0.826     0.603     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  25  17   0   1   0   0   0   0 |   a = K1
+  22 124   0   0   2   0   0   0 |   b = K2
+   2   0  39  33   2   0   0   0 |   c = K3
+   1   1  28  28   3   0   0   0 |   d = K4
+   0   0   0   1  61   2   0   0 |   e = K5
+   0   0   0   1   2  21   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

@@ -1,0 +1,145 @@
+
+Options: -C 0.25 -M 2 
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+MPEG-7 Edge Histogram63 <= 5
+|   MPEG-7 Edge Histogram26 <= 0
+|   |   MPEG-7 Edge Histogram28 <= 1
+|   |   |   MPEG-7 Edge Histogram6 <= 0: K2 (5.0/1.0)
+|   |   |   MPEG-7 Edge Histogram6 > 0: K5 (48.0/1.0)
+|   |   MPEG-7 Edge Histogram28 > 1: K6 (2.0)
+|   MPEG-7 Edge Histogram26 > 0
+|   |   MPEG-7 Edge Histogram28 <= 0: K2 (138.0/2.0)
+|   |   MPEG-7 Edge Histogram28 > 0
+|   |   |   MPEG-7 Edge Histogram47 <= 3
+|   |   |   |   MPEG-7 Edge Histogram40 <= 1: K2 (7.0/1.0)
+|   |   |   |   MPEG-7 Edge Histogram40 > 1
+|   |   |   |   |   MPEG-7 Edge Histogram48 <= 6
+|   |   |   |   |   |   MPEG-7 Edge Histogram51 <= 2: K1 (36.0/2.0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram51 > 2: K6 (2.0)
+|   |   |   |   |   MPEG-7 Edge Histogram48 > 6
+|   |   |   |   |   |   MPEG-7 Edge Histogram54 <= 0: K6 (17.0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram54 > 0: K1 (2.0)
+|   |   |   MPEG-7 Edge Histogram47 > 3
+|   |   |   |   MPEG-7 Edge Histogram2 <= 6: K4 (2.0)
+|   |   |   |   MPEG-7 Edge Histogram2 > 6: K3 (2.0)
+MPEG-7 Edge Histogram63 > 5
+|   MPEG-7 Edge Histogram62 <= 1
+|   |   MPEG-7 Edge Histogram25 <= 2
+|   |   |   MPEG-7 Edge Histogram20 <= 4
+|   |   |   |   MPEG-7 Edge Histogram35 <= 3: K5 (10.0)
+|   |   |   |   MPEG-7 Edge Histogram35 > 3: K3 (6.0/1.0)
+|   |   |   MPEG-7 Edge Histogram20 > 4
+|   |   |   |   MPEG-7 Edge Histogram67 <= 3
+|   |   |   |   |   MPEG-7 Edge Histogram38 <= 1: K4 (4.0/1.0)
+|   |   |   |   |   MPEG-7 Edge Histogram38 > 1
+|   |   |   |   |   |   MPEG-7 Edge Histogram45 <= 1: K3 (53.0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram45 > 1
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram50 <= 0: K4 (2.0)
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram50 > 0: K3 (10.0/1.0)
+|   |   |   |   MPEG-7 Edge Histogram67 > 3: K4 (3.0)
+|   |   MPEG-7 Edge Histogram25 > 2
+|   |   |   MPEG-7 Edge Histogram0 <= 0
+|   |   |   |   MPEG-7 Edge Histogram45 <= 0: K3 (3.0/1.0)
+|   |   |   |   MPEG-7 Edge Histogram45 > 0: K4 (47.0)
+|   |   |   MPEG-7 Edge Histogram0 > 0: K3 (4.0/1.0)
+|   MPEG-7 Edge Histogram62 > 1
+|   |   MPEG-7 Edge Histogram29 <= 0
+|   |   |   MPEG-7 Edge Histogram10 <= 1
+|   |   |   |   MPEG-7 Edge Histogram7 <= 5: K6 (2.0)
+|   |   |   |   MPEG-7 Edge Histogram7 > 5: K5 (7.0)
+|   |   |   MPEG-7 Edge Histogram10 > 1: K2 (2.0)
+|   |   MPEG-7 Edge Histogram29 > 0: K1 (2.0)
+
+Number of Leaves  : 	25
+
+Size of the tree : 	49
+
+
+Time taken to build model: 0.2 seconds
+
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         404               97.1154 %
+Incorrectly Classified Instances        12                2.8846 %
+Kappa statistic                          0.9629
+Mean absolute error                      0.0125
+Root mean squared error                  0.0791
+Relative absolute error                  6.4033 %
+Root relative squared error             25.333  %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.884    0.005    0.950      0.884    0.916      0.907    0.979     0.901     K1
+                 1.000    0.015    0.974      1.000    0.987      0.979    0.996     0.985     K2
+                 0.974    0.012    0.949      0.974    0.961      0.952    0.998     0.991     K3
+                 0.934    0.003    0.983      0.934    0.958      0.951    0.997     0.985     K4
+                 1.000    0.003    0.985      1.000    0.992      0.991    0.999     0.989     K5
+                 0.958    0.000    1.000      0.958    0.979      0.978    0.998     0.975     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.971    0.009    0.971      0.971    0.971      0.965    0.995     0.978     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  38   3   1   0   1   0   0   0 |   a = K1
+   0 148   0   0   0   0   0   0 |   b = K2
+   0   1  74   1   0   0   0   0 |   c = K3
+   1   0   3  57   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   1   0   0   0   0  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.18 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         356               85.5769 %
+Incorrectly Classified Instances        60               14.4231 %
+Kappa statistic                          0.8155
+Mean absolute error                      0.0386
+Root mean squared error                  0.1805
+Relative absolute error                 19.7082 %
+Root relative squared error             57.7706 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.674    0.029    0.725      0.674    0.699      0.666    0.765     0.519     K1
+                 0.946    0.022    0.959      0.946    0.952      0.926    0.964     0.930     K2
+                 0.803    0.041    0.813      0.803    0.808      0.765    0.912     0.692     K3
+                 0.787    0.039    0.774      0.787    0.780      0.742    0.880     0.695     K4
+                 0.969    0.017    0.912      0.969    0.939      0.929    0.981     0.860     K5
+                 0.667    0.023    0.640      0.667    0.653      0.632    0.970     0.619     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.856    0.028    0.855      0.856    0.855      0.826    0.925     0.781     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  29   3   2   3   1   5   0   0 |   a = K1
+   2 140   0   1   1   4   0   0 |   b = K2
+   4   1  61   8   2   0   0   0 |   c = K3
+   1   0  12  48   0   0   0   0 |   d = K4
+   0   1   0   1  62   0   0   0 |   e = K5
+   4   1   0   1   2  16   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

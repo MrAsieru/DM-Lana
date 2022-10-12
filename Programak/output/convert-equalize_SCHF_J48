@@ -1,0 +1,171 @@
+
+Options: -C 0.25 -M 2 
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+RGB Color Histogram7 <= 0
+|   RGB Color Histogram25 <= 14
+|   |   RGB Color Histogram2 <= 11
+|   |   |   RGB Color Histogram0 <= 176
+|   |   |   |   RGB Color Histogram58 <= 1
+|   |   |   |   |   RGB Color Histogram4 <= 6
+|   |   |   |   |   |   RGB Color Histogram20 <= 0: K1 (2.0)
+|   |   |   |   |   |   RGB Color Histogram20 > 0: K5 (7.0/1.0)
+|   |   |   |   |   RGB Color Histogram4 > 6: K4 (6.0/1.0)
+|   |   |   |   RGB Color Histogram58 > 1
+|   |   |   |   |   RGB Color Histogram57 <= 111
+|   |   |   |   |   |   RGB Color Histogram32 <= 0
+|   |   |   |   |   |   |   RGB Color Histogram42 <= 228
+|   |   |   |   |   |   |   |   RGB Color Histogram57 <= 2: K2 (5.0)
+|   |   |   |   |   |   |   |   RGB Color Histogram57 > 2: K1 (7.0)
+|   |   |   |   |   |   |   RGB Color Histogram42 > 228: K3 (11.0/2.0)
+|   |   |   |   |   |   RGB Color Histogram32 > 0
+|   |   |   |   |   |   |   RGB Color Histogram46 <= 19
+|   |   |   |   |   |   |   |   RGB Color Histogram34 <= 0
+|   |   |   |   |   |   |   |   |   RGB Color Histogram54 <= 25
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 <= 92
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram46 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram41 <= 88
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram62 <= 14: K2 (108.0/12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram62 > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram16 <= 53: K2 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram16 > 53: K1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram41 > 88: K1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram46 > 0: K2 (24.0)
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 > 92: K1 (2.0)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram54 > 25: K1 (2.0)
+|   |   |   |   |   |   |   |   RGB Color Histogram34 > 0: K2 (5.0)
+|   |   |   |   |   |   |   RGB Color Histogram46 > 19
+|   |   |   |   |   |   |   |   RGB Color Histogram47 <= 7: K1 (5.0)
+|   |   |   |   |   |   |   |   RGB Color Histogram47 > 7: K2 (3.0)
+|   |   |   |   |   RGB Color Histogram57 > 111
+|   |   |   |   |   |   RGB Color Histogram32 <= 1: K4 (2.0)
+|   |   |   |   |   |   RGB Color Histogram32 > 1: K3 (2.0)
+|   |   |   RGB Color Histogram0 > 176
+|   |   |   |   RGB Color Histogram53 <= 65
+|   |   |   |   |   RGB Color Histogram52 <= 119
+|   |   |   |   |   |   RGB Color Histogram46 <= 21
+|   |   |   |   |   |   |   RGB Color Histogram36 <= 62
+|   |   |   |   |   |   |   |   RGB Color Histogram30 <= 0
+|   |   |   |   |   |   |   |   |   RGB Color Histogram61 <= 5
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 <= 15: K3 (59.0/5.0)
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram1 > 15
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram21 <= 152: K4 (12.0)
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram21 > 152
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram4 <= 21
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram26 <= 18: K3 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram26 > 18: K4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram4 > 21: K4 (3.0)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram61 > 5: K4 (7.0)
+|   |   |   |   |   |   |   |   RGB Color Histogram30 > 0: K4 (2.0)
+|   |   |   |   |   |   |   RGB Color Histogram36 > 62
+|   |   |   |   |   |   |   |   RGB Color Histogram22 <= 0: K2 (2.0/1.0)
+|   |   |   |   |   |   |   |   RGB Color Histogram22 > 0: K4 (8.0)
+|   |   |   |   |   |   RGB Color Histogram46 > 21: K4 (13.0)
+|   |   |   |   |   RGB Color Histogram52 > 119: K2 (2.0)
+|   |   |   |   RGB Color Histogram53 > 65
+|   |   |   |   |   RGB Color Histogram33 <= 2: K1 (5.0)
+|   |   |   |   |   RGB Color Histogram33 > 2: K2 (2.0)
+|   |   RGB Color Histogram2 > 11
+|   |   |   RGB Color Histogram54 <= 1: K5 (14.0)
+|   |   |   RGB Color Histogram54 > 1: K2 (2.0)
+|   RGB Color Histogram25 > 14
+|   |   RGB Color Histogram52 <= 51
+|   |   |   RGB Color Histogram6 <= 1: K1 (2.0/1.0)
+|   |   |   RGB Color Histogram6 > 1: K6 (18.0)
+|   |   RGB Color Histogram52 > 51: K2 (3.0)
+RGB Color Histogram7 > 0
+|   RGB Color Histogram37 <= 2: K6 (6.0)
+|   RGB Color Histogram37 > 2: K5 (44.0)
+
+Number of Leaves  : 	38
+
+Size of the tree : 	75
+
+
+Time taken to build model: 0.21 seconds
+
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         392               94.2308 %
+Incorrectly Classified Instances        24                5.7692 %
+Kappa statistic                          0.9254
+Mean absolute error                      0.0244
+Root mean squared error                  0.1105
+Relative absolute error                 12.4868 %
+Root relative squared error             35.3761 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.698    0.003    0.968      0.698    0.811      0.806    0.957     0.788     K1
+                 0.993    0.049    0.919      0.993    0.955      0.930    0.985     0.949     K2
+                 0.961    0.021    0.913      0.961    0.936      0.922    0.992     0.933     K3
+                 0.885    0.006    0.964      0.885    0.923      0.912    0.990     0.950     K4
+                 1.000    0.003    0.985      1.000    0.992      0.991    1.000     0.999     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.942    0.023    0.944      0.942    0.940      0.926    0.987     0.940     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  30  12   1   0   0   0   0   0 |   a = K1
+   0 147   0   0   1   0   0   0 |   b = K2
+   0   1  73   2   0   0   0   0 |   c = K3
+   1   0   6  54   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.24 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         314               75.4808 %
+Incorrectly Classified Instances       102               24.5192 %
+Kappa statistic                          0.6852
+Mean absolute error                      0.0695
+Root mean squared error                  0.2356
+Relative absolute error                 35.4892 %
+Root relative squared error             75.4036 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.209    0.067    0.265      0.209    0.234      0.158    0.690     0.195     K1
+                 0.797    0.119    0.787      0.797    0.792      0.676    0.853     0.689     K2
+                 0.776    0.056    0.756      0.776    0.766      0.713    0.860     0.596     K3
+                 0.656    0.059    0.656      0.656    0.656      0.597    0.845     0.551     K4
+                 1.000    0.011    0.941      1.000    0.970      0.965    0.997     0.968     K5
+                 1.000    0.003    0.960      1.000    0.980      0.979    1.000     0.990     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.755    0.070    0.742      0.755    0.748      0.679    0.867     0.661     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+   9  29   2   2   1   0   0   0 |   a = K1
+  20 118   1   6   3   0   0   0 |   b = K2
+   3   1  59  13   0   0   0   0 |   c = K3
+   2   2  16  40   0   1   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

@@ -1,0 +1,187 @@
+
+Options: -C 0.25 -M 2 
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+FCTH0 <= 3
+|   FCTH1 <= 4
+|   |   FCTH84 <= 0
+|   |   |   FCTH19 <= 2
+|   |   |   |   FCTH37 <= 1
+|   |   |   |   |   FCTH88 <= 0
+|   |   |   |   |   |   FCTH6 <= 4
+|   |   |   |   |   |   |   FCTH22 <= 1
+|   |   |   |   |   |   |   |   FCTH60 <= 0
+|   |   |   |   |   |   |   |   |   FCTH58 <= 0
+|   |   |   |   |   |   |   |   |   |   FCTH87 <= 0
+|   |   |   |   |   |   |   |   |   |   |   FCTH20 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH6 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH186 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH48 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH65 <= 0: K3 (79.0/10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH65 > 0: K4 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH48 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH24 <= 2: K4 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH24 > 2: K3 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH186 > 2: K4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH6 > 2: K4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH20 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH52 <= 0: K4 (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH52 > 0: K3 (2.0)
+|   |   |   |   |   |   |   |   |   |   FCTH87 > 0: K4 (6.0)
+|   |   |   |   |   |   |   |   |   FCTH58 > 0: K4 (7.0)
+|   |   |   |   |   |   |   |   FCTH60 > 0: K4 (8.0)
+|   |   |   |   |   |   |   FCTH22 > 1: K4 (3.0/1.0)
+|   |   |   |   |   |   FCTH6 > 4: K2 (2.0)
+|   |   |   |   |   FCTH88 > 0: K6 (2.0)
+|   |   |   |   FCTH37 > 1: K5 (9.0)
+|   |   |   FCTH19 > 2
+|   |   |   |   FCTH91 <= 1
+|   |   |   |   |   FCTH2 <= 4: K5 (29.0)
+|   |   |   |   |   FCTH2 > 4: K4 (3.0)
+|   |   |   |   FCTH91 > 1: K6 (3.0)
+|   |   FCTH84 > 0: K6 (4.0)
+|   FCTH1 > 4: K6 (6.0)
+FCTH0 > 3
+|   FCTH37 <= 0
+|   |   FCTH4 <= 0: K6 (9.0)
+|   |   FCTH4 > 0
+|   |   |   FCTH97 <= 0
+|   |   |   |   FCTH2 <= 5
+|   |   |   |   |   FCTH67 <= 0
+|   |   |   |   |   |   FCTH1 <= 6
+|   |   |   |   |   |   |   FCTH36 <= 0
+|   |   |   |   |   |   |   |   FCTH75 <= 0
+|   |   |   |   |   |   |   |   |   FCTH31 <= 3
+|   |   |   |   |   |   |   |   |   |   FCTH20 <= 5
+|   |   |   |   |   |   |   |   |   |   |   FCTH53 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH12 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH51 <= 0: K2 (93.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH51 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH0 <= 4: K1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH0 > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH25 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH10 <= 0: K2 (29.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH10 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH5 <= 1: K1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH5 > 1: K2 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH25 > 1: K1 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH12 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH1 <= 5: K2 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH1 > 5: K1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH53 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH24 <= 0: K1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH24 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH9 <= 0: K2 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH9 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH20 <= 1: K1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH20 > 1: K2 (3.0)
+|   |   |   |   |   |   |   |   |   |   FCTH20 > 5: K1 (2.0)
+|   |   |   |   |   |   |   |   |   FCTH31 > 3: K1 (2.0)
+|   |   |   |   |   |   |   |   FCTH75 > 0
+|   |   |   |   |   |   |   |   |   FCTH48 <= 0: K2 (5.0)
+|   |   |   |   |   |   |   |   |   FCTH48 > 0
+|   |   |   |   |   |   |   |   |   |   FCTH27 <= 2: K1 (12.0)
+|   |   |   |   |   |   |   |   |   |   FCTH27 > 2: K2 (4.0/1.0)
+|   |   |   |   |   |   |   FCTH36 > 0
+|   |   |   |   |   |   |   |   FCTH2 <= 3: K1 (3.0)
+|   |   |   |   |   |   |   |   FCTH2 > 3: K2 (2.0/1.0)
+|   |   |   |   |   |   FCTH1 > 6
+|   |   |   |   |   |   |   FCTH2 <= 1: K5 (4.0)
+|   |   |   |   |   |   |   FCTH2 > 1: K2 (2.0)
+|   |   |   |   |   FCTH67 > 0: K5 (3.0/1.0)
+|   |   |   |   FCTH2 > 5: K4 (4.0/1.0)
+|   |   |   FCTH97 > 0: K5 (4.0)
+|   FCTH37 > 0: K5 (16.0)
+
+Number of Leaves  : 	46
+
+Size of the tree : 	91
+
+
+Time taken to build model: 0.3 seconds
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         394               94.7115 %
+Incorrectly Classified Instances        22                5.2885 %
+Kappa statistic                          0.932 
+Mean absolute error                      0.022 
+Root mean squared error                  0.1049
+Relative absolute error                 11.2416 %
+Root relative squared error             33.5659 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.837    0.003    0.973      0.837    0.900      0.893    0.973     0.911     K1
+                 0.980    0.022    0.960      0.980    0.970      0.953    0.993     0.977     K2
+                 0.961    0.029    0.880      0.961    0.918      0.900    0.985     0.884     K3
+                 0.852    0.011    0.929      0.852    0.889      0.872    0.983     0.911     K4
+                 1.000    0.003    0.985      1.000    0.992      0.991    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.947    0.016    0.948      0.947    0.947      0.934    0.990     0.948     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  36   5   1   0   1   0   0   0 |   a = K1
+   1 145   0   2   0   0   0   0 |   b = K2
+   0   1  73   2   0   0   0   0 |   c = K3
+   0   0   9  52   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.51 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         322               77.4038 %
+Incorrectly Classified Instances        94               22.5962 %
+Kappa statistic                          0.7085
+Mean absolute error                      0.0614
+Root mean squared error                  0.22  
+Relative absolute error                 31.3678 %
+Root relative squared error             70.4224 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.395    0.048    0.486      0.395    0.436      0.381    0.809     0.425     K1
+                 0.872    0.101    0.827      0.872    0.849      0.762    0.917     0.801     K2
+                 0.763    0.059    0.744      0.763    0.753      0.697    0.881     0.597     K3
+                 0.623    0.056    0.655      0.623    0.639      0.579    0.891     0.586     K4
+                 0.953    0.020    0.897      0.953    0.924      0.911    0.994     0.945     K5
+                 0.792    0.005    0.905      0.792    0.844      0.838    0.998     0.940     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.774    0.063    0.767      0.774    0.769      0.711    0.912     0.724     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  17  24   0   1   1   0   0   0 |   a = K1
+  13 129   0   2   4   0   0   0 |   b = K2
+   0   1  58  17   0   0   0   0 |   c = K3
+   0   1  20  38   0   2   0   0 |   d = K4
+   2   1   0   0  61   0   0   0 |   e = K5
+   3   0   0   0   2  19   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

@@ -1,0 +1,168 @@
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+
+Options: -C 0.25 -M 2 -Q 1 -RM-C -RM-N 99.0 -RM-B -2 -RM-D 50.0 
+
+=== Classifier model (full training set) ===
+
+J48Consolidated pruned tree
+[RM] N_S=f(99% of coverage)=27 %Min=balanced Size=maxSize (without replacement)
+True coverage achieved: 0.9969972147776555
+---------------------------------------------------------------------------------------------------------------------------
+
+Gabor Features1 <= 0.085618
+|   Gabor Features1 <= 0.077919
+|   |   Gabor Features1 <= 0.050148: K2 (11.22/2.37)
+|   |   Gabor Features1 > 0.050148
+|   |   |   Gabor Features1 <= 0.064395
+|   |   |   |   Gabor Features0 <= 1.973046: K1 (6.85/2.81)
+|   |   |   |   Gabor Features0 > 1.973046: K2 (5.11/1.04)
+|   |   |   Gabor Features1 > 0.064395
+|   |   |   |   Gabor Features0 <= 2.986851: K1 (10.37/2.48)
+|   |   |   |   Gabor Features0 > 2.986851: K2 (1.44)
+|   Gabor Features1 > 0.077919: K1 (11.3/6.93)
+Gabor Features1 > 0.085618
+|   Gabor Features1 <= 0.192823
+|   |   Gabor Features0 <= 5.252535
+|   |   |   Gabor Features1 <= 0.103493
+|   |   |   |   Gabor Features1 <= 0.094875
+|   |   |   |   |   Gabor Features1 <= 0.088278: K1 (4.44/2.37)
+|   |   |   |   |   Gabor Features1 > 0.088278
+|   |   |   |   |   |   Gabor Features0 <= 3.742145
+|   |   |   |   |   |   |   Gabor Features0 <= 3.203269: K4 (1.7/0.26)
+|   |   |   |   |   |   |   Gabor Features0 > 3.203269
+|   |   |   |   |   |   |   |   Gabor Features1 <= 0.092353
+|   |   |   |   |   |   |   |   |   Gabor Features0 <= 3.323169: K6 (2.0)
+|   |   |   |   |   |   |   |   |   Gabor Features0 > 3.323169: K3 (1.67/0.15)
+|   |   |   |   |   |   |   |   Gabor Features1 > 0.092353
+|   |   |   |   |   |   |   |   |   Gabor Features0 <= 3.610617: K3 (1.04/0.37)
+|   |   |   |   |   |   |   |   |   Gabor Features0 > 3.610617: K6 (2.0)
+|   |   |   |   |   |   Gabor Features0 > 3.742145
+|   |   |   |   |   |   |   Gabor Features0 <= 3.86865: K1 (1.3/0.59)
+|   |   |   |   |   |   |   Gabor Features0 > 3.86865: K4 (1.04/0.59)
+|   |   |   |   Gabor Features1 > 0.094875
+|   |   |   |   |   Gabor Features0 <= 4.169856: K4 (5.07/2.3)
+|   |   |   |   |   Gabor Features0 > 4.169856
+|   |   |   |   |   |   Gabor Features1 <= 0.09786
+|   |   |   |   |   |   |   Gabor Features0 <= 4.362339: K5 (3.11/0.26)
+|   |   |   |   |   |   |   Gabor Features0 > 4.362339: K1 (1.26)
+|   |   |   |   |   |   Gabor Features1 > 0.09786: K6 (6.85/2.85)
+|   |   |   Gabor Features1 > 0.103493
+|   |   |   |   Gabor Features0 <= 4.591356: K4 (2.78)
+|   |   |   |   Gabor Features0 > 4.591356: K3 (7.22/2.07)
+|   |   Gabor Features0 > 5.252535
+|   |   |   Gabor Features1 <= 0.128935
+|   |   |   |   Gabor Features1 <= 0.114427: K5 (4.74/0.56)
+|   |   |   |   Gabor Features1 > 0.114427
+|   |   |   |   |   Gabor Features0 <= 5.924314
+|   |   |   |   |   |   Gabor Features1 <= 0.117725: K6 (4.85/0.85)
+|   |   |   |   |   |   Gabor Features1 > 0.117725: K5 (4.52/1.3)
+|   |   |   |   |   Gabor Features0 > 5.924314
+|   |   |   |   |   |   Gabor Features1 <= 0.123002: K6 (9.67/0.67)
+|   |   |   |   |   |   Gabor Features1 > 0.123002
+|   |   |   |   |   |   |   Gabor Features1 <= 0.128854: K4 (4.11/2.19)
+|   |   |   |   |   |   |   Gabor Features1 > 0.128854: K6 (2.0)
+|   |   |   Gabor Features1 > 0.128935: K5 (10.56/3.26)
+|   Gabor Features1 > 0.192823
+|   |   Gabor Features1 <= 0.242503
+|   |   |   Gabor Features1 <= 0.212263: K4 (1.19/0.33)
+|   |   |   Gabor Features1 > 0.212263: K5 (2.15/0.41)
+|   |   Gabor Features1 > 0.242503: K3 (12.44/4.56)
+
+Number of Leaves  : 	30
+
+Size of the tree : 	59
+
+
+Time taken to build model: 0.36 seconds
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         274               65.8654 %
+Incorrectly Classified Instances       142               34.1346 %
+Kappa statistic                          0.5813
+Mean absolute error                      0.1054
+Root mean squared error                  0.2329
+Relative absolute error                 53.8692 %
+Root relative squared error             74.5465 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.814    0.177    0.347      0.814    0.486      0.452    0.893     0.421     K1
+                 0.615    0.026    0.929      0.615    0.740      0.664    0.952     0.886     K2
+                 0.632    0.059    0.706      0.632    0.667      0.599    0.904     0.637     K3
+                 0.410    0.051    0.581      0.410    0.481      0.417    0.872     0.557     K4
+                 0.813    0.051    0.743      0.813    0.776      0.734    0.967     0.775     K5
+                 0.958    0.033    0.639      0.958    0.767      0.767    0.991     0.840     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.659    0.056    0.732      0.659    0.669      0.611    0.930     0.725     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h   <-- classified as
+ 35  7  0  1  0  0  0  0 |  a = K1
+ 50 91  2  4  1  0  0  0 |  b = K2
+  8  0 48  7  7  6  0  0 |  c = K3
+  5  0 18 25 10  3  0  0 |  d = K4
+  2  0  0  6 52  4  0  0 |  e = K5
+  1  0  0  0  0 23  0  0 |  f = K6
+  0  0  0  0  0  0  0  0 |  g = K7
+  0  0  0  0  0  0  0  0 |  h = K8
+
+Time taken to perform cross-validation: 0.93 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         216               51.9231 %
+Incorrectly Classified Instances       200               48.0769 %
+Kappa statistic                          0.4116
+Mean absolute error                      0.1351
+Root mean squared error                  0.2793
+Relative absolute error                 69.0305 %
+Root relative squared error             89.3833 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.488    0.206    0.214      0.488    0.298      0.202    0.751     0.240     K1
+                 0.554    0.063    0.828      0.554    0.664      0.552    0.911     0.812     K2
+                 0.553    0.091    0.575      0.553    0.564      0.469    0.817     0.494     K3
+                 0.180    0.028    0.524      0.180    0.268      0.246    0.739     0.400     K4
+                 0.672    0.088    0.581      0.672    0.623      0.551    0.928     0.585     K5
+                 0.708    0.087    0.333      0.708    0.453      0.442    0.920     0.342     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.519    0.083    0.607      0.519    0.531      0.449    0.855     0.572     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h   <-- classified as
+ 21 16  1  1  2  2  0  0 |  a = K1
+ 59 82  1  1  3  2  0  0 |  b = K2
+  8  1 42  4 10 11  0  0 |  c = K3
+  5  0 23 11 13  9  0  0 |  d = K4
+  3  0  4  4 43 10  0  0 |  e = K5
+  2  0  2  0  3 17  0  0 |  f = K6
+  0  0  0  0  0  0  0  0 |  g = K7
+  0  0  0  0  0  0  0  0 |  h = K8
+

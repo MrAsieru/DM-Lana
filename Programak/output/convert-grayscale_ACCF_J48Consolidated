@@ -1,0 +1,152 @@
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+
+Options: -C 0.25 -M 2 -Q 1 -RM-C -RM-N 99.0 -RM-B -2 -RM-D 50.0 
+
+=== Classifier model (full training set) ===
+
+J48Consolidated pruned tree
+[RM] N_S=f(99% of coverage)=27 %Min=balanced Size=maxSize (without replacement)
+True coverage achieved: 0.9969972147776555
+---------------------------------------------------------------------------------------------------------------------------
+
+Auto Color Correlogram1 <= 0
+|   Auto Color Correlogram48 <= 14
+|   |   Auto Color Correlogram63 <= 9
+|   |   |   Auto Color Correlogram62 <= 1
+|   |   |   |   Auto Color Correlogram48 <= 13: K5 (7.19/1.07)
+|   |   |   |   Auto Color Correlogram48 > 13
+|   |   |   |   |   Auto Color Correlogram55 <= 9: K5 (2.63/0.3)
+|   |   |   |   |   Auto Color Correlogram55 > 9: K1 (2.52/0.44)
+|   |   |   Auto Color Correlogram62 > 1
+|   |   |   |   Auto Color Correlogram51 <= 5: K5 (9.63/0.78)
+|   |   |   |   Auto Color Correlogram51 > 5
+|   |   |   |   |   Auto Color Correlogram62 <= 9: K6 (19.89/0.89)
+|   |   |   |   |   Auto Color Correlogram62 > 9: K5 (3.26/0.81)
+|   |   Auto Color Correlogram63 > 9
+|   |   |   Auto Color Correlogram52 <= 13
+|   |   |   |   Auto Color Correlogram0 <= 0: K1 (1.63)
+|   |   |   |   Auto Color Correlogram0 > 0: K5 (0.85)
+|   |   |   Auto Color Correlogram52 > 13: K2 (6.52/2.63)
+|   Auto Color Correlogram48 > 14
+|   |   Auto Color Correlogram52 <= 8: K5 (1.67/0.3)
+|   |   Auto Color Correlogram52 > 8
+|   |   |   Auto Color Correlogram53 <= 13
+|   |   |   |   Auto Color Correlogram52 <= 10: K6 (1.44/0.44)
+|   |   |   |   Auto Color Correlogram52 > 10
+|   |   |   |   |   Auto Color Correlogram60 <= 14: K1 (25.81/10.7)
+|   |   |   |   |   Auto Color Correlogram60 > 14: K2 (3.7/1.67)
+|   |   |   Auto Color Correlogram53 > 13
+|   |   |   |   Auto Color Correlogram52 <= 14: K6 (4.44/0.44)
+|   |   |   |   Auto Color Correlogram52 > 14: K2 (5.89/1.0)
+Auto Color Correlogram1 > 0
+|   Auto Color Correlogram52 <= 5: K3 (5.04/1.22)
+|   Auto Color Correlogram52 > 5
+|   |   Auto Color Correlogram1 <= 3: K3 (5.89/1.81)
+|   |   Auto Color Correlogram1 > 3
+|   |   |   Auto Color Correlogram48 <= 10: K4 (6.15/0.93)
+|   |   |   Auto Color Correlogram48 > 10
+|   |   |   |   Auto Color Correlogram0 <= 10: K3 (4.15/1.3)
+|   |   |   |   Auto Color Correlogram0 > 10
+|   |   |   |   |   Auto Color Correlogram48 <= 12: K4 (4.37/0.78)
+|   |   |   |   |   Auto Color Correlogram48 > 12
+|   |   |   |   |   |   Auto Color Correlogram3 <= 10: K3 (10.07/2.93)
+|   |   |   |   |   |   Auto Color Correlogram3 > 10: K4 (11.26/3.7)
+
+Number of Leaves  : 	22
+
+Size of the tree : 	43
+
+
+Time taken to build model: 1 seconds
+
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         276               66.3462 %
+Incorrectly Classified Instances       140               33.6538 %
+Kappa statistic                          0.5922
+Mean absolute error                      0.097 
+Root mean squared error                  0.227 
+Relative absolute error                 49.558  %
+Root relative squared error             72.6647 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.767    0.188    0.320      0.767    0.452      0.409    0.874     0.379     K1
+                 0.432    0.045    0.842      0.432    0.571      0.480    0.926     0.817     K2
+                 0.737    0.056    0.747      0.737    0.742      0.684    0.950     0.710     K3
+                 0.672    0.051    0.695      0.672    0.683      0.630    0.943     0.673     K4
+                 0.906    0.034    0.829      0.906    0.866      0.841    0.982     0.856     K5
+                 1.000    0.023    0.727      1.000    0.842      0.843    0.993     0.812     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.663    0.060    0.740      0.663    0.667      0.609    0.940     0.737     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h   <-- classified as
+ 33  8  0  0  2  0  0  0 |  a = K1
+ 70 64  0  0  7  7  0  0 |  b = K2
+  0  0 56 18  2  0  0  0 |  c = K3
+  0  0 19 41  1  0  0  0 |  d = K4
+  0  4  0  0 58  2  0  0 |  e = K5
+  0  0  0  0  0 24  0  0 |  f = K6
+  0  0  0  0  0  0  0  0 |  g = K7
+  0  0  0  0  0  0  0  0 |  h = K8
+
+Time taken to perform cross-validation: 7.26 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         228               54.8077 %
+Incorrectly Classified Instances       188               45.1923 %
+Kappa statistic                          0.4493
+Mean absolute error                      0.1168
+Root mean squared error                  0.2654
+Relative absolute error                 59.6675 %
+Root relative squared error             84.9228 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.465    0.196    0.215      0.465    0.294      0.197    0.769     0.303     K1
+                 0.439    0.075    0.765      0.439    0.558      0.433    0.895     0.783     K2
+                 0.605    0.100    0.575      0.605    0.590      0.495    0.902     0.549     K3
+                 0.426    0.082    0.473      0.426    0.448      0.360    0.880     0.447     K4
+                 0.750    0.045    0.750      0.750    0.750      0.705    0.952     0.738     K5
+                 0.958    0.041    0.590      0.958    0.730      0.734    0.963     0.668     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.548    0.086    0.618      0.548    0.560      0.468    0.894     0.628     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h   <-- classified as
+ 20 17  0  0  4  2  0  0 |  a = K1
+ 64 65  0  0 10  9  0  0 |  b = K2
+  0  0 46 29  1  0  0  0 |  c = K3
+  0  0 34 26  1  0  0  0 |  d = K4
+  8  3  0  0 48  5  0  0 |  e = K5
+  1  0  0  0  0 23  0  0 |  f = K6
+  0  0  0  0  0  0  0  0 |  g = K7
+  0  0  0  0  0  0  0  0 |  h = K8
+

@@ -1,0 +1,987 @@
+
+Options: -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4" 
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: K1, K2
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0609 * (normalized) RGB Color Histogram0
+ +      -0.1085 * (normalized) RGB Color Histogram1
+ +      -1.443  * (normalized) RGB Color Histogram4
+ +      -0.2576 * (normalized) RGB Color Histogram5
+ +      -0.0353 * (normalized) RGB Color Histogram6
+ +       0.1521 * (normalized) RGB Color Histogram16
+ +       0.0772 * (normalized) RGB Color Histogram17
+ +      -1.3847 * (normalized) RGB Color Histogram20
+ +      -0.0488 * (normalized) RGB Color Histogram21
+ +      -0.0564 * (normalized) RGB Color Histogram22
+ +      -0.0169 * (normalized) RGB Color Histogram25
+ +      -0.0106 * (normalized) RGB Color Histogram26
+ +      -0.0208 * (normalized) RGB Color Histogram27
+ +       0.0876 * (normalized) RGB Color Histogram32
+ +       0.3034 * (normalized) RGB Color Histogram33
+ +       0.0957 * (normalized) RGB Color Histogram36
+ +      -0.0001 * (normalized) RGB Color Histogram37
+ +      -0.0008 * (normalized) RGB Color Histogram38
+ +      -0.0943 * (normalized) RGB Color Histogram41
+ +      -0.1785 * (normalized) RGB Color Histogram42
+ +       0.3078 * (normalized) RGB Color Histogram43
+ +       0      * (normalized) RGB Color Histogram47
+ +       0.1029 * (normalized) RGB Color Histogram48
+ +       0.5823 * (normalized) RGB Color Histogram52
+ +       0.5327 * (normalized) RGB Color Histogram53
+ +       0.0217 * (normalized) RGB Color Histogram54
+ +      -0.681  * (normalized) RGB Color Histogram57
+ +      -0.1203 * (normalized) RGB Color Histogram58
+ +       0.1625 * (normalized) RGB Color Histogram59
+ +      -0.2394 * (normalized) RGB Color Histogram62
+ +      -0.0321 * (normalized) RGB Color Histogram63
+ +       1.0291
+
+Number of kernel evaluations: 6036 (92.066% cached)
+
+Classifier for classes: K1, K3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.9375 * (normalized) RGB Color Histogram0
+ +      -0.5619 * (normalized) RGB Color Histogram1
+ +      -0.8143 * (normalized) RGB Color Histogram4
+ +      -0.2191 * (normalized) RGB Color Histogram5
+ +      -0.0431 * (normalized) RGB Color Histogram6
+ +       0.1619 * (normalized) RGB Color Histogram9
+ +       0.3768 * (normalized) RGB Color Histogram10
+ +       0.1433 * (normalized) RGB Color Histogram15
+ +      -1.068  * (normalized) RGB Color Histogram16
+ +      -0.6953 * (normalized) RGB Color Histogram17
+ +       0.2549 * (normalized) RGB Color Histogram20
+ +      -0.1774 * (normalized) RGB Color Histogram21
+ +       0.4579 * (normalized) RGB Color Histogram22
+ +       0.2578 * (normalized) RGB Color Histogram25
+ +       0.6484 * (normalized) RGB Color Histogram26
+ +      -0.0196 * (normalized) RGB Color Histogram27
+ +       0.3219 * (normalized) RGB Color Histogram31
+ +      -0.6952 * (normalized) RGB Color Histogram32
+ +       0.0481 * (normalized) RGB Color Histogram33
+ +       1.2162 * (normalized) RGB Color Histogram36
+ +      -0.7464 * (normalized) RGB Color Histogram37
+ +      -0.7009 * (normalized) RGB Color Histogram38
+ +       0.5077 * (normalized) RGB Color Histogram40
+ +       0.3967 * (normalized) RGB Color Histogram41
+ +       1.4904 * (normalized) RGB Color Histogram42
+ +       0.6485 * (normalized) RGB Color Histogram43
+ +       0.0581 * (normalized) RGB Color Histogram46
+ +       0.6936 * (normalized) RGB Color Histogram47
+ +       0.2279 * (normalized) RGB Color Histogram48
+ +       0.0123 * (normalized) RGB Color Histogram49
+ +       0.0633 * (normalized) RGB Color Histogram53
+ +       0.1048 * (normalized) RGB Color Histogram54
+ +       0.0028 * (normalized) RGB Color Histogram56
+ +       0.1655 * (normalized) RGB Color Histogram57
+ +       0.1085 * (normalized) RGB Color Histogram58
+ +      -0.7487 * (normalized) RGB Color Histogram59
+ +       0.0436 * (normalized) RGB Color Histogram62
+ +       0.237  * (normalized) RGB Color Histogram63
+ -       1.046 
+
+Number of kernel evaluations: 2453 (82.773% cached)
+
+Classifier for classes: K1, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.0652 * (normalized) RGB Color Histogram0
+ +      -0.3275 * (normalized) RGB Color Histogram1
+ +      -0.6352 * (normalized) RGB Color Histogram4
+ +      -0.1485 * (normalized) RGB Color Histogram5
+ +      -0.0431 * (normalized) RGB Color Histogram6
+ +       0.1739 * (normalized) RGB Color Histogram10
+ +      -1.3668 * (normalized) RGB Color Histogram16
+ +      -0.5355 * (normalized) RGB Color Histogram17
+ +       0.169  * (normalized) RGB Color Histogram20
+ +      -0.4057 * (normalized) RGB Color Histogram21
+ +       0.733  * (normalized) RGB Color Histogram22
+ +       0      * (normalized) RGB Color Histogram24
+ +       0.3101 * (normalized) RGB Color Histogram25
+ +       0.8521 * (normalized) RGB Color Histogram26
+ +      -0.0127 * (normalized) RGB Color Histogram27
+ +       0.058  * (normalized) RGB Color Histogram30
+ +       0.113  * (normalized) RGB Color Histogram31
+ +      -0.6432 * (normalized) RGB Color Histogram32
+ +       0.1368 * (normalized) RGB Color Histogram33
+ +       0.5328 * (normalized) RGB Color Histogram36
+ +      -0.9596 * (normalized) RGB Color Histogram37
+ +      -0.8459 * (normalized) RGB Color Histogram38
+ +       0.5675 * (normalized) RGB Color Histogram40
+ +       0.2565 * (normalized) RGB Color Histogram41
+ +       0.7721 * (normalized) RGB Color Histogram42
+ +       0.5294 * (normalized) RGB Color Histogram43
+ +       0.0455 * (normalized) RGB Color Histogram45
+ +       0.0873 * (normalized) RGB Color Histogram46
+ +       0.4244 * (normalized) RGB Color Histogram47
+ +       0.1319 * (normalized) RGB Color Histogram48
+ +       0      * (normalized) RGB Color Histogram49
+ +       0.0651 * (normalized) RGB Color Histogram52
+ +       0.3175 * (normalized) RGB Color Histogram53
+ +       0.1013 * (normalized) RGB Color Histogram54
+ +       0.7052 * (normalized) RGB Color Histogram56
+ +       0.2196 * (normalized) RGB Color Histogram57
+ +       0.234  * (normalized) RGB Color Histogram58
+ +      -0.7206 * (normalized) RGB Color Histogram59
+ +       0.0141 * (normalized) RGB Color Histogram60
+ +       0.0152 * (normalized) RGB Color Histogram61
+ +      -0.0883 * (normalized) RGB Color Histogram62
+ +       0.7047 * (normalized) RGB Color Histogram63
+ -       0.9982
+
+Number of kernel evaluations: 2300 (83.964% cached)
+
+Classifier for classes: K1, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0834 * (normalized) RGB Color Histogram0
+ +       2.1233 * (normalized) RGB Color Histogram1
+ +       0.7634 * (normalized) RGB Color Histogram2
+ +       0.9459 * (normalized) RGB Color Histogram3
+ +       0.3829 * (normalized) RGB Color Histogram4
+ +       1.1517 * (normalized) RGB Color Histogram5
+ +       1.3954 * (normalized) RGB Color Histogram6
+ +       0.9387 * (normalized) RGB Color Histogram7
+ +       0.1062 * (normalized) RGB Color Histogram10
+ +       0.6557 * (normalized) RGB Color Histogram11
+ +      -0.9635 * (normalized) RGB Color Histogram16
+ +      -0.4985 * (normalized) RGB Color Histogram17
+ +       0.0521 * (normalized) RGB Color Histogram18
+ +       0.3775 * (normalized) RGB Color Histogram20
+ +       0.3171 * (normalized) RGB Color Histogram21
+ +       0.1137 * (normalized) RGB Color Histogram22
+ +       0.8089 * (normalized) RGB Color Histogram23
+ +       1.2578 * (normalized) RGB Color Histogram25
+ +       0.5992 * (normalized) RGB Color Histogram26
+ +       1.0803 * (normalized) RGB Color Histogram27
+ +      -1.0067 * (normalized) RGB Color Histogram32
+ +       0.1837 * (normalized) RGB Color Histogram33
+ +      -0.2717 * (normalized) RGB Color Histogram36
+ +      -0.7505 * (normalized) RGB Color Histogram37
+ +      -1.0666 * (normalized) RGB Color Histogram38
+ +       0.6625 * (normalized) RGB Color Histogram39
+ +       0.4371 * (normalized) RGB Color Histogram41
+ +       0.6358 * (normalized) RGB Color Histogram42
+ +       0.8559 * (normalized) RGB Color Histogram43
+ +       0.2118 * (normalized) RGB Color Histogram46
+ +       0.6374 * (normalized) RGB Color Histogram47
+ +       0.6809 * (normalized) RGB Color Histogram48
+ +       0.5413 * (normalized) RGB Color Histogram49
+ +       0.2816 * (normalized) RGB Color Histogram52
+ +       0.8253 * (normalized) RGB Color Histogram53
+ +       0.3437 * (normalized) RGB Color Histogram54
+ +      -0.0038 * (normalized) RGB Color Histogram57
+ +       0.4633 * (normalized) RGB Color Histogram58
+ +      -0.6222 * (normalized) RGB Color Histogram59
+ +       0.0818 * (normalized) RGB Color Histogram62
+ +       0.4368 * (normalized) RGB Color Histogram63
+ -       0.5819
+
+Number of kernel evaluations: 3199 (90.817% cached)
+
+Classifier for classes: K1, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2007 * (normalized) RGB Color Histogram0
+ +       0.3995 * (normalized) RGB Color Histogram1
+ +       0.4342 * (normalized) RGB Color Histogram2
+ +       0.878  * (normalized) RGB Color Histogram4
+ +       0.1244 * (normalized) RGB Color Histogram5
+ +       2.0751 * (normalized) RGB Color Histogram6
+ +       0.2118 * (normalized) RGB Color Histogram7
+ +       0.2371 * (normalized) RGB Color Histogram11
+ +      -0.4691 * (normalized) RGB Color Histogram16
+ +      -0.0975 * (normalized) RGB Color Histogram17
+ +      -0.1196 * (normalized) RGB Color Histogram20
+ +      -0.1613 * (normalized) RGB Color Histogram21
+ +       0.269  * (normalized) RGB Color Histogram22
+ +       0.0455 * (normalized) RGB Color Histogram23
+ +       0.0741 * (normalized) RGB Color Histogram24
+ +       0.2713 * (normalized) RGB Color Histogram25
+ +       0.5058 * (normalized) RGB Color Histogram26
+ +       0.1475 * (normalized) RGB Color Histogram27
+ +      -0.4159 * (normalized) RGB Color Histogram32
+ +      -0.0191 * (normalized) RGB Color Histogram33
+ +      -0.0196 * (normalized) RGB Color Histogram36
+ +      -0.2176 * (normalized) RGB Color Histogram37
+ +      -0.0958 * (normalized) RGB Color Histogram38
+ +      -0      * (normalized) RGB Color Histogram40
+ +       0.0716 * (normalized) RGB Color Histogram41
+ +       0.1477 * (normalized) RGB Color Histogram42
+ +       0.1879 * (normalized) RGB Color Histogram43
+ +       0.3031 * (normalized) RGB Color Histogram45
+ +       0.2553 * (normalized) RGB Color Histogram46
+ +       0.0923 * (normalized) RGB Color Histogram47
+ +      -0.0072 * (normalized) RGB Color Histogram54
+ +      -0.0201 * (normalized) RGB Color Histogram57
+ +      -0.1668 * (normalized) RGB Color Histogram58
+ +      -0.065  * (normalized) RGB Color Histogram59
+ +      -0      * (normalized) RGB Color Histogram61
+ +       0.4263 * (normalized) RGB Color Histogram62
+ +       0.0975 * (normalized) RGB Color Histogram63
+ -       1.0131
+
+Number of kernel evaluations: 447 (82.177% cached)
+
+Classifier for classes: K1, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K1, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K2, K3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.7277 * (normalized) RGB Color Histogram0
+ +      -0.6186 * (normalized) RGB Color Histogram1
+ +       0.1249 * (normalized) RGB Color Histogram4
+ +       0.1152 * (normalized) RGB Color Histogram5
+ +      -0.0078 * (normalized) RGB Color Histogram6
+ +       0.5    * (normalized) RGB Color Histogram9
+ +       0.6779 * (normalized) RGB Color Histogram10
+ +       0.1186 * (normalized) RGB Color Histogram15
+ +      -1.9392 * (normalized) RGB Color Histogram16
+ +      -0.1987 * (normalized) RGB Color Histogram17
+ +       1.7071 * (normalized) RGB Color Histogram20
+ +       0.2277 * (normalized) RGB Color Histogram21
+ +       0.7723 * (normalized) RGB Color Histogram22
+ +       0.2928 * (normalized) RGB Color Histogram25
+ +       1.7778 * (normalized) RGB Color Histogram26
+ +      -0.0054 * (normalized) RGB Color Histogram27
+ +       0.7774 * (normalized) RGB Color Histogram31
+ +      -0.8977 * (normalized) RGB Color Histogram32
+ +      -0.0056 * (normalized) RGB Color Histogram33
+ +       1.7178 * (normalized) RGB Color Histogram36
+ +      -1.073  * (normalized) RGB Color Histogram37
+ +      -0.0323 * (normalized) RGB Color Histogram38
+ +       0.7838 * (normalized) RGB Color Histogram40
+ +       0.4356 * (normalized) RGB Color Histogram41
+ +       2.2517 * (normalized) RGB Color Histogram42
+ +       1.0418 * (normalized) RGB Color Histogram43
+ +       0.3387 * (normalized) RGB Color Histogram46
+ +       1.8924 * (normalized) RGB Color Histogram47
+ +      -0.62   * (normalized) RGB Color Histogram48
+ +       0.0123 * (normalized) RGB Color Histogram49
+ +      -0.7816 * (normalized) RGB Color Histogram52
+ +      -1.3734 * (normalized) RGB Color Histogram53
+ +       0.4382 * (normalized) RGB Color Histogram54
+ +       0.0039 * (normalized) RGB Color Histogram56
+ +       0.0743 * (normalized) RGB Color Histogram57
+ +       0.4718 * (normalized) RGB Color Histogram58
+ +      -1.4608 * (normalized) RGB Color Histogram59
+ +       0.2535 * (normalized) RGB Color Histogram62
+ +       0.204  * (normalized) RGB Color Histogram63
+ -       1.5767
+
+Number of kernel evaluations: 6864 (77.03% cached)
+
+Classifier for classes: K2, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.837  * (normalized) RGB Color Histogram0
+ +      -0.3662 * (normalized) RGB Color Histogram1
+ +       0.2142 * (normalized) RGB Color Histogram4
+ +       0.237  * (normalized) RGB Color Histogram5
+ +      -0.0063 * (normalized) RGB Color Histogram6
+ +       0.7482 * (normalized) RGB Color Histogram10
+ +      -1.9521 * (normalized) RGB Color Histogram16
+ +      -0.1018 * (normalized) RGB Color Histogram17
+ +       2.0766 * (normalized) RGB Color Histogram20
+ +      -0.1206 * (normalized) RGB Color Histogram21
+ +       1.1604 * (normalized) RGB Color Histogram22
+ +      -0      * (normalized) RGB Color Histogram24
+ +       0.322  * (normalized) RGB Color Histogram25
+ +       2.0307 * (normalized) RGB Color Histogram26
+ +       0.0469 * (normalized) RGB Color Histogram27
+ +       0.2494 * (normalized) RGB Color Histogram30
+ +       0.2662 * (normalized) RGB Color Histogram31
+ +      -0.2487 * (normalized) RGB Color Histogram32
+ +       0.0412 * (normalized) RGB Color Histogram33
+ +      -0.3751 * (normalized) RGB Color Histogram36
+ +      -0.9334 * (normalized) RGB Color Histogram37
+ +      -0.8614 * (normalized) RGB Color Histogram38
+ +       1.3219 * (normalized) RGB Color Histogram40
+ +       0.3573 * (normalized) RGB Color Histogram41
+ +       1.7795 * (normalized) RGB Color Histogram42
+ +       0.7176 * (normalized) RGB Color Histogram43
+ +       0.0455 * (normalized) RGB Color Histogram45
+ +       0.2174 * (normalized) RGB Color Histogram46
+ +       1.0301 * (normalized) RGB Color Histogram47
+ +      -0.448  * (normalized) RGB Color Histogram48
+ +       0.0139 * (normalized) RGB Color Histogram49
+ +      -0.9249 * (normalized) RGB Color Histogram52
+ +      -0.9377 * (normalized) RGB Color Histogram53
+ +       0.1679 * (normalized) RGB Color Histogram54
+ +       1.3052 * (normalized) RGB Color Histogram56
+ +       0.4545 * (normalized) RGB Color Histogram57
+ +       0.1154 * (normalized) RGB Color Histogram58
+ +      -1.4486 * (normalized) RGB Color Histogram59
+ +       0.1309 * (normalized) RGB Color Histogram60
+ +       0.206  * (normalized) RGB Color Histogram61
+ +       0.0412 * (normalized) RGB Color Histogram62
+ +       1.1628 * (normalized) RGB Color Histogram63
+ -       1.7193
+
+Number of kernel evaluations: 4734 (79.63% cached)
+
+Classifier for classes: K2, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.111  * (normalized) RGB Color Histogram0
+ +       2.566  * (normalized) RGB Color Histogram1
+ +       1.0424 * (normalized) RGB Color Histogram2
+ +       0.8241 * (normalized) RGB Color Histogram3
+ +       0.7302 * (normalized) RGB Color Histogram4
+ +       1.2119 * (normalized) RGB Color Histogram5
+ +       1.6238 * (normalized) RGB Color Histogram6
+ +       0.9962 * (normalized) RGB Color Histogram7
+ +      -0      * (normalized) RGB Color Histogram10
+ +       1.1625 * (normalized) RGB Color Histogram11
+ +      -1.3475 * (normalized) RGB Color Histogram16
+ +      -0.7946 * (normalized) RGB Color Histogram17
+ +       0.3701 * (normalized) RGB Color Histogram18
+ +       0.662  * (normalized) RGB Color Histogram20
+ +       0.3836 * (normalized) RGB Color Histogram21
+ +      -0.6301 * (normalized) RGB Color Histogram22
+ +       0.8176 * (normalized) RGB Color Histogram23
+ +       1.5767 * (normalized) RGB Color Histogram25
+ +       0.8164 * (normalized) RGB Color Histogram26
+ +       1.3139 * (normalized) RGB Color Histogram27
+ +      -0.6807 * (normalized) RGB Color Histogram32
+ +       0.0873 * (normalized) RGB Color Histogram33
+ +      -0.9533 * (normalized) RGB Color Histogram36
+ +      -1.0642 * (normalized) RGB Color Histogram37
+ +      -0.9662 * (normalized) RGB Color Histogram38
+ +       0.7752 * (normalized) RGB Color Histogram39
+ +       0.4493 * (normalized) RGB Color Histogram41
+ +       0.8005 * (normalized) RGB Color Histogram42
+ +       0.7416 * (normalized) RGB Color Histogram43
+ +       0.2422 * (normalized) RGB Color Histogram46
+ +       0.8092 * (normalized) RGB Color Histogram47
+ +       0.3593 * (normalized) RGB Color Histogram48
+ +       0.6553 * (normalized) RGB Color Histogram49
+ +      -0.7704 * (normalized) RGB Color Histogram52
+ +      -0.4643 * (normalized) RGB Color Histogram53
+ +       0.6555 * (normalized) RGB Color Histogram54
+ +       0.1111 * (normalized) RGB Color Histogram57
+ +       0.2355 * (normalized) RGB Color Histogram58
+ +      -0.9833 * (normalized) RGB Color Histogram59
+ +       0.2024 * (normalized) RGB Color Histogram62
+ +       0.3692 * (normalized) RGB Color Histogram63
+ -       0.5674
+
+Number of kernel evaluations: 7442 (84.553% cached)
+
+Classifier for classes: K2, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1741 * (normalized) RGB Color Histogram0
+ +       0.3909 * (normalized) RGB Color Histogram1
+ +       0.4435 * (normalized) RGB Color Histogram2
+ +       1.2422 * (normalized) RGB Color Histogram4
+ +       0.1813 * (normalized) RGB Color Histogram5
+ +       1.9092 * (normalized) RGB Color Histogram6
+ +       0.1849 * (normalized) RGB Color Histogram7
+ +       0.202  * (normalized) RGB Color Histogram11
+ +      -0.2108 * (normalized) RGB Color Histogram16
+ +      -0.1237 * (normalized) RGB Color Histogram17
+ +       0.1923 * (normalized) RGB Color Histogram20
+ +       0.0115 * (normalized) RGB Color Histogram21
+ +       0.2442 * (normalized) RGB Color Histogram22
+ +       0.0455 * (normalized) RGB Color Histogram23
+ +       0.0741 * (normalized) RGB Color Histogram24
+ +       0.2522 * (normalized) RGB Color Histogram25
+ +       0.5132 * (normalized) RGB Color Histogram26
+ +       0.1356 * (normalized) RGB Color Histogram27
+ +      -0.0852 * (normalized) RGB Color Histogram32
+ +      -0.0201 * (normalized) RGB Color Histogram33
+ +      -0.0955 * (normalized) RGB Color Histogram36
+ +      -0.1154 * (normalized) RGB Color Histogram37
+ +      -0.0698 * (normalized) RGB Color Histogram38
+ +       0      * (normalized) RGB Color Histogram40
+ +       0.0804 * (normalized) RGB Color Histogram41
+ +       0.171  * (normalized) RGB Color Histogram42
+ +       0.1803 * (normalized) RGB Color Histogram43
+ +       0.2385 * (normalized) RGB Color Histogram45
+ +       0.2282 * (normalized) RGB Color Histogram46
+ +       0.0907 * (normalized) RGB Color Histogram47
+ +       0      * (normalized) RGB Color Histogram48
+ +      -0.0856 * (normalized) RGB Color Histogram52
+ +      -0.0295 * (normalized) RGB Color Histogram53
+ +      -0.0016 * (normalized) RGB Color Histogram54
+ +      -0.012  * (normalized) RGB Color Histogram57
+ +      -0.0328 * (normalized) RGB Color Histogram58
+ +      -0.131  * (normalized) RGB Color Histogram59
+ +      -0      * (normalized) RGB Color Histogram61
+ +       0.4421 * (normalized) RGB Color Histogram62
+ +       0.092  * (normalized) RGB Color Histogram63
+ -       1.1404
+
+Number of kernel evaluations: 1562 (80.62% cached)
+
+Classifier for classes: K2, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K2, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K3, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3773 * (normalized) RGB Color Histogram0
+ +       0.1963 * (normalized) RGB Color Histogram1
+ +       0.2624 * (normalized) RGB Color Histogram4
+ +       0.1121 * (normalized) RGB Color Histogram5
+ +       0.0078 * (normalized) RGB Color Histogram6
+ +      -0.5    * (normalized) RGB Color Histogram9
+ +       0.3408 * (normalized) RGB Color Histogram10
+ +      -0.3458 * (normalized) RGB Color Histogram15
+ +      -0.6396 * (normalized) RGB Color Histogram16
+ +      -0.3267 * (normalized) RGB Color Histogram17
+ +       0.9229 * (normalized) RGB Color Histogram20
+ +      -0.2752 * (normalized) RGB Color Histogram21
+ +       1.6121 * (normalized) RGB Color Histogram22
+ +       0.0202 * (normalized) RGB Color Histogram25
+ +       0.1572 * (normalized) RGB Color Histogram26
+ +       0.1171 * (normalized) RGB Color Histogram27
+ +       0.9205 * (normalized) RGB Color Histogram30
+ +      -0.0949 * (normalized) RGB Color Histogram31
+ +      -0.1761 * (normalized) RGB Color Histogram32
+ +      -0.1036 * (normalized) RGB Color Histogram33
+ +       0.0443 * (normalized) RGB Color Histogram36
+ +       0.0993 * (normalized) RGB Color Histogram37
+ +      -1.3736 * (normalized) RGB Color Histogram38
+ +       0.7725 * (normalized) RGB Color Histogram40
+ +       0.8072 * (normalized) RGB Color Histogram41
+ +       0.0208 * (normalized) RGB Color Histogram42
+ +       0.2529 * (normalized) RGB Color Histogram43
+ +       0.0455 * (normalized) RGB Color Histogram45
+ +       1.0512 * (normalized) RGB Color Histogram46
+ +      -0.2574 * (normalized) RGB Color Histogram47
+ +       0.1236 * (normalized) RGB Color Histogram48
+ +      -0.4595 * (normalized) RGB Color Histogram49
+ +       0.1626 * (normalized) RGB Color Histogram52
+ +       0.1601 * (normalized) RGB Color Histogram53
+ +      -0.4002 * (normalized) RGB Color Histogram54
+ +       1.6824 * (normalized) RGB Color Histogram56
+ +       0.4317 * (normalized) RGB Color Histogram57
+ +      -0.283  * (normalized) RGB Color Histogram58
+ +      -0.551  * (normalized) RGB Color Histogram59
+ +       0.1212 * (normalized) RGB Color Histogram60
+ +       0.2023 * (normalized) RGB Color Histogram61
+ +       0.9759 * (normalized) RGB Color Histogram62
+ +       1.5979 * (normalized) RGB Color Histogram63
+ -       0.3209
+
+Number of kernel evaluations: 2844 (86.661% cached)
+
+Classifier for classes: K3, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.7311 * (normalized) RGB Color Histogram0
+ +       1.9064 * (normalized) RGB Color Histogram1
+ +       0.7625 * (normalized) RGB Color Histogram2
+ +       1.1082 * (normalized) RGB Color Histogram3
+ +       0.6705 * (normalized) RGB Color Histogram4
+ +       0.6818 * (normalized) RGB Color Histogram5
+ +       0.7096 * (normalized) RGB Color Histogram6
+ +       1.0445 * (normalized) RGB Color Histogram7
+ +      -0.102  * (normalized) RGB Color Histogram9
+ +      -0.102  * (normalized) RGB Color Histogram10
+ +       0.4593 * (normalized) RGB Color Histogram11
+ +      -0.18   * (normalized) RGB Color Histogram16
+ +       0.2069 * (normalized) RGB Color Histogram17
+ +       0.0514 * (normalized) RGB Color Histogram20
+ +       0.3122 * (normalized) RGB Color Histogram21
+ +       0.4115 * (normalized) RGB Color Histogram22
+ +       0.5552 * (normalized) RGB Color Histogram23
+ +       0.5318 * (normalized) RGB Color Histogram25
+ +       0.387  * (normalized) RGB Color Histogram26
+ +       0.1245 * (normalized) RGB Color Histogram27
+ +      -0.213  * (normalized) RGB Color Histogram31
+ +      -0.0009 * (normalized) RGB Color Histogram32
+ +       0.0569 * (normalized) RGB Color Histogram33
+ +      -0.001  * (normalized) RGB Color Histogram36
+ +      -0.1575 * (normalized) RGB Color Histogram37
+ +      -0.417  * (normalized) RGB Color Histogram38
+ +       0.4837 * (normalized) RGB Color Histogram39
+ +       0.2339 * (normalized) RGB Color Histogram41
+ +      -0.2116 * (normalized) RGB Color Histogram42
+ +       0.4481 * (normalized) RGB Color Histogram43
+ +       0.1967 * (normalized) RGB Color Histogram46
+ +      -0.063  * (normalized) RGB Color Histogram47
+ +       0.0782 * (normalized) RGB Color Histogram48
+ +       0.0578 * (normalized) RGB Color Histogram49
+ +       0.0955 * (normalized) RGB Color Histogram52
+ +       0.3099 * (normalized) RGB Color Histogram53
+ +       0.1378 * (normalized) RGB Color Histogram54
+ +       0.3642 * (normalized) RGB Color Histogram55
+ +       0.0967 * (normalized) RGB Color Histogram57
+ +      -0.173  * (normalized) RGB Color Histogram58
+ +      -0.3024 * (normalized) RGB Color Histogram59
+ +       0.0966 * (normalized) RGB Color Histogram62
+ +       0.5189 * (normalized) RGB Color Histogram63
+ +       0.4559
+
+Number of kernel evaluations: 3779 (87.366% cached)
+
+Classifier for classes: K3, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0056 * (normalized) RGB Color Histogram0
+ +       0.6308 * (normalized) RGB Color Histogram1
+ +       0.6126 * (normalized) RGB Color Histogram2
+ +       1.2941 * (normalized) RGB Color Histogram4
+ +       0.2114 * (normalized) RGB Color Histogram5
+ +       1.9167 * (normalized) RGB Color Histogram6
+ +       0.1993 * (normalized) RGB Color Histogram7
+ +      -0.0849 * (normalized) RGB Color Histogram9
+ +      -0.0849 * (normalized) RGB Color Histogram10
+ +       0.2194 * (normalized) RGB Color Histogram11
+ +      -0.3924 * (normalized) RGB Color Histogram16
+ +      -0.0942 * (normalized) RGB Color Histogram17
+ +       0.1547 * (normalized) RGB Color Histogram20
+ +      -0.1235 * (normalized) RGB Color Histogram21
+ +       0.1548 * (normalized) RGB Color Histogram22
+ +       0.0455 * (normalized) RGB Color Histogram23
+ +       0.0741 * (normalized) RGB Color Histogram24
+ +       0.2471 * (normalized) RGB Color Histogram25
+ +       0.3207 * (normalized) RGB Color Histogram26
+ +       0.1531 * (normalized) RGB Color Histogram27
+ +      -0.0192 * (normalized) RGB Color Histogram31
+ +      -0.122  * (normalized) RGB Color Histogram32
+ +      -0.0157 * (normalized) RGB Color Histogram33
+ +      -0.0374 * (normalized) RGB Color Histogram36
+ +      -0.1085 * (normalized) RGB Color Histogram37
+ +      -0.1727 * (normalized) RGB Color Histogram38
+ +      -0.003  * (normalized) RGB Color Histogram40
+ +       0.0685 * (normalized) RGB Color Histogram41
+ +      -0.3397 * (normalized) RGB Color Histogram42
+ +       0.2111 * (normalized) RGB Color Histogram43
+ +       0.279  * (normalized) RGB Color Histogram45
+ +       0.2166 * (normalized) RGB Color Histogram46
+ +       0.0223 * (normalized) RGB Color Histogram47
+ +      -0.0449 * (normalized) RGB Color Histogram48
+ +      -0.0037 * (normalized) RGB Color Histogram49
+ +      -0.0135 * (normalized) RGB Color Histogram53
+ +      -0.0179 * (normalized) RGB Color Histogram54
+ +      -0.0056 * (normalized) RGB Color Histogram57
+ +      -0.0954 * (normalized) RGB Color Histogram58
+ +      -0.0733 * (normalized) RGB Color Histogram59
+ +      -0      * (normalized) RGB Color Histogram61
+ +       0.4828 * (normalized) RGB Color Histogram62
+ +       0.0581 * (normalized) RGB Color Histogram63
+ -       0.8905
+
+Number of kernel evaluations: 1179 (92.871% cached)
+
+Classifier for classes: K3, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K3, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K4, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.7576 * (normalized) RGB Color Histogram0
+ +       1.61   * (normalized) RGB Color Histogram1
+ +       0.8532 * (normalized) RGB Color Histogram2
+ +       1.0357 * (normalized) RGB Color Histogram3
+ +       0.4278 * (normalized) RGB Color Histogram4
+ +       1.0262 * (normalized) RGB Color Histogram5
+ +       0.7426 * (normalized) RGB Color Histogram6
+ +       0.9839 * (normalized) RGB Color Histogram7
+ +      -0.0474 * (normalized) RGB Color Histogram10
+ +       0.5632 * (normalized) RGB Color Histogram11
+ +       0.0842 * (normalized) RGB Color Histogram16
+ +       0.5532 * (normalized) RGB Color Histogram17
+ +       0.3054 * (normalized) RGB Color Histogram20
+ +       0.9164 * (normalized) RGB Color Histogram21
+ +       0.6364 * (normalized) RGB Color Histogram22
+ +       0.5317 * (normalized) RGB Color Histogram23
+ +       0.4916 * (normalized) RGB Color Histogram25
+ +       0.4817 * (normalized) RGB Color Histogram26
+ +       0.424  * (normalized) RGB Color Histogram27
+ +      -0.0948 * (normalized) RGB Color Histogram31
+ +       0.4097 * (normalized) RGB Color Histogram32
+ +       0.2267 * (normalized) RGB Color Histogram33
+ +       0.1398 * (normalized) RGB Color Histogram36
+ +       0.3737 * (normalized) RGB Color Histogram37
+ +       0.2019 * (normalized) RGB Color Histogram38
+ +       0.5114 * (normalized) RGB Color Histogram39
+ +       0.0806 * (normalized) RGB Color Histogram41
+ +       0.2272 * (normalized) RGB Color Histogram42
+ +       0.7075 * (normalized) RGB Color Histogram43
+ +      -0.0455 * (normalized) RGB Color Histogram45
+ +       0.1103 * (normalized) RGB Color Histogram46
+ +       0.3481 * (normalized) RGB Color Histogram47
+ +       0.0543 * (normalized) RGB Color Histogram48
+ +       0.1907 * (normalized) RGB Color Histogram49
+ +       0.0785 * (normalized) RGB Color Histogram52
+ +       0.0746 * (normalized) RGB Color Histogram53
+ +       0.3665 * (normalized) RGB Color Histogram54
+ +       0.3881 * (normalized) RGB Color Histogram55
+ +      -0.0946 * (normalized) RGB Color Histogram57
+ +      -0.1073 * (normalized) RGB Color Histogram58
+ +      -0.0279 * (normalized) RGB Color Histogram59
+ +      -0      * (normalized) RGB Color Histogram60
+ +       0      * (normalized) RGB Color Histogram61
+ +       0.1556 * (normalized) RGB Color Histogram62
+ +       0.3401 * (normalized) RGB Color Histogram63
+ -       0.2544
+
+Number of kernel evaluations: 2729 (89.347% cached)
+
+Classifier for classes: K4, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.007  * (normalized) RGB Color Histogram0
+ +       0.7617 * (normalized) RGB Color Histogram1
+ +       0.7052 * (normalized) RGB Color Histogram2
+ +       1.2721 * (normalized) RGB Color Histogram4
+ +       0.283  * (normalized) RGB Color Histogram5
+ +       1.9543 * (normalized) RGB Color Histogram6
+ +       0.1982 * (normalized) RGB Color Histogram7
+ +      -0.0092 * (normalized) RGB Color Histogram10
+ +       0.2178 * (normalized) RGB Color Histogram11
+ +      -0.3384 * (normalized) RGB Color Histogram16
+ +      -0.1069 * (normalized) RGB Color Histogram17
+ +       0.0483 * (normalized) RGB Color Histogram20
+ +      -0.1267 * (normalized) RGB Color Histogram21
+ +       0.0586 * (normalized) RGB Color Histogram22
+ +       0.0455 * (normalized) RGB Color Histogram23
+ +       0.0941 * (normalized) RGB Color Histogram24
+ +       0.246  * (normalized) RGB Color Histogram25
+ +       0.2126 * (normalized) RGB Color Histogram26
+ +       0.1594 * (normalized) RGB Color Histogram27
+ +      -0.0232 * (normalized) RGB Color Histogram30
+ +      -0.0184 * (normalized) RGB Color Histogram31
+ +      -0.0497 * (normalized) RGB Color Histogram32
+ +      -0.0213 * (normalized) RGB Color Histogram33
+ +      -0.055  * (normalized) RGB Color Histogram36
+ +      -0.1381 * (normalized) RGB Color Histogram37
+ +      -0.1515 * (normalized) RGB Color Histogram38
+ +      -0.0178 * (normalized) RGB Color Histogram40
+ +      -0.0117 * (normalized) RGB Color Histogram41
+ +      -0.4286 * (normalized) RGB Color Histogram42
+ +       0.1917 * (normalized) RGB Color Histogram43
+ +      -0.0697 * (normalized) RGB Color Histogram44
+ +       0.2705 * (normalized) RGB Color Histogram45
+ +       0.1893 * (normalized) RGB Color Histogram46
+ +      -0.1354 * (normalized) RGB Color Histogram47
+ +      -0.0355 * (normalized) RGB Color Histogram48
+ +      -0.0014 * (normalized) RGB Color Histogram49
+ +      -0.0143 * (normalized) RGB Color Histogram52
+ +      -0.0739 * (normalized) RGB Color Histogram53
+ +      -0.0174 * (normalized) RGB Color Histogram54
+ +      -0.0766 * (normalized) RGB Color Histogram56
+ +      -0.002  * (normalized) RGB Color Histogram57
+ +      -0.11   * (normalized) RGB Color Histogram58
+ +      -0.0055 * (normalized) RGB Color Histogram59
+ +      -0.0735 * (normalized) RGB Color Histogram60
+ +      -0.017  * (normalized) RGB Color Histogram61
+ +       0.3649 * (normalized) RGB Color Histogram62
+ +      -0.1339 * (normalized) RGB Color Histogram63
+ -       0.8637
+
+Number of kernel evaluations: 1363 (89.13% cached)
+
+Classifier for classes: K4, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K4, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K5, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.8113 * (normalized) RGB Color Histogram0
+ +       0.5794 * (normalized) RGB Color Histogram1
+ +       0.2169 * (normalized) RGB Color Histogram2
+ +      -0.1283 * (normalized) RGB Color Histogram3
+ +       0.9734 * (normalized) RGB Color Histogram4
+ +       0.8376 * (normalized) RGB Color Histogram5
+ +       1.548  * (normalized) RGB Color Histogram6
+ +      -0.0836 * (normalized) RGB Color Histogram7
+ +      -0.0099 * (normalized) RGB Color Histogram11
+ +      -0.7537 * (normalized) RGB Color Histogram16
+ +      -0.1889 * (normalized) RGB Color Histogram17
+ +      -0.0757 * (normalized) RGB Color Histogram18
+ +       0.1891 * (normalized) RGB Color Histogram20
+ +      -0.9164 * (normalized) RGB Color Histogram21
+ +       0.2752 * (normalized) RGB Color Histogram22
+ +      -0.0297 * (normalized) RGB Color Histogram23
+ +       0.4072 * (normalized) RGB Color Histogram24
+ +       0.3418 * (normalized) RGB Color Histogram25
+ +       0.5721 * (normalized) RGB Color Histogram26
+ +       0.0908 * (normalized) RGB Color Histogram27
+ +      -0.3204 * (normalized) RGB Color Histogram32
+ +      -0.0843 * (normalized) RGB Color Histogram33
+ +      -0.4247 * (normalized) RGB Color Histogram36
+ +      -0.5388 * (normalized) RGB Color Histogram37
+ +      -0.0137 * (normalized) RGB Color Histogram38
+ +      -0.2515 * (normalized) RGB Color Histogram39
+ +       0.1546 * (normalized) RGB Color Histogram40
+ +      -0.1661 * (normalized) RGB Color Histogram41
+ +      -0.2113 * (normalized) RGB Color Histogram42
+ +      -0.3859 * (normalized) RGB Color Histogram43
+ +       0.4447 * (normalized) RGB Color Histogram45
+ +       0.4167 * (normalized) RGB Color Histogram46
+ +       0.0296 * (normalized) RGB Color Histogram47
+ +      -0.0962 * (normalized) RGB Color Histogram48
+ +      -0.0112 * (normalized) RGB Color Histogram49
+ +      -0.1389 * (normalized) RGB Color Histogram52
+ +      -0.118  * (normalized) RGB Color Histogram53
+ +      -0.2515 * (normalized) RGB Color Histogram54
+ +      -0.2515 * (normalized) RGB Color Histogram55
+ +      -0.041  * (normalized) RGB Color Histogram57
+ +       0.0217 * (normalized) RGB Color Histogram58
+ +      -0.0784 * (normalized) RGB Color Histogram59
+ +       0.0415 * (normalized) RGB Color Histogram61
+ +       0.8706 * (normalized) RGB Color Histogram62
+ +      -0.3109 * (normalized) RGB Color Histogram63
+ -       1.12  
+
+Number of kernel evaluations: 1361 (83.529% cached)
+
+Classifier for classes: K5, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K5, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K6, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K6, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K7, K8
+
+BinarySMO: No model built yet.
+
+
+
+
+Time taken to build model: 0.23 seconds
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         319               76.6827 %
+Incorrectly Classified Instances        97               23.3173 %
+Kappa statistic                          0.6896
+Mean absolute error                      0.1887
+Root mean squared error                  0.2959
+Relative absolute error                 96.466  %
+Root relative squared error             94.7085 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.070    0.000    1.000      0.070    0.130      0.251    0.716     0.243     K1
+                 0.966    0.190    0.737      0.966    0.836      0.745    0.894     0.726     K2
+                 0.842    0.118    0.615      0.842    0.711      0.646    0.897     0.570     K3
+                 0.410    0.017    0.806      0.410    0.543      0.529    0.866     0.536     K4
+                 0.938    0.000    1.000      0.938    0.968      0.963    0.957     0.947     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.767    0.092    0.808      0.767    0.727      0.692    0.888     0.670     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+   3  36   4   0   0   0   0   0 |   a = K1
+   0 143   5   0   0   0   0   0 |   b = K2
+   0   8  64   4   0   0   0   0 |   c = K3
+   0   7  29  25   0   0   0   0 |   d = K4
+   0   0   2   2  60   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.5 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         299               71.875  %
+Incorrectly Classified Instances       117               28.125  %
+Kappa statistic                          0.6256
+Mean absolute error                      0.1896
+Root mean squared error                  0.2973
+Relative absolute error                 96.8656 %
+Root relative squared error             95.154  %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.047    0.005    0.500      0.047    0.085      0.128    0.669     0.157     K1
+                 0.926    0.216    0.703      0.926    0.799      0.680    0.868     0.687     K2
+                 0.724    0.135    0.545      0.724    0.621      0.530    0.856     0.483     K3
+                 0.377    0.028    0.697      0.377    0.489      0.457    0.844     0.468     K4
+                 0.906    0.003    0.983      0.906    0.943      0.934    0.953     0.922     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.719    0.107    0.712      0.719    0.681      0.621    0.862     0.617     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+   2  36   5   0   0   0   0   0 |   a = K1
+   1 137   8   2   0   0   0   0 |   b = K2
+   0  13  55   7   1   0   0   0 |   c = K3
+   1   7  30  23   0   0   0   0 |   d = K4
+   0   2   3   1  58   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

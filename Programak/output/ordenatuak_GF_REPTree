@@ -1,0 +1,133 @@
+
+Options: -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0 
+
+=== Classifier model (full training set) ===
+
+
+REPTree
+============
+
+Gabor Features1 < 0.04 : K2 (60/12) [27/8]
+Gabor Features1 >= 0.04
+|   Gabor Features0 < 8.26
+|   |   Gabor Features1 < 0.06
+|   |   |   Gabor Features0 < 4.9
+|   |   |   |   Gabor Features0 < 3.82 : K5 (3/1) [0/0]
+|   |   |   |   Gabor Features0 >= 3.82
+|   |   |   |   |   Gabor Features1 < 0.06
+|   |   |   |   |   |   Gabor Features1 < 0.05 : K2 (4/2) [2/2]
+|   |   |   |   |   |   Gabor Features1 >= 0.05 : K4 (8/3) [3/1]
+|   |   |   |   |   Gabor Features1 >= 0.06 : K5 (2/0) [0/0]
+|   |   |   Gabor Features0 >= 4.9
+|   |   |   |   Gabor Features0 < 7.32 : K2 (16/5) [19/12]
+|   |   |   |   Gabor Features0 >= 7.32 : K1 (2/0) [1/0]
+|   |   Gabor Features1 >= 0.06
+|   |   |   Gabor Features1 < 0.08
+|   |   |   |   Gabor Features0 < 6.19 : K6 (10/0) [6/1]
+|   |   |   |   Gabor Features0 >= 6.19 : K3 (20/5) [3/3]
+|   |   |   Gabor Features1 >= 0.08
+|   |   |   |   Gabor Features1 < 0.13
+|   |   |   |   |   Gabor Features0 < 7.73
+|   |   |   |   |   |   Gabor Features0 < 6.17 : K3 (6/2) [9/4]
+|   |   |   |   |   |   Gabor Features0 >= 6.17 : K5 (18/9) [10/5]
+|   |   |   |   |   Gabor Features0 >= 7.73 : K3 (9/5) [2/1]
+|   |   |   |   Gabor Features1 >= 0.13 : K3 (17/6) [8/3]
+|   Gabor Features0 >= 8.26
+|   |   Gabor Features0 < 10.05
+|   |   |   Gabor Features0 < 9.86
+|   |   |   |   Gabor Features1 < 0.09
+|   |   |   |   |   Gabor Features1 < 0.08 : K5 (9/1) [8/4]
+|   |   |   |   |   Gabor Features1 >= 0.08
+|   |   |   |   |   |   Gabor Features0 < 9.33 : K1 (9/5) [5/4]
+|   |   |   |   |   |   Gabor Features0 >= 9.33 : K5 (5/1) [2/0]
+|   |   |   |   Gabor Features1 >= 0.09 : K5 (16/5) [9/3]
+|   |   |   Gabor Features0 >= 9.86 : K1 (2/0) [2/2]
+|   |   Gabor Features0 >= 10.05
+|   |   |   Gabor Features1 < 0.11 : K2 (43/13) [16/4]
+|   |   |   Gabor Features1 >= 0.11 : K4 (18/6) [7/4]
+
+Size of the tree : 39
+
+Time taken to build model: 0.18 seconds
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         274               65.8654 %
+Incorrectly Classified Instances       142               34.1346 %
+Kappa statistic                          0.5492
+Mean absolute error                      0.1202
+Root mean squared error                  0.2452
+Relative absolute error                 61.4486 %
+Root relative squared error             78.4765 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.233    0.029    0.476      0.233    0.313      0.282    0.795     0.319     K1
+                 0.872    0.216    0.690      0.872    0.770      0.631    0.879     0.728     K2
+                 0.592    0.085    0.608      0.592    0.600      0.512    0.884     0.564     K3
+                 0.361    0.039    0.611      0.361    0.454      0.404    0.840     0.471     K4
+                 0.828    0.082    0.646      0.828    0.726      0.676    0.945     0.694     K5
+                 0.625    0.003    0.938      0.625    0.750      0.755    0.988     0.791     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.659    0.114    0.649      0.659    0.637      0.554    0.882     0.616     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  10  25   5   0   3   0   0   0 |   a = K1
+   2 129   3   6   8   0   0   0 |   b = K2
+   4  17  45   6   4   0   0   0 |   c = K3
+   5  11  17  22   5   1   0   0 |   d = K4
+   0   5   4   2  53   0   0   0 |   e = K5
+   0   0   0   0   9  15   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.17 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         241               57.9327 %
+Incorrectly Classified Instances       175               42.0673 %
+Kappa statistic                          0.4443
+Mean absolute error                      0.1367
+Root mean squared error                  0.2773
+Relative absolute error                 69.8462 %
+Root relative squared error             88.7403 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.047    0.016    0.250      0.047    0.078      0.067    0.586     0.127     K1
+                 0.851    0.224    0.677      0.851    0.754      0.604    0.850     0.711     K2
+                 0.474    0.124    0.462      0.474    0.468      0.347    0.729     0.370     K3
+                 0.262    0.042    0.516      0.262    0.348      0.296    0.669     0.338     K4
+                 0.719    0.128    0.505      0.719    0.594      0.516    0.885     0.550     K5
+                 0.625    0.018    0.682      0.625    0.652      0.633    0.958     0.672     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.579    0.131    0.544      0.579    0.542      0.445    0.786     0.507     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+   2  28   6   1   6   0   0   0 |   a = K1
+   1 126   8   4   7   2   0   0 |   b = K2
+   1  14  36   7  15   3   0   0 |   c = K3
+   3  12  18  16  10   2   0   0 |   d = K4
+   1   5   9   3  46   0   0   0 |   e = K5
+   0   1   1   0   7  15   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

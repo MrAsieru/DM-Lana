@@ -1,0 +1,865 @@
+
+Options: -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4" 
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: K1, K2
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0956 * (normalized) MPEG-7 Color Layout0
+ +       0.0957 * (normalized) MPEG-7 Color Layout1
+ +      -0.2276 * (normalized) MPEG-7 Color Layout2
+ +      -0.0323 * (normalized) MPEG-7 Color Layout3
+ +      -0.2573 * (normalized) MPEG-7 Color Layout4
+ +       0.4605 * (normalized) MPEG-7 Color Layout5
+ +      -0.3772 * (normalized) MPEG-7 Color Layout6
+ +       0.1718 * (normalized) MPEG-7 Color Layout7
+ +      -0.0095 * (normalized) MPEG-7 Color Layout8
+ +      -0.7239 * (normalized) MPEG-7 Color Layout9
+ +       1.592  * (normalized) MPEG-7 Color Layout10
+ +       0.0403 * (normalized) MPEG-7 Color Layout11
+ +       2.9095 * (normalized) MPEG-7 Color Layout12
+ +       0.0767 * (normalized) MPEG-7 Color Layout13
+ +       2.3787 * (normalized) MPEG-7 Color Layout14
+ +       0.1585 * (normalized) MPEG-7 Color Layout15
+ +      -0.2925 * (normalized) MPEG-7 Color Layout16
+ +       0.3787 * (normalized) MPEG-7 Color Layout17
+ +      -0.1426 * (normalized) MPEG-7 Color Layout18
+ +      -0.2519 * (normalized) MPEG-7 Color Layout19
+ +       0.3238 * (normalized) MPEG-7 Color Layout20
+ +      -0.0367 * (normalized) MPEG-7 Color Layout21
+ +       0.074  * (normalized) MPEG-7 Color Layout22
+ +       0.3878 * (normalized) MPEG-7 Color Layout23
+ +      -0.3961 * (normalized) MPEG-7 Color Layout24
+ +       0.2667 * (normalized) MPEG-7 Color Layout25
+ +       0.2999 * (normalized) MPEG-7 Color Layout26
+ +      -0.0534 * (normalized) MPEG-7 Color Layout27
+ +      -0.0692 * (normalized) MPEG-7 Color Layout28
+ +       1.2848 * (normalized) MPEG-7 Color Layout29
+ +       0.8687 * (normalized) MPEG-7 Color Layout30
+ +      -0.9161 * (normalized) MPEG-7 Color Layout31
+ +       1.1387 * (normalized) MPEG-7 Color Layout32
+ -       3.486 
+
+Number of kernel evaluations: 6283 (78.054% cached)
+
+Classifier for classes: K1, K3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0462 * (normalized) MPEG-7 Color Layout0
+ +       0.4919 * (normalized) MPEG-7 Color Layout1
+ +       0.0144 * (normalized) MPEG-7 Color Layout2
+ +      -1.6897 * (normalized) MPEG-7 Color Layout3
+ +       0.1109 * (normalized) MPEG-7 Color Layout4
+ +      -1.9183 * (normalized) MPEG-7 Color Layout5
+ +      -0.6837 * (normalized) MPEG-7 Color Layout6
+ +       0.3577 * (normalized) MPEG-7 Color Layout7
+ +      -0.3827 * (normalized) MPEG-7 Color Layout8
+ +       0.8669 * (normalized) MPEG-7 Color Layout9
+ +      -2.0587 * (normalized) MPEG-7 Color Layout10
+ +       0.312  * (normalized) MPEG-7 Color Layout11
+ +      -1.5321 * (normalized) MPEG-7 Color Layout12
+ +       0.4362 * (normalized) MPEG-7 Color Layout13
+ +      -0.7424 * (normalized) MPEG-7 Color Layout14
+ +       0.617  * (normalized) MPEG-7 Color Layout15
+ +      -0.089  * (normalized) MPEG-7 Color Layout16
+ +       0.5861 * (normalized) MPEG-7 Color Layout17
+ +      -1.4874 * (normalized) MPEG-7 Color Layout18
+ +      -0.192  * (normalized) MPEG-7 Color Layout19
+ +      -0.4979 * (normalized) MPEG-7 Color Layout20
+ +      -0.6785 * (normalized) MPEG-7 Color Layout21
+ +       0.2236 * (normalized) MPEG-7 Color Layout22
+ +      -0.1311 * (normalized) MPEG-7 Color Layout23
+ +       0.606  * (normalized) MPEG-7 Color Layout24
+ +       0.2332 * (normalized) MPEG-7 Color Layout25
+ +       0.2919 * (normalized) MPEG-7 Color Layout26
+ +      -0.3139 * (normalized) MPEG-7 Color Layout27
+ +      -0.2401 * (normalized) MPEG-7 Color Layout28
+ +       0.1297 * (normalized) MPEG-7 Color Layout29
+ +       1.1642 * (normalized) MPEG-7 Color Layout30
+ +      -0.4972 * (normalized) MPEG-7 Color Layout31
+ +       1.646  * (normalized) MPEG-7 Color Layout32
+ +       1.7829
+
+Number of kernel evaluations: 851 (75.623% cached)
+
+Classifier for classes: K1, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1812 * (normalized) MPEG-7 Color Layout0
+ +       0.4153 * (normalized) MPEG-7 Color Layout1
+ +      -0.023  * (normalized) MPEG-7 Color Layout2
+ +      -1.5159 * (normalized) MPEG-7 Color Layout3
+ +      -0.0213 * (normalized) MPEG-7 Color Layout4
+ +      -1.9084 * (normalized) MPEG-7 Color Layout5
+ +      -0.4316 * (normalized) MPEG-7 Color Layout6
+ +       0.2147 * (normalized) MPEG-7 Color Layout7
+ +      -0.7244 * (normalized) MPEG-7 Color Layout8
+ +       0.2706 * (normalized) MPEG-7 Color Layout9
+ +      -1.8932 * (normalized) MPEG-7 Color Layout10
+ +       0.0551 * (normalized) MPEG-7 Color Layout11
+ +      -1.3485 * (normalized) MPEG-7 Color Layout12
+ +       0.4244 * (normalized) MPEG-7 Color Layout13
+ +      -1.1339 * (normalized) MPEG-7 Color Layout14
+ +       0.1497 * (normalized) MPEG-7 Color Layout15
+ +       0.4762 * (normalized) MPEG-7 Color Layout16
+ +       0.4554 * (normalized) MPEG-7 Color Layout17
+ +      -0.6918 * (normalized) MPEG-7 Color Layout18
+ +       0.1949 * (normalized) MPEG-7 Color Layout19
+ +       0.0113 * (normalized) MPEG-7 Color Layout20
+ +      -0.6444 * (normalized) MPEG-7 Color Layout21
+ +      -0.0263 * (normalized) MPEG-7 Color Layout22
+ +      -0.274  * (normalized) MPEG-7 Color Layout23
+ +       0.3901 * (normalized) MPEG-7 Color Layout24
+ +      -0.0138 * (normalized) MPEG-7 Color Layout25
+ +       0.306  * (normalized) MPEG-7 Color Layout26
+ +       0.0013 * (normalized) MPEG-7 Color Layout27
+ +       0.1591 * (normalized) MPEG-7 Color Layout28
+ +       0.0089 * (normalized) MPEG-7 Color Layout29
+ +       1.4052 * (normalized) MPEG-7 Color Layout30
+ +       0.0611 * (normalized) MPEG-7 Color Layout31
+ +       1.712  * (normalized) MPEG-7 Color Layout32
+ +       0.9778
+
+Number of kernel evaluations: 859 (86.005% cached)
+
+Classifier for classes: K1, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0085 * (normalized) MPEG-7 Color Layout0
+ +       0.1278 * (normalized) MPEG-7 Color Layout1
+ +      -0.6408 * (normalized) MPEG-7 Color Layout2
+ +       2.0031 * (normalized) MPEG-7 Color Layout3
+ +       0.0074 * (normalized) MPEG-7 Color Layout4
+ +       0.0821 * (normalized) MPEG-7 Color Layout5
+ +       0.3935 * (normalized) MPEG-7 Color Layout6
+ +       0.5374 * (normalized) MPEG-7 Color Layout7
+ +       0.148  * (normalized) MPEG-7 Color Layout8
+ +      -0.2725 * (normalized) MPEG-7 Color Layout9
+ +       0.2073 * (normalized) MPEG-7 Color Layout10
+ +       0.1287 * (normalized) MPEG-7 Color Layout11
+ +      -0.1983 * (normalized) MPEG-7 Color Layout12
+ +      -0.0634 * (normalized) MPEG-7 Color Layout13
+ +       0.5638 * (normalized) MPEG-7 Color Layout14
+ +      -0.4864 * (normalized) MPEG-7 Color Layout15
+ +       0.492  * (normalized) MPEG-7 Color Layout16
+ +       0.2569 * (normalized) MPEG-7 Color Layout17
+ +       0.2661 * (normalized) MPEG-7 Color Layout18
+ +      -0.779  * (normalized) MPEG-7 Color Layout19
+ +      -0.2849 * (normalized) MPEG-7 Color Layout20
+ +       0.3783 * (normalized) MPEG-7 Color Layout21
+ +      -0.5049 * (normalized) MPEG-7 Color Layout22
+ +       0.0687 * (normalized) MPEG-7 Color Layout23
+ +      -1.6776 * (normalized) MPEG-7 Color Layout24
+ +      -0.8145 * (normalized) MPEG-7 Color Layout25
+ +      -2.2765 * (normalized) MPEG-7 Color Layout26
+ +      -0.9006 * (normalized) MPEG-7 Color Layout27
+ +       0.4628 * (normalized) MPEG-7 Color Layout28
+ +      -0.3162 * (normalized) MPEG-7 Color Layout29
+ +       0.5618 * (normalized) MPEG-7 Color Layout30
+ +      -0.3944 * (normalized) MPEG-7 Color Layout31
+ +       1.3738 * (normalized) MPEG-7 Color Layout32
+ +       0.3042
+
+Number of kernel evaluations: 1823 (86.805% cached)
+
+Classifier for classes: K1, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.3233 * (normalized) MPEG-7 Color Layout0
+ +      -0.2475 * (normalized) MPEG-7 Color Layout1
+ +       0.0275 * (normalized) MPEG-7 Color Layout2
+ +       0.1212 * (normalized) MPEG-7 Color Layout3
+ +       0.0302 * (normalized) MPEG-7 Color Layout4
+ +      -0.0968 * (normalized) MPEG-7 Color Layout5
+ +      -0.1841 * (normalized) MPEG-7 Color Layout6
+ +       0.099  * (normalized) MPEG-7 Color Layout7
+ +      -0.0801 * (normalized) MPEG-7 Color Layout8
+ +      -0.2615 * (normalized) MPEG-7 Color Layout9
+ +      -0.0427 * (normalized) MPEG-7 Color Layout10
+ +       0.0625 * (normalized) MPEG-7 Color Layout11
+ +       0.0043 * (normalized) MPEG-7 Color Layout12
+ +      -0.3697 * (normalized) MPEG-7 Color Layout13
+ +      -0.1884 * (normalized) MPEG-7 Color Layout14
+ +      -0.0188 * (normalized) MPEG-7 Color Layout15
+ +      -0.1542 * (normalized) MPEG-7 Color Layout16
+ +      -0.1441 * (normalized) MPEG-7 Color Layout17
+ +      -0.3257 * (normalized) MPEG-7 Color Layout18
+ +      -0.2104 * (normalized) MPEG-7 Color Layout19
+ +      -0.0546 * (normalized) MPEG-7 Color Layout20
+ +       0.7586 * (normalized) MPEG-7 Color Layout21
+ +       0.2799 * (normalized) MPEG-7 Color Layout22
+ +      -0.4616 * (normalized) MPEG-7 Color Layout23
+ +      -0.6062 * (normalized) MPEG-7 Color Layout24
+ +       0.0913 * (normalized) MPEG-7 Color Layout25
+ +      -0.9873 * (normalized) MPEG-7 Color Layout26
+ +      -1.2678 * (normalized) MPEG-7 Color Layout27
+ +       0.0563 * (normalized) MPEG-7 Color Layout28
+ +      -0.018  * (normalized) MPEG-7 Color Layout29
+ +       0.6291 * (normalized) MPEG-7 Color Layout30
+ +      -0.0893 * (normalized) MPEG-7 Color Layout31
+ +       0.7778 * (normalized) MPEG-7 Color Layout32
+ +       0.5064
+
+Number of kernel evaluations: 685 (81.936% cached)
+
+Classifier for classes: K1, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K1, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K2, K3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.3521 * (normalized) MPEG-7 Color Layout0
+ +       0.3512 * (normalized) MPEG-7 Color Layout1
+ +       0.0107 * (normalized) MPEG-7 Color Layout2
+ +      -1.7288 * (normalized) MPEG-7 Color Layout3
+ +       0.3831 * (normalized) MPEG-7 Color Layout4
+ +      -1.8701 * (normalized) MPEG-7 Color Layout5
+ +      -0.406  * (normalized) MPEG-7 Color Layout6
+ +       0.2051 * (normalized) MPEG-7 Color Layout7
+ +      -0.4122 * (normalized) MPEG-7 Color Layout8
+ +       0.6982 * (normalized) MPEG-7 Color Layout9
+ +      -2.3029 * (normalized) MPEG-7 Color Layout10
+ +       0.3069 * (normalized) MPEG-7 Color Layout11
+ +      -1.8941 * (normalized) MPEG-7 Color Layout12
+ +      -0.2862 * (normalized) MPEG-7 Color Layout13
+ +      -1.1977 * (normalized) MPEG-7 Color Layout14
+ +       0.2251 * (normalized) MPEG-7 Color Layout15
+ +      -0.0368 * (normalized) MPEG-7 Color Layout16
+ +       0.5057 * (normalized) MPEG-7 Color Layout17
+ +      -0.8773 * (normalized) MPEG-7 Color Layout18
+ +      -0.0218 * (normalized) MPEG-7 Color Layout19
+ +      -0.5656 * (normalized) MPEG-7 Color Layout20
+ +      -0.5071 * (normalized) MPEG-7 Color Layout21
+ +       0.0939 * (normalized) MPEG-7 Color Layout22
+ +      -0.143  * (normalized) MPEG-7 Color Layout23
+ +       0.5123 * (normalized) MPEG-7 Color Layout24
+ +       0.1234 * (normalized) MPEG-7 Color Layout25
+ +       0.2782 * (normalized) MPEG-7 Color Layout26
+ +      -0.3097 * (normalized) MPEG-7 Color Layout27
+ +      -0.0935 * (normalized) MPEG-7 Color Layout28
+ +      -0.3506 * (normalized) MPEG-7 Color Layout29
+ +       0.5689 * (normalized) MPEG-7 Color Layout30
+ +      -0.0694 * (normalized) MPEG-7 Color Layout31
+ +       1.2936 * (normalized) MPEG-7 Color Layout32
+ +       2.8864
+
+Number of kernel evaluations: 2443 (80.677% cached)
+
+Classifier for classes: K2, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.5353 * (normalized) MPEG-7 Color Layout0
+ +       0.4343 * (normalized) MPEG-7 Color Layout1
+ +       0.0083 * (normalized) MPEG-7 Color Layout2
+ +      -1.4249 * (normalized) MPEG-7 Color Layout3
+ +       0.1066 * (normalized) MPEG-7 Color Layout4
+ +      -1.7879 * (normalized) MPEG-7 Color Layout5
+ +      -0.1175 * (normalized) MPEG-7 Color Layout6
+ +       0.029  * (normalized) MPEG-7 Color Layout7
+ +      -0.6414 * (normalized) MPEG-7 Color Layout8
+ +       0.3336 * (normalized) MPEG-7 Color Layout9
+ +      -2.1374 * (normalized) MPEG-7 Color Layout10
+ +       0.1191 * (normalized) MPEG-7 Color Layout11
+ +      -1.5828 * (normalized) MPEG-7 Color Layout12
+ +      -0.2462 * (normalized) MPEG-7 Color Layout13
+ +      -1.1838 * (normalized) MPEG-7 Color Layout14
+ +      -0.0756 * (normalized) MPEG-7 Color Layout15
+ +       0.1435 * (normalized) MPEG-7 Color Layout16
+ +       0.3626 * (normalized) MPEG-7 Color Layout17
+ +      -0.4171 * (normalized) MPEG-7 Color Layout18
+ +       0.1942 * (normalized) MPEG-7 Color Layout19
+ +      -0.1703 * (normalized) MPEG-7 Color Layout20
+ +      -0.3804 * (normalized) MPEG-7 Color Layout21
+ +       0.1611 * (normalized) MPEG-7 Color Layout22
+ +      -0.3035 * (normalized) MPEG-7 Color Layout23
+ +       0.4834 * (normalized) MPEG-7 Color Layout24
+ +       0.133  * (normalized) MPEG-7 Color Layout25
+ +       0.2273 * (normalized) MPEG-7 Color Layout26
+ +      -0.294  * (normalized) MPEG-7 Color Layout27
+ +       0.2025 * (normalized) MPEG-7 Color Layout28
+ +      -0.0049 * (normalized) MPEG-7 Color Layout29
+ +       0.672  * (normalized) MPEG-7 Color Layout30
+ +       0.0543 * (normalized) MPEG-7 Color Layout31
+ +       1.5219 * (normalized) MPEG-7 Color Layout32
+ +       1.8805
+
+Number of kernel evaluations: 1477 (77.669% cached)
+
+Classifier for classes: K2, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.3879 * (normalized) MPEG-7 Color Layout0
+ +      -0.2407 * (normalized) MPEG-7 Color Layout1
+ +      -0.4363 * (normalized) MPEG-7 Color Layout2
+ +       2.1896 * (normalized) MPEG-7 Color Layout3
+ +      -0.3022 * (normalized) MPEG-7 Color Layout4
+ +      -0.0204 * (normalized) MPEG-7 Color Layout5
+ +       0.3301 * (normalized) MPEG-7 Color Layout6
+ +       0.2762 * (normalized) MPEG-7 Color Layout7
+ +       0.4124 * (normalized) MPEG-7 Color Layout8
+ +      -0.1197 * (normalized) MPEG-7 Color Layout9
+ +      -0.404  * (normalized) MPEG-7 Color Layout10
+ +      -0.053  * (normalized) MPEG-7 Color Layout11
+ +      -1.2677 * (normalized) MPEG-7 Color Layout12
+ +      -0.3771 * (normalized) MPEG-7 Color Layout13
+ +       0.066  * (normalized) MPEG-7 Color Layout14
+ +       0.2561 * (normalized) MPEG-7 Color Layout15
+ +       0.1386 * (normalized) MPEG-7 Color Layout16
+ +       0.3128 * (normalized) MPEG-7 Color Layout17
+ +       0.2891 * (normalized) MPEG-7 Color Layout18
+ +      -0.3174 * (normalized) MPEG-7 Color Layout19
+ +      -0.8556 * (normalized) MPEG-7 Color Layout20
+ +       0.8758 * (normalized) MPEG-7 Color Layout21
+ +      -0.454  * (normalized) MPEG-7 Color Layout22
+ +       0.449  * (normalized) MPEG-7 Color Layout23
+ +      -1.6082 * (normalized) MPEG-7 Color Layout24
+ +      -1.1983 * (normalized) MPEG-7 Color Layout25
+ +      -2.4014 * (normalized) MPEG-7 Color Layout26
+ +      -1.4991 * (normalized) MPEG-7 Color Layout27
+ +       0.1446 * (normalized) MPEG-7 Color Layout28
+ +      -0.7679 * (normalized) MPEG-7 Color Layout29
+ +      -0.0132 * (normalized) MPEG-7 Color Layout30
+ +      -0.1144 * (normalized) MPEG-7 Color Layout31
+ +       1.1809 * (normalized) MPEG-7 Color Layout32
+ +       1.9564
+
+Number of kernel evaluations: 3443 (80.216% cached)
+
+Classifier for classes: K2, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.3606 * (normalized) MPEG-7 Color Layout0
+ +      -0.2404 * (normalized) MPEG-7 Color Layout1
+ +       0.0544 * (normalized) MPEG-7 Color Layout2
+ +       0.191  * (normalized) MPEG-7 Color Layout3
+ +      -0.0705 * (normalized) MPEG-7 Color Layout4
+ +       0.0391 * (normalized) MPEG-7 Color Layout5
+ +      -0.0962 * (normalized) MPEG-7 Color Layout6
+ +       0.0821 * (normalized) MPEG-7 Color Layout7
+ +      -0.0836 * (normalized) MPEG-7 Color Layout8
+ +      -0.1772 * (normalized) MPEG-7 Color Layout9
+ +      -0.2047 * (normalized) MPEG-7 Color Layout10
+ +      -0.0026 * (normalized) MPEG-7 Color Layout11
+ +      -0.2861 * (normalized) MPEG-7 Color Layout12
+ +      -0.2799 * (normalized) MPEG-7 Color Layout13
+ +      -0.2381 * (normalized) MPEG-7 Color Layout14
+ +       0.1768 * (normalized) MPEG-7 Color Layout15
+ +      -0.0562 * (normalized) MPEG-7 Color Layout16
+ +      -0.0477 * (normalized) MPEG-7 Color Layout17
+ +      -0.0234 * (normalized) MPEG-7 Color Layout18
+ +       0.0075 * (normalized) MPEG-7 Color Layout19
+ +      -0.1407 * (normalized) MPEG-7 Color Layout20
+ +       0.8555 * (normalized) MPEG-7 Color Layout21
+ +       0.3406 * (normalized) MPEG-7 Color Layout22
+ +      -0.43   * (normalized) MPEG-7 Color Layout23
+ +      -0.6223 * (normalized) MPEG-7 Color Layout24
+ +       0.0256 * (normalized) MPEG-7 Color Layout25
+ +      -0.9014 * (normalized) MPEG-7 Color Layout26
+ +      -1.2689 * (normalized) MPEG-7 Color Layout27
+ +       0.0073 * (normalized) MPEG-7 Color Layout28
+ +      -0.1447 * (normalized) MPEG-7 Color Layout29
+ +       0.53   * (normalized) MPEG-7 Color Layout30
+ +      -0.1723 * (normalized) MPEG-7 Color Layout31
+ +       0.8012 * (normalized) MPEG-7 Color Layout32
+ +       0.264 
+
+Number of kernel evaluations: 1386 (83.303% cached)
+
+Classifier for classes: K2, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K2, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K3, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6303 * (normalized) MPEG-7 Color Layout0
+ +       0.1866 * (normalized) MPEG-7 Color Layout1
+ +       0.5635 * (normalized) MPEG-7 Color Layout2
+ +       0.2051 * (normalized) MPEG-7 Color Layout3
+ +      -0.3997 * (normalized) MPEG-7 Color Layout4
+ +      -0.5913 * (normalized) MPEG-7 Color Layout5
+ +       0.5758 * (normalized) MPEG-7 Color Layout6
+ +      -0.5815 * (normalized) MPEG-7 Color Layout7
+ +      -0.7926 * (normalized) MPEG-7 Color Layout8
+ +      -2.8996 * (normalized) MPEG-7 Color Layout9
+ +      -0.9271 * (normalized) MPEG-7 Color Layout10
+ +      -0.1337 * (normalized) MPEG-7 Color Layout11
+ +      -0.2558 * (normalized) MPEG-7 Color Layout12
+ +      -0.1065 * (normalized) MPEG-7 Color Layout13
+ +      -0.6525 * (normalized) MPEG-7 Color Layout14
+ +      -1.355  * (normalized) MPEG-7 Color Layout15
+ +       1.5805 * (normalized) MPEG-7 Color Layout16
+ +      -0.4382 * (normalized) MPEG-7 Color Layout17
+ +       2.5318 * (normalized) MPEG-7 Color Layout18
+ +       0.4816 * (normalized) MPEG-7 Color Layout19
+ +       2.5324 * (normalized) MPEG-7 Color Layout20
+ +      -1.5503 * (normalized) MPEG-7 Color Layout21
+ +      -0.507  * (normalized) MPEG-7 Color Layout22
+ +       0.0639 * (normalized) MPEG-7 Color Layout23
+ +       0.7062 * (normalized) MPEG-7 Color Layout24
+ +      -0.7093 * (normalized) MPEG-7 Color Layout25
+ +       0.8102 * (normalized) MPEG-7 Color Layout26
+ +      -0.0725 * (normalized) MPEG-7 Color Layout27
+ +       0.474  * (normalized) MPEG-7 Color Layout28
+ +      -0.8576 * (normalized) MPEG-7 Color Layout29
+ +       2.3465 * (normalized) MPEG-7 Color Layout30
+ +       1.7296 * (normalized) MPEG-7 Color Layout31
+ +       1.1738 * (normalized) MPEG-7 Color Layout32
+ -       2.5814
+
+Number of kernel evaluations: 2419 (77.767% cached)
+
+Classifier for classes: K3, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.0334 * (normalized) MPEG-7 Color Layout0
+ +       0.1246 * (normalized) MPEG-7 Color Layout1
+ +      -0.0647 * (normalized) MPEG-7 Color Layout2
+ +       1.5116 * (normalized) MPEG-7 Color Layout3
+ +      -0.1857 * (normalized) MPEG-7 Color Layout4
+ +       1.158  * (normalized) MPEG-7 Color Layout5
+ +       0.209  * (normalized) MPEG-7 Color Layout6
+ +      -0.182  * (normalized) MPEG-7 Color Layout7
+ +       0.2523 * (normalized) MPEG-7 Color Layout8
+ +      -0.5116 * (normalized) MPEG-7 Color Layout9
+ +       0.7356 * (normalized) MPEG-7 Color Layout10
+ +       0.2921 * (normalized) MPEG-7 Color Layout11
+ +      -0.1926 * (normalized) MPEG-7 Color Layout12
+ +       0.0479 * (normalized) MPEG-7 Color Layout13
+ +       0.5496 * (normalized) MPEG-7 Color Layout14
+ +      -0.0747 * (normalized) MPEG-7 Color Layout15
+ +       0.6206 * (normalized) MPEG-7 Color Layout16
+ +       0.0581 * (normalized) MPEG-7 Color Layout17
+ +       0.4586 * (normalized) MPEG-7 Color Layout18
+ +      -0.4272 * (normalized) MPEG-7 Color Layout19
+ +       0.3215 * (normalized) MPEG-7 Color Layout20
+ +       0.5841 * (normalized) MPEG-7 Color Layout21
+ +      -0.4646 * (normalized) MPEG-7 Color Layout22
+ +       0.0286 * (normalized) MPEG-7 Color Layout23
+ +      -1.0688 * (normalized) MPEG-7 Color Layout24
+ +      -1.0747 * (normalized) MPEG-7 Color Layout25
+ +      -1.1809 * (normalized) MPEG-7 Color Layout26
+ +       0.1507 * (normalized) MPEG-7 Color Layout27
+ +       0.0252 * (normalized) MPEG-7 Color Layout28
+ +      -0.4729 * (normalized) MPEG-7 Color Layout29
+ +      -0.0868 * (normalized) MPEG-7 Color Layout30
+ +      -0.0669 * (normalized) MPEG-7 Color Layout31
+ +      -0.2279 * (normalized) MPEG-7 Color Layout32
+ -       0.7626
+
+Number of kernel evaluations: 1446 (79.098% cached)
+
+Classifier for classes: K3, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.4419 * (normalized) MPEG-7 Color Layout0
+ +      -0.375  * (normalized) MPEG-7 Color Layout1
+ +      -0.0143 * (normalized) MPEG-7 Color Layout2
+ +       0.7191 * (normalized) MPEG-7 Color Layout3
+ +      -0.1981 * (normalized) MPEG-7 Color Layout4
+ +       0.6053 * (normalized) MPEG-7 Color Layout5
+ +      -0.0392 * (normalized) MPEG-7 Color Layout6
+ +      -0.1214 * (normalized) MPEG-7 Color Layout7
+ +       0.2075 * (normalized) MPEG-7 Color Layout8
+ +      -0.3669 * (normalized) MPEG-7 Color Layout9
+ +       0.3541 * (normalized) MPEG-7 Color Layout10
+ +      -0.0286 * (normalized) MPEG-7 Color Layout11
+ +       0.4888 * (normalized) MPEG-7 Color Layout12
+ +      -0.2028 * (normalized) MPEG-7 Color Layout13
+ +       0.1775 * (normalized) MPEG-7 Color Layout14
+ +       0.061  * (normalized) MPEG-7 Color Layout15
+ +      -0.0632 * (normalized) MPEG-7 Color Layout16
+ +      -0.295  * (normalized) MPEG-7 Color Layout17
+ +       0.2641 * (normalized) MPEG-7 Color Layout18
+ +       0.083  * (normalized) MPEG-7 Color Layout19
+ +       0.1018 * (normalized) MPEG-7 Color Layout20
+ +       0.7225 * (normalized) MPEG-7 Color Layout21
+ +       0.2256 * (normalized) MPEG-7 Color Layout22
+ +      -0.2124 * (normalized) MPEG-7 Color Layout23
+ +      -0.8379 * (normalized) MPEG-7 Color Layout24
+ +      -0.2216 * (normalized) MPEG-7 Color Layout25
+ +      -0.9292 * (normalized) MPEG-7 Color Layout26
+ +      -1.267  * (normalized) MPEG-7 Color Layout27
+ +       0.0095 * (normalized) MPEG-7 Color Layout28
+ +      -0.1934 * (normalized) MPEG-7 Color Layout29
+ +       0.6842 * (normalized) MPEG-7 Color Layout30
+ +       0.1059 * (normalized) MPEG-7 Color Layout31
+ +       0.6565 * (normalized) MPEG-7 Color Layout32
+ -       1.0244
+
+Number of kernel evaluations: 675 (70.04% cached)
+
+Classifier for classes: K3, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K3, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K4, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.0298 * (normalized) MPEG-7 Color Layout0
+ +      -0.0509 * (normalized) MPEG-7 Color Layout1
+ +      -0.1256 * (normalized) MPEG-7 Color Layout2
+ +       1.4956 * (normalized) MPEG-7 Color Layout3
+ +      -0.077  * (normalized) MPEG-7 Color Layout4
+ +       1.1734 * (normalized) MPEG-7 Color Layout5
+ +       0.1344 * (normalized) MPEG-7 Color Layout6
+ +      -0.2734 * (normalized) MPEG-7 Color Layout7
+ +       0.2952 * (normalized) MPEG-7 Color Layout8
+ +      -0.1415 * (normalized) MPEG-7 Color Layout9
+ +       0.8418 * (normalized) MPEG-7 Color Layout10
+ +       0.1053 * (normalized) MPEG-7 Color Layout11
+ +      -0.1962 * (normalized) MPEG-7 Color Layout12
+ +      -0.1252 * (normalized) MPEG-7 Color Layout13
+ +       0.9639 * (normalized) MPEG-7 Color Layout14
+ +       0.1138 * (normalized) MPEG-7 Color Layout15
+ +       0.3165 * (normalized) MPEG-7 Color Layout16
+ +      -0.1249 * (normalized) MPEG-7 Color Layout17
+ +       0.1187 * (normalized) MPEG-7 Color Layout18
+ +      -0.3557 * (normalized) MPEG-7 Color Layout19
+ +       0.2441 * (normalized) MPEG-7 Color Layout20
+ +       0.4429 * (normalized) MPEG-7 Color Layout21
+ +      -0.2915 * (normalized) MPEG-7 Color Layout22
+ +       0.1616 * (normalized) MPEG-7 Color Layout23
+ +      -0.9584 * (normalized) MPEG-7 Color Layout24
+ +      -0.7606 * (normalized) MPEG-7 Color Layout25
+ +      -1.1054 * (normalized) MPEG-7 Color Layout26
+ +       0.2606 * (normalized) MPEG-7 Color Layout27
+ +       0.0012 * (normalized) MPEG-7 Color Layout28
+ +      -0.2882 * (normalized) MPEG-7 Color Layout29
+ +      -0.4394 * (normalized) MPEG-7 Color Layout30
+ +       0.0776 * (normalized) MPEG-7 Color Layout31
+ +      -0.3787 * (normalized) MPEG-7 Color Layout32
+ -       0.6476
+
+Number of kernel evaluations: 1062 (82.712% cached)
+
+Classifier for classes: K4, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.062  * (normalized) MPEG-7 Color Layout0
+ +      -0.6338 * (normalized) MPEG-7 Color Layout1
+ +      -0.2903 * (normalized) MPEG-7 Color Layout2
+ +       1.0714 * (normalized) MPEG-7 Color Layout3
+ +      -0.059  * (normalized) MPEG-7 Color Layout4
+ +       0.7957 * (normalized) MPEG-7 Color Layout5
+ +      -0.2695 * (normalized) MPEG-7 Color Layout6
+ +       0.0729 * (normalized) MPEG-7 Color Layout7
+ +       0.3764 * (normalized) MPEG-7 Color Layout8
+ +      -0.4302 * (normalized) MPEG-7 Color Layout9
+ +       0.6374 * (normalized) MPEG-7 Color Layout10
+ +      -0.011  * (normalized) MPEG-7 Color Layout11
+ +       0.6423 * (normalized) MPEG-7 Color Layout12
+ +      -0.2381 * (normalized) MPEG-7 Color Layout13
+ +       0.5072 * (normalized) MPEG-7 Color Layout14
+ +       0.2132 * (normalized) MPEG-7 Color Layout15
+ +      -0.2651 * (normalized) MPEG-7 Color Layout16
+ +       0.2127 * (normalized) MPEG-7 Color Layout17
+ +       0.2907 * (normalized) MPEG-7 Color Layout18
+ +      -0.0408 * (normalized) MPEG-7 Color Layout19
+ +      -0.2728 * (normalized) MPEG-7 Color Layout20
+ +       0.6937 * (normalized) MPEG-7 Color Layout21
+ +       0.2237 * (normalized) MPEG-7 Color Layout22
+ +       0.1124 * (normalized) MPEG-7 Color Layout23
+ +      -0.7275 * (normalized) MPEG-7 Color Layout24
+ +      -0.2733 * (normalized) MPEG-7 Color Layout25
+ +      -0.8939 * (normalized) MPEG-7 Color Layout26
+ +      -1.3762 * (normalized) MPEG-7 Color Layout27
+ +       0.1555 * (normalized) MPEG-7 Color Layout28
+ +      -0.3113 * (normalized) MPEG-7 Color Layout29
+ +       0.3594 * (normalized) MPEG-7 Color Layout30
+ +      -0.164  * (normalized) MPEG-7 Color Layout31
+ +       0.5475 * (normalized) MPEG-7 Color Layout32
+ -       1.1248
+
+Number of kernel evaluations: 776 (87.256% cached)
+
+Classifier for classes: K4, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K4, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K5, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.2881 * (normalized) MPEG-7 Color Layout0
+ +      -0.7715 * (normalized) MPEG-7 Color Layout1
+ +      -0.5351 * (normalized) MPEG-7 Color Layout2
+ +      -0.0773 * (normalized) MPEG-7 Color Layout3
+ +       0.0934 * (normalized) MPEG-7 Color Layout4
+ +       0.2252 * (normalized) MPEG-7 Color Layout5
+ +      -0.4953 * (normalized) MPEG-7 Color Layout6
+ +       0.4409 * (normalized) MPEG-7 Color Layout7
+ +      -0.3602 * (normalized) MPEG-7 Color Layout8
+ +       0.0062 * (normalized) MPEG-7 Color Layout9
+ +      -0.3937 * (normalized) MPEG-7 Color Layout10
+ +      -0.2424 * (normalized) MPEG-7 Color Layout11
+ +      -0.0491 * (normalized) MPEG-7 Color Layout12
+ +      -0.4242 * (normalized) MPEG-7 Color Layout13
+ +      -0.3353 * (normalized) MPEG-7 Color Layout14
+ +       0.344  * (normalized) MPEG-7 Color Layout15
+ +      -0.8725 * (normalized) MPEG-7 Color Layout16
+ +       0.0581 * (normalized) MPEG-7 Color Layout17
+ +      -0.1963 * (normalized) MPEG-7 Color Layout18
+ +       0.1159 * (normalized) MPEG-7 Color Layout19
+ +      -0.3771 * (normalized) MPEG-7 Color Layout20
+ +      -0.2397 * (normalized) MPEG-7 Color Layout21
+ +       0.2648 * (normalized) MPEG-7 Color Layout22
+ +      -0.6033 * (normalized) MPEG-7 Color Layout23
+ +       0.2376 * (normalized) MPEG-7 Color Layout24
+ +       1.1002 * (normalized) MPEG-7 Color Layout25
+ +      -0.4571 * (normalized) MPEG-7 Color Layout26
+ +      -2.3744 * (normalized) MPEG-7 Color Layout27
+ +      -0.358  * (normalized) MPEG-7 Color Layout28
+ +       0.3502 * (normalized) MPEG-7 Color Layout29
+ +       0.6987 * (normalized) MPEG-7 Color Layout30
+ +      -0.4237 * (normalized) MPEG-7 Color Layout31
+ +       1.0468 * (normalized) MPEG-7 Color Layout32
+ +       1.4981
+
+Number of kernel evaluations: 1941 (81.577% cached)
+
+Classifier for classes: K5, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K5, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K6, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K6, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K7, K8
+
+BinarySMO: No model built yet.
+
+
+
+
+Time taken to build model: 0.26 seconds
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         378               90.8654 %
+Incorrectly Classified Instances        38                9.1346 %
+Kappa statistic                          0.8805
+Mean absolute error                      0.1861
+Root mean squared error                  0.2915
+Relative absolute error                 95.1236 %
+Root relative squared error             93.2867 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.372    0.005    0.889      0.372    0.525      0.549    0.862     0.449     K1
+                 0.993    0.101    0.845      0.993    0.913      0.866    0.949     0.843     K2
+                 0.987    0.018    0.926      0.987    0.955      0.946    0.990     0.921     K3
+                 0.902    0.008    0.948      0.902    0.924      0.912    0.982     0.896     K4
+                 0.969    0.000    1.000      0.969    0.984      0.981    0.999     0.993     K5
+                 0.958    0.000    1.000      0.958    0.979      0.978    0.998     0.977     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.909    0.041    0.912      0.909    0.897      0.879    0.963     0.855     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  16  27   0   0   0   0   0   0 |   a = K1
+   1 147   0   0   0   0   0   0 |   b = K2
+   0   0  75   1   0   0   0   0 |   c = K3
+   0   0   6  55   0   0   0   0 |   d = K4
+   0   0   0   2  62   0   0   0 |   e = K5
+   1   0   0   0   0  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.5 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         358               86.0577 %
+Incorrectly Classified Instances        58               13.9423 %
+Kappa statistic                          0.817 
+Mean absolute error                      0.1867
+Root mean squared error                  0.2924
+Relative absolute error                 95.3872 %
+Root relative squared error             93.5937 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.186    0.016    0.571      0.186    0.281      0.287    0.792     0.284     K1
+                 0.966    0.127    0.808      0.966    0.880      0.813    0.931     0.802     K2
+                 0.987    0.041    0.843      0.987    0.909      0.891    0.978     0.839     K3
+                 0.770    0.008    0.940      0.770    0.847      0.829    0.967     0.820     K4
+                 0.969    0.003    0.984      0.969    0.976      0.972    0.996     0.972     K5
+                 0.958    0.000    1.000      0.958    0.979      0.978    0.977     0.961     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.861    0.056    0.847      0.861    0.839      0.809    0.943     0.793     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+   8  34   0   0   1   0   0   0 |   a = K1
+   5 143   0   0   0   0   0   0 |   b = K2
+   0   0  75   1   0   0   0   0 |   c = K3
+   0   0  14  47   0   0   0   0 |   d = K4
+   0   0   0   2  62   0   0   0 |   e = K5
+   1   0   0   0   0  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

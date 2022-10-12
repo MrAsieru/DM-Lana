@@ -1,0 +1,293 @@
+
+Options: -K 0 -M 1.0 -V 0.001 -S 1 
+
+=== Classifier model (full training set) ===
+
+
+RandomTree
+==========
+
+MPEG-7 Color Layout5 < 10.5
+|   MPEG-7 Color Layout9 < 16.5
+|   |   MPEG-7 Color Layout9 < 14.5
+|   |   |   MPEG-7 Color Layout3 < 9.5
+|   |   |   |   MPEG-7 Color Layout0 < 14.5 : K2 (3/0)
+|   |   |   |   MPEG-7 Color Layout0 >= 14.5
+|   |   |   |   |   MPEG-7 Color Layout3 < 5.5 : K4 (2/0)
+|   |   |   |   |   MPEG-7 Color Layout3 >= 5.5
+|   |   |   |   |   |   MPEG-7 Color Layout3 < 6.5 : K5 (2/0)
+|   |   |   |   |   |   MPEG-7 Color Layout3 >= 6.5 : K1 (1/0)
+|   |   |   MPEG-7 Color Layout3 >= 9.5
+|   |   |   |   MPEG-7 Color Layout6 < 16 : K6 (8/0)
+|   |   |   |   MPEG-7 Color Layout6 >= 16 : K5 (4/0)
+|   |   MPEG-7 Color Layout9 >= 14.5
+|   |   |   MPEG-7 Color Layout20 < 15.5
+|   |   |   |   MPEG-7 Color Layout3 < 6.5
+|   |   |   |   |   MPEG-7 Color Layout18 < 13.5 : K3 (1/0)
+|   |   |   |   |   MPEG-7 Color Layout18 >= 13.5 : K4 (6/0)
+|   |   |   |   MPEG-7 Color Layout3 >= 6.5
+|   |   |   |   |   MPEG-7 Color Layout5 < 5.5 : K4 (1/0)
+|   |   |   |   |   MPEG-7 Color Layout5 >= 5.5
+|   |   |   |   |   |   MPEG-7 Color Layout16 < 15.5
+|   |   |   |   |   |   |   MPEG-7 Color Layout13 < 16.5 : K3 (9/0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout13 >= 16.5
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout1 < 17.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout1 >= 17.5 : K4 (1/0)
+|   |   |   |   |   |   MPEG-7 Color Layout16 >= 15.5
+|   |   |   |   |   |   |   MPEG-7 Color Layout7 < 15.5 : K3 (2/0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout7 >= 15.5
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout2 < 15.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout2 >= 15.5 : K4 (2/0)
+|   |   |   MPEG-7 Color Layout20 >= 15.5
+|   |   |   |   MPEG-7 Color Layout2 < 14
+|   |   |   |   |   MPEG-7 Color Layout7 < 13.5 : K2 (2/0)
+|   |   |   |   |   MPEG-7 Color Layout7 >= 13.5
+|   |   |   |   |   |   MPEG-7 Color Layout5 < 6.5 : K4 (1/0)
+|   |   |   |   |   |   MPEG-7 Color Layout5 >= 6.5 : K6 (2/0)
+|   |   |   |   MPEG-7 Color Layout2 >= 14
+|   |   |   |   |   MPEG-7 Color Layout12 < 16 : K4 (43/0)
+|   |   |   |   |   MPEG-7 Color Layout12 >= 16
+|   |   |   |   |   |   MPEG-7 Color Layout6 < 16.5
+|   |   |   |   |   |   |   MPEG-7 Color Layout7 < 14.5 : K1 (1/0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout7 >= 14.5 : K2 (2/0)
+|   |   |   |   |   |   MPEG-7 Color Layout6 >= 16.5 : K1 (2/0)
+|   MPEG-7 Color Layout9 >= 16.5
+|   |   MPEG-7 Color Layout8 < 13.5
+|   |   |   MPEG-7 Color Layout1 < 16.5 : K2 (3/0)
+|   |   |   MPEG-7 Color Layout1 >= 16.5 : K3 (1/0)
+|   |   MPEG-7 Color Layout8 >= 13.5
+|   |   |   MPEG-7 Color Layout20 < 15.5 : K3 (45/0)
+|   |   |   MPEG-7 Color Layout20 >= 15.5
+|   |   |   |   MPEG-7 Color Layout3 < 14
+|   |   |   |   |   MPEG-7 Color Layout13 < 14.5 : K4 (1/0)
+|   |   |   |   |   MPEG-7 Color Layout13 >= 14.5
+|   |   |   |   |   |   MPEG-7 Color Layout19 < 15.5 : K3 (4/0)
+|   |   |   |   |   |   MPEG-7 Color Layout19 >= 15.5
+|   |   |   |   |   |   |   MPEG-7 Color Layout3 < 7.5
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout5 < 8
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout2 < 15.5 : K3 (2/0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout2 >= 15.5 : K4 (2/0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout5 >= 8 : K3 (1/0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout3 >= 7.5 : K3 (3/0)
+|   |   |   |   MPEG-7 Color Layout3 >= 14 : K1 (1/0)
+MPEG-7 Color Layout5 >= 10.5
+|   MPEG-7 Color Layout19 < 13.5
+|   |   MPEG-7 Color Layout7 < 17.5
+|   |   |   MPEG-7 Color Layout14 < 14.5
+|   |   |   |   MPEG-7 Color Layout1 < 10 : K2 (1/0)
+|   |   |   |   MPEG-7 Color Layout1 >= 10 : K1 (3/0)
+|   |   |   MPEG-7 Color Layout14 >= 14.5 : K2 (3/0)
+|   |   MPEG-7 Color Layout7 >= 17.5 : K2 (4/0)
+|   MPEG-7 Color Layout19 >= 13.5
+|   |   MPEG-7 Color Layout18 < 14.5
+|   |   |   MPEG-7 Color Layout10 < 14.5 : K3 (6/0)
+|   |   |   MPEG-7 Color Layout10 >= 14.5
+|   |   |   |   MPEG-7 Color Layout0 < 13
+|   |   |   |   |   MPEG-7 Color Layout15 < 15.5 : K2 (7/0)
+|   |   |   |   |   MPEG-7 Color Layout15 >= 15.5
+|   |   |   |   |   |   MPEG-7 Color Layout19 < 15.5 : K2 (3/0)
+|   |   |   |   |   |   MPEG-7 Color Layout19 >= 15.5 : K1 (1/0)
+|   |   |   |   MPEG-7 Color Layout0 >= 13
+|   |   |   |   |   MPEG-7 Color Layout18 < 12.5
+|   |   |   |   |   |   MPEG-7 Color Layout7 < 17.5
+|   |   |   |   |   |   |   MPEG-7 Color Layout0 < 24.5 : K5 (2/0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout0 >= 24.5
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout0 < 42 : K2 (1/0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout0 >= 42 : K1 (1/0)
+|   |   |   |   |   |   MPEG-7 Color Layout7 >= 17.5
+|   |   |   |   |   |   |   MPEG-7 Color Layout14 < 19 : K2 (9/0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout14 >= 19 : K1 (1/0)
+|   |   |   |   |   MPEG-7 Color Layout18 >= 12.5
+|   |   |   |   |   |   MPEG-7 Color Layout16 < 14.5
+|   |   |   |   |   |   |   MPEG-7 Color Layout8 < 18.5
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout12 < 9 : K1 (1/0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout12 >= 9 : K6 (10/0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout8 >= 18.5 : K2 (3/0)
+|   |   |   |   |   |   MPEG-7 Color Layout16 >= 14.5
+|   |   |   |   |   |   |   MPEG-7 Color Layout9 < 21.5
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout3 < 15 : K1 (1/0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout3 >= 15
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout0 < 31.5 : K5 (8/0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout0 >= 31.5
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 < 16.5
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 < 17.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 >= 17.5 : K5 (1/0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 >= 16.5 : K5 (2/0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout9 >= 21.5
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout4 < 14 : K1 (1/0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout4 >= 14
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout2 < 28.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout2 >= 28.5 : K1 (1/0)
+|   |   MPEG-7 Color Layout18 >= 14.5
+|   |   |   MPEG-7 Color Layout7 < 17.5
+|   |   |   |   MPEG-7 Color Layout2 < 12.5
+|   |   |   |   |   MPEG-7 Color Layout12 < 13.5
+|   |   |   |   |   |   MPEG-7 Color Layout7 < 16.5
+|   |   |   |   |   |   |   MPEG-7 Color Layout0 < 12.5 : K2 (1/0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout0 >= 12.5 : K5 (16/0)
+|   |   |   |   |   |   MPEG-7 Color Layout7 >= 16.5 : K6 (3/0)
+|   |   |   |   |   MPEG-7 Color Layout12 >= 13.5
+|   |   |   |   |   |   MPEG-7 Color Layout20 < 16.5
+|   |   |   |   |   |   |   MPEG-7 Color Layout11 < 14.5 : K2 (3/0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout11 >= 14.5 : K1 (3/0)
+|   |   |   |   |   |   MPEG-7 Color Layout20 >= 16.5 : K2 (3/0)
+|   |   |   |   MPEG-7 Color Layout2 >= 12.5
+|   |   |   |   |   MPEG-7 Color Layout3 < 19.5
+|   |   |   |   |   |   MPEG-7 Color Layout7 < 13.5
+|   |   |   |   |   |   |   MPEG-7 Color Layout2 < 16
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout17 < 15.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout17 >= 15.5
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout0 < 6.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout0 >= 6.5 : K1 (2/0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout2 >= 16 : K5 (2/0)
+|   |   |   |   |   |   MPEG-7 Color Layout7 >= 13.5
+|   |   |   |   |   |   |   MPEG-7 Color Layout12 < 14.5
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout2 < 16.5
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 < 15 : K1 (2/0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 >= 15
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 < 15.5 : K4 (2/0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 >= 15.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout2 >= 16.5
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout10 < 14.5 : K6 (1/0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout10 >= 14.5
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout10 < 18 : K1 (2/0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout10 >= 18 : K2 (1/0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout12 >= 14.5
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout10 < 16.5
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 < 14.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 >= 14.5
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 < 12.5 : K1 (5/0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 >= 12.5
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 < 19.5
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout4 < 16.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 < 15.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 < 14 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 >= 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 < 13.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout16 < 15.5 : K1 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout16 >= 15.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 >= 13.5 : K1 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 >= 15.5 : K2 (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout4 >= 16.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 >= 19.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout10 >= 16.5
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout2 < 16.5
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout12 < 16.5
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout0 < 4.5 : K1 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout0 >= 4.5
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout20 < 15.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout1 < 16.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout1 >= 16.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 < 15.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 >= 15.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout20 >= 15.5 : K2 (6/0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout12 >= 16.5
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 < 14.5
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 < 8.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 >= 8.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout16 < 15.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout16 >= 15.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 >= 14.5 : K2 (26/0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout2 >= 16.5 : K2 (38/0)
+|   |   |   |   |   MPEG-7 Color Layout3 >= 19.5
+|   |   |   |   |   |   MPEG-7 Color Layout10 < 21.5
+|   |   |   |   |   |   |   MPEG-7 Color Layout7 < 15.5
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout0 < 34
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 < 17 : K5 (2/0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 >= 17 : K1 (1/0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout0 >= 34 : K1 (2/0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout7 >= 15.5 : K5 (12/0)
+|   |   |   |   |   |   MPEG-7 Color Layout10 >= 21.5 : K2 (4/0)
+|   |   |   MPEG-7 Color Layout7 >= 17.5
+|   |   |   |   MPEG-7 Color Layout7 < 20
+|   |   |   |   |   MPEG-7 Color Layout3 < 17 : K2 (3/0)
+|   |   |   |   |   MPEG-7 Color Layout3 >= 17
+|   |   |   |   |   |   MPEG-7 Color Layout2 < 21.5 : K5 (13/0)
+|   |   |   |   |   |   MPEG-7 Color Layout2 >= 21.5 : K2 (2/0)
+|   |   |   |   MPEG-7 Color Layout7 >= 20 : K2 (3/0)
+
+Size of the tree : 199
+
+Time taken to build model: 0.18 seconds
+
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         416              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K1
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K2
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K3
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  43   0   0   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0   0   0 |   b = K2
+   0   0  76   0   0   0   0   0 |   c = K3
+   0   0   0  61   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.08 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         341               81.9712 %
+Incorrectly Classified Instances        75               18.0288 %
+Kappa statistic                          0.7697
+Mean absolute error                      0.0451
+Root mean squared error                  0.2123
+Relative absolute error                 23.028  %
+Root relative squared error             67.945  %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.372    0.054    0.444      0.372    0.405      0.345    0.659     0.230     K1
+                 0.838    0.078    0.855      0.838    0.846      0.763    0.880     0.774     K2
+                 0.842    0.021    0.901      0.842    0.871      0.844    0.911     0.788     K3
+                 0.836    0.028    0.836      0.836    0.836      0.808    0.904     0.723     K4
+                 0.984    0.034    0.840      0.984    0.906      0.892    0.975     0.829     K5
+                 0.958    0.013    0.821      0.958    0.885      0.880    0.973     0.790     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.820    0.047    0.814      0.820    0.815      0.768    0.886     0.722     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  16  18   1   0   6   2   0   0 |   a = K1
+  17 124   0   1   4   2   0   0 |   b = K2
+   0   2  64   9   1   0   0   0 |   c = K3
+   2   0   6  51   1   1   0   0 |   d = K4
+   0   1   0   0  63   0   0   0 |   e = K5
+   1   0   0   0   0  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

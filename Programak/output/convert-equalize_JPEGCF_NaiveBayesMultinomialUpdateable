@@ -1,0 +1,294 @@
+
+=== Classifier model (full training set) ===
+
+The class counts (including Laplace correction)
+-----------------------------------------------
+K1	44
+K2	149
+K3	77
+K4	62
+K5	65
+K6	25
+K7	1
+K8	1
+
+The probability of a word given the class
+-----------------------------------------
+	K1	K2	K3	K4	K5	K6	K7	K8	
+Histogram of JPEG Coefficients0	0.01	0	0.01	0.01	0	0	0.01	0.01	
+Histogram of JPEG Coefficients1	0.03	0.03	0.02	0.02	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients2	0.03	0.03	0.01	0.02	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients3	0.02	0.02	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients4	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients5	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients6	0	0	0	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients7	0.01	0.01	0	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients8	0.02	0.03	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients9	0.03	0.02	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients10	0.02	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients11	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients12	0	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients13	0	0	0	0	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients14	0	0	0	0	0	0.01	0.01	0.01	
+Histogram of JPEG Coefficients15	0	0	0	0	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients16	0.02	0.03	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients17	0.02	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients18	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients19	0	0	0.01	0	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients20	0	0	0	0	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients21	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients22	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients23	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients24	0.02	0.02	0.01	0	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients25	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients26	0	0	0.01	0	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients27	0	0	0	0	0.01	0	0.01	0.01	
+Histogram of JPEG Coefficients28	0	0	0	0	0.01	0	0.01	0.01	
+Histogram of JPEG Coefficients29	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients30	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients31	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients32	0.01	0.01	0	0	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients33	0	0	0	0	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients34	0	0	0	0	0.01	0	0.01	0.01	
+Histogram of JPEG Coefficients35	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients36	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients37	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients38	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients39	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients40	0.01	0.01	0	0	0.01	0	0.01	0.01	
+Histogram of JPEG Coefficients41	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients42	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients43	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients44	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients45	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients46	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients47	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients48	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients49	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients50	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients51	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients52	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients53	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients54	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients55	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients56	0	0.01	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients57	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients58	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients59	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients60	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients61	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients62	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients63	0	0	0.01	0.01	0.01	0	0.01	0.01	
+Histogram of JPEG Coefficients64	0.01	0.01	0.01	0.01	0	0	0.01	0.01	
+Histogram of JPEG Coefficients65	0.03	0.03	0.01	0.02	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients66	0.02	0.02	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients67	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients68	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients69	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients70	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients71	0.02	0.02	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients72	0.03	0.03	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients73	0.02	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients74	0	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients75	0	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients76	0	0	0.01	0.01	0	0.01	0.01	0.01	
+Histogram of JPEG Coefficients77	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients78	0	0	0.01	0.01	0	0	0.01	0.01	
+Histogram of JPEG Coefficients79	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients80	0.01	0.01	0.01	0	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients81	0	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients82	0	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients83	0	0	0	0	0.01	0	0.01	0.01	
+Histogram of JPEG Coefficients84	0	0	0.01	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients85	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients86	0	0	0.01	0.01	0	0	0.01	0.01	
+Histogram of JPEG Coefficients87	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients88	0.01	0.01	0	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients89	0	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients90	0	0	0	0	0.01	0	0.01	0.01	
+Histogram of JPEG Coefficients91	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients92	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients93	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients94	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients95	0	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients96	0.01	0.01	0	0	0	0.01	0.01	0.01	
+Histogram of JPEG Coefficients97	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients98	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients99	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients100	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients101	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients102	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients103	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients104	0.01	0.01	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients105	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients106	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients107	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients108	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients109	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients110	0	0	0.01	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients111	0	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients112	0.01	0.01	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients113	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients114	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients115	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients116	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients117	0	0	0.01	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients118	0	0	0.01	0.01	0.01	0	0.01	0.01	
+Histogram of JPEG Coefficients119	0	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients120	0.01	0.01	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients121	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients122	0	0	0.01	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients123	0	0	0.01	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients124	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients125	0	0	0.01	0.01	0.01	0	0.01	0.01	
+Histogram of JPEG Coefficients126	0	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients127	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients128	0.01	0.01	0.01	0.01	0	0	0.01	0.01	
+Histogram of JPEG Coefficients129	0.04	0.03	0.02	0.02	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients130	0.02	0.02	0.01	0.02	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients131	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients132	0.01	0.01	0.01	0.01	0	0.01	0.01	0.01	
+Histogram of JPEG Coefficients133	0.01	0.01	0.01	0.01	0	0.01	0.01	0.01	
+Histogram of JPEG Coefficients134	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients135	0.02	0.02	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients136	0.03	0.03	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients137	0.02	0.02	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients138	0.01	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients139	0	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients140	0	0	0	0.01	0	0.01	0.01	0.01	
+Histogram of JPEG Coefficients141	0	0	0	0.01	0	0	0.01	0.01	
+Histogram of JPEG Coefficients142	0	0	0.01	0.01	0	0.01	0.01	0.01	
+Histogram of JPEG Coefficients143	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients144	0.01	0.02	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients145	0	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients146	0	0	0.01	0	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients147	0	0	0	0	0.01	0	0.01	0.01	
+Histogram of JPEG Coefficients148	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients149	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients150	0	0	0	0	0	0.01	0.01	0.01	
+Histogram of JPEG Coefficients151	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients152	0.01	0.01	0	0	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients153	0	0	0	0	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients154	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients155	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients156	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients157	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients158	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients159	0	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients160	0.01	0.01	0	0	0	0.01	0.01	0.01	
+Histogram of JPEG Coefficients161	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients162	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients163	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients164	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients165	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients166	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients167	0.01	0	0	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients168	0.01	0.01	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients169	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients170	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients171	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients172	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients173	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients174	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients175	0	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients176	0.01	0.01	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients177	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients178	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients179	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients180	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients181	0	0	0	0	0	0	0.01	0.01	
+Histogram of JPEG Coefficients182	0	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients183	0	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients184	0.01	0.01	0	0	0	0.01	0.01	0.01	
+Histogram of JPEG Coefficients185	0	0	0.01	0	0	0.01	0.01	0.01	
+Histogram of JPEG Coefficients186	0	0	0	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients187	0	0	0.01	0.01	0	0.01	0.01	0.01	
+Histogram of JPEG Coefficients188	0	0	0	0.01	0	0.01	0.01	0.01	
+Histogram of JPEG Coefficients189	0	0	0.01	0.01	0	0.01	0.01	0.01	
+Histogram of JPEG Coefficients190	0	0	0.01	0.01	0.01	0.01	0.01	0.01	
+Histogram of JPEG Coefficients191	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	
+
+
+Time taken to build model: 0.17 seconds
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         302               72.5962 %
+Incorrectly Classified Instances       114               27.4038 %
+Kappa statistic                          0.6582
+Mean absolute error                      0.0682
+Root mean squared error                  0.2574
+Relative absolute error                 34.873  %
+Root relative squared error             82.3862 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.791    0.075    0.548      0.791    0.648      0.612    0.940     0.586     K1
+                 0.818    0.034    0.931      0.818    0.871      0.810    0.975     0.921     K2
+                 0.461    0.026    0.795      0.461    0.583      0.545    0.943     0.770     K3
+                 0.656    0.073    0.606      0.656    0.630      0.564    0.923     0.593     K4
+                 0.750    0.048    0.738      0.750    0.744      0.697    0.959     0.722     K5
+                 1.000    0.033    0.649      1.000    0.787      0.792    0.987     0.706     K6
+                 ?        0.029    0.000      ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.726    0.045    0.773      0.726    0.735      0.687    0.956     0.768     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  34   9   0   0   0   0   0   0 |   a = K1
+  27 121   0   0   0   0   0   0 |   b = K2
+   0   0  35  24  11   1   5   0 |   c = K3
+   1   0   9  40   6   2   3   0 |   d = K4
+   0   0   0   2  48  10   4   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.06 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         281               67.5481 %
+Incorrectly Classified Instances       135               32.4519 %
+Kappa statistic                          0.5966
+Mean absolute error                      0.081 
+Root mean squared error                  0.2808
+Relative absolute error                 41.3892 %
+Root relative squared error             89.8638 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.744    0.091    0.485      0.744    0.587      0.544    0.915     0.484     K1
+                 0.777    0.041    0.913      0.777    0.839      0.767    0.970     0.911     K2
+                 0.421    0.035    0.727      0.421    0.533      0.485    0.913     0.647     K3
+                 0.623    0.073    0.594      0.623    0.608      0.539    0.897     0.534     K4
+                 0.656    0.065    0.646      0.656    0.651      0.587    0.932     0.641     K5
+                 0.917    0.043    0.564      0.917    0.698      0.699    0.979     0.615     K6
+                 ?        0.029    0.000      ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.675    0.054    0.727      0.675    0.686      0.627    0.938     0.705     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  32  11   0   0   0   0   0   0 |   a = K1
+  33 115   0   0   0   0   0   0 |   b = K2
+   0   0  32  24  15   0   5   0 |   c = K3
+   1   0  11  38   6   2   3   0 |   d = K4
+   0   0   1   2  42  15   4   0 |   e = K5
+   0   0   0   0   2  22   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

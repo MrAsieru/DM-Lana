@@ -1,0 +1,1124 @@
+
+Options: -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 3 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5 
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=1025 #classindex=1024
+Network structure (nodes followed by parents)
+Auto Color Correlogram0(3): class 
+Auto Color Correlogram1(3): class Auto Color Correlogram0 
+Auto Color Correlogram2(3): class Auto Color Correlogram1 
+Auto Color Correlogram3(3): class Auto Color Correlogram2 
+Auto Color Correlogram4(3): class 
+Auto Color Correlogram5(4): class Auto Color Correlogram4 
+Auto Color Correlogram6(2): class Auto Color Correlogram5 Auto Color Correlogram4 
+Auto Color Correlogram7(2): class Auto Color Correlogram5 
+Auto Color Correlogram8(2): class Auto Color Correlogram7 Auto Color Correlogram4 
+Auto Color Correlogram9(2): class Auto Color Correlogram8 
+Auto Color Correlogram10(2): class Auto Color Correlogram9 
+Auto Color Correlogram11(2): class Auto Color Correlogram10 
+Auto Color Correlogram12(4): class Auto Color Correlogram8 
+Auto Color Correlogram13(2): class Auto Color Correlogram12 
+Auto Color Correlogram14(2): class Auto Color Correlogram13 
+Auto Color Correlogram15(2): class Auto Color Correlogram14 
+Auto Color Correlogram16(2): class Auto Color Correlogram0 
+Auto Color Correlogram17(2): class Auto Color Correlogram16 Auto Color Correlogram13 
+Auto Color Correlogram18(2): class Auto Color Correlogram17 Auto Color Correlogram16 
+Auto Color Correlogram19(2): class Auto Color Correlogram18 Auto Color Correlogram17 
+Auto Color Correlogram20(3): class Auto Color Correlogram8 Auto Color Correlogram7 
+Auto Color Correlogram21(3): class Auto Color Correlogram20 Auto Color Correlogram11 
+Auto Color Correlogram22(2): class Auto Color Correlogram21 Auto Color Correlogram20 
+Auto Color Correlogram23(2): class Auto Color Correlogram21 Auto Color Correlogram22 
+Auto Color Correlogram24(2): class Auto Color Correlogram12 Auto Color Correlogram11 
+Auto Color Correlogram25(2): class Auto Color Correlogram24 Auto Color Correlogram9 
+Auto Color Correlogram26(2): class Auto Color Correlogram25 
+Auto Color Correlogram27(2): class Auto Color Correlogram26 Auto Color Correlogram25 
+Auto Color Correlogram28(2): class Auto Color Correlogram26 Auto Color Correlogram14 
+Auto Color Correlogram29(2): class Auto Color Correlogram28 Auto Color Correlogram27 
+Auto Color Correlogram30(1): class 
+Auto Color Correlogram31(1): class 
+Auto Color Correlogram32(2): class Auto Color Correlogram19 Auto Color Correlogram16 
+Auto Color Correlogram33(2): class Auto Color Correlogram32 
+Auto Color Correlogram34(2): class Auto Color Correlogram33 Auto Color Correlogram32 
+Auto Color Correlogram35(2): class Auto Color Correlogram33 Auto Color Correlogram34 
+Auto Color Correlogram36(2): class Auto Color Correlogram21 Auto Color Correlogram24 
+Auto Color Correlogram37(2): class Auto Color Correlogram36 
+Auto Color Correlogram38(2): class Auto Color Correlogram37 
+Auto Color Correlogram39(2): class Auto Color Correlogram37 Auto Color Correlogram38 
+Auto Color Correlogram40(2): class Auto Color Correlogram12 Auto Color Correlogram11 
+Auto Color Correlogram41(2): class Auto Color Correlogram40 
+Auto Color Correlogram42(4): class Auto Color Correlogram40 Auto Color Correlogram41 
+Auto Color Correlogram43(2): class Auto Color Correlogram42 Auto Color Correlogram40 
+Auto Color Correlogram44(3): class Auto Color Correlogram43 Auto Color Correlogram28 
+Auto Color Correlogram45(1): class 
+Auto Color Correlogram46(1): class 
+Auto Color Correlogram47(1): class 
+Auto Color Correlogram48(3): class Auto Color Correlogram34 Auto Color Correlogram4 
+Auto Color Correlogram49(2): class Auto Color Correlogram48 
+Auto Color Correlogram50(2): class Auto Color Correlogram49 Auto Color Correlogram24 
+Auto Color Correlogram51(2): class Auto Color Correlogram50 
+Auto Color Correlogram52(3): class Auto Color Correlogram38 Auto Color Correlogram0 
+Auto Color Correlogram53(3): class Auto Color Correlogram52 
+Auto Color Correlogram54(3): class Auto Color Correlogram53 
+Auto Color Correlogram55(3): class Auto Color Correlogram53 Auto Color Correlogram54 
+Auto Color Correlogram56(2): class Auto Color Correlogram44 Auto Color Correlogram43 
+Auto Color Correlogram57(2): class Auto Color Correlogram56 
+Auto Color Correlogram58(2): class Auto Color Correlogram57 Auto Color Correlogram56 
+Auto Color Correlogram59(2): class Auto Color Correlogram57 
+Auto Color Correlogram60(4): class Auto Color Correlogram44 Auto Color Correlogram11 
+Auto Color Correlogram61(3): class Auto Color Correlogram60 
+Auto Color Correlogram62(3): class Auto Color Correlogram60 
+Auto Color Correlogram63(3): class Auto Color Correlogram62 
+Auto Color Correlogram64(3): class Auto Color Correlogram1 Auto Color Correlogram11 
+Auto Color Correlogram65(3): class Auto Color Correlogram64 
+Auto Color Correlogram66(3): class Auto Color Correlogram65 Auto Color Correlogram64 
+Auto Color Correlogram67(2): class Auto Color Correlogram66 
+Auto Color Correlogram68(2): class Auto Color Correlogram5 Auto Color Correlogram4 
+Auto Color Correlogram69(2): class Auto Color Correlogram68 Auto Color Correlogram7 
+Auto Color Correlogram70(2): class Auto Color Correlogram69 
+Auto Color Correlogram71(2): class Auto Color Correlogram70 Auto Color Correlogram13 
+Auto Color Correlogram72(3): class Auto Color Correlogram71 Auto Color Correlogram62 
+Auto Color Correlogram73(2): class Auto Color Correlogram72 
+Auto Color Correlogram74(2): class Auto Color Correlogram73 Auto Color Correlogram17 
+Auto Color Correlogram75(2): class Auto Color Correlogram74 
+Auto Color Correlogram76(3): class Auto Color Correlogram12 Auto Color Correlogram61 
+Auto Color Correlogram77(2): class Auto Color Correlogram76 Auto Color Correlogram11 
+Auto Color Correlogram78(2): class Auto Color Correlogram77 Auto Color Correlogram76 
+Auto Color Correlogram79(2): class Auto Color Correlogram77 Auto Color Correlogram78 
+Auto Color Correlogram80(2): class Auto Color Correlogram17 Auto Color Correlogram67 
+Auto Color Correlogram81(3): class Auto Color Correlogram80 Auto Color Correlogram19 
+Auto Color Correlogram82(2): class Auto Color Correlogram81 Auto Color Correlogram19 
+Auto Color Correlogram83(2): class Auto Color Correlogram82 
+Auto Color Correlogram84(3): class Auto Color Correlogram71 Auto Color Correlogram72 
+Auto Color Correlogram85(2): class Auto Color Correlogram84 
+Auto Color Correlogram86(2): class Auto Color Correlogram85 
+Auto Color Correlogram87(2): class Auto Color Correlogram85 Auto Color Correlogram11 
+Auto Color Correlogram88(3): class Auto Color Correlogram72 Auto Color Correlogram29 
+Auto Color Correlogram89(2): class Auto Color Correlogram88 Auto Color Correlogram25 
+Auto Color Correlogram90(1): class 
+Auto Color Correlogram91(1): class 
+Auto Color Correlogram92(2): class Auto Color Correlogram88 Auto Color Correlogram79 
+Auto Color Correlogram93(1): class 
+Auto Color Correlogram94(1): class 
+Auto Color Correlogram95(1): class 
+Auto Color Correlogram96(2): class Auto Color Correlogram81 Auto Color Correlogram16 
+Auto Color Correlogram97(2): class Auto Color Correlogram96 Auto Color Correlogram82 
+Auto Color Correlogram98(2): class Auto Color Correlogram97 Auto Color Correlogram50 
+Auto Color Correlogram99(2): class Auto Color Correlogram98 
+Auto Color Correlogram100(1): class 
+Auto Color Correlogram101(1): class 
+Auto Color Correlogram102(1): class 
+Auto Color Correlogram103(1): class 
+Auto Color Correlogram104(1): class 
+Auto Color Correlogram105(1): class 
+Auto Color Correlogram106(1): class 
+Auto Color Correlogram107(1): class 
+Auto Color Correlogram108(1): class 
+Auto Color Correlogram109(1): class 
+Auto Color Correlogram110(1): class 
+Auto Color Correlogram111(1): class 
+Auto Color Correlogram112(2): class Auto Color Correlogram96 Auto Color Correlogram49 
+Auto Color Correlogram113(2): class Auto Color Correlogram112 
+Auto Color Correlogram114(1): class 
+Auto Color Correlogram115(1): class 
+Auto Color Correlogram116(1): class 
+Auto Color Correlogram117(1): class 
+Auto Color Correlogram118(1): class 
+Auto Color Correlogram119(1): class 
+Auto Color Correlogram120(2): class Auto Color Correlogram44 
+Auto Color Correlogram121(2): class Auto Color Correlogram120 
+Auto Color Correlogram122(2): class Auto Color Correlogram121 
+Auto Color Correlogram123(1): class 
+Auto Color Correlogram124(1): class 
+Auto Color Correlogram125(1): class 
+Auto Color Correlogram126(1): class 
+Auto Color Correlogram127(1): class 
+Auto Color Correlogram128(2): class Auto Color Correlogram64 Auto Color Correlogram35 
+Auto Color Correlogram129(3): class Auto Color Correlogram128 Auto Color Correlogram11 
+Auto Color Correlogram130(2): class Auto Color Correlogram129 Auto Color Correlogram128 
+Auto Color Correlogram131(2): class Auto Color Correlogram130 
+Auto Color Correlogram132(3): class Auto Color Correlogram70 Auto Color Correlogram85 
+Auto Color Correlogram133(1): class 
+Auto Color Correlogram134(1): class 
+Auto Color Correlogram135(1): class 
+Auto Color Correlogram136(5): class Auto Color Correlogram72 Auto Color Correlogram11 
+Auto Color Correlogram137(5): class Auto Color Correlogram75 Auto Color Correlogram11 
+Auto Color Correlogram138(2): class Auto Color Correlogram137 Auto Color Correlogram131 
+Auto Color Correlogram139(3): class Auto Color Correlogram138 
+Auto Color Correlogram140(5): class Auto Color Correlogram76 Auto Color Correlogram11 
+Auto Color Correlogram141(3): class Auto Color Correlogram140 
+Auto Color Correlogram142(2): class Auto Color Correlogram141 
+Auto Color Correlogram143(2): class Auto Color Correlogram141 Auto Color Correlogram142 
+Auto Color Correlogram144(2): class Auto Color Correlogram82 Auto Color Correlogram131 
+Auto Color Correlogram145(2): class Auto Color Correlogram144 Auto Color Correlogram81 
+Auto Color Correlogram146(2): class Auto Color Correlogram145 Auto Color Correlogram131 
+Auto Color Correlogram147(2): class Auto Color Correlogram146 
+Auto Color Correlogram148(1): class 
+Auto Color Correlogram149(1): class 
+Auto Color Correlogram150(1): class 
+Auto Color Correlogram151(1): class 
+Auto Color Correlogram152(3): class Auto Color Correlogram89 Auto Color Correlogram75 
+Auto Color Correlogram153(1): class 
+Auto Color Correlogram154(1): class 
+Auto Color Correlogram155(1): class 
+Auto Color Correlogram156(2): class Auto Color Correlogram92 Auto Color Correlogram89 
+Auto Color Correlogram157(2): class Auto Color Correlogram156 Auto Color Correlogram43 
+Auto Color Correlogram158(2): class Auto Color Correlogram157 
+Auto Color Correlogram159(1): class 
+Auto Color Correlogram160(2): class Auto Color Correlogram96 Auto Color Correlogram27 
+Auto Color Correlogram161(2): class Auto Color Correlogram147 Auto Color Correlogram160 
+Auto Color Correlogram162(1): class 
+Auto Color Correlogram163(1): class 
+Auto Color Correlogram164(1): class 
+Auto Color Correlogram165(1): class 
+Auto Color Correlogram166(1): class 
+Auto Color Correlogram167(1): class 
+Auto Color Correlogram168(2): class Auto Color Correlogram122 Auto Color Correlogram156 
+Auto Color Correlogram169(1): class 
+Auto Color Correlogram170(1): class 
+Auto Color Correlogram171(1): class 
+Auto Color Correlogram172(2): class Auto Color Correlogram168 Auto Color Correlogram156 
+Auto Color Correlogram173(2): class Auto Color Correlogram172 
+Auto Color Correlogram174(2): class Auto Color Correlogram75 
+Auto Color Correlogram175(1): class 
+Auto Color Correlogram176(1): class 
+Auto Color Correlogram177(1): class 
+Auto Color Correlogram178(1): class 
+Auto Color Correlogram179(1): class 
+Auto Color Correlogram180(3): class Auto Color Correlogram168 Auto Color Correlogram121 
+Auto Color Correlogram181(1): class 
+Auto Color Correlogram182(1): class 
+Auto Color Correlogram183(1): class 
+Auto Color Correlogram184(3): class Auto Color Correlogram168 Auto Color Correlogram122 
+Auto Color Correlogram185(2): class Auto Color Correlogram184 
+Auto Color Correlogram186(1): class 
+Auto Color Correlogram187(1): class 
+Auto Color Correlogram188(2): class Auto Color Correlogram185 Auto Color Correlogram131 
+Auto Color Correlogram189(1): class 
+Auto Color Correlogram190(1): class 
+Auto Color Correlogram191(1): class 
+Auto Color Correlogram192(2): class Auto Color Correlogram129 Auto Color Correlogram97 
+Auto Color Correlogram193(2): class Auto Color Correlogram192 Auto Color Correlogram67 
+Auto Color Correlogram194(3): class Auto Color Correlogram192 Auto Color Correlogram146 
+Auto Color Correlogram195(2): class Auto Color Correlogram194 Auto Color Correlogram158 
+Auto Color Correlogram196(2): class Auto Color Correlogram132 Auto Color Correlogram36 
+Auto Color Correlogram197(2): class Auto Color Correlogram196 Auto Color Correlogram132 
+Auto Color Correlogram198(3): class Auto Color Correlogram197 
+Auto Color Correlogram199(3): class Auto Color Correlogram198 Auto Color Correlogram11 
+Auto Color Correlogram200(2): class Auto Color Correlogram136 Auto Color Correlogram137 
+Auto Color Correlogram201(1): class 
+Auto Color Correlogram202(1): class 
+Auto Color Correlogram203(1): class 
+Auto Color Correlogram204(3): class Auto Color Correlogram140 Auto Color Correlogram142 
+Auto Color Correlogram205(2): class Auto Color Correlogram204 
+Auto Color Correlogram206(3): class Auto Color Correlogram205 Auto Color Correlogram142 
+Auto Color Correlogram207(2): class Auto Color Correlogram205 
+Auto Color Correlogram208(2): class Auto Color Correlogram145 Auto Color Correlogram147 
+Auto Color Correlogram209(2): class Auto Color Correlogram208 Auto Color Correlogram146 
+Auto Color Correlogram210(2): class Auto Color Correlogram209 Auto Color Correlogram208 
+Auto Color Correlogram211(2): class Auto Color Correlogram209 Auto Color Correlogram67 
+Auto Color Correlogram212(3): class Auto Color Correlogram198 Auto Color Correlogram172 
+Auto Color Correlogram213(2): class Auto Color Correlogram212 
+Auto Color Correlogram214(2): class Auto Color Correlogram213 
+Auto Color Correlogram215(2): class Auto Color Correlogram214 
+Auto Color Correlogram216(4): class Auto Color Correlogram214 Auto Color Correlogram199 
+Auto Color Correlogram217(2): class Auto Color Correlogram216 
+Auto Color Correlogram218(2): class Auto Color Correlogram216 Auto Color Correlogram146 
+Auto Color Correlogram219(2): class Auto Color Correlogram216 Auto Color Correlogram11 
+Auto Color Correlogram220(3): class Auto Color Correlogram156 Auto Color Correlogram219 
+Auto Color Correlogram221(2): class Auto Color Correlogram220 Auto Color Correlogram174 
+Auto Color Correlogram222(2): class Auto Color Correlogram221 Auto Color Correlogram217 
+Auto Color Correlogram223(2): class Auto Color Correlogram222 
+Auto Color Correlogram224(2): class Auto Color Correlogram160 Auto Color Correlogram49 
+Auto Color Correlogram225(1): class 
+Auto Color Correlogram226(1): class 
+Auto Color Correlogram227(1): class 
+Auto Color Correlogram228(3): class Auto Color Correlogram212 Auto Color Correlogram185 
+Auto Color Correlogram229(2): class Auto Color Correlogram228 Auto Color Correlogram222 
+Auto Color Correlogram230(2): class Auto Color Correlogram218 Auto Color Correlogram229 
+Auto Color Correlogram231(2): class Auto Color Correlogram230 Auto Color Correlogram26 
+Auto Color Correlogram232(3): class Auto Color Correlogram228 
+Auto Color Correlogram233(3): class Auto Color Correlogram232 Auto Color Correlogram222 
+Auto Color Correlogram234(3): class Auto Color Correlogram219 Auto Color Correlogram233 
+Auto Color Correlogram235(2): class Auto Color Correlogram234 Auto Color Correlogram174 
+Auto Color Correlogram236(2): class Auto Color Correlogram216 Auto Color Correlogram218 
+Auto Color Correlogram237(2): class Auto Color Correlogram236 
+Auto Color Correlogram238(2): class Auto Color Correlogram221 Auto Color Correlogram237 
+Auto Color Correlogram239(2): class Auto Color Correlogram238 Auto Color Correlogram222 
+Auto Color Correlogram240(1): class 
+Auto Color Correlogram241(1): class 
+Auto Color Correlogram242(1): class 
+Auto Color Correlogram243(1): class 
+Auto Color Correlogram244(3): class Auto Color Correlogram180 Auto Color Correlogram152 
+Auto Color Correlogram245(2): class Auto Color Correlogram244 Auto Color Correlogram130 
+Auto Color Correlogram246(3): class Auto Color Correlogram245 
+Auto Color Correlogram247(2): class Auto Color Correlogram246 
+Auto Color Correlogram248(2): class Auto Color Correlogram173 Auto Color Correlogram245 
+Auto Color Correlogram249(2): class Auto Color Correlogram248 Auto Color Correlogram188 
+Auto Color Correlogram250(1): class 
+Auto Color Correlogram251(1): class 
+Auto Color Correlogram252(2): class Auto Color Correlogram249 
+Auto Color Correlogram253(1): class 
+Auto Color Correlogram254(1): class 
+Auto Color Correlogram255(1): class 
+Auto Color Correlogram256(4): class Auto Color Correlogram194 Auto Color Correlogram97 
+Auto Color Correlogram257(5): class Auto Color Correlogram256 Auto Color Correlogram11 
+Auto Color Correlogram258(3): class Auto Color Correlogram256 
+Auto Color Correlogram259(3): class Auto Color Correlogram258 
+Auto Color Correlogram260(2): class Auto Color Correlogram196 Auto Color Correlogram39 
+Auto Color Correlogram261(2): class Auto Color Correlogram197 Auto Color Correlogram260 
+Auto Color Correlogram262(2): class Auto Color Correlogram261 Auto Color Correlogram237 
+Auto Color Correlogram263(2): class Auto Color Correlogram10 Auto Color Correlogram214 
+Auto Color Correlogram264(2): class Auto Color Correlogram200 Auto Color Correlogram137 
+Auto Color Correlogram265(1): class 
+Auto Color Correlogram266(1): class 
+Auto Color Correlogram267(1): class 
+Auto Color Correlogram268(3): class Auto Color Correlogram204 Auto Color Correlogram12 
+Auto Color Correlogram269(2): class Auto Color Correlogram268 Auto Color Correlogram205 
+Auto Color Correlogram270(2): class Auto Color Correlogram269 Auto Color Correlogram239 
+Auto Color Correlogram271(2): class Auto Color Correlogram270 
+Auto Color Correlogram272(2): class Auto Color Correlogram256 Auto Color Correlogram79 
+Auto Color Correlogram273(2): class Auto Color Correlogram272 Auto Color Correlogram75 
+Auto Color Correlogram274(2): class Auto Color Correlogram273 Auto Color Correlogram195 
+Auto Color Correlogram275(1): class 
+Auto Color Correlogram276(4): class Auto Color Correlogram212 Auto Color Correlogram263 
+Auto Color Correlogram277(3): class Auto Color Correlogram276 Auto Color Correlogram232 
+Auto Color Correlogram278(3): class Auto Color Correlogram277 
+Auto Color Correlogram279(3): class Auto Color Correlogram278 Auto Color Correlogram246 
+Auto Color Correlogram280(2): class Auto Color Correlogram277 Auto Color Correlogram220 
+Auto Color Correlogram281(2): class Auto Color Correlogram11 Auto Color Correlogram280 
+Auto Color Correlogram282(2): class Auto Color Correlogram233 Auto Color Correlogram232 
+Auto Color Correlogram283(2): class Auto Color Correlogram282 
+Auto Color Correlogram284(2): class Auto Color Correlogram237 Auto Color Correlogram282 
+Auto Color Correlogram285(2): class Auto Color Correlogram282 Auto Color Correlogram252 
+Auto Color Correlogram286(1): class 
+Auto Color Correlogram287(1): class 
+Auto Color Correlogram288(1): class 
+Auto Color Correlogram289(1): class 
+Auto Color Correlogram290(1): class 
+Auto Color Correlogram291(1): class 
+Auto Color Correlogram292(2): class Auto Color Correlogram228 Auto Color Correlogram279 
+Auto Color Correlogram293(2): class Auto Color Correlogram292 Auto Color Correlogram87 
+Auto Color Correlogram294(2): class Auto Color Correlogram293 Auto Color Correlogram219 
+Auto Color Correlogram295(1): class 
+Auto Color Correlogram296(2): class Auto Color Correlogram244 Auto Color Correlogram249 
+Auto Color Correlogram297(2): class Auto Color Correlogram238 Auto Color Correlogram285 
+Auto Color Correlogram298(2): class Auto Color Correlogram297 
+Auto Color Correlogram299(2): class Auto Color Correlogram297 
+Auto Color Correlogram300(2): class Auto Color Correlogram298 Auto Color Correlogram252 
+Auto Color Correlogram301(2): class Auto Color Correlogram300 Auto Color Correlogram298 
+Auto Color Correlogram302(1): class 
+Auto Color Correlogram303(1): class 
+Auto Color Correlogram304(1): class 
+Auto Color Correlogram305(1): class 
+Auto Color Correlogram306(1): class 
+Auto Color Correlogram307(1): class 
+Auto Color Correlogram308(3): class Auto Color Correlogram296 Auto Color Correlogram248 
+Auto Color Correlogram309(2): class Auto Color Correlogram308 
+Auto Color Correlogram310(1): class 
+Auto Color Correlogram311(1): class 
+Auto Color Correlogram312(1): class 
+Auto Color Correlogram313(1): class 
+Auto Color Correlogram314(1): class 
+Auto Color Correlogram315(1): class 
+Auto Color Correlogram316(1): class 
+Auto Color Correlogram317(1): class 
+Auto Color Correlogram318(1): class 
+Auto Color Correlogram319(1): class 
+Auto Color Correlogram320(3): class Auto Color Correlogram257 Auto Color Correlogram272 
+Auto Color Correlogram321(2): class Auto Color Correlogram320 Auto Color Correlogram173 
+Auto Color Correlogram322(2): class Auto Color Correlogram321 Auto Color Correlogram67 
+Auto Color Correlogram323(2): class Auto Color Correlogram322 
+Auto Color Correlogram324(2): class Auto Color Correlogram260 Auto Color Correlogram146 
+Auto Color Correlogram325(1): class 
+Auto Color Correlogram326(1): class 
+Auto Color Correlogram327(1): class 
+Auto Color Correlogram328(2): class Auto Color Correlogram200 Auto Color Correlogram324 
+Auto Color Correlogram329(1): class 
+Auto Color Correlogram330(1): class 
+Auto Color Correlogram331(1): class 
+Auto Color Correlogram332(2): class Auto Color Correlogram269 Auto Color Correlogram205 
+Auto Color Correlogram333(2): class Auto Color Correlogram332 
+Auto Color Correlogram334(2): class Auto Color Correlogram333 Auto Color Correlogram332 
+Auto Color Correlogram335(1): class 
+Auto Color Correlogram336(3): class Auto Color Correlogram272 Auto Color Correlogram144 
+Auto Color Correlogram337(2): class Auto Color Correlogram336 Auto Color Correlogram236 
+Auto Color Correlogram338(2): class Auto Color Correlogram336 Auto Color Correlogram284 
+Auto Color Correlogram339(2): class Auto Color Correlogram338 
+Auto Color Correlogram340(2): class Auto Color Correlogram277 Auto Color Correlogram296 
+Auto Color Correlogram341(2): class Auto Color Correlogram292 Auto Color Correlogram264 
+Auto Color Correlogram342(1): class 
+Auto Color Correlogram343(1): class 
+Auto Color Correlogram344(2): class Auto Color Correlogram234 Auto Color Correlogram341 
+Auto Color Correlogram345(2): class Auto Color Correlogram344 Auto Color Correlogram246 
+Auto Color Correlogram346(1): class 
+Auto Color Correlogram347(1): class 
+Auto Color Correlogram348(2): class Auto Color Correlogram284 Auto Color Correlogram238 
+Auto Color Correlogram349(1): class 
+Auto Color Correlogram350(1): class 
+Auto Color Correlogram351(1): class 
+Auto Color Correlogram352(1): class 
+Auto Color Correlogram353(1): class 
+Auto Color Correlogram354(1): class 
+Auto Color Correlogram355(1): class 
+Auto Color Correlogram356(2): class Auto Color Correlogram234 Auto Color Correlogram341 
+Auto Color Correlogram357(1): class 
+Auto Color Correlogram358(1): class 
+Auto Color Correlogram359(1): class 
+Auto Color Correlogram360(1): class 
+Auto Color Correlogram361(1): class 
+Auto Color Correlogram362(1): class 
+Auto Color Correlogram363(1): class 
+Auto Color Correlogram364(1): class 
+Auto Color Correlogram365(1): class 
+Auto Color Correlogram366(1): class 
+Auto Color Correlogram367(1): class 
+Auto Color Correlogram368(4): class Auto Color Correlogram224 Auto Color Correlogram218 
+Auto Color Correlogram369(2): class Auto Color Correlogram368 Auto Color Correlogram1 
+Auto Color Correlogram370(2): class Auto Color Correlogram369 Auto Color Correlogram249 
+Auto Color Correlogram371(1): class 
+Auto Color Correlogram372(1): class 
+Auto Color Correlogram373(1): class 
+Auto Color Correlogram374(1): class 
+Auto Color Correlogram375(1): class 
+Auto Color Correlogram376(1): class 
+Auto Color Correlogram377(1): class 
+Auto Color Correlogram378(1): class 
+Auto Color Correlogram379(1): class 
+Auto Color Correlogram380(1): class 
+Auto Color Correlogram381(1): class 
+Auto Color Correlogram382(1): class 
+Auto Color Correlogram383(1): class 
+Auto Color Correlogram384(2): class Auto Color Correlogram129 Auto Color Correlogram35 
+Auto Color Correlogram385(2): class Auto Color Correlogram384 Auto Color Correlogram269 
+Auto Color Correlogram386(2): class Auto Color Correlogram384 Auto Color Correlogram128 
+Auto Color Correlogram387(2): class Auto Color Correlogram386 Auto Color Correlogram298 
+Auto Color Correlogram388(1): class 
+Auto Color Correlogram389(1): class 
+Auto Color Correlogram390(1): class 
+Auto Color Correlogram391(1): class 
+Auto Color Correlogram392(2): class Auto Color Correlogram328 Auto Color Correlogram7 
+Auto Color Correlogram393(2): class Auto Color Correlogram392 Auto Color Correlogram139 
+Auto Color Correlogram394(2): class Auto Color Correlogram393 Auto Color Correlogram231 
+Auto Color Correlogram395(1): class 
+Auto Color Correlogram396(4): class Auto Color Correlogram204 Auto Color Correlogram332 
+Auto Color Correlogram397(2): class Auto Color Correlogram396 
+Auto Color Correlogram398(2): class Auto Color Correlogram397 Auto Color Correlogram139 
+Auto Color Correlogram399(2): class Auto Color Correlogram396 Auto Color Correlogram398 
+Auto Color Correlogram400(2): class Auto Color Correlogram320 Auto Color Correlogram220 
+Auto Color Correlogram401(2): class Auto Color Correlogram400 Auto Color Correlogram262 
+Auto Color Correlogram402(1): class 
+Auto Color Correlogram403(1): class 
+Auto Color Correlogram404(2): class Auto Color Correlogram262 Auto Color Correlogram152 
+Auto Color Correlogram405(1): class 
+Auto Color Correlogram406(1): class 
+Auto Color Correlogram407(1): class 
+Auto Color Correlogram408(2): class Auto Color Correlogram173 Auto Color Correlogram393 
+Auto Color Correlogram409(1): class 
+Auto Color Correlogram410(1): class 
+Auto Color Correlogram411(1): class 
+Auto Color Correlogram412(2): class Auto Color Correlogram408 Auto Color Correlogram301 
+Auto Color Correlogram413(1): class 
+Auto Color Correlogram414(1): class 
+Auto Color Correlogram415(1): class 
+Auto Color Correlogram416(2): class Auto Color Correlogram11 Auto Color Correlogram400 
+Auto Color Correlogram417(1): class 
+Auto Color Correlogram418(1): class 
+Auto Color Correlogram419(1): class 
+Auto Color Correlogram420(2): class Auto Color Correlogram216 Auto Color Correlogram301 
+Auto Color Correlogram421(1): class 
+Auto Color Correlogram422(1): class 
+Auto Color Correlogram423(1): class 
+Auto Color Correlogram424(1): class 
+Auto Color Correlogram425(1): class 
+Auto Color Correlogram426(1): class 
+Auto Color Correlogram427(1): class 
+Auto Color Correlogram428(1): class 
+Auto Color Correlogram429(1): class 
+Auto Color Correlogram430(1): class 
+Auto Color Correlogram431(1): class 
+Auto Color Correlogram432(1): class 
+Auto Color Correlogram433(1): class 
+Auto Color Correlogram434(1): class 
+Auto Color Correlogram435(1): class 
+Auto Color Correlogram436(2): class Auto Color Correlogram294 Auto Color Correlogram412 
+Auto Color Correlogram437(1): class 
+Auto Color Correlogram438(1): class 
+Auto Color Correlogram439(1): class 
+Auto Color Correlogram440(1): class 
+Auto Color Correlogram441(1): class 
+Auto Color Correlogram442(1): class 
+Auto Color Correlogram443(1): class 
+Auto Color Correlogram444(1): class 
+Auto Color Correlogram445(1): class 
+Auto Color Correlogram446(1): class 
+Auto Color Correlogram447(1): class 
+Auto Color Correlogram448(2): class Auto Color Correlogram385 Auto Color Correlogram387 
+Auto Color Correlogram449(2): class Auto Color Correlogram448 Auto Color Correlogram385 
+Auto Color Correlogram450(2): class Auto Color Correlogram448 Auto Color Correlogram239 
+Auto Color Correlogram451(1): class 
+Auto Color Correlogram452(1): class 
+Auto Color Correlogram453(1): class 
+Auto Color Correlogram454(1): class 
+Auto Color Correlogram455(1): class 
+Auto Color Correlogram456(2): class Auto Color Correlogram392 Auto Color Correlogram345 
+Auto Color Correlogram457(2): class Auto Color Correlogram392 Auto Color Correlogram139 
+Auto Color Correlogram458(3): class Auto Color Correlogram457 Auto Color Correlogram139 
+Auto Color Correlogram459(1): class 
+Auto Color Correlogram460(3): class Auto Color Correlogram396 Auto Color Correlogram292 
+Auto Color Correlogram461(2): class Auto Color Correlogram460 Auto Color Correlogram158 
+Auto Color Correlogram462(2): class Auto Color Correlogram461 
+Auto Color Correlogram463(2): class Auto Color Correlogram462 Auto Color Correlogram461 
+Auto Color Correlogram464(2): class Auto Color Correlogram449 Auto Color Correlogram400 
+Auto Color Correlogram465(2): class Auto Color Correlogram464 Auto Color Correlogram394 
+Auto Color Correlogram466(2): class Auto Color Correlogram464 
+Auto Color Correlogram467(1): class 
+Auto Color Correlogram468(2): class Auto Color Correlogram456 Auto Color Correlogram48 
+Auto Color Correlogram469(1): class 
+Auto Color Correlogram470(1): class 
+Auto Color Correlogram471(1): class 
+Auto Color Correlogram472(2): class Auto Color Correlogram468 Auto Color Correlogram394 
+Auto Color Correlogram473(2): class Auto Color Correlogram472 Auto Color Correlogram172 
+Auto Color Correlogram474(2): class Auto Color Correlogram473 
+Auto Color Correlogram475(1): class 
+Auto Color Correlogram476(2): class Auto Color Correlogram472 Auto Color Correlogram370 
+Auto Color Correlogram477(2): class Auto Color Correlogram476 Auto Color Correlogram412 
+Auto Color Correlogram478(2): class Auto Color Correlogram477 
+Auto Color Correlogram479(1): class 
+Auto Color Correlogram480(1): class 
+Auto Color Correlogram481(1): class 
+Auto Color Correlogram482(1): class 
+Auto Color Correlogram483(1): class 
+Auto Color Correlogram484(2): class Auto Color Correlogram476 Auto Color Correlogram27 
+Auto Color Correlogram485(2): class Auto Color Correlogram484 Auto Color Correlogram13 
+Auto Color Correlogram486(1): class 
+Auto Color Correlogram487(1): class 
+Auto Color Correlogram488(2): class Auto Color Correlogram476 Auto Color Correlogram473 
+Auto Color Correlogram489(2): class Auto Color Correlogram488 
+Auto Color Correlogram490(1): class 
+Auto Color Correlogram491(1): class 
+Auto Color Correlogram492(2): class Auto Color Correlogram488 Auto Color Correlogram489 
+Auto Color Correlogram493(2): class Auto Color Correlogram492 
+Auto Color Correlogram494(1): class 
+Auto Color Correlogram495(1): class 
+Auto Color Correlogram496(3): class Auto Color Correlogram2 Auto Color Correlogram263 
+Auto Color Correlogram497(1): class 
+Auto Color Correlogram498(1): class 
+Auto Color Correlogram499(1): class 
+Auto Color Correlogram500(2): class Auto Color Correlogram488 Auto Color Correlogram473 
+Auto Color Correlogram501(2): class Auto Color Correlogram500 
+Auto Color Correlogram502(1): class 
+Auto Color Correlogram503(1): class 
+Auto Color Correlogram504(2): class Auto Color Correlogram492 
+Auto Color Correlogram505(1): class 
+Auto Color Correlogram506(1): class 
+Auto Color Correlogram507(1): class 
+Auto Color Correlogram508(1): class 
+Auto Color Correlogram509(1): class 
+Auto Color Correlogram510(1): class 
+Auto Color Correlogram511(1): class 
+Auto Color Correlogram512(2): class Auto Color Correlogram448 Auto Color Correlogram465 
+Auto Color Correlogram513(2): class Auto Color Correlogram512 Auto Color Correlogram449 
+Auto Color Correlogram514(2): class Auto Color Correlogram512 
+Auto Color Correlogram515(1): class 
+Auto Color Correlogram516(1): class 
+Auto Color Correlogram517(1): class 
+Auto Color Correlogram518(1): class 
+Auto Color Correlogram519(1): class 
+Auto Color Correlogram520(2): class Auto Color Correlogram456 Auto Color Correlogram142 
+Auto Color Correlogram521(2): class Auto Color Correlogram520 Auto Color Correlogram458 
+Auto Color Correlogram522(2): class Auto Color Correlogram521 Auto Color Correlogram458 
+Auto Color Correlogram523(2): class Auto Color Correlogram522 Auto Color Correlogram221 
+Auto Color Correlogram524(4): class Auto Color Correlogram460 Auto Color Correlogram214 
+Auto Color Correlogram525(1): class 
+Auto Color Correlogram526(1): class 
+Auto Color Correlogram527(1): class 
+Auto Color Correlogram528(2): class Auto Color Correlogram464 Auto Color Correlogram514 
+Auto Color Correlogram529(3): class Auto Color Correlogram528 Auto Color Correlogram345 
+Auto Color Correlogram530(2): class Auto Color Correlogram529 
+Auto Color Correlogram531(1): class 
+Auto Color Correlogram532(2): class Auto Color Correlogram468 Auto Color Correlogram40 
+Auto Color Correlogram533(1): class 
+Auto Color Correlogram534(1): class 
+Auto Color Correlogram535(1): class 
+Auto Color Correlogram536(2): class Auto Color Correlogram472 Auto Color Correlogram262 
+Auto Color Correlogram537(2): class Auto Color Correlogram536 Auto Color Correlogram236 
+Auto Color Correlogram538(2): class Auto Color Correlogram537 
+Auto Color Correlogram539(2): class Auto Color Correlogram538 Auto Color Correlogram485 
+Auto Color Correlogram540(3): class Auto Color Correlogram476 Auto Color Correlogram536 
+Auto Color Correlogram541(2): class Auto Color Correlogram540 Auto Color Correlogram284 
+Auto Color Correlogram542(2): class Auto Color Correlogram540 
+Auto Color Correlogram543(2): class Auto Color Correlogram542 Auto Color Correlogram478 
+Auto Color Correlogram544(2): class Auto Color Correlogram530 Auto Color Correlogram543 
+Auto Color Correlogram545(1): class 
+Auto Color Correlogram546(1): class 
+Auto Color Correlogram547(1): class 
+Auto Color Correlogram548(3): class Auto Color Correlogram536 Auto Color Correlogram278 
+Auto Color Correlogram549(2): class Auto Color Correlogram548 
+Auto Color Correlogram550(1): class 
+Auto Color Correlogram551(1): class 
+Auto Color Correlogram552(3): class Auto Color Correlogram548 Auto Color Correlogram488 
+Auto Color Correlogram553(2): class Auto Color Correlogram552 
+Auto Color Correlogram554(2): class Auto Color Correlogram553 
+Auto Color Correlogram555(1): class 
+Auto Color Correlogram556(2): class Auto Color Correlogram543 Auto Color Correlogram492 
+Auto Color Correlogram557(2): class Auto Color Correlogram556 
+Auto Color Correlogram558(1): class 
+Auto Color Correlogram559(1): class 
+Auto Color Correlogram560(3): class Auto Color Correlogram496 Auto Color Correlogram34 
+Auto Color Correlogram561(1): class 
+Auto Color Correlogram562(1): class 
+Auto Color Correlogram563(1): class 
+Auto Color Correlogram564(2): class Auto Color Correlogram548 Auto Color Correlogram552 
+Auto Color Correlogram565(1): class 
+Auto Color Correlogram566(1): class 
+Auto Color Correlogram567(1): class 
+Auto Color Correlogram568(2): class Auto Color Correlogram279 Auto Color Correlogram564 
+Auto Color Correlogram569(1): class 
+Auto Color Correlogram570(1): class 
+Auto Color Correlogram571(1): class 
+Auto Color Correlogram572(2): class Auto Color Correlogram298 Auto Color Correlogram341 
+Auto Color Correlogram573(1): class 
+Auto Color Correlogram574(1): class 
+Auto Color Correlogram575(1): class 
+Auto Color Correlogram576(3): class Auto Color Correlogram385 Auto Color Correlogram26 
+Auto Color Correlogram577(3): class Auto Color Correlogram576 
+Auto Color Correlogram578(2): class Auto Color Correlogram577 Auto Color Correlogram219 
+Auto Color Correlogram579(2): class Auto Color Correlogram578 Auto Color Correlogram514 
+Auto Color Correlogram580(2): class Auto Color Correlogram260 Auto Color Correlogram213 
+Auto Color Correlogram581(2): class Auto Color Correlogram580 Auto Color Correlogram278 
+Auto Color Correlogram582(1): class 
+Auto Color Correlogram583(1): class 
+Auto Color Correlogram584(3): class Auto Color Correlogram521 Auto Color Correlogram74 
+Auto Color Correlogram585(2): class Auto Color Correlogram584 Auto Color Correlogram523 
+Auto Color Correlogram586(3): class Auto Color Correlogram585 Auto Color Correlogram584 
+Auto Color Correlogram587(2): class Auto Color Correlogram585 Auto Color Correlogram586 
+Auto Color Correlogram588(3): class Auto Color Correlogram524 Auto Color Correlogram143 
+Auto Color Correlogram589(1): class 
+Auto Color Correlogram590(2): class Auto Color Correlogram524 Auto Color Correlogram285 
+Auto Color Correlogram591(1): class 
+Auto Color Correlogram592(2): class Auto Color Correlogram529 Auto Color Correlogram576 
+Auto Color Correlogram593(2): class Auto Color Correlogram592 Auto Color Correlogram239 
+Auto Color Correlogram594(2): class Auto Color Correlogram592 Auto Color Correlogram578 
+Auto Color Correlogram595(2): class Auto Color Correlogram594 
+Auto Color Correlogram596(2): class Auto Color Correlogram581 Auto Color Correlogram584 
+Auto Color Correlogram597(3): class Auto Color Correlogram596 Auto Color Correlogram11 
+Auto Color Correlogram598(2): class Auto Color Correlogram597 
+Auto Color Correlogram599(2): class Auto Color Correlogram598 
+Auto Color Correlogram600(1): class 
+Auto Color Correlogram601(1): class 
+Auto Color Correlogram602(1): class 
+Auto Color Correlogram603(1): class 
+Auto Color Correlogram604(2): class Auto Color Correlogram540 Auto Color Correlogram216 
+Auto Color Correlogram605(2): class Auto Color Correlogram604 Auto Color Correlogram543 
+Auto Color Correlogram606(1): class 
+Auto Color Correlogram607(2): class Auto Color Correlogram605 Auto Color Correlogram160 
+Auto Color Correlogram608(2): class Auto Color Correlogram594 Auto Color Correlogram206 
+Auto Color Correlogram609(2): class Auto Color Correlogram608 Auto Color Correlogram348 
+Auto Color Correlogram610(1): class 
+Auto Color Correlogram611(1): class 
+Auto Color Correlogram612(1): class 
+Auto Color Correlogram613(2): class Auto Color Correlogram597 Auto Color Correlogram144 
+Auto Color Correlogram614(1): class 
+Auto Color Correlogram615(1): class 
+Auto Color Correlogram616(2): class Auto Color Correlogram604 Auto Color Correlogram274 
+Auto Color Correlogram617(2): class Auto Color Correlogram616 Auto Color Correlogram160 
+Auto Color Correlogram618(1): class 
+Auto Color Correlogram619(1): class 
+Auto Color Correlogram620(2): class Auto Color Correlogram617 Auto Color Correlogram572 
+Auto Color Correlogram621(1): class 
+Auto Color Correlogram622(1): class 
+Auto Color Correlogram623(1): class 
+Auto Color Correlogram624(3): class Auto Color Correlogram609 Auto Color Correlogram137 
+Auto Color Correlogram625(3): class Auto Color Correlogram624 Auto Color Correlogram235 
+Auto Color Correlogram626(1): class 
+Auto Color Correlogram627(1): class 
+Auto Color Correlogram628(2): class Auto Color Correlogram613 Auto Color Correlogram604 
+Auto Color Correlogram629(2): class Auto Color Correlogram628 Auto Color Correlogram572 
+Auto Color Correlogram630(2): class Auto Color Correlogram629 Auto Color Correlogram262 
+Auto Color Correlogram631(2): class Auto Color Correlogram630 Auto Color Correlogram298 
+Auto Color Correlogram632(3): class Auto Color Correlogram620 Auto Color Correlogram11 
+Auto Color Correlogram633(2): class Auto Color Correlogram632 
+Auto Color Correlogram634(2): class Auto Color Correlogram633 Auto Color Correlogram235 
+Auto Color Correlogram635(2): class Auto Color Correlogram634 
+Auto Color Correlogram636(2): class Auto Color Correlogram276 Auto Color Correlogram221 
+Auto Color Correlogram637(2): class Auto Color Correlogram636 Auto Color Correlogram298 
+Auto Color Correlogram638(2): class Auto Color Correlogram637 
+Auto Color Correlogram639(2): class Auto Color Correlogram637 
+Auto Color Correlogram640(2): class Auto Color Correlogram576 Auto Color Correlogram513 
+Auto Color Correlogram641(2): class Auto Color Correlogram640 Auto Color Correlogram239 
+Auto Color Correlogram642(3): class Auto Color Correlogram641 Auto Color Correlogram578 
+Auto Color Correlogram643(2): class Auto Color Correlogram641 Auto Color Correlogram579 
+Auto Color Correlogram644(3): class Auto Color Correlogram580 Auto Color Correlogram394 
+Auto Color Correlogram645(3): class Auto Color Correlogram644 Auto Color Correlogram581 
+Auto Color Correlogram646(2): class Auto Color Correlogram645 Auto Color Correlogram71 
+Auto Color Correlogram647(2): class Auto Color Correlogram645 Auto Color Correlogram646 
+Auto Color Correlogram648(2): class Auto Color Correlogram584 Auto Color Correlogram236 
+Auto Color Correlogram649(3): class Auto Color Correlogram648 Auto Color Correlogram585 
+Auto Color Correlogram650(2): class Auto Color Correlogram649 Auto Color Correlogram648 
+Auto Color Correlogram651(1): class 
+Auto Color Correlogram652(2): class Auto Color Correlogram588 Auto Color Correlogram650 
+Auto Color Correlogram653(1): class 
+Auto Color Correlogram654(1): class 
+Auto Color Correlogram655(1): class 
+Auto Color Correlogram656(2): class Auto Color Correlogram592 Auto Color Correlogram594 
+Auto Color Correlogram657(2): class Auto Color Correlogram656 Auto Color Correlogram56 
+Auto Color Correlogram658(2): class Auto Color Correlogram657 Auto Color Correlogram656 
+Auto Color Correlogram659(2): class Auto Color Correlogram658 Auto Color Correlogram657 
+Auto Color Correlogram660(2): class Auto Color Correlogram597 Auto Color Correlogram172 
+Auto Color Correlogram661(2): class Auto Color Correlogram660 Auto Color Correlogram207 
+Auto Color Correlogram662(2): class Auto Color Correlogram661 Auto Color Correlogram660 
+Auto Color Correlogram663(2): class Auto Color Correlogram662 Auto Color Correlogram633 
+Auto Color Correlogram664(2): class Auto Color Correlogram649 Auto Color Correlogram660 
+Auto Color Correlogram665(2): class Auto Color Correlogram664 Auto Color Correlogram207 
+Auto Color Correlogram666(2): class Auto Color Correlogram665 Auto Color Correlogram664 
+Auto Color Correlogram667(2): class Auto Color Correlogram666 Auto Color Correlogram665 
+Auto Color Correlogram668(1): class 
+Auto Color Correlogram669(1): class 
+Auto Color Correlogram670(1): class 
+Auto Color Correlogram671(1): class 
+Auto Color Correlogram672(2): class Auto Color Correlogram656 Auto Color Correlogram609 
+Auto Color Correlogram673(2): class Auto Color Correlogram672 Auto Color Correlogram658 
+Auto Color Correlogram674(1): class 
+Auto Color Correlogram675(1): class 
+Auto Color Correlogram676(2): class Auto Color Correlogram628 Auto Color Correlogram661 
+Auto Color Correlogram677(2): class Auto Color Correlogram676 Auto Color Correlogram652 
+Auto Color Correlogram678(1): class 
+Auto Color Correlogram679(1): class 
+Auto Color Correlogram680(3): class Auto Color Correlogram277 Auto Color Correlogram617 
+Auto Color Correlogram681(1): class 
+Auto Color Correlogram682(1): class 
+Auto Color Correlogram683(1): class 
+Auto Color Correlogram684(4): class Auto Color Correlogram636 Auto Color Correlogram236 
+Auto Color Correlogram685(1): class 
+Auto Color Correlogram686(1): class 
+Auto Color Correlogram687(1): class 
+Auto Color Correlogram688(3): class Auto Color Correlogram624 Auto Color Correlogram333 
+Auto Color Correlogram689(1): class 
+Auto Color Correlogram690(1): class 
+Auto Color Correlogram691(1): class 
+Auto Color Correlogram692(2): class Auto Color Correlogram628 Auto Color Correlogram637 
+Auto Color Correlogram693(2): class Auto Color Correlogram692 Auto Color Correlogram239 
+Auto Color Correlogram694(2): class Auto Color Correlogram693 
+Auto Color Correlogram695(2): class Auto Color Correlogram694 Auto Color Correlogram300 
+Auto Color Correlogram696(3): class Auto Color Correlogram636 Auto Color Correlogram695 
+Auto Color Correlogram697(2): class Auto Color Correlogram696 Auto Color Correlogram158 
+Auto Color Correlogram698(3): class Auto Color Correlogram697 Auto Color Correlogram237 
+Auto Color Correlogram699(3): class Auto Color Correlogram698 
+Auto Color Correlogram700(2): class Auto Color Correlogram697 Auto Color Correlogram637 
+Auto Color Correlogram701(2): class Auto Color Correlogram700 
+Auto Color Correlogram702(2): class Auto Color Correlogram701 
+Auto Color Correlogram703(2): class Auto Color Correlogram701 Auto Color Correlogram697 
+Auto Color Correlogram704(2): class Auto Color Correlogram640 Auto Color Correlogram297 
+Auto Color Correlogram705(2): class Auto Color Correlogram704 Auto Color Correlogram485 
+Auto Color Correlogram706(2): class Auto Color Correlogram705 Auto Color Correlogram642 
+Auto Color Correlogram707(2): class Auto Color Correlogram706 Auto Color Correlogram704 
+Auto Color Correlogram708(2): class Auto Color Correlogram646 Auto Color Correlogram416 
+Auto Color Correlogram709(2): class Auto Color Correlogram708 Auto Color Correlogram647 
+Auto Color Correlogram710(2): class Auto Color Correlogram709 Auto Color Correlogram708 
+Auto Color Correlogram711(2): class Auto Color Correlogram710 Auto Color Correlogram647 
+Auto Color Correlogram712(3): class Auto Color Correlogram648 
+Auto Color Correlogram713(2): class Auto Color Correlogram712 Auto Color Correlogram539 
+Auto Color Correlogram714(3): class Auto Color Correlogram712 Auto Color Correlogram713 
+Auto Color Correlogram715(2): class Auto Color Correlogram714 
+Auto Color Correlogram716(2): class Auto Color Correlogram652 Auto Color Correlogram49 
+Auto Color Correlogram717(2): class Auto Color Correlogram716 Auto Color Correlogram652 
+Auto Color Correlogram718(2): class Auto Color Correlogram717 Auto Color Correlogram333 
+Auto Color Correlogram719(2): class Auto Color Correlogram718 Auto Color Correlogram716 
+Auto Color Correlogram720(3): class Auto Color Correlogram656 Auto Color Correlogram704 
+Auto Color Correlogram721(2): class Auto Color Correlogram720 Auto Color Correlogram568 
+Auto Color Correlogram722(2): class Auto Color Correlogram720 Auto Color Correlogram721 
+Auto Color Correlogram723(2): class Auto Color Correlogram722 Auto Color Correlogram659 
+Auto Color Correlogram724(2): class Auto Color Correlogram660 Auto Color Correlogram709 
+Auto Color Correlogram725(2): class Auto Color Correlogram724 Auto Color Correlogram665 
+Auto Color Correlogram726(2): class Auto Color Correlogram725 Auto Color Correlogram663 
+Auto Color Correlogram727(2): class Auto Color Correlogram726 
+Auto Color Correlogram728(2): class Auto Color Correlogram664 Auto Color Correlogram667 
+Auto Color Correlogram729(2): class Auto Color Correlogram728 Auto Color Correlogram667 
+Auto Color Correlogram730(2): class Auto Color Correlogram729 
+Auto Color Correlogram731(2): class Auto Color Correlogram730 Auto Color Correlogram727 
+Auto Color Correlogram732(2): class Auto Color Correlogram730 Auto Color Correlogram719 
+Auto Color Correlogram733(2): class Auto Color Correlogram732 
+Auto Color Correlogram734(2): class Auto Color Correlogram733 Auto Color Correlogram219 
+Auto Color Correlogram735(2): class Auto Color Correlogram733 Auto Color Correlogram734 
+Auto Color Correlogram736(2): class Auto Color Correlogram659 Auto Color Correlogram672 
+Auto Color Correlogram737(2): class Auto Color Correlogram736 Auto Color Correlogram723 
+Auto Color Correlogram738(1): class 
+Auto Color Correlogram739(1): class 
+Auto Color Correlogram740(1): class 
+Auto Color Correlogram741(1): class 
+Auto Color Correlogram742(1): class 
+Auto Color Correlogram743(1): class 
+Auto Color Correlogram744(1): class 
+Auto Color Correlogram745(1): class 
+Auto Color Correlogram746(1): class 
+Auto Color Correlogram747(1): class 
+Auto Color Correlogram748(1): class 
+Auto Color Correlogram749(1): class 
+Auto Color Correlogram750(1): class 
+Auto Color Correlogram751(1): class 
+Auto Color Correlogram752(3): class Auto Color Correlogram688 Auto Color Correlogram138 
+Auto Color Correlogram753(1): class 
+Auto Color Correlogram754(1): class 
+Auto Color Correlogram755(1): class 
+Auto Color Correlogram756(1): class 
+Auto Color Correlogram757(1): class 
+Auto Color Correlogram758(1): class 
+Auto Color Correlogram759(1): class 
+Auto Color Correlogram760(1): class 
+Auto Color Correlogram761(1): class 
+Auto Color Correlogram762(1): class 
+Auto Color Correlogram763(1): class 
+Auto Color Correlogram764(1): class 
+Auto Color Correlogram765(1): class 
+Auto Color Correlogram766(1): class 
+Auto Color Correlogram767(1): class 
+Auto Color Correlogram768(3): class Auto Color Correlogram704 Auto Color Correlogram272 
+Auto Color Correlogram769(3): class Auto Color Correlogram768 Auto Color Correlogram309 
+Auto Color Correlogram770(2): class Auto Color Correlogram769 
+Auto Color Correlogram771(2): class Auto Color Correlogram770 
+Auto Color Correlogram772(2): class Auto Color Correlogram708 Auto Color Correlogram725 
+Auto Color Correlogram773(3): class Auto Color Correlogram772 Auto Color Correlogram710 
+Auto Color Correlogram774(2): class Auto Color Correlogram773 
+Auto Color Correlogram775(2): class Auto Color Correlogram774 
+Auto Color Correlogram776(2): class Auto Color Correlogram713 Auto Color Correlogram231 
+Auto Color Correlogram777(2): class Auto Color Correlogram776 Auto Color Correlogram715 
+Auto Color Correlogram778(2): class Auto Color Correlogram777 Auto Color Correlogram776 
+Auto Color Correlogram779(2): class Auto Color Correlogram777 Auto Color Correlogram778 
+Auto Color Correlogram780(2): class Auto Color Correlogram717 Auto Color Correlogram50 
+Auto Color Correlogram781(3): class Auto Color Correlogram780 Auto Color Correlogram13 
+Auto Color Correlogram782(2): class Auto Color Correlogram781 
+Auto Color Correlogram783(2): class Auto Color Correlogram782 Auto Color Correlogram781 
+Auto Color Correlogram784(2): class Auto Color Correlogram769 Auto Color Correlogram7 
+Auto Color Correlogram785(2): class Auto Color Correlogram784 Auto Color Correlogram722 
+Auto Color Correlogram786(2): class Auto Color Correlogram785 Auto Color Correlogram707 
+Auto Color Correlogram787(2): class Auto Color Correlogram786 
+Auto Color Correlogram788(2): class Auto Color Correlogram724 Auto Color Correlogram730 
+Auto Color Correlogram789(2): class Auto Color Correlogram788 Auto Color Correlogram13 
+Auto Color Correlogram790(2): class Auto Color Correlogram789 
+Auto Color Correlogram791(1): class 
+Auto Color Correlogram792(2): class Auto Color Correlogram728 Auto Color Correlogram14 
+Auto Color Correlogram793(2): class Auto Color Correlogram792 Auto Color Correlogram205 
+Auto Color Correlogram794(2): class Auto Color Correlogram793 
+Auto Color Correlogram795(1): class 
+Auto Color Correlogram796(1): class 
+Auto Color Correlogram797(1): class 
+Auto Color Correlogram798(1): class 
+Auto Color Correlogram799(1): class 
+Auto Color Correlogram800(2): class Auto Color Correlogram721 Auto Color Correlogram51 
+Auto Color Correlogram801(2): class Auto Color Correlogram800 
+Auto Color Correlogram802(1): class 
+Auto Color Correlogram803(1): class 
+Auto Color Correlogram804(1): class 
+Auto Color Correlogram805(1): class 
+Auto Color Correlogram806(1): class 
+Auto Color Correlogram807(1): class 
+Auto Color Correlogram808(1): class 
+Auto Color Correlogram809(1): class 
+Auto Color Correlogram810(1): class 
+Auto Color Correlogram811(1): class 
+Auto Color Correlogram812(1): class 
+Auto Color Correlogram813(1): class 
+Auto Color Correlogram814(1): class 
+Auto Color Correlogram815(1): class 
+Auto Color Correlogram816(3): class Auto Color Correlogram752 Auto Color Correlogram639 
+Auto Color Correlogram817(1): class 
+Auto Color Correlogram818(1): class 
+Auto Color Correlogram819(1): class 
+Auto Color Correlogram820(1): class 
+Auto Color Correlogram821(1): class 
+Auto Color Correlogram822(1): class 
+Auto Color Correlogram823(1): class 
+Auto Color Correlogram824(1): class 
+Auto Color Correlogram825(1): class 
+Auto Color Correlogram826(1): class 
+Auto Color Correlogram827(1): class 
+Auto Color Correlogram828(1): class 
+Auto Color Correlogram829(1): class 
+Auto Color Correlogram830(1): class 
+Auto Color Correlogram831(1): class 
+Auto Color Correlogram832(3): class Auto Color Correlogram769 Auto Color Correlogram420 
+Auto Color Correlogram833(3): class Auto Color Correlogram832 Auto Color Correlogram769 
+Auto Color Correlogram834(2): class Auto Color Correlogram833 
+Auto Color Correlogram835(2): class Auto Color Correlogram834 
+Auto Color Correlogram836(2): class Auto Color Correlogram773 Auto Color Correlogram770 
+Auto Color Correlogram837(2): class Auto Color Correlogram836 Auto Color Correlogram13 
+Auto Color Correlogram838(2): class Auto Color Correlogram836 Auto Color Correlogram775 
+Auto Color Correlogram839(2): class Auto Color Correlogram838 
+Auto Color Correlogram840(2): class Auto Color Correlogram777 Auto Color Correlogram780 
+Auto Color Correlogram841(2): class Auto Color Correlogram840 Auto Color Correlogram50 
+Auto Color Correlogram842(2): class Auto Color Correlogram840 Auto Color Correlogram777 
+Auto Color Correlogram843(2): class Auto Color Correlogram842 Auto Color Correlogram838 
+Auto Color Correlogram844(4): class Auto Color Correlogram524 Auto Color Correlogram780 
+Auto Color Correlogram845(3): class Auto Color Correlogram844 Auto Color Correlogram476 
+Auto Color Correlogram846(2): class Auto Color Correlogram845 Auto Color Correlogram794 
+Auto Color Correlogram847(2): class Auto Color Correlogram845 Auto Color Correlogram846 
+Auto Color Correlogram848(3): class Auto Color Correlogram785 Auto Color Correlogram139 
+Auto Color Correlogram849(2): class Auto Color Correlogram848 Auto Color Correlogram284 
+Auto Color Correlogram850(2): class Auto Color Correlogram848 
+Auto Color Correlogram851(1): class 
+Auto Color Correlogram852(2): class Auto Color Correlogram789 Auto Color Correlogram720 
+Auto Color Correlogram853(2): class Auto Color Correlogram852 Auto Color Correlogram731 
+Auto Color Correlogram854(2): class Auto Color Correlogram853 
+Auto Color Correlogram855(1): class 
+Auto Color Correlogram856(2): class Auto Color Correlogram730 Auto Color Correlogram792 
+Auto Color Correlogram857(2): class Auto Color Correlogram856 Auto Color Correlogram792 
+Auto Color Correlogram858(1): class 
+Auto Color Correlogram859(1): class 
+Auto Color Correlogram860(1): class 
+Auto Color Correlogram861(1): class 
+Auto Color Correlogram862(1): class 
+Auto Color Correlogram863(1): class 
+Auto Color Correlogram864(2): class Auto Color Correlogram849 Auto Color Correlogram333 
+Auto Color Correlogram865(1): class 
+Auto Color Correlogram866(1): class 
+Auto Color Correlogram867(1): class 
+Auto Color Correlogram868(1): class 
+Auto Color Correlogram869(1): class 
+Auto Color Correlogram870(1): class 
+Auto Color Correlogram871(1): class 
+Auto Color Correlogram872(1): class 
+Auto Color Correlogram873(1): class 
+Auto Color Correlogram874(1): class 
+Auto Color Correlogram875(1): class 
+Auto Color Correlogram876(1): class 
+Auto Color Correlogram877(1): class 
+Auto Color Correlogram878(1): class 
+Auto Color Correlogram879(1): class 
+Auto Color Correlogram880(1): class 
+Auto Color Correlogram881(1): class 
+Auto Color Correlogram882(1): class 
+Auto Color Correlogram883(1): class 
+Auto Color Correlogram884(1): class 
+Auto Color Correlogram885(1): class 
+Auto Color Correlogram886(1): class 
+Auto Color Correlogram887(1): class 
+Auto Color Correlogram888(1): class 
+Auto Color Correlogram889(1): class 
+Auto Color Correlogram890(1): class 
+Auto Color Correlogram891(1): class 
+Auto Color Correlogram892(1): class 
+Auto Color Correlogram893(1): class 
+Auto Color Correlogram894(1): class 
+Auto Color Correlogram895(1): class 
+Auto Color Correlogram896(2): class Auto Color Correlogram834 Auto Color Correlogram130 
+Auto Color Correlogram897(3): class Auto Color Correlogram896 Auto Color Correlogram386 
+Auto Color Correlogram898(2): class Auto Color Correlogram897 Auto Color Correlogram896 
+Auto Color Correlogram899(2): class Auto Color Correlogram898 Auto Color Correlogram770 
+Auto Color Correlogram900(3): class Auto Color Correlogram839 Auto Color Correlogram263 
+Auto Color Correlogram901(2): class Auto Color Correlogram900 Auto Color Correlogram139 
+Auto Color Correlogram902(2): class Auto Color Correlogram900 Auto Color Correlogram838 
+Auto Color Correlogram903(2): class Auto Color Correlogram902 Auto Color Correlogram839 
+Auto Color Correlogram904(2): class Auto Color Correlogram841 Auto Color Correlogram784 
+Auto Color Correlogram905(3): class Auto Color Correlogram904 Auto Color Correlogram843 
+Auto Color Correlogram906(2): class Auto Color Correlogram905 Auto Color Correlogram731 
+Auto Color Correlogram907(2): class Auto Color Correlogram905 Auto Color Correlogram843 
+Auto Color Correlogram908(4): class Auto Color Correlogram844 Auto Color Correlogram537 
+Auto Color Correlogram909(2): class Auto Color Correlogram908 Auto Color Correlogram846 
+Auto Color Correlogram910(2): class Auto Color Correlogram909 Auto Color Correlogram847 
+Auto Color Correlogram911(2): class Auto Color Correlogram909 Auto Color Correlogram846 
+Auto Color Correlogram912(3): class Auto Color Correlogram832 Auto Color Correlogram706 
+Auto Color Correlogram913(2): class Auto Color Correlogram912 Auto Color Correlogram50 
+Auto Color Correlogram914(2): class Auto Color Correlogram913 
+Auto Color Correlogram915(2): class Auto Color Correlogram914 Auto Color Correlogram854 
+Auto Color Correlogram916(3): class Auto Color Correlogram852 Auto Color Correlogram568 
+Auto Color Correlogram917(3): class Auto Color Correlogram916 Auto Color Correlogram733 
+Auto Color Correlogram918(2): class Auto Color Correlogram917 
+Auto Color Correlogram919(2): class Auto Color Correlogram918 
+Auto Color Correlogram920(3): class Auto Color Correlogram908 Auto Color Correlogram856 
+Auto Color Correlogram921(2): class Auto Color Correlogram920 
+Auto Color Correlogram922(2): class Auto Color Correlogram921 Auto Color Correlogram910 
+Auto Color Correlogram923(2): class Auto Color Correlogram922 
+Auto Color Correlogram924(2): class Auto Color Correlogram847 Auto Color Correlogram910 
+Auto Color Correlogram925(2): class Auto Color Correlogram924 Auto Color Correlogram333 
+Auto Color Correlogram926(1): class 
+Auto Color Correlogram927(1): class 
+Auto Color Correlogram928(2): class Auto Color Correlogram646 Auto Color Correlogram864 
+Auto Color Correlogram929(2): class Auto Color Correlogram928 Auto Color Correlogram857 
+Auto Color Correlogram930(1): class 
+Auto Color Correlogram931(1): class 
+Auto Color Correlogram932(2): class Auto Color Correlogram920 Auto Color Correlogram789 
+Auto Color Correlogram933(1): class 
+Auto Color Correlogram934(1): class 
+Auto Color Correlogram935(1): class 
+Auto Color Correlogram936(3): class Auto Color Correlogram58 Auto Color Correlogram639 
+Auto Color Correlogram937(1): class 
+Auto Color Correlogram938(1): class 
+Auto Color Correlogram939(1): class 
+Auto Color Correlogram940(1): class 
+Auto Color Correlogram941(1): class 
+Auto Color Correlogram942(1): class 
+Auto Color Correlogram943(1): class 
+Auto Color Correlogram944(3): class Auto Color Correlogram688 Auto Color Correlogram588 
+Auto Color Correlogram945(2): class Auto Color Correlogram944 Auto Color Correlogram50 
+Auto Color Correlogram946(1): class 
+Auto Color Correlogram947(1): class 
+Auto Color Correlogram948(3): class Auto Color Correlogram920 Auto Color Correlogram228 
+Auto Color Correlogram949(1): class 
+Auto Color Correlogram950(1): class 
+Auto Color Correlogram951(1): class 
+Auto Color Correlogram952(1): class 
+Auto Color Correlogram953(1): class 
+Auto Color Correlogram954(1): class 
+Auto Color Correlogram955(1): class 
+Auto Color Correlogram956(1): class 
+Auto Color Correlogram957(1): class 
+Auto Color Correlogram958(1): class 
+Auto Color Correlogram959(1): class 
+Auto Color Correlogram960(2): class Auto Color Correlogram896 Auto Color Correlogram81 
+Auto Color Correlogram961(3): class Auto Color Correlogram960 Auto Color Correlogram898 
+Auto Color Correlogram962(2): class Auto Color Correlogram961 Auto Color Correlogram896 
+Auto Color Correlogram963(2): class Auto Color Correlogram962 Auto Color Correlogram896 
+Auto Color Correlogram964(2): class Auto Color Correlogram5 Auto Color Correlogram484 
+Auto Color Correlogram965(3): class Auto Color Correlogram964 Auto Color Correlogram235 
+Auto Color Correlogram966(2): class Auto Color Correlogram965 
+Auto Color Correlogram967(2): class Auto Color Correlogram966 Auto Color Correlogram6 
+Auto Color Correlogram968(3): class Auto Color Correlogram907 Auto Color Correlogram9 
+Auto Color Correlogram969(2): class Auto Color Correlogram968 Auto Color Correlogram907 
+Auto Color Correlogram970(2): class Auto Color Correlogram969 Auto Color Correlogram231 
+Auto Color Correlogram971(2): class Auto Color Correlogram969 Auto Color Correlogram907 
+Auto Color Correlogram972(2): class Auto Color Correlogram908 Auto Color Correlogram144 
+Auto Color Correlogram973(2): class Auto Color Correlogram972 Auto Color Correlogram911 
+Auto Color Correlogram974(2): class Auto Color Correlogram973 Auto Color Correlogram972 
+Auto Color Correlogram975(2): class Auto Color Correlogram973 Auto Color Correlogram787 
+Auto Color Correlogram976(2): class Auto Color Correlogram913 Auto Color Correlogram18 
+Auto Color Correlogram977(3): class Auto Color Correlogram976 Auto Color Correlogram33 
+Auto Color Correlogram978(2): class Auto Color Correlogram977 
+Auto Color Correlogram979(2): class Auto Color Correlogram978 Auto Color Correlogram771 
+Auto Color Correlogram980(3): class Auto Color Correlogram20 Auto Color Correlogram23 
+Auto Color Correlogram981(3): class Auto Color Correlogram980 Auto Color Correlogram633 
+Auto Color Correlogram982(2): class Auto Color Correlogram980 Auto Color Correlogram837 
+Auto Color Correlogram983(2): class Auto Color Correlogram981 Auto Color Correlogram982 
+Auto Color Correlogram984(3): class Auto Color Correlogram920 Auto Color Correlogram24 
+Auto Color Correlogram985(2): class Auto Color Correlogram984 Auto Color Correlogram922 
+Auto Color Correlogram986(2): class Auto Color Correlogram985 Auto Color Correlogram984 
+Auto Color Correlogram987(2): class Auto Color Correlogram985 
+Auto Color Correlogram988(3): class Auto Color Correlogram984 Auto Color Correlogram60 
+Auto Color Correlogram989(2): class Auto Color Correlogram988 Auto Color Correlogram436 
+Auto Color Correlogram990(1): class 
+Auto Color Correlogram991(1): class 
+Auto Color Correlogram992(3): class Auto Color Correlogram33 Auto Color Correlogram61 
+Auto Color Correlogram993(3): class Auto Color Correlogram992 Auto Color Correlogram35 
+Auto Color Correlogram994(2): class Auto Color Correlogram993 
+Auto Color Correlogram995(2): class Auto Color Correlogram994 Auto Color Correlogram50 
+Auto Color Correlogram996(2): class Auto Color Correlogram37 Auto Color Correlogram981 
+Auto Color Correlogram997(3): class Auto Color Correlogram996 Auto Color Correlogram38 
+Auto Color Correlogram998(2): class Auto Color Correlogram997 Auto Color Correlogram996 
+Auto Color Correlogram999(2): class Auto Color Correlogram997 Auto Color Correlogram998 
+Auto Color Correlogram1000(2): class Auto Color Correlogram41 Auto Color Correlogram142 
+Auto Color Correlogram1001(2): class Auto Color Correlogram1000 
+Auto Color Correlogram1002(2): class Auto Color Correlogram1000 Auto Color Correlogram1001 
+Auto Color Correlogram1003(2): class Auto Color Correlogram1002 Auto Color Correlogram1001 
+Auto Color Correlogram1004(3): class Auto Color Correlogram44 Auto Color Correlogram1002 
+Auto Color Correlogram1005(3): class Auto Color Correlogram1004 Auto Color Correlogram11 
+Auto Color Correlogram1006(3): class Auto Color Correlogram1004 Auto Color Correlogram572 
+Auto Color Correlogram1007(1): class 
+Auto Color Correlogram1008(2): class Auto Color Correlogram48 Auto Color Correlogram928 
+Auto Color Correlogram1009(2): class Auto Color Correlogram1008 Auto Color Correlogram477 
+Auto Color Correlogram1010(2): class Auto Color Correlogram1008 Auto Color Correlogram1009 
+Auto Color Correlogram1011(1): class 
+Auto Color Correlogram1012(2): class Auto Color Correlogram52 Auto Color Correlogram964 
+Auto Color Correlogram1013(3): class Auto Color Correlogram1012 Auto Color Correlogram631 
+Auto Color Correlogram1014(3): class Auto Color Correlogram1013 Auto Color Correlogram1012 
+Auto Color Correlogram1015(2): class Auto Color Correlogram1014 
+Auto Color Correlogram1016(1): class 
+Auto Color Correlogram1017(1): class 
+Auto Color Correlogram1018(1): class 
+Auto Color Correlogram1019(1): class 
+Auto Color Correlogram1020(2): class Auto Color Correlogram61 Auto Color Correlogram492 
+Auto Color Correlogram1021(2): class Auto Color Correlogram1020 Auto Color Correlogram436 
+Auto Color Correlogram1022(2): class Auto Color Correlogram1021 Auto Color Correlogram703 
+Auto Color Correlogram1023(2): class Auto Color Correlogram1022 
+class(8): 
+LogScore Bayes: -59787.81380647208
+LogScore BDeu: -178162.1459570793
+LogScore MDL: -157521.34147172267
+LogScore ENTROPY: -72974.14946547171
+LogScore AIC: -101013.14946547317
+
+
+Time taken to build model: 6.4 seconds
+
+Time taken to test model on training data: 0.18 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         415               99.7596 %
+Incorrectly Classified Instances         1                0.2404 %
+Kappa statistic                          0.9969
+Mean absolute error                      0.0009
+Root mean squared error                  0.0229
+Relative absolute error                  0.483  %
+Root relative squared error              7.3185 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.977    0.000    1.000      0.977    0.988      0.987    1.000     1.000     K1
+                 1.000    0.004    0.993      1.000    0.997      0.995    1.000     1.000     K2
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K3
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.998    0.001    0.998      0.998    0.998      0.997    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  42   1   0   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0   0   0 |   b = K2
+   0   0  76   0   0   0   0   0 |   c = K3
+   0   0   0  61   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 54.2 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         323               77.6442 %
+Incorrectly Classified Instances        93               22.3558 %
+Kappa statistic                          0.7064
+Mean absolute error                      0.0569
+Root mean squared error                  0.2255
+Relative absolute error                 29.0841 %
+Root relative squared error             72.1766 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.163    0.019    0.500      0.163    0.246      0.243    0.910     0.470     K1
+                 0.953    0.138    0.792      0.953    0.865      0.788    0.966     0.934     K2
+                 0.763    0.091    0.652      0.763    0.703      0.633    0.940     0.722     K3
+                 0.525    0.045    0.667      0.525    0.587      0.531    0.932     0.655     K4
+                 0.969    0.006    0.969      0.969    0.969      0.963    0.998     0.990     K5
+                 0.958    0.000    1.000      0.958    0.979      0.978    0.997     0.977     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.776    0.075    0.757      0.776    0.753      0.704    0.957     0.817     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+   7  36   0   0   0   0   0   0 |   a = K1
+   7 141   0   0   0   0   0   0 |   b = K2
+   0   1  58  16   1   0   0   0 |   c = K3
+   0   0  29  32   0   0   0   0 |   d = K4
+   0   0   2   0  62   0   0   0 |   e = K5
+   0   0   0   0   1  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

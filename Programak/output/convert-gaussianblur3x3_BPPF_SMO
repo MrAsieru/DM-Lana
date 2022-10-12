@@ -1,0 +1,2330 @@
+
+Options: -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4" 
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: K1, K2
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1511 * (normalized) Spatial Pyramid of Local Binary Patterns0
+ +      -0.1719 * (normalized) Spatial Pyramid of Local Binary Patterns1
+ +      -0.0186 * (normalized) Spatial Pyramid of Local Binary Patterns2
+ +      -0.1511 * (normalized) Spatial Pyramid of Local Binary Patterns3
+ +       0.2112 * (normalized) Spatial Pyramid of Local Binary Patterns4
+ +      -0.0493 * (normalized) Spatial Pyramid of Local Binary Patterns6
+ +       0.7106 * (normalized) Spatial Pyramid of Local Binary Patterns8
+ +      -0.1511 * (normalized) Spatial Pyramid of Local Binary Patterns14
+ +       0.2639 * (normalized) Spatial Pyramid of Local Binary Patterns16
+ +      -0.1511 * (normalized) Spatial Pyramid of Local Binary Patterns36
+ +      -0.2157 * (normalized) Spatial Pyramid of Local Binary Patterns37
+ +      -0.2056 * (normalized) Spatial Pyramid of Local Binary Patterns38
+ +      -0.0403 * (normalized) Spatial Pyramid of Local Binary Patterns39
+ +      -0.4143 * (normalized) Spatial Pyramid of Local Binary Patterns40
+ +      -0.0493 * (normalized) Spatial Pyramid of Local Binary Patterns42
+ +      -0.0562 * (normalized) Spatial Pyramid of Local Binary Patterns44
+ +       0.0632 * (normalized) Spatial Pyramid of Local Binary Patterns45
+ +      -0.1511 * (normalized) Spatial Pyramid of Local Binary Patterns50
+ +      -0.0375 * (normalized) Spatial Pyramid of Local Binary Patterns52
+ +       0.0949 * (normalized) Spatial Pyramid of Local Binary Patterns72
+ +       0.1296 * (normalized) Spatial Pyramid of Local Binary Patterns73
+ +       0.2755 * (normalized) Spatial Pyramid of Local Binary Patterns74
+ +       0.0949 * (normalized) Spatial Pyramid of Local Binary Patterns75
+ +      -0.6133 * (normalized) Spatial Pyramid of Local Binary Patterns76
+ +      -0.2992 * (normalized) Spatial Pyramid of Local Binary Patterns80
+ +       0.1807 * (normalized) Spatial Pyramid of Local Binary Patterns81
+ +       0.139  * (normalized) Spatial Pyramid of Local Binary Patterns85
+ +      -0.6693 * (normalized) Spatial Pyramid of Local Binary Patterns88
+ +       0.2916 * (normalized) Spatial Pyramid of Local Binary Patterns109
+ +      -0.0278 * (normalized) Spatial Pyramid of Local Binary Patterns110
+ +      -0.6779 * (normalized) Spatial Pyramid of Local Binary Patterns112
+ +       0.1646 * (normalized) Spatial Pyramid of Local Binary Patterns116
+ +       0.1796 * (normalized) Spatial Pyramid of Local Binary Patterns124
+ +      -0.3202 * (normalized) Spatial Pyramid of Local Binary Patterns148
+ +      -0.0041 * (normalized) Spatial Pyramid of Local Binary Patterns152
+ +       0.2185 * (normalized) Spatial Pyramid of Local Binary Patterns160
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns181
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns182
+ +      -0.1434 * (normalized) Spatial Pyramid of Local Binary Patterns184
+ +       0.0555 * (normalized) Spatial Pyramid of Local Binary Patterns188
+ +       0.2545 * (normalized) Spatial Pyramid of Local Binary Patterns196
+ +      -0.1511 * (normalized) Spatial Pyramid of Local Binary Patterns217
+ +      -0.0867 * (normalized) Spatial Pyramid of Local Binary Patterns218
+ +      -0.4267 * (normalized) Spatial Pyramid of Local Binary Patterns220
+ +      -0.3453 * (normalized) Spatial Pyramid of Local Binary Patterns222
+ +      -0.0457 * (normalized) Spatial Pyramid of Local Binary Patterns224
+ +      -0.863  * (normalized) Spatial Pyramid of Local Binary Patterns232
+ +       0.1098 * (normalized) Spatial Pyramid of Local Binary Patterns253
+ +       0.0076 * (normalized) Spatial Pyramid of Local Binary Patterns254
+ +      -0.1704 * (normalized) Spatial Pyramid of Local Binary Patterns256
+ +      -0.1107 * (normalized) Spatial Pyramid of Local Binary Patterns260
+ +       0.1098 * (normalized) Spatial Pyramid of Local Binary Patterns261
+ +      -0.5378 * (normalized) Spatial Pyramid of Local Binary Patterns268
+ +       0.0612 * (normalized) Spatial Pyramid of Local Binary Patterns288
+ +      -0.2543 * (normalized) Spatial Pyramid of Local Binary Patterns289
+ +      -0.3052 * (normalized) Spatial Pyramid of Local Binary Patterns290
+ +      -0.4994 * (normalized) Spatial Pyramid of Local Binary Patterns292
+ +       0.6119 * (normalized) Spatial Pyramid of Local Binary Patterns296
+ +      -0.0617 * (normalized) Spatial Pyramid of Local Binary Patterns304
+ +      -0.1511 * (normalized) Spatial Pyramid of Local Binary Patterns324
+ +      -0.4168 * (normalized) Spatial Pyramid of Local Binary Patterns325
+ +      -0.0053 * (normalized) Spatial Pyramid of Local Binary Patterns326
+ +      -0.1511 * (normalized) Spatial Pyramid of Local Binary Patterns327
+ +       0.4013 * (normalized) Spatial Pyramid of Local Binary Patterns328
+ +      -0.4891 * (normalized) Spatial Pyramid of Local Binary Patterns332
+ +      -0.3453 * (normalized) Spatial Pyramid of Local Binary Patterns334
+ +      -0.1511 * (normalized) Spatial Pyramid of Local Binary Patterns338
+ +      -0.665  * (normalized) Spatial Pyramid of Local Binary Patterns340
+ +      -0.2644 * (normalized) Spatial Pyramid of Local Binary Patterns361
+ +      -0.1088 * (normalized) Spatial Pyramid of Local Binary Patterns362
+ +      -0.6688 * (normalized) Spatial Pyramid of Local Binary Patterns364
+ +      -0.0432 * (normalized) Spatial Pyramid of Local Binary Patterns366
+ +       0.0006 * (normalized) Spatial Pyramid of Local Binary Patterns368
+ +       0.1744 * (normalized) Spatial Pyramid of Local Binary Patterns376
+ +      -0.1667 * (normalized) Spatial Pyramid of Local Binary Patterns398
+ +      -0.466  * (normalized) Spatial Pyramid of Local Binary Patterns400
+ +       0.161  * (normalized) Spatial Pyramid of Local Binary Patterns404
+ +       0.6484 * (normalized) Spatial Pyramid of Local Binary Patterns412
+ +       0.1645 * (normalized) Spatial Pyramid of Local Binary Patterns431
+ +       0.353  * (normalized) Spatial Pyramid of Local Binary Patterns433
+ +       0.1423 * (normalized) Spatial Pyramid of Local Binary Patterns434
+ +       0.0568 * (normalized) Spatial Pyramid of Local Binary Patterns436
+ +       0.042  * (normalized) Spatial Pyramid of Local Binary Patterns440
+ +      -0.1073 * (normalized) Spatial Pyramid of Local Binary Patterns441
+ +      -0.7269 * (normalized) Spatial Pyramid of Local Binary Patterns448
+ +      -0.0689 * (normalized) Spatial Pyramid of Local Binary Patterns469
+ +      -0.0204 * (normalized) Spatial Pyramid of Local Binary Patterns470
+ +       0.0222 * (normalized) Spatial Pyramid of Local Binary Patterns472
+ +      -0.3045 * (normalized) Spatial Pyramid of Local Binary Patterns476
+ +      -0.3267 * (normalized) Spatial Pyramid of Local Binary Patterns484
+ +       0.139  * (normalized) Spatial Pyramid of Local Binary Patterns505
+ +      -0.0729 * (normalized) Spatial Pyramid of Local Binary Patterns506
+ +      -0.48   * (normalized) Spatial Pyramid of Local Binary Patterns508
+ +      -0.4985 * (normalized) Spatial Pyramid of Local Binary Patterns512
+ +       0.1717 * (normalized) Spatial Pyramid of Local Binary Patterns513
+ +       0.0463 * (normalized) Spatial Pyramid of Local Binary Patterns517
+ +       0.4002 * (normalized) Spatial Pyramid of Local Binary Patterns520
+ +       0.0082 * (normalized) Spatial Pyramid of Local Binary Patterns541
+ +      -0.508  * (normalized) Spatial Pyramid of Local Binary Patterns544
+ +      -0.2811 * (normalized) Spatial Pyramid of Local Binary Patterns548
+ +       0.6392 * (normalized) Spatial Pyramid of Local Binary Patterns556
+ +       0.0826 * (normalized) Spatial Pyramid of Local Binary Patterns577
+ +       0.5443 * (normalized) Spatial Pyramid of Local Binary Patterns580
+ +      -0.5497 * (normalized) Spatial Pyramid of Local Binary Patterns584
+ +      -0.1073 * (normalized) Spatial Pyramid of Local Binary Patterns585
+ +      -0.1698 * (normalized) Spatial Pyramid of Local Binary Patterns592
+ +       0.0722 * (normalized) Spatial Pyramid of Local Binary Patterns614
+ +       0.0756 * (normalized) Spatial Pyramid of Local Binary Patterns616
+ +       0.5736 * (normalized) Spatial Pyramid of Local Binary Patterns620
+ +       0.4782 * (normalized) Spatial Pyramid of Local Binary Patterns628
+ +      -0.0413 * (normalized) Spatial Pyramid of Local Binary Patterns649
+ +       0.033  * (normalized) Spatial Pyramid of Local Binary Patterns650
+ +      -0.1207 * (normalized) Spatial Pyramid of Local Binary Patterns652
+ +      -0.0471 * (normalized) Spatial Pyramid of Local Binary Patterns656
+ +      -0.3826 * (normalized) Spatial Pyramid of Local Binary Patterns664
+ +      -0.0653 * (normalized) Spatial Pyramid of Local Binary Patterns688
+ +       0.5623 * (normalized) Spatial Pyramid of Local Binary Patterns692
+ +       0.0377 * (normalized) Spatial Pyramid of Local Binary Patterns700
+ +       0.2167 * (normalized) Spatial Pyramid of Local Binary Patterns721
+ +      -0.4563 * (normalized) Spatial Pyramid of Local Binary Patterns724
+ +       0.0721 * (normalized) Spatial Pyramid of Local Binary Patterns728
+ +      -0.2105 * (normalized) Spatial Pyramid of Local Binary Patterns736
+ +       1     
+
+Number of kernel evaluations: 10735 (95.103% cached)
+
+Classifier for classes: K1, K3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.026  * (normalized) Spatial Pyramid of Local Binary Patterns0
+ +       0.0328 * (normalized) Spatial Pyramid of Local Binary Patterns1
+ +       0.0482 * (normalized) Spatial Pyramid of Local Binary Patterns2
+ +      -0.0504 * (normalized) Spatial Pyramid of Local Binary Patterns3
+ +      -0.0052 * (normalized) Spatial Pyramid of Local Binary Patterns4
+ +       0.0367 * (normalized) Spatial Pyramid of Local Binary Patterns6
+ +       0.0367 * (normalized) Spatial Pyramid of Local Binary Patterns7
+ +       0.0451 * (normalized) Spatial Pyramid of Local Binary Patterns8
+ +       0.0367 * (normalized) Spatial Pyramid of Local Binary Patterns9
+ +      -0.0366 * (normalized) Spatial Pyramid of Local Binary Patterns14
+ +      -0.0038 * (normalized) Spatial Pyramid of Local Binary Patterns16
+ +      -0.0197 * (normalized) Spatial Pyramid of Local Binary Patterns36
+ +      -0.0424 * (normalized) Spatial Pyramid of Local Binary Patterns37
+ +       0.1822 * (normalized) Spatial Pyramid of Local Binary Patterns38
+ +      -0.0134 * (normalized) Spatial Pyramid of Local Binary Patterns39
+ +      -0.0668 * (normalized) Spatial Pyramid of Local Binary Patterns40
+ +       0.0415 * (normalized) Spatial Pyramid of Local Binary Patterns42
+ +       0.0409 * (normalized) Spatial Pyramid of Local Binary Patterns43
+ +      -0.2281 * (normalized) Spatial Pyramid of Local Binary Patterns44
+ +       0.0682 * (normalized) Spatial Pyramid of Local Binary Patterns45
+ +       0.0943 * (normalized) Spatial Pyramid of Local Binary Patterns46
+ +      -0.0366 * (normalized) Spatial Pyramid of Local Binary Patterns50
+ +      -0.3692 * (normalized) Spatial Pyramid of Local Binary Patterns52
+ +       0.0927 * (normalized) Spatial Pyramid of Local Binary Patterns72
+ +       0.0084 * (normalized) Spatial Pyramid of Local Binary Patterns73
+ +       0.2223 * (normalized) Spatial Pyramid of Local Binary Patterns74
+ +      -0.3665 * (normalized) Spatial Pyramid of Local Binary Patterns76
+ +      -0.2201 * (normalized) Spatial Pyramid of Local Binary Patterns80
+ +      -0.3818 * (normalized) Spatial Pyramid of Local Binary Patterns88
+ +       0.0015 * (normalized) Spatial Pyramid of Local Binary Patterns108
+ +       0.0921 * (normalized) Spatial Pyramid of Local Binary Patterns109
+ +       0.0497 * (normalized) Spatial Pyramid of Local Binary Patterns110
+ +       0.0015 * (normalized) Spatial Pyramid of Local Binary Patterns111
+ +      -0.1367 * (normalized) Spatial Pyramid of Local Binary Patterns112
+ +       0.1903 * (normalized) Spatial Pyramid of Local Binary Patterns116
+ +       0.4522 * (normalized) Spatial Pyramid of Local Binary Patterns124
+ +       0.1853 * (normalized) Spatial Pyramid of Local Binary Patterns132
+ +       0.1995 * (normalized) Spatial Pyramid of Local Binary Patterns145
+ +      -0.1272 * (normalized) Spatial Pyramid of Local Binary Patterns148
+ +      -0.089  * (normalized) Spatial Pyramid of Local Binary Patterns152
+ +      -0.2879 * (normalized) Spatial Pyramid of Local Binary Patterns160
+ +       0.0467 * (normalized) Spatial Pyramid of Local Binary Patterns180
+ +       0.2231 * (normalized) Spatial Pyramid of Local Binary Patterns181
+ +       0.1154 * (normalized) Spatial Pyramid of Local Binary Patterns182
+ +       0.0008 * (normalized) Spatial Pyramid of Local Binary Patterns183
+ +      -0.1116 * (normalized) Spatial Pyramid of Local Binary Patterns184
+ +       0.0664 * (normalized) Spatial Pyramid of Local Binary Patterns186
+ +       0.2836 * (normalized) Spatial Pyramid of Local Binary Patterns187
+ +      -0.2217 * (normalized) Spatial Pyramid of Local Binary Patterns188
+ +       0.0482 * (normalized) Spatial Pyramid of Local Binary Patterns189
+ +       0.0199 * (normalized) Spatial Pyramid of Local Binary Patterns193
+ +       0.2481 * (normalized) Spatial Pyramid of Local Binary Patterns194
+ +       0.1276 * (normalized) Spatial Pyramid of Local Binary Patterns196
+ +      -0.0482 * (normalized) Spatial Pyramid of Local Binary Patterns217
+ +       0.0138 * (normalized) Spatial Pyramid of Local Binary Patterns218
+ +      -0.3942 * (normalized) Spatial Pyramid of Local Binary Patterns220
+ +       0.37   * (normalized) Spatial Pyramid of Local Binary Patterns221
+ +       0.0084 * (normalized) Spatial Pyramid of Local Binary Patterns222
+ +       0.6152 * (normalized) Spatial Pyramid of Local Binary Patterns224
+ +      -0.5153 * (normalized) Spatial Pyramid of Local Binary Patterns232
+ +      -0.4651 * (normalized) Spatial Pyramid of Local Binary Patterns256
+ +      -0.1749 * (normalized) Spatial Pyramid of Local Binary Patterns260
+ +      -0.8846 * (normalized) Spatial Pyramid of Local Binary Patterns268
+ +      -0.0441 * (normalized) Spatial Pyramid of Local Binary Patterns289
+ +      -0.0529 * (normalized) Spatial Pyramid of Local Binary Patterns290
+ +      -0.1017 * (normalized) Spatial Pyramid of Local Binary Patterns292
+ +       0.1372 * (normalized) Spatial Pyramid of Local Binary Patterns296
+ +       0.016  * (normalized) Spatial Pyramid of Local Binary Patterns304
+ +      -0.0504 * (normalized) Spatial Pyramid of Local Binary Patterns324
+ +      -0.2402 * (normalized) Spatial Pyramid of Local Binary Patterns325
+ +      -0.1392 * (normalized) Spatial Pyramid of Local Binary Patterns326
+ +      -0.0504 * (normalized) Spatial Pyramid of Local Binary Patterns327
+ +      -0.6686 * (normalized) Spatial Pyramid of Local Binary Patterns328
+ +       0.0084 * (normalized) Spatial Pyramid of Local Binary Patterns329
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns331
+ +       0.0895 * (normalized) Spatial Pyramid of Local Binary Patterns332
+ +       0.0336 * (normalized) Spatial Pyramid of Local Binary Patterns333
+ +      -0.0504 * (normalized) Spatial Pyramid of Local Binary Patterns338
+ +       0.0067 * (normalized) Spatial Pyramid of Local Binary Patterns339
+ +      -1.2598 * (normalized) Spatial Pyramid of Local Binary Patterns340
+ +       0.0126 * (normalized) Spatial Pyramid of Local Binary Patterns360
+ +       0.0263 * (normalized) Spatial Pyramid of Local Binary Patterns361
+ +       0.147  * (normalized) Spatial Pyramid of Local Binary Patterns362
+ +      -0.411  * (normalized) Spatial Pyramid of Local Binary Patterns364
+ +       0.1829 * (normalized) Spatial Pyramid of Local Binary Patterns368
+ +       0.0236 * (normalized) Spatial Pyramid of Local Binary Patterns369
+ +       0.0943 * (normalized) Spatial Pyramid of Local Binary Patterns370
+ +       0.0139 * (normalized) Spatial Pyramid of Local Binary Patterns376
+ +       0.0015 * (normalized) Spatial Pyramid of Local Binary Patterns396
+ +       0.2104 * (normalized) Spatial Pyramid of Local Binary Patterns398
+ +       0.0015 * (normalized) Spatial Pyramid of Local Binary Patterns399
+ +       0.3464 * (normalized) Spatial Pyramid of Local Binary Patterns400
+ +      -0.2285 * (normalized) Spatial Pyramid of Local Binary Patterns404
+ +       0.6004 * (normalized) Spatial Pyramid of Local Binary Patterns412
+ +       0.0307 * (normalized) Spatial Pyramid of Local Binary Patterns417
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns427
+ +       0.0943 * (normalized) Spatial Pyramid of Local Binary Patterns434
+ +       0.0481 * (normalized) Spatial Pyramid of Local Binary Patterns436
+ +       0.4648 * (normalized) Spatial Pyramid of Local Binary Patterns440
+ +      -0.5842 * (normalized) Spatial Pyramid of Local Binary Patterns448
+ +      -0.3221 * (normalized) Spatial Pyramid of Local Binary Patterns469
+ +      -0.041  * (normalized) Spatial Pyramid of Local Binary Patterns470
+ +       0.3102 * (normalized) Spatial Pyramid of Local Binary Patterns472
+ +       0.1324 * (normalized) Spatial Pyramid of Local Binary Patterns476
+ +      -0.2834 * (normalized) Spatial Pyramid of Local Binary Patterns484
+ +       0.0487 * (normalized) Spatial Pyramid of Local Binary Patterns506
+ +      -0.3165 * (normalized) Spatial Pyramid of Local Binary Patterns508
+ +      -0.5144 * (normalized) Spatial Pyramid of Local Binary Patterns512
+ +      -0.2861 * (normalized) Spatial Pyramid of Local Binary Patterns520
+ +       0.2734 * (normalized) Spatial Pyramid of Local Binary Patterns542
+ +       0.2477 * (normalized) Spatial Pyramid of Local Binary Patterns544
+ +      -0.236  * (normalized) Spatial Pyramid of Local Binary Patterns548
+ +      -0.1431 * (normalized) Spatial Pyramid of Local Binary Patterns556
+ +       0.1853 * (normalized) Spatial Pyramid of Local Binary Patterns567
+ +       0.3991 * (normalized) Spatial Pyramid of Local Binary Patterns576
+ +       0.3991 * (normalized) Spatial Pyramid of Local Binary Patterns577
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns578
+ +      -0.1615 * (normalized) Spatial Pyramid of Local Binary Patterns580
+ +       0.1118 * (normalized) Spatial Pyramid of Local Binary Patterns584
+ +      -0.0574 * (normalized) Spatial Pyramid of Local Binary Patterns592
+ +       0.2176 * (normalized) Spatial Pyramid of Local Binary Patterns614
+ +       0.0034 * (normalized) Spatial Pyramid of Local Binary Patterns616
+ +      -0.1923 * (normalized) Spatial Pyramid of Local Binary Patterns620
+ +      -0.3211 * (normalized) Spatial Pyramid of Local Binary Patterns628
+ +      -0.0221 * (normalized) Spatial Pyramid of Local Binary Patterns649
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns650
+ +       0.1289 * (normalized) Spatial Pyramid of Local Binary Patterns652
+ +       0.1086 * (normalized) Spatial Pyramid of Local Binary Patterns656
+ +      -0.705  * (normalized) Spatial Pyramid of Local Binary Patterns664
+ +       0.0532 * (normalized) Spatial Pyramid of Local Binary Patterns685
+ +      -0.5169 * (normalized) Spatial Pyramid of Local Binary Patterns688
+ +      -0.1556 * (normalized) Spatial Pyramid of Local Binary Patterns692
+ +      -0.4448 * (normalized) Spatial Pyramid of Local Binary Patterns700
+ +       0.0987 * (normalized) Spatial Pyramid of Local Binary Patterns720
+ +       0.2143 * (normalized) Spatial Pyramid of Local Binary Patterns721
+ +       0.0714 * (normalized) Spatial Pyramid of Local Binary Patterns722
+ +      -0.1039 * (normalized) Spatial Pyramid of Local Binary Patterns724
+ +       0.4204 * (normalized) Spatial Pyramid of Local Binary Patterns728
+ +       0.3497 * (normalized) Spatial Pyramid of Local Binary Patterns736
+ +       0.9994
+
+Number of kernel evaluations: 5097 (94.61% cached)
+
+Classifier for classes: K1, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0115 * (normalized) Spatial Pyramid of Local Binary Patterns1
+ +       0.0763 * (normalized) Spatial Pyramid of Local Binary Patterns2
+ +      -0.0104 * (normalized) Spatial Pyramid of Local Binary Patterns4
+ +       0.0466 * (normalized) Spatial Pyramid of Local Binary Patterns7
+ +      -0.236  * (normalized) Spatial Pyramid of Local Binary Patterns8
+ +      -0.5397 * (normalized) Spatial Pyramid of Local Binary Patterns16
+ +       0.001  * (normalized) Spatial Pyramid of Local Binary Patterns36
+ +      -0.0327 * (normalized) Spatial Pyramid of Local Binary Patterns37
+ +       0.091  * (normalized) Spatial Pyramid of Local Binary Patterns38
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns39
+ +      -0.2608 * (normalized) Spatial Pyramid of Local Binary Patterns40
+ +       0.0021 * (normalized) Spatial Pyramid of Local Binary Patterns42
+ +       0.0466 * (normalized) Spatial Pyramid of Local Binary Patterns43
+ +      -0.4639 * (normalized) Spatial Pyramid of Local Binary Patterns44
+ +       0.0145 * (normalized) Spatial Pyramid of Local Binary Patterns51
+ +      -0.6366 * (normalized) Spatial Pyramid of Local Binary Patterns52
+ +       0.1106 * (normalized) Spatial Pyramid of Local Binary Patterns74
+ +      -0.1925 * (normalized) Spatial Pyramid of Local Binary Patterns76
+ +       0.2316 * (normalized) Spatial Pyramid of Local Binary Patterns80
+ +      -0.0354 * (normalized) Spatial Pyramid of Local Binary Patterns88
+ +      -0.0118 * (normalized) Spatial Pyramid of Local Binary Patterns110
+ +      -0.3023 * (normalized) Spatial Pyramid of Local Binary Patterns112
+ +       0.3374 * (normalized) Spatial Pyramid of Local Binary Patterns116
+ +      -0.4633 * (normalized) Spatial Pyramid of Local Binary Patterns124
+ +       0.0448 * (normalized) Spatial Pyramid of Local Binary Patterns145
+ +       0.0149 * (normalized) Spatial Pyramid of Local Binary Patterns146
+ +       0.0904 * (normalized) Spatial Pyramid of Local Binary Patterns148
+ +       0.267  * (normalized) Spatial Pyramid of Local Binary Patterns152
+ +       0.0388 * (normalized) Spatial Pyramid of Local Binary Patterns160
+ +       0.0067 * (normalized) Spatial Pyramid of Local Binary Patterns180
+ +       0.0585 * (normalized) Spatial Pyramid of Local Binary Patterns181
+ +       0.2006 * (normalized) Spatial Pyramid of Local Binary Patterns182
+ +       0.1934 * (normalized) Spatial Pyramid of Local Binary Patterns183
+ +       0.1972 * (normalized) Spatial Pyramid of Local Binary Patterns184
+ +       0.0448 * (normalized) Spatial Pyramid of Local Binary Patterns185
+ +       0.0007 * (normalized) Spatial Pyramid of Local Binary Patterns186
+ +       0.0067 * (normalized) Spatial Pyramid of Local Binary Patterns187
+ +       0.0617 * (normalized) Spatial Pyramid of Local Binary Patterns188
+ +       0.0007 * (normalized) Spatial Pyramid of Local Binary Patterns194
+ +       0.1069 * (normalized) Spatial Pyramid of Local Binary Patterns196
+ +      -0.2957 * (normalized) Spatial Pyramid of Local Binary Patterns220
+ +       0.0474 * (normalized) Spatial Pyramid of Local Binary Patterns221
+ +       0.0059 * (normalized) Spatial Pyramid of Local Binary Patterns222
+ +       0.7374 * (normalized) Spatial Pyramid of Local Binary Patterns224
+ +       0.0145 * (normalized) Spatial Pyramid of Local Binary Patterns228
+ +      -0.552  * (normalized) Spatial Pyramid of Local Binary Patterns232
+ +       0.0018 * (normalized) Spatial Pyramid of Local Binary Patterns254
+ +      -0.3676 * (normalized) Spatial Pyramid of Local Binary Patterns256
+ +      -0.0486 * (normalized) Spatial Pyramid of Local Binary Patterns260
+ +      -0.8098 * (normalized) Spatial Pyramid of Local Binary Patterns268
+ +      -0.0625 * (normalized) Spatial Pyramid of Local Binary Patterns289
+ +      -0.075  * (normalized) Spatial Pyramid of Local Binary Patterns290
+ +      -0.0481 * (normalized) Spatial Pyramid of Local Binary Patterns292
+ +       0.2522 * (normalized) Spatial Pyramid of Local Binary Patterns296
+ +       0.1055 * (normalized) Spatial Pyramid of Local Binary Patterns304
+ +      -0.0897 * (normalized) Spatial Pyramid of Local Binary Patterns325
+ +       0.0188 * (normalized) Spatial Pyramid of Local Binary Patterns326
+ +      -0.2274 * (normalized) Spatial Pyramid of Local Binary Patterns328
+ +       0.0585 * (normalized) Spatial Pyramid of Local Binary Patterns331
+ +      -0.0261 * (normalized) Spatial Pyramid of Local Binary Patterns332
+ +       0.0145 * (normalized) Spatial Pyramid of Local Binary Patterns339
+ +      -0.864  * (normalized) Spatial Pyramid of Local Binary Patterns340
+ +       0.0089 * (normalized) Spatial Pyramid of Local Binary Patterns358
+ +       0.0101 * (normalized) Spatial Pyramid of Local Binary Patterns359
+ +       0.0018 * (normalized) Spatial Pyramid of Local Binary Patterns361
+ +       0.235  * (normalized) Spatial Pyramid of Local Binary Patterns362
+ +      -0.2983 * (normalized) Spatial Pyramid of Local Binary Patterns364
+ +       0.0174 * (normalized) Spatial Pyramid of Local Binary Patterns368
+ +      -0.2358 * (normalized) Spatial Pyramid of Local Binary Patterns376
+ +       0.0145 * (normalized) Spatial Pyramid of Local Binary Patterns387
+ +       0.0006 * (normalized) Spatial Pyramid of Local Binary Patterns394
+ +      -0.0295 * (normalized) Spatial Pyramid of Local Binary Patterns398
+ +      -0.0337 * (normalized) Spatial Pyramid of Local Binary Patterns400
+ +      -0.1187 * (normalized) Spatial Pyramid of Local Binary Patterns404
+ +       0.0911 * (normalized) Spatial Pyramid of Local Binary Patterns412
+ +       0.0034 * (normalized) Spatial Pyramid of Local Binary Patterns423
+ +       0.0003 * (normalized) Spatial Pyramid of Local Binary Patterns430
+ +       0.0097 * (normalized) Spatial Pyramid of Local Binary Patterns433
+ +      -0.0371 * (normalized) Spatial Pyramid of Local Binary Patterns436
+ +       0.6829 * (normalized) Spatial Pyramid of Local Binary Patterns440
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns441
+ +      -0.6342 * (normalized) Spatial Pyramid of Local Binary Patterns448
+ +      -0.0182 * (normalized) Spatial Pyramid of Local Binary Patterns469
+ +       0.1435 * (normalized) Spatial Pyramid of Local Binary Patterns470
+ +       0.1748 * (normalized) Spatial Pyramid of Local Binary Patterns472
+ +       0.0381 * (normalized) Spatial Pyramid of Local Binary Patterns476
+ +       0.0563 * (normalized) Spatial Pyramid of Local Binary Patterns477
+ +      -0.2309 * (normalized) Spatial Pyramid of Local Binary Patterns484
+ +       0.0006 * (normalized) Spatial Pyramid of Local Binary Patterns505
+ +      -0.0221 * (normalized) Spatial Pyramid of Local Binary Patterns506
+ +      -0.4643 * (normalized) Spatial Pyramid of Local Binary Patterns508
+ +      -0.3371 * (normalized) Spatial Pyramid of Local Binary Patterns512
+ +       0.0006 * (normalized) Spatial Pyramid of Local Binary Patterns516
+ +       0.0069 * (normalized) Spatial Pyramid of Local Binary Patterns520
+ +       0.0006 * (normalized) Spatial Pyramid of Local Binary Patterns531
+ +       0.0474 * (normalized) Spatial Pyramid of Local Binary Patterns539
+ +       0.0006 * (normalized) Spatial Pyramid of Local Binary Patterns540
+ +       0.0006 * (normalized) Spatial Pyramid of Local Binary Patterns541
+ +       0.0002 * (normalized) Spatial Pyramid of Local Binary Patterns542
+ +       0.0662 * (normalized) Spatial Pyramid of Local Binary Patterns544
+ +      -0.4229 * (normalized) Spatial Pyramid of Local Binary Patterns548
+ +       0.0006 * (normalized) Spatial Pyramid of Local Binary Patterns550
+ +       0.1191 * (normalized) Spatial Pyramid of Local Binary Patterns556
+ +      -0.0335 * (normalized) Spatial Pyramid of Local Binary Patterns577
+ +       0.2423 * (normalized) Spatial Pyramid of Local Binary Patterns578
+ +      -0.1718 * (normalized) Spatial Pyramid of Local Binary Patterns580
+ +       0.2299 * (normalized) Spatial Pyramid of Local Binary Patterns584
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns585
+ +      -0.664  * (normalized) Spatial Pyramid of Local Binary Patterns592
+ +      -0.0838 * (normalized) Spatial Pyramid of Local Binary Patterns616
+ +      -0.0996 * (normalized) Spatial Pyramid of Local Binary Patterns620
+ +      -0.2196 * (normalized) Spatial Pyramid of Local Binary Patterns628
+ +      -0.0313 * (normalized) Spatial Pyramid of Local Binary Patterns649
+ +       0.1476 * (normalized) Spatial Pyramid of Local Binary Patterns650
+ +      -0.3003 * (normalized) Spatial Pyramid of Local Binary Patterns652
+ +      -0.2641 * (normalized) Spatial Pyramid of Local Binary Patterns656
+ +      -0.343  * (normalized) Spatial Pyramid of Local Binary Patterns664
+ +       0.012  * (normalized) Spatial Pyramid of Local Binary Patterns685
+ +      -0.4132 * (normalized) Spatial Pyramid of Local Binary Patterns688
+ +      -0.2315 * (normalized) Spatial Pyramid of Local Binary Patterns692
+ +      -0.1935 * (normalized) Spatial Pyramid of Local Binary Patterns700
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns720
+ +       0.1037 * (normalized) Spatial Pyramid of Local Binary Patterns721
+ +       0.0149 * (normalized) Spatial Pyramid of Local Binary Patterns722
+ +       0.1665 * (normalized) Spatial Pyramid of Local Binary Patterns724
+ +      -0.0095 * (normalized) Spatial Pyramid of Local Binary Patterns728
+ +       0.0448 * (normalized) Spatial Pyramid of Local Binary Patterns734
+ +       0.4131 * (normalized) Spatial Pyramid of Local Binary Patterns736
+ +       1.0008
+
+Number of kernel evaluations: 4020 (95.758% cached)
+
+Classifier for classes: K1, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0012 * (normalized) Spatial Pyramid of Local Binary Patterns1
+ +      -0.0099 * (normalized) Spatial Pyramid of Local Binary Patterns2
+ +      -0.2978 * (normalized) Spatial Pyramid of Local Binary Patterns4
+ +      -0.0346 * (normalized) Spatial Pyramid of Local Binary Patterns6
+ +       0.2764 * (normalized) Spatial Pyramid of Local Binary Patterns8
+ +       1.8262 * (normalized) Spatial Pyramid of Local Binary Patterns16
+ +      -0.02   * (normalized) Spatial Pyramid of Local Binary Patterns37
+ +      -0.0297 * (normalized) Spatial Pyramid of Local Binary Patterns38
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns39
+ +      -0.4381 * (normalized) Spatial Pyramid of Local Binary Patterns40
+ +      -0.0346 * (normalized) Spatial Pyramid of Local Binary Patterns42
+ +      -0.2267 * (normalized) Spatial Pyramid of Local Binary Patterns44
+ +       0.5228 * (normalized) Spatial Pyramid of Local Binary Patterns49
+ +      -0.2069 * (normalized) Spatial Pyramid of Local Binary Patterns52
+ +       0.1064 * (normalized) Spatial Pyramid of Local Binary Patterns71
+ +      -0.3893 * (normalized) Spatial Pyramid of Local Binary Patterns76
+ +       0.2857 * (normalized) Spatial Pyramid of Local Binary Patterns80
+ +      -0.3346 * (normalized) Spatial Pyramid of Local Binary Patterns88
+ +       0.1727 * (normalized) Spatial Pyramid of Local Binary Patterns109
+ +       0.0193 * (normalized) Spatial Pyramid of Local Binary Patterns110
+ +      -0.0956 * (normalized) Spatial Pyramid of Local Binary Patterns112
+ +       0.4267 * (normalized) Spatial Pyramid of Local Binary Patterns116
+ +       0.239  * (normalized) Spatial Pyramid of Local Binary Patterns117
+ +      -0.468  * (normalized) Spatial Pyramid of Local Binary Patterns124
+ +       0.2139 * (normalized) Spatial Pyramid of Local Binary Patterns135
+ +       0.1442 * (normalized) Spatial Pyramid of Local Binary Patterns144
+ +       0.186  * (normalized) Spatial Pyramid of Local Binary Patterns145
+ +       0.066  * (normalized) Spatial Pyramid of Local Binary Patterns146
+ +       0.1142 * (normalized) Spatial Pyramid of Local Binary Patterns148
+ +      -0.1703 * (normalized) Spatial Pyramid of Local Binary Patterns152
+ +       0.1442 * (normalized) Spatial Pyramid of Local Binary Patterns154
+ +       0.121  * (normalized) Spatial Pyramid of Local Binary Patterns160
+ +       0.0082 * (normalized) Spatial Pyramid of Local Binary Patterns180
+ +       0.0007 * (normalized) Spatial Pyramid of Local Binary Patterns181
+ +       0.0828 * (normalized) Spatial Pyramid of Local Binary Patterns182
+ +      -0.3102 * (normalized) Spatial Pyramid of Local Binary Patterns184
+ +      -0.0489 * (normalized) Spatial Pyramid of Local Binary Patterns188
+ +       0.0306 * (normalized) Spatial Pyramid of Local Binary Patterns189
+ +       0.1188 * (normalized) Spatial Pyramid of Local Binary Patterns196
+ +       0.0916 * (normalized) Spatial Pyramid of Local Binary Patterns207
+ +       0.0916 * (normalized) Spatial Pyramid of Local Binary Patterns215
+ +       0.0002 * (normalized) Spatial Pyramid of Local Binary Patterns217
+ +       0.0163 * (normalized) Spatial Pyramid of Local Binary Patterns218
+ +       0.036  * (normalized) Spatial Pyramid of Local Binary Patterns220
+ +      -0.2424 * (normalized) Spatial Pyramid of Local Binary Patterns222
+ +       0.5191 * (normalized) Spatial Pyramid of Local Binary Patterns224
+ +       0.5228 * (normalized) Spatial Pyramid of Local Binary Patterns229
+ +      -0.3441 * (normalized) Spatial Pyramid of Local Binary Patterns232
+ +       0.1223 * (normalized) Spatial Pyramid of Local Binary Patterns243
+ +       0.1064 * (normalized) Spatial Pyramid of Local Binary Patterns250
+ +       0.1064 * (normalized) Spatial Pyramid of Local Binary Patterns251
+ +       0.1064 * (normalized) Spatial Pyramid of Local Binary Patterns253
+ +       0.0399 * (normalized) Spatial Pyramid of Local Binary Patterns254
+ +      -0.2966 * (normalized) Spatial Pyramid of Local Binary Patterns256
+ +       0.031  * (normalized) Spatial Pyramid of Local Binary Patterns260
+ +       0.0532 * (normalized) Spatial Pyramid of Local Binary Patterns261
+ +      -0.8604 * (normalized) Spatial Pyramid of Local Binary Patterns268
+ +       0.6144 * (normalized) Spatial Pyramid of Local Binary Patterns279
+ +      -0.2989 * (normalized) Spatial Pyramid of Local Binary Patterns289
+ +      -0.3215 * (normalized) Spatial Pyramid of Local Binary Patterns290
+ +       0.0771 * (normalized) Spatial Pyramid of Local Binary Patterns292
+ +       0.0153 * (normalized) Spatial Pyramid of Local Binary Patterns296
+ +      -0.0116 * (normalized) Spatial Pyramid of Local Binary Patterns304
+ +       0.0941 * (normalized) Spatial Pyramid of Local Binary Patterns315
+ +      -0.0621 * (normalized) Spatial Pyramid of Local Binary Patterns325
+ +       0.0053 * (normalized) Spatial Pyramid of Local Binary Patterns326
+ +      -0.3892 * (normalized) Spatial Pyramid of Local Binary Patterns328
+ +       0.021  * (normalized) Spatial Pyramid of Local Binary Patterns332
+ +      -0.2424 * (normalized) Spatial Pyramid of Local Binary Patterns334
+ +      -0.6254 * (normalized) Spatial Pyramid of Local Binary Patterns340
+ +       0.1442 * (normalized) Spatial Pyramid of Local Binary Patterns351
+ +       0.1442 * (normalized) Spatial Pyramid of Local Binary Patterns355
+ +      -0.1113 * (normalized) Spatial Pyramid of Local Binary Patterns361
+ +      -0.0136 * (normalized) Spatial Pyramid of Local Binary Patterns362
+ +      -0.1987 * (normalized) Spatial Pyramid of Local Binary Patterns364
+ +      -0.001  * (normalized) Spatial Pyramid of Local Binary Patterns366
+ +       0.3635 * (normalized) Spatial Pyramid of Local Binary Patterns368
+ +      -0.0723 * (normalized) Spatial Pyramid of Local Binary Patterns376
+ +      -0.021  * (normalized) Spatial Pyramid of Local Binary Patterns400
+ +      -0.313  * (normalized) Spatial Pyramid of Local Binary Patterns404
+ +      -0.1542 * (normalized) Spatial Pyramid of Local Binary Patterns412
+ +       0.1064 * (normalized) Spatial Pyramid of Local Binary Patterns432
+ +       0.098  * (normalized) Spatial Pyramid of Local Binary Patterns433
+ +      -0.0294 * (normalized) Spatial Pyramid of Local Binary Patterns434
+ +       0.3412 * (normalized) Spatial Pyramid of Local Binary Patterns436
+ +       0.1888 * (normalized) Spatial Pyramid of Local Binary Patterns440
+ +       0.1717 * (normalized) Spatial Pyramid of Local Binary Patterns441
+ +       0.1064 * (normalized) Spatial Pyramid of Local Binary Patterns442
+ +       0.3122 * (normalized) Spatial Pyramid of Local Binary Patterns448
+ +       0.1223 * (normalized) Spatial Pyramid of Local Binary Patterns459
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns469
+ +       0.0005 * (normalized) Spatial Pyramid of Local Binary Patterns470
+ +      -0.1671 * (normalized) Spatial Pyramid of Local Binary Patterns472
+ +       0.0724 * (normalized) Spatial Pyramid of Local Binary Patterns475
+ +       0.0143 * (normalized) Spatial Pyramid of Local Binary Patterns476
+ +      -0.2821 * (normalized) Spatial Pyramid of Local Binary Patterns484
+ +      -0.6952 * (normalized) Spatial Pyramid of Local Binary Patterns508
+ +      -0.6621 * (normalized) Spatial Pyramid of Local Binary Patterns512
+ +      -0.4473 * (normalized) Spatial Pyramid of Local Binary Patterns520
+ +       0.0192 * (normalized) Spatial Pyramid of Local Binary Patterns544
+ +      -0.6659 * (normalized) Spatial Pyramid of Local Binary Patterns548
+ +      -0.3899 * (normalized) Spatial Pyramid of Local Binary Patterns556
+ +       0.1648 * (normalized) Spatial Pyramid of Local Binary Patterns577
+ +       0.2288 * (normalized) Spatial Pyramid of Local Binary Patterns578
+ +       0.1113 * (normalized) Spatial Pyramid of Local Binary Patterns580
+ +       0.4544 * (normalized) Spatial Pyramid of Local Binary Patterns584
+ +       0.1604 * (normalized) Spatial Pyramid of Local Binary Patterns585
+ +       0.3803 * (normalized) Spatial Pyramid of Local Binary Patterns592
+ +       0.0013 * (normalized) Spatial Pyramid of Local Binary Patterns613
+ +       0.0008 * (normalized) Spatial Pyramid of Local Binary Patterns614
+ +      -0.1221 * (normalized) Spatial Pyramid of Local Binary Patterns616
+ +       0.0916 * (normalized) Spatial Pyramid of Local Binary Patterns619
+ +       0.4191 * (normalized) Spatial Pyramid of Local Binary Patterns620
+ +       0.4327 * (normalized) Spatial Pyramid of Local Binary Patterns628
+ +       0.1223 * (normalized) Spatial Pyramid of Local Binary Patterns648
+ +      -0.1112 * (normalized) Spatial Pyramid of Local Binary Patterns649
+ +       0.0178 * (normalized) Spatial Pyramid of Local Binary Patterns650
+ +       0.1705 * (normalized) Spatial Pyramid of Local Binary Patterns652
+ +      -0.2947 * (normalized) Spatial Pyramid of Local Binary Patterns656
+ +       0.1223 * (normalized) Spatial Pyramid of Local Binary Patterns661
+ +      -0.308  * (normalized) Spatial Pyramid of Local Binary Patterns664
+ +       0.1223 * (normalized) Spatial Pyramid of Local Binary Patterns675
+ +       0.1442 * (normalized) Spatial Pyramid of Local Binary Patterns684
+ +       0.1595 * (normalized) Spatial Pyramid of Local Binary Patterns685
+ +       0.0664 * (normalized) Spatial Pyramid of Local Binary Patterns686
+ +       0.0032 * (normalized) Spatial Pyramid of Local Binary Patterns688
+ +      -0.0477 * (normalized) Spatial Pyramid of Local Binary Patterns692
+ +       0.1442 * (normalized) Spatial Pyramid of Local Binary Patterns694
+ +      -0.077  * (normalized) Spatial Pyramid of Local Binary Patterns700
+ +       0.0025 * (normalized) Spatial Pyramid of Local Binary Patterns721
+ +       0.0008 * (normalized) Spatial Pyramid of Local Binary Patterns722
+ +       0.0073 * (normalized) Spatial Pyramid of Local Binary Patterns724
+ +       0.0865 * (normalized) Spatial Pyramid of Local Binary Patterns728
+ +       0.0025 * (normalized) Spatial Pyramid of Local Binary Patterns729
+ +       0.1006 * (normalized) Spatial Pyramid of Local Binary Patterns736
+ +       0.1223 * (normalized) Spatial Pyramid of Local Binary Patterns747
+ +       0.1223 * (normalized) Spatial Pyramid of Local Binary Patterns754
+ +       0.0025 * (normalized) Spatial Pyramid of Local Binary Patterns755
+ -       1.0001
+
+Number of kernel evaluations: 4268 (92.884% cached)
+
+Classifier for classes: K1, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.013  * (normalized) Spatial Pyramid of Local Binary Patterns2
+ +       0.0213 * (normalized) Spatial Pyramid of Local Binary Patterns4
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns8
+ +      -0.3575 * (normalized) Spatial Pyramid of Local Binary Patterns16
+ +      -0.0435 * (normalized) Spatial Pyramid of Local Binary Patterns37
+ +      -0.0726 * (normalized) Spatial Pyramid of Local Binary Patterns38
+ +      -0.0601 * (normalized) Spatial Pyramid of Local Binary Patterns40
+ +       0.1298 * (normalized) Spatial Pyramid of Local Binary Patterns44
+ +      -0.4536 * (normalized) Spatial Pyramid of Local Binary Patterns52
+ +      -0.0396 * (normalized) Spatial Pyramid of Local Binary Patterns73
+ +       0.0559 * (normalized) Spatial Pyramid of Local Binary Patterns74
+ +      -0.0367 * (normalized) Spatial Pyramid of Local Binary Patterns76
+ +       0.0057 * (normalized) Spatial Pyramid of Local Binary Patterns80
+ +      -0.3314 * (normalized) Spatial Pyramid of Local Binary Patterns88
+ +      -0.0136 * (normalized) Spatial Pyramid of Local Binary Patterns110
+ +      -0.1183 * (normalized) Spatial Pyramid of Local Binary Patterns112
+ +       0.3301 * (normalized) Spatial Pyramid of Local Binary Patterns116
+ +      -0.0584 * (normalized) Spatial Pyramid of Local Binary Patterns124
+ +       0.1083 * (normalized) Spatial Pyramid of Local Binary Patterns148
+ +       0.3301 * (normalized) Spatial Pyramid of Local Binary Patterns152
+ +      -0.1888 * (normalized) Spatial Pyramid of Local Binary Patterns160
+ +       0.0124 * (normalized) Spatial Pyramid of Local Binary Patterns182
+ +       0.7045 * (normalized) Spatial Pyramid of Local Binary Patterns184
+ +      -0.0012 * (normalized) Spatial Pyramid of Local Binary Patterns188
+ +      -0.0953 * (normalized) Spatial Pyramid of Local Binary Patterns196
+ +       0.0432 * (normalized) Spatial Pyramid of Local Binary Patterns216
+ +      -0.0336 * (normalized) Spatial Pyramid of Local Binary Patterns217
+ +       0.0432 * (normalized) Spatial Pyramid of Local Binary Patterns218
+ +       0.4277 * (normalized) Spatial Pyramid of Local Binary Patterns220
+ +      -0.1585 * (normalized) Spatial Pyramid of Local Binary Patterns223
+ +      -0.129  * (normalized) Spatial Pyramid of Local Binary Patterns224
+ +      -0.6296 * (normalized) Spatial Pyramid of Local Binary Patterns232
+ +       0.1296 * (normalized) Spatial Pyramid of Local Binary Patterns243
+ +       0.0232 * (normalized) Spatial Pyramid of Local Binary Patterns254
+ +      -0.0731 * (normalized) Spatial Pyramid of Local Binary Patterns256
+ +      -0.3517 * (normalized) Spatial Pyramid of Local Binary Patterns260
+ +      -0.1839 * (normalized) Spatial Pyramid of Local Binary Patterns268
+ +       0.191  * (normalized) Spatial Pyramid of Local Binary Patterns290
+ +       0.1856 * (normalized) Spatial Pyramid of Local Binary Patterns292
+ +       0.099  * (normalized) Spatial Pyramid of Local Binary Patterns296
+ +      -0.1366 * (normalized) Spatial Pyramid of Local Binary Patterns304
+ +      -0.1644 * (normalized) Spatial Pyramid of Local Binary Patterns325
+ +      -0.1295 * (normalized) Spatial Pyramid of Local Binary Patterns326
+ +       0.1194 * (normalized) Spatial Pyramid of Local Binary Patterns328
+ +       0.1571 * (normalized) Spatial Pyramid of Local Binary Patterns332
+ +      -0.5973 * (normalized) Spatial Pyramid of Local Binary Patterns340
+ +       0.0318 * (normalized) Spatial Pyramid of Local Binary Patterns361
+ +       0.0801 * (normalized) Spatial Pyramid of Local Binary Patterns362
+ +       0.1556 * (normalized) Spatial Pyramid of Local Binary Patterns364
+ +       0.1786 * (normalized) Spatial Pyramid of Local Binary Patterns367
+ +       0.2359 * (normalized) Spatial Pyramid of Local Binary Patterns368
+ +      -0.4197 * (normalized) Spatial Pyramid of Local Binary Patterns376
+ +      -0.034  * (normalized) Spatial Pyramid of Local Binary Patterns398
+ +       0.0436 * (normalized) Spatial Pyramid of Local Binary Patterns400
+ +       0.3301 * (normalized) Spatial Pyramid of Local Binary Patterns404
+ +      -0.1129 * (normalized) Spatial Pyramid of Local Binary Patterns412
+ +       0.571  * (normalized) Spatial Pyramid of Local Binary Patterns433
+ +       0.4219 * (normalized) Spatial Pyramid of Local Binary Patterns436
+ +       0.7193 * (normalized) Spatial Pyramid of Local Binary Patterns440
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns441
+ +      -0.0348 * (normalized) Spatial Pyramid of Local Binary Patterns448
+ +      -0.0045 * (normalized) Spatial Pyramid of Local Binary Patterns469
+ +      -0.0295 * (normalized) Spatial Pyramid of Local Binary Patterns470
+ +       0.4197 * (normalized) Spatial Pyramid of Local Binary Patterns472
+ +       0.0057 * (normalized) Spatial Pyramid of Local Binary Patterns476
+ +      -0.0039 * (normalized) Spatial Pyramid of Local Binary Patterns477
+ +      -0.0213 * (normalized) Spatial Pyramid of Local Binary Patterns484
+ +       0.1854 * (normalized) Spatial Pyramid of Local Binary Patterns504
+ +       0.2055 * (normalized) Spatial Pyramid of Local Binary Patterns505
+ +      -0.0255 * (normalized) Spatial Pyramid of Local Binary Patterns506
+ +      -0.3662 * (normalized) Spatial Pyramid of Local Binary Patterns508
+ +      -0.0886 * (normalized) Spatial Pyramid of Local Binary Patterns512
+ +       0.1854 * (normalized) Spatial Pyramid of Local Binary Patterns514
+ +      -0.3548 * (normalized) Spatial Pyramid of Local Binary Patterns520
+ +       0.0173 * (normalized) Spatial Pyramid of Local Binary Patterns542
+ +      -0.1507 * (normalized) Spatial Pyramid of Local Binary Patterns544
+ +      -0.2302 * (normalized) Spatial Pyramid of Local Binary Patterns548
+ +      -0.6099 * (normalized) Spatial Pyramid of Local Binary Patterns556
+ +      -0.0019 * (normalized) Spatial Pyramid of Local Binary Patterns577
+ +       0.2156 * (normalized) Spatial Pyramid of Local Binary Patterns580
+ +      -0.0072 * (normalized) Spatial Pyramid of Local Binary Patterns584
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns585
+ +       0.1835 * (normalized) Spatial Pyramid of Local Binary Patterns592
+ +       0.1541 * (normalized) Spatial Pyramid of Local Binary Patterns613
+ +       0.0864 * (normalized) Spatial Pyramid of Local Binary Patterns614
+ +       0.2761 * (normalized) Spatial Pyramid of Local Binary Patterns616
+ +      -0.0269 * (normalized) Spatial Pyramid of Local Binary Patterns620
+ +       0.1699 * (normalized) Spatial Pyramid of Local Binary Patterns628
+ +       0.1786 * (normalized) Spatial Pyramid of Local Binary Patterns639
+ +       0.0387 * (normalized) Spatial Pyramid of Local Binary Patterns650
+ +       0.3567 * (normalized) Spatial Pyramid of Local Binary Patterns652
+ +      -0.1084 * (normalized) Spatial Pyramid of Local Binary Patterns656
+ +      -0.2765 * (normalized) Spatial Pyramid of Local Binary Patterns664
+ +       0.4286 * (normalized) Spatial Pyramid of Local Binary Patterns675
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns686
+ +       0.1533 * (normalized) Spatial Pyramid of Local Binary Patterns688
+ +       0.216  * (normalized) Spatial Pyramid of Local Binary Patterns692
+ +      -0.3593 * (normalized) Spatial Pyramid of Local Binary Patterns700
+ +       0.53   * (normalized) Spatial Pyramid of Local Binary Patterns711
+ +       0.0942 * (normalized) Spatial Pyramid of Local Binary Patterns721
+ +       0.064  * (normalized) Spatial Pyramid of Local Binary Patterns722
+ +      -0.1059 * (normalized) Spatial Pyramid of Local Binary Patterns724
+ +       0.0169 * (normalized) Spatial Pyramid of Local Binary Patterns728
+ +       0.0074 * (normalized) Spatial Pyramid of Local Binary Patterns736
+ -       1.1284
+
+Number of kernel evaluations: 1268 (89.386% cached)
+
+Classifier for classes: K1, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K1, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K2, K3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6574 * (normalized) Spatial Pyramid of Local Binary Patterns0
+ +       0.102  * (normalized) Spatial Pyramid of Local Binary Patterns1
+ +       0.6396 * (normalized) Spatial Pyramid of Local Binary Patterns2
+ +      -0.0755 * (normalized) Spatial Pyramid of Local Binary Patterns4
+ +       0.0959 * (normalized) Spatial Pyramid of Local Binary Patterns6
+ +       0.0959 * (normalized) Spatial Pyramid of Local Binary Patterns7
+ +       0.4751 * (normalized) Spatial Pyramid of Local Binary Patterns8
+ +       0.0959 * (normalized) Spatial Pyramid of Local Binary Patterns9
+ +       0.036  * (normalized) Spatial Pyramid of Local Binary Patterns14
+ +       0.012  * (normalized) Spatial Pyramid of Local Binary Patterns16
+ +       0.665  * (normalized) Spatial Pyramid of Local Binary Patterns36
+ +       0.2063 * (normalized) Spatial Pyramid of Local Binary Patterns37
+ +       0.4876 * (normalized) Spatial Pyramid of Local Binary Patterns38
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns39
+ +       0.3574 * (normalized) Spatial Pyramid of Local Binary Patterns40
+ +       0.1642 * (normalized) Spatial Pyramid of Local Binary Patterns42
+ +       0.2869 * (normalized) Spatial Pyramid of Local Binary Patterns43
+ +      -0.5391 * (normalized) Spatial Pyramid of Local Binary Patterns44
+ +       0.1338 * (normalized) Spatial Pyramid of Local Binary Patterns45
+ +       0.1136 * (normalized) Spatial Pyramid of Local Binary Patterns46
+ +       0.036  * (normalized) Spatial Pyramid of Local Binary Patterns50
+ +      -0.5181 * (normalized) Spatial Pyramid of Local Binary Patterns52
+ +       0.2565 * (normalized) Spatial Pyramid of Local Binary Patterns72
+ +       0.1172 * (normalized) Spatial Pyramid of Local Binary Patterns73
+ +       0.2878 * (normalized) Spatial Pyramid of Local Binary Patterns74
+ +      -0.0098 * (normalized) Spatial Pyramid of Local Binary Patterns75
+ +      -0.3394 * (normalized) Spatial Pyramid of Local Binary Patterns76
+ +      -0.2876 * (normalized) Spatial Pyramid of Local Binary Patterns80
+ +      -0.2671 * (normalized) Spatial Pyramid of Local Binary Patterns88
+ +       0.0485 * (normalized) Spatial Pyramid of Local Binary Patterns99
+ +       0.0333 * (normalized) Spatial Pyramid of Local Binary Patterns108
+ +      -0.0458 * (normalized) Spatial Pyramid of Local Binary Patterns109
+ +       0.5712 * (normalized) Spatial Pyramid of Local Binary Patterns110
+ +       0.0333 * (normalized) Spatial Pyramid of Local Binary Patterns111
+ +       0.3893 * (normalized) Spatial Pyramid of Local Binary Patterns112
+ +       0.7122 * (normalized) Spatial Pyramid of Local Binary Patterns116
+ +      -0.1942 * (normalized) Spatial Pyramid of Local Binary Patterns124
+ +       0.4743 * (normalized) Spatial Pyramid of Local Binary Patterns132
+ +       0.1482 * (normalized) Spatial Pyramid of Local Binary Patterns145
+ +       0.0305 * (normalized) Spatial Pyramid of Local Binary Patterns146
+ +      -0.6354 * (normalized) Spatial Pyramid of Local Binary Patterns148
+ +       0.0337 * (normalized) Spatial Pyramid of Local Binary Patterns151
+ +       0.1188 * (normalized) Spatial Pyramid of Local Binary Patterns152
+ +      -0.4225 * (normalized) Spatial Pyramid of Local Binary Patterns160
+ +       0.0485 * (normalized) Spatial Pyramid of Local Binary Patterns171
+ +       0.6776 * (normalized) Spatial Pyramid of Local Binary Patterns180
+ +      -0.2931 * (normalized) Spatial Pyramid of Local Binary Patterns181
+ +       0.1326 * (normalized) Spatial Pyramid of Local Binary Patterns182
+ +       0.0382 * (normalized) Spatial Pyramid of Local Binary Patterns183
+ +       0.1104 * (normalized) Spatial Pyramid of Local Binary Patterns184
+ +       0.1407 * (normalized) Spatial Pyramid of Local Binary Patterns186
+ +       0.9629 * (normalized) Spatial Pyramid of Local Binary Patterns187
+ +      -0.1116 * (normalized) Spatial Pyramid of Local Binary Patterns188
+ +       0.3588 * (normalized) Spatial Pyramid of Local Binary Patterns189
+ +       0.8777 * (normalized) Spatial Pyramid of Local Binary Patterns194
+ +       0.0137 * (normalized) Spatial Pyramid of Local Binary Patterns196
+ +       0.0319 * (normalized) Spatial Pyramid of Local Binary Patterns217
+ +       0.5731 * (normalized) Spatial Pyramid of Local Binary Patterns218
+ +      -0.6523 * (normalized) Spatial Pyramid of Local Binary Patterns220
+ +       0.8656 * (normalized) Spatial Pyramid of Local Binary Patterns221
+ +       0.1196 * (normalized) Spatial Pyramid of Local Binary Patterns222
+ +       0.7541 * (normalized) Spatial Pyramid of Local Binary Patterns224
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns229
+ +      -0.7652 * (normalized) Spatial Pyramid of Local Binary Patterns232
+ +      -0.0474 * (normalized) Spatial Pyramid of Local Binary Patterns253
+ +      -0.5736 * (normalized) Spatial Pyramid of Local Binary Patterns256
+ +      -0.1533 * (normalized) Spatial Pyramid of Local Binary Patterns260
+ +      -0.0474 * (normalized) Spatial Pyramid of Local Binary Patterns261
+ +      -0.4442 * (normalized) Spatial Pyramid of Local Binary Patterns268
+ +      -0.2824 * (normalized) Spatial Pyramid of Local Binary Patterns279
+ +      -0.62   * (normalized) Spatial Pyramid of Local Binary Patterns289
+ +       0.0824 * (normalized) Spatial Pyramid of Local Binary Patterns292
+ +      -0.3181 * (normalized) Spatial Pyramid of Local Binary Patterns296
+ +      -0.3376 * (normalized) Spatial Pyramid of Local Binary Patterns297
+ +      -0.9286 * (normalized) Spatial Pyramid of Local Binary Patterns304
+ +       0.2865 * (normalized) Spatial Pyramid of Local Binary Patterns325
+ +       0.3431 * (normalized) Spatial Pyramid of Local Binary Patterns326
+ +      -0.3718 * (normalized) Spatial Pyramid of Local Binary Patterns328
+ +       0.1196 * (normalized) Spatial Pyramid of Local Binary Patterns329
+ +       0.6667 * (normalized) Spatial Pyramid of Local Binary Patterns331
+ +       0.4806 * (normalized) Spatial Pyramid of Local Binary Patterns332
+ +       0.4784 * (normalized) Spatial Pyramid of Local Binary Patterns333
+ +       0.0957 * (normalized) Spatial Pyramid of Local Binary Patterns339
+ +      -1.2317 * (normalized) Spatial Pyramid of Local Binary Patterns340
+ +       0.0151 * (normalized) Spatial Pyramid of Local Binary Patterns360
+ +       0.0568 * (normalized) Spatial Pyramid of Local Binary Patterns361
+ +       0.0821 * (normalized) Spatial Pyramid of Local Binary Patterns362
+ +      -0.2122 * (normalized) Spatial Pyramid of Local Binary Patterns364
+ +       0.5345 * (normalized) Spatial Pyramid of Local Binary Patterns368
+ +       0.0284 * (normalized) Spatial Pyramid of Local Binary Patterns369
+ +       0.1136 * (normalized) Spatial Pyramid of Local Binary Patterns370
+ +      -0.5323 * (normalized) Spatial Pyramid of Local Binary Patterns376
+ +       0.0333 * (normalized) Spatial Pyramid of Local Binary Patterns396
+ +       0.0485 * (normalized) Spatial Pyramid of Local Binary Patterns397
+ +       0.1413 * (normalized) Spatial Pyramid of Local Binary Patterns398
+ +       0.0333 * (normalized) Spatial Pyramid of Local Binary Patterns399
+ +       0.8582 * (normalized) Spatial Pyramid of Local Binary Patterns400
+ +      -0.7113 * (normalized) Spatial Pyramid of Local Binary Patterns404
+ +       0.2422 * (normalized) Spatial Pyramid of Local Binary Patterns412
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns417
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns433
+ +       0.0007 * (normalized) Spatial Pyramid of Local Binary Patterns434
+ +      -0.2816 * (normalized) Spatial Pyramid of Local Binary Patterns436
+ +       0.6321 * (normalized) Spatial Pyramid of Local Binary Patterns440
+ +       0.0953 * (normalized) Spatial Pyramid of Local Binary Patterns448
+ +       0.3209 * (normalized) Spatial Pyramid of Local Binary Patterns469
+ +       0.5444 * (normalized) Spatial Pyramid of Local Binary Patterns472
+ +       0.5757 * (normalized) Spatial Pyramid of Local Binary Patterns476
+ +       0.1575 * (normalized) Spatial Pyramid of Local Binary Patterns484
+ +       0.0901 * (normalized) Spatial Pyramid of Local Binary Patterns506
+ +      -0.237  * (normalized) Spatial Pyramid of Local Binary Patterns508
+ +      -0.1844 * (normalized) Spatial Pyramid of Local Binary Patterns512
+ +      -1.2605 * (normalized) Spatial Pyramid of Local Binary Patterns520
+ +       0.5124 * (normalized) Spatial Pyramid of Local Binary Patterns542
+ +       0.4571 * (normalized) Spatial Pyramid of Local Binary Patterns544
+ +      -0.1348 * (normalized) Spatial Pyramid of Local Binary Patterns548
+ +       0.0114 * (normalized) Spatial Pyramid of Local Binary Patterns556
+ +       0.5228 * (normalized) Spatial Pyramid of Local Binary Patterns567
+ +       0.4685 * (normalized) Spatial Pyramid of Local Binary Patterns576
+ +       0.4064 * (normalized) Spatial Pyramid of Local Binary Patterns577
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns578
+ +      -0.543  * (normalized) Spatial Pyramid of Local Binary Patterns580
+ +       0.1774 * (normalized) Spatial Pyramid of Local Binary Patterns584
+ +       1.2919 * (normalized) Spatial Pyramid of Local Binary Patterns592
+ +       0.2537 * (normalized) Spatial Pyramid of Local Binary Patterns614
+ +      -0.3597 * (normalized) Spatial Pyramid of Local Binary Patterns616
+ +      -0.8643 * (normalized) Spatial Pyramid of Local Binary Patterns620
+ +      -1.0431 * (normalized) Spatial Pyramid of Local Binary Patterns628
+ +      -0.0098 * (normalized) Spatial Pyramid of Local Binary Patterns648
+ +      -0.0024 * (normalized) Spatial Pyramid of Local Binary Patterns649
+ +       0.0282 * (normalized) Spatial Pyramid of Local Binary Patterns650
+ +      -0.0098 * (normalized) Spatial Pyramid of Local Binary Patterns651
+ +      -0.2552 * (normalized) Spatial Pyramid of Local Binary Patterns652
+ +       0.5672 * (normalized) Spatial Pyramid of Local Binary Patterns656
+ +      -0.7646 * (normalized) Spatial Pyramid of Local Binary Patterns664
+ +       0.0997 * (normalized) Spatial Pyramid of Local Binary Patterns685
+ +       0.0321 * (normalized) Spatial Pyramid of Local Binary Patterns686
+ +      -0.6511 * (normalized) Spatial Pyramid of Local Binary Patterns688
+ +      -0.0607 * (normalized) Spatial Pyramid of Local Binary Patterns692
+ +      -0.7826 * (normalized) Spatial Pyramid of Local Binary Patterns700
+ +       0.1307 * (normalized) Spatial Pyramid of Local Binary Patterns721
+ +       0.1749 * (normalized) Spatial Pyramid of Local Binary Patterns722
+ +      -0.0814 * (normalized) Spatial Pyramid of Local Binary Patterns724
+ +       0.0337 * (normalized) Spatial Pyramid of Local Binary Patterns727
+ +       0.504  * (normalized) Spatial Pyramid of Local Binary Patterns728
+ +       0.7043 * (normalized) Spatial Pyramid of Local Binary Patterns736
+ -       1.0002
+
+Number of kernel evaluations: 16691 (95.034% cached)
+
+Classifier for classes: K2, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0476 * (normalized) Spatial Pyramid of Local Binary Patterns1
+ +       0.2966 * (normalized) Spatial Pyramid of Local Binary Patterns2
+ +      -0.2192 * (normalized) Spatial Pyramid of Local Binary Patterns4
+ +       0.1057 * (normalized) Spatial Pyramid of Local Binary Patterns7
+ +       0.0119 * (normalized) Spatial Pyramid of Local Binary Patterns8
+ +      -0.6369 * (normalized) Spatial Pyramid of Local Binary Patterns16
+ +       0.0523 * (normalized) Spatial Pyramid of Local Binary Patterns36
+ +       0.093  * (normalized) Spatial Pyramid of Local Binary Patterns37
+ +       0.2533 * (normalized) Spatial Pyramid of Local Binary Patterns38
+ +      -0.164  * (normalized) Spatial Pyramid of Local Binary Patterns40
+ +       0.0161 * (normalized) Spatial Pyramid of Local Binary Patterns42
+ +       0.1057 * (normalized) Spatial Pyramid of Local Binary Patterns43
+ +      -0.1978 * (normalized) Spatial Pyramid of Local Binary Patterns44
+ +       0.1127 * (normalized) Spatial Pyramid of Local Binary Patterns51
+ +      -0.6742 * (normalized) Spatial Pyramid of Local Binary Patterns52
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns73
+ +       0.2978 * (normalized) Spatial Pyramid of Local Binary Patterns74
+ +       0.1808 * (normalized) Spatial Pyramid of Local Binary Patterns76
+ +       0.101  * (normalized) Spatial Pyramid of Local Binary Patterns80
+ +       0.1613 * (normalized) Spatial Pyramid of Local Binary Patterns88
+ +      -0.0834 * (normalized) Spatial Pyramid of Local Binary Patterns109
+ +       0.0687 * (normalized) Spatial Pyramid of Local Binary Patterns110
+ +       0.022  * (normalized) Spatial Pyramid of Local Binary Patterns112
+ +       0.3548 * (normalized) Spatial Pyramid of Local Binary Patterns116
+ +      -0.6879 * (normalized) Spatial Pyramid of Local Binary Patterns124
+ +      -0.3065 * (normalized) Spatial Pyramid of Local Binary Patterns145
+ +       0.0645 * (normalized) Spatial Pyramid of Local Binary Patterns146
+ +       0.2196 * (normalized) Spatial Pyramid of Local Binary Patterns148
+ +       0.1712 * (normalized) Spatial Pyramid of Local Binary Patterns152
+ +      -0.3196 * (normalized) Spatial Pyramid of Local Binary Patterns160
+ +       0.0504 * (normalized) Spatial Pyramid of Local Binary Patterns180
+ +       0.2161 * (normalized) Spatial Pyramid of Local Binary Patterns181
+ +       0.3368 * (normalized) Spatial Pyramid of Local Binary Patterns182
+ +       0.3068 * (normalized) Spatial Pyramid of Local Binary Patterns183
+ +       0.2555 * (normalized) Spatial Pyramid of Local Binary Patterns184
+ +       0.1935 * (normalized) Spatial Pyramid of Local Binary Patterns185
+ +       0.0327 * (normalized) Spatial Pyramid of Local Binary Patterns186
+ +       0.0531 * (normalized) Spatial Pyramid of Local Binary Patterns187
+ +      -0.0748 * (normalized) Spatial Pyramid of Local Binary Patterns188
+ +       0.061  * (normalized) Spatial Pyramid of Local Binary Patterns189
+ +       0.0245 * (normalized) Spatial Pyramid of Local Binary Patterns194
+ +       0.0875 * (normalized) Spatial Pyramid of Local Binary Patterns196
+ +      -0.1375 * (normalized) Spatial Pyramid of Local Binary Patterns220
+ +       0.4999 * (normalized) Spatial Pyramid of Local Binary Patterns224
+ +       0.1127 * (normalized) Spatial Pyramid of Local Binary Patterns228
+ +      -0.369  * (normalized) Spatial Pyramid of Local Binary Patterns232
+ +      -0.641  * (normalized) Spatial Pyramid of Local Binary Patterns253
+ +       0.2202 * (normalized) Spatial Pyramid of Local Binary Patterns254
+ +      -0.8366 * (normalized) Spatial Pyramid of Local Binary Patterns256
+ +       0.0816 * (normalized) Spatial Pyramid of Local Binary Patterns260
+ +      -0.641  * (normalized) Spatial Pyramid of Local Binary Patterns261
+ +      -0.2321 * (normalized) Spatial Pyramid of Local Binary Patterns268
+ +      -0.1355 * (normalized) Spatial Pyramid of Local Binary Patterns279
+ +      -0.3024 * (normalized) Spatial Pyramid of Local Binary Patterns289
+ +      -0.1669 * (normalized) Spatial Pyramid of Local Binary Patterns291
+ +      -0.0166 * (normalized) Spatial Pyramid of Local Binary Patterns292
+ +      -0.1669 * (normalized) Spatial Pyramid of Local Binary Patterns294
+ +      -0.4943 * (normalized) Spatial Pyramid of Local Binary Patterns296
+ +       0.2027 * (normalized) Spatial Pyramid of Local Binary Patterns304
+ +       0.179  * (normalized) Spatial Pyramid of Local Binary Patterns324
+ +       0.2606 * (normalized) Spatial Pyramid of Local Binary Patterns325
+ +       0.4035 * (normalized) Spatial Pyramid of Local Binary Patterns326
+ +      -0.0349 * (normalized) Spatial Pyramid of Local Binary Patterns328
+ +       0.1143 * (normalized) Spatial Pyramid of Local Binary Patterns329
+ +       0.3294 * (normalized) Spatial Pyramid of Local Binary Patterns331
+ +       0.5291 * (normalized) Spatial Pyramid of Local Binary Patterns332
+ +       0.1127 * (normalized) Spatial Pyramid of Local Binary Patterns339
+ +      -0.4955 * (normalized) Spatial Pyramid of Local Binary Patterns340
+ +       0.2462 * (normalized) Spatial Pyramid of Local Binary Patterns359
+ +       0.0141 * (normalized) Spatial Pyramid of Local Binary Patterns361
+ +       0.3229 * (normalized) Spatial Pyramid of Local Binary Patterns362
+ +      -0.1217 * (normalized) Spatial Pyramid of Local Binary Patterns364
+ +       0.5424 * (normalized) Spatial Pyramid of Local Binary Patterns368
+ +      -0.872  * (normalized) Spatial Pyramid of Local Binary Patterns376
+ +       0.1127 * (normalized) Spatial Pyramid of Local Binary Patterns387
+ +       0.1217 * (normalized) Spatial Pyramid of Local Binary Patterns394
+ +       0.3805 * (normalized) Spatial Pyramid of Local Binary Patterns400
+ +      -0.3611 * (normalized) Spatial Pyramid of Local Binary Patterns404
+ +      -0.4714 * (normalized) Spatial Pyramid of Local Binary Patterns412
+ +       0.1199 * (normalized) Spatial Pyramid of Local Binary Patterns423
+ +       0.0609 * (normalized) Spatial Pyramid of Local Binary Patterns430
+ +       0.0195 * (normalized) Spatial Pyramid of Local Binary Patterns433
+ +      -0.0876 * (normalized) Spatial Pyramid of Local Binary Patterns434
+ +      -0.6254 * (normalized) Spatial Pyramid of Local Binary Patterns436
+ +      -0.1669 * (normalized) Spatial Pyramid of Local Binary Patterns437
+ +       1.1375 * (normalized) Spatial Pyramid of Local Binary Patterns440
+ +      -0.6232 * (normalized) Spatial Pyramid of Local Binary Patterns448
+ +       0.1868 * (normalized) Spatial Pyramid of Local Binary Patterns469
+ +       0.2688 * (normalized) Spatial Pyramid of Local Binary Patterns470
+ +       0.2745 * (normalized) Spatial Pyramid of Local Binary Patterns472
+ +       0.4099 * (normalized) Spatial Pyramid of Local Binary Patterns476
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns477
+ +       0.2748 * (normalized) Spatial Pyramid of Local Binary Patterns484
+ +       0.1217 * (normalized) Spatial Pyramid of Local Binary Patterns505
+ +      -0.3524 * (normalized) Spatial Pyramid of Local Binary Patterns508
+ +      -0.1058 * (normalized) Spatial Pyramid of Local Binary Patterns512
+ +       0.1217 * (normalized) Spatial Pyramid of Local Binary Patterns516
+ +      -0.4062 * (normalized) Spatial Pyramid of Local Binary Patterns520
+ +       0.1217 * (normalized) Spatial Pyramid of Local Binary Patterns531
+ +       0.1217 * (normalized) Spatial Pyramid of Local Binary Patterns540
+ +       0.1217 * (normalized) Spatial Pyramid of Local Binary Patterns541
+ +       0.0406 * (normalized) Spatial Pyramid of Local Binary Patterns542
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns544
+ +      -0.0356 * (normalized) Spatial Pyramid of Local Binary Patterns548
+ +       0.1217 * (normalized) Spatial Pyramid of Local Binary Patterns550
+ +      -0.1127 * (normalized) Spatial Pyramid of Local Binary Patterns556
+ +      -0.2642 * (normalized) Spatial Pyramid of Local Binary Patterns577
+ +       1      * (normalized) Spatial Pyramid of Local Binary Patterns578
+ +      -0.6981 * (normalized) Spatial Pyramid of Local Binary Patterns580
+ +       0.5579 * (normalized) Spatial Pyramid of Local Binary Patterns584
+ +      -0.1515 * (normalized) Spatial Pyramid of Local Binary Patterns592
+ +       0.0666 * (normalized) Spatial Pyramid of Local Binary Patterns616
+ +      -0.8032 * (normalized) Spatial Pyramid of Local Binary Patterns620
+ +      -0.4409 * (normalized) Spatial Pyramid of Local Binary Patterns628
+ +       0.0305 * (normalized) Spatial Pyramid of Local Binary Patterns649
+ +       0.1913 * (normalized) Spatial Pyramid of Local Binary Patterns650
+ +      -0.6898 * (normalized) Spatial Pyramid of Local Binary Patterns652
+ +       0.3344 * (normalized) Spatial Pyramid of Local Binary Patterns656
+ +      -0.4403 * (normalized) Spatial Pyramid of Local Binary Patterns664
+ +       0.0516 * (normalized) Spatial Pyramid of Local Binary Patterns685
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns686
+ +      -0.6134 * (normalized) Spatial Pyramid of Local Binary Patterns688
+ +       0.1353 * (normalized) Spatial Pyramid of Local Binary Patterns692
+ +      -0.7041 * (normalized) Spatial Pyramid of Local Binary Patterns700
+ +       0.0077 * (normalized) Spatial Pyramid of Local Binary Patterns720
+ +       0.1129 * (normalized) Spatial Pyramid of Local Binary Patterns721
+ +       0.0925 * (normalized) Spatial Pyramid of Local Binary Patterns722
+ +       0.9003 * (normalized) Spatial Pyramid of Local Binary Patterns724
+ +       0.0419 * (normalized) Spatial Pyramid of Local Binary Patterns727
+ +       0.0386 * (normalized) Spatial Pyramid of Local Binary Patterns728
+ +       0.1935 * (normalized) Spatial Pyramid of Local Binary Patterns734
+ +      -0.2599 * (normalized) Spatial Pyramid of Local Binary Patterns736
+ -       1.0001
+
+Number of kernel evaluations: 13340 (93.61% cached)
+
+Classifier for classes: K2, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.045  * (normalized) Spatial Pyramid of Local Binary Patterns1
+ +       0.0127 * (normalized) Spatial Pyramid of Local Binary Patterns2
+ +      -0.2963 * (normalized) Spatial Pyramid of Local Binary Patterns4
+ +      -0.7443 * (normalized) Spatial Pyramid of Local Binary Patterns8
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns9
+ +       1.7442 * (normalized) Spatial Pyramid of Local Binary Patterns16
+ +      -0.0554 * (normalized) Spatial Pyramid of Local Binary Patterns37
+ +      -0.0026 * (normalized) Spatial Pyramid of Local Binary Patterns38
+ +      -0.285  * (normalized) Spatial Pyramid of Local Binary Patterns40
+ +      -0.5328 * (normalized) Spatial Pyramid of Local Binary Patterns44
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns45
+ +       0.5717 * (normalized) Spatial Pyramid of Local Binary Patterns49
+ +       0.0648 * (normalized) Spatial Pyramid of Local Binary Patterns52
+ +       0.1001 * (normalized) Spatial Pyramid of Local Binary Patterns71
+ +      -0.1143 * (normalized) Spatial Pyramid of Local Binary Patterns72
+ +      -0.0571 * (normalized) Spatial Pyramid of Local Binary Patterns73
+ +      -0.2285 * (normalized) Spatial Pyramid of Local Binary Patterns75
+ +      -0.0262 * (normalized) Spatial Pyramid of Local Binary Patterns76
+ +       0.5057 * (normalized) Spatial Pyramid of Local Binary Patterns80
+ +       0.1724 * (normalized) Spatial Pyramid of Local Binary Patterns88
+ +      -0.0409 * (normalized) Spatial Pyramid of Local Binary Patterns109
+ +       0.0112 * (normalized) Spatial Pyramid of Local Binary Patterns110
+ +      -0.189  * (normalized) Spatial Pyramid of Local Binary Patterns112
+ +       0.4869 * (normalized) Spatial Pyramid of Local Binary Patterns116
+ +       0.0287 * (normalized) Spatial Pyramid of Local Binary Patterns117
+ +      -0.7224 * (normalized) Spatial Pyramid of Local Binary Patterns124
+ +       0.3287 * (normalized) Spatial Pyramid of Local Binary Patterns135
+ +       0.0216 * (normalized) Spatial Pyramid of Local Binary Patterns144
+ +       0.1243 * (normalized) Spatial Pyramid of Local Binary Patterns145
+ +      -0.0316 * (normalized) Spatial Pyramid of Local Binary Patterns146
+ +       0.1173 * (normalized) Spatial Pyramid of Local Binary Patterns148
+ +       0.1865 * (normalized) Spatial Pyramid of Local Binary Patterns152
+ +       0.0216 * (normalized) Spatial Pyramid of Local Binary Patterns154
+ +      -0.0093 * (normalized) Spatial Pyramid of Local Binary Patterns160
+ +       0.0197 * (normalized) Spatial Pyramid of Local Binary Patterns180
+ +      -0.5059 * (normalized) Spatial Pyramid of Local Binary Patterns181
+ +       0.0233 * (normalized) Spatial Pyramid of Local Binary Patterns182
+ +      -0.2708 * (normalized) Spatial Pyramid of Local Binary Patterns184
+ +       0.1114 * (normalized) Spatial Pyramid of Local Binary Patterns188
+ +       0.0737 * (normalized) Spatial Pyramid of Local Binary Patterns189
+ +      -0.3228 * (normalized) Spatial Pyramid of Local Binary Patterns196
+ +       0.0338 * (normalized) Spatial Pyramid of Local Binary Patterns207
+ +       0.0338 * (normalized) Spatial Pyramid of Local Binary Patterns215
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns216
+ +       0.0105 * (normalized) Spatial Pyramid of Local Binary Patterns217
+ +       0.0393 * (normalized) Spatial Pyramid of Local Binary Patterns218
+ +       0.4428 * (normalized) Spatial Pyramid of Local Binary Patterns220
+ +       0.4694 * (normalized) Spatial Pyramid of Local Binary Patterns224
+ +       0.5717 * (normalized) Spatial Pyramid of Local Binary Patterns229
+ +       0.0411 * (normalized) Spatial Pyramid of Local Binary Patterns232
+ +       0.295  * (normalized) Spatial Pyramid of Local Binary Patterns243
+ +       0.1001 * (normalized) Spatial Pyramid of Local Binary Patterns250
+ +       0.1001 * (normalized) Spatial Pyramid of Local Binary Patterns251
+ +       0.1001 * (normalized) Spatial Pyramid of Local Binary Patterns253
+ +       0.0375 * (normalized) Spatial Pyramid of Local Binary Patterns254
+ +       0.3168 * (normalized) Spatial Pyramid of Local Binary Patterns256
+ +       0.242  * (normalized) Spatial Pyramid of Local Binary Patterns260
+ +       0.05   * (normalized) Spatial Pyramid of Local Binary Patterns261
+ +      -0.3045 * (normalized) Spatial Pyramid of Local Binary Patterns268
+ +       0.6055 * (normalized) Spatial Pyramid of Local Binary Patterns279
+ +      -0.1938 * (normalized) Spatial Pyramid of Local Binary Patterns289
+ +       0.0652 * (normalized) Spatial Pyramid of Local Binary Patterns290
+ +      -0.2107 * (normalized) Spatial Pyramid of Local Binary Patterns291
+ +      -0.1193 * (normalized) Spatial Pyramid of Local Binary Patterns292
+ +      -0.2107 * (normalized) Spatial Pyramid of Local Binary Patterns294
+ +      -0.1468 * (normalized) Spatial Pyramid of Local Binary Patterns296
+ +      -0.2407 * (normalized) Spatial Pyramid of Local Binary Patterns304
+ +       0.1908 * (normalized) Spatial Pyramid of Local Binary Patterns315
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns325
+ +      -0.0013 * (normalized) Spatial Pyramid of Local Binary Patterns326
+ +      -0.7087 * (normalized) Spatial Pyramid of Local Binary Patterns328
+ +       0.2626 * (normalized) Spatial Pyramid of Local Binary Patterns332
+ +       0.4157 * (normalized) Spatial Pyramid of Local Binary Patterns340
+ +       0.0216 * (normalized) Spatial Pyramid of Local Binary Patterns351
+ +       0.0216 * (normalized) Spatial Pyramid of Local Binary Patterns355
+ +       0.0067 * (normalized) Spatial Pyramid of Local Binary Patterns362
+ +      -0.1069 * (normalized) Spatial Pyramid of Local Binary Patterns364
+ +       0.1012 * (normalized) Spatial Pyramid of Local Binary Patterns366
+ +       0.4081 * (normalized) Spatial Pyramid of Local Binary Patterns368
+ +      -0.1413 * (normalized) Spatial Pyramid of Local Binary Patterns376
+ +      -0.0816 * (normalized) Spatial Pyramid of Local Binary Patterns400
+ +      -0.3428 * (normalized) Spatial Pyramid of Local Binary Patterns404
+ +      -0.4498 * (normalized) Spatial Pyramid of Local Binary Patterns412
+ +       0.1001 * (normalized) Spatial Pyramid of Local Binary Patterns432
+ +       0.0377 * (normalized) Spatial Pyramid of Local Binary Patterns433
+ +      -0.0421 * (normalized) Spatial Pyramid of Local Binary Patterns434
+ +      -0.2775 * (normalized) Spatial Pyramid of Local Binary Patterns436
+ +      -0.2107 * (normalized) Spatial Pyramid of Local Binary Patterns437
+ +      -0.0303 * (normalized) Spatial Pyramid of Local Binary Patterns440
+ +       0.0287 * (normalized) Spatial Pyramid of Local Binary Patterns441
+ +       0.1001 * (normalized) Spatial Pyramid of Local Binary Patterns442
+ +      -0.0589 * (normalized) Spatial Pyramid of Local Binary Patterns448
+ +       0.295  * (normalized) Spatial Pyramid of Local Binary Patterns459
+ +       0.0285 * (normalized) Spatial Pyramid of Local Binary Patterns470
+ +      -0.1712 * (normalized) Spatial Pyramid of Local Binary Patterns472
+ +       0.3905 * (normalized) Spatial Pyramid of Local Binary Patterns475
+ +       0.0124 * (normalized) Spatial Pyramid of Local Binary Patterns476
+ +       0.3275 * (normalized) Spatial Pyramid of Local Binary Patterns484
+ +      -0.2005 * (normalized) Spatial Pyramid of Local Binary Patterns508
+ +      -0.655  * (normalized) Spatial Pyramid of Local Binary Patterns512
+ +      -0.446  * (normalized) Spatial Pyramid of Local Binary Patterns520
+ +       0.0679 * (normalized) Spatial Pyramid of Local Binary Patterns544
+ +      -0.7822 * (normalized) Spatial Pyramid of Local Binary Patterns548
+ +      -0.5887 * (normalized) Spatial Pyramid of Local Binary Patterns556
+ +       0.2028 * (normalized) Spatial Pyramid of Local Binary Patterns577
+ +       0.4017 * (normalized) Spatial Pyramid of Local Binary Patterns578
+ +       0.0553 * (normalized) Spatial Pyramid of Local Binary Patterns580
+ +       0.4166 * (normalized) Spatial Pyramid of Local Binary Patterns584
+ +       0.2814 * (normalized) Spatial Pyramid of Local Binary Patterns585
+ +       0.4003 * (normalized) Spatial Pyramid of Local Binary Patterns592
+ +       0.0785 * (normalized) Spatial Pyramid of Local Binary Patterns613
+ +       0.0523 * (normalized) Spatial Pyramid of Local Binary Patterns614
+ +       0.0099 * (normalized) Spatial Pyramid of Local Binary Patterns616
+ +       0.0338 * (normalized) Spatial Pyramid of Local Binary Patterns619
+ +       0.6282 * (normalized) Spatial Pyramid of Local Binary Patterns620
+ +       0.2567 * (normalized) Spatial Pyramid of Local Binary Patterns628
+ +       0.0664 * (normalized) Spatial Pyramid of Local Binary Patterns648
+ +       0.0903 * (normalized) Spatial Pyramid of Local Binary Patterns649
+ +       0.0717 * (normalized) Spatial Pyramid of Local Binary Patterns650
+ +      -0.2285 * (normalized) Spatial Pyramid of Local Binary Patterns651
+ +      -0.093  * (normalized) Spatial Pyramid of Local Binary Patterns652
+ +       0.0422 * (normalized) Spatial Pyramid of Local Binary Patterns656
+ +       0.295  * (normalized) Spatial Pyramid of Local Binary Patterns661
+ +      -0.8654 * (normalized) Spatial Pyramid of Local Binary Patterns664
+ +       0.295  * (normalized) Spatial Pyramid of Local Binary Patterns675
+ +       0.0216 * (normalized) Spatial Pyramid of Local Binary Patterns684
+ +       0.0484 * (normalized) Spatial Pyramid of Local Binary Patterns685
+ +       0.0327 * (normalized) Spatial Pyramid of Local Binary Patterns686
+ +      -0.1442 * (normalized) Spatial Pyramid of Local Binary Patterns688
+ +      -0.0226 * (normalized) Spatial Pyramid of Local Binary Patterns692
+ +       0.0216 * (normalized) Spatial Pyramid of Local Binary Patterns694
+ +      -0.4827 * (normalized) Spatial Pyramid of Local Binary Patterns700
+ +       0.1025 * (normalized) Spatial Pyramid of Local Binary Patterns721
+ +       0.0523 * (normalized) Spatial Pyramid of Local Binary Patterns722
+ +       0.0277 * (normalized) Spatial Pyramid of Local Binary Patterns724
+ +      -0.0634 * (normalized) Spatial Pyramid of Local Binary Patterns728
+ +       0.157  * (normalized) Spatial Pyramid of Local Binary Patterns729
+ +       0.2652 * (normalized) Spatial Pyramid of Local Binary Patterns736
+ +       0.295  * (normalized) Spatial Pyramid of Local Binary Patterns747
+ +       0.295  * (normalized) Spatial Pyramid of Local Binary Patterns754
+ +       0.157  * (normalized) Spatial Pyramid of Local Binary Patterns755
+ -       1.0006
+
+Number of kernel evaluations: 13030 (90.801% cached)
+
+Classifier for classes: K2, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0      * (normalized) Spatial Pyramid of Local Binary Patterns1
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns2
+ +       0.1434 * (normalized) Spatial Pyramid of Local Binary Patterns4
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns8
+ +      -0.0855 * (normalized) Spatial Pyramid of Local Binary Patterns16
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns37
+ +       0.0065 * (normalized) Spatial Pyramid of Local Binary Patterns38
+ +       0.1007 * (normalized) Spatial Pyramid of Local Binary Patterns40
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns44
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns45
+ +      -0.0521 * (normalized) Spatial Pyramid of Local Binary Patterns52
+ +       0.032  * (normalized) Spatial Pyramid of Local Binary Patterns74
+ +       0.2341 * (normalized) Spatial Pyramid of Local Binary Patterns76
+ +       0.1567 * (normalized) Spatial Pyramid of Local Binary Patterns80
+ +      -0.054  * (normalized) Spatial Pyramid of Local Binary Patterns81
+ +      -0.0224 * (normalized) Spatial Pyramid of Local Binary Patterns88
+ +      -0.0378 * (normalized) Spatial Pyramid of Local Binary Patterns109
+ +       0.1549 * (normalized) Spatial Pyramid of Local Binary Patterns112
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns116
+ +      -0.1191 * (normalized) Spatial Pyramid of Local Binary Patterns124
+ +      -0.1176 * (normalized) Spatial Pyramid of Local Binary Patterns145
+ +       0.0916 * (normalized) Spatial Pyramid of Local Binary Patterns148
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns152
+ +      -0.1179 * (normalized) Spatial Pyramid of Local Binary Patterns160
+ +      -0.0263 * (normalized) Spatial Pyramid of Local Binary Patterns182
+ +       0.746  * (normalized) Spatial Pyramid of Local Binary Patterns184
+ +      -0.2144 * (normalized) Spatial Pyramid of Local Binary Patterns188
+ +       0.0393 * (normalized) Spatial Pyramid of Local Binary Patterns196
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns216
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns217
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns218
+ +       0.5116 * (normalized) Spatial Pyramid of Local Binary Patterns220
+ +      -0.0391 * (normalized) Spatial Pyramid of Local Binary Patterns224
+ +      -0.0865 * (normalized) Spatial Pyramid of Local Binary Patterns232
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns243
+ +      -0.0033 * (normalized) Spatial Pyramid of Local Binary Patterns253
+ +       0.0045 * (normalized) Spatial Pyramid of Local Binary Patterns254
+ +      -0.1874 * (normalized) Spatial Pyramid of Local Binary Patterns256
+ +      -0.284  * (normalized) Spatial Pyramid of Local Binary Patterns260
+ +      -0.0033 * (normalized) Spatial Pyramid of Local Binary Patterns261
+ +       0.4138 * (normalized) Spatial Pyramid of Local Binary Patterns268
+ +      -0.0756 * (normalized) Spatial Pyramid of Local Binary Patterns289
+ +       0.2957 * (normalized) Spatial Pyramid of Local Binary Patterns290
+ +      -0.0756 * (normalized) Spatial Pyramid of Local Binary Patterns291
+ +       0.4225 * (normalized) Spatial Pyramid of Local Binary Patterns292
+ +      -0.0756 * (normalized) Spatial Pyramid of Local Binary Patterns294
+ +      -0.0096 * (normalized) Spatial Pyramid of Local Binary Patterns296
+ +      -0.1478 * (normalized) Spatial Pyramid of Local Binary Patterns304
+ +       0.024  * (normalized) Spatial Pyramid of Local Binary Patterns325
+ +      -0.0079 * (normalized) Spatial Pyramid of Local Binary Patterns326
+ +       0.1957 * (normalized) Spatial Pyramid of Local Binary Patterns328
+ +       0.4863 * (normalized) Spatial Pyramid of Local Binary Patterns332
+ +      -0.0155 * (normalized) Spatial Pyramid of Local Binary Patterns340
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns361
+ +       0.0296 * (normalized) Spatial Pyramid of Local Binary Patterns362
+ +       0.2402 * (normalized) Spatial Pyramid of Local Binary Patterns364
+ +       0.2451 * (normalized) Spatial Pyramid of Local Binary Patterns367
+ +       0.0662 * (normalized) Spatial Pyramid of Local Binary Patterns368
+ +      -0.003  * (normalized) Spatial Pyramid of Local Binary Patterns369
+ +      -0.4055 * (normalized) Spatial Pyramid of Local Binary Patterns376
+ +       0.2342 * (normalized) Spatial Pyramid of Local Binary Patterns400
+ +       0.4836 * (normalized) Spatial Pyramid of Local Binary Patterns404
+ +      -0.3108 * (normalized) Spatial Pyramid of Local Binary Patterns412
+ +      -0.17   * (normalized) Spatial Pyramid of Local Binary Patterns431
+ +       0.3038 * (normalized) Spatial Pyramid of Local Binary Patterns433
+ +      -0.054  * (normalized) Spatial Pyramid of Local Binary Patterns434
+ +      -0.0003 * (normalized) Spatial Pyramid of Local Binary Patterns436
+ +      -0.0756 * (normalized) Spatial Pyramid of Local Binary Patterns437
+ +       0.4303 * (normalized) Spatial Pyramid of Local Binary Patterns440
+ +       0.0794 * (normalized) Spatial Pyramid of Local Binary Patterns448
+ +      -0.0243 * (normalized) Spatial Pyramid of Local Binary Patterns467
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns469
+ +      -0.0022 * (normalized) Spatial Pyramid of Local Binary Patterns470
+ +       0.1233 * (normalized) Spatial Pyramid of Local Binary Patterns472
+ +       0.3023 * (normalized) Spatial Pyramid of Local Binary Patterns476
+ +       0.3351 * (normalized) Spatial Pyramid of Local Binary Patterns484
+ +       0.0363 * (normalized) Spatial Pyramid of Local Binary Patterns504
+ +       0.2814 * (normalized) Spatial Pyramid of Local Binary Patterns505
+ +      -0.0067 * (normalized) Spatial Pyramid of Local Binary Patterns508
+ +       0.4001 * (normalized) Spatial Pyramid of Local Binary Patterns512
+ +      -0.1081 * (normalized) Spatial Pyramid of Local Binary Patterns513
+ +       0.0363 * (normalized) Spatial Pyramid of Local Binary Patterns514
+ +      -0.6187 * (normalized) Spatial Pyramid of Local Binary Patterns520
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns542
+ +       0.1371 * (normalized) Spatial Pyramid of Local Binary Patterns544
+ +       0.0986 * (normalized) Spatial Pyramid of Local Binary Patterns548
+ +      -0.5349 * (normalized) Spatial Pyramid of Local Binary Patterns556
+ +      -0.1056 * (normalized) Spatial Pyramid of Local Binary Patterns577
+ +      -0.0632 * (normalized) Spatial Pyramid of Local Binary Patterns580
+ +       0.2044 * (normalized) Spatial Pyramid of Local Binary Patterns584
+ +       0.2389 * (normalized) Spatial Pyramid of Local Binary Patterns592
+ +       0.1104 * (normalized) Spatial Pyramid of Local Binary Patterns613
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns614
+ +       0.1716 * (normalized) Spatial Pyramid of Local Binary Patterns616
+ +      -0.5653 * (normalized) Spatial Pyramid of Local Binary Patterns620
+ +      -0.0243 * (normalized) Spatial Pyramid of Local Binary Patterns621
+ +      -0.0091 * (normalized) Spatial Pyramid of Local Binary Patterns628
+ +       0.2451 * (normalized) Spatial Pyramid of Local Binary Patterns639
+ +      -0.054  * (normalized) Spatial Pyramid of Local Binary Patterns649
+ +       0.0383 * (normalized) Spatial Pyramid of Local Binary Patterns650
+ +       0.2191 * (normalized) Spatial Pyramid of Local Binary Patterns652
+ +       0.0478 * (normalized) Spatial Pyramid of Local Binary Patterns656
+ +      -0.0197 * (normalized) Spatial Pyramid of Local Binary Patterns664
+ +       0.5159 * (normalized) Spatial Pyramid of Local Binary Patterns675
+ +       0.038  * (normalized) Spatial Pyramid of Local Binary Patterns686
+ +       0.2425 * (normalized) Spatial Pyramid of Local Binary Patterns688
+ +       0.0756 * (normalized) Spatial Pyramid of Local Binary Patterns692
+ +       0.0356 * (normalized) Spatial Pyramid of Local Binary Patterns700
+ +       0.5733 * (normalized) Spatial Pyramid of Local Binary Patterns711
+ +      -0.1072 * (normalized) Spatial Pyramid of Local Binary Patterns721
+ +       0.1916 * (normalized) Spatial Pyramid of Local Binary Patterns722
+ +       0.218  * (normalized) Spatial Pyramid of Local Binary Patterns724
+ +       0.0973 * (normalized) Spatial Pyramid of Local Binary Patterns728
+ +      -0.0903 * (normalized) Spatial Pyramid of Local Binary Patterns736
+ -       2.2444
+
+Number of kernel evaluations: 3259 (78.888% cached)
+
+Classifier for classes: K2, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K2, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K3, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0059 * (normalized) Spatial Pyramid of Local Binary Patterns0
+ +      -0.135  * (normalized) Spatial Pyramid of Local Binary Patterns1
+ +       0.2243 * (normalized) Spatial Pyramid of Local Binary Patterns2
+ +      -0.1229 * (normalized) Spatial Pyramid of Local Binary Patterns3
+ +       0.0831 * (normalized) Spatial Pyramid of Local Binary Patterns4
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns6
+ +       0.2525 * (normalized) Spatial Pyramid of Local Binary Patterns7
+ +      -0.1342 * (normalized) Spatial Pyramid of Local Binary Patterns8
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns14
+ +      -0.2495 * (normalized) Spatial Pyramid of Local Binary Patterns16
+ +       0.0682 * (normalized) Spatial Pyramid of Local Binary Patterns36
+ +      -0.0283 * (normalized) Spatial Pyramid of Local Binary Patterns37
+ +       0.1419 * (normalized) Spatial Pyramid of Local Binary Patterns38
+ +      -0.2622 * (normalized) Spatial Pyramid of Local Binary Patterns39
+ +      -0.2766 * (normalized) Spatial Pyramid of Local Binary Patterns40
+ +      -0.031  * (normalized) Spatial Pyramid of Local Binary Patterns42
+ +       0.2446 * (normalized) Spatial Pyramid of Local Binary Patterns43
+ +       0.3353 * (normalized) Spatial Pyramid of Local Binary Patterns44
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns45
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns50
+ +      -0.6762 * (normalized) Spatial Pyramid of Local Binary Patterns52
+ +      -0.2631 * (normalized) Spatial Pyramid of Local Binary Patterns72
+ +      -0.0543 * (normalized) Spatial Pyramid of Local Binary Patterns73
+ +       0.1155 * (normalized) Spatial Pyramid of Local Binary Patterns74
+ +       0.0037 * (normalized) Spatial Pyramid of Local Binary Patterns76
+ +       1.0408 * (normalized) Spatial Pyramid of Local Binary Patterns80
+ +       0.8038 * (normalized) Spatial Pyramid of Local Binary Patterns88
+ +      -0.151  * (normalized) Spatial Pyramid of Local Binary Patterns99
+ +      -0.0551 * (normalized) Spatial Pyramid of Local Binary Patterns108
+ +      -0.5098 * (normalized) Spatial Pyramid of Local Binary Patterns109
+ +       0.0996 * (normalized) Spatial Pyramid of Local Binary Patterns110
+ +      -0.0551 * (normalized) Spatial Pyramid of Local Binary Patterns111
+ +      -0.7227 * (normalized) Spatial Pyramid of Local Binary Patterns112
+ +      -0.5005 * (normalized) Spatial Pyramid of Local Binary Patterns116
+ +      -0.6457 * (normalized) Spatial Pyramid of Local Binary Patterns124
+ +      -0.3751 * (normalized) Spatial Pyramid of Local Binary Patterns132
+ +      -0.6995 * (normalized) Spatial Pyramid of Local Binary Patterns145
+ +      -0.4998 * (normalized) Spatial Pyramid of Local Binary Patterns146
+ +       0.9784 * (normalized) Spatial Pyramid of Local Binary Patterns148
+ +      -0.4998 * (normalized) Spatial Pyramid of Local Binary Patterns151
+ +       1.2465 * (normalized) Spatial Pyramid of Local Binary Patterns152
+ +       0.8643 * (normalized) Spatial Pyramid of Local Binary Patterns160
+ +      -0.151  * (normalized) Spatial Pyramid of Local Binary Patterns171
+ +      -0.0617 * (normalized) Spatial Pyramid of Local Binary Patterns180
+ +      -0.106  * (normalized) Spatial Pyramid of Local Binary Patterns181
+ +       0.1114 * (normalized) Spatial Pyramid of Local Binary Patterns182
+ +      -0.0016 * (normalized) Spatial Pyramid of Local Binary Patterns183
+ +       0.78   * (normalized) Spatial Pyramid of Local Binary Patterns184
+ +       0.0871 * (normalized) Spatial Pyramid of Local Binary Patterns186
+ +      -0.4428 * (normalized) Spatial Pyramid of Local Binary Patterns187
+ +      -0.3266 * (normalized) Spatial Pyramid of Local Binary Patterns188
+ +       0.321  * (normalized) Spatial Pyramid of Local Binary Patterns189
+ +      -0.3878 * (normalized) Spatial Pyramid of Local Binary Patterns194
+ +      -0.4357 * (normalized) Spatial Pyramid of Local Binary Patterns196
+ +       0.25   * (normalized) Spatial Pyramid of Local Binary Patterns215
+ +      -0.0498 * (normalized) Spatial Pyramid of Local Binary Patterns217
+ +      -0.0238 * (normalized) Spatial Pyramid of Local Binary Patterns218
+ +       0.2583 * (normalized) Spatial Pyramid of Local Binary Patterns220
+ +      -0.2471 * (normalized) Spatial Pyramid of Local Binary Patterns221
+ +      -0.035  * (normalized) Spatial Pyramid of Local Binary Patterns222
+ +       0.0394 * (normalized) Spatial Pyramid of Local Binary Patterns224
+ +      -0.375  * (normalized) Spatial Pyramid of Local Binary Patterns232
+ +       0.3098 * (normalized) Spatial Pyramid of Local Binary Patterns254
+ +      -0.3117 * (normalized) Spatial Pyramid of Local Binary Patterns256
+ +       0.7553 * (normalized) Spatial Pyramid of Local Binary Patterns260
+ +       0.2119 * (normalized) Spatial Pyramid of Local Binary Patterns268
+ +      -0.3302 * (normalized) Spatial Pyramid of Local Binary Patterns292
+ +       0.3973 * (normalized) Spatial Pyramid of Local Binary Patterns296
+ +       0.9836 * (normalized) Spatial Pyramid of Local Binary Patterns304
+ +       0.2963 * (normalized) Spatial Pyramid of Local Binary Patterns324
+ +       0.071  * (normalized) Spatial Pyramid of Local Binary Patterns325
+ +       0.3991 * (normalized) Spatial Pyramid of Local Binary Patterns326
+ +       0.2421 * (normalized) Spatial Pyramid of Local Binary Patterns328
+ +      -0.0543 * (normalized) Spatial Pyramid of Local Binary Patterns329
+ +      -0.1209 * (normalized) Spatial Pyramid of Local Binary Patterns331
+ +      -0.5974 * (normalized) Spatial Pyramid of Local Binary Patterns332
+ +      -0.2173 * (normalized) Spatial Pyramid of Local Binary Patterns333
+ +      -0.0435 * (normalized) Spatial Pyramid of Local Binary Patterns339
+ +       0.4118 * (normalized) Spatial Pyramid of Local Binary Patterns340
+ +       0.3998 * (normalized) Spatial Pyramid of Local Binary Patterns359
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns360
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns361
+ +       0.8439 * (normalized) Spatial Pyramid of Local Binary Patterns362
+ +       0.1416 * (normalized) Spatial Pyramid of Local Binary Patterns364
+ +       0.1619 * (normalized) Spatial Pyramid of Local Binary Patterns368
+ +       0.2551 * (normalized) Spatial Pyramid of Local Binary Patterns372
+ +      -0.9269 * (normalized) Spatial Pyramid of Local Binary Patterns376
+ +       0.1513 * (normalized) Spatial Pyramid of Local Binary Patterns387
+ +       0.0197 * (normalized) Spatial Pyramid of Local Binary Patterns394
+ +      -0.0551 * (normalized) Spatial Pyramid of Local Binary Patterns396
+ +      -0.151  * (normalized) Spatial Pyramid of Local Binary Patterns397
+ +       0.1666 * (normalized) Spatial Pyramid of Local Binary Patterns398
+ +      -0.0551 * (normalized) Spatial Pyramid of Local Binary Patterns399
+ +       0.1287 * (normalized) Spatial Pyramid of Local Binary Patterns400
+ +       0.0854 * (normalized) Spatial Pyramid of Local Binary Patterns404
+ +      -1.4425 * (normalized) Spatial Pyramid of Local Binary Patterns412
+ +       0.2708 * (normalized) Spatial Pyramid of Local Binary Patterns423
+ +       0.0099 * (normalized) Spatial Pyramid of Local Binary Patterns430
+ +       0.158  * (normalized) Spatial Pyramid of Local Binary Patterns433
+ +      -0.55   * (normalized) Spatial Pyramid of Local Binary Patterns436
+ +       0.635  * (normalized) Spatial Pyramid of Local Binary Patterns440
+ +       0.1184 * (normalized) Spatial Pyramid of Local Binary Patterns448
+ +       0.6231 * (normalized) Spatial Pyramid of Local Binary Patterns469
+ +       0.3273 * (normalized) Spatial Pyramid of Local Binary Patterns470
+ +      -0.5101 * (normalized) Spatial Pyramid of Local Binary Patterns472
+ +      -0.1252 * (normalized) Spatial Pyramid of Local Binary Patterns476
+ +       0.6286 * (normalized) Spatial Pyramid of Local Binary Patterns477
+ +       0.4157 * (normalized) Spatial Pyramid of Local Binary Patterns484
+ +       0.0197 * (normalized) Spatial Pyramid of Local Binary Patterns505
+ +      -0.0551 * (normalized) Spatial Pyramid of Local Binary Patterns506
+ +      -0.1705 * (normalized) Spatial Pyramid of Local Binary Patterns508
+ +       0.0249 * (normalized) Spatial Pyramid of Local Binary Patterns512
+ +       0.0197 * (normalized) Spatial Pyramid of Local Binary Patterns516
+ +       0.2551 * (normalized) Spatial Pyramid of Local Binary Patterns517
+ +       1.4129 * (normalized) Spatial Pyramid of Local Binary Patterns520
+ +       0.2748 * (normalized) Spatial Pyramid of Local Binary Patterns531
+ +       0.1545 * (normalized) Spatial Pyramid of Local Binary Patterns539
+ +       0.0197 * (normalized) Spatial Pyramid of Local Binary Patterns540
+ +       0.0197 * (normalized) Spatial Pyramid of Local Binary Patterns541
+ +      -0.762  * (normalized) Spatial Pyramid of Local Binary Patterns542
+ +      -0.3863 * (normalized) Spatial Pyramid of Local Binary Patterns544
+ +      -0.2679 * (normalized) Spatial Pyramid of Local Binary Patterns548
+ +       0.0197 * (normalized) Spatial Pyramid of Local Binary Patterns550
+ +      -0.2468 * (normalized) Spatial Pyramid of Local Binary Patterns556
+ +      -0.5261 * (normalized) Spatial Pyramid of Local Binary Patterns567
+ +      -0.9398 * (normalized) Spatial Pyramid of Local Binary Patterns576
+ +      -0.6401 * (normalized) Spatial Pyramid of Local Binary Patterns577
+ +       0.4553 * (normalized) Spatial Pyramid of Local Binary Patterns578
+ +      -0.0368 * (normalized) Spatial Pyramid of Local Binary Patterns580
+ +       0.1923 * (normalized) Spatial Pyramid of Local Binary Patterns584
+ +      -1.1379 * (normalized) Spatial Pyramid of Local Binary Patterns592
+ +      -0.2212 * (normalized) Spatial Pyramid of Local Binary Patterns614
+ +      -0.427  * (normalized) Spatial Pyramid of Local Binary Patterns616
+ +       0.0998 * (normalized) Spatial Pyramid of Local Binary Patterns620
+ +       0.5534 * (normalized) Spatial Pyramid of Local Binary Patterns628
+ +       0.3258 * (normalized) Spatial Pyramid of Local Binary Patterns649
+ +       0.2533 * (normalized) Spatial Pyramid of Local Binary Patterns650
+ +      -1.3541 * (normalized) Spatial Pyramid of Local Binary Patterns652
+ +      -0.4566 * (normalized) Spatial Pyramid of Local Binary Patterns656
+ +       0.0253 * (normalized) Spatial Pyramid of Local Binary Patterns664
+ +      -0.2532 * (normalized) Spatial Pyramid of Local Binary Patterns685
+ +      -0.4998 * (normalized) Spatial Pyramid of Local Binary Patterns686
+ +       0.3176 * (normalized) Spatial Pyramid of Local Binary Patterns688
+ +       0.1829 * (normalized) Spatial Pyramid of Local Binary Patterns692
+ +       0.3916 * (normalized) Spatial Pyramid of Local Binary Patterns700
+ +      -0.0942 * (normalized) Spatial Pyramid of Local Binary Patterns720
+ +       0.2545 * (normalized) Spatial Pyramid of Local Binary Patterns721
+ +      -0.2288 * (normalized) Spatial Pyramid of Local Binary Patterns722
+ +       0.4586 * (normalized) Spatial Pyramid of Local Binary Patterns724
+ +       0.0053 * (normalized) Spatial Pyramid of Local Binary Patterns727
+ +      -0.7537 * (normalized) Spatial Pyramid of Local Binary Patterns728
+ +      -0.9119 * (normalized) Spatial Pyramid of Local Binary Patterns736
+ -       1.0003
+
+Number of kernel evaluations: 8138 (94.216% cached)
+
+Classifier for classes: K3, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0135 * (normalized) Spatial Pyramid of Local Binary Patterns0
+ +      -0.0702 * (normalized) Spatial Pyramid of Local Binary Patterns1
+ +      -0.0449 * (normalized) Spatial Pyramid of Local Binary Patterns2
+ +      -0.7021 * (normalized) Spatial Pyramid of Local Binary Patterns4
+ +      -0.0676 * (normalized) Spatial Pyramid of Local Binary Patterns6
+ +      -0.0676 * (normalized) Spatial Pyramid of Local Binary Patterns7
+ +      -0.741  * (normalized) Spatial Pyramid of Local Binary Patterns8
+ +      -0.0676 * (normalized) Spatial Pyramid of Local Binary Patterns9
+ +      -0.0254 * (normalized) Spatial Pyramid of Local Binary Patterns14
+ +       1.4727 * (normalized) Spatial Pyramid of Local Binary Patterns16
+ +      -0.0135 * (normalized) Spatial Pyramid of Local Binary Patterns36
+ +      -0.1142 * (normalized) Spatial Pyramid of Local Binary Patterns37
+ +      -0.1067 * (normalized) Spatial Pyramid of Local Binary Patterns38
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns39
+ +      -0.0386 * (normalized) Spatial Pyramid of Local Binary Patterns40
+ +      -0.0937 * (normalized) Spatial Pyramid of Local Binary Patterns42
+ +      -0.0676 * (normalized) Spatial Pyramid of Local Binary Patterns43
+ +      -0.0713 * (normalized) Spatial Pyramid of Local Binary Patterns44
+ +      -0.0676 * (normalized) Spatial Pyramid of Local Binary Patterns45
+ +       0.2417 * (normalized) Spatial Pyramid of Local Binary Patterns49
+ +      -0.0254 * (normalized) Spatial Pyramid of Local Binary Patterns50
+ +       0.5204 * (normalized) Spatial Pyramid of Local Binary Patterns52
+ +       0.0717 * (normalized) Spatial Pyramid of Local Binary Patterns71
+ +      -0.004  * (normalized) Spatial Pyramid of Local Binary Patterns72
+ +      -0.0456 * (normalized) Spatial Pyramid of Local Binary Patterns73
+ +      -0.1197 * (normalized) Spatial Pyramid of Local Binary Patterns74
+ +       0.0988 * (normalized) Spatial Pyramid of Local Binary Patterns76
+ +       0.4454 * (normalized) Spatial Pyramid of Local Binary Patterns80
+ +       0.2733 * (normalized) Spatial Pyramid of Local Binary Patterns88
+ +       0.0884 * (normalized) Spatial Pyramid of Local Binary Patterns109
+ +       0.0048 * (normalized) Spatial Pyramid of Local Binary Patterns110
+ +      -0.0759 * (normalized) Spatial Pyramid of Local Binary Patterns112
+ +       0.0684 * (normalized) Spatial Pyramid of Local Binary Patterns116
+ +       0.1051 * (normalized) Spatial Pyramid of Local Binary Patterns117
+ +      -0.347  * (normalized) Spatial Pyramid of Local Binary Patterns124
+ +      -0.0079 * (normalized) Spatial Pyramid of Local Binary Patterns132
+ +       0.0291 * (normalized) Spatial Pyramid of Local Binary Patterns135
+ +      -0.1489 * (normalized) Spatial Pyramid of Local Binary Patterns145
+ +      -0.1946 * (normalized) Spatial Pyramid of Local Binary Patterns146
+ +       0.2741 * (normalized) Spatial Pyramid of Local Binary Patterns148
+ +      -0.2185 * (normalized) Spatial Pyramid of Local Binary Patterns151
+ +      -0.0456 * (normalized) Spatial Pyramid of Local Binary Patterns152
+ +       0.2633 * (normalized) Spatial Pyramid of Local Binary Patterns160
+ +      -0.0511 * (normalized) Spatial Pyramid of Local Binary Patterns180
+ +      -0.198  * (normalized) Spatial Pyramid of Local Binary Patterns181
+ +      -0.1039 * (normalized) Spatial Pyramid of Local Binary Patterns182
+ +      -0.1119 * (normalized) Spatial Pyramid of Local Binary Patterns184
+ +      -0.1139 * (normalized) Spatial Pyramid of Local Binary Patterns186
+ +      -0.4398 * (normalized) Spatial Pyramid of Local Binary Patterns187
+ +      -0.1121 * (normalized) Spatial Pyramid of Local Binary Patterns188
+ +      -0.1059 * (normalized) Spatial Pyramid of Local Binary Patterns189
+ +      -0.4338 * (normalized) Spatial Pyramid of Local Binary Patterns194
+ +       0.0902 * (normalized) Spatial Pyramid of Local Binary Patterns196
+ +      -0.0122 * (normalized) Spatial Pyramid of Local Binary Patterns217
+ +       0.0039 * (normalized) Spatial Pyramid of Local Binary Patterns218
+ +       0.3218 * (normalized) Spatial Pyramid of Local Binary Patterns220
+ +      -0.2422 * (normalized) Spatial Pyramid of Local Binary Patterns221
+ +      -0.0456 * (normalized) Spatial Pyramid of Local Binary Patterns222
+ +       0.3903 * (normalized) Spatial Pyramid of Local Binary Patterns224
+ +       0.2417 * (normalized) Spatial Pyramid of Local Binary Patterns229
+ +       0.485  * (normalized) Spatial Pyramid of Local Binary Patterns232
+ +       0.0291 * (normalized) Spatial Pyramid of Local Binary Patterns243
+ +       0.0717 * (normalized) Spatial Pyramid of Local Binary Patterns250
+ +       0.0717 * (normalized) Spatial Pyramid of Local Binary Patterns251
+ +       0.0717 * (normalized) Spatial Pyramid of Local Binary Patterns253
+ +       0.0269 * (normalized) Spatial Pyramid of Local Binary Patterns254
+ +       0.198  * (normalized) Spatial Pyramid of Local Binary Patterns256
+ +       0.1888 * (normalized) Spatial Pyramid of Local Binary Patterns260
+ +       0.0359 * (normalized) Spatial Pyramid of Local Binary Patterns261
+ +       0.2246 * (normalized) Spatial Pyramid of Local Binary Patterns268
+ +       0.2417 * (normalized) Spatial Pyramid of Local Binary Patterns279
+ +       0.2342 * (normalized) Spatial Pyramid of Local Binary Patterns292
+ +       0.11   * (normalized) Spatial Pyramid of Local Binary Patterns296
+ +       0.0882 * (normalized) Spatial Pyramid of Local Binary Patterns304
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns315
+ +      -0.1336 * (normalized) Spatial Pyramid of Local Binary Patterns325
+ +       0.0086 * (normalized) Spatial Pyramid of Local Binary Patterns326
+ +       0.027  * (normalized) Spatial Pyramid of Local Binary Patterns328
+ +      -0.0456 * (normalized) Spatial Pyramid of Local Binary Patterns329
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns331
+ +       0.0165 * (normalized) Spatial Pyramid of Local Binary Patterns332
+ +      -0.1824 * (normalized) Spatial Pyramid of Local Binary Patterns333
+ +      -0.0365 * (normalized) Spatial Pyramid of Local Binary Patterns339
+ +       0.5421 * (normalized) Spatial Pyramid of Local Binary Patterns340
+ +       0.0048 * (normalized) Spatial Pyramid of Local Binary Patterns362
+ +       0.1055 * (normalized) Spatial Pyramid of Local Binary Patterns364
+ +       0.0467 * (normalized) Spatial Pyramid of Local Binary Patterns366
+ +       0.1012 * (normalized) Spatial Pyramid of Local Binary Patterns368
+ +       0.2144 * (normalized) Spatial Pyramid of Local Binary Patterns376
+ +      -0.0969 * (normalized) Spatial Pyramid of Local Binary Patterns400
+ +      -0.3318 * (normalized) Spatial Pyramid of Local Binary Patterns404
+ +      -0.3058 * (normalized) Spatial Pyramid of Local Binary Patterns412
+ +       0.0717 * (normalized) Spatial Pyramid of Local Binary Patterns432
+ +       0.0447 * (normalized) Spatial Pyramid of Local Binary Patterns433
+ +      -0.2246 * (normalized) Spatial Pyramid of Local Binary Patterns436
+ +       0.5113 * (normalized) Spatial Pyramid of Local Binary Patterns440
+ +       0.1051 * (normalized) Spatial Pyramid of Local Binary Patterns441
+ +       0.0717 * (normalized) Spatial Pyramid of Local Binary Patterns442
+ +      -0.2972 * (normalized) Spatial Pyramid of Local Binary Patterns448
+ +       0.0291 * (normalized) Spatial Pyramid of Local Binary Patterns459
+ +      -0.0856 * (normalized) Spatial Pyramid of Local Binary Patterns469
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns470
+ +      -0.0607 * (normalized) Spatial Pyramid of Local Binary Patterns472
+ +       0.3908 * (normalized) Spatial Pyramid of Local Binary Patterns475
+ +       0.0224 * (normalized) Spatial Pyramid of Local Binary Patterns476
+ +       0.2143 * (normalized) Spatial Pyramid of Local Binary Patterns484
+ +       0.0541 * (normalized) Spatial Pyramid of Local Binary Patterns503
+ +      -0.0622 * (normalized) Spatial Pyramid of Local Binary Patterns508
+ +      -0.538  * (normalized) Spatial Pyramid of Local Binary Patterns512
+ +       0.0073 * (normalized) Spatial Pyramid of Local Binary Patterns520
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns542
+ +      -0.0408 * (normalized) Spatial Pyramid of Local Binary Patterns544
+ +      -0.7247 * (normalized) Spatial Pyramid of Local Binary Patterns548
+ +      -0.2564 * (normalized) Spatial Pyramid of Local Binary Patterns556
+ +      -0.0079 * (normalized) Spatial Pyramid of Local Binary Patterns567
+ +      -0.1453 * (normalized) Spatial Pyramid of Local Binary Patterns576
+ +       0.0684 * (normalized) Spatial Pyramid of Local Binary Patterns577
+ +       0.0717 * (normalized) Spatial Pyramid of Local Binary Patterns578
+ +       0.1977 * (normalized) Spatial Pyramid of Local Binary Patterns580
+ +       0.2691 * (normalized) Spatial Pyramid of Local Binary Patterns584
+ +       0.2847 * (normalized) Spatial Pyramid of Local Binary Patterns585
+ +      -0.2528 * (normalized) Spatial Pyramid of Local Binary Patterns592
+ +      -0.314  * (normalized) Spatial Pyramid of Local Binary Patterns614
+ +      -0.1832 * (normalized) Spatial Pyramid of Local Binary Patterns616
+ +       0.7023 * (normalized) Spatial Pyramid of Local Binary Patterns620
+ +       0.7134 * (normalized) Spatial Pyramid of Local Binary Patterns628
+ +       0.0291 * (normalized) Spatial Pyramid of Local Binary Patterns648
+ +       0.0146 * (normalized) Spatial Pyramid of Local Binary Patterns649
+ +       0.054  * (normalized) Spatial Pyramid of Local Binary Patterns650
+ +       0.1596 * (normalized) Spatial Pyramid of Local Binary Patterns652
+ +      -0.3769 * (normalized) Spatial Pyramid of Local Binary Patterns656
+ +       0.0291 * (normalized) Spatial Pyramid of Local Binary Patterns661
+ +      -0.0116 * (normalized) Spatial Pyramid of Local Binary Patterns664
+ +       0.0291 * (normalized) Spatial Pyramid of Local Binary Patterns675
+ +      -0.0729 * (normalized) Spatial Pyramid of Local Binary Patterns685
+ +      -0.1946 * (normalized) Spatial Pyramid of Local Binary Patterns686
+ +      -0.0233 * (normalized) Spatial Pyramid of Local Binary Patterns688
+ +      -0.0248 * (normalized) Spatial Pyramid of Local Binary Patterns692
+ +      -0.1103 * (normalized) Spatial Pyramid of Local Binary Patterns700
+ +      -0.1146 * (normalized) Spatial Pyramid of Local Binary Patterns720
+ +      -0.2185 * (normalized) Spatial Pyramid of Local Binary Patterns721
+ +      -0.2185 * (normalized) Spatial Pyramid of Local Binary Patterns722
+ +       0.0243 * (normalized) Spatial Pyramid of Local Binary Patterns724
+ +      -0.2185 * (normalized) Spatial Pyramid of Local Binary Patterns727
+ +      -0.1888 * (normalized) Spatial Pyramid of Local Binary Patterns728
+ +       0.1508 * (normalized) Spatial Pyramid of Local Binary Patterns736
+ +       0.0291 * (normalized) Spatial Pyramid of Local Binary Patterns747
+ +       0.0291 * (normalized) Spatial Pyramid of Local Binary Patterns754
+ -       1     
+
+Number of kernel evaluations: 6817 (92.797% cached)
+
+Classifier for classes: K3, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0022 * (normalized) Spatial Pyramid of Local Binary Patterns1
+ +      -0.0249 * (normalized) Spatial Pyramid of Local Binary Patterns2
+ +       0.0735 * (normalized) Spatial Pyramid of Local Binary Patterns4
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns8
+ +       0.0202 * (normalized) Spatial Pyramid of Local Binary Patterns16
+ +      -0.0133 * (normalized) Spatial Pyramid of Local Binary Patterns36
+ +       0.0475 * (normalized) Spatial Pyramid of Local Binary Patterns37
+ +      -0.214  * (normalized) Spatial Pyramid of Local Binary Patterns38
+ +       0.1033 * (normalized) Spatial Pyramid of Local Binary Patterns40
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns43
+ +       0.1745 * (normalized) Spatial Pyramid of Local Binary Patterns44
+ +      -0.0202 * (normalized) Spatial Pyramid of Local Binary Patterns45
+ +      -0.0605 * (normalized) Spatial Pyramid of Local Binary Patterns46
+ +      -0.0137 * (normalized) Spatial Pyramid of Local Binary Patterns52
+ +      -0.0174 * (normalized) Spatial Pyramid of Local Binary Patterns72
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns74
+ +       0.0024 * (normalized) Spatial Pyramid of Local Binary Patterns76
+ +       0.1477 * (normalized) Spatial Pyramid of Local Binary Patterns80
+ +       0.3322 * (normalized) Spatial Pyramid of Local Binary Patterns88
+ +      -0.0348 * (normalized) Spatial Pyramid of Local Binary Patterns99
+ +      -0.0752 * (normalized) Spatial Pyramid of Local Binary Patterns108
+ +      -0.117  * (normalized) Spatial Pyramid of Local Binary Patterns109
+ +      -0.0171 * (normalized) Spatial Pyramid of Local Binary Patterns110
+ +      -0.0752 * (normalized) Spatial Pyramid of Local Binary Patterns111
+ +      -0.0688 * (normalized) Spatial Pyramid of Local Binary Patterns112
+ +       0.0085 * (normalized) Spatial Pyramid of Local Binary Patterns116
+ +      -0.0463 * (normalized) Spatial Pyramid of Local Binary Patterns124
+ +      -0.0129 * (normalized) Spatial Pyramid of Local Binary Patterns145
+ +       0.2197 * (normalized) Spatial Pyramid of Local Binary Patterns148
+ +       0.1431 * (normalized) Spatial Pyramid of Local Binary Patterns152
+ +       0.1074 * (normalized) Spatial Pyramid of Local Binary Patterns160
+ +      -0.0348 * (normalized) Spatial Pyramid of Local Binary Patterns171
+ +      -0.0454 * (normalized) Spatial Pyramid of Local Binary Patterns180
+ +      -0.0793 * (normalized) Spatial Pyramid of Local Binary Patterns181
+ +      -0.054  * (normalized) Spatial Pyramid of Local Binary Patterns182
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns183
+ +       0.6769 * (normalized) Spatial Pyramid of Local Binary Patterns184
+ +      -0.0185 * (normalized) Spatial Pyramid of Local Binary Patterns186
+ +      -0.0608 * (normalized) Spatial Pyramid of Local Binary Patterns187
+ +      -0.3485 * (normalized) Spatial Pyramid of Local Binary Patterns188
+ +      -0.0185 * (normalized) Spatial Pyramid of Local Binary Patterns193
+ +      -0.0185 * (normalized) Spatial Pyramid of Local Binary Patterns194
+ +      -0.0684 * (normalized) Spatial Pyramid of Local Binary Patterns196
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns217
+ +      -0.005  * (normalized) Spatial Pyramid of Local Binary Patterns218
+ +       0.4909 * (normalized) Spatial Pyramid of Local Binary Patterns220
+ +      -0.0212 * (normalized) Spatial Pyramid of Local Binary Patterns222
+ +      -0.5884 * (normalized) Spatial Pyramid of Local Binary Patterns224
+ +       0.1073 * (normalized) Spatial Pyramid of Local Binary Patterns232
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns243
+ +       0.0094 * (normalized) Spatial Pyramid of Local Binary Patterns254
+ +       0.0577 * (normalized) Spatial Pyramid of Local Binary Patterns256
+ +      -0.5048 * (normalized) Spatial Pyramid of Local Binary Patterns260
+ +       0.2641 * (normalized) Spatial Pyramid of Local Binary Patterns268
+ +       0.3309 * (normalized) Spatial Pyramid of Local Binary Patterns290
+ +       0.2698 * (normalized) Spatial Pyramid of Local Binary Patterns292
+ +       0.1632 * (normalized) Spatial Pyramid of Local Binary Patterns296
+ +       0.0789 * (normalized) Spatial Pyramid of Local Binary Patterns304
+ +      -0.0753 * (normalized) Spatial Pyramid of Local Binary Patterns325
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns326
+ +       0.38   * (normalized) Spatial Pyramid of Local Binary Patterns328
+ +       0.2436 * (normalized) Spatial Pyramid of Local Binary Patterns332
+ +       0.2021 * (normalized) Spatial Pyramid of Local Binary Patterns340
+ +      -0.0173 * (normalized) Spatial Pyramid of Local Binary Patterns360
+ +       0.0562 * (normalized) Spatial Pyramid of Local Binary Patterns361
+ +      -0.0084 * (normalized) Spatial Pyramid of Local Binary Patterns362
+ +       0.4576 * (normalized) Spatial Pyramid of Local Binary Patterns364
+ +       0.1192 * (normalized) Spatial Pyramid of Local Binary Patterns367
+ +       0.1175 * (normalized) Spatial Pyramid of Local Binary Patterns368
+ +      -0.0151 * (normalized) Spatial Pyramid of Local Binary Patterns369
+ +      -0.0605 * (normalized) Spatial Pyramid of Local Binary Patterns370
+ +      -0.2671 * (normalized) Spatial Pyramid of Local Binary Patterns376
+ +      -0.0752 * (normalized) Spatial Pyramid of Local Binary Patterns396
+ +      -0.0348 * (normalized) Spatial Pyramid of Local Binary Patterns397
+ +      -0.2704 * (normalized) Spatial Pyramid of Local Binary Patterns398
+ +      -0.0752 * (normalized) Spatial Pyramid of Local Binary Patterns399
+ +      -0.0349 * (normalized) Spatial Pyramid of Local Binary Patterns400
+ +       0.2133 * (normalized) Spatial Pyramid of Local Binary Patterns404
+ +      -0.3701 * (normalized) Spatial Pyramid of Local Binary Patterns412
+ +       0.134  * (normalized) Spatial Pyramid of Local Binary Patterns433
+ +      -0.0605 * (normalized) Spatial Pyramid of Local Binary Patterns434
+ +       0.2652 * (normalized) Spatial Pyramid of Local Binary Patterns436
+ +       0.1781 * (normalized) Spatial Pyramid of Local Binary Patterns440
+ +       0.2949 * (normalized) Spatial Pyramid of Local Binary Patterns448
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns469
+ +      -0.1203 * (normalized) Spatial Pyramid of Local Binary Patterns472
+ +       0.2588 * (normalized) Spatial Pyramid of Local Binary Patterns476
+ +       0.5803 * (normalized) Spatial Pyramid of Local Binary Patterns484
+ +       0.0755 * (normalized) Spatial Pyramid of Local Binary Patterns504
+ +       0.1947 * (normalized) Spatial Pyramid of Local Binary Patterns505
+ +      -0.1054 * (normalized) Spatial Pyramid of Local Binary Patterns506
+ +      -0.0655 * (normalized) Spatial Pyramid of Local Binary Patterns508
+ +       0.0833 * (normalized) Spatial Pyramid of Local Binary Patterns512
+ +       0.0755 * (normalized) Spatial Pyramid of Local Binary Patterns514
+ +      -0.1454 * (normalized) Spatial Pyramid of Local Binary Patterns520
+ +      -0.1978 * (normalized) Spatial Pyramid of Local Binary Patterns542
+ +      -0.1057 * (normalized) Spatial Pyramid of Local Binary Patterns544
+ +       0.1705 * (normalized) Spatial Pyramid of Local Binary Patterns548
+ +      -0.3728 * (normalized) Spatial Pyramid of Local Binary Patterns556
+ +      -0.0348 * (normalized) Spatial Pyramid of Local Binary Patterns567
+ +      -0.0258 * (normalized) Spatial Pyramid of Local Binary Patterns576
+ +      -0.0258 * (normalized) Spatial Pyramid of Local Binary Patterns577
+ +       0.1352 * (normalized) Spatial Pyramid of Local Binary Patterns580
+ +      -0.1048 * (normalized) Spatial Pyramid of Local Binary Patterns584
+ +       0.0286 * (normalized) Spatial Pyramid of Local Binary Patterns592
+ +       0.0596 * (normalized) Spatial Pyramid of Local Binary Patterns613
+ +      -0.0057 * (normalized) Spatial Pyramid of Local Binary Patterns614
+ +      -0.1053 * (normalized) Spatial Pyramid of Local Binary Patterns616
+ +       0.1643 * (normalized) Spatial Pyramid of Local Binary Patterns620
+ +       0.4003 * (normalized) Spatial Pyramid of Local Binary Patterns628
+ +       0.1192 * (normalized) Spatial Pyramid of Local Binary Patterns639
+ +       0.0104 * (normalized) Spatial Pyramid of Local Binary Patterns650
+ +       0.012  * (normalized) Spatial Pyramid of Local Binary Patterns652
+ +      -0.1324 * (normalized) Spatial Pyramid of Local Binary Patterns656
+ +       0.5035 * (normalized) Spatial Pyramid of Local Binary Patterns664
+ +       0.5898 * (normalized) Spatial Pyramid of Local Binary Patterns675
+ +      -0.0438 * (normalized) Spatial Pyramid of Local Binary Patterns685
+ +       0.0406 * (normalized) Spatial Pyramid of Local Binary Patterns686
+ +       0.4299 * (normalized) Spatial Pyramid of Local Binary Patterns688
+ +       0.2209 * (normalized) Spatial Pyramid of Local Binary Patterns692
+ +       0.5266 * (normalized) Spatial Pyramid of Local Binary Patterns700
+ +       0.5053 * (normalized) Spatial Pyramid of Local Binary Patterns711
+ +      -0.0785 * (normalized) Spatial Pyramid of Local Binary Patterns720
+ +      -0.3194 * (normalized) Spatial Pyramid of Local Binary Patterns721
+ +       0.0518 * (normalized) Spatial Pyramid of Local Binary Patterns722
+ +       0.1582 * (normalized) Spatial Pyramid of Local Binary Patterns724
+ +      -0.0756 * (normalized) Spatial Pyramid of Local Binary Patterns728
+ +      -0.3263 * (normalized) Spatial Pyramid of Local Binary Patterns736
+ -       1.6316
+
+Number of kernel evaluations: 2480 (89.621% cached)
+
+Classifier for classes: K3, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K3, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K4, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0037 * (normalized) Spatial Pyramid of Local Binary Patterns1
+ +      -0.0252 * (normalized) Spatial Pyramid of Local Binary Patterns2
+ +      -0.0839 * (normalized) Spatial Pyramid of Local Binary Patterns4
+ +      -0.3485 * (normalized) Spatial Pyramid of Local Binary Patterns8
+ +       1.9985 * (normalized) Spatial Pyramid of Local Binary Patterns16
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns36
+ +      -0.0324 * (normalized) Spatial Pyramid of Local Binary Patterns37
+ +      -0.1028 * (normalized) Spatial Pyramid of Local Binary Patterns38
+ +      -0.0255 * (normalized) Spatial Pyramid of Local Binary Patterns40
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns42
+ +       0.0531 * (normalized) Spatial Pyramid of Local Binary Patterns44
+ +       0.1606 * (normalized) Spatial Pyramid of Local Binary Patterns49
+ +       0.3516 * (normalized) Spatial Pyramid of Local Binary Patterns52
+ +       0.1468 * (normalized) Spatial Pyramid of Local Binary Patterns71
+ +      -0.0738 * (normalized) Spatial Pyramid of Local Binary Patterns74
+ +       0.0005 * (normalized) Spatial Pyramid of Local Binary Patterns76
+ +       0.1292 * (normalized) Spatial Pyramid of Local Binary Patterns80
+ +      -0.0877 * (normalized) Spatial Pyramid of Local Binary Patterns88
+ +       0.1132 * (normalized) Spatial Pyramid of Local Binary Patterns109
+ +       0.0022 * (normalized) Spatial Pyramid of Local Binary Patterns110
+ +      -0.0887 * (normalized) Spatial Pyramid of Local Binary Patterns112
+ +      -0.1177 * (normalized) Spatial Pyramid of Local Binary Patterns116
+ +       0.0796 * (normalized) Spatial Pyramid of Local Binary Patterns117
+ +       0.1158 * (normalized) Spatial Pyramid of Local Binary Patterns124
+ +       0.022  * (normalized) Spatial Pyramid of Local Binary Patterns145
+ +       0.0489 * (normalized) Spatial Pyramid of Local Binary Patterns146
+ +       0.0626 * (normalized) Spatial Pyramid of Local Binary Patterns148
+ +      -0.1236 * (normalized) Spatial Pyramid of Local Binary Patterns152
+ +       0.1279 * (normalized) Spatial Pyramid of Local Binary Patterns160
+ +      -0.0067 * (normalized) Spatial Pyramid of Local Binary Patterns180
+ +      -0.0854 * (normalized) Spatial Pyramid of Local Binary Patterns181
+ +      -0.0664 * (normalized) Spatial Pyramid of Local Binary Patterns182
+ +      -0.0619 * (normalized) Spatial Pyramid of Local Binary Patterns183
+ +      -0.137  * (normalized) Spatial Pyramid of Local Binary Patterns184
+ +      -0.0067 * (normalized) Spatial Pyramid of Local Binary Patterns186
+ +      -0.0072 * (normalized) Spatial Pyramid of Local Binary Patterns187
+ +       0.1639 * (normalized) Spatial Pyramid of Local Binary Patterns188
+ +      -0.0067 * (normalized) Spatial Pyramid of Local Binary Patterns194
+ +       0.1709 * (normalized) Spatial Pyramid of Local Binary Patterns196
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns217
+ +       0.0899 * (normalized) Spatial Pyramid of Local Binary Patterns220
+ +       0.2532 * (normalized) Spatial Pyramid of Local Binary Patterns224
+ +       0.1606 * (normalized) Spatial Pyramid of Local Binary Patterns229
+ +       0.3519 * (normalized) Spatial Pyramid of Local Binary Patterns232
+ +       0.1468 * (normalized) Spatial Pyramid of Local Binary Patterns250
+ +       0.1468 * (normalized) Spatial Pyramid of Local Binary Patterns251
+ +       0.1468 * (normalized) Spatial Pyramid of Local Binary Patterns253
+ +       0.0322 * (normalized) Spatial Pyramid of Local Binary Patterns254
+ +       0.2689 * (normalized) Spatial Pyramid of Local Binary Patterns256
+ +      -0.0421 * (normalized) Spatial Pyramid of Local Binary Patterns260
+ +       0.0734 * (normalized) Spatial Pyramid of Local Binary Patterns261
+ +       0.1418 * (normalized) Spatial Pyramid of Local Binary Patterns268
+ +       0.1606 * (normalized) Spatial Pyramid of Local Binary Patterns279
+ +       0.0184 * (normalized) Spatial Pyramid of Local Binary Patterns292
+ +       0.3583 * (normalized) Spatial Pyramid of Local Binary Patterns296
+ +      -0.2897 * (normalized) Spatial Pyramid of Local Binary Patterns304
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns324
+ +      -0.0494 * (normalized) Spatial Pyramid of Local Binary Patterns325
+ +      -0.093  * (normalized) Spatial Pyramid of Local Binary Patterns326
+ +      -0.1508 * (normalized) Spatial Pyramid of Local Binary Patterns328
+ +      -0.3884 * (normalized) Spatial Pyramid of Local Binary Patterns329
+ +      -0.4664 * (normalized) Spatial Pyramid of Local Binary Patterns331
+ +       0.0384 * (normalized) Spatial Pyramid of Local Binary Patterns332
+ +       0.089  * (normalized) Spatial Pyramid of Local Binary Patterns340
+ +      -0.1003 * (normalized) Spatial Pyramid of Local Binary Patterns359
+ +      -0.1903 * (normalized) Spatial Pyramid of Local Binary Patterns362
+ +      -0.0234 * (normalized) Spatial Pyramid of Local Binary Patterns364
+ +       0.0311 * (normalized) Spatial Pyramid of Local Binary Patterns366
+ +       0.1135 * (normalized) Spatial Pyramid of Local Binary Patterns368
+ +       0.206  * (normalized) Spatial Pyramid of Local Binary Patterns376
+ +      -0.0739 * (normalized) Spatial Pyramid of Local Binary Patterns400
+ +      -0.51   * (normalized) Spatial Pyramid of Local Binary Patterns404
+ +      -0.1575 * (normalized) Spatial Pyramid of Local Binary Patterns412
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns423
+ +       0.1468 * (normalized) Spatial Pyramid of Local Binary Patterns432
+ +       0.0099 * (normalized) Spatial Pyramid of Local Binary Patterns433
+ +       0.0773 * (normalized) Spatial Pyramid of Local Binary Patterns436
+ +       0.114  * (normalized) Spatial Pyramid of Local Binary Patterns440
+ +       0.0796 * (normalized) Spatial Pyramid of Local Binary Patterns441
+ +       0.1468 * (normalized) Spatial Pyramid of Local Binary Patterns442
+ +       0.2654 * (normalized) Spatial Pyramid of Local Binary Patterns448
+ +      -0.0594 * (normalized) Spatial Pyramid of Local Binary Patterns469
+ +      -0.0996 * (normalized) Spatial Pyramid of Local Binary Patterns470
+ +      -0.2838 * (normalized) Spatial Pyramid of Local Binary Patterns472
+ +       0.1585 * (normalized) Spatial Pyramid of Local Binary Patterns475
+ +       0.0414 * (normalized) Spatial Pyramid of Local Binary Patterns476
+ +      -0.0499 * (normalized) Spatial Pyramid of Local Binary Patterns477
+ +      -0.2191 * (normalized) Spatial Pyramid of Local Binary Patterns484
+ +       0.2285 * (normalized) Spatial Pyramid of Local Binary Patterns503
+ +      -0.0301 * (normalized) Spatial Pyramid of Local Binary Patterns508
+ +      -0.4666 * (normalized) Spatial Pyramid of Local Binary Patterns512
+ +      -0.1177 * (normalized) Spatial Pyramid of Local Binary Patterns520
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns531
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns542
+ +      -0.0831 * (normalized) Spatial Pyramid of Local Binary Patterns544
+ +      -0.7804 * (normalized) Spatial Pyramid of Local Binary Patterns548
+ +      -0.106  * (normalized) Spatial Pyramid of Local Binary Patterns556
+ +       0.0783 * (normalized) Spatial Pyramid of Local Binary Patterns577
+ +       0.0321 * (normalized) Spatial Pyramid of Local Binary Patterns578
+ +       0.1691 * (normalized) Spatial Pyramid of Local Binary Patterns580
+ +       0.2648 * (normalized) Spatial Pyramid of Local Binary Patterns584
+ +       0.044  * (normalized) Spatial Pyramid of Local Binary Patterns585
+ +       0.1363 * (normalized) Spatial Pyramid of Local Binary Patterns592
+ +       0.1199 * (normalized) Spatial Pyramid of Local Binary Patterns616
+ +       0.7514 * (normalized) Spatial Pyramid of Local Binary Patterns620
+ +       0.7541 * (normalized) Spatial Pyramid of Local Binary Patterns628
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns649
+ +      -0.179  * (normalized) Spatial Pyramid of Local Binary Patterns650
+ +       0.2531 * (normalized) Spatial Pyramid of Local Binary Patterns652
+ +       0.0214 * (normalized) Spatial Pyramid of Local Binary Patterns656
+ +       0.028  * (normalized) Spatial Pyramid of Local Binary Patterns664
+ +       0.0195 * (normalized) Spatial Pyramid of Local Binary Patterns685
+ +       0.0489 * (normalized) Spatial Pyramid of Local Binary Patterns686
+ +      -0.027  * (normalized) Spatial Pyramid of Local Binary Patterns688
+ +      -0.2746 * (normalized) Spatial Pyramid of Local Binary Patterns692
+ +      -0.0629 * (normalized) Spatial Pyramid of Local Binary Patterns700
+ +      -0.1917 * (normalized) Spatial Pyramid of Local Binary Patterns721
+ +      -0.0051 * (normalized) Spatial Pyramid of Local Binary Patterns722
+ +       0.0347 * (normalized) Spatial Pyramid of Local Binary Patterns724
+ +      -0.0077 * (normalized) Spatial Pyramid of Local Binary Patterns727
+ +      -0.1346 * (normalized) Spatial Pyramid of Local Binary Patterns728
+ +       0.1938 * (normalized) Spatial Pyramid of Local Binary Patterns736
+ -       0.9992
+
+Number of kernel evaluations: 5329 (94.053% cached)
+
+Classifier for classes: K4, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0019 * (normalized) Spatial Pyramid of Local Binary Patterns2
+ +       0.2075 * (normalized) Spatial Pyramid of Local Binary Patterns4
+ +      -0.0561 * (normalized) Spatial Pyramid of Local Binary Patterns7
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns8
+ +       0.1469 * (normalized) Spatial Pyramid of Local Binary Patterns16
+ +      -0.0077 * (normalized) Spatial Pyramid of Local Binary Patterns36
+ +       0.0221 * (normalized) Spatial Pyramid of Local Binary Patterns37
+ +      -0.0843 * (normalized) Spatial Pyramid of Local Binary Patterns38
+ +       0.281  * (normalized) Spatial Pyramid of Local Binary Patterns40
+ +      -0.0165 * (normalized) Spatial Pyramid of Local Binary Patterns42
+ +      -0.0561 * (normalized) Spatial Pyramid of Local Binary Patterns43
+ +       0.0131 * (normalized) Spatial Pyramid of Local Binary Patterns44
+ +      -0.1155 * (normalized) Spatial Pyramid of Local Binary Patterns51
+ +       0.0572 * (normalized) Spatial Pyramid of Local Binary Patterns52
+ +      -0.032  * (normalized) Spatial Pyramid of Local Binary Patterns74
+ +       0.1074 * (normalized) Spatial Pyramid of Local Binary Patterns76
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns80
+ +       0.1381 * (normalized) Spatial Pyramid of Local Binary Patterns88
+ +       0.1985 * (normalized) Spatial Pyramid of Local Binary Patterns112
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns116
+ +       0.0802 * (normalized) Spatial Pyramid of Local Binary Patterns124
+ +       0.34   * (normalized) Spatial Pyramid of Local Binary Patterns148
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns152
+ +       0.0579 * (normalized) Spatial Pyramid of Local Binary Patterns160
+ +      -0.004  * (normalized) Spatial Pyramid of Local Binary Patterns180
+ +      -0.0081 * (normalized) Spatial Pyramid of Local Binary Patterns181
+ +      -0.1722 * (normalized) Spatial Pyramid of Local Binary Patterns182
+ +      -0.1475 * (normalized) Spatial Pyramid of Local Binary Patterns183
+ +       0.5459 * (normalized) Spatial Pyramid of Local Binary Patterns184
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns186
+ +      -0.004  * (normalized) Spatial Pyramid of Local Binary Patterns187
+ +      -0.2949 * (normalized) Spatial Pyramid of Local Binary Patterns188
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns194
+ +       0.0204 * (normalized) Spatial Pyramid of Local Binary Patterns196
+ +      -0.0151 * (normalized) Spatial Pyramid of Local Binary Patterns215
+ +       0.4764 * (normalized) Spatial Pyramid of Local Binary Patterns220
+ +      -0.6092 * (normalized) Spatial Pyramid of Local Binary Patterns224
+ +      -0.1155 * (normalized) Spatial Pyramid of Local Binary Patterns228
+ +       0.1383 * (normalized) Spatial Pyramid of Local Binary Patterns232
+ +      -0.0144 * (normalized) Spatial Pyramid of Local Binary Patterns254
+ +       0.2164 * (normalized) Spatial Pyramid of Local Binary Patterns256
+ +      -0.4755 * (normalized) Spatial Pyramid of Local Binary Patterns260
+ +       0.3018 * (normalized) Spatial Pyramid of Local Binary Patterns268
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns288
+ +      -0      * (normalized) Spatial Pyramid of Local Binary Patterns289
+ +       0.3593 * (normalized) Spatial Pyramid of Local Binary Patterns290
+ +       0.4078 * (normalized) Spatial Pyramid of Local Binary Patterns292
+ +       0.2777 * (normalized) Spatial Pyramid of Local Binary Patterns296
+ +      -0.0666 * (normalized) Spatial Pyramid of Local Binary Patterns304
+ +      -0.0311 * (normalized) Spatial Pyramid of Local Binary Patterns325
+ +      -0.0338 * (normalized) Spatial Pyramid of Local Binary Patterns326
+ +       0.1924 * (normalized) Spatial Pyramid of Local Binary Patterns328
+ +      -0.014  * (normalized) Spatial Pyramid of Local Binary Patterns331
+ +       0.1026 * (normalized) Spatial Pyramid of Local Binary Patterns332
+ +      -0.1155 * (normalized) Spatial Pyramid of Local Binary Patterns339
+ +       0.0627 * (normalized) Spatial Pyramid of Local Binary Patterns340
+ +       0.0413 * (normalized) Spatial Pyramid of Local Binary Patterns361
+ +      -0.2287 * (normalized) Spatial Pyramid of Local Binary Patterns362
+ +       0.3942 * (normalized) Spatial Pyramid of Local Binary Patterns364
+ +       0.1385 * (normalized) Spatial Pyramid of Local Binary Patterns367
+ +       0.1667 * (normalized) Spatial Pyramid of Local Binary Patterns368
+ +      -0.0206 * (normalized) Spatial Pyramid of Local Binary Patterns370
+ +      -0.231  * (normalized) Spatial Pyramid of Local Binary Patterns376
+ +      -0.1155 * (normalized) Spatial Pyramid of Local Binary Patterns387
+ +      -0.0205 * (normalized) Spatial Pyramid of Local Binary Patterns394
+ +       0.019  * (normalized) Spatial Pyramid of Local Binary Patterns400
+ +       0.3442 * (normalized) Spatial Pyramid of Local Binary Patterns404
+ +      -0.1367 * (normalized) Spatial Pyramid of Local Binary Patterns412
+ +      -0.0395 * (normalized) Spatial Pyramid of Local Binary Patterns423
+ +      -0.0103 * (normalized) Spatial Pyramid of Local Binary Patterns430
+ +       0.1038 * (normalized) Spatial Pyramid of Local Binary Patterns433
+ +       0.3926 * (normalized) Spatial Pyramid of Local Binary Patterns436
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns440
+ +       0.3219 * (normalized) Spatial Pyramid of Local Binary Patterns448
+ +      -0.0871 * (normalized) Spatial Pyramid of Local Binary Patterns469
+ +      -0.1512 * (normalized) Spatial Pyramid of Local Binary Patterns470
+ +       0.0255 * (normalized) Spatial Pyramid of Local Binary Patterns472
+ +       0.3059 * (normalized) Spatial Pyramid of Local Binary Patterns476
+ +      -0.1411 * (normalized) Spatial Pyramid of Local Binary Patterns477
+ +       0.5226 * (normalized) Spatial Pyramid of Local Binary Patterns484
+ +       0.118  * (normalized) Spatial Pyramid of Local Binary Patterns505
+ +       0.0012 * (normalized) Spatial Pyramid of Local Binary Patterns508
+ +       0.2693 * (normalized) Spatial Pyramid of Local Binary Patterns512
+ +      -0.0205 * (normalized) Spatial Pyramid of Local Binary Patterns516
+ +      -0.2817 * (normalized) Spatial Pyramid of Local Binary Patterns520
+ +      -0.0205 * (normalized) Spatial Pyramid of Local Binary Patterns531
+ +      -0.0205 * (normalized) Spatial Pyramid of Local Binary Patterns540
+ +      -0.0205 * (normalized) Spatial Pyramid of Local Binary Patterns541
+ +      -0.0068 * (normalized) Spatial Pyramid of Local Binary Patterns542
+ +       0.0306 * (normalized) Spatial Pyramid of Local Binary Patterns544
+ +       0.31   * (normalized) Spatial Pyramid of Local Binary Patterns548
+ +      -0.0205 * (normalized) Spatial Pyramid of Local Binary Patterns550
+ +      -0.3172 * (normalized) Spatial Pyramid of Local Binary Patterns556
+ +       0.2999 * (normalized) Spatial Pyramid of Local Binary Patterns580
+ +      -0.2551 * (normalized) Spatial Pyramid of Local Binary Patterns584
+ +       0.3061 * (normalized) Spatial Pyramid of Local Binary Patterns592
+ +       0.0693 * (normalized) Spatial Pyramid of Local Binary Patterns613
+ +       0.1306 * (normalized) Spatial Pyramid of Local Binary Patterns616
+ +       0.2229 * (normalized) Spatial Pyramid of Local Binary Patterns620
+ +       0.1797 * (normalized) Spatial Pyramid of Local Binary Patterns628
+ +       0.1385 * (normalized) Spatial Pyramid of Local Binary Patterns639
+ +      -0.1376 * (normalized) Spatial Pyramid of Local Binary Patterns650
+ +       0.4476 * (normalized) Spatial Pyramid of Local Binary Patterns652
+ +      -0.0669 * (normalized) Spatial Pyramid of Local Binary Patterns656
+ +       0.2326 * (normalized) Spatial Pyramid of Local Binary Patterns664
+ +       0.5577 * (normalized) Spatial Pyramid of Local Binary Patterns675
+ +      -0.0014 * (normalized) Spatial Pyramid of Local Binary Patterns685
+ +       0.0315 * (normalized) Spatial Pyramid of Local Binary Patterns686
+ +       0.6122 * (normalized) Spatial Pyramid of Local Binary Patterns688
+ +       0.1582 * (normalized) Spatial Pyramid of Local Binary Patterns692
+ +       0.2693 * (normalized) Spatial Pyramid of Local Binary Patterns700
+ +       0.4184 * (normalized) Spatial Pyramid of Local Binary Patterns711
+ +      -0.0991 * (normalized) Spatial Pyramid of Local Binary Patterns721
+ +       0.2615 * (normalized) Spatial Pyramid of Local Binary Patterns722
+ +       0.1569 * (normalized) Spatial Pyramid of Local Binary Patterns724
+ +      -0.0354 * (normalized) Spatial Pyramid of Local Binary Patterns728
+ +      -0.096  * (normalized) Spatial Pyramid of Local Binary Patterns736
+ -       1.7508
+
+Number of kernel evaluations: 1769 (90.486% cached)
+
+Classifier for classes: K4, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K4, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K5, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0016 * (normalized) Spatial Pyramid of Local Binary Patterns1
+ +      -0.0071 * (normalized) Spatial Pyramid of Local Binary Patterns2
+ +       0.0305 * (normalized) Spatial Pyramid of Local Binary Patterns4
+ +       0.029  * (normalized) Spatial Pyramid of Local Binary Patterns8
+ +      -0.1414 * (normalized) Spatial Pyramid of Local Binary Patterns16
+ +       0.0003 * (normalized) Spatial Pyramid of Local Binary Patterns37
+ +      -0.0266 * (normalized) Spatial Pyramid of Local Binary Patterns38
+ +       0.0005 * (normalized) Spatial Pyramid of Local Binary Patterns40
+ +       0.0472 * (normalized) Spatial Pyramid of Local Binary Patterns44
+ +      -0.1353 * (normalized) Spatial Pyramid of Local Binary Patterns52
+ +      -0.1197 * (normalized) Spatial Pyramid of Local Binary Patterns71
+ +       0.0421 * (normalized) Spatial Pyramid of Local Binary Patterns74
+ +       0.1023 * (normalized) Spatial Pyramid of Local Binary Patterns76
+ +       0.048  * (normalized) Spatial Pyramid of Local Binary Patterns80
+ +      -0.0444 * (normalized) Spatial Pyramid of Local Binary Patterns88
+ +      -0.1186 * (normalized) Spatial Pyramid of Local Binary Patterns109
+ +      -0.008  * (normalized) Spatial Pyramid of Local Binary Patterns110
+ +      -0.0331 * (normalized) Spatial Pyramid of Local Binary Patterns112
+ +       0.0472 * (normalized) Spatial Pyramid of Local Binary Patterns116
+ +      -0.1175 * (normalized) Spatial Pyramid of Local Binary Patterns117
+ +      -0.0655 * (normalized) Spatial Pyramid of Local Binary Patterns124
+ +      -0.1202 * (normalized) Spatial Pyramid of Local Binary Patterns135
+ +      -0.0095 * (normalized) Spatial Pyramid of Local Binary Patterns145
+ +      -0.0399 * (normalized) Spatial Pyramid of Local Binary Patterns146
+ +       0.009  * (normalized) Spatial Pyramid of Local Binary Patterns148
+ +       0.0472 * (normalized) Spatial Pyramid of Local Binary Patterns152
+ +      -0.1589 * (normalized) Spatial Pyramid of Local Binary Patterns160
+ +      -0.008  * (normalized) Spatial Pyramid of Local Binary Patterns180
+ +      -0.0307 * (normalized) Spatial Pyramid of Local Binary Patterns181
+ +      -0.0922 * (normalized) Spatial Pyramid of Local Binary Patterns182
+ +       0.1406 * (normalized) Spatial Pyramid of Local Binary Patterns184
+ +      -0.0847 * (normalized) Spatial Pyramid of Local Binary Patterns188
+ +      -0.03   * (normalized) Spatial Pyramid of Local Binary Patterns189
+ +      -0.1088 * (normalized) Spatial Pyramid of Local Binary Patterns196
+ +       0.0029 * (normalized) Spatial Pyramid of Local Binary Patterns216
+ +      -0.0071 * (normalized) Spatial Pyramid of Local Binary Patterns217
+ +      -0.0131 * (normalized) Spatial Pyramid of Local Binary Patterns218
+ +       0.0916 * (normalized) Spatial Pyramid of Local Binary Patterns220
+ +      -0.2086 * (normalized) Spatial Pyramid of Local Binary Patterns224
+ +      -0.2218 * (normalized) Spatial Pyramid of Local Binary Patterns232
+ +      -0.1115 * (normalized) Spatial Pyramid of Local Binary Patterns243
+ +      -0.1197 * (normalized) Spatial Pyramid of Local Binary Patterns250
+ +      -0.1197 * (normalized) Spatial Pyramid of Local Binary Patterns251
+ +      -0.1197 * (normalized) Spatial Pyramid of Local Binary Patterns253
+ +      -0.0427 * (normalized) Spatial Pyramid of Local Binary Patterns254
+ +      -0.0721 * (normalized) Spatial Pyramid of Local Binary Patterns256
+ +       0.0509 * (normalized) Spatial Pyramid of Local Binary Patterns260
+ +      -0.0598 * (normalized) Spatial Pyramid of Local Binary Patterns261
+ +       0.1874 * (normalized) Spatial Pyramid of Local Binary Patterns268
+ +       0      * (normalized) Spatial Pyramid of Local Binary Patterns289
+ +       0.0747 * (normalized) Spatial Pyramid of Local Binary Patterns290
+ +       0.071  * (normalized) Spatial Pyramid of Local Binary Patterns292
+ +      -0.0294 * (normalized) Spatial Pyramid of Local Binary Patterns296
+ +      -0.0236 * (normalized) Spatial Pyramid of Local Binary Patterns304
+ +      -0.115  * (normalized) Spatial Pyramid of Local Binary Patterns315
+ +       0.016  * (normalized) Spatial Pyramid of Local Binary Patterns325
+ +      -0.0287 * (normalized) Spatial Pyramid of Local Binary Patterns326
+ +       0.0822 * (normalized) Spatial Pyramid of Local Binary Patterns328
+ +       0.0536 * (normalized) Spatial Pyramid of Local Binary Patterns332
+ +      -0.1161 * (normalized) Spatial Pyramid of Local Binary Patterns340
+ +       0.0149 * (normalized) Spatial Pyramid of Local Binary Patterns361
+ +      -0.0068 * (normalized) Spatial Pyramid of Local Binary Patterns362
+ +       0.2088 * (normalized) Spatial Pyramid of Local Binary Patterns364
+ +      -0.0236 * (normalized) Spatial Pyramid of Local Binary Patterns366
+ +       0.0622 * (normalized) Spatial Pyramid of Local Binary Patterns367
+ +       0.1989 * (normalized) Spatial Pyramid of Local Binary Patterns368
+ +      -0.1599 * (normalized) Spatial Pyramid of Local Binary Patterns376
+ +       0.1031 * (normalized) Spatial Pyramid of Local Binary Patterns400
+ +       0.5451 * (normalized) Spatial Pyramid of Local Binary Patterns404
+ +      -0.019  * (normalized) Spatial Pyramid of Local Binary Patterns412
+ +      -0.1197 * (normalized) Spatial Pyramid of Local Binary Patterns432
+ +       0.0441 * (normalized) Spatial Pyramid of Local Binary Patterns433
+ +      -0.0163 * (normalized) Spatial Pyramid of Local Binary Patterns436
+ +       0.0679 * (normalized) Spatial Pyramid of Local Binary Patterns440
+ +      -0.1175 * (normalized) Spatial Pyramid of Local Binary Patterns441
+ +      -0.1197 * (normalized) Spatial Pyramid of Local Binary Patterns442
+ +       0.0555 * (normalized) Spatial Pyramid of Local Binary Patterns448
+ +      -0.1202 * (normalized) Spatial Pyramid of Local Binary Patterns459
+ +      -0.0209 * (normalized) Spatial Pyramid of Local Binary Patterns470
+ +      -0.0133 * (normalized) Spatial Pyramid of Local Binary Patterns472
+ +      -0.0851 * (normalized) Spatial Pyramid of Local Binary Patterns475
+ +       0.048  * (normalized) Spatial Pyramid of Local Binary Patterns476
+ +       0.1241 * (normalized) Spatial Pyramid of Local Binary Patterns484
+ +      -0.1241 * (normalized) Spatial Pyramid of Local Binary Patterns503
+ +       0.0175 * (normalized) Spatial Pyramid of Local Binary Patterns504
+ +       0.0797 * (normalized) Spatial Pyramid of Local Binary Patterns505
+ +       0.0854 * (normalized) Spatial Pyramid of Local Binary Patterns508
+ +       0.3648 * (normalized) Spatial Pyramid of Local Binary Patterns512
+ +       0.0175 * (normalized) Spatial Pyramid of Local Binary Patterns514
+ +      -0.0709 * (normalized) Spatial Pyramid of Local Binary Patterns520
+ +       0.0012 * (normalized) Spatial Pyramid of Local Binary Patterns542
+ +       0.1342 * (normalized) Spatial Pyramid of Local Binary Patterns544
+ +       0.53   * (normalized) Spatial Pyramid of Local Binary Patterns548
+ +      -0.1106 * (normalized) Spatial Pyramid of Local Binary Patterns556
+ +      -0.0526 * (normalized) Spatial Pyramid of Local Binary Patterns577
+ +      -0.1291 * (normalized) Spatial Pyramid of Local Binary Patterns578
+ +      -0.0745 * (normalized) Spatial Pyramid of Local Binary Patterns580
+ +      -0.1922 * (normalized) Spatial Pyramid of Local Binary Patterns584
+ +      -0.019  * (normalized) Spatial Pyramid of Local Binary Patterns585
+ +      -0.0505 * (normalized) Spatial Pyramid of Local Binary Patterns592
+ +      -0.022  * (normalized) Spatial Pyramid of Local Binary Patterns613
+ +      -0.0325 * (normalized) Spatial Pyramid of Local Binary Patterns614
+ +       0.0768 * (normalized) Spatial Pyramid of Local Binary Patterns616
+ +       0.0008 * (normalized) Spatial Pyramid of Local Binary Patterns620
+ +      -0.2464 * (normalized) Spatial Pyramid of Local Binary Patterns628
+ +       0.0622 * (normalized) Spatial Pyramid of Local Binary Patterns639
+ +      -0.1202 * (normalized) Spatial Pyramid of Local Binary Patterns648
+ +      -0.0601 * (normalized) Spatial Pyramid of Local Binary Patterns649
+ +      -0.0055 * (normalized) Spatial Pyramid of Local Binary Patterns650
+ +       0.0842 * (normalized) Spatial Pyramid of Local Binary Patterns652
+ +       0.1105 * (normalized) Spatial Pyramid of Local Binary Patterns656
+ +      -0.1202 * (normalized) Spatial Pyramid of Local Binary Patterns661
+ +       0.0305 * (normalized) Spatial Pyramid of Local Binary Patterns664
+ +       0.1127 * (normalized) Spatial Pyramid of Local Binary Patterns675
+ +      -0.0086 * (normalized) Spatial Pyramid of Local Binary Patterns685
+ +      -0.0591 * (normalized) Spatial Pyramid of Local Binary Patterns686
+ +       0.0929 * (normalized) Spatial Pyramid of Local Binary Patterns688
+ +       0.2478 * (normalized) Spatial Pyramid of Local Binary Patterns692
+ +       0.02   * (normalized) Spatial Pyramid of Local Binary Patterns700
+ +       0.0685 * (normalized) Spatial Pyramid of Local Binary Patterns711
+ +       0.0449 * (normalized) Spatial Pyramid of Local Binary Patterns721
+ +       0.0225 * (normalized) Spatial Pyramid of Local Binary Patterns722
+ +       0.0634 * (normalized) Spatial Pyramid of Local Binary Patterns724
+ +      -0.0373 * (normalized) Spatial Pyramid of Local Binary Patterns728
+ +      -0.115  * (normalized) Spatial Pyramid of Local Binary Patterns729
+ +      -0.2225 * (normalized) Spatial Pyramid of Local Binary Patterns736
+ +      -0.1202 * (normalized) Spatial Pyramid of Local Binary Patterns747
+ +      -0.1202 * (normalized) Spatial Pyramid of Local Binary Patterns754
+ +      -0.115  * (normalized) Spatial Pyramid of Local Binary Patterns755
+ -       0.9998
+
+Number of kernel evaluations: 2167 (84.1% cached)
+
+Classifier for classes: K5, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K5, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K6, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K6, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K7, K8
+
+BinarySMO: No model built yet.
+
+
+
+
+Time taken to build model: 0.54 seconds
+
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         367               88.2212 %
+Incorrectly Classified Instances        49               11.7788 %
+Kappa statistic                          0.8454
+Mean absolute error                      0.1871
+Root mean squared error                  0.2931
+Relative absolute error                 95.6469 %
+Root relative squared error             93.8279 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.744    0.003    0.970      0.744    0.842      0.835    0.865     0.758     K1
+                 0.980    0.157    0.775      0.980    0.866      0.792    0.916     0.772     K2
+                 0.737    0.000    1.000      0.737    0.848      0.834    0.942     0.826     K3
+                 0.787    0.014    0.906      0.787    0.842      0.820    0.916     0.765     K4
+                 0.969    0.003    0.984      0.969    0.976      0.972    0.987     0.961     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.882    0.059    0.901      0.882    0.881      0.848    0.931     0.822     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  32  11   0   0   0   0   0   0 |   a = K1
+   1 145   0   1   1   0   0   0 |   b = K2
+   0  16  56   4   0   0   0   0 |   c = K3
+   0  13   0  48   0   0   0   0 |   d = K4
+   0   2   0   0  62   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 1.48 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         309               74.2788 %
+Incorrectly Classified Instances       107               25.7212 %
+Kappa statistic                          0.6612
+Mean absolute error                      0.1893
+Root mean squared error                  0.2968
+Relative absolute error                 96.7177 %
+Root relative squared error             94.9777 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.512    0.013    0.815      0.512    0.629      0.616    0.790     0.497     K1
+                 0.892    0.224    0.688      0.892    0.776      0.642    0.864     0.690     K2
+                 0.487    0.041    0.725      0.487    0.583      0.525    0.836     0.515     K3
+                 0.574    0.045    0.686      0.574    0.625      0.570    0.838     0.500     K4
+                 0.938    0.031    0.845      0.938    0.889      0.869    0.972     0.822     K5
+                 0.958    0.003    0.958      0.958    0.958      0.956    0.968     0.921     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.743    0.100    0.747      0.743    0.731      0.660    0.870     0.644     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  22  15   1   0   4   1   0   0 |   a = K1
+   2 132   4   6   4   0   0   0 |   b = K2
+   2  24  37  10   3   0   0   0 |   c = K3
+   0  17   9  35   0   0   0   0 |   d = K4
+   0   4   0   0  60   0   0   0 |   e = K5
+   1   0   0   0   0  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

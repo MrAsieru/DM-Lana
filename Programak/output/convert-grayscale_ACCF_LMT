@@ -1,0 +1,607 @@
+
+Options: -I -1 -M 15 -W 0.0 
+
+=== Classifier model (full training set) ===
+
+Logistic model tree 
+------------------
+
+Auto Color Correlogram1 <= 0
+|   Auto Color Correlogram48 <= 14
+|   |   Auto Color Correlogram63 <= 9: LM_1:71/284 (91)
+|   |   Auto Color Correlogram63 > 9: LM_2:71/284 (34)
+|   Auto Color Correlogram48 > 14: LM_3:71/213 (157)
+Auto Color Correlogram1 > 0: LM_4:71/142 (134)
+
+Number of Leaves  : 	4
+
+Size of the Tree : 	7
+
+
+
+LM_1:
+Class K1 :
+-129.47 + 
+[Auto Color Correlogram0] * -4.74 +
+[Auto Color Correlogram48] * 1.64 +
+[Auto Color Correlogram49] * -0.12 +
+[Auto Color Correlogram50] * 0.11 +
+[Auto Color Correlogram51] * 0.13 +
+[Auto Color Correlogram52] * 5.28 +
+[Auto Color Correlogram53] * 2.66 +
+[Auto Color Correlogram54] * -1.34 +
+[Auto Color Correlogram55] * 0.12 +
+[Auto Color Correlogram56] * 2.22 +
+[Auto Color Correlogram57] * -1.25 +
+[Auto Color Correlogram58] * 0.21 +
+[Auto Color Correlogram59] * -0.2 +
+[Auto Color Correlogram60] * -0.16 +
+[Auto Color Correlogram61] * 0.03 +
+[Auto Color Correlogram62] * -0.04 +
+[Auto Color Correlogram63] * 0.11
+
+Class K2 :
+-34.77 + 
+[Auto Color Correlogram0] * -6.61 +
+[Auto Color Correlogram48] * -0.38 +
+[Auto Color Correlogram49] * 0.13 +
+[Auto Color Correlogram50] * 0.04 +
+[Auto Color Correlogram51] * 0.05 +
+[Auto Color Correlogram52] * 1.91 +
+[Auto Color Correlogram53] * 0.29 +
+[Auto Color Correlogram54] * -0.36 +
+[Auto Color Correlogram55] * -1.08 +
+[Auto Color Correlogram56] * 3.13 +
+[Auto Color Correlogram58] * -0.91 +
+[Auto Color Correlogram59] * -0.59 +
+[Auto Color Correlogram60] * 0.18 +
+[Auto Color Correlogram62] * 0.05 +
+[Auto Color Correlogram63] * -0.14
+
+Class K3 :
+72.74 + 
+[Auto Color Correlogram0] * 36.94 +
+[Auto Color Correlogram2] * -0.06 +
+[Auto Color Correlogram3] * -0.21 +
+[Auto Color Correlogram48] * -0.14 +
+[Auto Color Correlogram49] * -0.48 +
+[Auto Color Correlogram50] * -0.51 +
+[Auto Color Correlogram51] * -6.84 +
+[Auto Color Correlogram52] * 0.27 +
+[Auto Color Correlogram54] * -2.08 +
+[Auto Color Correlogram55] * -2.67 +
+[Auto Color Correlogram56] * -5.25 +
+[Auto Color Correlogram57] * -1.05 +
+[Auto Color Correlogram58] * 0.27 +
+[Auto Color Correlogram59] * 0.42 +
+[Auto Color Correlogram60] * -3.8 +
+[Auto Color Correlogram61] * -0.1 +
+[Auto Color Correlogram63] * -0.03
+
+Class K4 :
+75.1 + 
+[Auto Color Correlogram0] * -21.26 +
+[Auto Color Correlogram1] * 0.73 +
+[Auto Color Correlogram2] * 0.02 +
+[Auto Color Correlogram3] * 0.06 +
+[Auto Color Correlogram48] * -0.3 +
+[Auto Color Correlogram49] * -1.95 +
+[Auto Color Correlogram50] * -0.38 +
+[Auto Color Correlogram51] * -0.3 +
+[Auto Color Correlogram52] * -0.13 +
+[Auto Color Correlogram53] * -0.04 +
+[Auto Color Correlogram55] * -16.72 +
+[Auto Color Correlogram56] * -0.16 +
+[Auto Color Correlogram57] * -0.01 +
+[Auto Color Correlogram59] * -4.36 +
+[Auto Color Correlogram60] * -3.5 +
+[Auto Color Correlogram61] * -0.04 +
+[Auto Color Correlogram62] * -0.22 +
+[Auto Color Correlogram63] * -2.95
+
+Class K5 :
+22.24 + 
+[Auto Color Correlogram0] * 0.43 +
+[Auto Color Correlogram1] * -3.02 +
+[Auto Color Correlogram48] * 0.11 +
+[Auto Color Correlogram49] * 0.04 +
+[Auto Color Correlogram50] * -0.56 +
+[Auto Color Correlogram51] * 0.08 +
+[Auto Color Correlogram52] * -1.49 +
+[Auto Color Correlogram53] * -0.29 +
+[Auto Color Correlogram54] * 0.68 +
+[Auto Color Correlogram55] * 0.66 +
+[Auto Color Correlogram56] * -1.27 +
+[Auto Color Correlogram57] * -0.05 +
+[Auto Color Correlogram58] * 0.65 +
+[Auto Color Correlogram59] * 0.31 +
+[Auto Color Correlogram60] * -0.61 +
+[Auto Color Correlogram63] * 0.62
+
+Class K6 :
+-1.83 + 
+[Auto Color Correlogram0] * -6.38 +
+[Auto Color Correlogram48] * -0.34 +
+[Auto Color Correlogram50] * 0.94 +
+[Auto Color Correlogram51] * -0.3 +
+[Auto Color Correlogram52] * -0.34 +
+[Auto Color Correlogram53] * 0.2  +
+[Auto Color Correlogram54] * -0.49 +
+[Auto Color Correlogram55] * 0.37 +
+[Auto Color Correlogram56] * -0.24 +
+[Auto Color Correlogram57] * 0.47 +
+[Auto Color Correlogram58] * -0.2 +
+[Auto Color Correlogram59] * 0.27 +
+[Auto Color Correlogram60] * 0.72 +
+[Auto Color Correlogram61] * -0.2 +
+[Auto Color Correlogram62] * -0.03 +
+[Auto Color Correlogram63] * -0.46
+
+Class K7 :
+-248.69 + 
+[Auto Color Correlogram3] * 0    +
+[Auto Color Correlogram51] * 0    +
+[Auto Color Correlogram52] * 0   
+
+Class K8 :
+-248.69 + 
+[Auto Color Correlogram3] * 0    +
+[Auto Color Correlogram51] * 0    +
+[Auto Color Correlogram52] * 0   
+
+LM_2:
+Class K1 :
+8    + 
+[Auto Color Correlogram0] * -4.74 +
+[Auto Color Correlogram48] * 0.36 +
+[Auto Color Correlogram49] * -0.12 +
+[Auto Color Correlogram50] * -0.54 +
+[Auto Color Correlogram51] * 0.83 +
+[Auto Color Correlogram52] * -1.69 +
+[Auto Color Correlogram53] * 1.26 +
+[Auto Color Correlogram54] * -6.47 +
+[Auto Color Correlogram55] * 1.76 +
+[Auto Color Correlogram56] * 5.35 +
+[Auto Color Correlogram57] * -0.39 +
+[Auto Color Correlogram58] * -0.36 +
+[Auto Color Correlogram59] * -2.15 +
+[Auto Color Correlogram60] * 0.8  +
+[Auto Color Correlogram61] * -1.04 +
+[Auto Color Correlogram62] * -0.2 +
+[Auto Color Correlogram63] * 1.53
+
+Class K2 :
+-66.08 + 
+[Auto Color Correlogram0] * -6.61 +
+[Auto Color Correlogram48] * -0.16 +
+[Auto Color Correlogram49] * 0.19 +
+[Auto Color Correlogram50] * 0.69 +
+[Auto Color Correlogram51] * -0.7 +
+[Auto Color Correlogram52] * 5.9  +
+[Auto Color Correlogram53] * -0.11 +
+[Auto Color Correlogram54] * 4.84 +
+[Auto Color Correlogram55] * -3.08 +
+[Auto Color Correlogram56] * -2.56 +
+[Auto Color Correlogram58] * -0.02 +
+[Auto Color Correlogram59] * 1.4  +
+[Auto Color Correlogram60] * -0.86 +
+[Auto Color Correlogram61] * 1.07 +
+[Auto Color Correlogram62] * 0.25 +
+[Auto Color Correlogram63] * -1.7
+
+Class K3 :
+6.08 + 
+[Auto Color Correlogram0] * 18.7 +
+[Auto Color Correlogram2] * -0.06 +
+[Auto Color Correlogram3] * -0.21 +
+[Auto Color Correlogram48] * 0.01 +
+[Auto Color Correlogram49] * -0.48 +
+[Auto Color Correlogram51] * -5.95 +
+[Auto Color Correlogram52] * 0.08 +
+[Auto Color Correlogram54] * -1.59 +
+[Auto Color Correlogram55] * -2.3 +
+[Auto Color Correlogram56] * -3.36 +
+[Auto Color Correlogram57] * -0.31 +
+[Auto Color Correlogram58] * -0.06 +
+[Auto Color Correlogram59] * -0.04 +
+[Auto Color Correlogram60] * -3.21 +
+[Auto Color Correlogram61] * -0.1 +
+[Auto Color Correlogram63] * -0.03
+
+Class K4 :
+21.06 + 
+[Auto Color Correlogram0] * -21.26 +
+[Auto Color Correlogram1] * 0.73 +
+[Auto Color Correlogram2] * 0.02 +
+[Auto Color Correlogram3] * 0.06 +
+[Auto Color Correlogram48] * -0.3 +
+[Auto Color Correlogram49] * -1.95 +
+[Auto Color Correlogram50] * -0.38 +
+[Auto Color Correlogram51] * -0.3 +
+[Auto Color Correlogram52] * -0.13 +
+[Auto Color Correlogram53] * -0.04 +
+[Auto Color Correlogram55] * -9.28 +
+[Auto Color Correlogram56] * -0.16 +
+[Auto Color Correlogram57] * -0.01 +
+[Auto Color Correlogram59] * -3.86 +
+[Auto Color Correlogram60] * -3.5 +
+[Auto Color Correlogram61] * -0.04 +
+[Auto Color Correlogram62] * -0.22 +
+[Auto Color Correlogram63] * -0.57
+
+Class K5 :
+-46.45 + 
+[Auto Color Correlogram0] * 123.07 +
+[Auto Color Correlogram1] * -3.02 +
+[Auto Color Correlogram48] * 0.11 +
+[Auto Color Correlogram49] * 0.04 +
+[Auto Color Correlogram50] * -0.56 +
+[Auto Color Correlogram51] * 0.1  +
+[Auto Color Correlogram52] * -1.02 +
+[Auto Color Correlogram53] * -0.29 +
+[Auto Color Correlogram54] * 0.34 +
+[Auto Color Correlogram55] * 0.66 +
+[Auto Color Correlogram56] * -0.69 +
+[Auto Color Correlogram57] * -0.05 +
+[Auto Color Correlogram58] * 0.26 +
+[Auto Color Correlogram59] * 0.31 +
+[Auto Color Correlogram60] * -0.28 +
+[Auto Color Correlogram63] * -0.03
+
+Class K6 :
+-63.84 + 
+[Auto Color Correlogram0] * -6.38 +
+[Auto Color Correlogram48] * -0.16 +
+[Auto Color Correlogram50] * 0.66 +
+[Auto Color Correlogram51] * -0.25 +
+[Auto Color Correlogram52] * -0.28 +
+[Auto Color Correlogram53] * 0.2  +
+[Auto Color Correlogram54] * -0.18 +
+[Auto Color Correlogram55] * 0.05 +
+[Auto Color Correlogram56] * -0.07 +
+[Auto Color Correlogram57] * 0.35 +
+[Auto Color Correlogram58] * -0.14 +
+[Auto Color Correlogram59] * 0.07 +
+[Auto Color Correlogram60] * 0.6  +
+[Auto Color Correlogram61] * -0.04 +
+[Auto Color Correlogram62] * -0.06 +
+[Auto Color Correlogram63] * -0.67
+
+Class K7 :
+-248.69 + 
+[Auto Color Correlogram3] * 0    +
+[Auto Color Correlogram51] * 0    +
+[Auto Color Correlogram52] * 0   
+
+Class K8 :
+-248.69 + 
+[Auto Color Correlogram3] * 0    +
+[Auto Color Correlogram51] * 0    +
+[Auto Color Correlogram52] * 0   
+
+LM_3:
+Class K1 :
+-18.5 + 
+[Auto Color Correlogram0] * -4.74 +
+[Auto Color Correlogram48] * 0.36 +
+[Auto Color Correlogram49] * -0.2 +
+[Auto Color Correlogram50] * 0.56 +
+[Auto Color Correlogram51] * 0.22 +
+[Auto Color Correlogram52] * 0.24 +
+[Auto Color Correlogram53] * 0.62 +
+[Auto Color Correlogram54] * -0.03 +
+[Auto Color Correlogram55] * -0.44 +
+[Auto Color Correlogram56] * 0.2  +
+[Auto Color Correlogram57] * -0.03 +
+[Auto Color Correlogram58] * -0.01 +
+[Auto Color Correlogram59] * -0.11 +
+[Auto Color Correlogram60] * 0.07 +
+[Auto Color Correlogram61] * 0.04 +
+[Auto Color Correlogram63] * -0.11
+
+Class K2 :
+-23.52 + 
+[Auto Color Correlogram0] * -6.61 +
+[Auto Color Correlogram48] * -0.28 +
+[Auto Color Correlogram49] * 2.05 +
+[Auto Color Correlogram50] * 0.06 +
+[Auto Color Correlogram51] * -0.46 +
+[Auto Color Correlogram52] * 0.66 +
+[Auto Color Correlogram53] * -0.13 +
+[Auto Color Correlogram54] * -0.08 +
+[Auto Color Correlogram55] * 0.02 +
+[Auto Color Correlogram56] * -0.03 +
+[Auto Color Correlogram57] * -0 +
+[Auto Color Correlogram58] * 0.1  +
+[Auto Color Correlogram59] * -0.08 +
+[Auto Color Correlogram60] * -0.05 +
+[Auto Color Correlogram61] * -0.01 +
+[Auto Color Correlogram62] * -0.01 +
+[Auto Color Correlogram63] * 0.15
+
+Class K3 :
+-41.67 + 
+[Auto Color Correlogram0] * 8.41 +
+[Auto Color Correlogram2] * -0.06 +
+[Auto Color Correlogram3] * -0.21 +
+[Auto Color Correlogram48] * -0.03 +
+[Auto Color Correlogram49] * -0.48 +
+[Auto Color Correlogram51] * -3 +
+[Auto Color Correlogram52] * 0.08 +
+[Auto Color Correlogram55] * -0.18 +
+[Auto Color Correlogram56] * -1 +
+[Auto Color Correlogram57] * -0.11 +
+[Auto Color Correlogram58] * -0.06 +
+[Auto Color Correlogram59] * -0.04 +
+[Auto Color Correlogram60] * -2.3 +
+[Auto Color Correlogram61] * -0.1 +
+[Auto Color Correlogram63] * -0.03
+
+Class K4 :
+-33.51 + 
+[Auto Color Correlogram0] * -17.18 +
+[Auto Color Correlogram1] * 0.73 +
+[Auto Color Correlogram2] * 0.02 +
+[Auto Color Correlogram3] * 0.06 +
+[Auto Color Correlogram48] * -0.26 +
+[Auto Color Correlogram49] * -1.95 +
+[Auto Color Correlogram50] * -0.38 +
+[Auto Color Correlogram51] * -0.3 +
+[Auto Color Correlogram52] * -0.13 +
+[Auto Color Correlogram53] * -0.04 +
+[Auto Color Correlogram55] * -1.02 +
+[Auto Color Correlogram56] * -0.16 +
+[Auto Color Correlogram57] * -0.01 +
+[Auto Color Correlogram59] * -0.39 +
+[Auto Color Correlogram60] * -2.47 +
+[Auto Color Correlogram61] * -0.04 +
+[Auto Color Correlogram62] * -0.22
+
+Class K5 :
+190.87 + 
+[Auto Color Correlogram0] * 0.43 +
+[Auto Color Correlogram1] * -3.02 +
+[Auto Color Correlogram48] * 0.11 +
+[Auto Color Correlogram49] * -16.93 +
+[Auto Color Correlogram50] * 2.76 +
+[Auto Color Correlogram51] * 0.86 +
+[Auto Color Correlogram52] * -1.17 +
+[Auto Color Correlogram53] * -0.29 +
+[Auto Color Correlogram54] * 0.21 +
+[Auto Color Correlogram55] * 0.22 +
+[Auto Color Correlogram56] * -0.08 +
+[Auto Color Correlogram57] * -0.05 +
+[Auto Color Correlogram58] * 0.7  +
+[Auto Color Correlogram59] * -0.61 +
+[Auto Color Correlogram60] * 0.67 +
+[Auto Color Correlogram62] * 0.13 +
+[Auto Color Correlogram63] * -0.03
+
+Class K6 :
+11.53 + 
+[Auto Color Correlogram0] * -5.51 +
+[Auto Color Correlogram48] * 0.06 +
+[Auto Color Correlogram49] * -1.02 +
+[Auto Color Correlogram50] * -2.33 +
+[Auto Color Correlogram51] * 2.21 +
+[Auto Color Correlogram52] * -0.48 +
+[Auto Color Correlogram53] * 0.2  +
+[Auto Color Correlogram54] * -0.03 +
+[Auto Color Correlogram55] * 0.62 +
+[Auto Color Correlogram57] * 0.78 +
+[Auto Color Correlogram58] * -0.63 +
+[Auto Color Correlogram60] * 0.12 +
+[Auto Color Correlogram61] * -0.03 +
+[Auto Color Correlogram62] * -0.06 +
+[Auto Color Correlogram63] * -0.1
+
+Class K7 :
+-186.56 + 
+[Auto Color Correlogram3] * 0    +
+[Auto Color Correlogram51] * 0    +
+[Auto Color Correlogram52] * 0   
+
+Class K8 :
+-186.56 + 
+[Auto Color Correlogram3] * 0    +
+[Auto Color Correlogram51] * 0    +
+[Auto Color Correlogram52] * 0   
+
+LM_4:
+Class K1 :
+-74.25 + 
+[Auto Color Correlogram0] * -3.86 +
+[Auto Color Correlogram48] * 0.36 +
+[Auto Color Correlogram50] * 0.13 +
+[Auto Color Correlogram51] * 0.01 +
+[Auto Color Correlogram52] * 0.22 +
+[Auto Color Correlogram53] * 0.33 +
+[Auto Color Correlogram55] * -0.18 +
+[Auto Color Correlogram56] * 0.19 +
+[Auto Color Correlogram58] * -0.01 +
+[Auto Color Correlogram59] * -0.15 +
+[Auto Color Correlogram60] * 0.03 +
+[Auto Color Correlogram61] * 0.03 +
+[Auto Color Correlogram63] * -0.01
+
+Class K2 :
+-69.11 + 
+[Auto Color Correlogram0] * -4.86 +
+[Auto Color Correlogram48] * -0.15 +
+[Auto Color Correlogram49] * 0.06 +
+[Auto Color Correlogram50] * 0.04 +
+[Auto Color Correlogram51] * 0.2  +
+[Auto Color Correlogram52] * 0.65 +
+[Auto Color Correlogram55] * -0.1 +
+[Auto Color Correlogram56] * -0.06 +
+[Auto Color Correlogram58] * 0.06 +
+[Auto Color Correlogram60] * -0.04 +
+[Auto Color Correlogram63] * 0.13
+
+Class K3 :
+0.5  + 
+[Auto Color Correlogram0] * 0.79 +
+[Auto Color Correlogram1] * -0.1 +
+[Auto Color Correlogram2] * -0.12 +
+[Auto Color Correlogram3] * -0.28 +
+[Auto Color Correlogram48] * 0.03 +
+[Auto Color Correlogram49] * -0.33 +
+[Auto Color Correlogram50] * 0.04 +
+[Auto Color Correlogram51] * 0.04 +
+[Auto Color Correlogram52] * 0.04 +
+[Auto Color Correlogram53] * 0.12 +
+[Auto Color Correlogram55] * -0.22 +
+[Auto Color Correlogram56] * 0.1  +
+[Auto Color Correlogram57] * 0.03 +
+[Auto Color Correlogram58] * -0.06 +
+[Auto Color Correlogram59] * -0.04 +
+[Auto Color Correlogram60] * -0.13 +
+[Auto Color Correlogram61] * -0.1 +
+[Auto Color Correlogram62] * 0.14 +
+[Auto Color Correlogram63] * -0.09
+
+Class K4 :
+6.16 + 
+[Auto Color Correlogram0] * 0.1  +
+[Auto Color Correlogram1] * 0.84 +
+[Auto Color Correlogram2] * 0.08 +
+[Auto Color Correlogram3] * 0.12 +
+[Auto Color Correlogram48] * -0.33 +
+[Auto Color Correlogram50] * -0.42 +
+[Auto Color Correlogram51] * -0.35 +
+[Auto Color Correlogram52] * -0.09 +
+[Auto Color Correlogram53] * -0.15 +
+[Auto Color Correlogram55] * 0.04 +
+[Auto Color Correlogram56] * -0.19 +
+[Auto Color Correlogram57] * -0.04 +
+[Auto Color Correlogram60] * -0.02 +
+[Auto Color Correlogram61] * -0.04 +
+[Auto Color Correlogram62] * -0.36 +
+[Auto Color Correlogram63] * 0.06
+
+Class K5 :
+-58.41 + 
+[Auto Color Correlogram0] * -0.76 +
+[Auto Color Correlogram1] * -3.02 +
+[Auto Color Correlogram48] * 0.08 +
+[Auto Color Correlogram50] * -0.15 +
+[Auto Color Correlogram51] * 0    +
+[Auto Color Correlogram52] * -0.48 +
+[Auto Color Correlogram53] * -0.1 +
+[Auto Color Correlogram54] * 0.03 +
+[Auto Color Correlogram55] * 0.48 +
+[Auto Color Correlogram57] * -0.03 +
+[Auto Color Correlogram59] * 0.09 +
+[Auto Color Correlogram63] * -0.02
+
+Class K6 :
+-62.83 + 
+[Auto Color Correlogram0] * -4.63 +
+[Auto Color Correlogram48] * 0.06 +
+[Auto Color Correlogram50] * 0.04 +
+[Auto Color Correlogram52] * -0.34 +
+[Auto Color Correlogram53] * 0.04 +
+[Auto Color Correlogram55] * 0.27 +
+[Auto Color Correlogram57] * 0.12 +
+[Auto Color Correlogram58] * -0.05 +
+[Auto Color Correlogram60] * 0.2  +
+[Auto Color Correlogram61] * -0.01 +
+[Auto Color Correlogram62] * -0.06 +
+[Auto Color Correlogram63] * -0.13
+
+Class K7 :
+-124.44 + 
+[Auto Color Correlogram3] * 0    +
+[Auto Color Correlogram51] * 0    +
+[Auto Color Correlogram52] * 0   
+
+Class K8 :
+-124.44 + 
+[Auto Color Correlogram3] * 0    +
+[Auto Color Correlogram51] * 0    +
+[Auto Color Correlogram52] * 0   
+
+
+Time taken to build model: 9.97 seconds
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         351               84.375  %
+Incorrectly Classified Instances        65               15.625  %
+Kappa statistic                          0.7968
+Mean absolute error                      0.066 
+Root mean squared error                  0.175 
+Relative absolute error                 33.7216 %
+Root relative squared error             56.0068 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.419    0.013    0.783      0.419    0.545      0.540    0.943     0.698     K1
+                 0.953    0.097    0.844      0.953    0.895      0.836    0.974     0.947     K2
+                 0.829    0.050    0.788      0.829    0.808      0.764    0.969     0.860     K3
+                 0.721    0.037    0.772      0.721    0.746      0.704    0.962     0.787     K4
+                 0.969    0.009    0.954      0.969    0.961      0.954    0.998     0.989     K5
+                 0.958    0.003    0.958      0.958    0.958      0.956    0.988     0.952     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.844    0.052    0.840      0.844    0.835      0.798    0.973     0.889     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  18  23   0   0   1   1   0   0 |   a = K1
+   5 141   0   0   2   0   0   0 |   b = K2
+   0   0  63  13   0   0   0   0 |   c = K3
+   0   0  17  44   0   0   0   0 |   d = K4
+   0   2   0   0  62   0   0   0 |   e = K5
+   0   1   0   0   0  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 67.99 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         295               70.9135 %
+Incorrectly Classified Instances       121               29.0865 %
+Kappa statistic                          0.625 
+Mean absolute error                      0.0815
+Root mean squared error                  0.2446
+Relative absolute error                 41.6341 %
+Root relative squared error             78.2969 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.302    0.046    0.433      0.302    0.356      0.302    0.804     0.328     K1
+                 0.838    0.116    0.800      0.838    0.818      0.715    0.918     0.823     K2
+                 0.632    0.079    0.640      0.632    0.636      0.555    0.924     0.612     K3
+                 0.541    0.079    0.541      0.541    0.541      0.462    0.900     0.492     K4
+                 0.922    0.037    0.819      0.922    0.868      0.844    0.970     0.818     K5
+                 0.750    0.013    0.783      0.750    0.766      0.752    0.959     0.656     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.709    0.078    0.697      0.709    0.701      0.628    0.915     0.674     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  13  28   0   0   2   0   0   0 |   a = K1
+  15 124   0   0   5   4   0   0 |   b = K2
+   0   0  48  26   2   0   0   0 |   c = K3
+   0   0  27  33   1   0   0   0 |   d = K4
+   0   2   0   2  59   1   0   0 |   e = K5
+   2   1   0   0   3  18   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

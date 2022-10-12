@@ -1,0 +1,121 @@
+
+Options: -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0 
+
+=== Classifier model (full training set) ===
+
+
+REPTree
+============
+
+MPEG-7 Edge Histogram50 < 3.5
+|   MPEG-7 Edge Histogram49 < 0.5
+|   |   MPEG-7 Edge Histogram51 < 0.5
+|   |   |   MPEG-7 Edge Histogram20 < 4.5 : K5 (7/0) [3/0]
+|   |   |   MPEG-7 Edge Histogram20 >= 4.5 : K3 (4/1) [2/1]
+|   |   MPEG-7 Edge Histogram51 >= 0.5
+|   |   |   MPEG-7 Edge Histogram28 < 1.5 : K2 (98/1) [46/3]
+|   |   |   MPEG-7 Edge Histogram28 >= 1.5 : K1 (8/1) [5/1]
+|   MPEG-7 Edge Histogram49 >= 0.5
+|   |   MPEG-7 Edge Histogram26 < 1.5
+|   |   |   MPEG-7 Edge Histogram51 < 1.5
+|   |   |   |   MPEG-7 Edge Histogram41 < 3.5 : K5 (33/1) [20/6]
+|   |   |   |   MPEG-7 Edge Histogram41 >= 3.5
+|   |   |   |   |   MPEG-7 Edge Histogram2 < 5.5 : K6 (5/0) [3/1]
+|   |   |   |   |   MPEG-7 Edge Histogram2 >= 5.5 : K5 (2/0) [1/0]
+|   |   |   MPEG-7 Edge Histogram51 >= 1.5 : K6 (7/2) [2/1]
+|   |   MPEG-7 Edge Histogram26 >= 1.5
+|   |   |   MPEG-7 Edge Histogram54 < 2.5
+|   |   |   |   MPEG-7 Edge Histogram66 < 1.5 : K2 (2/1) [1/0]
+|   |   |   |   MPEG-7 Edge Histogram66 >= 1.5 : K1 (16/0) [6/1]
+|   |   |   MPEG-7 Edge Histogram54 >= 2.5
+|   |   |   |   MPEG-7 Edge Histogram8 < 1.5 : K5 (3/1) [1/0]
+|   |   |   |   MPEG-7 Edge Histogram8 >= 1.5 : K6 (5/0) [2/1]
+MPEG-7 Edge Histogram50 >= 3.5
+|   MPEG-7 Edge Histogram25 < 1.5 : K3 (43/2) [23/3]
+|   MPEG-7 Edge Histogram25 >= 1.5 : K4 (44/9) [24/5]
+
+Size of the tree : 27
+
+Time taken to build model: 0.19 seconds
+
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         374               89.9038 %
+Incorrectly Classified Instances        42               10.0962 %
+Kappa statistic                          0.8707
+Mean absolute error                      0.0431
+Root mean squared error                  0.1469
+Relative absolute error                 22.0452 %
+Root relative squared error             47.0046 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.744    0.008    0.914      0.744    0.821      0.807    0.926     0.774     K1
+                 0.959    0.019    0.966      0.959    0.963      0.942    0.988     0.965     K2
+                 0.855    0.021    0.903      0.855    0.878      0.853    0.978     0.868     K3
+                 0.885    0.039    0.794      0.885    0.837      0.809    0.972     0.775     K4
+                 0.969    0.023    0.886      0.969    0.925      0.912    0.988     0.902     K5
+                 0.792    0.013    0.792      0.792    0.792      0.779    0.982     0.751     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.899    0.021    0.901      0.899    0.899      0.878    0.977     0.878     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  32   4   0   3   3   1   0   0 |   a = K1
+   3 142   1   0   0   2   0   0 |   b = K2
+   0   0  65  11   0   0   0   0 |   c = K3
+   0   0   4  54   1   2   0   0 |   d = K4
+   0   0   2   0  62   0   0   0 |   e = K5
+   0   1   0   0   4  19   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.13 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         355               85.3365 %
+Incorrectly Classified Instances        61               14.6635 %
+Kappa statistic                          0.8125
+Mean absolute error                      0.0537
+Root mean squared error                  0.1757
+Relative absolute error                 27.4327 %
+Root relative squared error             56.2282 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.744    0.046    0.653      0.744    0.696      0.660    0.879     0.589     K1
+                 0.953    0.011    0.979      0.953    0.966      0.947    0.990     0.978     K2
+                 0.855    0.024    0.890      0.855    0.872      0.845    0.961     0.817     K3
+                 0.836    0.025    0.850      0.836    0.843      0.816    0.930     0.776     K4
+                 0.859    0.054    0.743      0.859    0.797      0.760    0.961     0.772     K5
+                 0.458    0.013    0.688      0.458    0.550      0.540    0.942     0.609     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.853    0.026    0.857      0.853    0.853      0.827    0.957     0.826     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  32   3   1   1   4   2   0   0 |   a = K1
+   6 141   0   1   0   0   0   0 |   b = K2
+   2   0  65   7   2   0   0   0 |   c = K3
+   1   0   5  51   4   0   0   0 |   d = K4
+   4   0   2   0  55   3   0   0 |   e = K5
+   4   0   0   0   9  11   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

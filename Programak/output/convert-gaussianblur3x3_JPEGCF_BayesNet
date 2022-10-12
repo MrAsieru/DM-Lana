@@ -1,0 +1,292 @@
+
+Options: -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 3 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5 
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=193 #classindex=192
+Network structure (nodes followed by parents)
+Histogram of JPEG Coefficients0(4): class 
+Histogram of JPEG Coefficients1(1): class 
+Histogram of JPEG Coefficients2(2): class Histogram of JPEG Coefficients0 
+Histogram of JPEG Coefficients3(2): class Histogram of JPEG Coefficients0 Histogram of JPEG Coefficients2 
+Histogram of JPEG Coefficients4(4): class Histogram of JPEG Coefficients0 Histogram of JPEG Coefficients2 
+Histogram of JPEG Coefficients5(4): class Histogram of JPEG Coefficients0 Histogram of JPEG Coefficients3 
+Histogram of JPEG Coefficients6(5): class Histogram of JPEG Coefficients0 Histogram of JPEG Coefficients5 
+Histogram of JPEG Coefficients7(3): class Histogram of JPEG Coefficients5 
+Histogram of JPEG Coefficients8(3): class Histogram of JPEG Coefficients5 Histogram of JPEG Coefficients0 
+Histogram of JPEG Coefficients9(4): class Histogram of JPEG Coefficients0 
+Histogram of JPEG Coefficients10(3): class Histogram of JPEG Coefficients9 Histogram of JPEG Coefficients3 
+Histogram of JPEG Coefficients11(3): class Histogram of JPEG Coefficients3 
+Histogram of JPEG Coefficients12(4): class Histogram of JPEG Coefficients6 
+Histogram of JPEG Coefficients13(3): class Histogram of JPEG Coefficients7 
+Histogram of JPEG Coefficients14(4): class Histogram of JPEG Coefficients7 Histogram of JPEG Coefficients0 
+Histogram of JPEG Coefficients15(4): class Histogram of JPEG Coefficients14 Histogram of JPEG Coefficients7 
+Histogram of JPEG Coefficients16(2): class Histogram of JPEG Coefficients8 
+Histogram of JPEG Coefficients17(4): class Histogram of JPEG Coefficients10 
+Histogram of JPEG Coefficients18(4): class Histogram of JPEG Coefficients10 
+Histogram of JPEG Coefficients19(1): class 
+Histogram of JPEG Coefficients20(2): class Histogram of JPEG Coefficients7 
+Histogram of JPEG Coefficients21(3): class Histogram of JPEG Coefficients13 Histogram of JPEG Coefficients7 
+Histogram of JPEG Coefficients22(3): class Histogram of JPEG Coefficients15 
+Histogram of JPEG Coefficients23(3): class Histogram of JPEG Coefficients15 
+Histogram of JPEG Coefficients24(3): class Histogram of JPEG Coefficients8 
+Histogram of JPEG Coefficients25(3): class Histogram of JPEG Coefficients0 
+Histogram of JPEG Coefficients26(2): class Histogram of JPEG Coefficients22 Histogram of JPEG Coefficients25 
+Histogram of JPEG Coefficients27(3): class Histogram of JPEG Coefficients7 Histogram of JPEG Coefficients20 
+Histogram of JPEG Coefficients28(3): class Histogram of JPEG Coefficients15 Histogram of JPEG Coefficients27 
+Histogram of JPEG Coefficients29(2): class Histogram of JPEG Coefficients21 Histogram of JPEG Coefficients28 
+Histogram of JPEG Coefficients30(3): class Histogram of JPEG Coefficients28 Histogram of JPEG Coefficients22 
+Histogram of JPEG Coefficients31(4): class Histogram of JPEG Coefficients15 Histogram of JPEG Coefficients23 
+Histogram of JPEG Coefficients32(2): class Histogram of JPEG Coefficients24 
+Histogram of JPEG Coefficients33(2): class Histogram of JPEG Coefficients25 Histogram of JPEG Coefficients3 
+Histogram of JPEG Coefficients34(2): class Histogram of JPEG Coefficients14 Histogram of JPEG Coefficients30 
+Histogram of JPEG Coefficients35(3): class Histogram of JPEG Coefficients27 Histogram of JPEG Coefficients23 
+Histogram of JPEG Coefficients36(2): class Histogram of JPEG Coefficients23 Histogram of JPEG Coefficients22 
+Histogram of JPEG Coefficients37(4): class Histogram of JPEG Coefficients30 Histogram of JPEG Coefficients15 
+Histogram of JPEG Coefficients38(4): class Histogram of JPEG Coefficients15 Histogram of JPEG Coefficients30 
+Histogram of JPEG Coefficients39(4): class Histogram of JPEG Coefficients23 Histogram of JPEG Coefficients22 
+Histogram of JPEG Coefficients40(2): class Histogram of JPEG Coefficients15 Histogram of JPEG Coefficients24 
+Histogram of JPEG Coefficients41(2): class Histogram of JPEG Coefficients28 Histogram of JPEG Coefficients33 
+Histogram of JPEG Coefficients42(4): class Histogram of JPEG Coefficients30 Histogram of JPEG Coefficients7 
+Histogram of JPEG Coefficients43(3): class Histogram of JPEG Coefficients31 Histogram of JPEG Coefficients29 
+Histogram of JPEG Coefficients44(4): class Histogram of JPEG Coefficients31 Histogram of JPEG Coefficients37 
+Histogram of JPEG Coefficients45(4): class Histogram of JPEG Coefficients39 Histogram of JPEG Coefficients11 
+Histogram of JPEG Coefficients46(4): class Histogram of JPEG Coefficients44 Histogram of JPEG Coefficients23 
+Histogram of JPEG Coefficients47(5): class Histogram of JPEG Coefficients31 
+Histogram of JPEG Coefficients48(2): class Histogram of JPEG Coefficients15 Histogram of JPEG Coefficients16 
+Histogram of JPEG Coefficients49(2): class Histogram of JPEG Coefficients4 Histogram of JPEG Coefficients31 
+Histogram of JPEG Coefficients50(2): class Histogram of JPEG Coefficients49 Histogram of JPEG Coefficients38 
+Histogram of JPEG Coefficients51(2): class Histogram of JPEG Coefficients15 Histogram of JPEG Coefficients31 
+Histogram of JPEG Coefficients52(2): class Histogram of JPEG Coefficients39 Histogram of JPEG Coefficients49 
+Histogram of JPEG Coefficients53(3): class Histogram of JPEG Coefficients46 Histogram of JPEG Coefficients23 
+Histogram of JPEG Coefficients54(3): class Histogram of JPEG Coefficients31 Histogram of JPEG Coefficients38 
+Histogram of JPEG Coefficients55(4): class Histogram of JPEG Coefficients47 Histogram of JPEG Coefficients36 
+Histogram of JPEG Coefficients56(4): class Histogram of JPEG Coefficients7 Histogram of JPEG Coefficients40 
+Histogram of JPEG Coefficients57(2): class Histogram of JPEG Coefficients31 Histogram of JPEG Coefficients51 
+Histogram of JPEG Coefficients58(3): class Histogram of JPEG Coefficients47 Histogram of JPEG Coefficients50 
+Histogram of JPEG Coefficients59(3): class Histogram of JPEG Coefficients47 Histogram of JPEG Coefficients50 
+Histogram of JPEG Coefficients60(3): class Histogram of JPEG Coefficients55 Histogram of JPEG Coefficients58 
+Histogram of JPEG Coefficients61(5): class Histogram of JPEG Coefficients58 Histogram of JPEG Coefficients54 
+Histogram of JPEG Coefficients62(4): class Histogram of JPEG Coefficients55 Histogram of JPEG Coefficients50 
+Histogram of JPEG Coefficients63(5): class Histogram of JPEG Coefficients47 Histogram of JPEG Coefficients50 
+Histogram of JPEG Coefficients64(5): class Histogram of JPEG Coefficients0 Histogram of JPEG Coefficients56 
+Histogram of JPEG Coefficients65(3): class Histogram of JPEG Coefficients3 Histogram of JPEG Coefficients10 
+Histogram of JPEG Coefficients66(4): class Histogram of JPEG Coefficients64 
+Histogram of JPEG Coefficients67(4): class Histogram of JPEG Coefficients64 
+Histogram of JPEG Coefficients68(5): class Histogram of JPEG Coefficients64 Histogram of JPEG Coefficients67 
+Histogram of JPEG Coefficients69(4): class Histogram of JPEG Coefficients68 
+Histogram of JPEG Coefficients70(4): class Histogram of JPEG Coefficients69 Histogram of JPEG Coefficients32 
+Histogram of JPEG Coefficients71(2): class Histogram of JPEG Coefficients70 
+Histogram of JPEG Coefficients72(4): class Histogram of JPEG Coefficients6 Histogram of JPEG Coefficients65 
+Histogram of JPEG Coefficients73(6): class Histogram of JPEG Coefficients72 Histogram of JPEG Coefficients65 
+Histogram of JPEG Coefficients74(4): class Histogram of JPEG Coefficients64 Histogram of JPEG Coefficients71 
+Histogram of JPEG Coefficients75(2): class Histogram of JPEG Coefficients69 Histogram of JPEG Coefficients0 
+Histogram of JPEG Coefficients76(3): class Histogram of JPEG Coefficients69 Histogram of JPEG Coefficients71 
+Histogram of JPEG Coefficients77(3): class Histogram of JPEG Coefficients76 
+Histogram of JPEG Coefficients78(2): class Histogram of JPEG Coefficients76 Histogram of JPEG Coefficients77 
+Histogram of JPEG Coefficients79(4): class Histogram of JPEG Coefficients77 Histogram of JPEG Coefficients78 
+Histogram of JPEG Coefficients80(4): class Histogram of JPEG Coefficients72 
+Histogram of JPEG Coefficients81(3): class Histogram of JPEG Coefficients74 
+Histogram of JPEG Coefficients82(3): class Histogram of JPEG Coefficients81 
+Histogram of JPEG Coefficients83(2): class Histogram of JPEG Coefficients70 Histogram of JPEG Coefficients82 
+Histogram of JPEG Coefficients84(5): class Histogram of JPEG Coefficients69 
+Histogram of JPEG Coefficients85(3): class Histogram of JPEG Coefficients76 Histogram of JPEG Coefficients78 
+Histogram of JPEG Coefficients86(2): class Histogram of JPEG Coefficients70 Histogram of JPEG Coefficients82 
+Histogram of JPEG Coefficients87(3): class Histogram of JPEG Coefficients79 Histogram of JPEG Coefficients71 
+Histogram of JPEG Coefficients88(3): class Histogram of JPEG Coefficients67 Histogram of JPEG Coefficients49 
+Histogram of JPEG Coefficients89(2): class Histogram of JPEG Coefficients83 Histogram of JPEG Coefficients49 
+Histogram of JPEG Coefficients90(2): class Histogram of JPEG Coefficients83 Histogram of JPEG Coefficients59 
+Histogram of JPEG Coefficients91(2): class Histogram of JPEG Coefficients85 Histogram of JPEG Coefficients70 
+Histogram of JPEG Coefficients92(2): class Histogram of JPEG Coefficients84 Histogram of JPEG Coefficients74 
+Histogram of JPEG Coefficients93(3): class Histogram of JPEG Coefficients85 Histogram of JPEG Coefficients25 
+Histogram of JPEG Coefficients94(4): class Histogram of JPEG Coefficients25 Histogram of JPEG Coefficients78 
+Histogram of JPEG Coefficients95(2): class Histogram of JPEG Coefficients87 Histogram of JPEG Coefficients85 
+Histogram of JPEG Coefficients96(2): class Histogram of JPEG Coefficients68 Histogram of JPEG Coefficients75 
+Histogram of JPEG Coefficients97(3): class Histogram of JPEG Coefficients64 Histogram of JPEG Coefficients89 
+Histogram of JPEG Coefficients98(1): class 
+Histogram of JPEG Coefficients99(2): class Histogram of JPEG Coefficients58 Histogram of JPEG Coefficients90 
+Histogram of JPEG Coefficients100(3): class Histogram of JPEG Coefficients94 Histogram of JPEG Coefficients86 
+Histogram of JPEG Coefficients101(3): class Histogram of JPEG Coefficients100 Histogram of JPEG Coefficients86 
+Histogram of JPEG Coefficients102(2): class Histogram of JPEG Coefficients95 Histogram of JPEG Coefficients78 
+Histogram of JPEG Coefficients103(2): class Histogram of JPEG Coefficients87 Histogram of JPEG Coefficients66 
+Histogram of JPEG Coefficients104(3): class Histogram of JPEG Coefficients76 Histogram of JPEG Coefficients48 
+Histogram of JPEG Coefficients105(3): class Histogram of JPEG Coefficients97 Histogram of JPEG Coefficients95 
+Histogram of JPEG Coefficients106(2): class Histogram of JPEG Coefficients55 Histogram of JPEG Coefficients99 
+Histogram of JPEG Coefficients107(2): class Histogram of JPEG Coefficients103 Histogram of JPEG Coefficients91 
+Histogram of JPEG Coefficients108(1): class 
+Histogram of JPEG Coefficients109(4): class Histogram of JPEG Coefficients100 
+Histogram of JPEG Coefficients110(3): class Histogram of JPEG Coefficients100 Histogram of JPEG Coefficients103 
+Histogram of JPEG Coefficients111(2): class Histogram of JPEG Coefficients87 Histogram of JPEG Coefficients109 
+Histogram of JPEG Coefficients112(4): class Histogram of JPEG Coefficients68 Histogram of JPEG Coefficients104 
+Histogram of JPEG Coefficients113(2): class Histogram of JPEG Coefficients55 Histogram of JPEG Coefficients86 
+Histogram of JPEG Coefficients114(1): class 
+Histogram of JPEG Coefficients115(1): class 
+Histogram of JPEG Coefficients116(3): class Histogram of JPEG Coefficients109 Histogram of JPEG Coefficients106 
+Histogram of JPEG Coefficients117(6): class Histogram of JPEG Coefficients101 Histogram of JPEG Coefficients116 
+Histogram of JPEG Coefficients118(4): class Histogram of JPEG Coefficients117 Histogram of JPEG Coefficients109 
+Histogram of JPEG Coefficients119(3): class Histogram of JPEG Coefficients111 Histogram of JPEG Coefficients69 
+Histogram of JPEG Coefficients120(3): class Histogram of JPEG Coefficients112 Histogram of JPEG Coefficients71 
+Histogram of JPEG Coefficients121(2): class Histogram of JPEG Coefficients113 Histogram of JPEG Coefficients86 
+Histogram of JPEG Coefficients122(3): class Histogram of JPEG Coefficients110 Histogram of JPEG Coefficients95 
+Histogram of JPEG Coefficients123(2): class Histogram of JPEG Coefficients95 Histogram of JPEG Coefficients111 
+Histogram of JPEG Coefficients124(2): class Histogram of JPEG Coefficients111 Histogram of JPEG Coefficients119 
+Histogram of JPEG Coefficients125(4): class Histogram of JPEG Coefficients110 Histogram of JPEG Coefficients118 
+Histogram of JPEG Coefficients126(4): class Histogram of JPEG Coefficients118 Histogram of JPEG Coefficients116 
+Histogram of JPEG Coefficients127(3): class Histogram of JPEG Coefficients118 Histogram of JPEG Coefficients119 
+Histogram of JPEG Coefficients128(2): class Histogram of JPEG Coefficients0 
+Histogram of JPEG Coefficients129(3): class Histogram of JPEG Coefficients65 Histogram of JPEG Coefficients78 
+Histogram of JPEG Coefficients130(3): class Histogram of JPEG Coefficients66 Histogram of JPEG Coefficients81 
+Histogram of JPEG Coefficients131(4): class Histogram of JPEG Coefficients64 Histogram of JPEG Coefficients128 
+Histogram of JPEG Coefficients132(4): class Histogram of JPEG Coefficients68 Histogram of JPEG Coefficients128 
+Histogram of JPEG Coefficients133(3): class Histogram of JPEG Coefficients69 Histogram of JPEG Coefficients132 
+Histogram of JPEG Coefficients134(4): class Histogram of JPEG Coefficients133 Histogram of JPEG Coefficients132 
+Histogram of JPEG Coefficients135(4): class Histogram of JPEG Coefficients134 Histogram of JPEG Coefficients83 
+Histogram of JPEG Coefficients136(4): class Histogram of JPEG Coefficients72 Histogram of JPEG Coefficients121 
+Histogram of JPEG Coefficients137(3): class Histogram of JPEG Coefficients73 Histogram of JPEG Coefficients50 
+Histogram of JPEG Coefficients138(3): class Histogram of JPEG Coefficients137 Histogram of JPEG Coefficients116 
+Histogram of JPEG Coefficients139(3): class Histogram of JPEG Coefficients91 Histogram of JPEG Coefficients96 
+Histogram of JPEG Coefficients140(3): class Histogram of JPEG Coefficients135 Histogram of JPEG Coefficients58 
+Histogram of JPEG Coefficients141(4): class Histogram of JPEG Coefficients140 Histogram of JPEG Coefficients83 
+Histogram of JPEG Coefficients142(2): class Histogram of JPEG Coefficients141 Histogram of JPEG Coefficients2 
+Histogram of JPEG Coefficients143(4): class Histogram of JPEG Coefficients135 Histogram of JPEG Coefficients109 
+Histogram of JPEG Coefficients144(5): class Histogram of JPEG Coefficients80 Histogram of JPEG Coefficients137 
+Histogram of JPEG Coefficients145(3): class Histogram of JPEG Coefficients138 
+Histogram of JPEG Coefficients146(3): class Histogram of JPEG Coefficients82 Histogram of JPEG Coefficients81 
+Histogram of JPEG Coefficients147(2): class Histogram of JPEG Coefficients135 Histogram of JPEG Coefficients89 
+Histogram of JPEG Coefficients148(3): class Histogram of JPEG Coefficients69 Histogram of JPEG Coefficients140 
+Histogram of JPEG Coefficients149(3): class Histogram of JPEG Coefficients135 Histogram of JPEG Coefficients141 
+Histogram of JPEG Coefficients150(2): class Histogram of JPEG Coefficients135 Histogram of JPEG Coefficients71 
+Histogram of JPEG Coefficients151(2): class Histogram of JPEG Coefficients149 Histogram of JPEG Coefficients150 
+Histogram of JPEG Coefficients152(2): class Histogram of JPEG Coefficients0 
+Histogram of JPEG Coefficients153(4): class Histogram of JPEG Coefficients89 Histogram of JPEG Coefficients69 
+Histogram of JPEG Coefficients154(2): class Histogram of JPEG Coefficients147 Histogram of JPEG Coefficients90 
+Histogram of JPEG Coefficients155(3): class Histogram of JPEG Coefficients141 Histogram of JPEG Coefficients91 
+Histogram of JPEG Coefficients156(2): class Histogram of JPEG Coefficients148 
+Histogram of JPEG Coefficients157(4): class Histogram of JPEG Coefficients143 Histogram of JPEG Coefficients142 
+Histogram of JPEG Coefficients158(2): class Histogram of JPEG Coefficients150 Histogram of JPEG Coefficients50 
+Histogram of JPEG Coefficients159(2): class Histogram of JPEG Coefficients158 Histogram of JPEG Coefficients150 
+Histogram of JPEG Coefficients160(4): class Histogram of JPEG Coefficients153 Histogram of JPEG Coefficients106 
+Histogram of JPEG Coefficients161(3): class Histogram of JPEG Coefficients153 Histogram of JPEG Coefficients147 
+Histogram of JPEG Coefficients162(2): class Histogram of JPEG Coefficients135 Histogram of JPEG Coefficients7 
+Histogram of JPEG Coefficients163(2): class Histogram of JPEG Coefficients159 Histogram of JPEG Coefficients162 
+Histogram of JPEG Coefficients164(2): class Histogram of JPEG Coefficients149 Histogram of JPEG Coefficients162 
+Histogram of JPEG Coefficients165(2): class Histogram of JPEG Coefficients150 Histogram of JPEG Coefficients135 
+Histogram of JPEG Coefficients166(2): class Histogram of JPEG Coefficients159 Histogram of JPEG Coefficients78 
+Histogram of JPEG Coefficients167(2): class Histogram of JPEG Coefficients151 Histogram of JPEG Coefficients91 
+Histogram of JPEG Coefficients168(3): class Histogram of JPEG Coefficients104 Histogram of JPEG Coefficients133 
+Histogram of JPEG Coefficients169(4): class Histogram of JPEG Coefficients161 Histogram of JPEG Coefficients49 
+Histogram of JPEG Coefficients170(2): class Histogram of JPEG Coefficients57 Histogram of JPEG Coefficients150 
+Histogram of JPEG Coefficients171(2): class Histogram of JPEG Coefficients149 Histogram of JPEG Coefficients96 
+Histogram of JPEG Coefficients172(2): class Histogram of JPEG Coefficients166 Histogram of JPEG Coefficients170 
+Histogram of JPEG Coefficients173(2): class Histogram of JPEG Coefficients100 Histogram of JPEG Coefficients152 
+Histogram of JPEG Coefficients174(2): class Histogram of JPEG Coefficients157 
+Histogram of JPEG Coefficients175(2): class Histogram of JPEG Coefficients159 Histogram of JPEG Coefficients150 
+Histogram of JPEG Coefficients176(5): class Histogram of JPEG Coefficients168 Histogram of JPEG Coefficients50 
+Histogram of JPEG Coefficients177(3): class Histogram of JPEG Coefficients135 Histogram of JPEG Coefficients161 
+Histogram of JPEG Coefficients178(3): class Histogram of JPEG Coefficients176 Histogram of JPEG Coefficients167 
+Histogram of JPEG Coefficients179(2): class Histogram of JPEG Coefficients170 Histogram of JPEG Coefficients113 
+Histogram of JPEG Coefficients180(1): class 
+Histogram of JPEG Coefficients181(3): class Histogram of JPEG Coefficients140 Histogram of JPEG Coefficients152 
+Histogram of JPEG Coefficients182(2): class Histogram of JPEG Coefficients143 Histogram of JPEG Coefficients174 
+Histogram of JPEG Coefficients183(2): class Histogram of JPEG Coefficients143 Histogram of JPEG Coefficients136 
+Histogram of JPEG Coefficients184(3): class Histogram of JPEG Coefficients176 
+Histogram of JPEG Coefficients185(4): class Histogram of JPEG Coefficients183 Histogram of JPEG Coefficients150 
+Histogram of JPEG Coefficients186(3): class Histogram of JPEG Coefficients185 Histogram of JPEG Coefficients172 
+Histogram of JPEG Coefficients187(3): class Histogram of JPEG Coefficients183 Histogram of JPEG Coefficients175 
+Histogram of JPEG Coefficients188(2): class Histogram of JPEG Coefficients181 Histogram of JPEG Coefficients183 
+Histogram of JPEG Coefficients189(2): class Histogram of JPEG Coefficients187 Histogram of JPEG Coefficients64 
+Histogram of JPEG Coefficients190(2): class Histogram of JPEG Coefficients188 Histogram of JPEG Coefficients167 
+Histogram of JPEG Coefficients191(2): class Histogram of JPEG Coefficients187 Histogram of JPEG Coefficients181 
+class(8): 
+LogScore Bayes: -45671.60972907385
+LogScore BDeu: -179377.50729826625
+LogScore MDL: -138546.67671635252
+LogScore ENTROPY: -61574.02539700381
+LogScore AIC: -87101.02539700465
+
+
+Time taken to build model: 0.82 seconds
+
+Time taken to test model on training data: 0.07 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         413               99.2788 %
+Incorrectly Classified Instances         3                0.7212 %
+Kappa statistic                          0.9908
+Mean absolute error                      0.0016
+Root mean squared error                  0.0368
+Relative absolute error                  0.8012 %
+Root relative squared error             11.7763 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.977    0.003    0.977      0.977    0.977      0.974    1.000     0.996     K1
+                 0.993    0.004    0.993      0.993    0.993      0.990    1.000     1.000     K2
+                 1.000    0.003    0.987      1.000    0.993      0.992    1.000     0.999     K3
+                 0.984    0.000    1.000      0.984    0.992      0.990    1.000     0.999     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.993    0.002    0.993      0.993    0.993      0.991    1.000     0.999     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  42   1   0   0   0   0   0   0 |   a = K1
+   1 147   0   0   0   0   0   0 |   b = K2
+   0   0  76   0   0   0   0   0 |   c = K3
+   0   0   1  60   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 4.08 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         330               79.3269 %
+Incorrectly Classified Instances        86               20.6731 %
+Kappa statistic                          0.7328
+Mean absolute error                      0.0506
+Root mean squared error                  0.2129
+Relative absolute error                 25.8745 %
+Root relative squared error             68.1391 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.442    0.032    0.613      0.442    0.514      0.475    0.924     0.562     K1
+                 0.919    0.090    0.850      0.919    0.883      0.816    0.972     0.942     K2
+                 0.658    0.065    0.694      0.658    0.676      0.606    0.948     0.732     K3
+                 0.623    0.076    0.585      0.623    0.603      0.533    0.932     0.698     K4
+                 1.000    0.003    0.985      1.000    0.992      0.991    1.000     0.999     K5
+                 0.958    0.000    1.000      0.958    0.979      0.978    1.000     0.998     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.793    0.059    0.788      0.793    0.788      0.737    0.963     0.840     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  19  23   0   1   0   0   0   0 |   a = K1
+  12 136   0   0   0   0   0   0 |   b = K2
+   0   0  50  26   0   0   0   0 |   c = K3
+   0   0  22  38   1   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   1   0   0   0  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

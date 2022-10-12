@@ -1,0 +1,209 @@
+
+Options: -C 0.25 -M 2 
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Fuzzy Opponent Histogram10 <= 0
+|   Fuzzy Opponent Histogram7 <= 51
+|   |   Fuzzy Opponent Histogram13 <= 50
+|   |   |   Fuzzy Opponent Histogram25 <= 12
+|   |   |   |   Fuzzy Opponent Histogram1 <= 0
+|   |   |   |   |   Fuzzy Opponent Histogram13 <= 0
+|   |   |   |   |   |   Fuzzy Opponent Histogram19 <= 12
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram21 <= 0
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 <= 44
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram18 <= 2
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram17 <= 62
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 <= 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram34 <= 82: K3 (11.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram34 > 82: K4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 > 13: K4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 > 1: K4 (2.0)
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram17 > 62: K1 (2.0/1.0)
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram18 > 2: K2 (2.0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 > 44: K2 (11.0/2.0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram21 > 0: K4 (2.0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram19 > 12: K5 (2.0)
+|   |   |   |   |   Fuzzy Opponent Histogram13 > 0
+|   |   |   |   |   |   Fuzzy Opponent Histogram26 <= 7
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram23 <= 7
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram32 <= 109
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 <= 16
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 <= 7
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram31 <= 28
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram31 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 <= 1: K2 (10.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 > 1: K1 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 > 1: K1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram31 > 2: K2 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 <= 66: K1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 > 66: K2 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 <= 0: K2 (14.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram4 <= 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 <= 6: K1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 > 6: K2 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram4 > 17: K2 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram17 <= 68: K2 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram17 > 68: K1 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram31 > 28: K2 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 > 3: K2 (8.0)
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 > 7
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 <= 15: K2 (45.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 > 15: K1 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 > 16
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 <= 12: K5 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 > 12: K2 (13.0/1.0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram32 > 109: K1 (6.0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram23 > 7
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 <= 9: K5 (5.0/1.0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 > 9: K1 (3.0/1.0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram26 > 7
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram18 <= 0
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 <= 11
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 <= 3: K1 (3.0)
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 > 3: K3 (10.0/1.0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 > 11: K2 (2.0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram18 > 0: K2 (10.0)
+|   |   |   |   Fuzzy Opponent Histogram1 > 0: K6 (3.0)
+|   |   |   Fuzzy Opponent Histogram25 > 12
+|   |   |   |   Fuzzy Opponent Histogram14 <= 31
+|   |   |   |   |   Fuzzy Opponent Histogram22 <= 8: K2 (2.0)
+|   |   |   |   |   Fuzzy Opponent Histogram22 > 8
+|   |   |   |   |   |   Fuzzy Opponent Histogram34 <= 31: K3 (19.0/5.0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram34 > 31: K4 (4.0)
+|   |   |   |   Fuzzy Opponent Histogram14 > 31: K5 (2.0)
+|   |   Fuzzy Opponent Histogram13 > 50: K6 (10.0)
+|   Fuzzy Opponent Histogram7 > 51
+|   |   Fuzzy Opponent Histogram5 <= 50
+|   |   |   Fuzzy Opponent Histogram13 <= 13: K2 (6.0/1.0)
+|   |   |   Fuzzy Opponent Histogram13 > 13: K1 (2.0)
+|   |   Fuzzy Opponent Histogram5 > 50
+|   |   |   Fuzzy Opponent Histogram4 <= 30: K5 (2.0)
+|   |   |   Fuzzy Opponent Histogram4 > 30
+|   |   |   |   Fuzzy Opponent Histogram21 <= 1
+|   |   |   |   |   Fuzzy Opponent Histogram35 <= 1
+|   |   |   |   |   |   Fuzzy Opponent Histogram5 <= 92
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram22 <= 0
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 <= 1: K4 (2.0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 > 1: K2 (3.0/1.0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram22 > 0: K3 (3.0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram5 > 92: K4 (12.0/1.0)
+|   |   |   |   |   Fuzzy Opponent Histogram35 > 1
+|   |   |   |   |   |   Fuzzy Opponent Histogram29 <= 23
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram34 <= 18
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 <= 60
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 <= 90: K3 (38.0/4.0)
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 > 90: K4 (2.0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 > 60: K4 (3.0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram34 > 18
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram18 <= 15: K4 (12.0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram18 > 15: K3 (4.0/1.0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram29 > 23: K4 (2.0)
+|   |   |   |   Fuzzy Opponent Histogram21 > 1: K4 (4.0/1.0)
+Fuzzy Opponent Histogram10 > 0
+|   Fuzzy Opponent Histogram4 <= 12: K5 (46.0)
+|   Fuzzy Opponent Histogram4 > 12
+|   |   Fuzzy Opponent Histogram32 <= 12: K6 (11.0)
+|   |   Fuzzy Opponent Histogram32 > 12: K5 (2.0)
+
+Number of Leaves  : 	57
+
+Size of the tree : 	113
+
+
+Time taken to build model: 0.38 seconds
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         383               92.0673 %
+Incorrectly Classified Instances        33                7.9327 %
+Kappa statistic                          0.8979
+Mean absolute error                      0.0315
+Root mean squared error                  0.1255
+Relative absolute error                 16.0883 %
+Root relative squared error             40.155  %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.814    0.011    0.897      0.814    0.854      0.839    0.988     0.919     K1
+                 0.959    0.041    0.928      0.959    0.944      0.912    0.991     0.978     K2
+                 0.934    0.041    0.835      0.934    0.882      0.856    0.981     0.879     K3
+                 0.770    0.006    0.959      0.770    0.855      0.839    0.980     0.907     K4
+                 1.000    0.006    0.970      1.000    0.985      0.982    1.000     0.997     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.921    0.025    0.923      0.921    0.920      0.899    0.989     0.948     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  35   7   1   0   0   0   0   0 |   a = K1
+   4 142   0   1   1   0   0   0 |   b = K2
+   0   3  71   1   1   0   0   0 |   c = K3
+   0   1  13  47   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.72 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         263               63.2212 %
+Incorrectly Classified Instances       153               36.7788 %
+Kappa statistic                          0.5293
+Mean absolute error                      0.0968
+Root mean squared error                  0.2813
+Relative absolute error                 49.4641 %
+Root relative squared error             90.0247 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.256    0.075    0.282      0.256    0.268      0.189    0.725     0.222     K1
+                 0.689    0.160    0.703      0.689    0.696      0.531    0.805     0.636     K2
+                 0.618    0.121    0.534      0.618    0.573      0.471    0.770     0.431     K3
+                 0.508    0.073    0.544      0.508    0.525      0.447    0.746     0.420     K4
+                 0.797    0.028    0.836      0.797    0.816      0.784    0.955     0.841     K5
+                 0.875    0.013    0.808      0.875    0.840      0.831    0.975     0.878     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.632    0.103    0.632      0.632    0.631      0.529    0.815     0.569     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  11  27   2   0   3   0   0   0 |   a = K1
+  25 102  10   6   4   1   0   0 |   b = K2
+   1  10  47  16   2   0   0   0 |   c = K3
+   2   3  25  31   0   0   0   0 |   d = K4
+   0   3   4   2  51   4   0   0 |   e = K5
+   0   0   0   2   1  21   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

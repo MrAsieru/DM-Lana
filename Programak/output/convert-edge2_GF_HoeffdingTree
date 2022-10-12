@@ -1,0 +1,90 @@
+
+Options: -L 2 -S 1 -E 1.0E-7 -H 0.05 -M 0.01 -G 200.0 -N 0.0 
+
+=== Classifier model (full training set) ===
+
+K2 (149.000) NB1 NB adaptive1
+
+Time taken to build model: 0.24 seconds
+
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         189               45.4327 %
+Incorrectly Classified Instances       227               54.5673 %
+Kappa statistic                          0.3455
+Mean absolute error                      0.1373
+Root mean squared error                  0.3682
+Relative absolute error                 70.1721 %
+Root relative squared error            117.8359 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.628    0.209    0.257      0.628    0.365      0.294    0.782     0.213     K1
+                 0.622    0.049    0.876      0.622    0.727      0.632    0.931     0.850     K2
+                 0.342    0.056    0.578      0.342    0.430      0.356    0.761     0.440     K3
+                 0.000    0.000    ?          0.000    ?          ?        0.731     0.276     K4
+                 0.359    0.037    0.639      0.359    0.460      0.414    0.902     0.561     K5
+                 0.875    0.265    0.168      0.875    0.282      0.310    0.786     0.123     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.454    0.070    ?          0.454    ?          ?        0.842     0.539     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h   <-- classified as
+ 27 13  0  0  0  3  0  0 |  a = K1
+ 50 92  0  0  0  6  0  0 |  b = K2
+ 13  0 26  0  5 32  0  0 |  c = K3
+ 10  0 15  0  8 28  0  0 |  d = K4
+  2  0  4  0 23 35  0  0 |  e = K5
+  3  0  0  0  0 21  0  0 |  f = K6
+  0  0  0  0  0  0  0  0 |  g = K7
+  0  0  0  0  0  0  0  0 |  h = K8
+
+Time taken to perform cross-validation: 0.25 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         180               43.2692 %
+Incorrectly Classified Instances       236               56.7308 %
+Kappa statistic                          0.3215
+Mean absolute error                      0.1417
+Root mean squared error                  0.374 
+Relative absolute error                 72.3791 %
+Root relative squared error            119.6812 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.628    0.231    0.239      0.628    0.346      0.272    0.771     0.204     K1
+                 0.588    0.049    0.870      0.588    0.702      0.604    0.925     0.841     K2
+                 0.342    0.056    0.578      0.342    0.430      0.356    0.752     0.388     K3
+                 0.000    0.000    ?          0.000    ?          ?        0.700     0.230     K4
+                 0.344    0.043    0.595      0.344    0.436      0.382    0.881     0.541     K5
+                 0.750    0.263    0.149      0.750    0.248      0.250    0.769     0.112     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.433    0.073    ?          0.433    ?          ?        0.829     0.514     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h   <-- classified as
+ 27 13  0  0  0  3  0  0 |  a = K1
+ 55 87  0  0  0  6  0  0 |  b = K2
+ 13  0 26  0  5 32  0  0 |  c = K3
+ 11  0 14  0  9 27  0  0 |  d = K4
+  2  0  5  0 22 35  0  0 |  e = K5
+  5  0  0  0  1 18  0  0 |  f = K6
+  0  0  0  0  0  0  0  0 |  g = K7
+  0  0  0  0  0  0  0  0 |  h = K8
+

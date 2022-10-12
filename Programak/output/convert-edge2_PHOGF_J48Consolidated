@@ -1,0 +1,136 @@
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+
+Options: -C 0.25 -M 2 -Q 1 -RM-C -RM-N 99.0 -RM-B -2 -RM-D 50.0 
+
+=== Classifier model (full training set) ===
+
+J48Consolidated pruned tree
+[RM] N_S=f(99% of coverage)=27 %Min=balanced Size=maxSize (without replacement)
+True coverage achieved: 0.9969972147776555
+---------------------------------------------------------------------------------------------------------------------------
+
+PHOG248 <= 8
+|   PHOG458 <= 0
+|   |   PHOG353 <= 3
+|   |   |   PHOG307 <= 3: K2 (22.33/0.74)
+|   |   |   PHOG307 > 3: K1 (0.78/0.33)
+|   |   PHOG353 > 3: K3 (1.63/0.56)
+|   PHOG458 > 0
+|   |   PHOG126 <= 0: K3 (2.85/1.19)
+|   |   PHOG126 > 0
+|   |   |   PHOG351 <= 5
+|   |   |   |   PHOG374 <= 8
+|   |   |   |   |   PHOG355 <= 0: K6 (2.48/0.48)
+|   |   |   |   |   PHOG355 > 0: K1 (21.07/1.04)
+|   |   |   |   PHOG374 > 8
+|   |   |   |   |   PHOG122 <= 6: K6 (22.15/0.15)
+|   |   |   |   |   PHOG122 > 6: K1 (1.37/0.41)
+|   |   |   PHOG351 > 5: K5 (16.85/1.48)
+PHOG248 > 8
+|   PHOG160 <= 2
+|   |   PHOG456 <= 9
+|   |   |   PHOG344 <= 5
+|   |   |   |   PHOG341 <= 3: K3 (19.78/0.85)
+|   |   |   |   PHOG341 > 3: K4 (2.89/0.63)
+|   |   |   PHOG344 > 5: K4 (22.56/2.07)
+|   |   PHOG456 > 9: K5 (2.0)
+|   PHOG160 > 2: K5 (5.26/0.67)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+Time taken to build model: 1.13 seconds
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         380               91.3462 %
+Incorrectly Classified Instances        36                8.6538 %
+Kappa statistic                          0.8902
+Mean absolute error                      0.0335
+Root mean squared error                  0.1337
+Relative absolute error                 17.1186 %
+Root relative squared error             42.8014 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.907    0.019    0.848      0.907    0.876      0.862    0.988     0.866     K1
+                 0.905    0.007    0.985      0.905    0.944      0.916    0.985     0.970     K2
+                 0.895    0.029    0.872      0.895    0.883      0.857    0.984     0.901     K3
+                 0.934    0.025    0.864      0.934    0.898      0.880    0.973     0.848     K4
+                 0.906    0.011    0.935      0.906    0.921      0.907    0.976     0.895     K5
+                 1.000    0.010    0.857      1.000    0.923      0.921    0.998     0.948     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.913    0.016    0.917      0.913    0.914      0.893    0.983     0.916     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  39   0   1   0   3   0   0   0 |   a = K1
+   4 134   5   0   1   4   0   0 |   b = K2
+   1   0  68   7   0   0   0   0 |   c = K3
+   0   2   2  57   0   0   0   0 |   d = K4
+   2   0   2   2  58   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 6.6 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         334               80.2885 %
+Incorrectly Classified Instances        82               19.7115 %
+Kappa statistic                          0.7484
+Mean absolute error                      0.0595
+Root mean squared error                  0.2076
+Relative absolute error                 30.3807 %
+Root relative squared error             66.4318 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.605    0.046    0.605      0.605    0.605      0.559    0.805     0.433     K1
+                 0.905    0.045    0.918      0.905    0.912      0.863    0.954     0.919     K2
+                 0.763    0.053    0.763      0.763    0.763      0.710    0.928     0.808     K3
+                 0.705    0.034    0.782      0.705    0.741      0.701    0.885     0.754     K4
+                 0.813    0.037    0.800      0.813    0.806      0.771    0.970     0.814     K5
+                 0.875    0.026    0.677      0.875    0.764      0.754    0.928     0.654     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.803    0.042    0.805      0.803    0.803      0.760    0.925     0.793     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  26   4   2   3   5   3   0   0 |   a = K1
+   4 134   3   1   0   6   0   0 |   b = K2
+   0   6  58   8   3   1   0   0 |   c = K3
+   2   2   9  43   5   0   0   0 |   d = K4
+   8   0   4   0  52   0   0   0 |   e = K5
+   3   0   0   0   0  21   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

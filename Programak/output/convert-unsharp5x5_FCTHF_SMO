@@ -1,0 +1,1800 @@
+
+Options: -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4" 
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: K1, K2
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2108 * (normalized) FCTH0
+ +       0.2274 * (normalized) FCTH1
+ +      -0.1232 * (normalized) FCTH2
+ +      -0.1218 * (normalized) FCTH3
+ +      -0.1647 * (normalized) FCTH4
+ +       0.0031 * (normalized) FCTH5
+ +      -0.1116 * (normalized) FCTH6
+ +       0.0206 * (normalized) FCTH7
+ +      -0.182  * (normalized) FCTH8
+ +       0.0859 * (normalized) FCTH9
+ +       0.043  * (normalized) FCTH10
+ +      -0.3486 * (normalized) FCTH11
+ +      -0.2284 * (normalized) FCTH14
+ +       0.1259 * (normalized) FCTH17
+ +       0.8255 * (normalized) FCTH18
+ +      -0.4714 * (normalized) FCTH19
+ +       0.0455 * (normalized) FCTH20
+ +       0.9236 * (normalized) FCTH21
+ +      -0.2881 * (normalized) FCTH23
+ +       0.1184 * (normalized) FCTH24
+ +      -0.9031 * (normalized) FCTH25
+ +      -0.3718 * (normalized) FCTH26
+ +      -0.0626 * (normalized) FCTH27
+ +       0.4055 * (normalized) FCTH28
+ +       0.1724 * (normalized) FCTH29
+ +       0.3139 * (normalized) FCTH30
+ +       0.1582 * (normalized) FCTH31
+ +       0.1161 * (normalized) FCTH32
+ +       0.5    * (normalized) FCTH41
+ +      -0.4366 * (normalized) FCTH42
+ +       0.2301 * (normalized) FCTH43
+ +      -0.4691 * (normalized) FCTH44
+ +      -0.7383 * (normalized) FCTH45
+ +      -0.2036 * (normalized) FCTH47
+ +       0.1605 * (normalized) FCTH48
+ +      -0.6196 * (normalized) FCTH49
+ +      -0      * (normalized) FCTH50
+ +      -0.6093 * (normalized) FCTH51
+ +      -0.2214 * (normalized) FCTH52
+ +      -1.3214 * (normalized) FCTH53
+ +      -0.2    * (normalized) FCTH54
+ +       0.1582 * (normalized) FCTH55
+ +      -0.2    * (normalized) FCTH56
+ +      -0.8252 * (normalized) FCTH66
+ +      -0.5    * (normalized) FCTH68
+ +       0.519  * (normalized) FCTH69
+ +      -0.818  * (normalized) FCTH72
+ +       0.0888 * (normalized) FCTH73
+ +      -0.3333 * (normalized) FCTH74
+ +      -1.6738 * (normalized) FCTH75
+ +      -0.5    * (normalized) FCTH77
+ +       0.1667 * (normalized) FCTH78
+ +      -0      * (normalized) FCTH79
+ +       0.2    * (normalized) FCTH80
+ +      -0.25   * (normalized) FCTH90
+ +       1.3039
+
+Number of kernel evaluations: 7279 (85.697% cached)
+
+Classifier for classes: K1, K3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2283 * (normalized) FCTH0
+ +      -0.1087 * (normalized) FCTH1
+ +       0.5605 * (normalized) FCTH2
+ +      -0.2412 * (normalized) FCTH3
+ +      -0.029  * (normalized) FCTH4
+ +      -0.7227 * (normalized) FCTH5
+ +      -0.5552 * (normalized) FCTH6
+ +       0.9906 * (normalized) FCTH7
+ +      -0.3878 * (normalized) FCTH8
+ +       0.2602 * (normalized) FCTH10
+ +      -0.502  * (normalized) FCTH11
+ +      -0.211  * (normalized) FCTH14
+ +       0.9033 * (normalized) FCTH15
+ +       0.0762 * (normalized) FCTH16
+ +       0.728  * (normalized) FCTH17
+ +       0.6622 * (normalized) FCTH18
+ +       0.0718 * (normalized) FCTH19
+ +      -0.1505 * (normalized) FCTH20
+ +      -0.7166 * (normalized) FCTH21
+ +      -1.6229 * (normalized) FCTH23
+ +      -0.0539 * (normalized) FCTH24
+ +       0.4938 * (normalized) FCTH25
+ +       0.6632 * (normalized) FCTH26
+ +      -0.2351 * (normalized) FCTH27
+ +       0.0487 * (normalized) FCTH28
+ +       0.0799 * (normalized) FCTH29
+ +      -0.1878 * (normalized) FCTH30
+ +      -0.0439 * (normalized) FCTH31
+ +       0.6831 * (normalized) FCTH32
+ +       0.3073 * (normalized) FCTH39
+ +       0.7556 * (normalized) FCTH41
+ +       0.3947 * (normalized) FCTH42
+ +      -0.088  * (normalized) FCTH44
+ +       0.1317 * (normalized) FCTH45
+ +      -0.1916 * (normalized) FCTH47
+ +       0.004  * (normalized) FCTH48
+ +       0.405  * (normalized) FCTH49
+ +       0.4569 * (normalized) FCTH50
+ +      -0.589  * (normalized) FCTH51
+ +       0.1923 * (normalized) FCTH52
+ +       0.1292 * (normalized) FCTH53
+ +      -0.2    * (normalized) FCTH54
+ +      -0.2    * (normalized) FCTH55
+ +       0.4497 * (normalized) FCTH56
+ +       0.1524 * (normalized) FCTH65
+ +       0      * (normalized) FCTH66
+ +       0.0762 * (normalized) FCTH68
+ +       0.1056 * (normalized) FCTH69
+ +       0      * (normalized) FCTH71
+ +       0.444  * (normalized) FCTH72
+ +       0.5807 * (normalized) FCTH73
+ +      -0.1785 * (normalized) FCTH74
+ +       0.0142 * (normalized) FCTH75
+ +       0.5994 * (normalized) FCTH76
+ +       0.3592 * (normalized) FCTH77
+ +      -0.1667 * (normalized) FCTH78
+ +      -0.2    * (normalized) FCTH79
+ +       0.0497 * (normalized) FCTH80
+ +       0      * (normalized) FCTH90
+ +      -0      * (normalized) FCTH92
+ +       0.1056 * (normalized) FCTH93
+ +       0.0722 * (normalized) FCTH96
+ +       0.1261 * (normalized) FCTH97
+ +       0.1056 * (normalized) FCTH98
+ +       0.0387 * (normalized) FCTH99
+ +       0.0387 * (normalized) FCTH101
+ +       0.0915 * (normalized) FCTH120
+ +       0.0612 * (normalized) FCTH121
+ +       0.0528 * (normalized) FCTH122
+ +       0.0915 * (normalized) FCTH123
+ +       0.0387 * (normalized) FCTH125
+ +       0.0915 * (normalized) FCTH144
+ +       0.084  * (normalized) FCTH145
+ +       0.1056 * (normalized) FCTH146
+ +       0.0387 * (normalized) FCTH147
+ +       0.0387 * (normalized) FCTH149
+ +       0.0915 * (normalized) FCTH168
+ +       0.0625 * (normalized) FCTH169
+ +      -0      * (normalized) FCTH170
+ +       0.0915 * (normalized) FCTH171
+ +       0.0194 * (normalized) FCTH173
+ -       0.2836
+
+Number of kernel evaluations: 3066 (85.761% cached)
+
+Classifier for classes: K1, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1929 * (normalized) FCTH0
+ +       0.0973 * (normalized) FCTH1
+ +       0.4349 * (normalized) FCTH2
+ +      -0.1359 * (normalized) FCTH3
+ +      -0.0404 * (normalized) FCTH4
+ +      -1.1866 * (normalized) FCTH5
+ +      -0.5327 * (normalized) FCTH6
+ +       0.6287 * (normalized) FCTH7
+ +      -0.6164 * (normalized) FCTH8
+ +       0.0687 * (normalized) FCTH9
+ +       0.6132 * (normalized) FCTH10
+ +      -0.4222 * (normalized) FCTH11
+ +       0.2748 * (normalized) FCTH12
+ +       0.0687 * (normalized) FCTH13
+ +      -0.257  * (normalized) FCTH14
+ +       0.5344 * (normalized) FCTH15
+ +       0.0859 * (normalized) FCTH16
+ +       0.6389 * (normalized) FCTH17
+ +       0.6092 * (normalized) FCTH18
+ +      -0.0237 * (normalized) FCTH19
+ +      -0.7018 * (normalized) FCTH20
+ +      -0.6309 * (normalized) FCTH21
+ +      -1.5235 * (normalized) FCTH23
+ +       0.0545 * (normalized) FCTH24
+ +       0.1888 * (normalized) FCTH25
+ +       0.547  * (normalized) FCTH26
+ +      -0.5357 * (normalized) FCTH27
+ +       0.095  * (normalized) FCTH28
+ +      -0.3699 * (normalized) FCTH29
+ +      -0.3547 * (normalized) FCTH30
+ +      -0.0331 * (normalized) FCTH31
+ +       0.2365 * (normalized) FCTH32
+ +       0.6977 * (normalized) FCTH35
+ +       0.1061 * (normalized) FCTH36
+ +       0.1031 * (normalized) FCTH38
+ +      -0      * (normalized) FCTH39
+ +       0.0859 * (normalized) FCTH41
+ +       0.3822 * (normalized) FCTH42
+ +      -0.0426 * (normalized) FCTH44
+ +       0.2586 * (normalized) FCTH45
+ +      -0.4866 * (normalized) FCTH47
+ +       0.1011 * (normalized) FCTH48
+ +       0.6448 * (normalized) FCTH49
+ +       0.7297 * (normalized) FCTH50
+ +      -0.5033 * (normalized) FCTH51
+ +       0.0939 * (normalized) FCTH52
+ +       0.0316 * (normalized) FCTH53
+ +       0.0017 * (normalized) FCTH54
+ +       0.0943 * (normalized) FCTH55
+ +       0.072  * (normalized) FCTH56
+ +      -0      * (normalized) FCTH58
+ +       0.6666 * (normalized) FCTH59
+ +       0.1031 * (normalized) FCTH62
+ +       0      * (normalized) FCTH63
+ +       0.1718 * (normalized) FCTH65
+ +       0.1127 * (normalized) FCTH66
+ +       0.3658 * (normalized) FCTH68
+ +      -0.0713 * (normalized) FCTH69
+ +       0.4466 * (normalized) FCTH71
+ +       0.5133 * (normalized) FCTH72
+ +       0.262  * (normalized) FCTH73
+ +       0.242  * (normalized) FCTH74
+ +      -0.0033 * (normalized) FCTH75
+ +       0.2627 * (normalized) FCTH76
+ +      -0.3486 * (normalized) FCTH77
+ +       0.0038 * (normalized) FCTH78
+ +      -0.1318 * (normalized) FCTH79
+ +      -0.1659 * (normalized) FCTH80
+ +      -0.0271 * (normalized) FCTH90
+ +       0.1686 * (normalized) FCTH92
+ +       0.0593 * (normalized) FCTH95
+ +      -0      * (normalized) FCTH96
+ +       0.0297 * (normalized) FCTH97
+ +       0.0593 * (normalized) FCTH98
+ +       0.1705 * (normalized) FCTH102
+ +       0.0852 * (normalized) FCTH104
+ +       0.1284 * (normalized) FCTH120
+ +       0.0237 * (normalized) FCTH121
+ +       0.0297 * (normalized) FCTH122
+ +       0.2567 * (normalized) FCTH124
+ +       0.0593 * (normalized) FCTH125
+ +       0.1705 * (normalized) FCTH126
+ +       0.0852 * (normalized) FCTH128
+ +       0.0198 * (normalized) FCTH145
+ +       0.1705 * (normalized) FCTH150
+ +      -0      * (normalized) FCTH168
+ +       0.0254 * (normalized) FCTH169
+ +       0.0297 * (normalized) FCTH170
+ +       0.0593 * (normalized) FCTH173
+ +       0.1705 * (normalized) FCTH174
+ +       0.1705 * (normalized) FCTH175
+ +       0.1705 * (normalized) FCTH176
+ +       0.0198 * (normalized) FCTH188
+ +       0.0593 * (normalized) FCTH191
+ +       0.5115
+
+Number of kernel evaluations: 2715 (85.889% cached)
+
+Classifier for classes: K1, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2689 * (normalized) FCTH0
+ +       0.3187 * (normalized) FCTH1
+ +      -0.7024 * (normalized) FCTH2
+ +      -0.3241 * (normalized) FCTH3
+ +      -0.4334 * (normalized) FCTH4
+ +      -1.1019 * (normalized) FCTH5
+ +      -0.2175 * (normalized) FCTH6
+ +       0.0197 * (normalized) FCTH7
+ +      -0.4836 * (normalized) FCTH8
+ +      -0.1638 * (normalized) FCTH9
+ +      -0      * (normalized) FCTH10
+ +      -0.0325 * (normalized) FCTH11
+ +       0.6045 * (normalized) FCTH12
+ +      -0      * (normalized) FCTH13
+ +       0.461  * (normalized) FCTH14
+ +       0.2856 * (normalized) FCTH15
+ +       0      * (normalized) FCTH16
+ +       0.8767 * (normalized) FCTH17
+ +      -0.2339 * (normalized) FCTH18
+ +       1.0086 * (normalized) FCTH19
+ +       0.5523 * (normalized) FCTH20
+ +      -0.3436 * (normalized) FCTH21
+ +       0.2542 * (normalized) FCTH22
+ +      -0.7455 * (normalized) FCTH23
+ +       0.506  * (normalized) FCTH24
+ +       1.2429 * (normalized) FCTH25
+ +       0.7888 * (normalized) FCTH26
+ +      -0.3115 * (normalized) FCTH27
+ +      -0.1627 * (normalized) FCTH28
+ +      -0.2348 * (normalized) FCTH29
+ +      -0.1139 * (normalized) FCTH30
+ +      -0.3071 * (normalized) FCTH31
+ +       0.4027 * (normalized) FCTH32
+ +       0      * (normalized) FCTH33
+ +       0      * (normalized) FCTH35
+ +       0      * (normalized) FCTH36
+ +      -0      * (normalized) FCTH38
+ +       0.5994 * (normalized) FCTH39
+ +       0.8783 * (normalized) FCTH41
+ +       0.4893 * (normalized) FCTH42
+ +       0.2239 * (normalized) FCTH43
+ +       0.5412 * (normalized) FCTH44
+ +      -0.4367 * (normalized) FCTH45
+ +      -0.4494 * (normalized) FCTH47
+ +       0.2243 * (normalized) FCTH48
+ +       0.5779 * (normalized) FCTH49
+ +       0.6016 * (normalized) FCTH50
+ +      -0.0929 * (normalized) FCTH51
+ +       0.2138 * (normalized) FCTH52
+ +      -0.2774 * (normalized) FCTH53
+ +       0.0545 * (normalized) FCTH54
+ +      -0.0748 * (normalized) FCTH55
+ +       0.1509 * (normalized) FCTH56
+ +       0      * (normalized) FCTH62
+ +       0.1145 * (normalized) FCTH63
+ +       0.0669 * (normalized) FCTH66
+ +       0.2304 * (normalized) FCTH67
+ +       0.4935 * (normalized) FCTH68
+ +       0.1266 * (normalized) FCTH69
+ +       0.4337 * (normalized) FCTH72
+ +       0.6314 * (normalized) FCTH73
+ +      -0.2092 * (normalized) FCTH74
+ +       0.0633 * (normalized) FCTH75
+ +       0.0467 * (normalized) FCTH76
+ +       0.1865 * (normalized) FCTH77
+ +       0.1274 * (normalized) FCTH78
+ +      -0.1256 * (normalized) FCTH79
+ +      -0.023  * (normalized) FCTH80
+ +      -0.0245 * (normalized) FCTH90
+ +       0.0768 * (normalized) FCTH92
+ +       0      * (normalized) FCTH93
+ +       0.2908 * (normalized) FCTH97
+ +       0      * (normalized) FCTH98
+ +       0.0467 * (normalized) FCTH100
+ +       0.2757 * (normalized) FCTH101
+ +       0.229  * (normalized) FCTH111
+ +       0.1152 * (normalized) FCTH114
+ +       0.1621 * (normalized) FCTH121
+ +       0      * (normalized) FCTH122
+ +      -0      * (normalized) FCTH123
+ +       0.0467 * (normalized) FCTH124
+ +       0.1151 * (normalized) FCTH125
+ +       0.1271 * (normalized) FCTH126
+ +       0.0234 * (normalized) FCTH128
+ +       0.1555 * (normalized) FCTH145
+ +       0.1158 * (normalized) FCTH169
+ +      -0      * (normalized) FCTH171
+ +       0.1379 * (normalized) FCTH173
+ +       0.0078 * (normalized) FCTH176
+ -       0.0812
+
+Number of kernel evaluations: 3110 (82.03% cached)
+
+Classifier for classes: K1, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0025 * (normalized) FCTH0
+ +       0.0049 * (normalized) FCTH1
+ +      -0.0698 * (normalized) FCTH2
+ +      -0.0981 * (normalized) FCTH3
+ +      -0.1282 * (normalized) FCTH4
+ +      -0.4881 * (normalized) FCTH5
+ +      -0.1113 * (normalized) FCTH6
+ +      -0.1054 * (normalized) FCTH7
+ +      -0.1956 * (normalized) FCTH8
+ +       0.04   * (normalized) FCTH9
+ +      -0.0793 * (normalized) FCTH11
+ +       0.1704 * (normalized) FCTH12
+ +       0.1234 * (normalized) FCTH13
+ +       0.2427 * (normalized) FCTH14
+ +       0.0091 * (normalized) FCTH15
+ +       0.0834 * (normalized) FCTH17
+ +      -0.0856 * (normalized) FCTH18
+ +       0.4845 * (normalized) FCTH19
+ +      -0.0538 * (normalized) FCTH20
+ +      -0.0642 * (normalized) FCTH21
+ +      -0.249  * (normalized) FCTH23
+ +       0.0839 * (normalized) FCTH24
+ +       0.0648 * (normalized) FCTH25
+ +      -0.0139 * (normalized) FCTH26
+ +      -0.0682 * (normalized) FCTH27
+ +      -0.0351 * (normalized) FCTH28
+ +      -0.1144 * (normalized) FCTH29
+ +      -0.0278 * (normalized) FCTH30
+ +      -0.0635 * (normalized) FCTH31
+ +      -0.0074 * (normalized) FCTH32
+ +       0.1032 * (normalized) FCTH33
+ +       0.1032 * (normalized) FCTH35
+ +       0.1295 * (normalized) FCTH36
+ +       0.3778 * (normalized) FCTH38
+ +       0.0263 * (normalized) FCTH41
+ +       0.0211 * (normalized) FCTH42
+ +       0.2495 * (normalized) FCTH43
+ +       0.1526 * (normalized) FCTH44
+ +      -0.1149 * (normalized) FCTH45
+ +      -0.0653 * (normalized) FCTH47
+ +       0.0401 * (normalized) FCTH48
+ +       0.1029 * (normalized) FCTH49
+ +       0.0184 * (normalized) FCTH50
+ +      -0.0527 * (normalized) FCTH51
+ +      -0.003  * (normalized) FCTH52
+ +      -0.1328 * (normalized) FCTH53
+ +      -0.0478 * (normalized) FCTH54
+ +      -0.0157 * (normalized) FCTH55
+ +       0.0098 * (normalized) FCTH56
+ +       0.0263 * (normalized) FCTH60
+ +       0.0263 * (normalized) FCTH62
+ +       0.0405 * (normalized) FCTH66
+ +       0.4895 * (normalized) FCTH67
+ +       0.1097 * (normalized) FCTH68
+ +       0.1032 * (normalized) FCTH72
+ +       0.0665 * (normalized) FCTH73
+ +      -0      * (normalized) FCTH74
+ +      -0.0497 * (normalized) FCTH75
+ +      -0.0131 * (normalized) FCTH78
+ +      -0.0157 * (normalized) FCTH79
+ +      -0.0157 * (normalized) FCTH80
+ +       0.2064 * (normalized) FCTH81
+ +       0.0526 * (normalized) FCTH84
+ +       0.1295 * (normalized) FCTH86
+ +       0.0303 * (normalized) FCTH90
+ +       0.1193 * (normalized) FCTH91
+ +       0.084  * (normalized) FCTH92
+ +       0.1295 * (normalized) FCTH97
+ +       0.0518 * (normalized) FCTH121
+ +       0.0526 * (normalized) FCTH134
+ +       0.0175 * (normalized) FCTH145
+ +       0.037  * (normalized) FCTH169
+ -       0.3611
+
+Number of kernel evaluations: 423 (88.35% cached)
+
+Classifier for classes: K1, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K1, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K2, K3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.745  * (normalized) FCTH0
+ +      -0.4264 * (normalized) FCTH1
+ +       0.3113 * (normalized) FCTH2
+ +      -0.5618 * (normalized) FCTH3
+ +      -0.3136 * (normalized) FCTH4
+ +      -0.9094 * (normalized) FCTH5
+ +      -0.7591 * (normalized) FCTH6
+ +       0.5221 * (normalized) FCTH7
+ +      -0.1959 * (normalized) FCTH8
+ +      -0.2427 * (normalized) FCTH9
+ +       0.1819 * (normalized) FCTH10
+ +      -0.0698 * (normalized) FCTH11
+ +      -0.3335 * (normalized) FCTH14
+ +       0.9882 * (normalized) FCTH15
+ +       0.0053 * (normalized) FCTH16
+ +       0.6654 * (normalized) FCTH17
+ +       0.299  * (normalized) FCTH18
+ +       0.1472 * (normalized) FCTH19
+ +      -0.3711 * (normalized) FCTH20
+ +      -0.64   * (normalized) FCTH21
+ +      -1.1388 * (normalized) FCTH23
+ +      -0.1799 * (normalized) FCTH24
+ +       0.7426 * (normalized) FCTH25
+ +       0.7506 * (normalized) FCTH26
+ +       0.03   * (normalized) FCTH27
+ +      -0.1301 * (normalized) FCTH28
+ +      -0.0611 * (normalized) FCTH29
+ +      -0.7116 * (normalized) FCTH30
+ +      -0.2878 * (normalized) FCTH31
+ +       0.7463 * (normalized) FCTH32
+ +       0.3979 * (normalized) FCTH39
+ +       0.5053 * (normalized) FCTH41
+ +       0.0128 * (normalized) FCTH42
+ +       0      * (normalized) FCTH43
+ +      -0.0279 * (normalized) FCTH44
+ +      -0.3097 * (normalized) FCTH45
+ +       0.3254 * (normalized) FCTH47
+ +       0.0368 * (normalized) FCTH48
+ +       0.3747 * (normalized) FCTH49
+ +       0.3213 * (normalized) FCTH50
+ +       0.004  * (normalized) FCTH51
+ +       0.3681 * (normalized) FCTH52
+ +       0.8508 * (normalized) FCTH53
+ +      -0.2913 * (normalized) FCTH54
+ +      -0.3456 * (normalized) FCTH55
+ +       0.522  * (normalized) FCTH56
+ +       0.0107 * (normalized) FCTH65
+ +      -0.0399 * (normalized) FCTH66
+ +       0.0053 * (normalized) FCTH68
+ +       0.0881 * (normalized) FCTH69
+ +      -0      * (normalized) FCTH71
+ +       0.4562 * (normalized) FCTH72
+ +       0.4631 * (normalized) FCTH73
+ +       0.0294 * (normalized) FCTH74
+ +       0.5741 * (normalized) FCTH75
+ +       0.7361 * (normalized) FCTH76
+ +       0.5969 * (normalized) FCTH77
+ +      -0.2427 * (normalized) FCTH78
+ +      -0.1456 * (normalized) FCTH79
+ +      -0.078  * (normalized) FCTH80
+ +       0      * (normalized) FCTH92
+ +       0.0881 * (normalized) FCTH93
+ +       0      * (normalized) FCTH95
+ +       0.0441 * (normalized) FCTH96
+ +       0.0441 * (normalized) FCTH97
+ +       0.0881 * (normalized) FCTH98
+ +       0      * (normalized) FCTH101
+ +       0      * (normalized) FCTH116
+ +       0.0441 * (normalized) FCTH120
+ +       0.0176 * (normalized) FCTH121
+ +       0.0441 * (normalized) FCTH122
+ +       0.0441 * (normalized) FCTH123
+ +       0      * (normalized) FCTH125
+ +       0      * (normalized) FCTH140
+ +      -0      * (normalized) FCTH143
+ +       0.0441 * (normalized) FCTH144
+ +       0.0294 * (normalized) FCTH145
+ +       0.0881 * (normalized) FCTH146
+ +       0      * (normalized) FCTH164
+ +       0.0441 * (normalized) FCTH168
+ +       0.0126 * (normalized) FCTH169
+ +       0      * (normalized) FCTH170
+ +       0.0441 * (normalized) FCTH171
+ +       0      * (normalized) FCTH173
+ +      -0      * (normalized) FCTH188
+ +      -0      * (normalized) FCTH191
+ +       0.1325
+
+Number of kernel evaluations: 4752 (82.642% cached)
+
+Classifier for classes: K2, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.438  * (normalized) FCTH0
+ +      -0.3592 * (normalized) FCTH1
+ +       0.6994 * (normalized) FCTH2
+ +       0.0641 * (normalized) FCTH3
+ +      -0.3414 * (normalized) FCTH4
+ +      -1.2869 * (normalized) FCTH5
+ +       0.0055 * (normalized) FCTH6
+ +       0.2617 * (normalized) FCTH7
+ +      -0.6014 * (normalized) FCTH8
+ +      -0.1451 * (normalized) FCTH9
+ +       0.6995 * (normalized) FCTH10
+ +      -0.1199 * (normalized) FCTH11
+ +       0.157  * (normalized) FCTH12
+ +       0.0434 * (normalized) FCTH13
+ +       0.1851 * (normalized) FCTH14
+ +       0.7313 * (normalized) FCTH15
+ +       0.0057 * (normalized) FCTH16
+ +       0.4589 * (normalized) FCTH17
+ +       0.6275 * (normalized) FCTH18
+ +       0.0236 * (normalized) FCTH19
+ +      -0.5281 * (normalized) FCTH20
+ +      -0.5668 * (normalized) FCTH21
+ +      -1.3109 * (normalized) FCTH23
+ +       0.0878 * (normalized) FCTH24
+ +       0.3562 * (normalized) FCTH25
+ +       0.7006 * (normalized) FCTH26
+ +      -0.5493 * (normalized) FCTH27
+ +       0.351  * (normalized) FCTH28
+ +      -0.0561 * (normalized) FCTH29
+ +      -0.8535 * (normalized) FCTH30
+ +      -0.0816 * (normalized) FCTH31
+ +      -0.2324 * (normalized) FCTH32
+ +       0.0669 * (normalized) FCTH34
+ +       0.6138 * (normalized) FCTH35
+ +       0.0651 * (normalized) FCTH36
+ +       0.0651 * (normalized) FCTH38
+ +       0.0268 * (normalized) FCTH39
+ +       0.0057 * (normalized) FCTH41
+ +       0.293  * (normalized) FCTH42
+ +       0.0622 * (normalized) FCTH44
+ +      -0.4231 * (normalized) FCTH45
+ +       0.1712 * (normalized) FCTH47
+ +       0.092  * (normalized) FCTH48
+ +       0.9238 * (normalized) FCTH49
+ +       0.9182 * (normalized) FCTH50
+ +      -0.1934 * (normalized) FCTH51
+ +       0.3623 * (normalized) FCTH52
+ +       0.3951 * (normalized) FCTH53
+ +      -0.049  * (normalized) FCTH54
+ +      -0.1182 * (normalized) FCTH55
+ +      -0.0488 * (normalized) FCTH56
+ +       0.1338 * (normalized) FCTH58
+ +       0.497  * (normalized) FCTH59
+ +       0.0651 * (normalized) FCTH62
+ +       0.0268 * (normalized) FCTH63
+ +       0.0114 * (normalized) FCTH65
+ +      -0.04   * (normalized) FCTH66
+ +       0.6318 * (normalized) FCTH68
+ +       0.0225 * (normalized) FCTH69
+ +       0.2522 * (normalized) FCTH71
+ +       0.7305 * (normalized) FCTH72
+ +       0.5491 * (normalized) FCTH73
+ +       0.3377 * (normalized) FCTH74
+ +       0.6363 * (normalized) FCTH75
+ +       0.1075 * (normalized) FCTH76
+ +       0.0268 * (normalized) FCTH77
+ +      -0.136  * (normalized) FCTH78
+ +      -0.0446 * (normalized) FCTH79
+ +      -0.2568 * (normalized) FCTH80
+ +       0      * (normalized) FCTH90
+ +       0.0841 * (normalized) FCTH92
+ +      -0      * (normalized) FCTH95
+ +       0.0225 * (normalized) FCTH96
+ +       0.1189 * (normalized) FCTH97
+ +       0.2856 * (normalized) FCTH102
+ +       0.1428 * (normalized) FCTH104
+ +       0.0763 * (normalized) FCTH120
+ +       0.1794 * (normalized) FCTH121
+ +       0.1075 * (normalized) FCTH124
+ +       0.2856 * (normalized) FCTH126
+ +       0.2504 * (normalized) FCTH128
+ +       0.0225 * (normalized) FCTH144
+ +       0      * (normalized) FCTH145
+ +       0.2856 * (normalized) FCTH150
+ +       0.0225 * (normalized) FCTH168
+ +       0.1281 * (normalized) FCTH169
+ +      -0      * (normalized) FCTH170
+ +      -0      * (normalized) FCTH173
+ +       0.2856 * (normalized) FCTH174
+ +       0.2856 * (normalized) FCTH175
+ +       0.2856 * (normalized) FCTH176
+ +      -0      * (normalized) FCTH188
+ +       0.3301
+
+Number of kernel evaluations: 5419 (87.715% cached)
+
+Classifier for classes: K2, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2421 * (normalized) FCTH0
+ +       0.1901 * (normalized) FCTH1
+ +      -0.5431 * (normalized) FCTH2
+ +      -0.2944 * (normalized) FCTH3
+ +      -0.9061 * (normalized) FCTH4
+ +      -0.4207 * (normalized) FCTH5
+ +       0.1407 * (normalized) FCTH6
+ +      -0.5633 * (normalized) FCTH7
+ +      -0.2284 * (normalized) FCTH8
+ +      -0.0926 * (normalized) FCTH9
+ +       0.0005 * (normalized) FCTH10
+ +       0.0185 * (normalized) FCTH11
+ +       0.5927 * (normalized) FCTH12
+ +       0.001  * (normalized) FCTH13
+ +       0.7697 * (normalized) FCTH14
+ +       0.2448 * (normalized) FCTH15
+ +       0.6085 * (normalized) FCTH17
+ +      -0.1639 * (normalized) FCTH18
+ +       1.1712 * (normalized) FCTH19
+ +       0.1004 * (normalized) FCTH20
+ +      -0.241  * (normalized) FCTH21
+ +       0.6619 * (normalized) FCTH22
+ +      -0.8495 * (normalized) FCTH23
+ +       0.1916 * (normalized) FCTH24
+ +       1.1341 * (normalized) FCTH25
+ +       0.4607 * (normalized) FCTH26
+ +      -0.7463 * (normalized) FCTH27
+ +      -0.3234 * (normalized) FCTH28
+ +       0.1583 * (normalized) FCTH29
+ +      -0.121  * (normalized) FCTH30
+ +      -0.4202 * (normalized) FCTH31
+ +       0.2087 * (normalized) FCTH32
+ +       0      * (normalized) FCTH33
+ +       0.0008 * (normalized) FCTH35
+ +       0      * (normalized) FCTH36
+ +       0.0008 * (normalized) FCTH38
+ +       0.5315 * (normalized) FCTH39
+ +       0.6232 * (normalized) FCTH41
+ +      -0.0151 * (normalized) FCTH42
+ +      -0.0892 * (normalized) FCTH43
+ +       0.0204 * (normalized) FCTH44
+ +      -0.1992 * (normalized) FCTH45
+ +      -0.0686 * (normalized) FCTH47
+ +       0.0038 * (normalized) FCTH48
+ +       0.8525 * (normalized) FCTH49
+ +       0.6788 * (normalized) FCTH50
+ +      -0.1146 * (normalized) FCTH51
+ +       0.4251 * (normalized) FCTH52
+ +       0.2772 * (normalized) FCTH53
+ +       0.0249 * (normalized) FCTH54
+ +      -0.1853 * (normalized) FCTH55
+ +       0.1054 * (normalized) FCTH56
+ +       0.0008 * (normalized) FCTH62
+ +       0.0805 * (normalized) FCTH63
+ +       0.2181 * (normalized) FCTH66
+ +       0.0471 * (normalized) FCTH67
+ +       0.8667 * (normalized) FCTH68
+ +       0.6233 * (normalized) FCTH69
+ +       0.6902 * (normalized) FCTH72
+ +       0.6641 * (normalized) FCTH73
+ +       0.3271 * (normalized) FCTH75
+ +       0.0519 * (normalized) FCTH76
+ +       0.381  * (normalized) FCTH77
+ +      -0.1043 * (normalized) FCTH78
+ +      -0.2    * (normalized) FCTH79
+ +      -0.1162 * (normalized) FCTH80
+ +       0.1636 * (normalized) FCTH90
+ +       0.031  * (normalized) FCTH91
+ +      -0      * (normalized) FCTH92
+ +       0.008  * (normalized) FCTH96
+ +       0.3649 * (normalized) FCTH97
+ +       0.0161 * (normalized) FCTH99
+ +       0.068  * (normalized) FCTH100
+ +       0.1819 * (normalized) FCTH101
+ +       0.1609 * (normalized) FCTH111
+ +      -0      * (normalized) FCTH114
+ +       0.031  * (normalized) FCTH115
+ +       0.008  * (normalized) FCTH120
+ +       0.1781 * (normalized) FCTH121
+ +       0.0235 * (normalized) FCTH123
+ +       0.068  * (normalized) FCTH124
+ +       0.0209 * (normalized) FCTH125
+ +       0.3229 * (normalized) FCTH126
+ +       0.0105 * (normalized) FCTH128
+ +       0.008  * (normalized) FCTH144
+ +       0.2259 * (normalized) FCTH145
+ +       0.0161 * (normalized) FCTH147
+ +       0.008  * (normalized) FCTH168
+ +       0.1272 * (normalized) FCTH169
+ +       0.0235 * (normalized) FCTH171
+ +       0.031  * (normalized) FCTH172
+ +       0.0909 * (normalized) FCTH173
+ +       0.0044 * (normalized) FCTH174
+ +       0.0035 * (normalized) FCTH176
+ -       0.1846
+
+Number of kernel evaluations: 6402 (83.478% cached)
+
+Classifier for classes: K2, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0271 * (normalized) FCTH0
+ +       0.0024 * (normalized) FCTH1
+ +      -0.0191 * (normalized) FCTH2
+ +      -0.0643 * (normalized) FCTH3
+ +      -0.1968 * (normalized) FCTH4
+ +      -0.4684 * (normalized) FCTH5
+ +      -0.054  * (normalized) FCTH6
+ +      -0.1454 * (normalized) FCTH7
+ +      -0.1377 * (normalized) FCTH8
+ +       0.0597 * (normalized) FCTH9
+ +      -0.1128 * (normalized) FCTH11
+ +       0.1851 * (normalized) FCTH12
+ +       0.1406 * (normalized) FCTH13
+ +       0.3026 * (normalized) FCTH14
+ +       0.0136 * (normalized) FCTH15
+ +       0.0943 * (normalized) FCTH17
+ +      -0.1362 * (normalized) FCTH18
+ +       0.4721 * (normalized) FCTH19
+ +      -0.0636 * (normalized) FCTH20
+ +      -0.1071 * (normalized) FCTH21
+ +      -0.2785 * (normalized) FCTH23
+ +       0.0697 * (normalized) FCTH24
+ +       0.078  * (normalized) FCTH25
+ +      -0.0186 * (normalized) FCTH26
+ +      -0.1147 * (normalized) FCTH27
+ +      -0.0572 * (normalized) FCTH28
+ +      -0.0838 * (normalized) FCTH29
+ +      -0.033  * (normalized) FCTH30
+ +      -0.0468 * (normalized) FCTH31
+ +       0.02   * (normalized) FCTH32
+ +       0.1099 * (normalized) FCTH33
+ +       0.1099 * (normalized) FCTH35
+ +       0.1346 * (normalized) FCTH36
+ +       0.397  * (normalized) FCTH38
+ +       0.0247 * (normalized) FCTH41
+ +       0.0396 * (normalized) FCTH42
+ +       0.1904 * (normalized) FCTH43
+ +       0.0861 * (normalized) FCTH44
+ +      -0.0654 * (normalized) FCTH45
+ +      -0.1206 * (normalized) FCTH47
+ +      -0.0101 * (normalized) FCTH48
+ +       0.1351 * (normalized) FCTH49
+ +       0.0134 * (normalized) FCTH50
+ +      -0.0362 * (normalized) FCTH51
+ +      -0.0362 * (normalized) FCTH53
+ +      -0.0468 * (normalized) FCTH54
+ +      -0.0279 * (normalized) FCTH55
+ +       0.0251 * (normalized) FCTH56
+ +       0.0247 * (normalized) FCTH60
+ +       0.0247 * (normalized) FCTH62
+ +       0.0849 * (normalized) FCTH66
+ +       0.5431 * (normalized) FCTH67
+ +       0.2024 * (normalized) FCTH68
+ +       0.1099 * (normalized) FCTH72
+ +       0.0595 * (normalized) FCTH73
+ +      -0      * (normalized) FCTH74
+ +      -0.0353 * (normalized) FCTH78
+ +      -0.0188 * (normalized) FCTH79
+ +      -0.0145 * (normalized) FCTH80
+ +       0.2198 * (normalized) FCTH81
+ +       0.0494 * (normalized) FCTH84
+ +       0.1346 * (normalized) FCTH86
+ +       0.0719 * (normalized) FCTH90
+ +       0.1212 * (normalized) FCTH91
+ +       0.0959 * (normalized) FCTH92
+ +       0.1346 * (normalized) FCTH97
+ +       0.0538 * (normalized) FCTH121
+ +       0.0494 * (normalized) FCTH134
+ +       0.0165 * (normalized) FCTH145
+ +       0.0385 * (normalized) FCTH169
+ -       0.4628
+
+Number of kernel evaluations: 1971 (73.055% cached)
+
+Classifier for classes: K2, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K2, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K3, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6628 * (normalized) FCTH0
+ +       0.6083 * (normalized) FCTH1
+ +       0.6042 * (normalized) FCTH2
+ +       0.1353 * (normalized) FCTH3
+ +      -0.0283 * (normalized) FCTH4
+ +      -1.5783 * (normalized) FCTH5
+ +       0.3336 * (normalized) FCTH6
+ +       0.3511 * (normalized) FCTH7
+ +       0.1059 * (normalized) FCTH8
+ +       0.7549 * (normalized) FCTH9
+ +       0.9405 * (normalized) FCTH10
+ +      -0.0579 * (normalized) FCTH11
+ +       1.0357 * (normalized) FCTH12
+ +       0.4667 * (normalized) FCTH14
+ +       0.4406 * (normalized) FCTH15
+ +      -0.1161 * (normalized) FCTH16
+ +       0.5827 * (normalized) FCTH17
+ +       0.2215 * (normalized) FCTH18
+ +      -0.1567 * (normalized) FCTH19
+ +       0.1356 * (normalized) FCTH20
+ +      -0.102  * (normalized) FCTH21
+ +      -0.2352 * (normalized) FCTH23
+ +       0.6827 * (normalized) FCTH24
+ +      -0.8091 * (normalized) FCTH25
+ +       0.016  * (normalized) FCTH26
+ +      -0.9568 * (normalized) FCTH27
+ +      -0.1923 * (normalized) FCTH28
+ +       0.0206 * (normalized) FCTH29
+ +       0.5993 * (normalized) FCTH30
+ +       0.4763 * (normalized) FCTH31
+ +      -1.5937 * (normalized) FCTH32
+ +       0.2455 * (normalized) FCTH34
+ +      -0.3115 * (normalized) FCTH35
+ +       0.3162 * (normalized) FCTH36
+ +      -0.7139 * (normalized) FCTH39
+ +      -0.7387 * (normalized) FCTH41
+ +       0.4303 * (normalized) FCTH42
+ +      -0.0667 * (normalized) FCTH43
+ +       0.7155 * (normalized) FCTH44
+ +       0.623  * (normalized) FCTH45
+ +      -1.5691 * (normalized) FCTH47
+ +       0.2114 * (normalized) FCTH48
+ +       0.5589 * (normalized) FCTH49
+ +       0.5775 * (normalized) FCTH50
+ +      -0.2073 * (normalized) FCTH51
+ +      -0.2216 * (normalized) FCTH52
+ +      -0.3946 * (normalized) FCTH53
+ +       0.4658 * (normalized) FCTH54
+ +       0.4397 * (normalized) FCTH55
+ +      -0.953  * (normalized) FCTH56
+ +       0.1049 * (normalized) FCTH58
+ +       1.3771 * (normalized) FCTH59
+ +       1.233  * (normalized) FCTH63
+ +       0.0583 * (normalized) FCTH64
+ +       0.5964 * (normalized) FCTH65
+ +       0.8032 * (normalized) FCTH66
+ +       0.3019 * (normalized) FCTH68
+ +       0.2533 * (normalized) FCTH69
+ +       0.4871 * (normalized) FCTH71
+ +      -0.1334 * (normalized) FCTH72
+ +      -0.3767 * (normalized) FCTH73
+ +       1.0865 * (normalized) FCTH74
+ +      -0.8732 * (normalized) FCTH75
+ +      -0.1336 * (normalized) FCTH76
+ +      -0.6974 * (normalized) FCTH77
+ +       0.4085 * (normalized) FCTH78
+ +       0.5285 * (normalized) FCTH79
+ +      -0.2933 * (normalized) FCTH80
+ +       0.1049 * (normalized) FCTH83
+ +      -0.8921 * (normalized) FCTH87
+ +       1.0396 * (normalized) FCTH89
+ +      -0.1777 * (normalized) FCTH90
+ +       0.0683 * (normalized) FCTH92
+ +       0.1951 * (normalized) FCTH93
+ +      -0.1544 * (normalized) FCTH95
+ +       0.2026 * (normalized) FCTH96
+ +       0.1059 * (normalized) FCTH97
+ +      -0.4735 * (normalized) FCTH98
+ +      -0.0198 * (normalized) FCTH99
+ +       0.2907 * (normalized) FCTH100
+ +      -0.5434 * (normalized) FCTH101
+ +       0.451  * (normalized) FCTH102
+ +       0.2787 * (normalized) FCTH103
+ +      -0.2848 * (normalized) FCTH104
+ +      -0.0485 * (normalized) FCTH116
+ +       0      * (normalized) FCTH119
+ +       0.338  * (normalized) FCTH120
+ +      -0.3774 * (normalized) FCTH121
+ +      -0.0408 * (normalized) FCTH122
+ +       0.1125 * (normalized) FCTH123
+ +       0.2907 * (normalized) FCTH124
+ +       0.1    * (normalized) FCTH125
+ +       0.2255 * (normalized) FCTH126
+ +       0.3836 * (normalized) FCTH127
+ +       0.2152 * (normalized) FCTH128
+ +       0.4922 * (normalized) FCTH138
+ +       0.2269 * (normalized) FCTH140
+ +      -0.6046 * (normalized) FCTH143
+ +       0.1927 * (normalized) FCTH144
+ +      -0.7697 * (normalized) FCTH145
+ +      -1.3044 * (normalized) FCTH146
+ +      -0.0198 * (normalized) FCTH147
+ +      -0.2849 * (normalized) FCTH149
+ +      -0.1073 * (normalized) FCTH151
+ +      -0.3893 * (normalized) FCTH152
+ +      -0.2695 * (normalized) FCTH164
+ +       0.221  * (normalized) FCTH165
+ +       0.221  * (normalized) FCTH167
+ +       0.1927 * (normalized) FCTH168
+ +       0.0824 * (normalized) FCTH169
+ +       0.3538 * (normalized) FCTH170
+ +      -0.1654 * (normalized) FCTH171
+ +       1.3596 * (normalized) FCTH173
+ +       0.0644 * (normalized) FCTH174
+ +       0.3836 * (normalized) FCTH175
+ +      -0.0377 * (normalized) FCTH176
+ +       0.4369 * (normalized) FCTH186
+ +       0.2663 * (normalized) FCTH188
+ +       0.221  * (normalized) FCTH189
+ +       0.3954 * (normalized) FCTH191
+ +       0.012 
+
+Number of kernel evaluations: 7212 (94.12% cached)
+
+Classifier for classes: K3, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.3394 * (normalized) FCTH0
+ +       0.3275 * (normalized) FCTH1
+ +      -0.8544 * (normalized) FCTH2
+ +       0.0474 * (normalized) FCTH3
+ +       0.3079 * (normalized) FCTH4
+ +       0.3374 * (normalized) FCTH5
+ +       0.645  * (normalized) FCTH6
+ +      -0.2464 * (normalized) FCTH7
+ +       0.0749 * (normalized) FCTH8
+ +       0      * (normalized) FCTH9
+ +       0.2477 * (normalized) FCTH11
+ +       0.4806 * (normalized) FCTH12
+ +      -0      * (normalized) FCTH13
+ +       0.7288 * (normalized) FCTH14
+ +      -0.607  * (normalized) FCTH15
+ +      -0.069  * (normalized) FCTH16
+ +      -0.2347 * (normalized) FCTH17
+ +      -0.5002 * (normalized) FCTH18
+ +       0.853  * (normalized) FCTH19
+ +       1.1059 * (normalized) FCTH20
+ +       0.1156 * (normalized) FCTH21
+ +       0.2907 * (normalized) FCTH22
+ +       0.4281 * (normalized) FCTH23
+ +       0.1839 * (normalized) FCTH24
+ +       0.2939 * (normalized) FCTH25
+ +      -0.087  * (normalized) FCTH26
+ +      -0.5215 * (normalized) FCTH27
+ +       0.0872 * (normalized) FCTH28
+ +      -0.2003 * (normalized) FCTH29
+ +       0.2536 * (normalized) FCTH30
+ +       0.1334 * (normalized) FCTH31
+ +      -0.0615 * (normalized) FCTH32
+ +      -0.1188 * (normalized) FCTH35
+ +       0.1715 * (normalized) FCTH38
+ +      -0.0317 * (normalized) FCTH39
+ +      -0.3057 * (normalized) FCTH41
+ +       0.482  * (normalized) FCTH42
+ +       0.4394 * (normalized) FCTH43
+ +       0.7097 * (normalized) FCTH44
+ +       0.0378 * (normalized) FCTH45
+ +      -0.2865 * (normalized) FCTH47
+ +      -0.0821 * (normalized) FCTH48
+ +      -0.337  * (normalized) FCTH49
+ +      -0.0775 * (normalized) FCTH50
+ +      -0.1131 * (normalized) FCTH51
+ +       0.0708 * (normalized) FCTH52
+ +      -0.4037 * (normalized) FCTH53
+ +       0.2423 * (normalized) FCTH54
+ +      -0.0671 * (normalized) FCTH55
+ +      -0.1054 * (normalized) FCTH56
+ +       0.0315 * (normalized) FCTH63
+ +      -0.4287 * (normalized) FCTH65
+ +       0.2233 * (normalized) FCTH66
+ +       0.6428 * (normalized) FCTH67
+ +       0.3244 * (normalized) FCTH68
+ +       0.2216 * (normalized) FCTH69
+ +       0.007  * (normalized) FCTH71
+ +      -0.2524 * (normalized) FCTH72
+ +      -0.4221 * (normalized) FCTH73
+ +      -0.3001 * (normalized) FCTH74
+ +      -0.3978 * (normalized) FCTH75
+ +      -0.2213 * (normalized) FCTH76
+ +      -0.0967 * (normalized) FCTH77
+ +       0.1448 * (normalized) FCTH78
+ +      -0.0103 * (normalized) FCTH79
+ +       0.0072 * (normalized) FCTH80
+ +       0.0537 * (normalized) FCTH90
+ +       0.0091 * (normalized) FCTH91
+ +      -0.1225 * (normalized) FCTH92
+ +       0.1888 * (normalized) FCTH93
+ +      -0.0994 * (normalized) FCTH95
+ +      -0.0761 * (normalized) FCTH96
+ +       0.1045 * (normalized) FCTH97
+ +      -0.1035 * (normalized) FCTH98
+ +       0.2404 * (normalized) FCTH99
+ +       0.32   * (normalized) FCTH100
+ +       0.193  * (normalized) FCTH101
+ +      -0.0257 * (normalized) FCTH103
+ +      -0.0257 * (normalized) FCTH104
+ +       0.063  * (normalized) FCTH111
+ +       0      * (normalized) FCTH114
+ +      -0.1085 * (normalized) FCTH116
+ +      -0.0021 * (normalized) FCTH119
+ +      -0.1012 * (normalized) FCTH120
+ +      -0.0444 * (normalized) FCTH121
+ +       0.0499 * (normalized) FCTH122
+ +       0.0442 * (normalized) FCTH123
+ +       0.32   * (normalized) FCTH124
+ +       0.4347 * (normalized) FCTH125
+ +      -0.0257 * (normalized) FCTH127
+ +       0.1123 * (normalized) FCTH128
+ +      -0.0543 * (normalized) FCTH140
+ +      -0.0021 * (normalized) FCTH143
+ +      -0.1012 * (normalized) FCTH144
+ +      -0.186  * (normalized) FCTH145
+ +      -0.3942 * (normalized) FCTH146
+ +      -0.0502 * (normalized) FCTH147
+ +      -0.0502 * (normalized) FCTH149
+ +      -0.0257 * (normalized) FCTH151
+ +      -0.0257 * (normalized) FCTH152
+ +      -0.1064 * (normalized) FCTH164
+ +      -0.0021 * (normalized) FCTH167
+ +      -0.1012 * (normalized) FCTH168
+ +      -0.2123 * (normalized) FCTH169
+ +      -0.216  * (normalized) FCTH170
+ +       0.0442 * (normalized) FCTH171
+ +       0.0965 * (normalized) FCTH173
+ +      -0.0257 * (normalized) FCTH175
+ +       0.0332 * (normalized) FCTH176
+ +      -0.011  * (normalized) FCTH186
+ +      -0.0863 * (normalized) FCTH188
+ +      -0.0021 * (normalized) FCTH191
+ -       0.5958
+
+Number of kernel evaluations: 4775 (86.68% cached)
+
+Classifier for classes: K3, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1374 * (normalized) FCTH0
+ +       0.032  * (normalized) FCTH1
+ +      -0.0254 * (normalized) FCTH2
+ +      -0.0515 * (normalized) FCTH3
+ +      -0.0932 * (normalized) FCTH4
+ +      -0.341  * (normalized) FCTH5
+ +       0.0165 * (normalized) FCTH6
+ +      -0.0318 * (normalized) FCTH7
+ +      -0.0596 * (normalized) FCTH8
+ +       0.1088 * (normalized) FCTH9
+ +      -0      * (normalized) FCTH10
+ +       0.0478 * (normalized) FCTH11
+ +       0.2169 * (normalized) FCTH12
+ +       0.1309 * (normalized) FCTH13
+ +       0.3436 * (normalized) FCTH14
+ +      -0.098  * (normalized) FCTH15
+ +      -0.1197 * (normalized) FCTH17
+ +      -0.0554 * (normalized) FCTH18
+ +       0.5128 * (normalized) FCTH19
+ +       0.095  * (normalized) FCTH20
+ +      -0.0016 * (normalized) FCTH21
+ +      -0.1037 * (normalized) FCTH23
+ +       0.1043 * (normalized) FCTH24
+ +      -0.049  * (normalized) FCTH25
+ +      -0.1858 * (normalized) FCTH26
+ +      -0.1267 * (normalized) FCTH27
+ +      -0.0681 * (normalized) FCTH28
+ +      -0.1636 * (normalized) FCTH29
+ +       0.0375 * (normalized) FCTH30
+ +      -0.0168 * (normalized) FCTH31
+ +      -0.0442 * (normalized) FCTH32
+ +       0.1345 * (normalized) FCTH33
+ +       0.0665 * (normalized) FCTH35
+ +       0.186  * (normalized) FCTH36
+ +       0.4625 * (normalized) FCTH38
+ +      -0      * (normalized) FCTH39
+ +      -0.0762 * (normalized) FCTH41
+ +       0.1386 * (normalized) FCTH42
+ +       0.2826 * (normalized) FCTH43
+ +       0.1566 * (normalized) FCTH44
+ +      -0.008  * (normalized) FCTH45
+ +      -0.1643 * (normalized) FCTH47
+ +       0.029  * (normalized) FCTH48
+ +      -0.037  * (normalized) FCTH49
+ +      -0.1166 * (normalized) FCTH50
+ +      -0.0538 * (normalized) FCTH51
+ +      -0.0511 * (normalized) FCTH52
+ +      -0.0226 * (normalized) FCTH53
+ +      -0.0103 * (normalized) FCTH54
+ +      -0.0112 * (normalized) FCTH55
+ +       0.006  * (normalized) FCTH56
+ +       0.0515 * (normalized) FCTH60
+ +       0.0515 * (normalized) FCTH62
+ +       0      * (normalized) FCTH65
+ +       0.0983 * (normalized) FCTH66
+ +       0.476  * (normalized) FCTH67
+ +       0.1465 * (normalized) FCTH68
+ +      -0.008  * (normalized) FCTH69
+ +       0.0698 * (normalized) FCTH72
+ +      -0.0956 * (normalized) FCTH73
+ +      -0.0244 * (normalized) FCTH74
+ +      -0.1119 * (normalized) FCTH75
+ +      -0.1021 * (normalized) FCTH76
+ +      -0.0541 * (normalized) FCTH77
+ +      -0.0086 * (normalized) FCTH78
+ +      -0.0112 * (normalized) FCTH79
+ +      -0.0359 * (normalized) FCTH80
+ +       0.269  * (normalized) FCTH81
+ +       0.1029 * (normalized) FCTH84
+ +       0.186  * (normalized) FCTH86
+ +       0.0574 * (normalized) FCTH90
+ +       0.0833 * (normalized) FCTH91
+ +       0.033  * (normalized) FCTH92
+ +      -0.008  * (normalized) FCTH93
+ +      -0.0653 * (normalized) FCTH95
+ +      -0.0068 * (normalized) FCTH96
+ +      -0.0022 * (normalized) FCTH97
+ +      -0.0733 * (normalized) FCTH98
+ +      -0.0055 * (normalized) FCTH99
+ +      -0.0055 * (normalized) FCTH101
+ +      -0.028  * (normalized) FCTH103
+ +      -0.028  * (normalized) FCTH104
+ +      -0.0653 * (normalized) FCTH116
+ +      -0.0096 * (normalized) FCTH120
+ +      -0.0204 * (normalized) FCTH121
+ +      -0.0367 * (normalized) FCTH122
+ +      -0.0096 * (normalized) FCTH123
+ +      -0.0055 * (normalized) FCTH125
+ +      -0.028  * (normalized) FCTH127
+ +      -0.028  * (normalized) FCTH128
+ +       0.1029 * (normalized) FCTH134
+ +      -0.0326 * (normalized) FCTH140
+ +      -0.0096 * (normalized) FCTH144
+ +      -0.0741 * (normalized) FCTH145
+ +      -0.0733 * (normalized) FCTH146
+ +      -0.0055 * (normalized) FCTH147
+ +      -0.0055 * (normalized) FCTH149
+ +      -0.028  * (normalized) FCTH151
+ +      -0.028  * (normalized) FCTH152
+ +      -0.0653 * (normalized) FCTH164
+ +      -0.0096 * (normalized) FCTH168
+ +      -0.0541 * (normalized) FCTH169
+ +      -0.0326 * (normalized) FCTH170
+ +      -0.0096 * (normalized) FCTH171
+ +      -0.0028 * (normalized) FCTH173
+ +      -0.028  * (normalized) FCTH175
+ +      -0.014  * (normalized) FCTH176
+ +      -0.0435 * (normalized) FCTH188
+ -       0.602 
+
+Number of kernel evaluations: 1601 (80.778% cached)
+
+Classifier for classes: K3, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K3, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K4, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.1452 * (normalized) FCTH0
+ +       0.2713 * (normalized) FCTH1
+ +      -1.0982 * (normalized) FCTH2
+ +      -0.3924 * (normalized) FCTH3
+ +       0.0278 * (normalized) FCTH4
+ +       0.7752 * (normalized) FCTH5
+ +      -0.0215 * (normalized) FCTH6
+ +      -0.2982 * (normalized) FCTH7
+ +      -0.0437 * (normalized) FCTH8
+ +       0.1503 * (normalized) FCTH9
+ +      -0.0436 * (normalized) FCTH10
+ +       0.319  * (normalized) FCTH11
+ +       0.2594 * (normalized) FCTH12
+ +      -0.2002 * (normalized) FCTH13
+ +       0.8218 * (normalized) FCTH14
+ +      -0.6765 * (normalized) FCTH15
+ +      -0.1749 * (normalized) FCTH16
+ +      -0.1142 * (normalized) FCTH17
+ +      -0.442  * (normalized) FCTH18
+ +       1.3261 * (normalized) FCTH19
+ +       1.2463 * (normalized) FCTH20
+ +       0.3733 * (normalized) FCTH21
+ +       0.2716 * (normalized) FCTH22
+ +       0.9335 * (normalized) FCTH23
+ +      -0.1503 * (normalized) FCTH24
+ +       1.2406 * (normalized) FCTH25
+ +      -0.2581 * (normalized) FCTH26
+ +      -0.0176 * (normalized) FCTH27
+ +      -0.1002 * (normalized) FCTH28
+ +      -0.1243 * (normalized) FCTH29
+ +      -0.01   * (normalized) FCTH30
+ +      -0.1759 * (normalized) FCTH31
+ +      -0.0707 * (normalized) FCTH32
+ +       0.0619 * (normalized) FCTH33
+ +       0.0619 * (normalized) FCTH34
+ +      -0.4677 * (normalized) FCTH35
+ +      -0.4342 * (normalized) FCTH36
+ +      -0.0173 * (normalized) FCTH38
+ +      -0.0353 * (normalized) FCTH39
+ +       0.2426 * (normalized) FCTH41
+ +       0.1662 * (normalized) FCTH42
+ +       0.3086 * (normalized) FCTH43
+ +      -0.0132 * (normalized) FCTH44
+ +       0.0568 * (normalized) FCTH45
+ +       0.1818 * (normalized) FCTH47
+ +      -0.4003 * (normalized) FCTH48
+ +       0.0157 * (normalized) FCTH49
+ +      -0.294  * (normalized) FCTH50
+ +      -0.0281 * (normalized) FCTH51
+ +      -0.0579 * (normalized) FCTH52
+ +      -0.0135 * (normalized) FCTH53
+ +      -0.0271 * (normalized) FCTH54
+ +      -0.1067 * (normalized) FCTH55
+ +       0.0202 * (normalized) FCTH56
+ +       0.1238 * (normalized) FCTH59
+ +      -0.4241 * (normalized) FCTH62
+ +      -0.0353 * (normalized) FCTH63
+ +      -0.4817 * (normalized) FCTH65
+ +       0.1542 * (normalized) FCTH66
+ +       0.5818 * (normalized) FCTH67
+ +      -0.3381 * (normalized) FCTH68
+ +       0.5864 * (normalized) FCTH69
+ +      -0.2461 * (normalized) FCTH71
+ +      -0.499  * (normalized) FCTH72
+ +       0.3911 * (normalized) FCTH73
+ +      -0.2904 * (normalized) FCTH74
+ +      -0.3495 * (normalized) FCTH75
+ +       0.0986 * (normalized) FCTH76
+ +       0.0993 * (normalized) FCTH77
+ +       0.0126 * (normalized) FCTH78
+ +      -0.0995 * (normalized) FCTH79
+ +      -0.0612 * (normalized) FCTH80
+ +      -0.0353 * (normalized) FCTH87
+ +      -0.0353 * (normalized) FCTH89
+ +       0.0202 * (normalized) FCTH90
+ +       0.0882 * (normalized) FCTH91
+ +      -0.1132 * (normalized) FCTH92
+ +       0.0962 * (normalized) FCTH93
+ +      -0.1665 * (normalized) FCTH95
+ +      -0.1012 * (normalized) FCTH96
+ +      -0.0641 * (normalized) FCTH97
+ +      -0.1024 * (normalized) FCTH98
+ +       0.0966 * (normalized) FCTH99
+ +       0.1378 * (normalized) FCTH100
+ +       0.3848 * (normalized) FCTH101
+ +      -0.0353 * (normalized) FCTH111
+ +      -0.0353 * (normalized) FCTH113
+ +       0.0295 * (normalized) FCTH114
+ +       0.0557 * (normalized) FCTH115
+ +      -0.1694 * (normalized) FCTH116
+ +      -0.2342 * (normalized) FCTH120
+ +      -0.0828 * (normalized) FCTH121
+ +      -0.0512 * (normalized) FCTH122
+ +      -0.0752 * (normalized) FCTH123
+ +       0.1187 * (normalized) FCTH124
+ +       0.1862 * (normalized) FCTH125
+ +       0.0875 * (normalized) FCTH126
+ +      -0.0564 * (normalized) FCTH128
+ +      -0.0353 * (normalized) FCTH135
+ +      -0.0353 * (normalized) FCTH137
+ +      -0.1868 * (normalized) FCTH138
+ +       0.0557 * (normalized) FCTH139
+ +      -0.0847 * (normalized) FCTH140
+ +      -0.0004 * (normalized) FCTH143
+ +      -0.1012 * (normalized) FCTH144
+ +      -0.0036 * (normalized) FCTH145
+ +      -0.0004 * (normalized) FCTH146
+ +       0.0557 * (normalized) FCTH148
+ +      -0.1689 * (normalized) FCTH162
+ +      -0.0004 * (normalized) FCTH165
+ +      -0.0004 * (normalized) FCTH167
+ +      -0.0733 * (normalized) FCTH168
+ +      -0.0796 * (normalized) FCTH169
+ +      -0.0995 * (normalized) FCTH170
+ +       0.0762 * (normalized) FCTH171
+ +       0.0557 * (normalized) FCTH172
+ +      -0.0062 * (normalized) FCTH173
+ +       0      * (normalized) FCTH174
+ +       0.0641 * (normalized) FCTH176
+ +      -0.0353 * (normalized) FCTH183
+ +      -0.0353 * (normalized) FCTH185
+ +      -0.1779 * (normalized) FCTH186
+ +      -0.1227 * (normalized) FCTH188
+ +      -0.0004 * (normalized) FCTH189
+ +      -0.199  * (normalized) FCTH191
+ -       1.0304
+
+Number of kernel evaluations: 4201 (92.114% cached)
+
+Classifier for classes: K4, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0524 * (normalized) FCTH0
+ +       0.0397 * (normalized) FCTH1
+ +      -0.1286 * (normalized) FCTH2
+ +      -0.1285 * (normalized) FCTH3
+ +      -0.0793 * (normalized) FCTH4
+ +      -0.401  * (normalized) FCTH5
+ +      -0.1591 * (normalized) FCTH6
+ +      -0.1262 * (normalized) FCTH7
+ +       0.0174 * (normalized) FCTH8
+ +       0.1072 * (normalized) FCTH9
+ +      -0.0125 * (normalized) FCTH10
+ +       0.0443 * (normalized) FCTH11
+ +      -0.0455 * (normalized) FCTH12
+ +       0.0798 * (normalized) FCTH13
+ +       0.1199 * (normalized) FCTH14
+ +      -0.0667 * (normalized) FCTH15
+ +      -0.0458 * (normalized) FCTH16
+ +       0.0223 * (normalized) FCTH17
+ +      -0.0495 * (normalized) FCTH18
+ +       0.7762 * (normalized) FCTH19
+ +       0.261  * (normalized) FCTH20
+ +      -0.0039 * (normalized) FCTH21
+ +      -0.0309 * (normalized) FCTH23
+ +       0.006  * (normalized) FCTH24
+ +       0.0836 * (normalized) FCTH25
+ +      -0.201  * (normalized) FCTH26
+ +      -0.0604 * (normalized) FCTH27
+ +      -0.0335 * (normalized) FCTH28
+ +      -0.0386 * (normalized) FCTH29
+ +       0.0009 * (normalized) FCTH30
+ +      -0.0235 * (normalized) FCTH31
+ +      -0.0329 * (normalized) FCTH32
+ +       0.1693 * (normalized) FCTH33
+ +       0      * (normalized) FCTH34
+ +      -0.0447 * (normalized) FCTH35
+ +       0.1066 * (normalized) FCTH36
+ +       0.4675 * (normalized) FCTH38
+ +      -0.0437 * (normalized) FCTH39
+ +      -0.0148 * (normalized) FCTH41
+ +       0.0515 * (normalized) FCTH42
+ +       0.391  * (normalized) FCTH43
+ +       0.1998 * (normalized) FCTH44
+ +      -0.0185 * (normalized) FCTH45
+ +      -0.0185 * (normalized) FCTH47
+ +      -0.0241 * (normalized) FCTH48
+ +       0.0931 * (normalized) FCTH49
+ +      -0.1445 * (normalized) FCTH50
+ +      -0.06   * (normalized) FCTH51
+ +      -0.0503 * (normalized) FCTH52
+ +      -0.0314 * (normalized) FCTH53
+ +      -0.0659 * (normalized) FCTH54
+ +      -0.0074 * (normalized) FCTH55
+ +       0.0666 * (normalized) FCTH56
+ +      -0      * (normalized) FCTH58
+ +      -0.0752 * (normalized) FCTH59
+ +       0.0747 * (normalized) FCTH60
+ +      -0.1002 * (normalized) FCTH62
+ +      -0.0437 * (normalized) FCTH63
+ +      -0.1353 * (normalized) FCTH65
+ +       0.0162 * (normalized) FCTH66
+ +       0.6505 * (normalized) FCTH67
+ +       0.0204 * (normalized) FCTH68
+ +      -0.0195 * (normalized) FCTH69
+ +      -0.063  * (normalized) FCTH71
+ +       0.1151 * (normalized) FCTH72
+ +       0.0044 * (normalized) FCTH73
+ +      -0.0571 * (normalized) FCTH74
+ +      -0.0722 * (normalized) FCTH75
+ +      -0.0196 * (normalized) FCTH78
+ +      -0.0161 * (normalized) FCTH79
+ +      -0.0235 * (normalized) FCTH80
+ +       0.4137 * (normalized) FCTH81
+ +       0      * (normalized) FCTH82
+ +      -0.0752 * (normalized) FCTH83
+ +       0.1494 * (normalized) FCTH84
+ +       0.2816 * (normalized) FCTH86
+ +      -0.0437 * (normalized) FCTH87
+ +      -0.0437 * (normalized) FCTH89
+ +      -0.0117 * (normalized) FCTH90
+ +       0.0583 * (normalized) FCTH91
+ +       0.0395 * (normalized) FCTH92
+ +       0      * (normalized) FCTH93
+ +      -0.037  * (normalized) FCTH95
+ +      -0.0415 * (normalized) FCTH96
+ +       0.1468 * (normalized) FCTH97
+ +      -0.0593 * (normalized) FCTH98
+ +      -0.0439 * (normalized) FCTH102
+ +      -0.0437 * (normalized) FCTH111
+ +      -0.0437 * (normalized) FCTH113
+ +      -0.0664 * (normalized) FCTH114
+ +       0.0031 * (normalized) FCTH115
+ +      -0.0886 * (normalized) FCTH116
+ +      -0.0415 * (normalized) FCTH120
+ +       0.0494 * (normalized) FCTH121
+ +      -0.0296 * (normalized) FCTH122
+ +       0      * (normalized) FCTH125
+ +      -0.0219 * (normalized) FCTH126
+ +      -0.0184 * (normalized) FCTH128
+ +       0.1494 * (normalized) FCTH134
+ +      -0.0437 * (normalized) FCTH135
+ +      -0.0437 * (normalized) FCTH137
+ +      -0.0994 * (normalized) FCTH138
+ +       0.0031 * (normalized) FCTH139
+ +      -0.074  * (normalized) FCTH140
+ +      -0.0415 * (normalized) FCTH144
+ +      -0.0213 * (normalized) FCTH145
+ +      -0.0593 * (normalized) FCTH146
+ +      -0.0664 * (normalized) FCTH162
+ +      -0.0223 * (normalized) FCTH164
+ +      -0.0415 * (normalized) FCTH168
+ +       0.0111 * (normalized) FCTH169
+ +      -0.0408 * (normalized) FCTH170
+ +      -0.0185 * (normalized) FCTH173
+ +      -0.0063 * (normalized) FCTH174
+ +      -0.0073 * (normalized) FCTH176
+ +      -0.0437 * (normalized) FCTH183
+ +      -0.0437 * (normalized) FCTH185
+ +      -0.0884 * (normalized) FCTH186
+ +       0.0031 * (normalized) FCTH187
+ +      -0.0567 * (normalized) FCTH188
+ +      -0      * (normalized) FCTH191
+ -       0.8113
+
+Number of kernel evaluations: 1429 (82.206% cached)
+
+Classifier for classes: K4, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K4, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K5, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0308 * (normalized) FCTH0
+ +      -0.0212 * (normalized) FCTH1
+ +       0.4629 * (normalized) FCTH2
+ +      -0.2244 * (normalized) FCTH3
+ +      -0.6045 * (normalized) FCTH4
+ +      -0.7498 * (normalized) FCTH5
+ +      -0.1364 * (normalized) FCTH6
+ +      -0.1806 * (normalized) FCTH7
+ +      -0.0183 * (normalized) FCTH8
+ +       0.0096 * (normalized) FCTH9
+ +      -0.1263 * (normalized) FCTH10
+ +      -0.2249 * (normalized) FCTH11
+ +       0.0568 * (normalized) FCTH12
+ +       0.119  * (normalized) FCTH13
+ +       0.0373 * (normalized) FCTH14
+ +       0.0011 * (normalized) FCTH15
+ +      -0.0121 * (normalized) FCTH16
+ +       0.1069 * (normalized) FCTH17
+ +       0.0211 * (normalized) FCTH18
+ +       0.5959 * (normalized) FCTH19
+ +       0.2648 * (normalized) FCTH20
+ +      -0.0307 * (normalized) FCTH21
+ +      -0.05   * (normalized) FCTH22
+ +      -0.2948 * (normalized) FCTH23
+ +       0.1929 * (normalized) FCTH24
+ +      -0.2876 * (normalized) FCTH25
+ +      -0.2613 * (normalized) FCTH26
+ +      -0.1916 * (normalized) FCTH27
+ +      -0.304  * (normalized) FCTH28
+ +      -0.3134 * (normalized) FCTH29
+ +       0.0373 * (normalized) FCTH30
+ +       0      * (normalized) FCTH31
+ +       0.0477 * (normalized) FCTH32
+ +       0.1419 * (normalized) FCTH33
+ +      -0.1045 * (normalized) FCTH34
+ +       0.0374 * (normalized) FCTH35
+ +       0.2245 * (normalized) FCTH36
+ +       0      * (normalized) FCTH37
+ +       0.4354 * (normalized) FCTH38
+ +       0.0705 * (normalized) FCTH41
+ +       0.024  * (normalized) FCTH42
+ +       0.3386 * (normalized) FCTH43
+ +       0.471  * (normalized) FCTH44
+ +      -0.0389 * (normalized) FCTH45
+ +      -0.2466 * (normalized) FCTH47
+ +      -0.0314 * (normalized) FCTH48
+ +      -0.0493 * (normalized) FCTH49
+ +      -0.1121 * (normalized) FCTH50
+ +      -0.1    * (normalized) FCTH51
+ +      -0.2189 * (normalized) FCTH52
+ +      -0.4033 * (normalized) FCTH53
+ +      -0.0809 * (normalized) FCTH54
+ +       0      * (normalized) FCTH55
+ +       0.1116 * (normalized) FCTH56
+ +       0      * (normalized) FCTH57
+ +       0      * (normalized) FCTH58
+ +      -0.209  * (normalized) FCTH59
+ +       0.0826 * (normalized) FCTH60
+ +       0      * (normalized) FCTH61
+ +      -0.0546 * (normalized) FCTH62
+ +      -0.0803 * (normalized) FCTH66
+ +       0.5039 * (normalized) FCTH67
+ +       0.1913 * (normalized) FCTH68
+ +      -0.0241 * (normalized) FCTH69
+ +      -0.0888 * (normalized) FCTH71
+ +       0.0427 * (normalized) FCTH72
+ +      -0.1698 * (normalized) FCTH73
+ +      -0.1249 * (normalized) FCTH74
+ +      -0.0871 * (normalized) FCTH75
+ +      -0.0613 * (normalized) FCTH76
+ +      -0.0444 * (normalized) FCTH77
+ +      -0      * (normalized) FCTH78
+ +       0      * (normalized) FCTH80
+ +       0.5581 * (normalized) FCTH81
+ +       0      * (normalized) FCTH82
+ +       0      * (normalized) FCTH83
+ +       0.1651 * (normalized) FCTH84
+ +       0.3616 * (normalized) FCTH86
+ +       0.0297 * (normalized) FCTH90
+ +       0.157  * (normalized) FCTH91
+ +       0.0681 * (normalized) FCTH92
+ +      -0.0241 * (normalized) FCTH93
+ +      -0.0888 * (normalized) FCTH95
+ +      -0.0129 * (normalized) FCTH96
+ +       0.0992 * (normalized) FCTH97
+ +      -0.0241 * (normalized) FCTH98
+ +      -0.05   * (normalized) FCTH99
+ +      -0.0871 * (normalized) FCTH100
+ +       0      * (normalized) FCTH110
+ +      -0.1836 * (normalized) FCTH114
+ +      -0.0613 * (normalized) FCTH115
+ +      -0.0167 * (normalized) FCTH120
+ +      -0.0304 * (normalized) FCTH121
+ +      -0.1874 * (normalized) FCTH122
+ +      -0.0556 * (normalized) FCTH123
+ +      -0.0871 * (normalized) FCTH124
+ +       0      * (normalized) FCTH125
+ +       0      * (normalized) FCTH130
+ +       0.1651 * (normalized) FCTH134
+ +      -0.0075 * (normalized) FCTH139
+ +      -0.0129 * (normalized) FCTH144
+ +      -0.0939 * (normalized) FCTH145
+ +      -0.0258 * (normalized) FCTH147
+ +      -0.0075 * (normalized) FCTH148
+ +      -0.0167 * (normalized) FCTH168
+ +      -0.0729 * (normalized) FCTH169
+ +      -0.0556 * (normalized) FCTH171
+ +      -0.0613 * (normalized) FCTH172
+ +      -0.0077 * (normalized) FCTH174
+ +       0      * (normalized) FCTH178
+ +       0      * (normalized) FCTH182
+ -       1.033 
+
+Number of kernel evaluations: 1682 (86.043% cached)
+
+Classifier for classes: K5, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K5, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K6, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K6, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K7, K8
+
+BinarySMO: No model built yet.
+
+
+
+
+Time taken to build model: 0.31 seconds
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         386               92.7885 %
+Incorrectly Classified Instances        30                7.2115 %
+Kappa statistic                          0.9059
+Mean absolute error                      0.1859
+Root mean squared error                  0.291 
+Relative absolute error                 94.9871 %
+Root relative squared error             93.1277 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.419    0.000    1.000      0.419    0.590      0.626    0.892     0.556     K1
+                 0.993    0.093    0.855      0.993    0.919      0.875    0.953     0.854     K2
+                 0.974    0.009    0.961      0.974    0.967      0.960    0.993     0.950     K3
+                 0.967    0.006    0.967      0.967    0.967      0.962    0.993     0.948     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.928    0.036    0.936      0.928    0.918      0.904    0.970     0.885     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  18  25   0   0   0   0   0   0 |   a = K1
+   0 147   1   0   0   0   0   0 |   b = K2
+   0   0  74   2   0   0   0   0 |   c = K3
+   0   0   2  59   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.71 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         352               84.6154 %
+Incorrectly Classified Instances        64               15.3846 %
+Kappa statistic                          0.7994
+Mean absolute error                      0.187 
+Root mean squared error                  0.2929
+Relative absolute error                 95.5351 %
+Root relative squared error             93.7374 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.326    0.024    0.609      0.326    0.424      0.402    0.838     0.362     K1
+                 0.939    0.119    0.813      0.939    0.871      0.798    0.932     0.809     K2
+                 0.895    0.035    0.850      0.895    0.872      0.843    0.969     0.810     K3
+                 0.738    0.017    0.882      0.738    0.804      0.777    0.944     0.743     K4
+                 0.969    0.014    0.925      0.969    0.947      0.937    0.973     0.903     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.846    0.056    0.837      0.846    0.834      0.795    0.941     0.779     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  14  28   1   0   0   0   0   0 |   a = K1
+   7 139   1   0   1   0   0   0 |   b = K2
+   0   1  68   6   1   0   0   0 |   c = K3
+   2   1  10  45   3   0   0   0 |   d = K4
+   0   2   0   0  62   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

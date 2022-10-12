@@ -1,0 +1,183 @@
+
+Options: -C 0.25 -M 2 
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Auto Color Correlogram176 <= 0
+|   Auto Color Correlogram632 <= 0
+|   |   Auto Color Correlogram837 <= 0
+|   |   |   Auto Color Correlogram207 <= 0
+|   |   |   |   Auto Color Correlogram210 <= 0
+|   |   |   |   |   Auto Color Correlogram907 <= 1
+|   |   |   |   |   |   Auto Color Correlogram722 <= 0
+|   |   |   |   |   |   |   Auto Color Correlogram368 <= 1
+|   |   |   |   |   |   |   |   Auto Color Correlogram771 <= 0
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram52 <= 4
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram4 <= 10
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram0 <= 7: K5 (32.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram0 > 7: K3 (2.0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram4 > 10: K3 (3.0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram52 > 4: K3 (2.0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram771 > 0: K3 (2.0/1.0)
+|   |   |   |   |   |   |   Auto Color Correlogram368 > 1: K4 (2.0)
+|   |   |   |   |   |   Auto Color Correlogram722 > 0: K4 (2.0)
+|   |   |   |   |   Auto Color Correlogram907 > 1: K2 (2.0/1.0)
+|   |   |   |   Auto Color Correlogram210 > 0: K2 (7.0/1.0)
+|   |   |   Auto Color Correlogram207 > 0: K1 (2.0)
+|   |   Auto Color Correlogram837 > 0
+|   |   |   Auto Color Correlogram630 <= 1
+|   |   |   |   Auto Color Correlogram368 <= 1
+|   |   |   |   |   Auto Color Correlogram980 <= 4
+|   |   |   |   |   |   Auto Color Correlogram33 <= 2: K3 (8.0/1.0)
+|   |   |   |   |   |   Auto Color Correlogram33 > 2: K2 (7.0/1.0)
+|   |   |   |   |   Auto Color Correlogram980 > 4
+|   |   |   |   |   |   Auto Color Correlogram535 <= 1
+|   |   |   |   |   |   |   Auto Color Correlogram325 <= 0
+|   |   |   |   |   |   |   |   Auto Color Correlogram59 <= 13
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram926 <= 2
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram386 <= 4
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram930 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram987 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram918 <= 2: K2 (101.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram918 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram272 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram22 <= 0: K1 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram22 > 0: K2 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram272 > 1: K1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram987 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram844 <= 1: K1 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram844 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram786 <= 0: K2 (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram786 > 0: K1 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram930 > 0: K1 (3.0/2.0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram386 > 4
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram641 <= 5: K2 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram641 > 5: K1 (5.0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram926 > 2
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram581 <= 0: K1 (4.0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram581 > 0: K2 (3.0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram59 > 13: K1 (3.0/1.0)
+|   |   |   |   |   |   |   Auto Color Correlogram325 > 0: K1 (4.0/1.0)
+|   |   |   |   |   |   Auto Color Correlogram535 > 1: K2 (3.0/1.0)
+|   |   |   |   Auto Color Correlogram368 > 1: K3 (3.0/1.0)
+|   |   |   Auto Color Correlogram630 > 1: K5 (3.0/1.0)
+|   Auto Color Correlogram632 > 0
+|   |   Auto Color Correlogram615 <= 0: K5 (31.0)
+|   |   Auto Color Correlogram615 > 0: K6 (25.0/1.0)
+Auto Color Correlogram176 > 0
+|   Auto Color Correlogram146 <= 4
+|   |   Auto Color Correlogram997 <= 2
+|   |   |   Auto Color Correlogram881 <= 0
+|   |   |   |   Auto Color Correlogram786 <= 1
+|   |   |   |   |   Auto Color Correlogram23 <= 4
+|   |   |   |   |   |   Auto Color Correlogram459 <= 7
+|   |   |   |   |   |   |   Auto Color Correlogram976 <= 8
+|   |   |   |   |   |   |   |   Auto Color Correlogram4 <= 8: K4 (43.0/1.0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram4 > 8: K3 (3.0/1.0)
+|   |   |   |   |   |   |   Auto Color Correlogram976 > 8: K3 (4.0/1.0)
+|   |   |   |   |   |   Auto Color Correlogram459 > 7: K3 (2.0)
+|   |   |   |   |   Auto Color Correlogram23 > 4: K3 (2.0)
+|   |   |   |   Auto Color Correlogram786 > 1: K3 (2.0)
+|   |   |   Auto Color Correlogram881 > 0: K3 (2.0)
+|   |   Auto Color Correlogram997 > 2
+|   |   |   Auto Color Correlogram666 <= 0
+|   |   |   |   Auto Color Correlogram659 <= 0
+|   |   |   |   |   Auto Color Correlogram11 <= 0: K3 (40.0)
+|   |   |   |   |   Auto Color Correlogram11 > 0
+|   |   |   |   |   |   Auto Color Correlogram18 <= 1: K4 (3.0)
+|   |   |   |   |   |   Auto Color Correlogram18 > 1: K3 (3.0)
+|   |   |   |   Auto Color Correlogram659 > 0: K4 (2.0)
+|   |   |   Auto Color Correlogram666 > 0: K4 (4.0)
+|   Auto Color Correlogram146 > 4: K1 (2.0/1.0)
+
+Number of Leaves  : 	44
+
+Size of the tree : 	87
+
+
+Time taken to build model: 0.63 seconds
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         394               94.7115 %
+Incorrectly Classified Instances        22                5.2885 %
+Kappa statistic                          0.9323
+Mean absolute error                      0.0199
+Root mean squared error                  0.0997
+Relative absolute error                 10.1597 %
+Root relative squared error             31.9098 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.860    0.016    0.860      0.860    0.860      0.844    0.978     0.904     K1
+                 0.953    0.026    0.953      0.953    0.953      0.927    0.992     0.976     K2
+                 0.961    0.015    0.936      0.961    0.948      0.936    0.997     0.986     K3
+                 0.902    0.003    0.982      0.902    0.940      0.932    0.997     0.972     K4
+                 1.000    0.006    0.970      1.000    0.985      0.982    0.999     0.991     K5
+                 1.000    0.003    0.960      1.000    0.980      0.979    0.999     0.960     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.947    0.015    0.947      0.947    0.947      0.932    0.994     0.971     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  37   5   0   0   0   1   0   0 |   a = K1
+   5 141   1   0   1   0   0   0 |   b = K2
+   0   2  73   1   0   0   0   0 |   c = K3
+   1   0   4  55   1   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 1.89 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         284               68.2692 %
+Incorrectly Classified Instances       132               31.7308 %
+Kappa statistic                          0.5923
+Mean absolute error                      0.084 
+Root mean squared error                  0.2712
+Relative absolute error                 42.8966 %
+Root relative squared error             86.8002 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.140    0.078    0.171      0.140    0.154      0.068    0.635     0.145     K1
+                 0.736    0.160    0.717      0.736    0.727      0.573    0.803     0.620     K2
+                 0.645    0.071    0.671      0.645    0.658      0.583    0.856     0.599     K3
+                 0.590    0.062    0.621      0.590    0.605      0.539    0.843     0.522     K4
+                 0.938    0.037    0.822      0.938    0.876      0.854    0.974     0.877     K5
+                 1.000    0.003    0.960      1.000    0.980      0.979    0.998     0.920     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.683    0.093    0.668      0.683    0.675      0.584    0.839     0.609     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+   6  33   1   1   2   0   0   0 |   a = K1
+  28 109   2   3   6   0   0   0 |   b = K2
+   1   6  49  17   3   0   0   0 |   c = K3
+   0   1  21  36   2   1   0   0 |   d = K4
+   0   3   0   1  60   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

@@ -1,0 +1,261 @@
+
+Options: -I -1 -M 15 -W 0.0 
+
+=== Classifier model (full training set) ===
+
+Logistic model tree 
+------------------
+: LM_1:49/49 (416)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class K1 :
+-2.78 + 
+[FCTH0] * 0.06 +
+[FCTH3] * 0.47 +
+[FCTH5] * 0.46 +
+[FCTH9] * -0.31 +
+[FCTH10] * -2.3 +
+[FCTH11] * 0.2  +
+[FCTH12] * -1.41 +
+[FCTH15] * -2.92 +
+[FCTH17] * -0.51 +
+[FCTH18] * -0.37 +
+[FCTH22] * -0.99 +
+[FCTH23] * 0.08 +
+[FCTH24] * -0.44 +
+[FCTH30] * 1.04 +
+[FCTH32] * -0.75 +
+[FCTH44] * 1.2  +
+[FCTH45] * 2.62 +
+[FCTH49] * -0.87 +
+[FCTH51] * 0.45 +
+[FCTH53] * 1.06 +
+[FCTH54] * -2.08 +
+[FCTH66] * -2.6 +
+[FCTH69] * 1.78 +
+[FCTH73] * -2.2
+
+Class K2 :
+-2.44 + 
+[FCTH0] * 0.16 +
+[FCTH1] * -0.06 +
+[FCTH4] * 0.11 +
+[FCTH5] * 0.71 +
+[FCTH7] * -0.05 +
+[FCTH8] * 0.14 +
+[FCTH9] * 0.28 +
+[FCTH10] * -3.08 +
+[FCTH12] * -1.33 +
+[FCTH14] * -0.26 +
+[FCTH15] * -4.17 +
+[FCTH17] * -0.45 +
+[FCTH18] * -0.17 +
+[FCTH19] * -0.47 +
+[FCTH20] * -0.12 +
+[FCTH21] * 0.24 +
+[FCTH23] * 0.08 +
+[FCTH24] * 0.64 +
+[FCTH27] * 0.3  +
+[FCTH28] * 0.43 +
+[FCTH31] * 1.1  +
+[FCTH45] * -0.75 +
+[FCTH47] * -0.98 +
+[FCTH48] * -2.78 +
+[FCTH49] * -0.68 +
+[FCTH51] * -0.5 +
+[FCTH53] * -2.32 +
+[FCTH73] * 1.17
+
+Class K3 :
+2.13 + 
+[FCTH0] * -0.74 +
+[FCTH2] * 0.1  +
+[FCTH5] * -0.26 +
+[FCTH6] * -0.08 +
+[FCTH7] * 0.33 +
+[FCTH8] * -0.12 +
+[FCTH9] * -1.29 +
+[FCTH10] * -0.31 +
+[FCTH11] * -0.19 +
+[FCTH12] * -0.5 +
+[FCTH14] * -0.24 +
+[FCTH16] * 0.34 +
+[FCTH17] * 0.55 +
+[FCTH18] * 0.17 +
+[FCTH19] * -0.21 +
+[FCTH20] * -0.34 +
+[FCTH23] * -0.06 +
+[FCTH25] * 0.23 +
+[FCTH26] * 0.48 +
+[FCTH29] * 1.08 +
+[FCTH30] * -1.85 +
+[FCTH31] * -1.15 +
+[FCTH42] * -1.18 +
+[FCTH49] * 0.62 +
+[FCTH52] * 1.37 +
+[FCTH66] * 3.06 +
+[FCTH75] * 1.09
+
+Class K4 :
+-1.44 + 
+[FCTH0] * -0.28 +
+[FCTH2] * 0.38 +
+[FCTH3] * -0.33 +
+[FCTH4] * -0.08 +
+[FCTH5] * -0.28 +
+[FCTH7] * 0.24 +
+[FCTH10] * 1.38 +
+[FCTH15] * 0.16 +
+[FCTH16] * 0.81 +
+[FCTH17] * 0.62 +
+[FCTH18] * 0.29 +
+[FCTH23] * -0.48 +
+[FCTH27] * -0.92 +
+[FCTH28] * 0.9  +
+[FCTH29] * 0.68 +
+[FCTH30] * 0.67 +
+[FCTH32] * 0.85 +
+[FCTH44] * 0.55 +
+[FCTH45] * -1.03 +
+[FCTH47] * 1.01 +
+[FCTH48] * 1.65 +
+[FCTH49] * 1.26 +
+[FCTH51] * 0.58 +
+[FCTH68] * 3.44 +
+[FCTH71] * 2.1 
+
+Class K5 :
+-12.26 + 
+[FCTH0] * 0.34 +
+[FCTH1] * 1.63 +
+[FCTH2] * -0.48 +
+[FCTH4] * -0.16 +
+[FCTH5] * 0.12 +
+[FCTH6] * 0.46 +
+[FCTH7] * -0.23 +
+[FCTH11] * 0.22 +
+[FCTH12] * 0.46 +
+[FCTH14] * 0.41 +
+[FCTH16] * -1.17 +
+[FCTH19] * 1.81 +
+[FCTH20] * 0.16 +
+[FCTH21] * -1.19 +
+[FCTH22] * 3.4  +
+[FCTH23] * 0.39 +
+[FCTH25] * 0.47 +
+[FCTH27] * -0.74 +
+[FCTH28] * -1.13 +
+[FCTH29] * 0.69 +
+[FCTH30] * -1.46
+
+Class K6 :
+-26.96 + 
+[FCTH1] * 0.36 +
+[FCTH3] * -1.21 +
+[FCTH5] * -0.33 +
+[FCTH12] * 3.45 +
+[FCTH15] * 0.71 +
+[FCTH17] * 1.18 +
+[FCTH19] * 4.92 +
+[FCTH20] * 2.61 +
+[FCTH23] * -7.54
+
+Class K7 :
+-43.1 + 
+[FCTH5] * 0.01 +
+[FCTH51] * -0 +
+[FCTH75] * -0
+
+Class K8 :
+-43.1 + 
+[FCTH5] * 0.01 +
+[FCTH51] * -0 +
+[FCTH75] * -0
+
+
+Time taken to build model: 2.54 seconds
+
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         353               84.8558 %
+Incorrectly Classified Instances        63               15.1442 %
+Kappa statistic                          0.8006
+Mean absolute error                      0.0616
+Root mean squared error                  0.164 
+Relative absolute error                 31.4713 %
+Root relative squared error             52.4935 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.256    0.005    0.846      0.256    0.393      0.438    0.907     0.594     K1
+                 0.973    0.149    0.783      0.973    0.867      0.794    0.966     0.931     K2
+                 0.829    0.038    0.829      0.829    0.829      0.791    0.983     0.932     K3
+                 0.770    0.020    0.870      0.770    0.817      0.790    0.978     0.916     K4
+                 1.000    0.003    0.985      1.000    0.992      0.991    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.849    0.064    0.854      0.849    0.831      0.798    0.972     0.909     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  11  32   0   0   0   0   0   0 |   a = K1
+   2 144   1   0   1   0   0   0 |   b = K2
+   0   6  63   7   0   0   0   0 |   c = K3
+   0   2  12  47   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 12.96 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         317               76.2019 %
+Incorrectly Classified Instances        99               23.7981 %
+Kappa statistic                          0.6886
+Mean absolute error                      0.0807
+Root mean squared error                  0.2153
+Relative absolute error                 41.226  %
+Root relative squared error             68.9058 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.233    0.027    0.500      0.233    0.317      0.293    0.776     0.318     K1
+                 0.919    0.149    0.773      0.919    0.840      0.746    0.929     0.837     K2
+                 0.697    0.074    0.679      0.697    0.688      0.618    0.904     0.679     K3
+                 0.492    0.056    0.600      0.492    0.541      0.474    0.888     0.579     K4
+                 1.000    0.011    0.941      1.000    0.970      0.965    0.998     0.988     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.762    0.079    0.741      0.762    0.743      0.684    0.917     0.749     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  10  30   2   1   0   0   0   0 |   a = K1
+   7 136   0   3   2   0   0   0 |   b = K2
+   2   5  53  16   0   0   0   0 |   c = K3
+   1   5  23  30   2   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

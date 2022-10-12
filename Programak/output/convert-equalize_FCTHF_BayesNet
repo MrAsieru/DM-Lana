@@ -1,0 +1,292 @@
+
+Options: -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 3 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5 
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=193 #classindex=192
+Network structure (nodes followed by parents)
+FCTH0(4): class 
+FCTH1(2): class FCTH0 
+FCTH2(2): class 
+FCTH3(4): class 
+FCTH4(3): class FCTH2 
+FCTH5(2): class FCTH4 FCTH1 
+FCTH6(3): class FCTH0 FCTH3 
+FCTH7(2): class FCTH6 FCTH4 
+FCTH8(2): class FCTH7 FCTH6 
+FCTH9(2): class FCTH6 FCTH0 
+FCTH10(1): class 
+FCTH11(3): class FCTH8 FCTH9 
+FCTH12(2): class FCTH9 
+FCTH13(2): class FCTH11 FCTH12 
+FCTH14(3): class FCTH13 FCTH11 
+FCTH15(3): class FCTH5 FCTH2 
+FCTH16(4): class FCTH15 FCTH13 
+FCTH17(2): class FCTH15 FCTH16 
+FCTH18(1): class 
+FCTH19(3): class FCTH16 
+FCTH20(2): class FCTH19 FCTH14 
+FCTH21(4): class FCTH7 FCTH9 
+FCTH22(2): class FCTH21 FCTH19 
+FCTH23(2): class FCTH21 FCTH13 
+FCTH24(1): class 
+FCTH25(2): class FCTH13 FCTH19 
+FCTH26(2): class FCTH6 FCTH2 
+FCTH27(2): class FCTH3 
+FCTH28(2): class FCTH4 FCTH27 
+FCTH29(3): class FCTH5 FCTH2 
+FCTH30(1): class 
+FCTH31(2): class FCTH7 FCTH21 
+FCTH32(1): class 
+FCTH33(2): class FCTH9 FCTH0 
+FCTH34(2): class FCTH13 FCTH0 
+FCTH35(2): class FCTH11 FCTH13 
+FCTH36(2): class FCTH12 FCTH9 
+FCTH37(2): class FCTH13 FCTH34 
+FCTH38(3): class FCTH14 
+FCTH39(2): class FCTH15 FCTH37 
+FCTH40(2): class FCTH16 
+FCTH41(1): class 
+FCTH42(2): class FCTH19 FCTH21 
+FCTH43(2): class FCTH42 FCTH19 
+FCTH44(1): class 
+FCTH45(2): class FCTH21 FCTH42 
+FCTH46(2): class FCTH43 FCTH22 
+FCTH47(1): class 
+FCTH48(1): class 
+FCTH49(3): class FCTH25 FCTH39 
+FCTH50(2): class FCTH26 FCTH33 
+FCTH51(2): class FCTH27 FCTH43 
+FCTH52(1): class 
+FCTH53(2): class FCTH29 FCTH5 
+FCTH54(1): class 
+FCTH55(1): class 
+FCTH56(1): class 
+FCTH57(2): class FCTH33 FCTH37 
+FCTH58(2): class FCTH34 
+FCTH59(2): class FCTH35 
+FCTH60(2): class FCTH12 FCTH37 
+FCTH61(2): class FCTH34 
+FCTH62(2): class FCTH13 
+FCTH63(2): class FCTH39 FCTH40 
+FCTH64(2): class FCTH40 
+FCTH65(1): class 
+FCTH66(2): class FCTH42 FCTH60 
+FCTH67(2): class FCTH43 
+FCTH68(2): class FCTH66 FCTH67 
+FCTH69(2): class FCTH45 FCTH46 
+FCTH70(2): class FCTH46 
+FCTH71(2): class FCTH69 FCTH39 
+FCTH72(2): class FCTH25 FCTH15 
+FCTH73(3): class FCTH49 FCTH72 
+FCTH74(2): class FCTH50 FCTH72 
+FCTH75(2): class FCTH51 FCTH2 
+FCTH76(1): class 
+FCTH77(2): class FCTH75 FCTH69 
+FCTH78(1): class 
+FCTH79(1): class 
+FCTH80(1): class 
+FCTH81(1): class 
+FCTH82(2): class FCTH34 FCTH59 
+FCTH83(2): class FCTH59 FCTH61 
+FCTH84(2): class FCTH60 
+FCTH85(2): class FCTH61 
+FCTH86(2): class FCTH37 FCTH83 
+FCTH87(1): class 
+FCTH88(2): class FCTH64 FCTH84 
+FCTH89(1): class 
+FCTH90(2): class FCTH66 FCTH72 
+FCTH91(2): class FCTH67 FCTH14 
+FCTH92(1): class 
+FCTH93(2): class FCTH69 FCTH72 
+FCTH94(1): class 
+FCTH95(1): class 
+FCTH96(1): class 
+FCTH97(2): class FCTH73 FCTH74 
+FCTH98(2): class FCTH2 FCTH74 
+FCTH99(1): class 
+FCTH100(2): class FCTH75 
+FCTH101(1): class 
+FCTH102(1): class 
+FCTH103(1): class 
+FCTH104(1): class 
+FCTH105(1): class 
+FCTH106(1): class 
+FCTH107(1): class 
+FCTH108(1): class 
+FCTH109(1): class 
+FCTH110(1): class 
+FCTH111(1): class 
+FCTH112(1): class 
+FCTH113(1): class 
+FCTH114(1): class 
+FCTH115(1): class 
+FCTH116(1): class 
+FCTH117(1): class 
+FCTH118(1): class 
+FCTH119(1): class 
+FCTH120(1): class 
+FCTH121(3): class FCTH97 FCTH100 
+FCTH122(2): class FCTH74 FCTH98 
+FCTH123(2): class FCTH100 FCTH72 
+FCTH124(2): class FCTH100 FCTH74 
+FCTH125(2): class FCTH77 FCTH123 
+FCTH126(1): class 
+FCTH127(1): class 
+FCTH128(1): class 
+FCTH129(1): class 
+FCTH130(1): class 
+FCTH131(1): class 
+FCTH132(1): class 
+FCTH133(1): class 
+FCTH134(1): class 
+FCTH135(1): class 
+FCTH136(1): class 
+FCTH137(1): class 
+FCTH138(1): class 
+FCTH139(1): class 
+FCTH140(1): class 
+FCTH141(1): class 
+FCTH142(1): class 
+FCTH143(1): class 
+FCTH144(1): class 
+FCTH145(2): class FCTH97 
+FCTH146(1): class 
+FCTH147(1): class 
+FCTH148(1): class 
+FCTH149(1): class 
+FCTH150(1): class 
+FCTH151(1): class 
+FCTH152(1): class 
+FCTH153(1): class 
+FCTH154(1): class 
+FCTH155(1): class 
+FCTH156(1): class 
+FCTH157(1): class 
+FCTH158(1): class 
+FCTH159(1): class 
+FCTH160(1): class 
+FCTH161(1): class 
+FCTH162(1): class 
+FCTH163(1): class 
+FCTH164(1): class 
+FCTH165(1): class 
+FCTH166(1): class 
+FCTH167(1): class 
+FCTH168(1): class 
+FCTH169(2): class FCTH121 FCTH2 
+FCTH170(1): class 
+FCTH171(1): class 
+FCTH172(2): class FCTH124 
+FCTH173(2): class FCTH125 
+FCTH174(1): class 
+FCTH175(1): class 
+FCTH176(1): class 
+FCTH177(1): class 
+FCTH178(1): class 
+FCTH179(1): class 
+FCTH180(1): class 
+FCTH181(1): class 
+FCTH182(1): class 
+FCTH183(1): class 
+FCTH184(1): class 
+FCTH185(1): class 
+FCTH186(1): class 
+FCTH187(1): class 
+FCTH188(1): class 
+FCTH189(1): class 
+FCTH190(1): class 
+FCTH191(1): class 
+class(8): 
+LogScore Bayes: -10556.57835735795
+LogScore BDeu: -26895.64297708293
+LogScore MDL: -23845.20133105713
+LogScore ENTROPY: -12124.564527740442
+LogScore AIC: -16011.56452774045
+
+
+Time taken to build model: 0.41 seconds
+
+Time taken to test model on training data: 0.07 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         392               94.2308 %
+Incorrectly Classified Instances        24                5.7692 %
+Kappa statistic                          0.9255
+Mean absolute error                      0.0184
+Root mean squared error                  0.1009
+Relative absolute error                  9.4225 %
+Root relative squared error             32.3109 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.674    0.011    0.879      0.674    0.763      0.748    0.986     0.902     K1
+                 0.973    0.052    0.911      0.973    0.941      0.908    0.994     0.989     K2
+                 0.974    0.012    0.949      0.974    0.961      0.952    0.998     0.992     K3
+                 0.934    0.006    0.966      0.934    0.950      0.942    0.998     0.990     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.942    0.023    0.942      0.942    0.940      0.924    0.996     0.983     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  29  14   0   0   0   0   0   0 |   a = K1
+   4 144   0   0   0   0   0   0 |   b = K2
+   0   0  74   2   0   0   0   0 |   c = K3
+   0   0   4  57   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 1.65 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         337               81.0096 %
+Incorrectly Classified Instances        79               18.9904 %
+Kappa statistic                          0.7533
+Mean absolute error                      0.0512
+Root mean squared error                  0.198 
+Relative absolute error                 26.159  %
+Root relative squared error             63.3795 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.256    0.043    0.407      0.256    0.314      0.263    0.870     0.402     K1
+                 0.899    0.119    0.806      0.899    0.850      0.763    0.954     0.905     K2
+                 0.855    0.056    0.774      0.855    0.813      0.769    0.974     0.889     K3
+                 0.705    0.034    0.782      0.705    0.741      0.701    0.967     0.821     K4
+                 0.969    0.000    1.000      0.969    0.984      0.981    1.000     0.999     K5
+                 0.958    0.000    1.000      0.958    0.979      0.978    1.000     0.994     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.810    0.062    0.796      0.810    0.800      0.749    0.961     0.857     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  11  30   1   1   0   0   0   0 |   a = K1
+  15 133   0   0   0   0   0   0 |   b = K2
+   1   0  65  10   0   0   0   0 |   c = K3
+   0   0  18  43   0   0   0   0 |   d = K4
+   0   2   0   0  62   0   0   0 |   e = K5
+   0   0   0   1   0  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

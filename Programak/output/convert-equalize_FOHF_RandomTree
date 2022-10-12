@@ -1,0 +1,407 @@
+
+Options: -K 0 -M 1.0 -V 0.001 -S 1 
+
+=== Classifier model (full training set) ===
+
+
+RandomTree
+==========
+
+Fuzzy Opponent Histogram18 < 11.5
+|   Fuzzy Opponent Histogram30 < 0.5
+|   |   Fuzzy Opponent Histogram22 < 6.5
+|   |   |   Fuzzy Opponent Histogram119 < 1
+|   |   |   |   Fuzzy Opponent Histogram15 < 1.5
+|   |   |   |   |   Fuzzy Opponent Histogram91 < 1
+|   |   |   |   |   |   Fuzzy Opponent Histogram32 < 72.5
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram64 < 0.5
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram17 < 6.5
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 < 4.5
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram18 < 6.5
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 < 3.5
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 < 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 < 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram31 < 19 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram31 >= 19 : K3 (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 >= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram31 < 5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram31 >= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 < 3 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 >= 3 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 >= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram35 < 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 < 2.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 >= 2.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram35 >= 14 : K3 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 >= 3.5
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 < 15 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 >= 15 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram18 >= 6.5
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram15 < 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 < 0.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 >= 0.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram15 >= 0.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 >= 4.5 : K3 (5/0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram17 >= 6.5
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram9 < 0.5
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram31 < 15.5
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 < 6
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram1 < 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram31 < 10.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram17 < 8.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram21 < 2.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram21 >= 2.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram17 >= 8.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 < 24.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram20 < 0.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram20 >= 0.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 >= 24.5 : K4 (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram31 >= 10.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram1 >= 0.5 : K5 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 >= 6
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 < 3.5 : K1 (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 >= 3.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram7 < 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 < 14.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 >= 14.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram7 >= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram7 < 11.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram7 >= 11.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram31 >= 15.5
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 < 13.5 : K2 (6/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 >= 13.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 >= 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram17 < 100
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram27 < 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 < 0.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 >= 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 < 9.5 : K4 (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 >= 9.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 < 3 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 >= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 < 6.5 : K4 (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 >= 6.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram27 >= 0.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram17 >= 100 : K2 (3/0)
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram9 >= 0.5
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 < 109.5 : K2 (6/0)
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 >= 109.5
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 < 2.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 >= 2.5 : K2 (1/0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram64 >= 0.5 : K3 (2/0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram32 >= 72.5 : K1 (2/0)
+|   |   |   |   |   Fuzzy Opponent Histogram91 >= 1
+|   |   |   |   |   |   Fuzzy Opponent Histogram27 < 2 : K3 (1/0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram27 >= 2 : K4 (1/0)
+|   |   |   |   Fuzzy Opponent Histogram15 >= 1.5 : K5 (2/0)
+|   |   |   Fuzzy Opponent Histogram119 >= 1
+|   |   |   |   Fuzzy Opponent Histogram91 < 2.5 : K3 (2/0)
+|   |   |   |   Fuzzy Opponent Histogram91 >= 2.5 : K4 (1/0)
+|   |   Fuzzy Opponent Histogram22 >= 6.5
+|   |   |   Fuzzy Opponent Histogram118 < 1.5
+|   |   |   |   Fuzzy Opponent Histogram119 < 0.5
+|   |   |   |   |   Fuzzy Opponent Histogram35 < 4.5
+|   |   |   |   |   |   Fuzzy Opponent Histogram18 < 0.5
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram17 < 7 : K5 (2/0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram17 >= 7 : K4 (9/0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram18 >= 0.5 : K4 (4/0)
+|   |   |   |   |   Fuzzy Opponent Histogram35 >= 4.5
+|   |   |   |   |   |   Fuzzy Opponent Histogram13 < 8.5
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram34 < 78
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram15 < 0.5
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 < 32
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 < 24.5
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 < 0.5 : K3 (5/0)
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 >= 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 < 1.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 < 1.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 < 0.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 >= 0.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 >= 1.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 >= 1.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 >= 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 < 1.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram35 < 8 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram35 >= 8 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 >= 1.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 < 24
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 < 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 < 20
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram35 < 24 : K4 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram35 >= 24
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 < 2.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 >= 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 < 3 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 >= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 < 4 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 >= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram17 < 5 : K3 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram17 >= 5 : K4 (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 >= 20
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram4 < 46.5 : K3 (6/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram4 >= 46.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 < 2.5 : K3 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 >= 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 < 9.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 >= 9.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 < 17.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 < 48 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 >= 48 : K3 (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 >= 17.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 < 8.5 : K4 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 >= 8.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 < 4.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 >= 4.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 >= 18 : K3 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 >= 24 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 >= 24.5
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 < 3
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram17 < 20.5 : K4 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram17 >= 20.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram32 < 6.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 < 1.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 >= 1.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram4 < 97 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram4 >= 97 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram32 >= 6.5 : K3 (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 >= 2.5 : K3 (8/0)
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 >= 3
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram7 < 8.5 : K5 (6/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram7 >= 8.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 < 14 : K4 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 >= 14 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 >= 32 : K2 (2/0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram15 >= 0.5 : K3 (3/0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram34 >= 78 : K2 (2/0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram13 >= 8.5
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram15 < 1
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram31 < 47
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram34 < 15
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram34 < 11.5
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 < 8 : K6 (5/0)
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 >= 8 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram34 >= 11.5 : K6 (4/0)
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram34 >= 15
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 < 11
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 < 19.5 : K5 (6/0)
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 >= 19.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 >= 11 : K3 (2/0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram31 >= 47 : K5 (4/0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram15 >= 1 : K5 (2/0)
+|   |   |   |   Fuzzy Opponent Histogram119 >= 0.5 : K6 (2/0)
+|   |   |   Fuzzy Opponent Histogram118 >= 1.5 : K6 (2/0)
+|   Fuzzy Opponent Histogram30 >= 0.5
+|   |   Fuzzy Opponent Histogram38 < 0.5
+|   |   |   Fuzzy Opponent Histogram19 < 1
+|   |   |   |   Fuzzy Opponent Histogram27 < 5 : K2 (1/0)
+|   |   |   |   Fuzzy Opponent Histogram27 >= 5
+|   |   |   |   |   Fuzzy Opponent Histogram7 < 4 : K1 (2/0)
+|   |   |   |   |   Fuzzy Opponent Histogram7 >= 4
+|   |   |   |   |   |   Fuzzy Opponent Histogram21 < 6.5 : K2 (1/0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram21 >= 6.5
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram23 < 1.5 : K2 (1/0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram23 >= 1.5 : K1 (1/0)
+|   |   |   Fuzzy Opponent Histogram19 >= 1
+|   |   |   |   Fuzzy Opponent Histogram10 < 0.5 : K4 (1/0)
+|   |   |   |   Fuzzy Opponent Histogram10 >= 0.5 : K5 (2/0)
+|   |   Fuzzy Opponent Histogram38 >= 0.5 : K4 (1/0)
+Fuzzy Opponent Histogram18 >= 11.5
+|   Fuzzy Opponent Histogram19 < 1
+|   |   Fuzzy Opponent Histogram14 < 16.5
+|   |   |   Fuzzy Opponent Histogram16 < 2.5
+|   |   |   |   Fuzzy Opponent Histogram5 < 37
+|   |   |   |   |   Fuzzy Opponent Histogram9 < 2.5
+|   |   |   |   |   |   Fuzzy Opponent Histogram31 < 7.5
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram32 < 10.5
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 < 1.5 : K2 (5/0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 >= 1.5
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 < 0.5
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 < 6
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 < 0.5 : K2 (5/0)
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 >= 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 < 9
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 < 3.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram35 < 3 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram35 >= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 < 2 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 >= 2 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 >= 3.5 : K1 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 >= 9 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 >= 6 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 >= 0.5
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 < 1.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 >= 1.5
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram34 < 8.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram34 >= 8.5
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram7 < 3 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram7 >= 3 : K2 (1/0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram32 >= 10.5 : K1 (3/0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram31 >= 7.5
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram25 < 9.5 : K2 (46/0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram25 >= 9.5
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram35 < 19.5 : K2 (3/0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram35 >= 19.5
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 < 11 : K5 (2/0)
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram25 >= 11 : K2 (1/0)
+|   |   |   |   |   Fuzzy Opponent Histogram9 >= 2.5
+|   |   |   |   |   |   Fuzzy Opponent Histogram13 < 2.5 : K2 (18/0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram13 >= 2.5
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram15 < 1
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram4 < 2.5
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram34 < 36.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram34 >= 36.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram4 >= 2.5
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram9 < 19 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram9 >= 19 : K1 (3/0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram15 >= 1 : K1 (2/0)
+|   |   |   |   Fuzzy Opponent Histogram5 >= 37
+|   |   |   |   |   Fuzzy Opponent Histogram27 < 0.5
+|   |   |   |   |   |   Fuzzy Opponent Histogram34 < 5.5
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram37 < 0.5
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 < 2.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 >= 2.5
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram7 < 76 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram7 >= 76
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram18 < 54.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram18 >= 54.5 : K4 (1/0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram37 >= 0.5 : K4 (1/0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram34 >= 5.5
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram13 < 0.5
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 < 16 : K4 (1/0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 >= 16 : K3 (1/0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram13 >= 0.5 : K3 (5/0)
+|   |   |   |   |   Fuzzy Opponent Histogram27 >= 0.5
+|   |   |   |   |   |   Fuzzy Opponent Histogram7 < 122.5 : K4 (3/0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram7 >= 122.5 : K3 (1/0)
+|   |   |   Fuzzy Opponent Histogram16 >= 2.5
+|   |   |   |   Fuzzy Opponent Histogram26 < 2 : K1 (1/0)
+|   |   |   |   Fuzzy Opponent Histogram26 >= 2
+|   |   |   |   |   Fuzzy Opponent Histogram5 < 22.5
+|   |   |   |   |   |   Fuzzy Opponent Histogram14 < 7.5
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram23 < 1.5 : K2 (11/0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram23 >= 1.5
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram32 < 15
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 < 34.5 : K1 (5/0)
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 >= 34.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram32 >= 15
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 < 117 : K2 (3/0)
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 >= 117
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram18 < 56.5 : K2 (3/0)
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram18 >= 56.5 : K1 (1/0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram14 >= 7.5
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram22 < 3 : K1 (3/0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram22 >= 3
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 < 2.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 >= 2.5
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 < 5.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 >= 5.5 : K2 (1/0)
+|   |   |   |   |   Fuzzy Opponent Histogram5 >= 22.5 : K2 (5/0)
+|   |   Fuzzy Opponent Histogram14 >= 16.5
+|   |   |   Fuzzy Opponent Histogram16 < 28
+|   |   |   |   Fuzzy Opponent Histogram16 < 7
+|   |   |   |   |   Fuzzy Opponent Histogram32 < 12.5 : K1 (1/0)
+|   |   |   |   |   Fuzzy Opponent Histogram32 >= 12.5
+|   |   |   |   |   |   Fuzzy Opponent Histogram1 < 3 : K1 (1/0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram1 >= 3 : K5 (2/0)
+|   |   |   |   Fuzzy Opponent Histogram16 >= 7
+|   |   |   |   |   Fuzzy Opponent Histogram31 < 16.5
+|   |   |   |   |   |   Fuzzy Opponent Histogram34 < 11.5 : K6 (4/0)
+|   |   |   |   |   |   Fuzzy Opponent Histogram34 >= 11.5 : K1 (1/0)
+|   |   |   |   |   Fuzzy Opponent Histogram31 >= 16.5 : K6 (4/0)
+|   |   |   Fuzzy Opponent Histogram16 >= 28 : K2 (3/0)
+|   Fuzzy Opponent Histogram19 >= 1
+|   |   Fuzzy Opponent Histogram35 < 32
+|   |   |   Fuzzy Opponent Histogram28 < 0.5
+|   |   |   |   Fuzzy Opponent Histogram26 < 21 : K6 (3/0)
+|   |   |   |   Fuzzy Opponent Histogram26 >= 21 : K2 (1/0)
+|   |   |   Fuzzy Opponent Histogram28 >= 0.5 : K5 (13/0)
+|   |   Fuzzy Opponent Histogram35 >= 32 : K5 (21/0)
+
+Size of the tree : 313
+
+Time taken to build model: 0.21 seconds
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         416              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K1
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K2
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K3
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  43   0   0   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0   0   0 |   b = K2
+   0   0  76   0   0   0   0   0 |   c = K3
+   0   0   0  61   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.15 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         271               65.1442 %
+Incorrectly Classified Instances       145               34.8558 %
+Kappa statistic                          0.5541
+Mean absolute error                      0.0871
+Root mean squared error                  0.2952
+Relative absolute error                 44.5209 %
+Root relative squared error             94.4736 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.279    0.078    0.293      0.279    0.286      0.206    0.601     0.156     K1
+                 0.723    0.149    0.728      0.723    0.725      0.575    0.787     0.625     K2
+                 0.539    0.103    0.539      0.539    0.539      0.437    0.718     0.375     K3
+                 0.426    0.085    0.464      0.426    0.444      0.354    0.671     0.282     K4
+                 0.969    0.020    0.899      0.969    0.932      0.920    0.974     0.875     K5
+                 0.958    0.010    0.852      0.958    0.902      0.897    0.974     0.819     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.651    0.096    0.643      0.651    0.647      0.551    0.778     0.530     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  12  26   0   3   2   0   0   0 |   a = K1
+  25 107   9   3   3   1   0   0 |   b = K2
+   1   7  41  24   2   1   0   0 |   c = K3
+   2   7  24  26   0   2   0   0 |   d = K4
+   0   0   2   0  62   0   0   0 |   e = K5
+   1   0   0   0   0  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

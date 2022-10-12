@@ -1,0 +1,167 @@
+
+Options: -C 0.25 -M 2 
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+FCTH43 <= 0
+|   FCTH19 <= 1
+|   |   FCTH26 <= 0
+|   |   |   FCTH72 <= 0
+|   |   |   |   FCTH31 <= 1
+|   |   |   |   |   FCTH25 <= 2
+|   |   |   |   |   |   FCTH53 <= 0
+|   |   |   |   |   |   |   FCTH51 <= 0: K2 (152.0/26.0)
+|   |   |   |   |   |   |   FCTH51 > 0
+|   |   |   |   |   |   |   |   FCTH5 <= 6
+|   |   |   |   |   |   |   |   |   FCTH24 <= 1: K1 (12.0/2.0)
+|   |   |   |   |   |   |   |   |   FCTH24 > 1: K2 (3.0)
+|   |   |   |   |   |   |   |   FCTH5 > 6: K2 (9.0)
+|   |   |   |   |   |   FCTH53 > 0: K1 (4.0)
+|   |   |   |   |   FCTH25 > 2
+|   |   |   |   |   |   FCTH2 <= 4: K2 (2.0/1.0)
+|   |   |   |   |   |   FCTH2 > 4: K5 (2.0)
+|   |   |   |   FCTH31 > 1: K4 (3.0)
+|   |   |   FCTH72 > 0: K4 (6.0/1.0)
+|   |   FCTH26 > 0
+|   |   |   FCTH4 <= 6
+|   |   |   |   FCTH14 <= 1
+|   |   |   |   |   FCTH63 <= 0
+|   |   |   |   |   |   FCTH21 <= 1
+|   |   |   |   |   |   |   FCTH78 <= 0
+|   |   |   |   |   |   |   |   FCTH10 <= 1
+|   |   |   |   |   |   |   |   |   FCTH24 <= 1
+|   |   |   |   |   |   |   |   |   |   FCTH23 <= 3
+|   |   |   |   |   |   |   |   |   |   |   FCTH23 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH27 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH65 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH66 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH98 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH5 <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH20 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH26 <= 1: K3 (9.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH26 > 1: K4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH20 > 1: K4 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH5 > 5: K3 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH98 > 0: K3 (14.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH66 > 0: K4 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH65 > 0: K4 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH27 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH6 <= 0: K3 (34.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH6 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH1 <= 5: K3 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH1 > 5: K4 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH23 > 2: K3 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   FCTH23 > 3: K1 (2.0/1.0)
+|   |   |   |   |   |   |   |   |   FCTH24 > 1: K4 (2.0)
+|   |   |   |   |   |   |   |   FCTH10 > 1: K4 (5.0)
+|   |   |   |   |   |   |   FCTH78 > 0: K4 (5.0)
+|   |   |   |   |   |   FCTH21 > 1: K1 (3.0/2.0)
+|   |   |   |   |   FCTH63 > 0: K4 (5.0)
+|   |   |   |   FCTH14 > 1
+|   |   |   |   |   FCTH0 <= 3: K4 (3.0)
+|   |   |   |   |   FCTH0 > 3: K5 (2.0)
+|   |   |   FCTH4 > 6: K2 (2.0)
+|   FCTH19 > 1
+|   |   FCTH17 <= 0
+|   |   |   FCTH25 <= 0: K2 (5.0/1.0)
+|   |   |   FCTH25 > 0
+|   |   |   |   FCTH49 <= 0
+|   |   |   |   |   FCTH0 <= 4: K1 (2.0)
+|   |   |   |   |   FCTH0 > 4: K5 (2.0)
+|   |   |   |   FCTH49 > 0: K5 (47.0)
+|   |   FCTH17 > 0: K4 (3.0/1.0)
+FCTH43 > 0
+|   FCTH4 <= 0: K6 (24.0)
+|   FCTH4 > 0: K5 (12.0/1.0)
+
+Number of Leaves  : 	36
+
+Size of the tree : 	71
+
+
+Time taken to build model: 0.27 seconds
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         374               89.9038 %
+Incorrectly Classified Instances        42               10.0962 %
+Kappa statistic                          0.8683
+Mean absolute error                      0.0409
+Root mean squared error                  0.143 
+Relative absolute error                 20.9118 %
+Root relative squared error             45.7805 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.419    0.013    0.783      0.419    0.545      0.540    0.889     0.533     K1
+                 0.980    0.104    0.838      0.980    0.903      0.850    0.953     0.857     K2
+                 0.908    0.015    0.932      0.908    0.920      0.903    0.990     0.951     K3
+                 0.885    0.008    0.947      0.885    0.915      0.902    0.987     0.954     K4
+                 1.000    0.003    0.985      1.000    0.992      0.991    1.000     0.997     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.899    0.043    0.898      0.899    0.890      0.866    0.968     0.885     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  18  25   0   0   0   0   0   0 |   a = K1
+   2 145   1   0   0   0   0   0 |   b = K2
+   2   2  69   3   0   0   0   0 |   c = K3
+   1   1   4  54   1   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.4 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         305               73.3173 %
+Incorrectly Classified Instances       111               26.6827 %
+Kappa statistic                          0.6536
+Mean absolute error                      0.0779
+Root mean squared error                  0.2398
+Relative absolute error                 39.8228 %
+Root relative squared error             76.7414 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.279    0.038    0.462      0.279    0.348      0.304    0.784     0.280     K1
+                 0.878    0.142    0.774      0.878    0.823      0.719    0.874     0.739     K2
+                 0.618    0.056    0.712      0.618    0.662      0.595    0.780     0.587     K3
+                 0.607    0.087    0.544      0.607    0.574      0.497    0.797     0.462     K4
+                 0.875    0.017    0.903      0.875    0.889      0.869    0.982     0.911     K5
+                 0.958    0.008    0.885      0.958    0.920      0.916    0.995     0.858     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.733    0.080    0.723      0.733    0.724      0.655    0.860     0.656     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  12  29   1   0   1   0   0   0 |   a = K1
+   9 130   2   3   4   0   0   0 |   b = K2
+   3   1  47  24   0   1   0   0 |   c = K3
+   1   4  16  37   1   2   0   0 |   d = K4
+   1   4   0   3  56   0   0   0 |   e = K5
+   0   0   0   1   0  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

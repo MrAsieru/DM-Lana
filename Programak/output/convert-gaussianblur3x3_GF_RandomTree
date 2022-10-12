@@ -1,0 +1,427 @@
+
+Options: -K 0 -M 1.0 -V 0.001 -S 1 
+
+=== Classifier model (full training set) ===
+
+
+RandomTree
+==========
+
+Gabor Features11 < 0.04
+|   Gabor Features8 < 3.4
+|   |   Gabor Features11 < 0.03
+|   |   |   Gabor Features9 < 0.02 : K2 (5/0)
+|   |   |   Gabor Features9 >= 0.02
+|   |   |   |   Gabor Features1 < 0.03
+|   |   |   |   |   Gabor Features21 < 0.03
+|   |   |   |   |   |   Gabor Features14 < 2.97
+|   |   |   |   |   |   |   Gabor Features3 < 0.02 : K1 (2/0)
+|   |   |   |   |   |   |   Gabor Features3 >= 0.02 : K2 (1/0)
+|   |   |   |   |   |   Gabor Features14 >= 2.97 : K2 (4/0)
+|   |   |   |   |   Gabor Features21 >= 0.03
+|   |   |   |   |   |   Gabor Features0 < 3.1 : K1 (3/0)
+|   |   |   |   |   |   Gabor Features0 >= 3.1
+|   |   |   |   |   |   |   Gabor Features10 < 3.23 : K2 (1/0)
+|   |   |   |   |   |   |   Gabor Features10 >= 3.23 : K1 (1/0)
+|   |   |   |   Gabor Features1 >= 0.03 : K2 (2/0)
+|   |   Gabor Features11 >= 0.03
+|   |   |   Gabor Features18 < 3.39
+|   |   |   |   Gabor Features18 < 3.09 : K3 (1/0)
+|   |   |   |   Gabor Features18 >= 3.09 : K4 (2/0)
+|   |   |   Gabor Features18 >= 3.39
+|   |   |   |   Gabor Features4 < 3.39 : K1 (1/0)
+|   |   |   |   Gabor Features4 >= 3.39 : K3 (1/0)
+|   Gabor Features8 >= 3.4
+|   |   Gabor Features2 < 8.93
+|   |   |   Gabor Features20 < 3.99
+|   |   |   |   Gabor Features28 < 3.91 : K2 (10/0)
+|   |   |   |   Gabor Features28 >= 3.91 : K1 (1/0)
+|   |   |   Gabor Features20 >= 3.99 : K2 (35/0)
+|   |   Gabor Features2 >= 8.93 : K1 (1/0)
+Gabor Features11 >= 0.04
+|   Gabor Features26 < 8.5
+|   |   Gabor Features1 < 0.06
+|   |   |   Gabor Features0 < 5.06
+|   |   |   |   Gabor Features21 < 0.05
+|   |   |   |   |   Gabor Features6 < 3.74
+|   |   |   |   |   |   Gabor Features10 < 3.24
+|   |   |   |   |   |   |   Gabor Features8 < 2.36 : K6 (1/0)
+|   |   |   |   |   |   |   Gabor Features8 >= 2.36 : K2 (1/0)
+|   |   |   |   |   |   Gabor Features10 >= 3.24
+|   |   |   |   |   |   |   Gabor Features8 < 3.57 : K3 (1/0)
+|   |   |   |   |   |   |   Gabor Features8 >= 3.57 : K5 (2/0)
+|   |   |   |   |   Gabor Features6 >= 3.74
+|   |   |   |   |   |   Gabor Features14 < 5.01
+|   |   |   |   |   |   |   Gabor Features3 < 0.04
+|   |   |   |   |   |   |   |   Gabor Features14 < 4.78
+|   |   |   |   |   |   |   |   |   Gabor Features21 < 0.04
+|   |   |   |   |   |   |   |   |   |   Gabor Features2 < 4.29
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features8 < 3.92 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features8 >= 3.92
+|   |   |   |   |   |   |   |   |   |   |   |   Gabor Features16 < 4.32 : K1 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Gabor Features16 >= 4.32 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features2 >= 4.29
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features12 < 4.66 : K4 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features12 >= 4.66
+|   |   |   |   |   |   |   |   |   |   |   |   Gabor Features20 < 4.72 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Gabor Features20 >= 4.72 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   Gabor Features21 >= 0.04 : K3 (1/0)
+|   |   |   |   |   |   |   |   Gabor Features14 >= 4.78 : K2 (1/0)
+|   |   |   |   |   |   |   Gabor Features3 >= 0.04
+|   |   |   |   |   |   |   |   Gabor Features36 < 4.43 : K2 (4/0)
+|   |   |   |   |   |   |   |   Gabor Features36 >= 4.43
+|   |   |   |   |   |   |   |   |   Gabor Features39 < 0.04 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   Gabor Features39 >= 0.04 : K4 (7/0)
+|   |   |   |   |   |   Gabor Features14 >= 5.01
+|   |   |   |   |   |   |   Gabor Features5 < 0.04
+|   |   |   |   |   |   |   |   Gabor Features7 < 0.04 : K1 (1/0)
+|   |   |   |   |   |   |   |   Gabor Features7 >= 0.04 : K2 (1/0)
+|   |   |   |   |   |   |   Gabor Features5 >= 0.04
+|   |   |   |   |   |   |   |   Gabor Features4 < 4.86 : K5 (2/0)
+|   |   |   |   |   |   |   |   Gabor Features4 >= 4.86 : K3 (3/0)
+|   |   |   |   Gabor Features21 >= 0.05
+|   |   |   |   |   Gabor Features14 < 3.85 : K3 (1/0)
+|   |   |   |   |   Gabor Features14 >= 3.85
+|   |   |   |   |   |   Gabor Features15 < 0.06 : K6 (7/0)
+|   |   |   |   |   |   Gabor Features15 >= 0.06 : K2 (1/0)
+|   |   |   Gabor Features0 >= 5.06
+|   |   |   |   Gabor Features6 < 7.37
+|   |   |   |   |   Gabor Features23 < 0.05 : K2 (10/0)
+|   |   |   |   |   Gabor Features23 >= 0.05
+|   |   |   |   |   |   Gabor Features0 < 6.41
+|   |   |   |   |   |   |   Gabor Features16 < 5.53
+|   |   |   |   |   |   |   |   Gabor Features7 < 0.05 : K3 (2/0)
+|   |   |   |   |   |   |   |   Gabor Features7 >= 0.05
+|   |   |   |   |   |   |   |   |   Gabor Features5 < 0.05 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   Gabor Features5 >= 0.05
+|   |   |   |   |   |   |   |   |   |   Gabor Features6 < 5.2 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features6 >= 5.2
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features1 < 0.05 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features1 >= 0.05 : K2 (1/0)
+|   |   |   |   |   |   |   Gabor Features16 >= 5.53
+|   |   |   |   |   |   |   |   Gabor Features10 < 5.76
+|   |   |   |   |   |   |   |   |   Gabor Features1 < 0.05
+|   |   |   |   |   |   |   |   |   |   Gabor Features0 < 5.72 : K4 (3/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features0 >= 5.72 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   Gabor Features1 >= 0.05 : K2 (2/0)
+|   |   |   |   |   |   |   |   Gabor Features10 >= 5.76
+|   |   |   |   |   |   |   |   |   Gabor Features33 < 0.06
+|   |   |   |   |   |   |   |   |   |   Gabor Features8 < 5.82 : K3 (2/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features8 >= 5.82
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features7 < 0.05 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features7 >= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |   Gabor Features5 < 0.06 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Gabor Features5 >= 0.06 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   Gabor Features33 >= 0.06 : K4 (1/0)
+|   |   |   |   |   |   Gabor Features0 >= 6.41
+|   |   |   |   |   |   |   Gabor Features14 < 7.01
+|   |   |   |   |   |   |   |   Gabor Features9 < 0.06 : K3 (7/0)
+|   |   |   |   |   |   |   |   Gabor Features9 >= 0.06 : K2 (1/0)
+|   |   |   |   |   |   |   Gabor Features14 >= 7.01
+|   |   |   |   |   |   |   |   Gabor Features10 < 7.16 : K2 (3/0)
+|   |   |   |   |   |   |   |   Gabor Features10 >= 7.16 : K3 (1/0)
+|   |   |   |   Gabor Features6 >= 7.37 : K1 (5/0)
+|   |   Gabor Features1 >= 0.06
+|   |   |   Gabor Features3 < 0.06
+|   |   |   |   Gabor Features16 < 6.39 : K6 (8/0)
+|   |   |   |   Gabor Features16 >= 6.39
+|   |   |   |   |   Gabor Features4 < 6.19 : K1 (1/0)
+|   |   |   |   |   Gabor Features4 >= 6.19 : K3 (3/0)
+|   |   |   Gabor Features3 >= 0.06
+|   |   |   |   Gabor Features6 < 5.4
+|   |   |   |   |   Gabor Features17 < 0.22
+|   |   |   |   |   |   Gabor Features23 < 0.12 : K3 (7/0)
+|   |   |   |   |   |   Gabor Features23 >= 0.12
+|   |   |   |   |   |   |   Gabor Features4 < 4.08 : K3 (4/0)
+|   |   |   |   |   |   |   Gabor Features4 >= 4.08
+|   |   |   |   |   |   |   |   Gabor Features7 < 0.12 : K4 (1/0)
+|   |   |   |   |   |   |   |   Gabor Features7 >= 0.12
+|   |   |   |   |   |   |   |   |   Gabor Features0 < 4.56
+|   |   |   |   |   |   |   |   |   |   Gabor Features25 < 0.17 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features25 >= 0.17
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features8 < 4.37 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features8 >= 4.37 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   Gabor Features0 >= 4.56 : K3 (3/0)
+|   |   |   |   |   Gabor Features17 >= 0.22 : K4 (2/0)
+|   |   |   |   Gabor Features6 >= 5.4
+|   |   |   |   |   Gabor Features10 < 7.71
+|   |   |   |   |   |   Gabor Features1 < 0.07
+|   |   |   |   |   |   |   Gabor Features10 < 7.02
+|   |   |   |   |   |   |   |   Gabor Features10 < 6.04
+|   |   |   |   |   |   |   |   |   Gabor Features5 < 0.07 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   Gabor Features5 >= 0.07 : K4 (1/0)
+|   |   |   |   |   |   |   |   Gabor Features10 >= 6.04
+|   |   |   |   |   |   |   |   |   Gabor Features9 < 0.07
+|   |   |   |   |   |   |   |   |   |   Gabor Features10 < 6.92 : K4 (2/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features10 >= 6.92 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   Gabor Features9 >= 0.07
+|   |   |   |   |   |   |   |   |   |   Gabor Features10 < 6.22 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features10 >= 6.22 : K5 (2/0)
+|   |   |   |   |   |   |   Gabor Features10 >= 7.02
+|   |   |   |   |   |   |   |   Gabor Features1 < 0.07
+|   |   |   |   |   |   |   |   |   Gabor Features7 < 0.07
+|   |   |   |   |   |   |   |   |   |   Gabor Features11 < 0.06 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features11 >= 0.06 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   Gabor Features7 >= 0.07 : K3 (3/0)
+|   |   |   |   |   |   |   |   Gabor Features1 >= 0.07 : K4 (1/0)
+|   |   |   |   |   |   Gabor Features1 >= 0.07
+|   |   |   |   |   |   |   Gabor Features3 < 0.09
+|   |   |   |   |   |   |   |   Gabor Features9 < 0.09
+|   |   |   |   |   |   |   |   |   Gabor Features18 < 7.45
+|   |   |   |   |   |   |   |   |   |   Gabor Features14 < 6.45 : K5 (4/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features14 >= 6.45
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features8 < 7.18 : K6 (4/0)
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features8 >= 7.18 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   Gabor Features18 >= 7.45
+|   |   |   |   |   |   |   |   |   |   Gabor Features9 < 0.08
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features2 < 7.36 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features2 >= 7.36 : K3 (2/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features9 >= 0.08 : K5 (6/0)
+|   |   |   |   |   |   |   |   Gabor Features9 >= 0.09
+|   |   |   |   |   |   |   |   |   Gabor Features26 < 6.96
+|   |   |   |   |   |   |   |   |   |   Gabor Features8 < 5.9 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features8 >= 5.9 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   Gabor Features26 >= 6.96
+|   |   |   |   |   |   |   |   |   |   Gabor Features19 < 0.09 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features19 >= 0.09 : K6 (4/0)
+|   |   |   |   |   |   |   Gabor Features3 >= 0.09
+|   |   |   |   |   |   |   |   Gabor Features20 < 7.55
+|   |   |   |   |   |   |   |   |   Gabor Features9 < 0.11
+|   |   |   |   |   |   |   |   |   |   Gabor Features14 < 5.95 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features14 >= 5.95
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features0 < 6.09 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features0 >= 6.09
+|   |   |   |   |   |   |   |   |   |   |   |   Gabor Features0 < 6.28 : K5 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Gabor Features0 >= 6.28
+|   |   |   |   |   |   |   |   |   |   |   |   |   Gabor Features0 < 6.43 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Gabor Features0 >= 6.43 : K5 (2/0)
+|   |   |   |   |   |   |   |   |   Gabor Features9 >= 0.11
+|   |   |   |   |   |   |   |   |   |   Gabor Features5 < 0.17
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features35 < 0.14
+|   |   |   |   |   |   |   |   |   |   |   |   Gabor Features17 < 0.12 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Gabor Features17 >= 0.12 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features35 >= 0.14 : K4 (2/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features5 >= 0.17 : K3 (2/0)
+|   |   |   |   |   |   |   |   Gabor Features20 >= 7.55
+|   |   |   |   |   |   |   |   |   Gabor Features3 < 0.11 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   Gabor Features3 >= 0.11 : K5 (2/0)
+|   |   |   |   |   Gabor Features10 >= 7.71
+|   |   |   |   |   |   Gabor Features49 < 0.08
+|   |   |   |   |   |   |   Gabor Features16 < 8.09
+|   |   |   |   |   |   |   |   Gabor Features51 < 0.07 : K3 (2/0)
+|   |   |   |   |   |   |   |   Gabor Features51 >= 0.07 : K4 (2/0)
+|   |   |   |   |   |   |   Gabor Features16 >= 8.09
+|   |   |   |   |   |   |   |   Gabor Features19 < 0.07
+|   |   |   |   |   |   |   |   |   Gabor Features43 < 0.07 : K3 (2/0)
+|   |   |   |   |   |   |   |   |   Gabor Features43 >= 0.07 : K1 (2/0)
+|   |   |   |   |   |   |   |   Gabor Features19 >= 0.07 : K3 (5/0)
+|   |   |   |   |   |   Gabor Features49 >= 0.08
+|   |   |   |   |   |   |   Gabor Features24 < 8.23 : K4 (2/0)
+|   |   |   |   |   |   |   Gabor Features24 >= 8.23
+|   |   |   |   |   |   |   |   Gabor Features7 < 0.08 : K2 (1/0)
+|   |   |   |   |   |   |   |   Gabor Features7 >= 0.08 : K1 (1/0)
+|   Gabor Features26 >= 8.5
+|   |   Gabor Features58 < 10.1
+|   |   |   Gabor Features13 < 0.07
+|   |   |   |   Gabor Features2 < 9.74
+|   |   |   |   |   Gabor Features0 < 8.72
+|   |   |   |   |   |   Gabor Features6 < 8.5 : K2 (1/0)
+|   |   |   |   |   |   Gabor Features6 >= 8.5 : K1 (1/0)
+|   |   |   |   |   Gabor Features0 >= 8.72 : K2 (3/0)
+|   |   |   |   Gabor Features2 >= 9.74 : K1 (1/0)
+|   |   |   Gabor Features13 >= 0.07
+|   |   |   |   Gabor Features25 < 0.07 : K5 (12/0)
+|   |   |   |   Gabor Features25 >= 0.07
+|   |   |   |   |   Gabor Features20 < 9.03
+|   |   |   |   |   |   Gabor Features24 < 8.66
+|   |   |   |   |   |   |   Gabor Features11 < 0.08 : K4 (1/0)
+|   |   |   |   |   |   |   Gabor Features11 >= 0.08 : K1 (2/0)
+|   |   |   |   |   |   Gabor Features24 >= 8.66
+|   |   |   |   |   |   |   Gabor Features9 < 0.07 : K3 (2/0)
+|   |   |   |   |   |   |   Gabor Features9 >= 0.07
+|   |   |   |   |   |   |   |   Gabor Features24 < 8.98 : K4 (4/0)
+|   |   |   |   |   |   |   |   Gabor Features24 >= 8.98 : K3 (1/0)
+|   |   |   |   |   Gabor Features20 >= 9.03
+|   |   |   |   |   |   Gabor Features20 < 9.7
+|   |   |   |   |   |   |   Gabor Features8 < 9.2
+|   |   |   |   |   |   |   |   Gabor Features7 < 0.08
+|   |   |   |   |   |   |   |   |   Gabor Features35 < 0.08
+|   |   |   |   |   |   |   |   |   |   Gabor Features1 < 0.08 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features1 >= 0.08 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   Gabor Features35 >= 0.08 : K5 (6/0)
+|   |   |   |   |   |   |   |   Gabor Features7 >= 0.08
+|   |   |   |   |   |   |   |   |   Gabor Features10 < 8.88 : K1 (2/0)
+|   |   |   |   |   |   |   |   |   Gabor Features10 >= 8.88 : K2 (1/0)
+|   |   |   |   |   |   |   Gabor Features8 >= 9.2
+|   |   |   |   |   |   |   |   Gabor Features6 < 9.27
+|   |   |   |   |   |   |   |   |   Gabor Features7 < 0.07 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   Gabor Features7 >= 0.07 : K4 (1/0)
+|   |   |   |   |   |   |   |   Gabor Features6 >= 9.27
+|   |   |   |   |   |   |   |   |   Gabor Features2 < 9.34 : K3 (2/0)
+|   |   |   |   |   |   |   |   |   Gabor Features2 >= 9.34 : K2 (1/0)
+|   |   |   |   |   |   Gabor Features20 >= 9.7
+|   |   |   |   |   |   |   Gabor Features5 < 0.12
+|   |   |   |   |   |   |   |   Gabor Features14 < 9.89 : K5 (10/0)
+|   |   |   |   |   |   |   |   Gabor Features14 >= 9.89
+|   |   |   |   |   |   |   |   |   Gabor Features31 < 0.09
+|   |   |   |   |   |   |   |   |   |   Gabor Features9 < 0.08 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features9 >= 0.08 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   Gabor Features31 >= 0.09
+|   |   |   |   |   |   |   |   |   |   Gabor Features5 < 0.09 : K5 (5/0)
+|   |   |   |   |   |   |   |   |   |   Gabor Features5 >= 0.09
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features20 < 10.14
+|   |   |   |   |   |   |   |   |   |   |   |   Gabor Features3 < 0.09 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Gabor Features3 >= 0.09 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Gabor Features20 >= 10.14 : K5 (2/0)
+|   |   |   |   |   |   |   Gabor Features5 >= 0.12
+|   |   |   |   |   |   |   |   Gabor Features29 < 0.16 : K2 (1/0)
+|   |   |   |   |   |   |   |   Gabor Features29 >= 0.16 : K4 (1/0)
+|   |   Gabor Features58 >= 10.1
+|   |   |   Gabor Features21 < 0.1
+|   |   |   |   Gabor Features9 < 0.08
+|   |   |   |   |   Gabor Features21 < 0.08
+|   |   |   |   |   |   Gabor Features16 < 11.93
+|   |   |   |   |   |   |   Gabor Features18 < 10.92 : K2 (5/0)
+|   |   |   |   |   |   |   Gabor Features18 >= 10.92
+|   |   |   |   |   |   |   |   Gabor Features5 < 0.06 : K1 (1/0)
+|   |   |   |   |   |   |   |   Gabor Features5 >= 0.06
+|   |   |   |   |   |   |   |   |   Gabor Features1 < 0.07 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   Gabor Features1 >= 0.07 : K1 (1/0)
+|   |   |   |   |   |   Gabor Features16 >= 11.93 : K2 (15/0)
+|   |   |   |   |   Gabor Features21 >= 0.08
+|   |   |   |   |   |   Gabor Features40 < 14.06
+|   |   |   |   |   |   |   Gabor Features21 < 0.08 : K2 (2/0)
+|   |   |   |   |   |   |   Gabor Features21 >= 0.08
+|   |   |   |   |   |   |   |   Gabor Features5 < 0.08 : K1 (1/0)
+|   |   |   |   |   |   |   |   Gabor Features5 >= 0.08 : K2 (1/0)
+|   |   |   |   |   |   Gabor Features40 >= 14.06 : K1 (2/0)
+|   |   |   |   Gabor Features9 >= 0.08
+|   |   |   |   |   Gabor Features0 < 12.46
+|   |   |   |   |   |   Gabor Features2 < 11.56 : K2 (3/0)
+|   |   |   |   |   |   Gabor Features2 >= 11.56
+|   |   |   |   |   |   |   Gabor Features13 < 0.09 : K2 (1/0)
+|   |   |   |   |   |   |   Gabor Features13 >= 0.09 : K1 (1/0)
+|   |   |   |   |   Gabor Features0 >= 12.46
+|   |   |   |   |   |   Gabor Features12 < 14.17
+|   |   |   |   |   |   |   Gabor Features8 < 12.85
+|   |   |   |   |   |   |   |   Gabor Features9 < 0.09 : K2 (2/0)
+|   |   |   |   |   |   |   |   Gabor Features9 >= 0.09 : K5 (1/0)
+|   |   |   |   |   |   |   Gabor Features8 >= 12.85 : K5 (4/0)
+|   |   |   |   |   |   Gabor Features12 >= 14.17 : K2 (5/0)
+|   |   |   Gabor Features21 >= 0.1
+|   |   |   |   Gabor Features12 < 13.21
+|   |   |   |   |   Gabor Features23 < 0.11
+|   |   |   |   |   |   Gabor Features2 < 11.3
+|   |   |   |   |   |   |   Gabor Features13 < 0.1
+|   |   |   |   |   |   |   |   Gabor Features0 < 10.48 : K4 (1/0)
+|   |   |   |   |   |   |   |   Gabor Features0 >= 10.48 : K3 (1/0)
+|   |   |   |   |   |   |   Gabor Features13 >= 0.1 : K4 (4/0)
+|   |   |   |   |   |   Gabor Features2 >= 11.3
+|   |   |   |   |   |   |   Gabor Features0 < 11.4 : K1 (1/0)
+|   |   |   |   |   |   |   Gabor Features0 >= 11.4
+|   |   |   |   |   |   |   |   Gabor Features33 < 0.1 : K1 (1/0)
+|   |   |   |   |   |   |   |   Gabor Features33 >= 0.1 : K2 (2/0)
+|   |   |   |   |   Gabor Features23 >= 0.11
+|   |   |   |   |   |   Gabor Features9 < 0.12
+|   |   |   |   |   |   |   Gabor Features14 < 12.1 : K2 (7/0)
+|   |   |   |   |   |   |   Gabor Features14 >= 12.1 : K3 (3/0)
+|   |   |   |   |   |   Gabor Features9 >= 0.12
+|   |   |   |   |   |   |   Gabor Features4 < 10.21 : K3 (2/0)
+|   |   |   |   |   |   |   Gabor Features4 >= 10.21 : K4 (2/0)
+|   |   |   |   Gabor Features12 >= 13.21
+|   |   |   |   |   Gabor Features1 < 0.12
+|   |   |   |   |   |   Gabor Features28 < 14.31
+|   |   |   |   |   |   |   Gabor Features1 < 0.1 : K4 (1/0)
+|   |   |   |   |   |   |   Gabor Features1 >= 0.1
+|   |   |   |   |   |   |   |   Gabor Features4 < 13.53 : K1 (1/0)
+|   |   |   |   |   |   |   |   Gabor Features4 >= 13.53 : K4 (1/0)
+|   |   |   |   |   |   Gabor Features28 >= 14.31
+|   |   |   |   |   |   |   Gabor Features30 < 15.1 : K5 (2/0)
+|   |   |   |   |   |   |   Gabor Features30 >= 15.1 : K2 (1/0)
+|   |   |   |   |   Gabor Features1 >= 0.12 : K4 (8/0)
+
+Size of the tree : 333
+
+Time taken to build model: 0.19 seconds
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         416              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K1
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K2
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K3
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  43   0   0   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0   0   0 |   b = K2
+   0   0  76   0   0   0   0   0 |   c = K3
+   0   0   0  61   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.06 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         239               57.4519 %
+Incorrectly Classified Instances       177               42.5481 %
+Kappa statistic                          0.4576
+Mean absolute error                      0.1064
+Root mean squared error                  0.3261
+Relative absolute error                 54.3462 %
+Root relative squared error            104.379  %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.209    0.088    0.214      0.209    0.212      0.122    0.560     0.127     K1
+                 0.642    0.172    0.674      0.642    0.657      0.476    0.735     0.560     K2
+                 0.487    0.121    0.474      0.487    0.481      0.363    0.683     0.325     K3
+                 0.262    0.087    0.340      0.262    0.296      0.196    0.587     0.197     K4
+                 0.953    0.057    0.753      0.953    0.841      0.817    0.948     0.725     K5
+                 0.875    0.015    0.778      0.875    0.824      0.814    0.930     0.688     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.575    0.115    0.559      0.575    0.564      0.449    0.730     0.452     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h   <-- classified as
+  9 20  7  3  2  2  0  0 |  a = K1
+ 22 95 13 10  7  1  0  0 |  b = K2
+  2 12 37 18  5  2  0  0 |  c = K3
+  7 11 20 16  6  1  0  0 |  d = K4
+  0  3  0  0 61  0  0  0 |  e = K5
+  2  0  1  0  0 21  0  0 |  f = K6
+  0  0  0  0  0  0  0  0 |  g = K7
+  0  0  0  0  0  0  0  0 |  h = K8
+

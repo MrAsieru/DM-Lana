@@ -1,0 +1,133 @@
+
+Options: -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 3 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5 
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=34 #classindex=33
+Network structure (nodes followed by parents)
+MPEG-7 Color Layout0(3): class 
+MPEG-7 Color Layout1(2): class MPEG-7 Color Layout0 
+MPEG-7 Color Layout2(5): class MPEG-7 Color Layout0 
+MPEG-7 Color Layout3(4): class MPEG-7 Color Layout0 
+MPEG-7 Color Layout4(1): class 
+MPEG-7 Color Layout5(5): class MPEG-7 Color Layout3 MPEG-7 Color Layout2 
+MPEG-7 Color Layout6(2): class 
+MPEG-7 Color Layout7(3): class MPEG-7 Color Layout2 MPEG-7 Color Layout1 
+MPEG-7 Color Layout8(3): class MPEG-7 Color Layout7 MPEG-7 Color Layout1 
+MPEG-7 Color Layout9(4): class MPEG-7 Color Layout2 MPEG-7 Color Layout0 
+MPEG-7 Color Layout10(3): class MPEG-7 Color Layout3 
+MPEG-7 Color Layout11(1): class 
+MPEG-7 Color Layout12(2): class MPEG-7 Color Layout5 
+MPEG-7 Color Layout13(1): class 
+MPEG-7 Color Layout14(4): class MPEG-7 Color Layout0 MPEG-7 Color Layout10 
+MPEG-7 Color Layout15(2): class MPEG-7 Color Layout6 MPEG-7 Color Layout1 
+MPEG-7 Color Layout16(3): class MPEG-7 Color Layout2 
+MPEG-7 Color Layout17(1): class 
+MPEG-7 Color Layout18(2): class MPEG-7 Color Layout2 MPEG-7 Color Layout3 
+MPEG-7 Color Layout19(1): class 
+MPEG-7 Color Layout20(2): class MPEG-7 Color Layout16 MPEG-7 Color Layout10 
+MPEG-7 Color Layout21(3): class MPEG-7 Color Layout2 
+MPEG-7 Color Layout22(1): class 
+MPEG-7 Color Layout23(1): class 
+MPEG-7 Color Layout24(5): class MPEG-7 Color Layout3 
+MPEG-7 Color Layout25(2): class MPEG-7 Color Layout3 MPEG-7 Color Layout12 
+MPEG-7 Color Layout26(5): class MPEG-7 Color Layout24 
+MPEG-7 Color Layout27(4): class MPEG-7 Color Layout0 MPEG-7 Color Layout21 
+MPEG-7 Color Layout28(1): class 
+MPEG-7 Color Layout29(2): class MPEG-7 Color Layout2 MPEG-7 Color Layout14 
+MPEG-7 Color Layout30(5): class MPEG-7 Color Layout24 
+MPEG-7 Color Layout31(2): class MPEG-7 Color Layout5 MPEG-7 Color Layout9 
+MPEG-7 Color Layout32(5): class MPEG-7 Color Layout26 
+class(8): 
+LogScore Bayes: -7625.303883545393
+LogScore BDeu: -25796.292296379263
+LogScore MDL: -20231.819959620516
+LogScore ENTROPY: -9886.179395642363
+LogScore AIC: -13317.179395642406
+
+
+Time taken to build model: 0.22 seconds
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         401               96.3942 %
+Incorrectly Classified Instances        15                3.6058 %
+Kappa statistic                          0.9536
+Mean absolute error                      0.0129
+Root mean squared error                  0.0811
+Relative absolute error                  6.5747 %
+Root relative squared error             25.9649 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.837    0.008    0.923      0.837    0.878      0.866    0.993     0.952     K1
+                 0.986    0.026    0.954      0.986    0.970      0.953    0.998     0.996     K2
+                 1.000    0.015    0.938      1.000    0.968      0.961    0.999     0.996     K3
+                 0.902    0.000    1.000      0.902    0.948      0.942    0.998     0.992     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.964    0.013    0.964      0.964    0.963      0.954    0.998     0.992     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  36   7   0   0   0   0   0   0 |   a = K1
+   2 146   0   0   0   0   0   0 |   b = K2
+   0   0  76   0   0   0   0   0 |   c = K3
+   1   0   5  55   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.25 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         354               85.0962 %
+Incorrectly Classified Instances        62               14.9038 %
+Kappa statistic                          0.8079
+Mean absolute error                      0.0428
+Root mean squared error                  0.1715
+Relative absolute error                 21.8528 %
+Root relative squared error             54.8821 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.349    0.043    0.484      0.349    0.405      0.355    0.865     0.490     K1
+                 0.885    0.097    0.834      0.885    0.859      0.778    0.957     0.884     K2
+                 0.921    0.026    0.886      0.921    0.903      0.881    0.989     0.950     K3
+                 0.836    0.014    0.911      0.836    0.872      0.852    0.984     0.926     K4
+                 1.000    0.006    0.970      1.000    0.985      0.982    1.000     1.000     K5
+                 0.958    0.003    0.958      0.958    0.958      0.956    0.996     0.976     K6
+                 ?        0.007    0.000      ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.851    0.047    0.847      0.851    0.847      0.806    0.966     0.885     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  15  26   0   0   0   1   1   0 |   a = K1
+  14 131   1   0   2   0   0   0 |   b = K2
+   0   0  70   5   0   0   1   0 |   c = K3
+   1   0   8  51   0   0   1   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   1   0   0   0   0  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

@@ -1,0 +1,156 @@
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+
+Options: -C 0.25 -M 2 -Q 1 -RM-C -RM-N 99.0 -RM-B -2 -RM-D 50.0 
+
+=== Classifier model (full training set) ===
+
+J48Consolidated pruned tree
+[RM] N_S=f(99% of coverage)=27 %Min=balanced Size=maxSize (without replacement)
+True coverage achieved: 0.9969972147776555
+---------------------------------------------------------------------------------------------------------------------------
+
+RGB Color Histogram2 <= 0
+|   RGB Color Histogram7 <= 1
+|   |   RGB Color Histogram26 <= 0
+|   |   |   RGB Color Histogram17 <= 0: K4 (6.85/1.67)
+|   |   |   RGB Color Histogram17 > 0
+|   |   |   |   RGB Color Histogram40 <= 1
+|   |   |   |   |   RGB Color Histogram16 <= 11: K1 (6.48/4.37)
+|   |   |   |   |   RGB Color Histogram16 > 11
+|   |   |   |   |   |   RGB Color Histogram52 <= 2
+|   |   |   |   |   |   |   RGB Color Histogram41 <= 0
+|   |   |   |   |   |   |   |   RGB Color Histogram4 <= 1
+|   |   |   |   |   |   |   |   |   RGB Color Histogram4 <= 0
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram16 <= 159
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram53 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram43 <= 9: K1 (16.0/4.78)
+|   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram43 > 9: K2 (1.15)
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram53 > 0: K2 (0.67)
+|   |   |   |   |   |   |   |   |   |   RGB Color Histogram16 > 159
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram59 <= 1: K2 (9.07/0.85)
+|   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram59 > 1: K1 (4.26/1.48)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram4 > 0: K2 (0.67/0.15)
+|   |   |   |   |   |   |   |   RGB Color Histogram4 > 1: K1 (2.37/0.7)
+|   |   |   |   |   |   |   RGB Color Histogram41 > 0: K1 (4.0/1.11)
+|   |   |   |   |   |   RGB Color Histogram52 > 2: K2 (1.67)
+|   |   |   |   RGB Color Histogram40 > 1: K4 (1.74)
+|   |   RGB Color Histogram26 > 0
+|   |   |   RGB Color Histogram0 <= 123: K5 (5.48/2.56)
+|   |   |   RGB Color Histogram0 > 123
+|   |   |   |   RGB Color Histogram5 <= 11
+|   |   |   |   |   RGB Color Histogram30 <= 0
+|   |   |   |   |   |   RGB Color Histogram1 <= 8
+|   |   |   |   |   |   |   RGB Color Histogram57 <= 1
+|   |   |   |   |   |   |   |   RGB Color Histogram62 <= 0
+|   |   |   |   |   |   |   |   |   RGB Color Histogram37 <= 5: K4 (8.48/2.67)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram37 > 5: K3 (17.52/2.11)
+|   |   |   |   |   |   |   |   RGB Color Histogram62 > 0
+|   |   |   |   |   |   |   |   |   RGB Color Histogram36 <= 8: K3 (1.96/0.3)
+|   |   |   |   |   |   |   |   |   RGB Color Histogram36 > 8: K4 (1.7)
+|   |   |   |   |   |   |   RGB Color Histogram57 > 1: K4 (1.48/0.26)
+|   |   |   |   |   |   RGB Color Histogram1 > 8: K4 (3.48/1.41)
+|   |   |   |   |   RGB Color Histogram30 > 0: K4 (1.74)
+|   |   |   |   RGB Color Histogram5 > 11: K5 (4.59/2.15)
+|   RGB Color Histogram7 > 1: K5 (12.22)
+RGB Color Histogram2 > 0
+|   RGB Color Histogram32 <= 5: K6 (24.0)
+|   RGB Color Histogram32 > 5: K5 (6.41)
+
+Number of Leaves  : 	24
+
+Size of the tree : 	47
+
+
+Time taken to build model: 0.39 seconds
+
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         299               71.875  %
+Incorrectly Classified Instances       117               28.125  %
+Kappa statistic                          0.6586
+Mean absolute error                      0.0777
+Root mean squared error                  0.206 
+Relative absolute error                 39.716  %
+Root relative squared error             65.9463 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.837    0.177    0.353      0.837    0.497      0.467    0.897     0.378     K1
+                 0.500    0.011    0.961      0.500    0.658      0.603    0.943     0.882     K2
+                 0.684    0.021    0.881      0.684    0.770      0.735    0.959     0.804     K3
+                 0.803    0.065    0.681      0.803    0.737      0.691    0.951     0.745     K4
+                 1.000    0.051    0.780      1.000    0.877      0.861    0.994     0.962     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.719    0.043    0.817      0.719    0.727      0.688    0.954     0.815     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h   <-- classified as
+ 36  2  0  1  4  0  0  0 |  a = K1
+ 56 74  0  7 11  0  0  0 |  b = K2
+  7  1 52 15  1  0  0  0 |  c = K3
+  3  0  7 49  2  0  0  0 |  d = K4
+  0  0  0  0 64  0  0  0 |  e = K5
+  0  0  0  0  0 24  0  0 |  f = K6
+  0  0  0  0  0  0  0  0 |  g = K7
+  0  0  0  0  0  0  0  0 |  h = K8
+
+Time taken to perform cross-validation: 0.91 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         238               57.2115 %
+Incorrectly Classified Instances       178               42.7885 %
+Kappa statistic                          0.4777
+Mean absolute error                      0.1088
+Root mean squared error                  0.2632
+Relative absolute error                 55.6032 %
+Root relative squared error             84.2228 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.535    0.212    0.225      0.535    0.317      0.229    0.742     0.214     K1
+                 0.426    0.078    0.750      0.426    0.543      0.414    0.885     0.728     K2
+                 0.605    0.082    0.622      0.605    0.613      0.528    0.870     0.611     K3
+                 0.459    0.096    0.452      0.459    0.455      0.361    0.855     0.442     K4
+                 0.891    0.037    0.814      0.891    0.851      0.823    0.973     0.912     K5
+                 0.875    0.008    0.875      0.875    0.875      0.867    0.936     0.857     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.572    0.085    0.646      0.572    0.586      0.497    0.880     0.647     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h   <-- classified as
+ 23 16  1  2  1  0  0  0 |  a = K1
+ 69 63  1 10  5  0  0  0 |  b = K2
+  5  3 46 20  2  0  0  0 |  c = K3
+  5  1 25 28  2  0  0  0 |  d = K4
+  0  1  1  2 57  3  0  0 |  e = K5
+  0  0  0  0  3 21  0  0 |  f = K6
+  0  0  0  0  0  0  0  0 |  g = K7
+  0  0  0  0  0  0  0  0 |  h = K8
+

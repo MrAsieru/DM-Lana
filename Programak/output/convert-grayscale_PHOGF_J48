@@ -1,0 +1,137 @@
+
+Options: -C 0.25 -M 2 
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+PHOG450 <= 4
+|   PHOG465 <= 6
+|   |   PHOG359 <= 1
+|   |   |   PHOG451 <= 6
+|   |   |   |   PHOG408 <= 3
+|   |   |   |   |   PHOG463 <= 4
+|   |   |   |   |   |   PHOG374 <= 14
+|   |   |   |   |   |   |   PHOG347 <= 5
+|   |   |   |   |   |   |   |   PHOG466 <= 9
+|   |   |   |   |   |   |   |   |   PHOG554 <= 0: K3 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   PHOG554 > 0
+|   |   |   |   |   |   |   |   |   |   PHOG464 <= 6: K5 (64.0)
+|   |   |   |   |   |   |   |   |   |   PHOG464 > 6: K3 (2.0)
+|   |   |   |   |   |   |   |   PHOG466 > 9: K3 (8.0)
+|   |   |   |   |   |   |   PHOG347 > 5: K4 (2.0)
+|   |   |   |   |   |   PHOG374 > 14: K6 (3.0)
+|   |   |   |   |   PHOG463 > 4: K1 (2.0)
+|   |   |   |   PHOG408 > 3: K1 (3.0)
+|   |   |   PHOG451 > 6: K2 (3.0)
+|   |   PHOG359 > 1
+|   |   |   PHOG537 <= 4
+|   |   |   |   PHOG354 <= 0: K2 (10.0)
+|   |   |   |   PHOG354 > 0
+|   |   |   |   |   PHOG15 <= 11: K4 (3.0)
+|   |   |   |   |   PHOG15 > 11: K1 (6.0)
+|   |   |   PHOG537 > 4: K6 (19.0)
+|   PHOG465 > 6
+|   |   PHOG345 <= 1: K3 (62.0/1.0)
+|   |   PHOG345 > 1
+|   |   |   PHOG199 <= 7: K1 (17.0)
+|   |   |   PHOG199 > 7
+|   |   |   |   PHOG112 <= 7: K4 (50.0)
+|   |   |   |   PHOG112 > 7: K3 (2.0)
+PHOG450 > 4
+|   PHOG445 <= 0: K2 (136.0/1.0)
+|   PHOG445 > 0
+|   |   PHOG319 <= 3: K1 (14.0)
+|   |   PHOG319 > 3
+|   |   |   PHOG34 <= 3: K4 (4.0)
+|   |   |   PHOG34 > 3: K6 (2.0)
+
+Number of Leaves  : 	21
+
+Size of the tree : 	41
+
+
+Time taken to build model: 0.33 seconds
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         413               99.2788 %
+Incorrectly Classified Instances         3                0.7212 %
+Kappa statistic                          0.9908
+Mean absolute error                      0.0033
+Root mean squared error                  0.0405
+Relative absolute error                  1.6749 %
+Root relative squared error             12.9561 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.977    0.000    1.000      0.977    0.988      0.987    0.996     0.982     K1
+                 1.000    0.004    0.993      1.000    0.997      0.995    0.998     0.994     K2
+                 1.000    0.006    0.974      1.000    0.987      0.984    0.999     0.988     K3
+                 0.967    0.000    1.000      0.967    0.983      0.981    0.998     0.991     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.993    0.002    0.993      0.993    0.993      0.991    0.998     0.992     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  42   1   0   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0   0   0 |   b = K2
+   0   0  76   0   0   0   0   0 |   c = K3
+   0   0   2  59   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.75 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         367               88.2212 %
+Incorrectly Classified Instances        49               11.7788 %
+Kappa statistic                          0.8496
+Mean absolute error                      0.0317
+Root mean squared error                  0.1682
+Relative absolute error                 16.2047 %
+Root relative squared error             53.8299 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.814    0.019    0.833      0.814    0.824      0.804    0.881     0.773     K1
+                 0.959    0.011    0.979      0.959    0.969      0.953    0.976     0.952     K2
+                 0.816    0.026    0.873      0.816    0.844      0.811    0.904     0.728     K3
+                 0.787    0.028    0.828      0.787    0.807      0.775    0.874     0.714     K4
+                 0.938    0.040    0.811      0.938    0.870      0.847    0.964     0.790     K5
+                 0.833    0.015    0.769      0.833    0.800      0.788    0.970     0.746     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.882    0.022    0.885      0.882    0.882      0.859    0.936     0.821     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  35   2   0   1   4   1   0   0 |   a = K1
+   2 142   1   0   1   2   0   0 |   b = K2
+   0   0  62   7   6   1   0   0 |   c = K3
+   4   0   6  48   1   2   0   0 |   d = K4
+   1   0   2   1  60   0   0   0 |   e = K5
+   0   1   0   1   2  20   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

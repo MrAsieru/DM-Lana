@@ -1,0 +1,107 @@
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+Classifications
+
+Histogram of JPEG Coefficients82 <= 24.5 : K2
+Histogram of JPEG Coefficients82 > 24.5 : K3
+Histogram of JPEG Coefficients82 is missing : K2
+
+Class distributions
+
+Histogram of JPEG Coefficients82 <= 24.5
+K1	K2	K3	K4	K5	K6	K7	K8	
+0.20772946859903382	0.714975845410628	0.03864734299516908	0.03864734299516908	0.0	0.0	0.0	0.0	
+Histogram of JPEG Coefficients82 > 24.5
+K1	K2	K3	K4	K5	K6	K7	K8	
+0.0	0.0	0.3253588516746411	0.2535885167464115	0.3062200956937799	0.11483253588516747	0.0	0.0	
+Histogram of JPEG Coefficients82 is missing
+K1	K2	K3	K4	K5	K6	K7	K8	
+0.10336538461538461	0.3557692307692308	0.18269230769230768	0.1466346153846154	0.15384615384615385	0.057692307692307696	0.0	0.0	
+
+
+Time taken to build model: 0.18 seconds
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         216               51.9231 %
+Incorrectly Classified Instances       200               48.0769 %
+Kappa statistic                          0.3425
+Mean absolute error                      0.1459
+Root mean squared error                  0.2701
+Relative absolute error                 74.5482 %
+Root relative squared error             86.4376 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    ?          0.000    ?          ?        0.780     0.208     K1
+                 1.000    0.220    0.715      1.000    0.834      0.747    0.890     0.715     K2
+                 0.895    0.415    0.325      0.895    0.477      0.371    0.740     0.310     K3
+                 0.000    0.000    ?          0.000    ?          ?        0.715     0.240     K4
+                 0.000    0.000    ?          0.000    ?          ?        0.794     0.306     K5
+                 0.000    0.000    ?          0.000    ?          ?        0.764     0.115     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.519    0.154    ?          0.519    ?          ?        0.803     0.421     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+   0  43   0   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0   0   0 |   b = K2
+   0   8  68   0   0   0   0   0 |   c = K3
+   0   8  53   0   0   0   0   0 |   d = K4
+   0   0  64   0   0   0   0   0 |   e = K5
+   0   0  24   0   0   0   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.11 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         214               51.4423 %
+Incorrectly Classified Instances       202               48.5577 %
+Kappa statistic                          0.3363
+Mean absolute error                      0.1468
+Root mean squared error                  0.272 
+Relative absolute error                 75.0274 %
+Root relative squared error             87.0482 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    ?          0.000    ?          ?        0.768     0.198     K1
+                 0.986    0.224    0.709      0.986    0.825      0.730    0.872     0.683     K2
+                 0.895    0.418    0.324      0.895    0.476      0.369    0.703     0.285     K3
+                 0.000    0.000    ?          0.000    ?          ?        0.668     0.216     K4
+                 0.000    0.000    ?          0.000    ?          ?        0.779     0.286     K5
+                 0.000    0.000    ?          0.000    ?          ?        0.738     0.102     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.514    0.156    ?          0.514    ?          ?        0.778     0.397     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+   0  43   0   0   0   0   0   0 |   a = K1
+   0 146   2   0   0   0   0   0 |   b = K2
+   0   8  68   0   0   0   0   0 |   c = K3
+   0   9  52   0   0   0   0   0 |   d = K4
+   0   0  64   0   0   0   0   0 |   e = K5
+   0   0  24   0   0   0   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

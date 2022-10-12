@@ -1,0 +1,134 @@
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+
+Options: -C 0.25 -M 2 -Q 1 -RM-C -RM-N 99.0 -RM-B -2 -RM-D 50.0 
+
+=== Classifier model (full training set) ===
+
+J48Consolidated pruned tree
+[RM] N_S=f(99% of coverage)=27 %Min=balanced Size=maxSize (without replacement)
+True coverage achieved: 0.9969972147776555
+---------------------------------------------------------------------------------------------------------------------------
+
+PHOG373 <= 6
+|   PHOG450 <= 6
+|   |   PHOG297 <= 3
+|   |   |   PHOG450 <= 1: K3 (5.7/3.33)
+|   |   |   PHOG450 > 1
+|   |   |   |   PHOG102 <= 0: K2 (0.7)
+|   |   |   |   PHOG102 > 0: K1 (12.67)
+|   |   PHOG297 > 3
+|   |   |   PHOG256 <= 0
+|   |   |   |   PHOG343 <= 2
+|   |   |   |   |   PHOG135 <= 9
+|   |   |   |   |   |   PHOG2 <= 7: K4 (2.74/1.44)
+|   |   |   |   |   |   PHOG2 > 7: K5 (3.89/1.41)
+|   |   |   |   |   PHOG135 > 9: K3 (19.07/0.3)
+|   |   |   |   PHOG343 > 2: K4 (20.56)
+|   |   |   PHOG256 > 0: K5 (21.37/1.22)
+|   PHOG450 > 6
+|   |   PHOG475 <= 1: K2 (20.11/0.74)
+|   |   PHOG475 > 1: K1 (10.22/1.15)
+PHOG373 > 6
+|   PHOG129 <= 1
+|   |   PHOG0 <= 12: K3 (0.7)
+|   |   PHOG0 > 12: K2 (1.56)
+|   PHOG129 > 1: K6 (24.7/0.7)
+
+Number of Leaves  : 	13
+
+Size of the tree : 	25
+
+
+Time taken to build model: 0.98 seconds
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         380               91.3462 %
+Incorrectly Classified Instances        36                8.6538 %
+Kappa statistic                          0.8901
+Mean absolute error                      0.03  
+Root mean squared error                  0.1238
+Relative absolute error                 15.3218 %
+Root relative squared error             39.6343 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.907    0.011    0.907      0.907    0.907      0.896    0.990     0.923     K1
+                 0.899    0.007    0.985      0.899    0.940      0.911    0.991     0.975     K2
+                 0.908    0.047    0.812      0.908    0.857      0.825    0.982     0.936     K3
+                 0.902    0.014    0.917      0.902    0.909      0.894    0.971     0.940     K4
+                 0.938    0.017    0.909      0.938    0.923      0.909    0.990     0.924     K5
+                 1.000    0.008    0.889      1.000    0.941      0.939    0.996     0.889     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.913    0.017    0.918      0.913    0.914      0.893    0.987     0.945     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  39   0   1   1   2   0   0   0 |   a = K1
+   3 133  10   1   0   1   0   0 |   b = K2
+   0   1  69   3   3   0   0   0 |   c = K3
+   1   1   3  55   1   0   0   0 |   d = K4
+   0   0   2   0  60   2   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 6.58 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         333               80.0481 %
+Incorrectly Classified Instances        83               19.9519 %
+Kappa statistic                          0.7477
+Mean absolute error                      0.0618
+Root mean squared error                  0.2049
+Relative absolute error                 31.5585 %
+Root relative squared error             65.5912 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.698    0.051    0.612      0.698    0.652      0.611    0.886     0.640     K1
+                 0.824    0.037    0.924      0.824    0.871      0.810    0.948     0.898     K2
+                 0.776    0.065    0.728      0.776    0.752      0.694    0.884     0.798     K3
+                 0.787    0.014    0.906      0.787    0.842      0.820    0.899     0.753     K4
+                 0.781    0.054    0.725      0.781    0.752      0.705    0.918     0.752     K5
+                 1.000    0.020    0.750      1.000    0.857      0.857    0.988     0.708     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.800    0.042    0.813      0.800    0.803      0.756    0.921     0.799     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  30   6   4   0   3   0   0   0 |   a = K1
+   9 122   5   0   7   5   0   0 |   b = K2
+   5   2  59   3   5   2   0   0 |   c = K3
+   1   1   7  48   4   0   0   0 |   d = K4
+   4   1   6   2  50   1   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

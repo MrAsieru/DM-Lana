@@ -1,0 +1,146 @@
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 27.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+The number of samples to guarantee at least a coverage of 99% is 26.
+
+Options: -C 0.25 -M 2 -Q 1 -RM-C -RM-N 99.0 -RM-B -2 -RM-D 50.0 
+
+=== Classifier model (full training set) ===
+
+J48Consolidated pruned tree
+[RM] N_S=f(99% of coverage)=27 %Min=balanced Size=maxSize (without replacement)
+True coverage achieved: 0.9969972147776555
+---------------------------------------------------------------------------------------------------------------------------
+
+Histogram of JPEG Coefficients82 <= 19
+|   Histogram of JPEG Coefficients129 <= 127: K4 (3.89/1.78)
+|   Histogram of JPEG Coefficients129 > 127
+|   |   Histogram of JPEG Coefficients152 <= 58
+|   |   |   Histogram of JPEG Coefficients29 <= 6
+|   |   |   |   Histogram of JPEG Coefficients62 <= 4: K2 (0.85)
+|   |   |   |   Histogram of JPEG Coefficients62 > 4
+|   |   |   |   |   Histogram of JPEG Coefficients93 <= 2: K2 (0.67)
+|   |   |   |   |   Histogram of JPEG Coefficients93 > 2: K1 (21.85/3.33)
+|   |   |   Histogram of JPEG Coefficients29 > 6: K2 (3.26/1.7)
+|   |   Histogram of JPEG Coefficients152 > 58
+|   |   |   Histogram of JPEG Coefficients36 <= 7
+|   |   |   |   Histogram of JPEG Coefficients56 <= 18: K1 (3.22/1.07)
+|   |   |   |   Histogram of JPEG Coefficients56 > 18: K2 (15.81/0.48)
+|   |   |   Histogram of JPEG Coefficients36 > 7: K1 (2.37/0.56)
+Histogram of JPEG Coefficients82 > 19
+|   Histogram of JPEG Coefficients138 <= 119
+|   |   Histogram of JPEG Coefficients18 <= 151
+|   |   |   Histogram of JPEG Coefficients18 <= 83
+|   |   |   |   Histogram of JPEG Coefficients21 <= 4: K3 (2.33/0.3)
+|   |   |   |   Histogram of JPEG Coefficients21 > 4: K4 (22.15/4.67)
+|   |   |   Histogram of JPEG Coefficients18 > 83: K3 (12.26/2.3)
+|   |   Histogram of JPEG Coefficients18 > 151
+|   |   |   Histogram of JPEG Coefficients0 <= 16: K5 (4.0/0.67)
+|   |   |   Histogram of JPEG Coefficients0 > 16: K3 (1.85/0.7)
+|   Histogram of JPEG Coefficients138 > 119
+|   |   Histogram of JPEG Coefficients0 <= 31
+|   |   |   Histogram of JPEG Coefficients73 <= 58: K3 (2.59/0.63)
+|   |   |   Histogram of JPEG Coefficients73 > 58
+|   |   |   |   Histogram of JPEG Coefficients131 <= 125: K5 (12.3/0.56)
+|   |   |   |   Histogram of JPEG Coefficients131 > 125
+|   |   |   |   |   Histogram of JPEG Coefficients19 <= 148
+|   |   |   |   |   |   Histogram of JPEG Coefficients0 <= 7: K6 (24.81/0.81)
+|   |   |   |   |   |   Histogram of JPEG Coefficients0 > 7: K5 (1.7)
+|   |   |   |   |   Histogram of JPEG Coefficients19 > 148: K5 (5.56)
+|   |   Histogram of JPEG Coefficients0 > 31: K4 (2.52/0.93)
+
+Number of Leaves  : 	19
+
+Size of the tree : 	37
+
+
+Time taken to build model: 0.66 seconds
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         335               80.5288 %
+Incorrectly Classified Instances        81               19.4712 %
+Kappa statistic                          0.7576
+Mean absolute error                      0.0631
+Root mean squared error                  0.1884
+Relative absolute error                 32.2646 %
+Root relative squared error             60.2897 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.930    0.099    0.519      0.930    0.667      0.651    0.950     0.551     K1
+                 0.736    0.019    0.956      0.736    0.832      0.770    0.975     0.941     K2
+                 0.645    0.032    0.817      0.645    0.721      0.674    0.949     0.751     K3
+                 0.869    0.062    0.707      0.869    0.779      0.742    0.964     0.737     K4
+                 0.938    0.011    0.938      0.938    0.938      0.926    0.991     0.945     K5
+                 1.000    0.005    0.923      1.000    0.960      0.958    0.997     0.923     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.805    0.034    0.844      0.805    0.810      0.771    0.970     0.836     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  40   3   0   0   0   0   0   0 |   a = K1
+  37 109   2   0   0   0   0   0 |   b = K2
+   0   1  49  22   4   0   0   0 |   c = K3
+   0   1   7  53   0   0   0   0 |   d = K4
+   0   0   2   0  60   2   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 3.02 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         298               71.6346 %
+Incorrectly Classified Instances       118               28.3654 %
+Kappa statistic                          0.644 
+Mean absolute error                      0.0819
+Root mean squared error                  0.2317
+Relative absolute error                 41.8505 %
+Root relative squared error             74.1621 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.628    0.107    0.403      0.628    0.491      0.431    0.870     0.383     K1
+                 0.736    0.056    0.879      0.736    0.801      0.712    0.952     0.890     K2
+                 0.579    0.062    0.677      0.579    0.624      0.550    0.884     0.660     K3
+                 0.656    0.070    0.615      0.656    0.635      0.570    0.885     0.577     K4
+                 0.859    0.040    0.797      0.859    0.827      0.795    0.977     0.836     K5
+                 0.958    0.008    0.885      0.958    0.920      0.916    0.996     0.924     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.716    0.059    0.742      0.716    0.723      0.657    0.927     0.744     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  27  15   1   0   0   0   0   0 |   a = K1
+  37 109   2   0   0   0   0   0 |   b = K2
+   1   0  44  23   8   0   0   0 |   c = K3
+   2   0  14  40   5   0   0   0 |   d = K4
+   0   0   4   2  55   3   0   0 |   e = K5
+   0   0   0   0   1  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

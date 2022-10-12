@@ -1,0 +1,92 @@
+
+Options: -K 3 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last"" 
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 3 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.16 seconds
+
+Time taken to test model on training data: 0.07 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         380               91.3462 %
+Incorrectly Classified Instances        36                8.6538 %
+Kappa statistic                          0.8876
+Mean absolute error                      0.036 
+Root mean squared error                  0.1299
+Relative absolute error                 18.4226 %
+Root relative squared error             41.5659 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.581    0.003    0.962      0.581    0.725      0.728    0.978     0.794     K1
+                 0.993    0.067    0.891      0.993    0.939      0.906    0.992     0.977     K2
+                 0.961    0.038    0.849      0.961    0.901      0.880    0.992     0.952     K3
+                 0.770    0.008    0.940      0.770    0.847      0.829    0.991     0.920     K4
+                 1.000    0.003    0.985      1.000    0.992      0.991    0.999     0.995     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.913    0.033    0.918      0.913    0.908      0.890    0.992     0.949     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  25  18   0   0   0   0   0   0 |   a = K1
+   1 147   0   0   0   0   0   0 |   b = K2
+   0   0  73   3   0   0   0   0 |   c = K3
+   0   0  13  47   1   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.07 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         317               76.2019 %
+Incorrectly Classified Instances        99               23.7981 %
+Kappa statistic                          0.689 
+Mean absolute error                      0.0602
+Root mean squared error                  0.1972
+Relative absolute error                 30.7322 %
+Root relative squared error             63.1249 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.302    0.043    0.448      0.302    0.361      0.310    0.800     0.468     K1
+                 0.919    0.142    0.782      0.919    0.845      0.754    0.950     0.869     K2
+                 0.855    0.088    0.684      0.855    0.760      0.706    0.949     0.772     K3
+                 0.475    0.028    0.744      0.475    0.580      0.543    0.886     0.677     K4
+                 0.781    0.009    0.943      0.781    0.855      0.836    0.971     0.939     K5
+                 1.000    0.005    0.923      1.000    0.960      0.958    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.762    0.077    0.757      0.762    0.749      0.693    0.931     0.800     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  13  30   0   0   0   0   0   0 |   a = K1
+  12 136   0   0   0   0   0   0 |   b = K2
+   0   2  65   8   1   0   0   0 |   c = K3
+   3   0  27  29   2   0   0   0 |   d = K4
+   1   6   3   2  50   2   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

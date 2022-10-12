@@ -1,0 +1,1270 @@
+
+Options: -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4" 
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: K1, K2
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0001 * (normalized) Gabor Features0
+ +      -0.0004 * (normalized) Gabor Features1
+ +      -0.0001 * (normalized) Gabor Features2
+ +      -0.0004 * (normalized) Gabor Features3
+ +      -0.0001 * (normalized) Gabor Features4
+ +      -0.0004 * (normalized) Gabor Features5
+ +      -0.0001 * (normalized) Gabor Features6
+ +      -0.0004 * (normalized) Gabor Features7
+ +      -0.0001 * (normalized) Gabor Features8
+ +      -0.0004 * (normalized) Gabor Features9
+ +      -0.0001 * (normalized) Gabor Features10
+ +      -0.0004 * (normalized) Gabor Features11
+ +      -0.0001 * (normalized) Gabor Features12
+ +      -0.0004 * (normalized) Gabor Features13
+ +      -0.0001 * (normalized) Gabor Features14
+ +      -0.0004 * (normalized) Gabor Features15
+ +      -0.0001 * (normalized) Gabor Features16
+ +      -0.0004 * (normalized) Gabor Features17
+ +      -0.0001 * (normalized) Gabor Features18
+ +      -0.0004 * (normalized) Gabor Features19
+ +      -0.0001 * (normalized) Gabor Features20
+ +      -0.0004 * (normalized) Gabor Features21
+ +      -0.0001 * (normalized) Gabor Features22
+ +      -0.0004 * (normalized) Gabor Features23
+ +      -0.0001 * (normalized) Gabor Features24
+ +      -0.0004 * (normalized) Gabor Features25
+ +      -0.0001 * (normalized) Gabor Features26
+ +      -0.0004 * (normalized) Gabor Features27
+ +      -0.0001 * (normalized) Gabor Features28
+ +      -0.0004 * (normalized) Gabor Features29
+ +      -0.0001 * (normalized) Gabor Features30
+ +      -0.0004 * (normalized) Gabor Features31
+ +      -0.0001 * (normalized) Gabor Features32
+ +      -0.0004 * (normalized) Gabor Features33
+ +      -0.0001 * (normalized) Gabor Features34
+ +      -0.0004 * (normalized) Gabor Features35
+ +      -0.0001 * (normalized) Gabor Features36
+ +      -0.0004 * (normalized) Gabor Features37
+ +      -0.0001 * (normalized) Gabor Features38
+ +      -0.0004 * (normalized) Gabor Features39
+ +      -0.0001 * (normalized) Gabor Features40
+ +      -0.0004 * (normalized) Gabor Features41
+ +      -0.0001 * (normalized) Gabor Features42
+ +      -0.0004 * (normalized) Gabor Features43
+ +      -0.0001 * (normalized) Gabor Features44
+ +      -0.0004 * (normalized) Gabor Features45
+ +      -0.0001 * (normalized) Gabor Features46
+ +      -0.0004 * (normalized) Gabor Features47
+ +      -0.0001 * (normalized) Gabor Features48
+ +      -0.0004 * (normalized) Gabor Features49
+ +      -0.0001 * (normalized) Gabor Features50
+ +      -0.0004 * (normalized) Gabor Features51
+ +      -0.0001 * (normalized) Gabor Features52
+ +      -0.0004 * (normalized) Gabor Features53
+ +      -0.0001 * (normalized) Gabor Features54
+ +      -0.0004 * (normalized) Gabor Features55
+ +      -0.0001 * (normalized) Gabor Features56
+ +      -0.0004 * (normalized) Gabor Features57
+ +      -0.0001 * (normalized) Gabor Features58
+ +      -0.0004 * (normalized) Gabor Features59
+ +       1.0039
+
+Number of kernel evaluations: 2688 (55.043% cached)
+
+Classifier for classes: K1, K3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3652 * (normalized) Gabor Features0
+ +       0.3092 * (normalized) Gabor Features1
+ +      -0.3652 * (normalized) Gabor Features2
+ +       0.3093 * (normalized) Gabor Features3
+ +      -0.3652 * (normalized) Gabor Features4
+ +       0.3093 * (normalized) Gabor Features5
+ +      -0.3652 * (normalized) Gabor Features6
+ +       0.3092 * (normalized) Gabor Features7
+ +      -0.3652 * (normalized) Gabor Features8
+ +       0.3093 * (normalized) Gabor Features9
+ +      -0.3652 * (normalized) Gabor Features10
+ +       0.3093 * (normalized) Gabor Features11
+ +      -0.3652 * (normalized) Gabor Features12
+ +       0.3093 * (normalized) Gabor Features13
+ +      -0.3652 * (normalized) Gabor Features14
+ +       0.3093 * (normalized) Gabor Features15
+ +      -0.3652 * (normalized) Gabor Features16
+ +       0.3093 * (normalized) Gabor Features17
+ +      -0.3652 * (normalized) Gabor Features18
+ +       0.3093 * (normalized) Gabor Features19
+ +      -0.3652 * (normalized) Gabor Features20
+ +       0.3093 * (normalized) Gabor Features21
+ +      -0.3652 * (normalized) Gabor Features22
+ +       0.3093 * (normalized) Gabor Features23
+ +      -0.3652 * (normalized) Gabor Features24
+ +       0.3093 * (normalized) Gabor Features25
+ +      -0.3652 * (normalized) Gabor Features26
+ +       0.3093 * (normalized) Gabor Features27
+ +      -0.3652 * (normalized) Gabor Features28
+ +       0.3093 * (normalized) Gabor Features29
+ +      -0.3652 * (normalized) Gabor Features30
+ +       0.3093 * (normalized) Gabor Features31
+ +      -0.3652 * (normalized) Gabor Features32
+ +       0.3093 * (normalized) Gabor Features33
+ +      -0.3652 * (normalized) Gabor Features34
+ +       0.3093 * (normalized) Gabor Features35
+ +      -0.3652 * (normalized) Gabor Features36
+ +       0.3092 * (normalized) Gabor Features37
+ +      -0.3652 * (normalized) Gabor Features38
+ +       0.3093 * (normalized) Gabor Features39
+ +      -0.3652 * (normalized) Gabor Features40
+ +       0.3093 * (normalized) Gabor Features41
+ +      -0.3652 * (normalized) Gabor Features42
+ +       0.3092 * (normalized) Gabor Features43
+ +      -0.3652 * (normalized) Gabor Features44
+ +       0.3093 * (normalized) Gabor Features45
+ +      -0.3652 * (normalized) Gabor Features46
+ +       0.3093 * (normalized) Gabor Features47
+ +      -0.3652 * (normalized) Gabor Features48
+ +       0.3093 * (normalized) Gabor Features49
+ +      -0.3652 * (normalized) Gabor Features50
+ +       0.3093 * (normalized) Gabor Features51
+ +      -0.3652 * (normalized) Gabor Features52
+ +       0.3093 * (normalized) Gabor Features53
+ +      -0.3652 * (normalized) Gabor Features54
+ +       0.3093 * (normalized) Gabor Features55
+ +      -0.3652 * (normalized) Gabor Features56
+ +       0.3093 * (normalized) Gabor Features57
+ +      -0.3652 * (normalized) Gabor Features58
+ +       0.3093 * (normalized) Gabor Features59
+ +       5.8223
+
+Number of kernel evaluations: 1258 (68.144% cached)
+
+Classifier for classes: K1, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3207 * (normalized) Gabor Features0
+ +       0.3793 * (normalized) Gabor Features1
+ +      -0.3207 * (normalized) Gabor Features2
+ +       0.3793 * (normalized) Gabor Features3
+ +      -0.3207 * (normalized) Gabor Features4
+ +       0.3793 * (normalized) Gabor Features5
+ +      -0.3207 * (normalized) Gabor Features6
+ +       0.3793 * (normalized) Gabor Features7
+ +      -0.3207 * (normalized) Gabor Features8
+ +       0.3793 * (normalized) Gabor Features9
+ +      -0.3207 * (normalized) Gabor Features10
+ +       0.3793 * (normalized) Gabor Features11
+ +      -0.3207 * (normalized) Gabor Features12
+ +       0.3793 * (normalized) Gabor Features13
+ +      -0.3207 * (normalized) Gabor Features14
+ +       0.3793 * (normalized) Gabor Features15
+ +      -0.3207 * (normalized) Gabor Features16
+ +       0.3793 * (normalized) Gabor Features17
+ +      -0.3207 * (normalized) Gabor Features18
+ +       0.3793 * (normalized) Gabor Features19
+ +      -0.3207 * (normalized) Gabor Features20
+ +       0.3793 * (normalized) Gabor Features21
+ +      -0.3207 * (normalized) Gabor Features22
+ +       0.3793 * (normalized) Gabor Features23
+ +      -0.3207 * (normalized) Gabor Features24
+ +       0.3793 * (normalized) Gabor Features25
+ +      -0.3207 * (normalized) Gabor Features26
+ +       0.3793 * (normalized) Gabor Features27
+ +      -0.3207 * (normalized) Gabor Features28
+ +       0.3793 * (normalized) Gabor Features29
+ +      -0.3207 * (normalized) Gabor Features30
+ +       0.3793 * (normalized) Gabor Features31
+ +      -0.3207 * (normalized) Gabor Features32
+ +       0.3793 * (normalized) Gabor Features33
+ +      -0.3207 * (normalized) Gabor Features34
+ +       0.3793 * (normalized) Gabor Features35
+ +      -0.3207 * (normalized) Gabor Features36
+ +       0.3793 * (normalized) Gabor Features37
+ +      -0.3207 * (normalized) Gabor Features38
+ +       0.3793 * (normalized) Gabor Features39
+ +      -0.3207 * (normalized) Gabor Features40
+ +       0.3793 * (normalized) Gabor Features41
+ +      -0.3207 * (normalized) Gabor Features42
+ +       0.3793 * (normalized) Gabor Features43
+ +      -0.3207 * (normalized) Gabor Features44
+ +       0.3793 * (normalized) Gabor Features45
+ +      -0.3207 * (normalized) Gabor Features46
+ +       0.3793 * (normalized) Gabor Features47
+ +      -0.3207 * (normalized) Gabor Features48
+ +       0.3793 * (normalized) Gabor Features49
+ +      -0.3207 * (normalized) Gabor Features50
+ +       0.3793 * (normalized) Gabor Features51
+ +      -0.3207 * (normalized) Gabor Features52
+ +       0.3793 * (normalized) Gabor Features53
+ +      -0.3207 * (normalized) Gabor Features54
+ +       0.3793 * (normalized) Gabor Features55
+ +      -0.3207 * (normalized) Gabor Features56
+ +       0.3793 * (normalized) Gabor Features57
+ +      -0.3207 * (normalized) Gabor Features58
+ +       0.3793 * (normalized) Gabor Features59
+ +       4.624 
+
+Number of kernel evaluations: 630 (62.567% cached)
+
+Classifier for classes: K1, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3537 * (normalized) Gabor Features0
+ +       0.338  * (normalized) Gabor Features1
+ +      -0.3537 * (normalized) Gabor Features2
+ +       0.338  * (normalized) Gabor Features3
+ +      -0.3537 * (normalized) Gabor Features4
+ +       0.338  * (normalized) Gabor Features5
+ +      -0.3537 * (normalized) Gabor Features6
+ +       0.338  * (normalized) Gabor Features7
+ +      -0.3537 * (normalized) Gabor Features8
+ +       0.338  * (normalized) Gabor Features9
+ +      -0.3537 * (normalized) Gabor Features10
+ +       0.338  * (normalized) Gabor Features11
+ +      -0.3537 * (normalized) Gabor Features12
+ +       0.338  * (normalized) Gabor Features13
+ +      -0.3537 * (normalized) Gabor Features14
+ +       0.338  * (normalized) Gabor Features15
+ +      -0.3537 * (normalized) Gabor Features16
+ +       0.338  * (normalized) Gabor Features17
+ +      -0.3537 * (normalized) Gabor Features18
+ +       0.338  * (normalized) Gabor Features19
+ +      -0.3537 * (normalized) Gabor Features20
+ +       0.338  * (normalized) Gabor Features21
+ +      -0.3537 * (normalized) Gabor Features22
+ +       0.338  * (normalized) Gabor Features23
+ +      -0.3537 * (normalized) Gabor Features24
+ +       0.338  * (normalized) Gabor Features25
+ +      -0.3537 * (normalized) Gabor Features26
+ +       0.338  * (normalized) Gabor Features27
+ +      -0.3537 * (normalized) Gabor Features28
+ +       0.338  * (normalized) Gabor Features29
+ +      -0.3537 * (normalized) Gabor Features30
+ +       0.338  * (normalized) Gabor Features31
+ +      -0.3537 * (normalized) Gabor Features32
+ +       0.338  * (normalized) Gabor Features33
+ +      -0.3537 * (normalized) Gabor Features34
+ +       0.338  * (normalized) Gabor Features35
+ +      -0.3537 * (normalized) Gabor Features36
+ +       0.338  * (normalized) Gabor Features37
+ +      -0.3537 * (normalized) Gabor Features38
+ +       0.338  * (normalized) Gabor Features39
+ +      -0.3537 * (normalized) Gabor Features40
+ +       0.338  * (normalized) Gabor Features41
+ +      -0.3537 * (normalized) Gabor Features42
+ +       0.338  * (normalized) Gabor Features43
+ +      -0.3537 * (normalized) Gabor Features44
+ +       0.338  * (normalized) Gabor Features45
+ +      -0.3537 * (normalized) Gabor Features46
+ +       0.338  * (normalized) Gabor Features47
+ +      -0.3537 * (normalized) Gabor Features48
+ +       0.338  * (normalized) Gabor Features49
+ +      -0.3537 * (normalized) Gabor Features50
+ +       0.338  * (normalized) Gabor Features51
+ +      -0.3537 * (normalized) Gabor Features52
+ +       0.338  * (normalized) Gabor Features53
+ +      -0.3537 * (normalized) Gabor Features54
+ +       0.338  * (normalized) Gabor Features55
+ +      -0.3537 * (normalized) Gabor Features56
+ +       0.338  * (normalized) Gabor Features57
+ +      -0.3537 * (normalized) Gabor Features58
+ +       0.338  * (normalized) Gabor Features59
+ +       5.2343
+
+Number of kernel evaluations: 481 (65.371% cached)
+
+Classifier for classes: K1, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2997 * (normalized) Gabor Features0
+ +       0.1094 * (normalized) Gabor Features1
+ +      -0.2997 * (normalized) Gabor Features2
+ +       0.1094 * (normalized) Gabor Features3
+ +      -0.2997 * (normalized) Gabor Features4
+ +       0.1094 * (normalized) Gabor Features5
+ +      -0.2997 * (normalized) Gabor Features6
+ +       0.1094 * (normalized) Gabor Features7
+ +      -0.2997 * (normalized) Gabor Features8
+ +       0.1094 * (normalized) Gabor Features9
+ +      -0.2997 * (normalized) Gabor Features10
+ +       0.1094 * (normalized) Gabor Features11
+ +      -0.2997 * (normalized) Gabor Features12
+ +       0.1094 * (normalized) Gabor Features13
+ +      -0.2997 * (normalized) Gabor Features14
+ +       0.1094 * (normalized) Gabor Features15
+ +      -0.2997 * (normalized) Gabor Features16
+ +       0.1094 * (normalized) Gabor Features17
+ +      -0.2997 * (normalized) Gabor Features18
+ +       0.1094 * (normalized) Gabor Features19
+ +      -0.2997 * (normalized) Gabor Features20
+ +       0.1094 * (normalized) Gabor Features21
+ +      -0.2997 * (normalized) Gabor Features22
+ +       0.1094 * (normalized) Gabor Features23
+ +      -0.2997 * (normalized) Gabor Features24
+ +       0.1094 * (normalized) Gabor Features25
+ +      -0.2997 * (normalized) Gabor Features26
+ +       0.1094 * (normalized) Gabor Features27
+ +      -0.2997 * (normalized) Gabor Features28
+ +       0.1094 * (normalized) Gabor Features29
+ +      -0.2997 * (normalized) Gabor Features30
+ +       0.1094 * (normalized) Gabor Features31
+ +      -0.2997 * (normalized) Gabor Features32
+ +       0.1094 * (normalized) Gabor Features33
+ +      -0.2997 * (normalized) Gabor Features34
+ +       0.1094 * (normalized) Gabor Features35
+ +      -0.2997 * (normalized) Gabor Features36
+ +       0.1094 * (normalized) Gabor Features37
+ +      -0.2997 * (normalized) Gabor Features38
+ +       0.1094 * (normalized) Gabor Features39
+ +      -0.2997 * (normalized) Gabor Features40
+ +       0.1094 * (normalized) Gabor Features41
+ +      -0.2997 * (normalized) Gabor Features42
+ +       0.1094 * (normalized) Gabor Features43
+ +      -0.2997 * (normalized) Gabor Features44
+ +       0.1094 * (normalized) Gabor Features45
+ +      -0.2997 * (normalized) Gabor Features46
+ +       0.1094 * (normalized) Gabor Features47
+ +      -0.2997 * (normalized) Gabor Features48
+ +       0.1094 * (normalized) Gabor Features49
+ +      -0.2997 * (normalized) Gabor Features50
+ +       0.1094 * (normalized) Gabor Features51
+ +      -0.2997 * (normalized) Gabor Features52
+ +       0.1094 * (normalized) Gabor Features53
+ +      -0.2997 * (normalized) Gabor Features54
+ +       0.1094 * (normalized) Gabor Features55
+ +      -0.2997 * (normalized) Gabor Features56
+ +       0.1094 * (normalized) Gabor Features57
+ +      -0.2997 * (normalized) Gabor Features58
+ +       0.1094 * (normalized) Gabor Features59
+ +       3.9726
+
+Number of kernel evaluations: 87 (66.148% cached)
+
+Classifier for classes: K1, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K1, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K2, K3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3891 * (normalized) Gabor Features0
+ +       0.4224 * (normalized) Gabor Features1
+ +      -0.3891 * (normalized) Gabor Features2
+ +       0.4224 * (normalized) Gabor Features3
+ +      -0.3891 * (normalized) Gabor Features4
+ +       0.4224 * (normalized) Gabor Features5
+ +      -0.3891 * (normalized) Gabor Features6
+ +       0.4224 * (normalized) Gabor Features7
+ +      -0.3891 * (normalized) Gabor Features8
+ +       0.4224 * (normalized) Gabor Features9
+ +      -0.3891 * (normalized) Gabor Features10
+ +       0.4224 * (normalized) Gabor Features11
+ +      -0.3891 * (normalized) Gabor Features12
+ +       0.4224 * (normalized) Gabor Features13
+ +      -0.3891 * (normalized) Gabor Features14
+ +       0.4224 * (normalized) Gabor Features15
+ +      -0.3891 * (normalized) Gabor Features16
+ +       0.4224 * (normalized) Gabor Features17
+ +      -0.3891 * (normalized) Gabor Features18
+ +       0.4224 * (normalized) Gabor Features19
+ +      -0.3891 * (normalized) Gabor Features20
+ +       0.4224 * (normalized) Gabor Features21
+ +      -0.3891 * (normalized) Gabor Features22
+ +       0.4224 * (normalized) Gabor Features23
+ +      -0.3891 * (normalized) Gabor Features24
+ +       0.4224 * (normalized) Gabor Features25
+ +      -0.3891 * (normalized) Gabor Features26
+ +       0.4224 * (normalized) Gabor Features27
+ +      -0.3891 * (normalized) Gabor Features28
+ +       0.4224 * (normalized) Gabor Features29
+ +      -0.3891 * (normalized) Gabor Features30
+ +       0.4224 * (normalized) Gabor Features31
+ +      -0.3891 * (normalized) Gabor Features32
+ +       0.4224 * (normalized) Gabor Features33
+ +      -0.3891 * (normalized) Gabor Features34
+ +       0.4224 * (normalized) Gabor Features35
+ +      -0.3891 * (normalized) Gabor Features36
+ +       0.4224 * (normalized) Gabor Features37
+ +      -0.3891 * (normalized) Gabor Features38
+ +       0.4224 * (normalized) Gabor Features39
+ +      -0.3891 * (normalized) Gabor Features40
+ +       0.4224 * (normalized) Gabor Features41
+ +      -0.3891 * (normalized) Gabor Features42
+ +       0.4224 * (normalized) Gabor Features43
+ +      -0.3891 * (normalized) Gabor Features44
+ +       0.4224 * (normalized) Gabor Features45
+ +      -0.3891 * (normalized) Gabor Features46
+ +       0.4224 * (normalized) Gabor Features47
+ +      -0.3891 * (normalized) Gabor Features48
+ +       0.4224 * (normalized) Gabor Features49
+ +      -0.3891 * (normalized) Gabor Features50
+ +       0.4224 * (normalized) Gabor Features51
+ +      -0.3891 * (normalized) Gabor Features52
+ +       0.4224 * (normalized) Gabor Features53
+ +      -0.3891 * (normalized) Gabor Features54
+ +       0.4224 * (normalized) Gabor Features55
+ +      -0.3891 * (normalized) Gabor Features56
+ +       0.4224 * (normalized) Gabor Features57
+ +      -0.3891 * (normalized) Gabor Features58
+ +       0.4224 * (normalized) Gabor Features59
+ +       5.9228
+
+Number of kernel evaluations: 1324 (67.926% cached)
+
+Classifier for classes: K2, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3177 * (normalized) Gabor Features0
+ +       0.5257 * (normalized) Gabor Features1
+ +      -0.3177 * (normalized) Gabor Features2
+ +       0.5257 * (normalized) Gabor Features3
+ +      -0.3177 * (normalized) Gabor Features4
+ +       0.5257 * (normalized) Gabor Features5
+ +      -0.3177 * (normalized) Gabor Features6
+ +       0.5257 * (normalized) Gabor Features7
+ +      -0.3177 * (normalized) Gabor Features8
+ +       0.5257 * (normalized) Gabor Features9
+ +      -0.3177 * (normalized) Gabor Features10
+ +       0.5257 * (normalized) Gabor Features11
+ +      -0.3177 * (normalized) Gabor Features12
+ +       0.5257 * (normalized) Gabor Features13
+ +      -0.3177 * (normalized) Gabor Features14
+ +       0.5257 * (normalized) Gabor Features15
+ +      -0.3177 * (normalized) Gabor Features16
+ +       0.5257 * (normalized) Gabor Features17
+ +      -0.3177 * (normalized) Gabor Features18
+ +       0.5257 * (normalized) Gabor Features19
+ +      -0.3177 * (normalized) Gabor Features20
+ +       0.5257 * (normalized) Gabor Features21
+ +      -0.3177 * (normalized) Gabor Features22
+ +       0.5257 * (normalized) Gabor Features23
+ +      -0.3177 * (normalized) Gabor Features24
+ +       0.5257 * (normalized) Gabor Features25
+ +      -0.3177 * (normalized) Gabor Features26
+ +       0.5257 * (normalized) Gabor Features27
+ +      -0.3177 * (normalized) Gabor Features28
+ +       0.5257 * (normalized) Gabor Features29
+ +      -0.3177 * (normalized) Gabor Features30
+ +       0.5257 * (normalized) Gabor Features31
+ +      -0.3177 * (normalized) Gabor Features32
+ +       0.5257 * (normalized) Gabor Features33
+ +      -0.3177 * (normalized) Gabor Features34
+ +       0.5257 * (normalized) Gabor Features35
+ +      -0.3177 * (normalized) Gabor Features36
+ +       0.5257 * (normalized) Gabor Features37
+ +      -0.3177 * (normalized) Gabor Features38
+ +       0.5257 * (normalized) Gabor Features39
+ +      -0.3177 * (normalized) Gabor Features40
+ +       0.5257 * (normalized) Gabor Features41
+ +      -0.3177 * (normalized) Gabor Features42
+ +       0.5257 * (normalized) Gabor Features43
+ +      -0.3177 * (normalized) Gabor Features44
+ +       0.5257 * (normalized) Gabor Features45
+ +      -0.3177 * (normalized) Gabor Features46
+ +       0.5257 * (normalized) Gabor Features47
+ +      -0.3177 * (normalized) Gabor Features48
+ +       0.5257 * (normalized) Gabor Features49
+ +      -0.3177 * (normalized) Gabor Features50
+ +       0.5257 * (normalized) Gabor Features51
+ +      -0.3177 * (normalized) Gabor Features52
+ +       0.5257 * (normalized) Gabor Features53
+ +      -0.3177 * (normalized) Gabor Features54
+ +       0.5257 * (normalized) Gabor Features55
+ +      -0.3177 * (normalized) Gabor Features56
+ +       0.5257 * (normalized) Gabor Features57
+ +      -0.3177 * (normalized) Gabor Features58
+ +       0.5257 * (normalized) Gabor Features59
+ +       4.1459
+
+Number of kernel evaluations: 2140 (62.95% cached)
+
+Classifier for classes: K2, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3543 * (normalized) Gabor Features0
+ +       0.4299 * (normalized) Gabor Features1
+ +      -0.3543 * (normalized) Gabor Features2
+ +       0.4299 * (normalized) Gabor Features3
+ +      -0.3543 * (normalized) Gabor Features4
+ +       0.4299 * (normalized) Gabor Features5
+ +      -0.3543 * (normalized) Gabor Features6
+ +       0.4299 * (normalized) Gabor Features7
+ +      -0.3543 * (normalized) Gabor Features8
+ +       0.4299 * (normalized) Gabor Features9
+ +      -0.3543 * (normalized) Gabor Features10
+ +       0.4299 * (normalized) Gabor Features11
+ +      -0.3543 * (normalized) Gabor Features12
+ +       0.4299 * (normalized) Gabor Features13
+ +      -0.3543 * (normalized) Gabor Features14
+ +       0.4299 * (normalized) Gabor Features15
+ +      -0.3543 * (normalized) Gabor Features16
+ +       0.4299 * (normalized) Gabor Features17
+ +      -0.3543 * (normalized) Gabor Features18
+ +       0.4299 * (normalized) Gabor Features19
+ +      -0.3543 * (normalized) Gabor Features20
+ +       0.4299 * (normalized) Gabor Features21
+ +      -0.3543 * (normalized) Gabor Features22
+ +       0.4299 * (normalized) Gabor Features23
+ +      -0.3543 * (normalized) Gabor Features24
+ +       0.4299 * (normalized) Gabor Features25
+ +      -0.3543 * (normalized) Gabor Features26
+ +       0.4299 * (normalized) Gabor Features27
+ +      -0.3543 * (normalized) Gabor Features28
+ +       0.4299 * (normalized) Gabor Features29
+ +      -0.3543 * (normalized) Gabor Features30
+ +       0.4299 * (normalized) Gabor Features31
+ +      -0.3543 * (normalized) Gabor Features32
+ +       0.4299 * (normalized) Gabor Features33
+ +      -0.3543 * (normalized) Gabor Features34
+ +       0.4299 * (normalized) Gabor Features35
+ +      -0.3543 * (normalized) Gabor Features36
+ +       0.4299 * (normalized) Gabor Features37
+ +      -0.3543 * (normalized) Gabor Features38
+ +       0.4299 * (normalized) Gabor Features39
+ +      -0.3543 * (normalized) Gabor Features40
+ +       0.4299 * (normalized) Gabor Features41
+ +      -0.3543 * (normalized) Gabor Features42
+ +       0.4299 * (normalized) Gabor Features43
+ +      -0.3543 * (normalized) Gabor Features44
+ +       0.4299 * (normalized) Gabor Features45
+ +      -0.3543 * (normalized) Gabor Features46
+ +       0.4299 * (normalized) Gabor Features47
+ +      -0.3543 * (normalized) Gabor Features48
+ +       0.4299 * (normalized) Gabor Features49
+ +      -0.3543 * (normalized) Gabor Features50
+ +       0.4299 * (normalized) Gabor Features51
+ +      -0.3543 * (normalized) Gabor Features52
+ +       0.4299 * (normalized) Gabor Features53
+ +      -0.3543 * (normalized) Gabor Features54
+ +       0.4299 * (normalized) Gabor Features55
+ +      -0.3543 * (normalized) Gabor Features56
+ +       0.4299 * (normalized) Gabor Features57
+ +      -0.3543 * (normalized) Gabor Features58
+ +       0.4299 * (normalized) Gabor Features59
+ +       4.9612
+
+Number of kernel evaluations: 616 (60.689% cached)
+
+Classifier for classes: K2, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3391 * (normalized) Gabor Features0
+ +       0.0973 * (normalized) Gabor Features1
+ +      -0.3391 * (normalized) Gabor Features2
+ +       0.0973 * (normalized) Gabor Features3
+ +      -0.3391 * (normalized) Gabor Features4
+ +       0.0973 * (normalized) Gabor Features5
+ +      -0.3391 * (normalized) Gabor Features6
+ +       0.0973 * (normalized) Gabor Features7
+ +      -0.3391 * (normalized) Gabor Features8
+ +       0.0973 * (normalized) Gabor Features9
+ +      -0.3391 * (normalized) Gabor Features10
+ +       0.0973 * (normalized) Gabor Features11
+ +      -0.3391 * (normalized) Gabor Features12
+ +       0.0973 * (normalized) Gabor Features13
+ +      -0.3391 * (normalized) Gabor Features14
+ +       0.0973 * (normalized) Gabor Features15
+ +      -0.3391 * (normalized) Gabor Features16
+ +       0.0973 * (normalized) Gabor Features17
+ +      -0.3391 * (normalized) Gabor Features18
+ +       0.0973 * (normalized) Gabor Features19
+ +      -0.3391 * (normalized) Gabor Features20
+ +       0.0973 * (normalized) Gabor Features21
+ +      -0.3391 * (normalized) Gabor Features22
+ +       0.0973 * (normalized) Gabor Features23
+ +      -0.3391 * (normalized) Gabor Features24
+ +       0.0973 * (normalized) Gabor Features25
+ +      -0.3391 * (normalized) Gabor Features26
+ +       0.0973 * (normalized) Gabor Features27
+ +      -0.3391 * (normalized) Gabor Features28
+ +       0.0973 * (normalized) Gabor Features29
+ +      -0.3391 * (normalized) Gabor Features30
+ +       0.0973 * (normalized) Gabor Features31
+ +      -0.3391 * (normalized) Gabor Features32
+ +       0.0973 * (normalized) Gabor Features33
+ +      -0.3391 * (normalized) Gabor Features34
+ +       0.0973 * (normalized) Gabor Features35
+ +      -0.3391 * (normalized) Gabor Features36
+ +       0.0973 * (normalized) Gabor Features37
+ +      -0.3391 * (normalized) Gabor Features38
+ +       0.0973 * (normalized) Gabor Features39
+ +      -0.3391 * (normalized) Gabor Features40
+ +       0.0973 * (normalized) Gabor Features41
+ +      -0.3391 * (normalized) Gabor Features42
+ +       0.0973 * (normalized) Gabor Features43
+ +      -0.3391 * (normalized) Gabor Features44
+ +       0.0973 * (normalized) Gabor Features45
+ +      -0.3391 * (normalized) Gabor Features46
+ +       0.0973 * (normalized) Gabor Features47
+ +      -0.3391 * (normalized) Gabor Features48
+ +       0.0973 * (normalized) Gabor Features49
+ +      -0.3391 * (normalized) Gabor Features50
+ +       0.0973 * (normalized) Gabor Features51
+ +      -0.3391 * (normalized) Gabor Features52
+ +       0.0973 * (normalized) Gabor Features53
+ +      -0.3391 * (normalized) Gabor Features54
+ +       0.0973 * (normalized) Gabor Features55
+ +      -0.3391 * (normalized) Gabor Features56
+ +       0.0973 * (normalized) Gabor Features57
+ +      -0.3391 * (normalized) Gabor Features58
+ +       0.0973 * (normalized) Gabor Features59
+ +       4.5649
+
+Number of kernel evaluations: 114 (64.486% cached)
+
+Classifier for classes: K2, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K2, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K3, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0001 * (normalized) Gabor Features0
+ +      -0.0001 * (normalized) Gabor Features1
+ +      -0.0001 * (normalized) Gabor Features2
+ +      -0.0001 * (normalized) Gabor Features3
+ +      -0.0001 * (normalized) Gabor Features4
+ +      -0.0001 * (normalized) Gabor Features5
+ +      -0.0001 * (normalized) Gabor Features6
+ +      -0.0001 * (normalized) Gabor Features7
+ +      -0.0001 * (normalized) Gabor Features8
+ +      -0.0001 * (normalized) Gabor Features9
+ +      -0.0001 * (normalized) Gabor Features10
+ +      -0.0001 * (normalized) Gabor Features11
+ +      -0.0001 * (normalized) Gabor Features12
+ +      -0.0001 * (normalized) Gabor Features13
+ +      -0.0001 * (normalized) Gabor Features14
+ +      -0.0001 * (normalized) Gabor Features15
+ +      -0.0001 * (normalized) Gabor Features16
+ +      -0.0001 * (normalized) Gabor Features17
+ +      -0.0001 * (normalized) Gabor Features18
+ +      -0.0001 * (normalized) Gabor Features19
+ +      -0.0001 * (normalized) Gabor Features20
+ +      -0.0001 * (normalized) Gabor Features21
+ +      -0.0001 * (normalized) Gabor Features22
+ +      -0.0001 * (normalized) Gabor Features23
+ +      -0.0001 * (normalized) Gabor Features24
+ +      -0.0001 * (normalized) Gabor Features25
+ +      -0.0001 * (normalized) Gabor Features26
+ +      -0.0001 * (normalized) Gabor Features27
+ +      -0.0001 * (normalized) Gabor Features28
+ +      -0.0001 * (normalized) Gabor Features29
+ +      -0.0001 * (normalized) Gabor Features30
+ +      -0.0001 * (normalized) Gabor Features31
+ +      -0.0001 * (normalized) Gabor Features32
+ +      -0.0001 * (normalized) Gabor Features33
+ +      -0.0001 * (normalized) Gabor Features34
+ +      -0.0001 * (normalized) Gabor Features35
+ +      -0.0001 * (normalized) Gabor Features36
+ +      -0.0001 * (normalized) Gabor Features37
+ +      -0.0001 * (normalized) Gabor Features38
+ +      -0.0001 * (normalized) Gabor Features39
+ +      -0.0001 * (normalized) Gabor Features40
+ +      -0.0001 * (normalized) Gabor Features41
+ +      -0.0001 * (normalized) Gabor Features42
+ +      -0.0001 * (normalized) Gabor Features43
+ +      -0.0001 * (normalized) Gabor Features44
+ +      -0.0001 * (normalized) Gabor Features45
+ +      -0.0001 * (normalized) Gabor Features46
+ +      -0.0001 * (normalized) Gabor Features47
+ +      -0.0001 * (normalized) Gabor Features48
+ +      -0.0001 * (normalized) Gabor Features49
+ +      -0.0001 * (normalized) Gabor Features50
+ +      -0.0001 * (normalized) Gabor Features51
+ +      -0.0001 * (normalized) Gabor Features52
+ +      -0.0001 * (normalized) Gabor Features53
+ +      -0.0001 * (normalized) Gabor Features54
+ +      -0.0001 * (normalized) Gabor Features55
+ +      -0.0001 * (normalized) Gabor Features56
+ +      -0.0001 * (normalized) Gabor Features57
+ +      -0.0001 * (normalized) Gabor Features58
+ +      -0.0001 * (normalized) Gabor Features59
+ -       0.9973
+
+Number of kernel evaluations: 3143 (68.601% cached)
+
+Classifier for classes: K3, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0688 * (normalized) Gabor Features0
+ +      -0.0821 * (normalized) Gabor Features1
+ +      -0.0688 * (normalized) Gabor Features2
+ +      -0.0821 * (normalized) Gabor Features3
+ +      -0.0688 * (normalized) Gabor Features4
+ +      -0.0821 * (normalized) Gabor Features5
+ +      -0.0688 * (normalized) Gabor Features6
+ +      -0.0821 * (normalized) Gabor Features7
+ +      -0.0688 * (normalized) Gabor Features8
+ +      -0.0821 * (normalized) Gabor Features9
+ +      -0.0688 * (normalized) Gabor Features10
+ +      -0.0821 * (normalized) Gabor Features11
+ +      -0.0688 * (normalized) Gabor Features12
+ +      -0.0821 * (normalized) Gabor Features13
+ +      -0.0688 * (normalized) Gabor Features14
+ +      -0.0821 * (normalized) Gabor Features15
+ +      -0.0688 * (normalized) Gabor Features16
+ +      -0.0821 * (normalized) Gabor Features17
+ +      -0.0688 * (normalized) Gabor Features18
+ +      -0.0821 * (normalized) Gabor Features19
+ +      -0.0688 * (normalized) Gabor Features20
+ +      -0.0821 * (normalized) Gabor Features21
+ +      -0.0688 * (normalized) Gabor Features22
+ +      -0.0821 * (normalized) Gabor Features23
+ +      -0.0688 * (normalized) Gabor Features24
+ +      -0.0821 * (normalized) Gabor Features25
+ +      -0.0688 * (normalized) Gabor Features26
+ +      -0.0821 * (normalized) Gabor Features27
+ +      -0.0688 * (normalized) Gabor Features28
+ +      -0.0821 * (normalized) Gabor Features29
+ +      -0.0688 * (normalized) Gabor Features30
+ +      -0.0821 * (normalized) Gabor Features31
+ +      -0.0688 * (normalized) Gabor Features32
+ +      -0.0821 * (normalized) Gabor Features33
+ +      -0.0688 * (normalized) Gabor Features34
+ +      -0.0821 * (normalized) Gabor Features35
+ +      -0.0688 * (normalized) Gabor Features36
+ +      -0.0821 * (normalized) Gabor Features37
+ +      -0.0688 * (normalized) Gabor Features38
+ +      -0.0821 * (normalized) Gabor Features39
+ +      -0.0688 * (normalized) Gabor Features40
+ +      -0.0821 * (normalized) Gabor Features41
+ +      -0.0688 * (normalized) Gabor Features42
+ +      -0.0821 * (normalized) Gabor Features43
+ +      -0.0688 * (normalized) Gabor Features44
+ +      -0.0821 * (normalized) Gabor Features45
+ +      -0.0688 * (normalized) Gabor Features46
+ +      -0.0821 * (normalized) Gabor Features47
+ +      -0.0688 * (normalized) Gabor Features48
+ +      -0.0821 * (normalized) Gabor Features49
+ +      -0.0688 * (normalized) Gabor Features50
+ +      -0.0821 * (normalized) Gabor Features51
+ +      -0.0688 * (normalized) Gabor Features52
+ +      -0.0821 * (normalized) Gabor Features53
+ +      -0.0688 * (normalized) Gabor Features54
+ +      -0.0821 * (normalized) Gabor Features55
+ +      -0.0688 * (normalized) Gabor Features56
+ +      -0.0821 * (normalized) Gabor Features57
+ +      -0.0688 * (normalized) Gabor Features58
+ +      -0.0821 * (normalized) Gabor Features59
+ +       0.8848
+
+Number of kernel evaluations: 2771 (66.647% cached)
+
+Classifier for classes: K3, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.5345 * (normalized) Gabor Features0
+ +      -0.2128 * (normalized) Gabor Features1
+ +      -0.5345 * (normalized) Gabor Features2
+ +      -0.2128 * (normalized) Gabor Features3
+ +      -0.5345 * (normalized) Gabor Features4
+ +      -0.2128 * (normalized) Gabor Features5
+ +      -0.5345 * (normalized) Gabor Features6
+ +      -0.2128 * (normalized) Gabor Features7
+ +      -0.5345 * (normalized) Gabor Features8
+ +      -0.2128 * (normalized) Gabor Features9
+ +      -0.5345 * (normalized) Gabor Features10
+ +      -0.2128 * (normalized) Gabor Features11
+ +      -0.5345 * (normalized) Gabor Features12
+ +      -0.2128 * (normalized) Gabor Features13
+ +      -0.5345 * (normalized) Gabor Features14
+ +      -0.2128 * (normalized) Gabor Features15
+ +      -0.5345 * (normalized) Gabor Features16
+ +      -0.2128 * (normalized) Gabor Features17
+ +      -0.5345 * (normalized) Gabor Features18
+ +      -0.2128 * (normalized) Gabor Features19
+ +      -0.5345 * (normalized) Gabor Features20
+ +      -0.2128 * (normalized) Gabor Features21
+ +      -0.5345 * (normalized) Gabor Features22
+ +      -0.2128 * (normalized) Gabor Features23
+ +      -0.5345 * (normalized) Gabor Features24
+ +      -0.2128 * (normalized) Gabor Features25
+ +      -0.5345 * (normalized) Gabor Features26
+ +      -0.2128 * (normalized) Gabor Features27
+ +      -0.5345 * (normalized) Gabor Features28
+ +      -0.2128 * (normalized) Gabor Features29
+ +      -0.5345 * (normalized) Gabor Features30
+ +      -0.2128 * (normalized) Gabor Features31
+ +      -0.5345 * (normalized) Gabor Features32
+ +      -0.2128 * (normalized) Gabor Features33
+ +      -0.5345 * (normalized) Gabor Features34
+ +      -0.2128 * (normalized) Gabor Features35
+ +      -0.5345 * (normalized) Gabor Features36
+ +      -0.2128 * (normalized) Gabor Features37
+ +      -0.5345 * (normalized) Gabor Features38
+ +      -0.2128 * (normalized) Gabor Features39
+ +      -0.5345 * (normalized) Gabor Features40
+ +      -0.2128 * (normalized) Gabor Features41
+ +      -0.5345 * (normalized) Gabor Features42
+ +      -0.2128 * (normalized) Gabor Features43
+ +      -0.5345 * (normalized) Gabor Features44
+ +      -0.2128 * (normalized) Gabor Features45
+ +      -0.5345 * (normalized) Gabor Features46
+ +      -0.2128 * (normalized) Gabor Features47
+ +      -0.5345 * (normalized) Gabor Features48
+ +      -0.2128 * (normalized) Gabor Features49
+ +      -0.5345 * (normalized) Gabor Features50
+ +      -0.2128 * (normalized) Gabor Features51
+ +      -0.5345 * (normalized) Gabor Features52
+ +      -0.2128 * (normalized) Gabor Features53
+ +      -0.5345 * (normalized) Gabor Features54
+ +      -0.2128 * (normalized) Gabor Features55
+ +      -0.5345 * (normalized) Gabor Features56
+ +      -0.2128 * (normalized) Gabor Features57
+ +      -0.5345 * (normalized) Gabor Features58
+ +      -0.2128 * (normalized) Gabor Features59
+ +       6.7133
+
+Number of kernel evaluations: 694 (71.487% cached)
+
+Classifier for classes: K3, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K3, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K4, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0289 * (normalized) Gabor Features0
+ +      -0.047  * (normalized) Gabor Features1
+ +       0.0289 * (normalized) Gabor Features2
+ +      -0.047  * (normalized) Gabor Features3
+ +       0.0289 * (normalized) Gabor Features4
+ +      -0.047  * (normalized) Gabor Features5
+ +       0.0289 * (normalized) Gabor Features6
+ +      -0.047  * (normalized) Gabor Features7
+ +       0.0289 * (normalized) Gabor Features8
+ +      -0.047  * (normalized) Gabor Features9
+ +       0.0289 * (normalized) Gabor Features10
+ +      -0.047  * (normalized) Gabor Features11
+ +       0.0289 * (normalized) Gabor Features12
+ +      -0.047  * (normalized) Gabor Features13
+ +       0.0289 * (normalized) Gabor Features14
+ +      -0.047  * (normalized) Gabor Features15
+ +       0.0289 * (normalized) Gabor Features16
+ +      -0.047  * (normalized) Gabor Features17
+ +       0.0289 * (normalized) Gabor Features18
+ +      -0.047  * (normalized) Gabor Features19
+ +       0.0289 * (normalized) Gabor Features20
+ +      -0.047  * (normalized) Gabor Features21
+ +       0.0289 * (normalized) Gabor Features22
+ +      -0.047  * (normalized) Gabor Features23
+ +       0.0289 * (normalized) Gabor Features24
+ +      -0.047  * (normalized) Gabor Features25
+ +       0.0289 * (normalized) Gabor Features26
+ +      -0.047  * (normalized) Gabor Features27
+ +       0.0289 * (normalized) Gabor Features28
+ +      -0.047  * (normalized) Gabor Features29
+ +       0.0289 * (normalized) Gabor Features30
+ +      -0.047  * (normalized) Gabor Features31
+ +       0.0289 * (normalized) Gabor Features32
+ +      -0.047  * (normalized) Gabor Features33
+ +       0.0289 * (normalized) Gabor Features34
+ +      -0.047  * (normalized) Gabor Features35
+ +       0.0289 * (normalized) Gabor Features36
+ +      -0.047  * (normalized) Gabor Features37
+ +       0.0289 * (normalized) Gabor Features38
+ +      -0.047  * (normalized) Gabor Features39
+ +       0.0289 * (normalized) Gabor Features40
+ +      -0.047  * (normalized) Gabor Features41
+ +       0.0289 * (normalized) Gabor Features42
+ +      -0.047  * (normalized) Gabor Features43
+ +       0.0289 * (normalized) Gabor Features44
+ +      -0.047  * (normalized) Gabor Features45
+ +       0.0289 * (normalized) Gabor Features46
+ +      -0.047  * (normalized) Gabor Features47
+ +       0.0289 * (normalized) Gabor Features48
+ +      -0.047  * (normalized) Gabor Features49
+ +       0.0289 * (normalized) Gabor Features50
+ +      -0.047  * (normalized) Gabor Features51
+ +       0.0289 * (normalized) Gabor Features52
+ +      -0.047  * (normalized) Gabor Features53
+ +       0.0289 * (normalized) Gabor Features54
+ +      -0.047  * (normalized) Gabor Features55
+ +       0.0289 * (normalized) Gabor Features56
+ +      -0.047  * (normalized) Gabor Features57
+ +       0.0289 * (normalized) Gabor Features58
+ +      -0.047  * (normalized) Gabor Features59
+ -       0.2243
+
+Number of kernel evaluations: 2960 (70.435% cached)
+
+Classifier for classes: K4, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3221 * (normalized) Gabor Features0
+ +      -0.1435 * (normalized) Gabor Features1
+ +      -0.3221 * (normalized) Gabor Features2
+ +      -0.1435 * (normalized) Gabor Features3
+ +      -0.3221 * (normalized) Gabor Features4
+ +      -0.1435 * (normalized) Gabor Features5
+ +      -0.3221 * (normalized) Gabor Features6
+ +      -0.1435 * (normalized) Gabor Features7
+ +      -0.3221 * (normalized) Gabor Features8
+ +      -0.1435 * (normalized) Gabor Features9
+ +      -0.3221 * (normalized) Gabor Features10
+ +      -0.1435 * (normalized) Gabor Features11
+ +      -0.3221 * (normalized) Gabor Features12
+ +      -0.1435 * (normalized) Gabor Features13
+ +      -0.3221 * (normalized) Gabor Features14
+ +      -0.1435 * (normalized) Gabor Features15
+ +      -0.3221 * (normalized) Gabor Features16
+ +      -0.1435 * (normalized) Gabor Features17
+ +      -0.3221 * (normalized) Gabor Features18
+ +      -0.1435 * (normalized) Gabor Features19
+ +      -0.3221 * (normalized) Gabor Features20
+ +      -0.1435 * (normalized) Gabor Features21
+ +      -0.3221 * (normalized) Gabor Features22
+ +      -0.1435 * (normalized) Gabor Features23
+ +      -0.3221 * (normalized) Gabor Features24
+ +      -0.1435 * (normalized) Gabor Features25
+ +      -0.3221 * (normalized) Gabor Features26
+ +      -0.1435 * (normalized) Gabor Features27
+ +      -0.3221 * (normalized) Gabor Features28
+ +      -0.1435 * (normalized) Gabor Features29
+ +      -0.3221 * (normalized) Gabor Features30
+ +      -0.1435 * (normalized) Gabor Features31
+ +      -0.3221 * (normalized) Gabor Features32
+ +      -0.1435 * (normalized) Gabor Features33
+ +      -0.3221 * (normalized) Gabor Features34
+ +      -0.1435 * (normalized) Gabor Features35
+ +      -0.3221 * (normalized) Gabor Features36
+ +      -0.1435 * (normalized) Gabor Features37
+ +      -0.3221 * (normalized) Gabor Features38
+ +      -0.1435 * (normalized) Gabor Features39
+ +      -0.3221 * (normalized) Gabor Features40
+ +      -0.1435 * (normalized) Gabor Features41
+ +      -0.3221 * (normalized) Gabor Features42
+ +      -0.1435 * (normalized) Gabor Features43
+ +      -0.3221 * (normalized) Gabor Features44
+ +      -0.1435 * (normalized) Gabor Features45
+ +      -0.3221 * (normalized) Gabor Features46
+ +      -0.1435 * (normalized) Gabor Features47
+ +      -0.3221 * (normalized) Gabor Features48
+ +      -0.1435 * (normalized) Gabor Features49
+ +      -0.3221 * (normalized) Gabor Features50
+ +      -0.1435 * (normalized) Gabor Features51
+ +      -0.3221 * (normalized) Gabor Features52
+ +      -0.1435 * (normalized) Gabor Features53
+ +      -0.3221 * (normalized) Gabor Features54
+ +      -0.1435 * (normalized) Gabor Features55
+ +      -0.3221 * (normalized) Gabor Features56
+ +      -0.1435 * (normalized) Gabor Features57
+ +      -0.3221 * (normalized) Gabor Features58
+ +      -0.1435 * (normalized) Gabor Features59
+ +       3.3306
+
+Number of kernel evaluations: 657 (75.64% cached)
+
+Classifier for classes: K4, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K4, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K5, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.5322 * (normalized) Gabor Features0
+ +       0.042  * (normalized) Gabor Features1
+ +      -0.5322 * (normalized) Gabor Features2
+ +       0.042  * (normalized) Gabor Features3
+ +      -0.5322 * (normalized) Gabor Features4
+ +       0.042  * (normalized) Gabor Features5
+ +      -0.5322 * (normalized) Gabor Features6
+ +       0.042  * (normalized) Gabor Features7
+ +      -0.5322 * (normalized) Gabor Features8
+ +       0.042  * (normalized) Gabor Features9
+ +      -0.5322 * (normalized) Gabor Features10
+ +       0.042  * (normalized) Gabor Features11
+ +      -0.5322 * (normalized) Gabor Features12
+ +       0.042  * (normalized) Gabor Features13
+ +      -0.5322 * (normalized) Gabor Features14
+ +       0.042  * (normalized) Gabor Features15
+ +      -0.5322 * (normalized) Gabor Features16
+ +       0.042  * (normalized) Gabor Features17
+ +      -0.5322 * (normalized) Gabor Features18
+ +       0.042  * (normalized) Gabor Features19
+ +      -0.5322 * (normalized) Gabor Features20
+ +       0.042  * (normalized) Gabor Features21
+ +      -0.5322 * (normalized) Gabor Features22
+ +       0.042  * (normalized) Gabor Features23
+ +      -0.5322 * (normalized) Gabor Features24
+ +       0.042  * (normalized) Gabor Features25
+ +      -0.5322 * (normalized) Gabor Features26
+ +       0.042  * (normalized) Gabor Features27
+ +      -0.5322 * (normalized) Gabor Features28
+ +       0.042  * (normalized) Gabor Features29
+ +      -0.5322 * (normalized) Gabor Features30
+ +       0.042  * (normalized) Gabor Features31
+ +      -0.5322 * (normalized) Gabor Features32
+ +       0.042  * (normalized) Gabor Features33
+ +      -0.5322 * (normalized) Gabor Features34
+ +       0.042  * (normalized) Gabor Features35
+ +      -0.5322 * (normalized) Gabor Features36
+ +       0.042  * (normalized) Gabor Features37
+ +      -0.5322 * (normalized) Gabor Features38
+ +       0.042  * (normalized) Gabor Features39
+ +      -0.5322 * (normalized) Gabor Features40
+ +       0.042  * (normalized) Gabor Features41
+ +      -0.5322 * (normalized) Gabor Features42
+ +       0.042  * (normalized) Gabor Features43
+ +      -0.5322 * (normalized) Gabor Features44
+ +       0.042  * (normalized) Gabor Features45
+ +      -0.5322 * (normalized) Gabor Features46
+ +       0.042  * (normalized) Gabor Features47
+ +      -0.5322 * (normalized) Gabor Features48
+ +       0.042  * (normalized) Gabor Features49
+ +      -0.5322 * (normalized) Gabor Features50
+ +       0.042  * (normalized) Gabor Features51
+ +      -0.5322 * (normalized) Gabor Features52
+ +       0.042  * (normalized) Gabor Features53
+ +      -0.5322 * (normalized) Gabor Features54
+ +       0.042  * (normalized) Gabor Features55
+ +      -0.5322 * (normalized) Gabor Features56
+ +       0.042  * (normalized) Gabor Features57
+ +      -0.5322 * (normalized) Gabor Features58
+ +       0.042  * (normalized) Gabor Features59
+ +       5.8761
+
+Number of kernel evaluations: 163 (56.183% cached)
+
+Classifier for classes: K5, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K5, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K6, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K6, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K7, K8
+
+BinarySMO: No model built yet.
+
+
+
+
+Time taken to build model: 0.25 seconds
+
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         223               53.6058 %
+Incorrectly Classified Instances       193               46.3942 %
+Kappa statistic                          0.3711
+Mean absolute error                      0.1921
+Root mean squared error                  0.3015
+Relative absolute error                 98.1837 %
+Root relative squared error             96.4991 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    ?          0.000    ?          ?        0.753     0.190     K1
+                 0.973    0.216    0.713      0.973    0.823      0.725    0.888     0.711     K2
+                 0.895    0.374    0.349      0.895    0.502      0.404    0.784     0.363     K3
+                 0.000    0.014    0.000      0.000    0.000      -0.046   0.680     0.218     K4
+                 0.000    0.003    0.000      0.000    0.000      -0.021   0.799     0.316     K5
+                 0.458    0.005    0.846      0.458    0.595      0.607    0.978     0.719     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.536    0.148    ?          0.536    ?          ?        0.816     0.461     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+   0  39   4   0   0   0   0   0 |   a = K1
+   0 144   4   0   0   0   0   0 |   b = K2
+   0   8  68   0   0   0   0   0 |   c = K3
+   0   9  49   0   1   2   0   0 |   d = K4
+   0   2  60   2   0   0   0   0 |   e = K5
+   0   0  10   3   0  11   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.5 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         216               51.9231 %
+Incorrectly Classified Instances       200               48.0769 %
+Kappa statistic                          0.3522
+Mean absolute error                      0.1923
+Root mean squared error                  0.3017
+Relative absolute error                 98.2302 %
+Root relative squared error             96.5703 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    ?          0.000    ?          ?        0.752     0.189     K1
+                 0.966    0.213    0.715      0.966    0.822      0.722    0.890     0.715     K2
+                 0.632    0.282    0.333      0.632    0.436      0.284    0.756     0.325     K3
+                 0.000    0.006    0.000      0.000    0.000      -0.029   0.690     0.231     K4
+                 0.219    0.122    0.246      0.219    0.231      0.101    0.791     0.304     K5
+                 0.458    0.005    0.846      0.458    0.595      0.607    0.977     0.697     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.519    0.147    ?          0.519    ?          ?        0.811     0.454     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+   0  38   3   0   2   0   0   0 |   a = K1
+   0 143   5   0   0   0   0   0 |   b = K2
+   0   8  48   0  20   0   0   0 |   c = K3
+   0   9  34   0  16   2   0   0 |   d = K4
+   0   2  47   1  14   0   0   0 |   e = K5
+   0   0   7   1   5  11   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

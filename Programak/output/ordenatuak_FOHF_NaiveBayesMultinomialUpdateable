@@ -1,0 +1,678 @@
+
+=== Classifier model (full training set) ===
+
+The class counts (including Laplace correction)
+-----------------------------------------------
+K1	44
+K2	149
+K3	77
+K4	62
+K5	65
+K6	25
+K7	1
+K8	1
+
+The probability of a word given the class
+-----------------------------------------
+	K1	K2	K3	K4	K5	K6	K7	K8	
+Fuzzy Opponent Histogram0	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram1	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram2	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram3	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram4	0.07	0.06	0.14	0.14	0.03	0.08	0	0	
+Fuzzy Opponent Histogram5	0.12	0.15	0.15	0.14	0.05	0.05	0	0	
+Fuzzy Opponent Histogram6	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram7	0.06	0.05	0.14	0.14	0.02	0.03	0	0	
+Fuzzy Opponent Histogram8	0.12	0.17	0.17	0.15	0.05	0.03	0	0	
+Fuzzy Opponent Histogram9	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram10	0	0	0	0	0.02	0.06	0	0	
+Fuzzy Opponent Histogram11	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram12	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram13	0.02	0.03	0.02	0.02	0.14	0.28	0	0	
+Fuzzy Opponent Histogram14	0.05	0.04	0.03	0.03	0.06	0.04	0	0	
+Fuzzy Opponent Histogram15	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram16	0.02	0.04	0.03	0.02	0.03	0.03	0	0	
+Fuzzy Opponent Histogram17	0.2	0.19	0.08	0.06	0.11	0.04	0	0	
+Fuzzy Opponent Histogram18	0	0.03	0.01	0.01	0	0	0	0	
+Fuzzy Opponent Histogram19	0	0	0	0	0.01	0	0	0	
+Fuzzy Opponent Histogram20	0	0	0.01	0.01	0	0	0	0	
+Fuzzy Opponent Histogram21	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram22	0.01	0.01	0.04	0.03	0.07	0.06	0	0	
+Fuzzy Opponent Histogram23	0.01	0.01	0.05	0.03	0.06	0.04	0	0	
+Fuzzy Opponent Histogram24	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram25	0.01	0.01	0.03	0.02	0.02	0.04	0	0	
+Fuzzy Opponent Histogram26	0.01	0.01	0.04	0.03	0.07	0.07	0	0	
+Fuzzy Opponent Histogram27	0	0.01	0	0	0.01	0	0	0	
+Fuzzy Opponent Histogram28	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram29	0	0	0	0.01	0	0	0	0	
+Fuzzy Opponent Histogram30	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram31	0.06	0.04	0.01	0.03	0.06	0.01	0	0	
+Fuzzy Opponent Histogram32	0.06	0.04	0.01	0.03	0.05	0.02	0	0	
+Fuzzy Opponent Histogram33	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram34	0.06	0.04	0.01	0.03	0.05	0.01	0	0	
+Fuzzy Opponent Histogram35	0.06	0.04	0.01	0.03	0.05	0.02	0	0	
+Fuzzy Opponent Histogram36	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram37	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram38	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram39	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram40	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram41	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram42	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram43	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram44	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram45	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram46	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram47	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram48	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram49	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram50	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram51	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram52	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram53	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram54	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram55	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram56	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram57	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram58	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram59	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram60	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram61	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram62	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram63	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram64	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram65	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram66	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram67	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram68	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram69	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram70	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram71	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram72	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram73	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram74	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram75	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram76	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram77	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram78	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram79	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram80	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram81	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram82	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram83	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram84	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram85	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram86	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram87	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram88	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram89	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram90	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram91	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram92	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram93	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram94	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram95	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram96	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram97	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram98	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram99	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram100	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram101	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram102	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram103	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram104	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram105	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram106	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram107	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram108	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram109	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram110	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram111	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram112	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram113	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram114	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram115	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram116	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram117	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram118	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram119	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram120	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram121	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram122	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram123	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram124	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram125	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram126	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram127	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram128	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram129	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram130	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram131	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram132	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram133	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram134	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram135	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram136	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram137	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram138	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram139	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram140	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram141	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram142	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram143	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram144	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram145	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram146	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram147	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram148	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram149	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram150	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram151	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram152	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram153	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram154	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram155	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram156	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram157	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram158	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram159	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram160	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram161	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram162	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram163	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram164	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram165	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram166	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram167	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram168	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram169	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram170	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram171	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram172	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram173	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram174	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram175	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram176	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram177	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram178	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram179	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram180	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram181	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram182	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram183	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram184	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram185	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram186	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram187	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram188	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram189	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram190	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram191	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram192	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram193	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram194	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram195	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram196	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram197	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram198	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram199	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram200	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram201	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram202	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram203	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram204	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram205	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram206	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram207	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram208	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram209	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram210	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram211	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram212	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram213	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram214	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram215	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram216	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram217	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram218	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram219	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram220	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram221	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram222	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram223	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram224	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram225	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram226	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram227	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram228	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram229	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram230	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram231	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram232	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram233	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram234	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram235	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram236	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram237	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram238	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram239	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram240	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram241	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram242	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram243	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram244	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram245	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram246	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram247	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram248	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram249	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram250	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram251	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram252	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram253	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram254	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram255	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram256	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram257	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram258	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram259	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram260	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram261	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram262	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram263	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram264	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram265	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram266	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram267	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram268	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram269	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram270	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram271	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram272	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram273	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram274	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram275	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram276	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram277	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram278	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram279	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram280	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram281	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram282	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram283	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram284	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram285	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram286	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram287	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram288	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram289	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram290	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram291	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram292	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram293	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram294	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram295	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram296	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram297	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram298	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram299	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram300	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram301	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram302	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram303	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram304	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram305	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram306	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram307	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram308	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram309	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram310	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram311	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram312	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram313	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram314	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram315	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram316	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram317	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram318	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram319	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram320	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram321	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram322	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram323	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram324	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram325	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram326	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram327	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram328	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram329	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram330	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram331	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram332	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram333	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram334	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram335	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram336	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram337	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram338	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram339	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram340	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram341	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram342	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram343	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram344	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram345	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram346	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram347	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram348	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram349	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram350	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram351	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram352	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram353	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram354	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram355	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram356	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram357	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram358	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram359	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram360	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram361	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram362	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram363	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram364	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram365	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram366	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram367	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram368	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram369	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram370	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram371	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram372	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram373	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram374	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram375	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram376	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram377	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram378	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram379	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram380	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram381	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram382	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram383	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram384	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram385	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram386	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram387	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram388	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram389	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram390	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram391	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram392	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram393	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram394	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram395	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram396	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram397	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram398	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram399	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram400	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram401	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram402	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram403	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram404	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram405	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram406	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram407	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram408	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram409	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram410	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram411	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram412	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram413	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram414	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram415	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram416	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram417	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram418	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram419	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram420	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram421	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram422	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram423	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram424	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram425	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram426	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram427	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram428	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram429	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram430	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram431	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram432	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram433	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram434	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram435	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram436	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram437	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram438	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram439	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram440	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram441	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram442	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram443	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram444	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram445	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram446	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram447	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram448	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram449	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram450	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram451	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram452	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram453	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram454	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram455	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram456	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram457	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram458	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram459	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram460	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram461	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram462	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram463	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram464	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram465	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram466	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram467	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram468	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram469	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram470	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram471	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram472	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram473	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram474	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram475	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram476	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram477	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram478	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram479	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram480	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram481	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram482	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram483	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram484	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram485	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram486	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram487	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram488	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram489	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram490	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram491	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram492	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram493	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram494	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram495	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram496	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram497	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram498	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram499	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram500	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram501	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram502	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram503	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram504	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram505	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram506	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram507	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram508	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram509	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram510	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram511	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram512	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram513	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram514	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram515	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram516	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram517	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram518	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram519	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram520	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram521	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram522	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram523	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram524	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram525	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram526	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram527	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram528	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram529	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram530	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram531	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram532	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram533	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram534	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram535	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram536	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram537	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram538	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram539	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram540	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram541	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram542	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram543	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram544	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram545	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram546	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram547	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram548	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram549	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram550	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram551	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram552	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram553	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram554	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram555	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram556	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram557	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram558	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram559	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram560	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram561	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram562	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram563	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram564	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram565	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram566	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram567	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram568	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram569	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram570	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram571	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram572	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram573	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram574	0	0	0	0	0	0	0	0	
+Fuzzy Opponent Histogram575	0	0	0	0	0	0	0	0	
+
+
+Time taken to build model: 0.19 seconds
+
+Time taken to test model on training data: 0.06 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         211               50.7212 %
+Incorrectly Classified Instances       205               49.2788 %
+Kappa statistic                          0.3873
+Mean absolute error                      0.1251
+Root mean squared error                  0.3488
+Relative absolute error                 63.9383 %
+Root relative squared error            111.653  %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.256    0.094    0.239      0.256    0.247      0.157    0.742     0.209     K1
+                 0.480    0.097    0.732      0.480    0.580      0.433    0.844     0.724     K2
+                 0.592    0.276    0.324      0.592    0.419      0.259    0.790     0.487     K3
+                 0.213    0.037    0.500      0.213    0.299      0.258    0.725     0.304     K4
+                 0.781    0.057    0.714      0.781    0.746      0.699    0.919     0.737     K5
+                 0.875    0.043    0.553      0.875    0.677      0.673    0.988     0.871     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.507    0.111    0.559      0.507    0.506      0.402    0.826     0.576     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h   <-- classified as
+ 11 14 15  1  2  0  0  0 |  a = K1
+ 25 71 45  0  7  0  0  0 |  b = K2
+  0  8 45 10  5  8  0  0 |  c = K3
+  6  2 32 13  3  5  0  0 |  d = K4
+  4  2  2  2 50  4  0  0 |  e = K5
+  0  0  0  0  3 21  0  0 |  f = K6
+  0  0  0  0  0  0  0  0 |  g = K7
+  0  0  0  0  0  0  0  0 |  h = K8
+
+Time taken to perform cross-validation: 0.09 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         188               45.1923 %
+Incorrectly Classified Instances       228               54.8077 %
+Kappa statistic                          0.3206
+Mean absolute error                      0.1365
+Root mean squared error                  0.3657
+Relative absolute error                 69.7613 %
+Root relative squared error            117.0276 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.140    0.113    0.125      0.140    0.132      0.026    0.686     0.170     K1
+                 0.446    0.108    0.695      0.446    0.543      0.385    0.828     0.695     K2
+                 0.539    0.282    0.299      0.539    0.385      0.211    0.760     0.448     K3
+                 0.148    0.045    0.360      0.148    0.209      0.153    0.678     0.258     K4
+                 0.703    0.065    0.662      0.703    0.682      0.622    0.907     0.715     K5
+                 0.875    0.056    0.488      0.875    0.627      0.627    0.980     0.803     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.452    0.122    0.498      0.452    0.449      0.333    0.800     0.541     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h   <-- classified as
+  6 17 15  1  4  0  0  0 |  a = K1
+ 27 66 46  1  8  0  0  0 |  b = K2
+  2  8 41 12  5  8  0  0 |  c = K3
+  9  2 33  9  3  5  0  0 |  d = K4
+  4  2  2  2 45  9  0  0 |  e = K5
+  0  0  0  0  3 21  0  0 |  f = K6
+  0  0  0  0  0  0  0  0 |  g = K7
+  0  0  0  0  0  0  0  0 |  h = K8
+

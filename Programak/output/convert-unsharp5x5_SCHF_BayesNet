@@ -1,0 +1,164 @@
+
+Options: -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 3 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5 
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=65 #classindex=64
+Network structure (nodes followed by parents)
+RGB Color Histogram0(2): class 
+RGB Color Histogram1(3): class 
+RGB Color Histogram2(3): class 
+RGB Color Histogram3(1): class 
+RGB Color Histogram4(3): class 
+RGB Color Histogram5(3): class RGB Color Histogram1 RGB Color Histogram4 
+RGB Color Histogram6(3): class RGB Color Histogram2 
+RGB Color Histogram7(2): class RGB Color Histogram1 RGB Color Histogram6 
+RGB Color Histogram8(1): class 
+RGB Color Histogram9(1): class 
+RGB Color Histogram10(1): class 
+RGB Color Histogram11(3): class RGB Color Histogram7 RGB Color Histogram2 
+RGB Color Histogram12(1): class 
+RGB Color Histogram13(1): class 
+RGB Color Histogram14(1): class 
+RGB Color Histogram15(1): class 
+RGB Color Histogram16(3): class RGB Color Histogram1 
+RGB Color Histogram17(2): class RGB Color Histogram4 RGB Color Histogram6 
+RGB Color Histogram18(1): class 
+RGB Color Histogram19(1): class 
+RGB Color Histogram20(3): class RGB Color Histogram4 RGB Color Histogram11 
+RGB Color Histogram21(3): class 
+RGB Color Histogram22(2): class RGB Color Histogram21 RGB Color Histogram0 
+RGB Color Histogram23(2): class RGB Color Histogram11 RGB Color Histogram7 
+RGB Color Histogram24(2): class 
+RGB Color Histogram25(3): class RGB Color Histogram4 RGB Color Histogram2 
+RGB Color Histogram26(3): class RGB Color Histogram22 RGB Color Histogram7 
+RGB Color Histogram27(2): class RGB Color Histogram21 RGB Color Histogram25 
+RGB Color Histogram28(1): class 
+RGB Color Histogram29(1): class 
+RGB Color Histogram30(1): class 
+RGB Color Histogram31(2): class RGB Color Histogram27 
+RGB Color Histogram32(1): class 
+RGB Color Histogram33(1): class 
+RGB Color Histogram34(1): class 
+RGB Color Histogram35(1): class 
+RGB Color Histogram36(4): class RGB Color Histogram4 RGB Color Histogram0 
+RGB Color Histogram37(3): class RGB Color Histogram36 RGB Color Histogram7 
+RGB Color Histogram38(3): class RGB Color Histogram22 RGB Color Histogram23 
+RGB Color Histogram39(2): class RGB Color Histogram23 RGB Color Histogram27 
+RGB Color Histogram40(2): class RGB Color Histogram24 RGB Color Histogram23 
+RGB Color Histogram41(2): class RGB Color Histogram25 RGB Color Histogram37 
+RGB Color Histogram42(3): class RGB Color Histogram37 RGB Color Histogram26 
+RGB Color Histogram43(2): class RGB Color Histogram42 RGB Color Histogram27 
+RGB Color Histogram44(1): class 
+RGB Color Histogram45(2): class RGB Color Histogram24 
+RGB Color Histogram46(3): class RGB Color Histogram23 RGB Color Histogram45 
+RGB Color Histogram47(2): class RGB Color Histogram43 RGB Color Histogram46 
+RGB Color Histogram48(2): class RGB Color Histogram7 RGB Color Histogram4 
+RGB Color Histogram49(2): class RGB Color Histogram48 RGB Color Histogram31 
+RGB Color Histogram50(1): class 
+RGB Color Histogram51(1): class 
+RGB Color Histogram52(3): class RGB Color Histogram48 RGB Color Histogram7 
+RGB Color Histogram53(2): class RGB Color Histogram52 RGB Color Histogram48 
+RGB Color Histogram54(2): class RGB Color Histogram39 
+RGB Color Histogram55(1): class 
+RGB Color Histogram56(2): class RGB Color Histogram40 
+RGB Color Histogram57(1): class 
+RGB Color Histogram58(1): class 
+RGB Color Histogram59(1): class 
+RGB Color Histogram60(1): class 
+RGB Color Histogram61(2): class RGB Color Histogram40 RGB Color Histogram45 
+RGB Color Histogram62(3): class RGB Color Histogram41 RGB Color Histogram46 
+RGB Color Histogram63(3): class RGB Color Histogram43 RGB Color Histogram36 
+class(8): 
+LogScore Bayes: -6843.419187868658
+LogScore BDeu: -17406.495306156165
+LogScore MDL: -15183.918842334098
+LogScore ENTROPY: -8022.480095773858
+LogScore AIC: -10397.480095773873
+
+
+Time taken to build model: 0.25 seconds
+
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         344               82.6923 %
+Incorrectly Classified Instances        72               17.3077 %
+Kappa statistic                          0.7734
+Mean absolute error                      0.0493
+Root mean squared error                  0.1703
+Relative absolute error                 25.1768 %
+Root relative squared error             54.5153 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.326    0.016    0.700      0.326    0.444      0.440    0.924     0.637     K1
+                 0.939    0.138    0.790      0.939    0.858      0.776    0.969     0.938     K2
+                 0.842    0.050    0.790      0.842    0.815      0.773    0.978     0.906     K3
+                 0.639    0.031    0.780      0.639    0.703      0.662    0.968     0.859     K4
+                 1.000    0.003    0.985      1.000    0.992      0.991    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.827    0.065    0.821      0.827    0.814      0.770    0.972     0.902     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  14  28   0   1   0   0   0   0 |   a = K1
+   5 139   0   4   0   0   0   0 |   b = K2
+   1   4  64   6   1   0   0   0 |   c = K3
+   0   5  17  39   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.39 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         304               73.0769 %
+Incorrectly Classified Instances       112               26.9231 %
+Kappa statistic                          0.6467
+Mean absolute error                      0.0775
+Root mean squared error                  0.2263
+Relative absolute error                 39.5854 %
+Root relative squared error             72.4297 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.186    0.019    0.533      0.186    0.276      0.273    0.794     0.368     K1
+                 0.899    0.179    0.735      0.899    0.809      0.695    0.907     0.783     K2
+                 0.711    0.076    0.675      0.711    0.692      0.622    0.927     0.734     K3
+                 0.426    0.070    0.510      0.426    0.464      0.384    0.890     0.578     K4
+                 0.938    0.006    0.968      0.938    0.952      0.944    0.999     0.993     K5
+                 0.958    0.005    0.920      0.958    0.939      0.935    1.000     0.995     K6
+                 ?        0.005    0.000      ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.731    0.091    0.717      0.731    0.711      0.644    0.916     0.746     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+   8  33   0   2   0   0   0   0 |   a = K1
+   6 133   1   7   1   0   0   0 |   b = K2
+   0   6  54  16   0   0   0   0 |   c = K3
+   1   9  24  26   1   0   0   0 |   d = K4
+   0   0   0   0  60   2   2   0 |   e = K5
+   0   0   1   0   0  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

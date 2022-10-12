@@ -1,0 +1,123 @@
+
+Options: -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0 
+
+=== Classifier model (full training set) ===
+
+
+REPTree
+============
+
+Spatial Pyramid of Local Binary Patterns0 < 1.5
+|   Spatial Pyramid of Local Binary Patterns575 < 4.5
+|   |   Spatial Pyramid of Local Binary Patterns268 < 5.5 : K2 (16/6) [7/1]
+|   |   Spatial Pyramid of Local Binary Patterns268 >= 5.5 : K1 (24/2) [17/5]
+|   Spatial Pyramid of Local Binary Patterns575 >= 4.5 : K2 (81/1) [37/0]
+Spatial Pyramid of Local Binary Patterns0 >= 1.5
+|   Spatial Pyramid of Local Binary Patterns433 < 5.5
+|   |   Spatial Pyramid of Local Binary Patterns366 < 3
+|   |   |   Spatial Pyramid of Local Binary Patterns412 < 11.5
+|   |   |   |   Spatial Pyramid of Local Binary Patterns504 < 1.5
+|   |   |   |   |   Spatial Pyramid of Local Binary Patterns340 < 7.5
+|   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns38 < 2.5 : K4 (5/1) [5/1]
+|   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns38 >= 2.5 : K3 (14/0) [4/2]
+|   |   |   |   |   Spatial Pyramid of Local Binary Patterns340 >= 7.5
+|   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns16 < 9 : K4 (4/0) [2/1]
+|   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns16 >= 9 : K1 (2/1) [1/0]
+|   |   |   |   Spatial Pyramid of Local Binary Patterns504 >= 1.5 : K4 (15/1) [10/4]
+|   |   |   Spatial Pyramid of Local Binary Patterns412 >= 11.5 : K3 (30/2) [10/1]
+|   |   Spatial Pyramid of Local Binary Patterns366 >= 3 : K6 (6/2) [4/4]
+|   Spatial Pyramid of Local Binary Patterns433 >= 5.5
+|   |   Spatial Pyramid of Local Binary Patterns397 < 3.5
+|   |   |   Spatial Pyramid of Local Binary Patterns721 < 7.5 : K5 (14/7) [8/1]
+|   |   |   Spatial Pyramid of Local Binary Patterns721 >= 7.5 : K6 (14/3) [7/2]
+|   |   Spatial Pyramid of Local Binary Patterns397 >= 3.5
+|   |   |   Spatial Pyramid of Local Binary Patterns366 < 0.5
+|   |   |   |   Spatial Pyramid of Local Binary Patterns507 < 1.5 : K3 (14/8) [10/5]
+|   |   |   |   Spatial Pyramid of Local Binary Patterns507 >= 1.5 : K5 (4/0) [4/1]
+|   |   |   Spatial Pyramid of Local Binary Patterns366 >= 0.5 : K5 (34/5) [13/3]
+
+Size of the tree : 29
+
+Time taken to build model: 0.29 seconds
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         346               83.1731 %
+Incorrectly Classified Instances        70               16.8269 %
+Kappa statistic                          0.7857
+Mean absolute error                      0.0636
+Root mean squared error                  0.1783
+Relative absolute error                 32.4848 %
+Root relative squared error             57.059  %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.837    0.021    0.818      0.837    0.828      0.808    0.976     0.776     K1
+                 0.899    0.030    0.943      0.899    0.920      0.879    0.979     0.959     K2
+                 0.842    0.053    0.780      0.842    0.810      0.767    0.955     0.836     K3
+                 0.541    0.023    0.805      0.541    0.647      0.615    0.925     0.677     K4
+                 0.938    0.048    0.779      0.938    0.851      0.826    0.978     0.816     K5
+                 0.833    0.028    0.645      0.833    0.727      0.715    0.978     0.674     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.832    0.035    0.838      0.832    0.829      0.795    0.966     0.838     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  36   4   0   1   1   1   0   0 |   a = K1
+   7 133   4   0   4   0   0   0 |   b = K2
+   1   1  64   5   3   2   0   0 |   c = K3
+   0   3  12  33   7   6   0   0 |   d = K4
+   0   0   0   2  60   2   0   0 |   e = K5
+   0   0   2   0   2  20   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.5 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         312               75      %
+Incorrectly Classified Instances       104               25      %
+Kappa statistic                          0.6831
+Mean absolute error                      0.0787
+Root mean squared error                  0.216 
+Relative absolute error                 40.2247 %
+Root relative squared error             69.1287 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.814    0.035    0.729      0.814    0.769      0.742    0.930     0.659     K1
+                 0.845    0.034    0.933      0.845    0.887      0.831    0.959     0.926     K2
+                 0.684    0.059    0.722      0.684    0.703      0.639    0.904     0.706     K3
+                 0.541    0.087    0.516      0.541    0.528      0.445    0.823     0.496     K4
+                 0.766    0.068    0.671      0.766    0.715      0.662    0.957     0.785     K5
+                 0.750    0.018    0.720      0.750    0.735      0.718    0.957     0.682     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.750    0.051    0.760      0.750    0.753      0.697    0.925     0.759     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  35   3   3   1   1   0   0   0 |   a = K1
+  13 125   2   3   4   1   0   0 |   b = K2
+   0   2  52  17   4   1   0   0 |   c = K3
+   0   4  13  33  11   0   0   0 |   d = K4
+   0   0   1   9  49   5   0   0 |   e = K5
+   0   0   1   1   4  18   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

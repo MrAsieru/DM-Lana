@@ -1,0 +1,203 @@
+
+Options: -K 0 -M 1.0 -V 0.001 -S 1 
+
+=== Classifier model (full training set) ===
+
+
+RandomTree
+==========
+
+PHOG450 < 4.5
+|   PHOG162 < 1.5
+|   |   PHOG479 < 0.5
+|   |   |   PHOG10 < 3.5
+|   |   |   |   PHOG396 < 8.5
+|   |   |   |   |   PHOG238 < 1.5
+|   |   |   |   |   |   PHOG422 < 1
+|   |   |   |   |   |   |   PHOG43 < 1.5 : K2 (2/0)
+|   |   |   |   |   |   |   PHOG43 >= 1.5 : K4 (1/0)
+|   |   |   |   |   |   PHOG422 >= 1 : K3 (8/0)
+|   |   |   |   |   PHOG238 >= 1.5
+|   |   |   |   |   |   PHOG197 < 5.5 : K1 (1/0)
+|   |   |   |   |   |   PHOG197 >= 5.5 : K2 (2/0)
+|   |   |   |   PHOG396 >= 8.5
+|   |   |   |   |   PHOG413 < 0.5
+|   |   |   |   |   |   PHOG6 < 3.5 : K5 (8/0)
+|   |   |   |   |   |   PHOG6 >= 3.5 : K3 (1/0)
+|   |   |   |   |   PHOG413 >= 0.5 : K3 (2/0)
+|   |   |   PHOG10 >= 3.5
+|   |   |   |   PHOG337 < 1.5
+|   |   |   |   |   PHOG113 < 7.5
+|   |   |   |   |   |   PHOG437 < 3
+|   |   |   |   |   |   |   PHOG589 < 3 : K3 (5/0)
+|   |   |   |   |   |   |   PHOG589 >= 3
+|   |   |   |   |   |   |   |   PHOG421 < 1
+|   |   |   |   |   |   |   |   |   PHOG105 < 0.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   PHOG105 >= 0.5 : K5 (10/0)
+|   |   |   |   |   |   |   |   PHOG421 >= 1 : K3 (3/0)
+|   |   |   |   |   |   PHOG437 >= 3 : K4 (2/0)
+|   |   |   |   |   PHOG113 >= 7.5
+|   |   |   |   |   |   PHOG575 < 0.5 : K3 (41/0)
+|   |   |   |   |   |   PHOG575 >= 0.5 : K5 (2/0)
+|   |   |   |   PHOG337 >= 1.5
+|   |   |   |   |   PHOG278 < 0.5
+|   |   |   |   |   |   PHOG30 < 9
+|   |   |   |   |   |   |   PHOG227 < 8 : K4 (20/0)
+|   |   |   |   |   |   |   PHOG227 >= 8 : K3 (1/0)
+|   |   |   |   |   |   PHOG30 >= 9
+|   |   |   |   |   |   |   PHOG291 < 0.5 : K5 (6/0)
+|   |   |   |   |   |   |   PHOG291 >= 0.5 : K3 (1/0)
+|   |   |   |   |   PHOG278 >= 0.5 : K3 (5/0)
+|   |   PHOG479 >= 0.5
+|   |   |   PHOG222 < 5
+|   |   |   |   PHOG446 < 0.5
+|   |   |   |   |   PHOG39 < 1.5 : K2 (4/0)
+|   |   |   |   |   PHOG39 >= 1.5
+|   |   |   |   |   |   PHOG130 < 0.5 : K1 (1/0)
+|   |   |   |   |   |   PHOG130 >= 0.5 : K4 (1/0)
+|   |   |   |   PHOG446 >= 0.5
+|   |   |   |   |   PHOG552 < 8 : K1 (22/0)
+|   |   |   |   |   PHOG552 >= 8
+|   |   |   |   |   |   PHOG101 < 6 : K1 (1/0)
+|   |   |   |   |   |   PHOG101 >= 6 : K4 (2/0)
+|   |   |   PHOG222 >= 5
+|   |   |   |   PHOG623 < 0.5
+|   |   |   |   |   PHOG11 < 4 : K2 (3/0)
+|   |   |   |   |   PHOG11 >= 4 : K6 (1/0)
+|   |   |   |   PHOG623 >= 0.5
+|   |   |   |   |   PHOG565 < 0.5
+|   |   |   |   |   |   PHOG102 < 6.5
+|   |   |   |   |   |   |   PHOG423 < 4 : K4 (5/0)
+|   |   |   |   |   |   |   PHOG423 >= 4 : K3 (2/0)
+|   |   |   |   |   |   PHOG102 >= 6.5 : K4 (24/0)
+|   |   |   |   |   PHOG565 >= 0.5
+|   |   |   |   |   |   PHOG9 < 6.5 : K3 (5/0)
+|   |   |   |   |   |   PHOG9 >= 6.5 : K4 (1/0)
+|   PHOG162 >= 1.5
+|   |   PHOG477 < 0.5
+|   |   |   PHOG171 < 2.5
+|   |   |   |   PHOG138 < 0.5 : K2 (1/0)
+|   |   |   |   PHOG138 >= 0.5
+|   |   |   |   |   PHOG170 < 0.5 : K3 (1/0)
+|   |   |   |   |   PHOG170 >= 0.5
+|   |   |   |   |   |   PHOG200 < 11 : K5 (4/0)
+|   |   |   |   |   |   PHOG200 >= 11 : K3 (1/0)
+|   |   |   PHOG171 >= 2.5 : K5 (22/0)
+|   |   PHOG477 >= 0.5
+|   |   |   PHOG74 < 11.5
+|   |   |   |   PHOG19 < 4.5
+|   |   |   |   |   PHOG41 < 1.5
+|   |   |   |   |   |   PHOG73 < 5 : K2 (1/0)
+|   |   |   |   |   |   PHOG73 >= 5 : K6 (2/0)
+|   |   |   |   |   PHOG41 >= 1.5 : K1 (2/0)
+|   |   |   |   PHOG19 >= 4.5 : K6 (17/0)
+|   |   |   PHOG74 >= 11.5
+|   |   |   |   PHOG153 < 13.5
+|   |   |   |   |   PHOG78 < 3.5 : K1 (1/0)
+|   |   |   |   |   PHOG78 >= 3.5 : K5 (12/0)
+|   |   |   |   PHOG153 >= 13.5 : K6 (2/0)
+PHOG450 >= 4.5
+|   PHOG473 < 2.5
+|   |   PHOG349 < 3
+|   |   |   PHOG104 < 0.5
+|   |   |   |   PHOG93 < 6.5 : K2 (27/0)
+|   |   |   |   PHOG93 >= 6.5 : K1 (1/0)
+|   |   |   PHOG104 >= 0.5 : K2 (105/0)
+|   |   PHOG349 >= 3 : K4 (2/0)
+|   PHOG473 >= 2.5
+|   |   PHOG311 < 2.5
+|   |   |   PHOG201 < 1.5
+|   |   |   |   PHOG453 < 1 : K2 (3/0)
+|   |   |   |   PHOG453 >= 1 : K1 (2/0)
+|   |   |   PHOG201 >= 1.5 : K1 (10/0)
+|   |   PHOG311 >= 2.5
+|   |   |   PHOG78 < 6
+|   |   |   |   PHOG73 < 2 : K1 (2/0)
+|   |   |   |   PHOG73 >= 2 : K4 (2/0)
+|   |   |   PHOG78 >= 6 : K6 (2/0)
+
+Size of the tree : 109
+
+Time taken to build model: 0.17 seconds
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         416              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K1
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K2
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K3
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  43   0   0   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0   0   0 |   b = K2
+   0   0  76   0   0   0   0   0 |   c = K3
+   0   0   0  61   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.1 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         352               84.6154 %
+Incorrectly Classified Instances        64               15.3846 %
+Kappa statistic                          0.8037
+Mean absolute error                      0.0385
+Root mean squared error                  0.1961
+Relative absolute error                 19.6506 %
+Root relative squared error             62.7649 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.698    0.021    0.789      0.698    0.741      0.715    0.838     0.582     K1
+                 0.878    0.045    0.915      0.878    0.897      0.842    0.917     0.847     K2
+                 0.803    0.059    0.753      0.803    0.777      0.726    0.872     0.641     K3
+                 0.803    0.020    0.875      0.803    0.838      0.812    0.892     0.732     K4
+                 0.922    0.034    0.831      0.922    0.874      0.851    0.944     0.778     K5
+                 0.958    0.013    0.821      0.958    0.885      0.880    0.973     0.790     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.846    0.038    0.848      0.846    0.846      0.807    0.904     0.751     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  30   5   4   2   1   1   0   0 |   a = K1
+   4 130   5   1   5   3   0   0 |   b = K2
+   1   5  61   4   5   0   0   0 |   c = K3
+   1   2   7  49   1   1   0   0 |   d = K4
+   2   0   3   0  59   0   0   0 |   e = K5
+   0   0   1   0   0  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

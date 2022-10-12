@@ -1,0 +1,180 @@
+
+Options: -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 3 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5 
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=81 #classindex=80
+Network structure (nodes followed by parents)
+MPEG-7 Edge Histogram0(2): class 
+MPEG-7 Edge Histogram1(2): class MPEG-7 Edge Histogram0 
+MPEG-7 Edge Histogram2(3): class MPEG-7 Edge Histogram1 MPEG-7 Edge Histogram0 
+MPEG-7 Edge Histogram3(2): class MPEG-7 Edge Histogram1 MPEG-7 Edge Histogram0 
+MPEG-7 Edge Histogram4(1): class 
+MPEG-7 Edge Histogram5(2): class MPEG-7 Edge Histogram1 MPEG-7 Edge Histogram0 
+MPEG-7 Edge Histogram6(3): class MPEG-7 Edge Histogram2 MPEG-7 Edge Histogram1 
+MPEG-7 Edge Histogram7(3): class MPEG-7 Edge Histogram6 
+MPEG-7 Edge Histogram8(2): class MPEG-7 Edge Histogram5 MPEG-7 Edge Histogram7 
+MPEG-7 Edge Histogram9(1): class 
+MPEG-7 Edge Histogram10(2): class MPEG-7 Edge Histogram5 MPEG-7 Edge Histogram0 
+MPEG-7 Edge Histogram11(3): class MPEG-7 Edge Histogram6 
+MPEG-7 Edge Histogram12(1): class 
+MPEG-7 Edge Histogram13(3): class MPEG-7 Edge Histogram11 MPEG-7 Edge Histogram7 
+MPEG-7 Edge Histogram14(1): class 
+MPEG-7 Edge Histogram15(2): class MPEG-7 Edge Histogram10 MPEG-7 Edge Histogram0 
+MPEG-7 Edge Histogram16(2): class MPEG-7 Edge Histogram6 MPEG-7 Edge Histogram1 
+MPEG-7 Edge Histogram17(3): class MPEG-7 Edge Histogram15 MPEG-7 Edge Histogram10 
+MPEG-7 Edge Histogram18(3): class MPEG-7 Edge Histogram2 MPEG-7 Edge Histogram17 
+MPEG-7 Edge Histogram19(1): class 
+MPEG-7 Edge Histogram20(3): class MPEG-7 Edge Histogram13 MPEG-7 Edge Histogram6 
+MPEG-7 Edge Histogram21(2): class MPEG-7 Edge Histogram1 MPEG-7 Edge Histogram3 
+MPEG-7 Edge Histogram22(4): class MPEG-7 Edge Histogram6 MPEG-7 Edge Histogram7 
+MPEG-7 Edge Histogram23(2): class MPEG-7 Edge Histogram22 MPEG-7 Edge Histogram21 
+MPEG-7 Edge Histogram24(1): class 
+MPEG-7 Edge Histogram25(3): class MPEG-7 Edge Histogram17 
+MPEG-7 Edge Histogram26(3): class MPEG-7 Edge Histogram25 
+MPEG-7 Edge Histogram27(3): class MPEG-7 Edge Histogram25 MPEG-7 Edge Histogram26 
+MPEG-7 Edge Histogram28(3): class MPEG-7 Edge Histogram26 
+MPEG-7 Edge Histogram29(2): class MPEG-7 Edge Histogram1 MPEG-7 Edge Histogram15 
+MPEG-7 Edge Histogram30(4): class MPEG-7 Edge Histogram25 
+MPEG-7 Edge Histogram31(3): class MPEG-7 Edge Histogram26 
+MPEG-7 Edge Histogram32(4): class MPEG-7 Edge Histogram28 
+MPEG-7 Edge Histogram33(3): class MPEG-7 Edge Histogram27 MPEG-7 Edge Histogram32 
+MPEG-7 Edge Histogram34(3): class MPEG-7 Edge Histogram29 MPEG-7 Edge Histogram3 
+MPEG-7 Edge Histogram35(2): class MPEG-7 Edge Histogram7 MPEG-7 Edge Histogram21 
+MPEG-7 Edge Histogram36(2): class MPEG-7 Edge Histogram17 MPEG-7 Edge Histogram11 
+MPEG-7 Edge Histogram37(2): class MPEG-7 Edge Histogram36 MPEG-7 Edge Histogram17 
+MPEG-7 Edge Histogram38(2): class MPEG-7 Edge Histogram22 MPEG-7 Edge Histogram37 
+MPEG-7 Edge Histogram39(1): class 
+MPEG-7 Edge Histogram40(4): class MPEG-7 Edge Histogram20 
+MPEG-7 Edge Histogram41(3): class MPEG-7 Edge Histogram21 MPEG-7 Edge Histogram5 
+MPEG-7 Edge Histogram42(2): class MPEG-7 Edge Histogram41 MPEG-7 Edge Histogram23 
+MPEG-7 Edge Histogram43(3): class MPEG-7 Edge Histogram22 MPEG-7 Edge Histogram35 
+MPEG-7 Edge Histogram44(1): class 
+MPEG-7 Edge Histogram45(4): class MPEG-7 Edge Histogram25 MPEG-7 Edge Histogram34 
+MPEG-7 Edge Histogram46(4): class MPEG-7 Edge Histogram31 MPEG-7 Edge Histogram26 
+MPEG-7 Edge Histogram47(4): class MPEG-7 Edge Histogram32 
+MPEG-7 Edge Histogram48(4): class MPEG-7 Edge Histogram27 MPEG-7 Edge Histogram33 
+MPEG-7 Edge Histogram49(2): class MPEG-7 Edge Histogram29 MPEG-7 Edge Histogram34 
+MPEG-7 Edge Histogram50(3): class MPEG-7 Edge Histogram30 MPEG-7 Edge Histogram47 
+MPEG-7 Edge Histogram51(4): class MPEG-7 Edge Histogram31 MPEG-7 Edge Histogram46 
+MPEG-7 Edge Histogram52(3): class MPEG-7 Edge Histogram48 MPEG-7 Edge Histogram28 
+MPEG-7 Edge Histogram53(4): class MPEG-7 Edge Histogram32 MPEG-7 Edge Histogram10 
+MPEG-7 Edge Histogram54(2): class MPEG-7 Edge Histogram34 MPEG-7 Edge Histogram38 
+MPEG-7 Edge Histogram55(4): class MPEG-7 Edge Histogram35 MPEG-7 Edge Histogram38 
+MPEG-7 Edge Histogram56(2): class MPEG-7 Edge Histogram36 MPEG-7 Edge Histogram41 
+MPEG-7 Edge Histogram57(3): class MPEG-7 Edge Histogram56 MPEG-7 Edge Histogram6 
+MPEG-7 Edge Histogram58(2): class MPEG-7 Edge Histogram56 MPEG-7 Edge Histogram1 
+MPEG-7 Edge Histogram59(2): class MPEG-7 Edge Histogram34 MPEG-7 Edge Histogram17 
+MPEG-7 Edge Histogram60(2): class MPEG-7 Edge Histogram0 MPEG-7 Edge Histogram42 
+MPEG-7 Edge Histogram61(2): class MPEG-7 Edge Histogram41 MPEG-7 Edge Histogram42 
+MPEG-7 Edge Histogram62(2): class MPEG-7 Edge Histogram61 MPEG-7 Edge Histogram60 
+MPEG-7 Edge Histogram63(3): class MPEG-7 Edge Histogram61 MPEG-7 Edge Histogram2 
+MPEG-7 Edge Histogram64(2): class MPEG-7 Edge Histogram59 MPEG-7 Edge Histogram23 
+MPEG-7 Edge Histogram65(2): class MPEG-7 Edge Histogram10 MPEG-7 Edge Histogram61 
+MPEG-7 Edge Histogram66(3): class MPEG-7 Edge Histogram61 MPEG-7 Edge Histogram11 
+MPEG-7 Edge Histogram67(2): class MPEG-7 Edge Histogram65 MPEG-7 Edge Histogram8 
+MPEG-7 Edge Histogram68(3): class MPEG-7 Edge Histogram7 MPEG-7 Edge Histogram22 
+MPEG-7 Edge Histogram69(1): class 
+MPEG-7 Edge Histogram70(2): class MPEG-7 Edge Histogram65 MPEG-7 Edge Histogram68 
+MPEG-7 Edge Histogram71(3): class MPEG-7 Edge Histogram66 MPEG-7 Edge Histogram50 
+MPEG-7 Edge Histogram72(3): class MPEG-7 Edge Histogram22 MPEG-7 Edge Histogram68 
+MPEG-7 Edge Histogram73(2): class MPEG-7 Edge Histogram67 MPEG-7 Edge Histogram41 
+MPEG-7 Edge Histogram74(1): class 
+MPEG-7 Edge Histogram75(2): class MPEG-7 Edge Histogram58 MPEG-7 Edge Histogram15 
+MPEG-7 Edge Histogram76(2): class MPEG-7 Edge Histogram71 MPEG-7 Edge Histogram73 
+MPEG-7 Edge Histogram77(2): class MPEG-7 Edge Histogram72 
+MPEG-7 Edge Histogram78(4): class MPEG-7 Edge Histogram75 MPEG-7 Edge Histogram76 
+MPEG-7 Edge Histogram79(1): class 
+class(8): 
+LogScore Bayes: -16283.508432793922
+LogScore BDeu: -44757.39619036136
+LogScore MDL: -37084.565629423654
+LogScore ENTROPY: -19092.016155434834
+LogScore AIC: -25059.01615543436
+
+
+Time taken to build model: 0.31 seconds
+
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         411               98.7981 %
+Incorrectly Classified Instances         5                1.2019 %
+Kappa statistic                          0.9846
+Mean absolute error                      0.0026
+Root mean squared error                  0.044 
+Relative absolute error                  1.3196 %
+Root relative squared error             14.0762 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.953    0.000    1.000      0.953    0.976      0.974    1.000     0.998     K1
+                 1.000    0.007    0.987      1.000    0.993      0.990    1.000     1.000     K2
+                 0.974    0.003    0.987      0.974    0.980      0.976    1.000     1.000     K3
+                 0.984    0.006    0.968      0.984    0.976      0.971    1.000     0.999     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.988    0.004    0.988      0.988    0.988      0.985    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  41   2   0   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0   0   0 |   b = K2
+   0   0  74   2   0   0   0   0 |   c = K3
+   0   0   1  60   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.74 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         387               93.0288 %
+Incorrectly Classified Instances        29                6.9712 %
+Kappa statistic                          0.9107
+Mean absolute error                      0.0173
+Root mean squared error                  0.121 
+Relative absolute error                  8.8274 %
+Root relative squared error             38.7268 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.884    0.013    0.884      0.884    0.884      0.870    0.977     0.936     K1
+                 0.973    0.022    0.960      0.973    0.966      0.948    0.996     0.991     K2
+                 0.895    0.024    0.895      0.895    0.895      0.871    0.994     0.974     K3
+                 0.836    0.020    0.879      0.836    0.857      0.834    0.991     0.959     K4
+                 0.984    0.000    1.000      0.984    0.992      0.991    1.000     1.000     K5
+                 0.958    0.005    0.920      0.958    0.939      0.935    0.999     0.985     K6
+                 ?        0.002    0.000      ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.930    0.017    0.932      0.930    0.931      0.915    0.994     0.978     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  38   4   0   0   0   1   0   0 |   a = K1
+   2 144   0   0   0   1   1   0 |   b = K2
+   0   2  68   6   0   0   0   0 |   c = K3
+   2   0   8  51   0   0   0   0 |   d = K4
+   0   0   0   1  63   0   0   0 |   e = K5
+   1   0   0   0   0  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

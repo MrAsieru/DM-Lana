@@ -1,0 +1,203 @@
+
+Options: -I -1 -M 15 -W 0.0 
+
+=== Classifier model (full training set) ===
+
+Logistic model tree 
+------------------
+: LM_1:13/13 (416)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class K1 :
+-2.89 + 
+[Auto Color Correlogram15] * -0.08 +
+[Auto Color Correlogram82] * 0.12 +
+[Auto Color Correlogram144] * 0.14 +
+[Auto Color Correlogram159] * 2.68 +
+[Auto Color Correlogram206] * 0.21 +
+[Auto Color Correlogram704] * 0.13 +
+[Auto Color Correlogram787] * -0.45 +
+[Auto Color Correlogram788] * 0.22 +
+[Auto Color Correlogram833] * 0.11 +
+[Auto Color Correlogram836] * 0.09 +
+[Auto Color Correlogram916] * 0.23 +
+[Auto Color Correlogram979] * -0.16 +
+[Auto Color Correlogram1013] * -0.13
+
+Class K2 :
+-2.94 + 
+[Auto Color Correlogram14] * 0.09 +
+[Auto Color Correlogram23] * -0.13 +
+[Auto Color Correlogram61] * 0.11 +
+[Auto Color Correlogram206] * -0.17 +
+[Auto Color Correlogram452] * -0.18 +
+[Auto Color Correlogram600] * -0.15 +
+[Auto Color Correlogram708] * 0.16 +
+[Auto Color Correlogram773] * 0.11 +
+[Auto Color Correlogram787] * 0.43 +
+[Auto Color Correlogram977] * 0.12 +
+[Auto Color Correlogram980] * 0.33 +
+[Auto Color Correlogram992] * 0.13 +
+[Auto Color Correlogram1005] * 0.2 
+
+Class K3 :
+-0.47 + 
+[Auto Color Correlogram9] * 0.3  +
+[Auto Color Correlogram24] * -0.14 +
+[Auto Color Correlogram41] * -0.14 +
+[Auto Color Correlogram59] * -0.18 +
+[Auto Color Correlogram122] * 0.11 +
+[Auto Color Correlogram336] * -0.21 +
+[Auto Color Correlogram368] * 0.91 +
+[Auto Color Correlogram496] * 0.26 +
+[Auto Color Correlogram548] * 0.18 +
+[Auto Color Correlogram560] * 0.29 +
+[Auto Color Correlogram722] * -0.45 +
+[Auto Color Correlogram728] * -0.24 +
+[Auto Color Correlogram841] * -0.3
+
+Class K4 :
+-1.19 + 
+[Auto Color Correlogram3] * 0.13 +
+[Auto Color Correlogram368] * 0.81 +
+[Auto Color Correlogram369] * 0.59 +
+[Auto Color Correlogram370] * 0.64 +
+[Auto Color Correlogram548] * -0.17 +
+[Auto Color Correlogram688] * 0.3  +
+[Auto Color Correlogram752] * 0.29 +
+[Auto Color Correlogram801] * 0.71 +
+[Auto Color Correlogram919] * 0.94 +
+[Auto Color Correlogram920] * -0.19 +
+[Auto Color Correlogram968] * -0.2 +
+[Auto Color Correlogram980] * -0.19 +
+[Auto Color Correlogram992] * -0.17
+
+Class K5 :
+0.01 + 
+[Auto Color Correlogram0] * -0.22 +
+[Auto Color Correlogram1] * -0.13 +
+[Auto Color Correlogram197] * 0.33 +
+[Auto Color Correlogram392] * 0.31 +
+[Auto Color Correlogram580] * 0.21 +
+[Auto Color Correlogram628] * 0.22 +
+[Auto Color Correlogram636] * 0.28 +
+[Auto Color Correlogram648] * -0.16 +
+[Auto Color Correlogram840] * -0.19 +
+[Auto Color Correlogram845] * -0.19 +
+[Auto Color Correlogram868] * 1.09
+
+Class K6 :
+-7.04 + 
+[Auto Color Correlogram140] * 0.38 +
+[Auto Color Correlogram216] * 0.38 +
+[Auto Color Correlogram220] * 0.29 +
+[Auto Color Correlogram280] * 0.55 +
+[Auto Color Correlogram340] * 0.45 +
+[Auto Color Correlogram600] * 0.14 +
+[Auto Color Correlogram628] * 0.38 +
+[Auto Color Correlogram632] * 0.09 +
+[Auto Color Correlogram634] * 0.16 +
+[Auto Color Correlogram698] * 0.33 +
+[Auto Color Correlogram968] * -0.27
+
+Class K7 :
+-11.58 + 
+[Auto Color Correlogram90] * -0 +
+[Auto Color Correlogram95] * -0 +
+[Auto Color Correlogram154] * -0 +
+[Auto Color Correlogram981] * 0.01
+
+Class K8 :
+-11.58 + 
+[Auto Color Correlogram90] * -0 +
+[Auto Color Correlogram95] * -0 +
+[Auto Color Correlogram154] * -0 +
+[Auto Color Correlogram981] * 0.01
+
+
+Time taken to build model: 6.08 seconds
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         383               92.0673 %
+Incorrectly Classified Instances        33                7.9327 %
+Kappa statistic                          0.8976
+Mean absolute error                      0.0459
+Root mean squared error                  0.1278
+Relative absolute error                 23.4673 %
+Root relative squared error             40.9048 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.674    0.011    0.879      0.674    0.763      0.748    0.979     0.877     K1
+                 0.973    0.052    0.911      0.973    0.941      0.908    0.992     0.983     K2
+                 0.934    0.026    0.888      0.934    0.910      0.890    0.994     0.972     K3
+                 0.836    0.011    0.927      0.836    0.879      0.861    0.993     0.963     K4
+                 1.000    0.006    0.970      1.000    0.985      0.982    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.921    0.027    0.920      0.921    0.918      0.898    0.993     0.971     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  29  14   0   0   0   0   0   0 |   a = K1
+   4 144   0   0   0   0   0   0 |   b = K2
+   0   0  71   4   1   0   0   0 |   c = K3
+   0   0   9  51   1   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 79.94 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         322               77.4038 %
+Incorrectly Classified Instances        94               22.5962 %
+Kappa statistic                          0.7087
+Mean absolute error                      0.0659
+Root mean squared error                  0.2103
+Relative absolute error                 33.6839 %
+Root relative squared error             67.3096 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.395    0.051    0.472      0.395    0.430      0.373    0.853     0.371     K1
+                 0.865    0.104    0.821      0.865    0.842      0.752    0.936     0.855     K2
+                 0.737    0.059    0.737      0.737    0.737      0.678    0.949     0.773     K3
+                 0.623    0.056    0.655      0.623    0.639      0.579    0.929     0.683     K4
+                 0.969    0.017    0.912      0.969    0.939      0.929    0.997     0.978     K5
+                 0.875    0.003    0.955      0.875    0.913      0.909    1.000     0.993     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.774    0.064    0.767      0.774    0.770      0.710    0.942     0.792     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  17  26   0   0   0   0   0   0 |   a = K1
+  19 128   0   0   1   0   0   0 |   b = K2
+   0   0  56  20   0   0   0   0 |   c = K3
+   0   2  18  38   2   1   0   0 |   d = K4
+   0   0   2   0  62   0   0   0 |   e = K5
+   0   0   0   0   3  21   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

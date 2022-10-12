@@ -1,0 +1,245 @@
+
+Options: -K 0 -M 1.0 -V 0.001 -S 1 
+
+=== Classifier model (full training set) ===
+
+
+RandomTree
+==========
+
+MPEG-7 Edge Histogram61 < 1.5
+|   MPEG-7 Edge Histogram59 < 3.5
+|   |   MPEG-7 Edge Histogram70 < 0.5
+|   |   |   MPEG-7 Edge Histogram47 < 2.5
+|   |   |   |   MPEG-7 Edge Histogram19 < 3.5
+|   |   |   |   |   MPEG-7 Edge Histogram16 < 3.5 : K1 (1/0)
+|   |   |   |   |   MPEG-7 Edge Histogram16 >= 3.5 : K3 (1/0)
+|   |   |   |   MPEG-7 Edge Histogram19 >= 3.5 : K4 (1/0)
+|   |   |   MPEG-7 Edge Histogram47 >= 2.5 : K3 (3/0)
+|   |   MPEG-7 Edge Histogram70 >= 0.5
+|   |   |   MPEG-7 Edge Histogram46 < 2.5 : K1 (3/0)
+|   |   |   MPEG-7 Edge Histogram46 >= 2.5 : K2 (17/0)
+|   MPEG-7 Edge Histogram59 >= 3.5
+|   |   MPEG-7 Edge Histogram15 < 1.5
+|   |   |   MPEG-7 Edge Histogram51 < 1.5
+|   |   |   |   MPEG-7 Edge Histogram49 < 5.5
+|   |   |   |   |   MPEG-7 Edge Histogram45 < 2.5 : K3 (3/0)
+|   |   |   |   |   MPEG-7 Edge Histogram45 >= 2.5
+|   |   |   |   |   |   MPEG-7 Edge Histogram27 < 3.5 : K4 (7/0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram27 >= 3.5
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram42 < 1.5 : K3 (3/0)
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram42 >= 1.5 : K4 (2/0)
+|   |   |   |   MPEG-7 Edge Histogram49 >= 5.5
+|   |   |   |   |   MPEG-7 Edge Histogram52 < 4.5
+|   |   |   |   |   |   MPEG-7 Edge Histogram26 < 3.5
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram22 < 3.5
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram17 < 0.5
+|   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram25 < 2.5 : K3 (6/0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram25 >= 2.5 : K4 (3/0)
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram17 >= 0.5 : K3 (4/0)
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram22 >= 3.5
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram39 < 4.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram39 >= 4.5 : K4 (9/0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram26 >= 3.5 : K3 (30/0)
+|   |   |   |   |   MPEG-7 Edge Histogram52 >= 4.5 : K3 (9/0)
+|   |   |   MPEG-7 Edge Histogram51 >= 1.5
+|   |   |   |   MPEG-7 Edge Histogram11 < 3.5
+|   |   |   |   |   MPEG-7 Edge Histogram34 < 6.5
+|   |   |   |   |   |   MPEG-7 Edge Histogram26 < 2.5
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram4 < 3.5 : K1 (1/0)
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram4 >= 3.5 : K4 (2/0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram26 >= 2.5 : K2 (3/0)
+|   |   |   |   |   MPEG-7 Edge Histogram34 >= 6.5
+|   |   |   |   |   |   MPEG-7 Edge Histogram16 < 1.5 : K3 (1/0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram16 >= 1.5 : K6 (4/0)
+|   |   |   |   MPEG-7 Edge Histogram11 >= 3.5
+|   |   |   |   |   MPEG-7 Edge Histogram68 < 5.5 : K4 (23/0)
+|   |   |   |   |   MPEG-7 Edge Histogram68 >= 5.5 : K1 (1/0)
+|   |   MPEG-7 Edge Histogram15 >= 1.5
+|   |   |   MPEG-7 Edge Histogram56 < 0.5
+|   |   |   |   MPEG-7 Edge Histogram60 < 2.5
+|   |   |   |   |   MPEG-7 Edge Histogram48 < 0.5
+|   |   |   |   |   |   MPEG-7 Edge Histogram9 < 5.5 : K3 (1/0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram9 >= 5.5 : K4 (4/0)
+|   |   |   |   |   MPEG-7 Edge Histogram48 >= 0.5
+|   |   |   |   |   |   MPEG-7 Edge Histogram11 < 6 : K3 (3/0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram11 >= 6 : K4 (1/0)
+|   |   |   |   MPEG-7 Edge Histogram60 >= 2.5
+|   |   |   |   |   MPEG-7 Edge Histogram51 < 0.5 : K3 (1/0)
+|   |   |   |   |   MPEG-7 Edge Histogram51 >= 0.5
+|   |   |   |   |   |   MPEG-7 Edge Histogram10 < 0.5
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram17 < 1.5 : K4 (1/0)
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram17 >= 1.5 : K5 (2/0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram10 >= 0.5 : K5 (6/0)
+|   |   |   MPEG-7 Edge Histogram56 >= 0.5
+|   |   |   |   MPEG-7 Edge Histogram33 < 4.5
+|   |   |   |   |   MPEG-7 Edge Histogram24 < 4.5
+|   |   |   |   |   |   MPEG-7 Edge Histogram45 < 2.5
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram57 < 3.5
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram7 < 2.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram7 >= 2.5 : K4 (1/0)
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram57 >= 3.5 : K2 (3/0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram45 >= 2.5 : K1 (4/0)
+|   |   |   |   |   MPEG-7 Edge Histogram24 >= 4.5
+|   |   |   |   |   |   MPEG-7 Edge Histogram47 < 3
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram0 < 4
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram15 < 3.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram15 >= 3.5 : K2 (1/0)
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram0 >= 4 : K6 (1/0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram47 >= 3
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram16 < 0.5 : K3 (1/0)
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram16 >= 0.5 : K5 (9/0)
+|   |   |   |   MPEG-7 Edge Histogram33 >= 4.5
+|   |   |   |   |   MPEG-7 Edge Histogram49 < 6 : K1 (2/0)
+|   |   |   |   |   MPEG-7 Edge Histogram49 >= 6 : K6 (12/0)
+MPEG-7 Edge Histogram61 >= 1.5
+|   MPEG-7 Edge Histogram24 < 5.5
+|   |   MPEG-7 Edge Histogram51 < 2.5
+|   |   |   MPEG-7 Edge Histogram25 < 1.5
+|   |   |   |   MPEG-7 Edge Histogram4 < 5.5
+|   |   |   |   |   MPEG-7 Edge Histogram45 < 0.5 : K2 (2/0)
+|   |   |   |   |   MPEG-7 Edge Histogram45 >= 0.5 : K1 (3/0)
+|   |   |   |   MPEG-7 Edge Histogram4 >= 5.5 : K3 (3/0)
+|   |   |   MPEG-7 Edge Histogram25 >= 1.5
+|   |   |   |   MPEG-7 Edge Histogram2 < 3.5
+|   |   |   |   |   MPEG-7 Edge Histogram10 < 0.5 : K1 (4/0)
+|   |   |   |   |   MPEG-7 Edge Histogram10 >= 0.5 : K2 (4/0)
+|   |   |   |   MPEG-7 Edge Histogram2 >= 3.5 : K1 (7/0)
+|   |   MPEG-7 Edge Histogram51 >= 2.5
+|   |   |   MPEG-7 Edge Histogram33 < 0.5
+|   |   |   |   MPEG-7 Edge Histogram48 < 0.5
+|   |   |   |   |   MPEG-7 Edge Histogram1 < 0.5 : K3 (1/0)
+|   |   |   |   |   MPEG-7 Edge Histogram1 >= 0.5 : K4 (1/0)
+|   |   |   |   MPEG-7 Edge Histogram48 >= 0.5 : K2 (4/0)
+|   |   |   MPEG-7 Edge Histogram33 >= 0.5
+|   |   |   |   MPEG-7 Edge Histogram22 < 4.5 : K2 (59/0)
+|   |   |   |   MPEG-7 Edge Histogram22 >= 4.5
+|   |   |   |   |   MPEG-7 Edge Histogram54 < 4.5
+|   |   |   |   |   |   MPEG-7 Edge Histogram23 < 4.5 : K2 (27/0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram23 >= 4.5
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram74 < 1.5
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram17 < 3.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram17 >= 3.5 : K2 (1/0)
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram74 >= 1.5 : K2 (9/0)
+|   |   |   |   |   MPEG-7 Edge Histogram54 >= 4.5
+|   |   |   |   |   |   MPEG-7 Edge Histogram13 < 5 : K1 (2/0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram13 >= 5 : K2 (1/0)
+|   MPEG-7 Edge Histogram24 >= 5.5
+|   |   MPEG-7 Edge Histogram67 < 0.5
+|   |   |   MPEG-7 Edge Histogram37 < 1
+|   |   |   |   MPEG-7 Edge Histogram26 < 3
+|   |   |   |   |   MPEG-7 Edge Histogram61 < 6 : K4 (4/0)
+|   |   |   |   |   MPEG-7 Edge Histogram61 >= 6 : K3 (1/0)
+|   |   |   |   MPEG-7 Edge Histogram26 >= 3 : K3 (3/0)
+|   |   |   MPEG-7 Edge Histogram37 >= 1
+|   |   |   |   MPEG-7 Edge Histogram40 < 5.5 : K4 (2/0)
+|   |   |   |   MPEG-7 Edge Histogram40 >= 5.5 : K5 (4/0)
+|   |   MPEG-7 Edge Histogram67 >= 0.5
+|   |   |   MPEG-7 Edge Histogram49 < 5.5
+|   |   |   |   MPEG-7 Edge Histogram32 < 4.5
+|   |   |   |   |   MPEG-7 Edge Histogram8 < 1.5 : K2 (5/0)
+|   |   |   |   |   MPEG-7 Edge Histogram8 >= 1.5
+|   |   |   |   |   |   MPEG-7 Edge Histogram48 < 4.5
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram46 < 2.5 : K1 (6/0)
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram46 >= 2.5
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram13 < 4.5 : K2 (8/0)
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram13 >= 4.5
+|   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram17 < 4.5 : K1 (2/0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram17 >= 4.5
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram64 < 3.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram64 >= 3.5 : K2 (2/0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram48 >= 4.5 : K1 (3/0)
+|   |   |   |   MPEG-7 Edge Histogram32 >= 4.5 : K5 (2/0)
+|   |   |   MPEG-7 Edge Histogram49 >= 5.5
+|   |   |   |   MPEG-7 Edge Histogram47 < 3.5
+|   |   |   |   |   MPEG-7 Edge Histogram38 < 3.5 : K6 (7/0)
+|   |   |   |   |   MPEG-7 Edge Histogram38 >= 3.5 : K2 (2/0)
+|   |   |   |   MPEG-7 Edge Histogram47 >= 3.5
+|   |   |   |   |   MPEG-7 Edge Histogram11 < 4.5 : K5 (41/0)
+|   |   |   |   |   MPEG-7 Edge Histogram11 >= 4.5 : K1 (1/0)
+
+Size of the tree : 151
+
+Time taken to build model: 0.18 seconds
+
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         416              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K1
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K2
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K3
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  43   0   0   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0   0   0 |   b = K2
+   0   0  76   0   0   0   0   0 |   c = K3
+   0   0   0  61   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.06 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         332               79.8077 %
+Incorrectly Classified Instances        84               20.1923 %
+Kappa statistic                          0.7411
+Mean absolute error                      0.0505
+Root mean squared error                  0.2247
+Relative absolute error                 25.7914 %
+Root relative squared error             71.9062 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.488    0.046    0.553      0.488    0.519      0.468    0.721     0.323     K1
+                 0.905    0.063    0.887      0.905    0.896      0.838    0.921     0.837     K2
+                 0.684    0.053    0.743      0.684    0.712      0.652    0.816     0.566     K3
+                 0.672    0.045    0.719      0.672    0.695      0.645    0.814     0.532     K4
+                 0.953    0.034    0.836      0.953    0.891      0.872    0.960     0.804     K5
+                 0.958    0.010    0.852      0.958    0.902      0.897    0.974     0.819     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.798    0.049    0.792      0.798    0.794      0.746    0.874     0.683     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  21  12   2   1   4   3   0   0 |   a = K1
+   7 134   2   2   3   0   0   0 |   b = K2
+   4   3  52  12   4   1   0   0 |   c = K3
+   4   2  13  41   1   0   0   0 |   d = K4
+   2   0   1   0  61   0   0   0 |   e = K5
+   0   0   0   1   0  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

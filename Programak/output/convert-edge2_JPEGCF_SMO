@@ -1,0 +1,3250 @@
+
+Options: -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4" 
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: K1, K2
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3253 * (normalized) Histogram of JPEG Coefficients0
+ +      -0.868  * (normalized) Histogram of JPEG Coefficients1
+ +       0.6349 * (normalized) Histogram of JPEG Coefficients2
+ +       0.855  * (normalized) Histogram of JPEG Coefficients3
+ +      -1.3552 * (normalized) Histogram of JPEG Coefficients4
+ +       1.0195 * (normalized) Histogram of JPEG Coefficients5
+ +      -0.4521 * (normalized) Histogram of JPEG Coefficients6
+ +      -0.0457 * (normalized) Histogram of JPEG Coefficients7
+ +       0.7033 * (normalized) Histogram of JPEG Coefficients8
+ +      -1.1624 * (normalized) Histogram of JPEG Coefficients9
+ +       0.0004 * (normalized) Histogram of JPEG Coefficients10
+ +      -0.4237 * (normalized) Histogram of JPEG Coefficients11
+ +       0.3951 * (normalized) Histogram of JPEG Coefficients12
+ +       0.1368 * (normalized) Histogram of JPEG Coefficients13
+ +      -0.0195 * (normalized) Histogram of JPEG Coefficients14
+ +      -0.1165 * (normalized) Histogram of JPEG Coefficients15
+ +       1.0302 * (normalized) Histogram of JPEG Coefficients16
+ +      -0.1026 * (normalized) Histogram of JPEG Coefficients17
+ +      -0.688  * (normalized) Histogram of JPEG Coefficients18
+ +      -0.4953 * (normalized) Histogram of JPEG Coefficients19
+ +      -0.1405 * (normalized) Histogram of JPEG Coefficients20
+ +      -0.1425 * (normalized) Histogram of JPEG Coefficients21
+ +      -0.0614 * (normalized) Histogram of JPEG Coefficients22
+ +       0.2372 * (normalized) Histogram of JPEG Coefficients23
+ +       1.6583 * (normalized) Histogram of JPEG Coefficients24
+ +      -0.3329 * (normalized) Histogram of JPEG Coefficients25
+ +      -0.5014 * (normalized) Histogram of JPEG Coefficients26
+ +      -0.1447 * (normalized) Histogram of JPEG Coefficients27
+ +      -0.0634 * (normalized) Histogram of JPEG Coefficients28
+ +      -0.0781 * (normalized) Histogram of JPEG Coefficients29
+ +      -0.0283 * (normalized) Histogram of JPEG Coefficients30
+ +      -0.0291 * (normalized) Histogram of JPEG Coefficients31
+ +       0.5618 * (normalized) Histogram of JPEG Coefficients32
+ +      -0.3901 * (normalized) Histogram of JPEG Coefficients33
+ +      -0.1394 * (normalized) Histogram of JPEG Coefficients34
+ +       0.1152 * (normalized) Histogram of JPEG Coefficients35
+ +      -0.0399 * (normalized) Histogram of JPEG Coefficients36
+ +      -0.3224 * (normalized) Histogram of JPEG Coefficients37
+ +      -0.0483 * (normalized) Histogram of JPEG Coefficients38
+ +      -0.1058 * (normalized) Histogram of JPEG Coefficients39
+ +       0.3218 * (normalized) Histogram of JPEG Coefficients40
+ +       0.1156 * (normalized) Histogram of JPEG Coefficients41
+ +       0.1165 * (normalized) Histogram of JPEG Coefficients42
+ +      -0.133  * (normalized) Histogram of JPEG Coefficients43
+ +      -0.2676 * (normalized) Histogram of JPEG Coefficients44
+ +      -0.1332 * (normalized) Histogram of JPEG Coefficients45
+ +      -0.1629 * (normalized) Histogram of JPEG Coefficients46
+ +      -0.0565 * (normalized) Histogram of JPEG Coefficients47
+ +      -0.3218 * (normalized) Histogram of JPEG Coefficients48
+ +      -0.0976 * (normalized) Histogram of JPEG Coefficients49
+ +      -0.3722 * (normalized) Histogram of JPEG Coefficients50
+ +      -0.1159 * (normalized) Histogram of JPEG Coefficients51
+ +      -0.0899 * (normalized) Histogram of JPEG Coefficients52
+ +      -0.0499 * (normalized) Histogram of JPEG Coefficients53
+ +       0.0431 * (normalized) Histogram of JPEG Coefficients54
+ +      -0.2391 * (normalized) Histogram of JPEG Coefficients55
+ +      -0.4571 * (normalized) Histogram of JPEG Coefficients56
+ +      -0.4788 * (normalized) Histogram of JPEG Coefficients57
+ +      -0.0638 * (normalized) Histogram of JPEG Coefficients58
+ +       0.0729 * (normalized) Histogram of JPEG Coefficients59
+ +       0.0227 * (normalized) Histogram of JPEG Coefficients60
+ +       0.0711 * (normalized) Histogram of JPEG Coefficients61
+ +       0.0211 * (normalized) Histogram of JPEG Coefficients62
+ +      -0.0163 * (normalized) Histogram of JPEG Coefficients63
+ +      -0.0041 * (normalized) Histogram of JPEG Coefficients64
+ +       0.558  * (normalized) Histogram of JPEG Coefficients65
+ +       0.3424 * (normalized) Histogram of JPEG Coefficients66
+ +      -0.463  * (normalized) Histogram of JPEG Coefficients67
+ +      -0.552  * (normalized) Histogram of JPEG Coefficients68
+ +      -0.5555 * (normalized) Histogram of JPEG Coefficients69
+ +      -0.3169 * (normalized) Histogram of JPEG Coefficients70
+ +       0.156  * (normalized) Histogram of JPEG Coefficients71
+ +       0.6777 * (normalized) Histogram of JPEG Coefficients72
+ +       0.0709 * (normalized) Histogram of JPEG Coefficients73
+ +      -0.0032 * (normalized) Histogram of JPEG Coefficients74
+ +      -0.0023 * (normalized) Histogram of JPEG Coefficients75
+ +      -0.0774 * (normalized) Histogram of JPEG Coefficients76
+ +      -0.7776 * (normalized) Histogram of JPEG Coefficients77
+ +      -0.0439 * (normalized) Histogram of JPEG Coefficients78
+ +       0.1735 * (normalized) Histogram of JPEG Coefficients79
+ +       0.0729 * (normalized) Histogram of JPEG Coefficients80
+ +      -0.4927 * (normalized) Histogram of JPEG Coefficients81
+ +      -0.0526 * (normalized) Histogram of JPEG Coefficients82
+ +      -0.057  * (normalized) Histogram of JPEG Coefficients83
+ +      -0.6614 * (normalized) Histogram of JPEG Coefficients84
+ +       0.1557 * (normalized) Histogram of JPEG Coefficients85
+ +       0.0036 * (normalized) Histogram of JPEG Coefficients86
+ +       0.4064 * (normalized) Histogram of JPEG Coefficients87
+ +      -0.2699 * (normalized) Histogram of JPEG Coefficients88
+ +      -0.5046 * (normalized) Histogram of JPEG Coefficients89
+ +      -0.0719 * (normalized) Histogram of JPEG Coefficients90
+ +      -0.538  * (normalized) Histogram of JPEG Coefficients91
+ +      -0.7505 * (normalized) Histogram of JPEG Coefficients92
+ +       0.1085 * (normalized) Histogram of JPEG Coefficients93
+ +       0.691  * (normalized) Histogram of JPEG Coefficients94
+ +       0.2022 * (normalized) Histogram of JPEG Coefficients95
+ +       0.2064 * (normalized) Histogram of JPEG Coefficients96
+ +      -0.5782 * (normalized) Histogram of JPEG Coefficients97
+ +      -0.3063 * (normalized) Histogram of JPEG Coefficients98
+ +       0.048  * (normalized) Histogram of JPEG Coefficients99
+ +      -0.253  * (normalized) Histogram of JPEG Coefficients100
+ +       0.4375 * (normalized) Histogram of JPEG Coefficients101
+ +      -0.3075 * (normalized) Histogram of JPEG Coefficients102
+ +       0.2219 * (normalized) Histogram of JPEG Coefficients103
+ +      -0.5289 * (normalized) Histogram of JPEG Coefficients104
+ +      -0.2423 * (normalized) Histogram of JPEG Coefficients105
+ +       0.0053 * (normalized) Histogram of JPEG Coefficients106
+ +       0.0756 * (normalized) Histogram of JPEG Coefficients107
+ +       0.1877 * (normalized) Histogram of JPEG Coefficients108
+ +      -0.1352 * (normalized) Histogram of JPEG Coefficients109
+ +       0.016  * (normalized) Histogram of JPEG Coefficients110
+ +       0.3451 * (normalized) Histogram of JPEG Coefficients111
+ +       0.3442 * (normalized) Histogram of JPEG Coefficients112
+ +       0.2149 * (normalized) Histogram of JPEG Coefficients113
+ +       0.1254 * (normalized) Histogram of JPEG Coefficients114
+ +      -0.6387 * (normalized) Histogram of JPEG Coefficients115
+ +      -0.4569 * (normalized) Histogram of JPEG Coefficients116
+ +      -0.2172 * (normalized) Histogram of JPEG Coefficients117
+ +       0.0707 * (normalized) Histogram of JPEG Coefficients118
+ +       0.173  * (normalized) Histogram of JPEG Coefficients119
+ +      -0.0821 * (normalized) Histogram of JPEG Coefficients120
+ +      -0.1747 * (normalized) Histogram of JPEG Coefficients121
+ +      -0.0959 * (normalized) Histogram of JPEG Coefficients122
+ +      -0.3049 * (normalized) Histogram of JPEG Coefficients123
+ +      -0.206  * (normalized) Histogram of JPEG Coefficients124
+ +       0.6345 * (normalized) Histogram of JPEG Coefficients125
+ +       0.1412 * (normalized) Histogram of JPEG Coefficients126
+ +      -0.1018 * (normalized) Histogram of JPEG Coefficients127
+ +       0.0479 * (normalized) Histogram of JPEG Coefficients128
+ +       0.5172 * (normalized) Histogram of JPEG Coefficients129
+ +       0.0191 * (normalized) Histogram of JPEG Coefficients130
+ +      -0.1933 * (normalized) Histogram of JPEG Coefficients131
+ +       0.0731 * (normalized) Histogram of JPEG Coefficients132
+ +       0.3182 * (normalized) Histogram of JPEG Coefficients133
+ +       0.0826 * (normalized) Histogram of JPEG Coefficients134
+ +      -0.5415 * (normalized) Histogram of JPEG Coefficients135
+ +       0.418  * (normalized) Histogram of JPEG Coefficients136
+ +      -0.7766 * (normalized) Histogram of JPEG Coefficients137
+ +      -0.4023 * (normalized) Histogram of JPEG Coefficients138
+ +       0.0906 * (normalized) Histogram of JPEG Coefficients139
+ +       0.1968 * (normalized) Histogram of JPEG Coefficients140
+ +       0.1    * (normalized) Histogram of JPEG Coefficients141
+ +       0.6233 * (normalized) Histogram of JPEG Coefficients142
+ +      -0.0526 * (normalized) Histogram of JPEG Coefficients143
+ +       1.1896 * (normalized) Histogram of JPEG Coefficients144
+ +      -0.0617 * (normalized) Histogram of JPEG Coefficients145
+ +      -0.1442 * (normalized) Histogram of JPEG Coefficients146
+ +       0.2062 * (normalized) Histogram of JPEG Coefficients147
+ +       0.3987 * (normalized) Histogram of JPEG Coefficients148
+ +       0.2012 * (normalized) Histogram of JPEG Coefficients149
+ +       0.0023 * (normalized) Histogram of JPEG Coefficients150
+ +      -0.1381 * (normalized) Histogram of JPEG Coefficients151
+ +       0.3983 * (normalized) Histogram of JPEG Coefficients152
+ +      -0.0735 * (normalized) Histogram of JPEG Coefficients153
+ +       0.0451 * (normalized) Histogram of JPEG Coefficients154
+ +      -0.0202 * (normalized) Histogram of JPEG Coefficients155
+ +      -0.181  * (normalized) Histogram of JPEG Coefficients156
+ +      -0.1561 * (normalized) Histogram of JPEG Coefficients157
+ +      -0.372  * (normalized) Histogram of JPEG Coefficients158
+ +      -0.5949 * (normalized) Histogram of JPEG Coefficients159
+ +       0.6471 * (normalized) Histogram of JPEG Coefficients160
+ +      -0.489  * (normalized) Histogram of JPEG Coefficients161
+ +       0.2347 * (normalized) Histogram of JPEG Coefficients162
+ +      -0.0852 * (normalized) Histogram of JPEG Coefficients163
+ +      -0.1289 * (normalized) Histogram of JPEG Coefficients164
+ +       0.0611 * (normalized) Histogram of JPEG Coefficients165
+ +      -0.1909 * (normalized) Histogram of JPEG Coefficients166
+ +       0.0548 * (normalized) Histogram of JPEG Coefficients167
+ +      -0.2453 * (normalized) Histogram of JPEG Coefficients168
+ +       0.1087 * (normalized) Histogram of JPEG Coefficients169
+ +      -0.0354 * (normalized) Histogram of JPEG Coefficients170
+ +       0.0529 * (normalized) Histogram of JPEG Coefficients171
+ +      -0.3601 * (normalized) Histogram of JPEG Coefficients172
+ +      -0.3449 * (normalized) Histogram of JPEG Coefficients173
+ +      -0.4333 * (normalized) Histogram of JPEG Coefficients174
+ +      -0.0782 * (normalized) Histogram of JPEG Coefficients175
+ +       0.4594 * (normalized) Histogram of JPEG Coefficients176
+ +      -0.466  * (normalized) Histogram of JPEG Coefficients177
+ +      -0.1848 * (normalized) Histogram of JPEG Coefficients178
+ +      -0.4814 * (normalized) Histogram of JPEG Coefficients179
+ +      -0.1933 * (normalized) Histogram of JPEG Coefficients180
+ +      -0.1571 * (normalized) Histogram of JPEG Coefficients181
+ +       0.1717 * (normalized) Histogram of JPEG Coefficients182
+ +      -0.2687 * (normalized) Histogram of JPEG Coefficients183
+ +      -0.0903 * (normalized) Histogram of JPEG Coefficients184
+ +      -0.2643 * (normalized) Histogram of JPEG Coefficients185
+ +      -0.3485 * (normalized) Histogram of JPEG Coefficients186
+ +      -0.2481 * (normalized) Histogram of JPEG Coefficients187
+ +      -0.1069 * (normalized) Histogram of JPEG Coefficients188
+ +      -0.4371 * (normalized) Histogram of JPEG Coefficients189
+ +       0.2769 * (normalized) Histogram of JPEG Coefficients190
+ +       0.3885 * (normalized) Histogram of JPEG Coefficients191
+ -       0.1721
+
+Number of kernel evaluations: 9915 (87.133% cached)
+
+Classifier for classes: K1, K3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0245 * (normalized) Histogram of JPEG Coefficients0
+ +      -0.0505 * (normalized) Histogram of JPEG Coefficients1
+ +      -0.2407 * (normalized) Histogram of JPEG Coefficients2
+ +      -0.1072 * (normalized) Histogram of JPEG Coefficients3
+ +       0.0994 * (normalized) Histogram of JPEG Coefficients4
+ +      -0.0687 * (normalized) Histogram of JPEG Coefficients5
+ +       0.027  * (normalized) Histogram of JPEG Coefficients6
+ +       0.0815 * (normalized) Histogram of JPEG Coefficients7
+ +      -0.1022 * (normalized) Histogram of JPEG Coefficients8
+ +      -0.1111 * (normalized) Histogram of JPEG Coefficients9
+ +      -0.091  * (normalized) Histogram of JPEG Coefficients10
+ +       0.0083 * (normalized) Histogram of JPEG Coefficients11
+ +       0.0955 * (normalized) Histogram of JPEG Coefficients12
+ +       0.1154 * (normalized) Histogram of JPEG Coefficients13
+ +       0.0693 * (normalized) Histogram of JPEG Coefficients14
+ +       0.1404 * (normalized) Histogram of JPEG Coefficients15
+ +      -0.2019 * (normalized) Histogram of JPEG Coefficients16
+ +      -0.1364 * (normalized) Histogram of JPEG Coefficients17
+ +      -0.1128 * (normalized) Histogram of JPEG Coefficients18
+ +       0.0199 * (normalized) Histogram of JPEG Coefficients19
+ +       0.0891 * (normalized) Histogram of JPEG Coefficients20
+ +       0.0418 * (normalized) Histogram of JPEG Coefficients21
+ +       0.0698 * (normalized) Histogram of JPEG Coefficients22
+ +       0.0744 * (normalized) Histogram of JPEG Coefficients23
+ +       0.034  * (normalized) Histogram of JPEG Coefficients24
+ +      -0.0652 * (normalized) Histogram of JPEG Coefficients25
+ +      -0.0811 * (normalized) Histogram of JPEG Coefficients26
+ +       0.0429 * (normalized) Histogram of JPEG Coefficients27
+ +       0.0912 * (normalized) Histogram of JPEG Coefficients28
+ +       0.1108 * (normalized) Histogram of JPEG Coefficients29
+ +       0.1155 * (normalized) Histogram of JPEG Coefficients30
+ +       0.1289 * (normalized) Histogram of JPEG Coefficients31
+ +      -0.1142 * (normalized) Histogram of JPEG Coefficients32
+ +       0.1118 * (normalized) Histogram of JPEG Coefficients33
+ +       0.0352 * (normalized) Histogram of JPEG Coefficients34
+ +       0.0645 * (normalized) Histogram of JPEG Coefficients35
+ +       0.0647 * (normalized) Histogram of JPEG Coefficients36
+ +       0.0424 * (normalized) Histogram of JPEG Coefficients37
+ +       0.0707 * (normalized) Histogram of JPEG Coefficients38
+ +       0.0791 * (normalized) Histogram of JPEG Coefficients39
+ +      -0.1508 * (normalized) Histogram of JPEG Coefficients40
+ +       0.0666 * (normalized) Histogram of JPEG Coefficients41
+ +       0.0355 * (normalized) Histogram of JPEG Coefficients42
+ +       0.0216 * (normalized) Histogram of JPEG Coefficients43
+ +       0.046  * (normalized) Histogram of JPEG Coefficients44
+ +       0.0242 * (normalized) Histogram of JPEG Coefficients45
+ +       0.0721 * (normalized) Histogram of JPEG Coefficients46
+ +       0.0722 * (normalized) Histogram of JPEG Coefficients47
+ +       0.0587 * (normalized) Histogram of JPEG Coefficients48
+ +       0.0463 * (normalized) Histogram of JPEG Coefficients49
+ +       0.0412 * (normalized) Histogram of JPEG Coefficients50
+ +       0.0879 * (normalized) Histogram of JPEG Coefficients51
+ +       0.0624 * (normalized) Histogram of JPEG Coefficients52
+ +       0.0624 * (normalized) Histogram of JPEG Coefficients53
+ +       0.0691 * (normalized) Histogram of JPEG Coefficients54
+ +       0.1146 * (normalized) Histogram of JPEG Coefficients55
+ +       0.0642 * (normalized) Histogram of JPEG Coefficients56
+ +       0.038  * (normalized) Histogram of JPEG Coefficients57
+ +       0.0204 * (normalized) Histogram of JPEG Coefficients58
+ +       0.0651 * (normalized) Histogram of JPEG Coefficients59
+ +       0.0776 * (normalized) Histogram of JPEG Coefficients60
+ +       0.0944 * (normalized) Histogram of JPEG Coefficients61
+ +       0.0769 * (normalized) Histogram of JPEG Coefficients62
+ +       0.1854 * (normalized) Histogram of JPEG Coefficients63
+ +      -0.0643 * (normalized) Histogram of JPEG Coefficients64
+ +      -0.2849 * (normalized) Histogram of JPEG Coefficients65
+ +      -0.1045 * (normalized) Histogram of JPEG Coefficients66
+ +       0.0197 * (normalized) Histogram of JPEG Coefficients67
+ +      -0.0533 * (normalized) Histogram of JPEG Coefficients68
+ +      -0.165  * (normalized) Histogram of JPEG Coefficients69
+ +      -0.1426 * (normalized) Histogram of JPEG Coefficients70
+ +      -0.0353 * (normalized) Histogram of JPEG Coefficients71
+ +      -0.2731 * (normalized) Histogram of JPEG Coefficients72
+ +      -0.1844 * (normalized) Histogram of JPEG Coefficients73
+ +       0.0542 * (normalized) Histogram of JPEG Coefficients74
+ +       0.0597 * (normalized) Histogram of JPEG Coefficients75
+ +       0.0412 * (normalized) Histogram of JPEG Coefficients76
+ +      -0.0419 * (normalized) Histogram of JPEG Coefficients77
+ +       0.0644 * (normalized) Histogram of JPEG Coefficients78
+ +       0.0093 * (normalized) Histogram of JPEG Coefficients79
+ +      -0.082  * (normalized) Histogram of JPEG Coefficients80
+ +       0.024  * (normalized) Histogram of JPEG Coefficients81
+ +       0.2327 * (normalized) Histogram of JPEG Coefficients82
+ +       0.0369 * (normalized) Histogram of JPEG Coefficients83
+ +       0.0778 * (normalized) Histogram of JPEG Coefficients84
+ +       0.0645 * (normalized) Histogram of JPEG Coefficients85
+ +       0.0486 * (normalized) Histogram of JPEG Coefficients86
+ +       0.0935 * (normalized) Histogram of JPEG Coefficients87
+ +      -0.0467 * (normalized) Histogram of JPEG Coefficients88
+ +       0.0554 * (normalized) Histogram of JPEG Coefficients89
+ +       0.0448 * (normalized) Histogram of JPEG Coefficients90
+ +       0.0212 * (normalized) Histogram of JPEG Coefficients91
+ +       0.051  * (normalized) Histogram of JPEG Coefficients92
+ +       0.0472 * (normalized) Histogram of JPEG Coefficients93
+ +       0.0355 * (normalized) Histogram of JPEG Coefficients94
+ +       0.0512 * (normalized) Histogram of JPEG Coefficients95
+ +      -0.0497 * (normalized) Histogram of JPEG Coefficients96
+ +      -0.0338 * (normalized) Histogram of JPEG Coefficients97
+ +       0.0509 * (normalized) Histogram of JPEG Coefficients98
+ +       0.0561 * (normalized) Histogram of JPEG Coefficients99
+ +       0.0963 * (normalized) Histogram of JPEG Coefficients100
+ +      -0.0393 * (normalized) Histogram of JPEG Coefficients101
+ +       0.011  * (normalized) Histogram of JPEG Coefficients102
+ +      -0.0073 * (normalized) Histogram of JPEG Coefficients103
+ +      -0.0981 * (normalized) Histogram of JPEG Coefficients104
+ +      -0.0522 * (normalized) Histogram of JPEG Coefficients105
+ +       0.0299 * (normalized) Histogram of JPEG Coefficients106
+ +      -0.0577 * (normalized) Histogram of JPEG Coefficients107
+ +       0.1438 * (normalized) Histogram of JPEG Coefficients108
+ +      -0.0046 * (normalized) Histogram of JPEG Coefficients109
+ +       0.1129 * (normalized) Histogram of JPEG Coefficients110
+ +      -0.0293 * (normalized) Histogram of JPEG Coefficients111
+ +      -0.1055 * (normalized) Histogram of JPEG Coefficients112
+ +      -0.0483 * (normalized) Histogram of JPEG Coefficients113
+ +      -0.0283 * (normalized) Histogram of JPEG Coefficients114
+ +       0.0815 * (normalized) Histogram of JPEG Coefficients115
+ +       0.0291 * (normalized) Histogram of JPEG Coefficients116
+ +       0.088  * (normalized) Histogram of JPEG Coefficients117
+ +       0.0852 * (normalized) Histogram of JPEG Coefficients118
+ +       0.0184 * (normalized) Histogram of JPEG Coefficients119
+ +      -0.0703 * (normalized) Histogram of JPEG Coefficients120
+ +       0.1356 * (normalized) Histogram of JPEG Coefficients121
+ +       0.0567 * (normalized) Histogram of JPEG Coefficients122
+ +      -0.0162 * (normalized) Histogram of JPEG Coefficients123
+ +       0.0149 * (normalized) Histogram of JPEG Coefficients124
+ +       0.0041 * (normalized) Histogram of JPEG Coefficients125
+ +       0.1857 * (normalized) Histogram of JPEG Coefficients126
+ +       0.0737 * (normalized) Histogram of JPEG Coefficients127
+ +      -0.0621 * (normalized) Histogram of JPEG Coefficients128
+ +      -0.3647 * (normalized) Histogram of JPEG Coefficients129
+ +      -0.1281 * (normalized) Histogram of JPEG Coefficients130
+ +       0.045  * (normalized) Histogram of JPEG Coefficients131
+ +       0.0651 * (normalized) Histogram of JPEG Coefficients132
+ +      -0.1041 * (normalized) Histogram of JPEG Coefficients133
+ +      -0.1341 * (normalized) Histogram of JPEG Coefficients134
+ +      -0.1518 * (normalized) Histogram of JPEG Coefficients135
+ +      -0.2566 * (normalized) Histogram of JPEG Coefficients136
+ +      -0.3644 * (normalized) Histogram of JPEG Coefficients137
+ +       0.0345 * (normalized) Histogram of JPEG Coefficients138
+ +       0.0644 * (normalized) Histogram of JPEG Coefficients139
+ +      -0.0303 * (normalized) Histogram of JPEG Coefficients140
+ +      -0.077  * (normalized) Histogram of JPEG Coefficients141
+ +      -0.0745 * (normalized) Histogram of JPEG Coefficients142
+ +       0.2072 * (normalized) Histogram of JPEG Coefficients143
+ +      -0.0859 * (normalized) Histogram of JPEG Coefficients144
+ +       0.027  * (normalized) Histogram of JPEG Coefficients145
+ +       0.058  * (normalized) Histogram of JPEG Coefficients146
+ +       0.021  * (normalized) Histogram of JPEG Coefficients147
+ +       0.092  * (normalized) Histogram of JPEG Coefficients148
+ +       0.095  * (normalized) Histogram of JPEG Coefficients149
+ +       0.0938 * (normalized) Histogram of JPEG Coefficients150
+ +       0.1024 * (normalized) Histogram of JPEG Coefficients151
+ +      -0.0175 * (normalized) Histogram of JPEG Coefficients152
+ +       0.0109 * (normalized) Histogram of JPEG Coefficients153
+ +       0.0892 * (normalized) Histogram of JPEG Coefficients154
+ +       0.0465 * (normalized) Histogram of JPEG Coefficients155
+ +       0.0309 * (normalized) Histogram of JPEG Coefficients156
+ +       0.062  * (normalized) Histogram of JPEG Coefficients157
+ +       0.0137 * (normalized) Histogram of JPEG Coefficients158
+ +       0.0737 * (normalized) Histogram of JPEG Coefficients159
+ +       0.043  * (normalized) Histogram of JPEG Coefficients160
+ +       0.0255 * (normalized) Histogram of JPEG Coefficients161
+ +       0.075  * (normalized) Histogram of JPEG Coefficients162
+ +       0.0567 * (normalized) Histogram of JPEG Coefficients163
+ +       0.0559 * (normalized) Histogram of JPEG Coefficients164
+ +      -0.0072 * (normalized) Histogram of JPEG Coefficients165
+ +      -0.1006 * (normalized) Histogram of JPEG Coefficients166
+ +      -0.0381 * (normalized) Histogram of JPEG Coefficients167
+ +      -0.0735 * (normalized) Histogram of JPEG Coefficients168
+ +      -0.0526 * (normalized) Histogram of JPEG Coefficients169
+ +       0.0375 * (normalized) Histogram of JPEG Coefficients170
+ +       0.0146 * (normalized) Histogram of JPEG Coefficients171
+ +      -0.0554 * (normalized) Histogram of JPEG Coefficients172
+ +      -0.008  * (normalized) Histogram of JPEG Coefficients173
+ +       0.0462 * (normalized) Histogram of JPEG Coefficients174
+ +       0.266  * (normalized) Histogram of JPEG Coefficients175
+ +      -0.0411 * (normalized) Histogram of JPEG Coefficients176
+ +      -0.0409 * (normalized) Histogram of JPEG Coefficients177
+ +       0.0883 * (normalized) Histogram of JPEG Coefficients178
+ +       0.0495 * (normalized) Histogram of JPEG Coefficients179
+ +       0.0364 * (normalized) Histogram of JPEG Coefficients180
+ +      -0.0129 * (normalized) Histogram of JPEG Coefficients181
+ +       0.0282 * (normalized) Histogram of JPEG Coefficients182
+ +       0.1304 * (normalized) Histogram of JPEG Coefficients183
+ +      -0.056  * (normalized) Histogram of JPEG Coefficients184
+ +       0.0012 * (normalized) Histogram of JPEG Coefficients185
+ +       0.0338 * (normalized) Histogram of JPEG Coefficients186
+ +       0.0492 * (normalized) Histogram of JPEG Coefficients187
+ +       0.0837 * (normalized) Histogram of JPEG Coefficients188
+ +       0.0309 * (normalized) Histogram of JPEG Coefficients189
+ +       0.1128 * (normalized) Histogram of JPEG Coefficients190
+ +       0.066  * (normalized) Histogram of JPEG Coefficients191
+ +       0.1539
+
+Number of kernel evaluations: 2775 (78.535% cached)
+
+Classifier for classes: K1, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0233 * (normalized) Histogram of JPEG Coefficients0
+ +      -0.0294 * (normalized) Histogram of JPEG Coefficients1
+ +      -0.2211 * (normalized) Histogram of JPEG Coefficients2
+ +      -0.0926 * (normalized) Histogram of JPEG Coefficients3
+ +       0.0341 * (normalized) Histogram of JPEG Coefficients4
+ +      -0.089  * (normalized) Histogram of JPEG Coefficients5
+ +       0.075  * (normalized) Histogram of JPEG Coefficients6
+ +       0.1591 * (normalized) Histogram of JPEG Coefficients7
+ +      -0.0744 * (normalized) Histogram of JPEG Coefficients8
+ +      -0.1331 * (normalized) Histogram of JPEG Coefficients9
+ +      -0.1819 * (normalized) Histogram of JPEG Coefficients10
+ +      -0.0719 * (normalized) Histogram of JPEG Coefficients11
+ +       0.1317 * (normalized) Histogram of JPEG Coefficients12
+ +       0.09   * (normalized) Histogram of JPEG Coefficients13
+ +       0.0532 * (normalized) Histogram of JPEG Coefficients14
+ +       0.1027 * (normalized) Histogram of JPEG Coefficients15
+ +      -0.1499 * (normalized) Histogram of JPEG Coefficients16
+ +      -0.1562 * (normalized) Histogram of JPEG Coefficients17
+ +      -0.2125 * (normalized) Histogram of JPEG Coefficients18
+ +      -0.1105 * (normalized) Histogram of JPEG Coefficients19
+ +       0.0638 * (normalized) Histogram of JPEG Coefficients20
+ +       0.0013 * (normalized) Histogram of JPEG Coefficients21
+ +       0.0838 * (normalized) Histogram of JPEG Coefficients22
+ +       0.3058 * (normalized) Histogram of JPEG Coefficients23
+ +      -0.1447 * (normalized) Histogram of JPEG Coefficients24
+ +      -0.0716 * (normalized) Histogram of JPEG Coefficients25
+ +      -0.0909 * (normalized) Histogram of JPEG Coefficients26
+ +      -0.0671 * (normalized) Histogram of JPEG Coefficients27
+ +       0.0483 * (normalized) Histogram of JPEG Coefficients28
+ +       0.0553 * (normalized) Histogram of JPEG Coefficients29
+ +       0.0885 * (normalized) Histogram of JPEG Coefficients30
+ +       0.0881 * (normalized) Histogram of JPEG Coefficients31
+ +      -0.0187 * (normalized) Histogram of JPEG Coefficients32
+ +      -0.0409 * (normalized) Histogram of JPEG Coefficients33
+ +      -0.0172 * (normalized) Histogram of JPEG Coefficients34
+ +       0.0881 * (normalized) Histogram of JPEG Coefficients35
+ +       0.0405 * (normalized) Histogram of JPEG Coefficients36
+ +       0.0334 * (normalized) Histogram of JPEG Coefficients37
+ +       0.0741 * (normalized) Histogram of JPEG Coefficients38
+ +       0.0736 * (normalized) Histogram of JPEG Coefficients39
+ +      -0.062  * (normalized) Histogram of JPEG Coefficients40
+ +       0.0518 * (normalized) Histogram of JPEG Coefficients41
+ +       0.1253 * (normalized) Histogram of JPEG Coefficients42
+ +       0.0462 * (normalized) Histogram of JPEG Coefficients43
+ +       0.0915 * (normalized) Histogram of JPEG Coefficients44
+ +       0.0283 * (normalized) Histogram of JPEG Coefficients45
+ +       0.0741 * (normalized) Histogram of JPEG Coefficients46
+ +       0.0566 * (normalized) Histogram of JPEG Coefficients47
+ +      -0.0015 * (normalized) Histogram of JPEG Coefficients48
+ +       0.1353 * (normalized) Histogram of JPEG Coefficients49
+ +       0.0516 * (normalized) Histogram of JPEG Coefficients50
+ +       0.2306 * (normalized) Histogram of JPEG Coefficients51
+ +       0.1049 * (normalized) Histogram of JPEG Coefficients52
+ +       0.1029 * (normalized) Histogram of JPEG Coefficients53
+ +       0.1042 * (normalized) Histogram of JPEG Coefficients54
+ +       0.1517 * (normalized) Histogram of JPEG Coefficients55
+ +       0.0494 * (normalized) Histogram of JPEG Coefficients56
+ +       0.058  * (normalized) Histogram of JPEG Coefficients57
+ +       0.0533 * (normalized) Histogram of JPEG Coefficients58
+ +       0.0833 * (normalized) Histogram of JPEG Coefficients59
+ +       0.0727 * (normalized) Histogram of JPEG Coefficients60
+ +       0.0566 * (normalized) Histogram of JPEG Coefficients61
+ +       0.0883 * (normalized) Histogram of JPEG Coefficients62
+ +       0.1654 * (normalized) Histogram of JPEG Coefficients63
+ +       0.0233 * (normalized) Histogram of JPEG Coefficients64
+ +      -0.2309 * (normalized) Histogram of JPEG Coefficients65
+ +      -0.0652 * (normalized) Histogram of JPEG Coefficients66
+ +       0.0812 * (normalized) Histogram of JPEG Coefficients67
+ +      -0.0305 * (normalized) Histogram of JPEG Coefficients68
+ +      -0.1268 * (normalized) Histogram of JPEG Coefficients69
+ +      -0.0865 * (normalized) Histogram of JPEG Coefficients70
+ +      -0.081  * (normalized) Histogram of JPEG Coefficients71
+ +      -0.2384 * (normalized) Histogram of JPEG Coefficients72
+ +      -0.164  * (normalized) Histogram of JPEG Coefficients73
+ +       0.0539 * (normalized) Histogram of JPEG Coefficients74
+ +       0.0787 * (normalized) Histogram of JPEG Coefficients75
+ +      -0.0006 * (normalized) Histogram of JPEG Coefficients76
+ +      -0.1042 * (normalized) Histogram of JPEG Coefficients77
+ +      -0.0154 * (normalized) Histogram of JPEG Coefficients78
+ +      -0.0256 * (normalized) Histogram of JPEG Coefficients79
+ +      -0.0495 * (normalized) Histogram of JPEG Coefficients80
+ +       0.0805 * (normalized) Histogram of JPEG Coefficients81
+ +       0.0924 * (normalized) Histogram of JPEG Coefficients82
+ +       0.0452 * (normalized) Histogram of JPEG Coefficients83
+ +       0.1115 * (normalized) Histogram of JPEG Coefficients84
+ +       0.0394 * (normalized) Histogram of JPEG Coefficients85
+ +       0.1583 * (normalized) Histogram of JPEG Coefficients86
+ +       0.2195 * (normalized) Histogram of JPEG Coefficients87
+ +       0.0641 * (normalized) Histogram of JPEG Coefficients88
+ +       0.1091 * (normalized) Histogram of JPEG Coefficients89
+ +       0.0809 * (normalized) Histogram of JPEG Coefficients90
+ +       0.0895 * (normalized) Histogram of JPEG Coefficients91
+ +       0.1115 * (normalized) Histogram of JPEG Coefficients92
+ +       0.0634 * (normalized) Histogram of JPEG Coefficients93
+ +       0.0273 * (normalized) Histogram of JPEG Coefficients94
+ +      -0.0061 * (normalized) Histogram of JPEG Coefficients95
+ +       0.0751 * (normalized) Histogram of JPEG Coefficients96
+ +      -0.0763 * (normalized) Histogram of JPEG Coefficients97
+ +       0.1265 * (normalized) Histogram of JPEG Coefficients98
+ +       0.0562 * (normalized) Histogram of JPEG Coefficients99
+ +       0.0561 * (normalized) Histogram of JPEG Coefficients100
+ +       0.038  * (normalized) Histogram of JPEG Coefficients101
+ +       0.0468 * (normalized) Histogram of JPEG Coefficients102
+ +      -0.0499 * (normalized) Histogram of JPEG Coefficients103
+ +      -0.0502 * (normalized) Histogram of JPEG Coefficients104
+ +       0.022  * (normalized) Histogram of JPEG Coefficients105
+ +       0.0824 * (normalized) Histogram of JPEG Coefficients106
+ +       0.025  * (normalized) Histogram of JPEG Coefficients107
+ +       0.0621 * (normalized) Histogram of JPEG Coefficients108
+ +       0.0147 * (normalized) Histogram of JPEG Coefficients109
+ +       0.039  * (normalized) Histogram of JPEG Coefficients110
+ +      -0.0082 * (normalized) Histogram of JPEG Coefficients111
+ +      -0.0237 * (normalized) Histogram of JPEG Coefficients112
+ +      -0.0449 * (normalized) Histogram of JPEG Coefficients113
+ +       0.0277 * (normalized) Histogram of JPEG Coefficients114
+ +       0.1077 * (normalized) Histogram of JPEG Coefficients115
+ +       0.0609 * (normalized) Histogram of JPEG Coefficients116
+ +       0.0267 * (normalized) Histogram of JPEG Coefficients117
+ +       0.0588 * (normalized) Histogram of JPEG Coefficients118
+ +       0.122  * (normalized) Histogram of JPEG Coefficients119
+ +      -0.0024 * (normalized) Histogram of JPEG Coefficients120
+ +       0.0759 * (normalized) Histogram of JPEG Coefficients121
+ +       0.048  * (normalized) Histogram of JPEG Coefficients122
+ +      -0.004  * (normalized) Histogram of JPEG Coefficients123
+ +       0.0217 * (normalized) Histogram of JPEG Coefficients124
+ +      -0.0234 * (normalized) Histogram of JPEG Coefficients125
+ +       0.0437 * (normalized) Histogram of JPEG Coefficients126
+ +       0.0698 * (normalized) Histogram of JPEG Coefficients127
+ +       0.0233 * (normalized) Histogram of JPEG Coefficients128
+ +      -0.298  * (normalized) Histogram of JPEG Coefficients129
+ +      -0.0841 * (normalized) Histogram of JPEG Coefficients130
+ +       0.062  * (normalized) Histogram of JPEG Coefficients131
+ +       0.0698 * (normalized) Histogram of JPEG Coefficients132
+ +      -0.1006 * (normalized) Histogram of JPEG Coefficients133
+ +      -0.087  * (normalized) Histogram of JPEG Coefficients134
+ +      -0.0221 * (normalized) Histogram of JPEG Coefficients135
+ +      -0.2275 * (normalized) Histogram of JPEG Coefficients136
+ +      -0.2958 * (normalized) Histogram of JPEG Coefficients137
+ +       0.0526 * (normalized) Histogram of JPEG Coefficients138
+ +       0.0615 * (normalized) Histogram of JPEG Coefficients139
+ +      -0.0378 * (normalized) Histogram of JPEG Coefficients140
+ +      -0.0325 * (normalized) Histogram of JPEG Coefficients141
+ +      -0.0752 * (normalized) Histogram of JPEG Coefficients142
+ +       0.0151 * (normalized) Histogram of JPEG Coefficients143
+ +      -0.0693 * (normalized) Histogram of JPEG Coefficients144
+ +       0.09   * (normalized) Histogram of JPEG Coefficients145
+ +       0.0725 * (normalized) Histogram of JPEG Coefficients146
+ +       0.0301 * (normalized) Histogram of JPEG Coefficients147
+ +       0.1128 * (normalized) Histogram of JPEG Coefficients148
+ +       0.1331 * (normalized) Histogram of JPEG Coefficients149
+ +       0.0109 * (normalized) Histogram of JPEG Coefficients150
+ +       0.0861 * (normalized) Histogram of JPEG Coefficients151
+ +       0.0525 * (normalized) Histogram of JPEG Coefficients152
+ +       0.1357 * (normalized) Histogram of JPEG Coefficients153
+ +       0.0796 * (normalized) Histogram of JPEG Coefficients154
+ +       0.0326 * (normalized) Histogram of JPEG Coefficients155
+ +       0.0178 * (normalized) Histogram of JPEG Coefficients156
+ +       0.0539 * (normalized) Histogram of JPEG Coefficients157
+ +       0.0212 * (normalized) Histogram of JPEG Coefficients158
+ +       0.0652 * (normalized) Histogram of JPEG Coefficients159
+ +       0.1016 * (normalized) Histogram of JPEG Coefficients160
+ +       0.0194 * (normalized) Histogram of JPEG Coefficients161
+ +       0.0865 * (normalized) Histogram of JPEG Coefficients162
+ +       0.0798 * (normalized) Histogram of JPEG Coefficients163
+ +       0.1456 * (normalized) Histogram of JPEG Coefficients164
+ +       0.0276 * (normalized) Histogram of JPEG Coefficients165
+ +      -0.0285 * (normalized) Histogram of JPEG Coefficients166
+ +       0.0713 * (normalized) Histogram of JPEG Coefficients167
+ +      -0.0226 * (normalized) Histogram of JPEG Coefficients168
+ +      -0.0119 * (normalized) Histogram of JPEG Coefficients169
+ +       0.1664 * (normalized) Histogram of JPEG Coefficients170
+ +       0.0299 * (normalized) Histogram of JPEG Coefficients171
+ +      -0.0272 * (normalized) Histogram of JPEG Coefficients172
+ +       0.0769 * (normalized) Histogram of JPEG Coefficients173
+ +       0.0485 * (normalized) Histogram of JPEG Coefficients174
+ +       0.1054 * (normalized) Histogram of JPEG Coefficients175
+ +      -0.0098 * (normalized) Histogram of JPEG Coefficients176
+ +      -0.0166 * (normalized) Histogram of JPEG Coefficients177
+ +       0.1325 * (normalized) Histogram of JPEG Coefficients178
+ +       0.0776 * (normalized) Histogram of JPEG Coefficients179
+ +       0.086  * (normalized) Histogram of JPEG Coefficients180
+ +       0.0393 * (normalized) Histogram of JPEG Coefficients181
+ +       0.076  * (normalized) Histogram of JPEG Coefficients182
+ +       0.0305 * (normalized) Histogram of JPEG Coefficients183
+ +       0.0252 * (normalized) Histogram of JPEG Coefficients184
+ +       0.0415 * (normalized) Histogram of JPEG Coefficients185
+ +       0.067  * (normalized) Histogram of JPEG Coefficients186
+ +       0.0494 * (normalized) Histogram of JPEG Coefficients187
+ +       0.1485 * (normalized) Histogram of JPEG Coefficients188
+ +       0.0527 * (normalized) Histogram of JPEG Coefficients189
+ +       0.288  * (normalized) Histogram of JPEG Coefficients190
+ +       0.2359 * (normalized) Histogram of JPEG Coefficients191
+ -       0.3989
+
+Number of kernel evaluations: 1805 (75.713% cached)
+
+Classifier for classes: K1, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0512 * (normalized) Histogram of JPEG Coefficients0
+ +      -0.0813 * (normalized) Histogram of JPEG Coefficients1
+ +      -0.1816 * (normalized) Histogram of JPEG Coefficients2
+ +      -0.0102 * (normalized) Histogram of JPEG Coefficients3
+ +       0.0506 * (normalized) Histogram of JPEG Coefficients4
+ +      -0.0239 * (normalized) Histogram of JPEG Coefficients5
+ +       0.0685 * (normalized) Histogram of JPEG Coefficients6
+ +      -0.0062 * (normalized) Histogram of JPEG Coefficients7
+ +      -0.0697 * (normalized) Histogram of JPEG Coefficients8
+ +      -0.113  * (normalized) Histogram of JPEG Coefficients9
+ +      -0.104  * (normalized) Histogram of JPEG Coefficients10
+ +      -0.0165 * (normalized) Histogram of JPEG Coefficients11
+ +       0.0632 * (normalized) Histogram of JPEG Coefficients12
+ +       0.099  * (normalized) Histogram of JPEG Coefficients13
+ +       0.0655 * (normalized) Histogram of JPEG Coefficients14
+ +       0.0455 * (normalized) Histogram of JPEG Coefficients15
+ +      -0.1173 * (normalized) Histogram of JPEG Coefficients16
+ +      -0.1057 * (normalized) Histogram of JPEG Coefficients17
+ +      -0.0705 * (normalized) Histogram of JPEG Coefficients18
+ +      -0.0006 * (normalized) Histogram of JPEG Coefficients19
+ +       0.0686 * (normalized) Histogram of JPEG Coefficients20
+ +       0.0889 * (normalized) Histogram of JPEG Coefficients21
+ +       0.0468 * (normalized) Histogram of JPEG Coefficients22
+ +       0.0922 * (normalized) Histogram of JPEG Coefficients23
+ +      -0.0852 * (normalized) Histogram of JPEG Coefficients24
+ +      -0.0434 * (normalized) Histogram of JPEG Coefficients25
+ +       0.0139 * (normalized) Histogram of JPEG Coefficients26
+ +       0.0228 * (normalized) Histogram of JPEG Coefficients27
+ +       0.0861 * (normalized) Histogram of JPEG Coefficients28
+ +       0.034  * (normalized) Histogram of JPEG Coefficients29
+ +       0.0627 * (normalized) Histogram of JPEG Coefficients30
+ +       0.0263 * (normalized) Histogram of JPEG Coefficients31
+ +      -0.0598 * (normalized) Histogram of JPEG Coefficients32
+ +       0.0126 * (normalized) Histogram of JPEG Coefficients33
+ +      -0.0338 * (normalized) Histogram of JPEG Coefficients34
+ +       0.0877 * (normalized) Histogram of JPEG Coefficients35
+ +       0.0789 * (normalized) Histogram of JPEG Coefficients36
+ +       0.0411 * (normalized) Histogram of JPEG Coefficients37
+ +       0.0119 * (normalized) Histogram of JPEG Coefficients38
+ +       0.0502 * (normalized) Histogram of JPEG Coefficients39
+ +      -0.0384 * (normalized) Histogram of JPEG Coefficients40
+ +       0.0444 * (normalized) Histogram of JPEG Coefficients41
+ +       0.0889 * (normalized) Histogram of JPEG Coefficients42
+ +       0.0378 * (normalized) Histogram of JPEG Coefficients43
+ +       0.0356 * (normalized) Histogram of JPEG Coefficients44
+ +       0.0427 * (normalized) Histogram of JPEG Coefficients45
+ +       0.0485 * (normalized) Histogram of JPEG Coefficients46
+ +       0.0393 * (normalized) Histogram of JPEG Coefficients47
+ +      -0.0165 * (normalized) Histogram of JPEG Coefficients48
+ +       0.0067 * (normalized) Histogram of JPEG Coefficients49
+ +       0.025  * (normalized) Histogram of JPEG Coefficients50
+ +       0.082  * (normalized) Histogram of JPEG Coefficients51
+ +       0.0326 * (normalized) Histogram of JPEG Coefficients52
+ +       0.0248 * (normalized) Histogram of JPEG Coefficients53
+ +       0.0619 * (normalized) Histogram of JPEG Coefficients54
+ +       0.0554 * (normalized) Histogram of JPEG Coefficients55
+ +       0.0001 * (normalized) Histogram of JPEG Coefficients56
+ +       0.002  * (normalized) Histogram of JPEG Coefficients57
+ +       0.0231 * (normalized) Histogram of JPEG Coefficients58
+ +       0.0125 * (normalized) Histogram of JPEG Coefficients59
+ +       0.0171 * (normalized) Histogram of JPEG Coefficients60
+ +       0.037  * (normalized) Histogram of JPEG Coefficients61
+ +       0.0324 * (normalized) Histogram of JPEG Coefficients62
+ +       0.0826 * (normalized) Histogram of JPEG Coefficients63
+ +      -0.0518 * (normalized) Histogram of JPEG Coefficients64
+ +      -0.1767 * (normalized) Histogram of JPEG Coefficients65
+ +      -0.0651 * (normalized) Histogram of JPEG Coefficients66
+ +      -0.0254 * (normalized) Histogram of JPEG Coefficients67
+ +       0.011  * (normalized) Histogram of JPEG Coefficients68
+ +      -0.0302 * (normalized) Histogram of JPEG Coefficients69
+ +      -0.0544 * (normalized) Histogram of JPEG Coefficients70
+ +      -0.0703 * (normalized) Histogram of JPEG Coefficients71
+ +      -0.152  * (normalized) Histogram of JPEG Coefficients72
+ +      -0.0862 * (normalized) Histogram of JPEG Coefficients73
+ +       0.0323 * (normalized) Histogram of JPEG Coefficients74
+ +       0.0509 * (normalized) Histogram of JPEG Coefficients75
+ +       0.0234 * (normalized) Histogram of JPEG Coefficients76
+ +      -0.0403 * (normalized) Histogram of JPEG Coefficients77
+ +       0.0222 * (normalized) Histogram of JPEG Coefficients78
+ +      -0.0126 * (normalized) Histogram of JPEG Coefficients79
+ +      -0.0509 * (normalized) Histogram of JPEG Coefficients80
+ +       0.0468 * (normalized) Histogram of JPEG Coefficients81
+ +       0.0531 * (normalized) Histogram of JPEG Coefficients82
+ +       0.0268 * (normalized) Histogram of JPEG Coefficients83
+ +       0.0783 * (normalized) Histogram of JPEG Coefficients84
+ +      -0.0232 * (normalized) Histogram of JPEG Coefficients85
+ +       0.0068 * (normalized) Histogram of JPEG Coefficients86
+ +       0.0132 * (normalized) Histogram of JPEG Coefficients87
+ +      -0.014  * (normalized) Histogram of JPEG Coefficients88
+ +       0.0975 * (normalized) Histogram of JPEG Coefficients89
+ +       0.0732 * (normalized) Histogram of JPEG Coefficients90
+ +       0.0391 * (normalized) Histogram of JPEG Coefficients91
+ +       0.0482 * (normalized) Histogram of JPEG Coefficients92
+ +       0.0422 * (normalized) Histogram of JPEG Coefficients93
+ +       0.0463 * (normalized) Histogram of JPEG Coefficients94
+ +       0.068  * (normalized) Histogram of JPEG Coefficients95
+ +       0.0117 * (normalized) Histogram of JPEG Coefficients96
+ +      -0.0335 * (normalized) Histogram of JPEG Coefficients97
+ +       0.0809 * (normalized) Histogram of JPEG Coefficients98
+ +       0.014  * (normalized) Histogram of JPEG Coefficients99
+ +       0.0547 * (normalized) Histogram of JPEG Coefficients100
+ +      -0.0316 * (normalized) Histogram of JPEG Coefficients101
+ +       0.0141 * (normalized) Histogram of JPEG Coefficients102
+ +       0.0099 * (normalized) Histogram of JPEG Coefficients103
+ +      -0.0571 * (normalized) Histogram of JPEG Coefficients104
+ +      -0.0163 * (normalized) Histogram of JPEG Coefficients105
+ +       0.0555 * (normalized) Histogram of JPEG Coefficients106
+ +      -0.0318 * (normalized) Histogram of JPEG Coefficients107
+ +       0.0306 * (normalized) Histogram of JPEG Coefficients108
+ +       0.0035 * (normalized) Histogram of JPEG Coefficients109
+ +       0.0513 * (normalized) Histogram of JPEG Coefficients110
+ +       0.0106 * (normalized) Histogram of JPEG Coefficients111
+ +      -0.0517 * (normalized) Histogram of JPEG Coefficients112
+ +      -0.0412 * (normalized) Histogram of JPEG Coefficients113
+ +      -0.0042 * (normalized) Histogram of JPEG Coefficients114
+ +      -0.0059 * (normalized) Histogram of JPEG Coefficients115
+ +       0.0221 * (normalized) Histogram of JPEG Coefficients116
+ +       0.0148 * (normalized) Histogram of JPEG Coefficients117
+ +       0.053  * (normalized) Histogram of JPEG Coefficients118
+ +       0.0076 * (normalized) Histogram of JPEG Coefficients119
+ +      -0.0346 * (normalized) Histogram of JPEG Coefficients120
+ +       0.0512 * (normalized) Histogram of JPEG Coefficients121
+ +       0.0556 * (normalized) Histogram of JPEG Coefficients122
+ +      -0.0078 * (normalized) Histogram of JPEG Coefficients123
+ +       0.0111 * (normalized) Histogram of JPEG Coefficients124
+ +       0.0261 * (normalized) Histogram of JPEG Coefficients125
+ +       0.071  * (normalized) Histogram of JPEG Coefficients126
+ +       0.0819 * (normalized) Histogram of JPEG Coefficients127
+ +      -0.0512 * (normalized) Histogram of JPEG Coefficients128
+ +      -0.23   * (normalized) Histogram of JPEG Coefficients129
+ +      -0.0936 * (normalized) Histogram of JPEG Coefficients130
+ +      -0.0049 * (normalized) Histogram of JPEG Coefficients131
+ +       0.0513 * (normalized) Histogram of JPEG Coefficients132
+ +      -0.0259 * (normalized) Histogram of JPEG Coefficients133
+ +      -0.0594 * (normalized) Histogram of JPEG Coefficients134
+ +      -0.059  * (normalized) Histogram of JPEG Coefficients135
+ +      -0.1388 * (normalized) Histogram of JPEG Coefficients136
+ +      -0.189  * (normalized) Histogram of JPEG Coefficients137
+ +       0.0154 * (normalized) Histogram of JPEG Coefficients138
+ +       0.0181 * (normalized) Histogram of JPEG Coefficients139
+ +       0.0256 * (normalized) Histogram of JPEG Coefficients140
+ +      -0.0659 * (normalized) Histogram of JPEG Coefficients141
+ +      -0.0877 * (normalized) Histogram of JPEG Coefficients142
+ +       0.0034 * (normalized) Histogram of JPEG Coefficients143
+ +      -0.058  * (normalized) Histogram of JPEG Coefficients144
+ +       0.0377 * (normalized) Histogram of JPEG Coefficients145
+ +       0.0497 * (normalized) Histogram of JPEG Coefficients146
+ +       0.0169 * (normalized) Histogram of JPEG Coefficients147
+ +       0.0967 * (normalized) Histogram of JPEG Coefficients148
+ +      -0.0093 * (normalized) Histogram of JPEG Coefficients149
+ +       0.0004 * (normalized) Histogram of JPEG Coefficients150
+ +       0.0548 * (normalized) Histogram of JPEG Coefficients151
+ +      -0.0041 * (normalized) Histogram of JPEG Coefficients152
+ +       0.0698 * (normalized) Histogram of JPEG Coefficients153
+ +       0.0876 * (normalized) Histogram of JPEG Coefficients154
+ +       0.0558 * (normalized) Histogram of JPEG Coefficients155
+ +       0.0418 * (normalized) Histogram of JPEG Coefficients156
+ +       0.0545 * (normalized) Histogram of JPEG Coefficients157
+ +       0.0584 * (normalized) Histogram of JPEG Coefficients158
+ +       0.016  * (normalized) Histogram of JPEG Coefficients159
+ +       0.0417 * (normalized) Histogram of JPEG Coefficients160
+ +       0.0239 * (normalized) Histogram of JPEG Coefficients161
+ +       0.1001 * (normalized) Histogram of JPEG Coefficients162
+ +       0.0264 * (normalized) Histogram of JPEG Coefficients163
+ +       0.0468 * (normalized) Histogram of JPEG Coefficients164
+ +       0.0005 * (normalized) Histogram of JPEG Coefficients165
+ +       0.0081 * (normalized) Histogram of JPEG Coefficients166
+ +      -0.025  * (normalized) Histogram of JPEG Coefficients167
+ +      -0.0349 * (normalized) Histogram of JPEG Coefficients168
+ +      -0.0255 * (normalized) Histogram of JPEG Coefficients169
+ +       0.0694 * (normalized) Histogram of JPEG Coefficients170
+ +       0.0107 * (normalized) Histogram of JPEG Coefficients171
+ +      -0.006  * (normalized) Histogram of JPEG Coefficients172
+ +       0.082  * (normalized) Histogram of JPEG Coefficients173
+ +       0.0247 * (normalized) Histogram of JPEG Coefficients174
+ +       0.0299 * (normalized) Histogram of JPEG Coefficients175
+ +       0.0067 * (normalized) Histogram of JPEG Coefficients176
+ +      -0.0082 * (normalized) Histogram of JPEG Coefficients177
+ +       0.0734 * (normalized) Histogram of JPEG Coefficients178
+ +       0.048  * (normalized) Histogram of JPEG Coefficients179
+ +       0.0332 * (normalized) Histogram of JPEG Coefficients180
+ +       0.0022 * (normalized) Histogram of JPEG Coefficients181
+ +       0.0328 * (normalized) Histogram of JPEG Coefficients182
+ +       0.0189 * (normalized) Histogram of JPEG Coefficients183
+ +      -0.0238 * (normalized) Histogram of JPEG Coefficients184
+ +      -0.0057 * (normalized) Histogram of JPEG Coefficients185
+ +       0.021  * (normalized) Histogram of JPEG Coefficients186
+ +       0.0357 * (normalized) Histogram of JPEG Coefficients187
+ +       0.037  * (normalized) Histogram of JPEG Coefficients188
+ +       0.0191 * (normalized) Histogram of JPEG Coefficients189
+ +       0.0516 * (normalized) Histogram of JPEG Coefficients190
+ +       0.1029 * (normalized) Histogram of JPEG Coefficients191
+ -       0.2168
+
+Number of kernel evaluations: 1359 (78.93% cached)
+
+Classifier for classes: K1, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0017 * (normalized) Histogram of JPEG Coefficients0
+ +      -0.0467 * (normalized) Histogram of JPEG Coefficients1
+ +      -0.1504 * (normalized) Histogram of JPEG Coefficients2
+ +      -0.0292 * (normalized) Histogram of JPEG Coefficients3
+ +       0.0608 * (normalized) Histogram of JPEG Coefficients4
+ +      -0.0003 * (normalized) Histogram of JPEG Coefficients5
+ +       0.0682 * (normalized) Histogram of JPEG Coefficients6
+ +       0.1432 * (normalized) Histogram of JPEG Coefficients7
+ +      -0.059  * (normalized) Histogram of JPEG Coefficients8
+ +      -0.0438 * (normalized) Histogram of JPEG Coefficients9
+ +      -0.0856 * (normalized) Histogram of JPEG Coefficients10
+ +       0.0036 * (normalized) Histogram of JPEG Coefficients11
+ +       0.0869 * (normalized) Histogram of JPEG Coefficients12
+ +       0.0725 * (normalized) Histogram of JPEG Coefficients13
+ +       0.0688 * (normalized) Histogram of JPEG Coefficients14
+ +       0.1228 * (normalized) Histogram of JPEG Coefficients15
+ +      -0.0864 * (normalized) Histogram of JPEG Coefficients16
+ +      -0.0587 * (normalized) Histogram of JPEG Coefficients17
+ +      -0.1037 * (normalized) Histogram of JPEG Coefficients18
+ +       0.0068 * (normalized) Histogram of JPEG Coefficients19
+ +       0.0532 * (normalized) Histogram of JPEG Coefficients20
+ +       0.0538 * (normalized) Histogram of JPEG Coefficients21
+ +       0.0877 * (normalized) Histogram of JPEG Coefficients22
+ +       0.0748 * (normalized) Histogram of JPEG Coefficients23
+ +      -0.0556 * (normalized) Histogram of JPEG Coefficients24
+ +      -0.0776 * (normalized) Histogram of JPEG Coefficients25
+ +      -0.016  * (normalized) Histogram of JPEG Coefficients26
+ +       0.0124 * (normalized) Histogram of JPEG Coefficients27
+ +       0.0382 * (normalized) Histogram of JPEG Coefficients28
+ +       0.0395 * (normalized) Histogram of JPEG Coefficients29
+ +       0.0905 * (normalized) Histogram of JPEG Coefficients30
+ +       0.0728 * (normalized) Histogram of JPEG Coefficients31
+ +      -0.0513 * (normalized) Histogram of JPEG Coefficients32
+ +      -0.015  * (normalized) Histogram of JPEG Coefficients33
+ +      -0.0016 * (normalized) Histogram of JPEG Coefficients34
+ +       0.0262 * (normalized) Histogram of JPEG Coefficients35
+ +       0.0255 * (normalized) Histogram of JPEG Coefficients36
+ +       0.0111 * (normalized) Histogram of JPEG Coefficients37
+ +       0.0552 * (normalized) Histogram of JPEG Coefficients38
+ +       0.0699 * (normalized) Histogram of JPEG Coefficients39
+ +      -0.0457 * (normalized) Histogram of JPEG Coefficients40
+ +       0.0343 * (normalized) Histogram of JPEG Coefficients41
+ +       0.0392 * (normalized) Histogram of JPEG Coefficients42
+ +       0.0503 * (normalized) Histogram of JPEG Coefficients43
+ +       0.0423 * (normalized) Histogram of JPEG Coefficients44
+ +       0.0177 * (normalized) Histogram of JPEG Coefficients45
+ +       0.0217 * (normalized) Histogram of JPEG Coefficients46
+ +       0.0453 * (normalized) Histogram of JPEG Coefficients47
+ +      -0.0088 * (normalized) Histogram of JPEG Coefficients48
+ +       0.02   * (normalized) Histogram of JPEG Coefficients49
+ +       0.0487 * (normalized) Histogram of JPEG Coefficients50
+ +       0.0544 * (normalized) Histogram of JPEG Coefficients51
+ +       0.042  * (normalized) Histogram of JPEG Coefficients52
+ +       0.0296 * (normalized) Histogram of JPEG Coefficients53
+ +       0.0208 * (normalized) Histogram of JPEG Coefficients54
+ +       0.0559 * (normalized) Histogram of JPEG Coefficients55
+ +       0.0288 * (normalized) Histogram of JPEG Coefficients56
+ +       0.0483 * (normalized) Histogram of JPEG Coefficients57
+ +       0.0949 * (normalized) Histogram of JPEG Coefficients58
+ +       0.0263 * (normalized) Histogram of JPEG Coefficients59
+ +       0.0667 * (normalized) Histogram of JPEG Coefficients60
+ +       0.032  * (normalized) Histogram of JPEG Coefficients61
+ +       0.0436 * (normalized) Histogram of JPEG Coefficients62
+ +       0.0493 * (normalized) Histogram of JPEG Coefficients63
+ +      -0.0041 * (normalized) Histogram of JPEG Coefficients64
+ +      -0.1385 * (normalized) Histogram of JPEG Coefficients65
+ +      -0.0476 * (normalized) Histogram of JPEG Coefficients66
+ +       0.0595 * (normalized) Histogram of JPEG Coefficients67
+ +       0.049  * (normalized) Histogram of JPEG Coefficients68
+ +      -0.0612 * (normalized) Histogram of JPEG Coefficients69
+ +      -0.035  * (normalized) Histogram of JPEG Coefficients70
+ +      -0.0293 * (normalized) Histogram of JPEG Coefficients71
+ +      -0.119  * (normalized) Histogram of JPEG Coefficients72
+ +      -0.0999 * (normalized) Histogram of JPEG Coefficients73
+ +       0.0221 * (normalized) Histogram of JPEG Coefficients74
+ +       0.0328 * (normalized) Histogram of JPEG Coefficients75
+ +       0.0051 * (normalized) Histogram of JPEG Coefficients76
+ +      -0.022  * (normalized) Histogram of JPEG Coefficients77
+ +      -0.0036 * (normalized) Histogram of JPEG Coefficients78
+ +       0.0134 * (normalized) Histogram of JPEG Coefficients79
+ +      -0.0278 * (normalized) Histogram of JPEG Coefficients80
+ +       0.0125 * (normalized) Histogram of JPEG Coefficients81
+ +       0.0216 * (normalized) Histogram of JPEG Coefficients82
+ +       0.0189 * (normalized) Histogram of JPEG Coefficients83
+ +       0.0409 * (normalized) Histogram of JPEG Coefficients84
+ +       0.0436 * (normalized) Histogram of JPEG Coefficients85
+ +       0.0384 * (normalized) Histogram of JPEG Coefficients86
+ +       0.0591 * (normalized) Histogram of JPEG Coefficients87
+ +      -0.0005 * (normalized) Histogram of JPEG Coefficients88
+ +       0.0388 * (normalized) Histogram of JPEG Coefficients89
+ +       0.035  * (normalized) Histogram of JPEG Coefficients90
+ +       0.0304 * (normalized) Histogram of JPEG Coefficients91
+ +       0.0187 * (normalized) Histogram of JPEG Coefficients92
+ +       0.0277 * (normalized) Histogram of JPEG Coefficients93
+ +       0.0032 * (normalized) Histogram of JPEG Coefficients94
+ +       0.0382 * (normalized) Histogram of JPEG Coefficients95
+ +       0.0052 * (normalized) Histogram of JPEG Coefficients96
+ +       0.0097 * (normalized) Histogram of JPEG Coefficients97
+ +       0.0567 * (normalized) Histogram of JPEG Coefficients98
+ +       0.017  * (normalized) Histogram of JPEG Coefficients99
+ +       0.0576 * (normalized) Histogram of JPEG Coefficients100
+ +      -0.0243 * (normalized) Histogram of JPEG Coefficients101
+ +      -0.0173 * (normalized) Histogram of JPEG Coefficients102
+ +       0.0022 * (normalized) Histogram of JPEG Coefficients103
+ +      -0.0414 * (normalized) Histogram of JPEG Coefficients104
+ +       0.0117 * (normalized) Histogram of JPEG Coefficients105
+ +       0.0579 * (normalized) Histogram of JPEG Coefficients106
+ +      -0.0215 * (normalized) Histogram of JPEG Coefficients107
+ +       0.0148 * (normalized) Histogram of JPEG Coefficients108
+ +       0.0034 * (normalized) Histogram of JPEG Coefficients109
+ +      -0.0013 * (normalized) Histogram of JPEG Coefficients110
+ +      -0.0084 * (normalized) Histogram of JPEG Coefficients111
+ +      -0.0409 * (normalized) Histogram of JPEG Coefficients112
+ +       0.0035 * (normalized) Histogram of JPEG Coefficients113
+ +       0.0092 * (normalized) Histogram of JPEG Coefficients114
+ +       0.0206 * (normalized) Histogram of JPEG Coefficients115
+ +       0.0296 * (normalized) Histogram of JPEG Coefficients116
+ +       0.0128 * (normalized) Histogram of JPEG Coefficients117
+ +       0.0141 * (normalized) Histogram of JPEG Coefficients118
+ +      -0.0003 * (normalized) Histogram of JPEG Coefficients119
+ +      -0.0334 * (normalized) Histogram of JPEG Coefficients120
+ +       0.0595 * (normalized) Histogram of JPEG Coefficients121
+ +       0.0305 * (normalized) Histogram of JPEG Coefficients122
+ +      -0.0064 * (normalized) Histogram of JPEG Coefficients123
+ +       0.0038 * (normalized) Histogram of JPEG Coefficients124
+ +      -0.0006 * (normalized) Histogram of JPEG Coefficients125
+ +      -0.0047 * (normalized) Histogram of JPEG Coefficients126
+ +       0.0528 * (normalized) Histogram of JPEG Coefficients127
+ +      -0.0017 * (normalized) Histogram of JPEG Coefficients128
+ +      -0.1648 * (normalized) Histogram of JPEG Coefficients129
+ +      -0.0563 * (normalized) Histogram of JPEG Coefficients130
+ +       0.0569 * (normalized) Histogram of JPEG Coefficients131
+ +       0.02   * (normalized) Histogram of JPEG Coefficients132
+ +      -0.0391 * (normalized) Histogram of JPEG Coefficients133
+ +      -0.0527 * (normalized) Histogram of JPEG Coefficients134
+ +      -0.0154 * (normalized) Histogram of JPEG Coefficients135
+ +      -0.1078 * (normalized) Histogram of JPEG Coefficients136
+ +      -0.1573 * (normalized) Histogram of JPEG Coefficients137
+ +       0.0247 * (normalized) Histogram of JPEG Coefficients138
+ +       0.0549 * (normalized) Histogram of JPEG Coefficients139
+ +       0.0133 * (normalized) Histogram of JPEG Coefficients140
+ +      -0.0127 * (normalized) Histogram of JPEG Coefficients141
+ +      -0.0006 * (normalized) Histogram of JPEG Coefficients142
+ +       0.002  * (normalized) Histogram of JPEG Coefficients143
+ +      -0.0323 * (normalized) Histogram of JPEG Coefficients144
+ +       0.0207 * (normalized) Histogram of JPEG Coefficients145
+ +       0.0281 * (normalized) Histogram of JPEG Coefficients146
+ +       0.0147 * (normalized) Histogram of JPEG Coefficients147
+ +       0.0952 * (normalized) Histogram of JPEG Coefficients148
+ +       0.0804 * (normalized) Histogram of JPEG Coefficients149
+ +       0.0162 * (normalized) Histogram of JPEG Coefficients150
+ +       0.0902 * (normalized) Histogram of JPEG Coefficients151
+ +       0.0088 * (normalized) Histogram of JPEG Coefficients152
+ +       0.0375 * (normalized) Histogram of JPEG Coefficients153
+ +       0.0499 * (normalized) Histogram of JPEG Coefficients154
+ +       0.0348 * (normalized) Histogram of JPEG Coefficients155
+ +       0.0197 * (normalized) Histogram of JPEG Coefficients156
+ +       0.0616 * (normalized) Histogram of JPEG Coefficients157
+ +       0.1134 * (normalized) Histogram of JPEG Coefficients158
+ +       0.0696 * (normalized) Histogram of JPEG Coefficients159
+ +       0.0446 * (normalized) Histogram of JPEG Coefficients160
+ +       0.0319 * (normalized) Histogram of JPEG Coefficients161
+ +       0.0831 * (normalized) Histogram of JPEG Coefficients162
+ +       0.0314 * (normalized) Histogram of JPEG Coefficients163
+ +       0.0426 * (normalized) Histogram of JPEG Coefficients164
+ +      -0.0008 * (normalized) Histogram of JPEG Coefficients165
+ +      -0.0149 * (normalized) Histogram of JPEG Coefficients166
+ +       0.0054 * (normalized) Histogram of JPEG Coefficients167
+ +      -0.0208 * (normalized) Histogram of JPEG Coefficients168
+ +      -0.0006 * (normalized) Histogram of JPEG Coefficients169
+ +       0.0999 * (normalized) Histogram of JPEG Coefficients170
+ +       0.0229 * (normalized) Histogram of JPEG Coefficients171
+ +       0.0157 * (normalized) Histogram of JPEG Coefficients172
+ +       0.006  * (normalized) Histogram of JPEG Coefficients173
+ +       0.0124 * (normalized) Histogram of JPEG Coefficients174
+ +       0.0075 * (normalized) Histogram of JPEG Coefficients175
+ +       0.0042 * (normalized) Histogram of JPEG Coefficients176
+ +       0.0266 * (normalized) Histogram of JPEG Coefficients177
+ +       0.0472 * (normalized) Histogram of JPEG Coefficients178
+ +       0.0845 * (normalized) Histogram of JPEG Coefficients179
+ +       0.0293 * (normalized) Histogram of JPEG Coefficients180
+ +       0.0208 * (normalized) Histogram of JPEG Coefficients181
+ +       0.0033 * (normalized) Histogram of JPEG Coefficients182
+ +       0.0199 * (normalized) Histogram of JPEG Coefficients183
+ +       0.0257 * (normalized) Histogram of JPEG Coefficients184
+ +       0.0294 * (normalized) Histogram of JPEG Coefficients185
+ +       0.0421 * (normalized) Histogram of JPEG Coefficients186
+ +       0.0259 * (normalized) Histogram of JPEG Coefficients187
+ +       0.0298 * (normalized) Histogram of JPEG Coefficients188
+ +       0.0491 * (normalized) Histogram of JPEG Coefficients189
+ +       0.0334 * (normalized) Histogram of JPEG Coefficients190
+ +       0.0214 * (normalized) Histogram of JPEG Coefficients191
+ -       0.7251
+
+Number of kernel evaluations: 470 (86.361% cached)
+
+Classifier for classes: K1, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K1, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K2, K3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1449 * (normalized) Histogram of JPEG Coefficients0
+ +       0.012  * (normalized) Histogram of JPEG Coefficients1
+ +      -0.1648 * (normalized) Histogram of JPEG Coefficients2
+ +      -0.0765 * (normalized) Histogram of JPEG Coefficients3
+ +      -0.0202 * (normalized) Histogram of JPEG Coefficients4
+ +      -0.133  * (normalized) Histogram of JPEG Coefficients5
+ +       0.0151 * (normalized) Histogram of JPEG Coefficients6
+ +       0.0325 * (normalized) Histogram of JPEG Coefficients7
+ +      -0.1158 * (normalized) Histogram of JPEG Coefficients8
+ +      -0.1069 * (normalized) Histogram of JPEG Coefficients9
+ +      -0.0303 * (normalized) Histogram of JPEG Coefficients10
+ +       0.0152 * (normalized) Histogram of JPEG Coefficients11
+ +       0.0438 * (normalized) Histogram of JPEG Coefficients12
+ +       0.0408 * (normalized) Histogram of JPEG Coefficients13
+ +       0.0428 * (normalized) Histogram of JPEG Coefficients14
+ +       0.0802 * (normalized) Histogram of JPEG Coefficients15
+ +      -0.2504 * (normalized) Histogram of JPEG Coefficients16
+ +      -0.0679 * (normalized) Histogram of JPEG Coefficients17
+ +      -0.019  * (normalized) Histogram of JPEG Coefficients18
+ +       0.0751 * (normalized) Histogram of JPEG Coefficients19
+ +       0.0411 * (normalized) Histogram of JPEG Coefficients20
+ +       0      * (normalized) Histogram of JPEG Coefficients21
+ +       0.0469 * (normalized) Histogram of JPEG Coefficients22
+ +       0.0394 * (normalized) Histogram of JPEG Coefficients23
+ +      -0.0167 * (normalized) Histogram of JPEG Coefficients24
+ +      -0.0498 * (normalized) Histogram of JPEG Coefficients25
+ +       0.0153 * (normalized) Histogram of JPEG Coefficients26
+ +       0.0548 * (normalized) Histogram of JPEG Coefficients27
+ +       0.0463 * (normalized) Histogram of JPEG Coefficients28
+ +       0.0838 * (normalized) Histogram of JPEG Coefficients29
+ +       0.0856 * (normalized) Histogram of JPEG Coefficients30
+ +       0.0705 * (normalized) Histogram of JPEG Coefficients31
+ +      -0.1983 * (normalized) Histogram of JPEG Coefficients32
+ +       0.0576 * (normalized) Histogram of JPEG Coefficients33
+ +       0.0317 * (normalized) Histogram of JPEG Coefficients34
+ +       0.0375 * (normalized) Histogram of JPEG Coefficients35
+ +       0.0434 * (normalized) Histogram of JPEG Coefficients36
+ +       0.0328 * (normalized) Histogram of JPEG Coefficients37
+ +       0.0433 * (normalized) Histogram of JPEG Coefficients38
+ +       0.0491 * (normalized) Histogram of JPEG Coefficients39
+ +      -0.1328 * (normalized) Histogram of JPEG Coefficients40
+ +       0.0287 * (normalized) Histogram of JPEG Coefficients41
+ +      -0.0196 * (normalized) Histogram of JPEG Coefficients42
+ +       0.005  * (normalized) Histogram of JPEG Coefficients43
+ +       0.0247 * (normalized) Histogram of JPEG Coefficients44
+ +       0.0241 * (normalized) Histogram of JPEG Coefficients45
+ +       0.0419 * (normalized) Histogram of JPEG Coefficients46
+ +       0.0434 * (normalized) Histogram of JPEG Coefficients47
+ +       0.0253 * (normalized) Histogram of JPEG Coefficients48
+ +       0.0433 * (normalized) Histogram of JPEG Coefficients49
+ +       0.0284 * (normalized) Histogram of JPEG Coefficients50
+ +       0.0511 * (normalized) Histogram of JPEG Coefficients51
+ +       0.0357 * (normalized) Histogram of JPEG Coefficients52
+ +       0.0454 * (normalized) Histogram of JPEG Coefficients53
+ +       0.0474 * (normalized) Histogram of JPEG Coefficients54
+ +       0.0711 * (normalized) Histogram of JPEG Coefficients55
+ +      -0.002  * (normalized) Histogram of JPEG Coefficients56
+ +       0.0436 * (normalized) Histogram of JPEG Coefficients57
+ +       0.0306 * (normalized) Histogram of JPEG Coefficients58
+ +       0.0414 * (normalized) Histogram of JPEG Coefficients59
+ +       0.0422 * (normalized) Histogram of JPEG Coefficients60
+ +       0.0558 * (normalized) Histogram of JPEG Coefficients61
+ +       0.0565 * (normalized) Histogram of JPEG Coefficients62
+ +       0.1212 * (normalized) Histogram of JPEG Coefficients63
+ +       0.0543 * (normalized) Histogram of JPEG Coefficients64
+ +      -0.2065 * (normalized) Histogram of JPEG Coefficients65
+ +      -0.0429 * (normalized) Histogram of JPEG Coefficients66
+ +      -0.0011 * (normalized) Histogram of JPEG Coefficients67
+ +      -0.064  * (normalized) Histogram of JPEG Coefficients68
+ +      -0.2016 * (normalized) Histogram of JPEG Coefficients69
+ +      -0.1401 * (normalized) Histogram of JPEG Coefficients70
+ +      -0.1312 * (normalized) Histogram of JPEG Coefficients71
+ +      -0.2193 * (normalized) Histogram of JPEG Coefficients72
+ +      -0.1301 * (normalized) Histogram of JPEG Coefficients73
+ +       0.0428 * (normalized) Histogram of JPEG Coefficients74
+ +       0.0262 * (normalized) Histogram of JPEG Coefficients75
+ +       0.0161 * (normalized) Histogram of JPEG Coefficients76
+ +      -0.0343 * (normalized) Histogram of JPEG Coefficients77
+ +       0.0304 * (normalized) Histogram of JPEG Coefficients78
+ +      -0.0277 * (normalized) Histogram of JPEG Coefficients79
+ +      -0.026  * (normalized) Histogram of JPEG Coefficients80
+ +      -0.0012 * (normalized) Histogram of JPEG Coefficients81
+ +       0.1774 * (normalized) Histogram of JPEG Coefficients82
+ +       0.0186 * (normalized) Histogram of JPEG Coefficients83
+ +       0.0342 * (normalized) Histogram of JPEG Coefficients84
+ +       0.0631 * (normalized) Histogram of JPEG Coefficients85
+ +      -0.0013 * (normalized) Histogram of JPEG Coefficients86
+ +       0.0279 * (normalized) Histogram of JPEG Coefficients87
+ +      -0.0379 * (normalized) Histogram of JPEG Coefficients88
+ +       0.0303 * (normalized) Histogram of JPEG Coefficients89
+ +       0.0354 * (normalized) Histogram of JPEG Coefficients90
+ +       0.0187 * (normalized) Histogram of JPEG Coefficients91
+ +       0.0136 * (normalized) Histogram of JPEG Coefficients92
+ +      -0.0035 * (normalized) Histogram of JPEG Coefficients93
+ +       0.0107 * (normalized) Histogram of JPEG Coefficients94
+ +       0.0275 * (normalized) Histogram of JPEG Coefficients95
+ +      -0.0419 * (normalized) Histogram of JPEG Coefficients96
+ +      -0.0091 * (normalized) Histogram of JPEG Coefficients97
+ +       0.0089 * (normalized) Histogram of JPEG Coefficients98
+ +       0.0627 * (normalized) Histogram of JPEG Coefficients99
+ +       0.0157 * (normalized) Histogram of JPEG Coefficients100
+ +       0.0012 * (normalized) Histogram of JPEG Coefficients101
+ +      -0.0283 * (normalized) Histogram of JPEG Coefficients102
+ +      -0.0543 * (normalized) Histogram of JPEG Coefficients103
+ +      -0.0825 * (normalized) Histogram of JPEG Coefficients104
+ +      -0.0473 * (normalized) Histogram of JPEG Coefficients105
+ +      -0.0147 * (normalized) Histogram of JPEG Coefficients106
+ +      -0.0005 * (normalized) Histogram of JPEG Coefficients107
+ +       0.0984 * (normalized) Histogram of JPEG Coefficients108
+ +       0.0009 * (normalized) Histogram of JPEG Coefficients109
+ +       0.0627 * (normalized) Histogram of JPEG Coefficients110
+ +       0.0138 * (normalized) Histogram of JPEG Coefficients111
+ +      -0.1111 * (normalized) Histogram of JPEG Coefficients112
+ +       0.0302 * (normalized) Histogram of JPEG Coefficients113
+ +      -0.0057 * (normalized) Histogram of JPEG Coefficients114
+ +       0.0463 * (normalized) Histogram of JPEG Coefficients115
+ +       0.0311 * (normalized) Histogram of JPEG Coefficients116
+ +       0.0708 * (normalized) Histogram of JPEG Coefficients117
+ +       0.0534 * (normalized) Histogram of JPEG Coefficients118
+ +       0.0306 * (normalized) Histogram of JPEG Coefficients119
+ +      -0.0453 * (normalized) Histogram of JPEG Coefficients120
+ +       0.0554 * (normalized) Histogram of JPEG Coefficients121
+ +       0.0179 * (normalized) Histogram of JPEG Coefficients122
+ +       0.0117 * (normalized) Histogram of JPEG Coefficients123
+ +       0.0449 * (normalized) Histogram of JPEG Coefficients124
+ +       0.0142 * (normalized) Histogram of JPEG Coefficients125
+ +       0.0956 * (normalized) Histogram of JPEG Coefficients126
+ +       0.0886 * (normalized) Histogram of JPEG Coefficients127
+ +       0.1288 * (normalized) Histogram of JPEG Coefficients128
+ +      -0.1411 * (normalized) Histogram of JPEG Coefficients129
+ +      -0.0035 * (normalized) Histogram of JPEG Coefficients130
+ +       0.0209 * (normalized) Histogram of JPEG Coefficients131
+ +      -0.0252 * (normalized) Histogram of JPEG Coefficients132
+ +      -0.1871 * (normalized) Histogram of JPEG Coefficients133
+ +      -0.1714 * (normalized) Histogram of JPEG Coefficients134
+ +      -0.2013 * (normalized) Histogram of JPEG Coefficients135
+ +      -0.247  * (normalized) Histogram of JPEG Coefficients136
+ +      -0.1348 * (normalized) Histogram of JPEG Coefficients137
+ +       0.0398 * (normalized) Histogram of JPEG Coefficients138
+ +       0.0643 * (normalized) Histogram of JPEG Coefficients139
+ +      -0.0383 * (normalized) Histogram of JPEG Coefficients140
+ +      -0.0643 * (normalized) Histogram of JPEG Coefficients141
+ +      -0.0035 * (normalized) Histogram of JPEG Coefficients142
+ +       0.1323 * (normalized) Histogram of JPEG Coefficients143
+ +      -0.0641 * (normalized) Histogram of JPEG Coefficients144
+ +       0.0275 * (normalized) Histogram of JPEG Coefficients145
+ +       0.0399 * (normalized) Histogram of JPEG Coefficients146
+ +       0.0174 * (normalized) Histogram of JPEG Coefficients147
+ +       0.0326 * (normalized) Histogram of JPEG Coefficients148
+ +       0.0021 * (normalized) Histogram of JPEG Coefficients149
+ +       0.0891 * (normalized) Histogram of JPEG Coefficients150
+ +       0.0266 * (normalized) Histogram of JPEG Coefficients151
+ +      -0.0302 * (normalized) Histogram of JPEG Coefficients152
+ +       0.0148 * (normalized) Histogram of JPEG Coefficients153
+ +       0.0634 * (normalized) Histogram of JPEG Coefficients154
+ +       0.029  * (normalized) Histogram of JPEG Coefficients155
+ +       0.0145 * (normalized) Histogram of JPEG Coefficients156
+ +       0.0185 * (normalized) Histogram of JPEG Coefficients157
+ +       0.045  * (normalized) Histogram of JPEG Coefficients158
+ +       0.0258 * (normalized) Histogram of JPEG Coefficients159
+ +      -0.0542 * (normalized) Histogram of JPEG Coefficients160
+ +       0.033  * (normalized) Histogram of JPEG Coefficients161
+ +       0.0334 * (normalized) Histogram of JPEG Coefficients162
+ +       0.0447 * (normalized) Histogram of JPEG Coefficients163
+ +       0.0213 * (normalized) Histogram of JPEG Coefficients164
+ +       0.0299 * (normalized) Histogram of JPEG Coefficients165
+ +      -0.017  * (normalized) Histogram of JPEG Coefficients166
+ +       0.0162 * (normalized) Histogram of JPEG Coefficients167
+ +      -0.087  * (normalized) Histogram of JPEG Coefficients168
+ +      -0.0165 * (normalized) Histogram of JPEG Coefficients169
+ +       0.0028 * (normalized) Histogram of JPEG Coefficients170
+ +       0.0075 * (normalized) Histogram of JPEG Coefficients171
+ +       0.0188 * (normalized) Histogram of JPEG Coefficients172
+ +       0.0142 * (normalized) Histogram of JPEG Coefficients173
+ +       0.0293 * (normalized) Histogram of JPEG Coefficients174
+ +       0.2291 * (normalized) Histogram of JPEG Coefficients175
+ +      -0.1107 * (normalized) Histogram of JPEG Coefficients176
+ +      -0.0064 * (normalized) Histogram of JPEG Coefficients177
+ +       0.0248 * (normalized) Histogram of JPEG Coefficients178
+ +       0.0011 * (normalized) Histogram of JPEG Coefficients179
+ +       0.0229 * (normalized) Histogram of JPEG Coefficients180
+ +       0.0235 * (normalized) Histogram of JPEG Coefficients181
+ +       0.0257 * (normalized) Histogram of JPEG Coefficients182
+ +       0.0988 * (normalized) Histogram of JPEG Coefficients183
+ +      -0.0873 * (normalized) Histogram of JPEG Coefficients184
+ +       0.0214 * (normalized) Histogram of JPEG Coefficients185
+ +       0.023  * (normalized) Histogram of JPEG Coefficients186
+ +       0.0506 * (normalized) Histogram of JPEG Coefficients187
+ +       0.0309 * (normalized) Histogram of JPEG Coefficients188
+ +       0.05   * (normalized) Histogram of JPEG Coefficients189
+ +       0.0677 * (normalized) Histogram of JPEG Coefficients190
+ +       0.0815 * (normalized) Histogram of JPEG Coefficients191
+ +       0.5413
+
+Number of kernel evaluations: 3234 (76.747% cached)
+
+Classifier for classes: K2, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1761 * (normalized) Histogram of JPEG Coefficients0
+ +       0.0457 * (normalized) Histogram of JPEG Coefficients1
+ +      -0.1567 * (normalized) Histogram of JPEG Coefficients2
+ +      -0.0766 * (normalized) Histogram of JPEG Coefficients3
+ +      -0.069  * (normalized) Histogram of JPEG Coefficients4
+ +      -0.0914 * (normalized) Histogram of JPEG Coefficients5
+ +       0.0319 * (normalized) Histogram of JPEG Coefficients6
+ +       0.0923 * (normalized) Histogram of JPEG Coefficients7
+ +      -0.111  * (normalized) Histogram of JPEG Coefficients8
+ +      -0.1337 * (normalized) Histogram of JPEG Coefficients9
+ +      -0.1026 * (normalized) Histogram of JPEG Coefficients10
+ +      -0.0141 * (normalized) Histogram of JPEG Coefficients11
+ +       0.0614 * (normalized) Histogram of JPEG Coefficients12
+ +       0.0496 * (normalized) Histogram of JPEG Coefficients13
+ +       0.0451 * (normalized) Histogram of JPEG Coefficients14
+ +       0.0484 * (normalized) Histogram of JPEG Coefficients15
+ +      -0.2361 * (normalized) Histogram of JPEG Coefficients16
+ +      -0.0937 * (normalized) Histogram of JPEG Coefficients17
+ +      -0.078  * (normalized) Histogram of JPEG Coefficients18
+ +       0.0125 * (normalized) Histogram of JPEG Coefficients19
+ +       0.0229 * (normalized) Histogram of JPEG Coefficients20
+ +      -0.0111 * (normalized) Histogram of JPEG Coefficients21
+ +       0.0497 * (normalized) Histogram of JPEG Coefficients22
+ +       0.1934 * (normalized) Histogram of JPEG Coefficients23
+ +      -0.2034 * (normalized) Histogram of JPEG Coefficients24
+ +      -0.0506 * (normalized) Histogram of JPEG Coefficients25
+ +      -0.0016 * (normalized) Histogram of JPEG Coefficients26
+ +       0.002  * (normalized) Histogram of JPEG Coefficients27
+ +       0.0327 * (normalized) Histogram of JPEG Coefficients28
+ +       0.0338 * (normalized) Histogram of JPEG Coefficients29
+ +       0.0605 * (normalized) Histogram of JPEG Coefficients30
+ +       0.0595 * (normalized) Histogram of JPEG Coefficients31
+ +      -0.1354 * (normalized) Histogram of JPEG Coefficients32
+ +      -0.0245 * (normalized) Histogram of JPEG Coefficients33
+ +       0.0071 * (normalized) Histogram of JPEG Coefficients34
+ +       0.0394 * (normalized) Histogram of JPEG Coefficients35
+ +       0.0239 * (normalized) Histogram of JPEG Coefficients36
+ +       0.0286 * (normalized) Histogram of JPEG Coefficients37
+ +       0.0458 * (normalized) Histogram of JPEG Coefficients38
+ +       0.0495 * (normalized) Histogram of JPEG Coefficients39
+ +      -0.1133 * (normalized) Histogram of JPEG Coefficients40
+ +      -0.0075 * (normalized) Histogram of JPEG Coefficients41
+ +      -0.0023 * (normalized) Histogram of JPEG Coefficients42
+ +       0.0214 * (normalized) Histogram of JPEG Coefficients43
+ +       0.0435 * (normalized) Histogram of JPEG Coefficients44
+ +       0.0242 * (normalized) Histogram of JPEG Coefficients45
+ +       0.0503 * (normalized) Histogram of JPEG Coefficients46
+ +       0.0457 * (normalized) Histogram of JPEG Coefficients47
+ +      -0.0508 * (normalized) Histogram of JPEG Coefficients48
+ +       0.093  * (normalized) Histogram of JPEG Coefficients49
+ +       0.0323 * (normalized) Histogram of JPEG Coefficients50
+ +       0.1439 * (normalized) Histogram of JPEG Coefficients51
+ +       0.0676 * (normalized) Histogram of JPEG Coefficients52
+ +       0.0731 * (normalized) Histogram of JPEG Coefficients53
+ +       0.0797 * (normalized) Histogram of JPEG Coefficients54
+ +       0.085  * (normalized) Histogram of JPEG Coefficients55
+ +      -0.0005 * (normalized) Histogram of JPEG Coefficients56
+ +       0.0489 * (normalized) Histogram of JPEG Coefficients57
+ +       0.0551 * (normalized) Histogram of JPEG Coefficients58
+ +       0.0601 * (normalized) Histogram of JPEG Coefficients59
+ +       0.0458 * (normalized) Histogram of JPEG Coefficients60
+ +       0.0436 * (normalized) Histogram of JPEG Coefficients61
+ +       0.0672 * (normalized) Histogram of JPEG Coefficients62
+ +       0.0929 * (normalized) Histogram of JPEG Coefficients63
+ +       0.0769 * (normalized) Histogram of JPEG Coefficients64
+ +      -0.1601 * (normalized) Histogram of JPEG Coefficients65
+ +      -0.0023 * (normalized) Histogram of JPEG Coefficients66
+ +       0.0474 * (normalized) Histogram of JPEG Coefficients67
+ +      -0.0143 * (normalized) Histogram of JPEG Coefficients68
+ +      -0.162  * (normalized) Histogram of JPEG Coefficients69
+ +      -0.0869 * (normalized) Histogram of JPEG Coefficients70
+ +      -0.1941 * (normalized) Histogram of JPEG Coefficients71
+ +      -0.1834 * (normalized) Histogram of JPEG Coefficients72
+ +      -0.0903 * (normalized) Histogram of JPEG Coefficients73
+ +       0.032  * (normalized) Histogram of JPEG Coefficients74
+ +       0.0327 * (normalized) Histogram of JPEG Coefficients75
+ +      -0.006  * (normalized) Histogram of JPEG Coefficients76
+ +      -0.0598 * (normalized) Histogram of JPEG Coefficients77
+ +      -0.0134 * (normalized) Histogram of JPEG Coefficients78
+ +      -0.0356 * (normalized) Histogram of JPEG Coefficients79
+ +      -0.017  * (normalized) Histogram of JPEG Coefficients80
+ +       0.0389 * (normalized) Histogram of JPEG Coefficients81
+ +       0.0405 * (normalized) Histogram of JPEG Coefficients82
+ +       0.0315 * (normalized) Histogram of JPEG Coefficients83
+ +       0.0561 * (normalized) Histogram of JPEG Coefficients84
+ +       0.0239 * (normalized) Histogram of JPEG Coefficients85
+ +       0.085  * (normalized) Histogram of JPEG Coefficients86
+ +       0.1031 * (normalized) Histogram of JPEG Coefficients87
+ +       0.0042 * (normalized) Histogram of JPEG Coefficients88
+ +       0.0582 * (normalized) Histogram of JPEG Coefficients89
+ +       0.0461 * (normalized) Histogram of JPEG Coefficients90
+ +       0.0447 * (normalized) Histogram of JPEG Coefficients91
+ +       0.0413 * (normalized) Histogram of JPEG Coefficients92
+ +       0.0151 * (normalized) Histogram of JPEG Coefficients93
+ +       0.0369 * (normalized) Histogram of JPEG Coefficients94
+ +       0.0081 * (normalized) Histogram of JPEG Coefficients95
+ +      -0.0107 * (normalized) Histogram of JPEG Coefficients96
+ +      -0.0347 * (normalized) Histogram of JPEG Coefficients97
+ +       0.0428 * (normalized) Histogram of JPEG Coefficients98
+ +       0.0441 * (normalized) Histogram of JPEG Coefficients99
+ +       0.0141 * (normalized) Histogram of JPEG Coefficients100
+ +       0.0451 * (normalized) Histogram of JPEG Coefficients101
+ +       0.0302 * (normalized) Histogram of JPEG Coefficients102
+ +      -0.0584 * (normalized) Histogram of JPEG Coefficients103
+ +      -0.0819 * (normalized) Histogram of JPEG Coefficients104
+ +      -0.0052 * (normalized) Histogram of JPEG Coefficients105
+ +       0.032  * (normalized) Histogram of JPEG Coefficients106
+ +       0.0356 * (normalized) Histogram of JPEG Coefficients107
+ +       0.0452 * (normalized) Histogram of JPEG Coefficients108
+ +       0.0228 * (normalized) Histogram of JPEG Coefficients109
+ +       0.0344 * (normalized) Histogram of JPEG Coefficients110
+ +       0.0321 * (normalized) Histogram of JPEG Coefficients111
+ +      -0.0881 * (normalized) Histogram of JPEG Coefficients112
+ +       0.0092 * (normalized) Histogram of JPEG Coefficients113
+ +       0.0346 * (normalized) Histogram of JPEG Coefficients114
+ +       0.0692 * (normalized) Histogram of JPEG Coefficients115
+ +       0.0517 * (normalized) Histogram of JPEG Coefficients116
+ +       0.0448 * (normalized) Histogram of JPEG Coefficients117
+ +       0.0381 * (normalized) Histogram of JPEG Coefficients118
+ +       0.092  * (normalized) Histogram of JPEG Coefficients119
+ +      -0.0319 * (normalized) Histogram of JPEG Coefficients120
+ +       0.0387 * (normalized) Histogram of JPEG Coefficients121
+ +       0.0333 * (normalized) Histogram of JPEG Coefficients122
+ +       0.0231 * (normalized) Histogram of JPEG Coefficients123
+ +       0.0454 * (normalized) Histogram of JPEG Coefficients124
+ +       0.028  * (normalized) Histogram of JPEG Coefficients125
+ +       0.0516 * (normalized) Histogram of JPEG Coefficients126
+ +       0.0634 * (normalized) Histogram of JPEG Coefficients127
+ +       0.1928 * (normalized) Histogram of JPEG Coefficients128
+ +      -0.1009 * (normalized) Histogram of JPEG Coefficients129
+ +       0.0403 * (normalized) Histogram of JPEG Coefficients130
+ +       0.0458 * (normalized) Histogram of JPEG Coefficients131
+ +       0.0135 * (normalized) Histogram of JPEG Coefficients132
+ +      -0.1345 * (normalized) Histogram of JPEG Coefficients133
+ +      -0.1046 * (normalized) Histogram of JPEG Coefficients134
+ +      -0.144  * (normalized) Histogram of JPEG Coefficients135
+ +      -0.201  * (normalized) Histogram of JPEG Coefficients136
+ +      -0.1091 * (normalized) Histogram of JPEG Coefficients137
+ +       0.0547 * (normalized) Histogram of JPEG Coefficients138
+ +       0.0683 * (normalized) Histogram of JPEG Coefficients139
+ +      -0.0138 * (normalized) Histogram of JPEG Coefficients140
+ +      -0.0406 * (normalized) Histogram of JPEG Coefficients141
+ +      -0.0164 * (normalized) Histogram of JPEG Coefficients142
+ +      -0.0126 * (normalized) Histogram of JPEG Coefficients143
+ +      -0.0514 * (normalized) Histogram of JPEG Coefficients144
+ +       0.0732 * (normalized) Histogram of JPEG Coefficients145
+ +       0.0679 * (normalized) Histogram of JPEG Coefficients146
+ +       0.0261 * (normalized) Histogram of JPEG Coefficients147
+ +       0.063  * (normalized) Histogram of JPEG Coefficients148
+ +       0.0457 * (normalized) Histogram of JPEG Coefficients149
+ +       0.0188 * (normalized) Histogram of JPEG Coefficients150
+ +       0.0092 * (normalized) Histogram of JPEG Coefficients151
+ +       0.0043 * (normalized) Histogram of JPEG Coefficients152
+ +       0.0861 * (normalized) Histogram of JPEG Coefficients153
+ +       0.0652 * (normalized) Histogram of JPEG Coefficients154
+ +       0.0236 * (normalized) Histogram of JPEG Coefficients155
+ +       0.0136 * (normalized) Histogram of JPEG Coefficients156
+ +       0.0148 * (normalized) Histogram of JPEG Coefficients157
+ +       0.0353 * (normalized) Histogram of JPEG Coefficients158
+ +       0.0013 * (normalized) Histogram of JPEG Coefficients159
+ +      -0.0063 * (normalized) Histogram of JPEG Coefficients160
+ +       0.0313 * (normalized) Histogram of JPEG Coefficients161
+ +       0.0471 * (normalized) Histogram of JPEG Coefficients162
+ +       0.0597 * (normalized) Histogram of JPEG Coefficients163
+ +       0.0665 * (normalized) Histogram of JPEG Coefficients164
+ +       0.0216 * (normalized) Histogram of JPEG Coefficients165
+ +       0.0107 * (normalized) Histogram of JPEG Coefficients166
+ +       0.0378 * (normalized) Histogram of JPEG Coefficients167
+ +      -0.0852 * (normalized) Histogram of JPEG Coefficients168
+ +       0.0061 * (normalized) Histogram of JPEG Coefficients169
+ +       0.0606 * (normalized) Histogram of JPEG Coefficients170
+ +       0.0125 * (normalized) Histogram of JPEG Coefficients171
+ +       0.0209 * (normalized) Histogram of JPEG Coefficients172
+ +       0.0446 * (normalized) Histogram of JPEG Coefficients173
+ +       0.0165 * (normalized) Histogram of JPEG Coefficients174
+ +       0.0464 * (normalized) Histogram of JPEG Coefficients175
+ +      -0.0956 * (normalized) Histogram of JPEG Coefficients176
+ +       0.0021 * (normalized) Histogram of JPEG Coefficients177
+ +       0.0445 * (normalized) Histogram of JPEG Coefficients178
+ +       0.0172 * (normalized) Histogram of JPEG Coefficients179
+ +       0.0514 * (normalized) Histogram of JPEG Coefficients180
+ +       0.0411 * (normalized) Histogram of JPEG Coefficients181
+ +       0.0319 * (normalized) Histogram of JPEG Coefficients182
+ +       0.0133 * (normalized) Histogram of JPEG Coefficients183
+ +      -0.0551 * (normalized) Histogram of JPEG Coefficients184
+ +       0.0385 * (normalized) Histogram of JPEG Coefficients185
+ +       0.0361 * (normalized) Histogram of JPEG Coefficients186
+ +       0.0343 * (normalized) Histogram of JPEG Coefficients187
+ +       0.0589 * (normalized) Histogram of JPEG Coefficients188
+ +       0.0557 * (normalized) Histogram of JPEG Coefficients189
+ +       0.1417 * (normalized) Histogram of JPEG Coefficients190
+ +       0.1649 * (normalized) Histogram of JPEG Coefficients191
+ +       0.2742
+
+Number of kernel evaluations: 2518 (75.608% cached)
+
+Classifier for classes: K2, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0009 * (normalized) Histogram of JPEG Coefficients0
+ +      -0.0543 * (normalized) Histogram of JPEG Coefficients1
+ +      -0.144  * (normalized) Histogram of JPEG Coefficients2
+ +      -0.0109 * (normalized) Histogram of JPEG Coefficients3
+ +       0.027  * (normalized) Histogram of JPEG Coefficients4
+ +      -0.0249 * (normalized) Histogram of JPEG Coefficients5
+ +       0.0655 * (normalized) Histogram of JPEG Coefficients6
+ +       0.0043 * (normalized) Histogram of JPEG Coefficients7
+ +      -0.0864 * (normalized) Histogram of JPEG Coefficients8
+ +      -0.0785 * (normalized) Histogram of JPEG Coefficients9
+ +      -0.0396 * (normalized) Histogram of JPEG Coefficients10
+ +       0.01   * (normalized) Histogram of JPEG Coefficients11
+ +       0.0648 * (normalized) Histogram of JPEG Coefficients12
+ +       0.0873 * (normalized) Histogram of JPEG Coefficients13
+ +       0.0768 * (normalized) Histogram of JPEG Coefficients14
+ +       0.0345 * (normalized) Histogram of JPEG Coefficients15
+ +      -0.1683 * (normalized) Histogram of JPEG Coefficients16
+ +      -0.0756 * (normalized) Histogram of JPEG Coefficients17
+ +      -0.0043 * (normalized) Histogram of JPEG Coefficients18
+ +       0.0446 * (normalized) Histogram of JPEG Coefficients19
+ +       0.0631 * (normalized) Histogram of JPEG Coefficients20
+ +       0.0874 * (normalized) Histogram of JPEG Coefficients21
+ +       0.0501 * (normalized) Histogram of JPEG Coefficients22
+ +       0.0597 * (normalized) Histogram of JPEG Coefficients23
+ +      -0.1103 * (normalized) Histogram of JPEG Coefficients24
+ +      -0.0418 * (normalized) Histogram of JPEG Coefficients25
+ +       0.0482 * (normalized) Histogram of JPEG Coefficients26
+ +       0.0569 * (normalized) Histogram of JPEG Coefficients27
+ +       0.0796 * (normalized) Histogram of JPEG Coefficients28
+ +       0.0344 * (normalized) Histogram of JPEG Coefficients29
+ +       0.0567 * (normalized) Histogram of JPEG Coefficients30
+ +       0.0225 * (normalized) Histogram of JPEG Coefficients31
+ +      -0.0583 * (normalized) Histogram of JPEG Coefficients32
+ +       0.0031 * (normalized) Histogram of JPEG Coefficients33
+ +       0.0099 * (normalized) Histogram of JPEG Coefficients34
+ +       0.0672 * (normalized) Histogram of JPEG Coefficients35
+ +       0.0806 * (normalized) Histogram of JPEG Coefficients36
+ +       0.0284 * (normalized) Histogram of JPEG Coefficients37
+ +       0.018  * (normalized) Histogram of JPEG Coefficients38
+ +       0.0408 * (normalized) Histogram of JPEG Coefficients39
+ +      -0.0358 * (normalized) Histogram of JPEG Coefficients40
+ +       0.0204 * (normalized) Histogram of JPEG Coefficients41
+ +       0.0496 * (normalized) Histogram of JPEG Coefficients42
+ +       0.0324 * (normalized) Histogram of JPEG Coefficients43
+ +       0.0408 * (normalized) Histogram of JPEG Coefficients44
+ +       0.0429 * (normalized) Histogram of JPEG Coefficients45
+ +       0.0382 * (normalized) Histogram of JPEG Coefficients46
+ +       0.0374 * (normalized) Histogram of JPEG Coefficients47
+ +      -0.0322 * (normalized) Histogram of JPEG Coefficients48
+ +       0.0085 * (normalized) Histogram of JPEG Coefficients49
+ +       0.018  * (normalized) Histogram of JPEG Coefficients50
+ +       0.0577 * (normalized) Histogram of JPEG Coefficients51
+ +       0.0208 * (normalized) Histogram of JPEG Coefficients52
+ +       0.0222 * (normalized) Histogram of JPEG Coefficients53
+ +       0.063  * (normalized) Histogram of JPEG Coefficients54
+ +       0.0499 * (normalized) Histogram of JPEG Coefficients55
+ +      -0.0033 * (normalized) Histogram of JPEG Coefficients56
+ +      -0.0061 * (normalized) Histogram of JPEG Coefficients57
+ +       0.0432 * (normalized) Histogram of JPEG Coefficients58
+ +       0.0162 * (normalized) Histogram of JPEG Coefficients59
+ +       0.0098 * (normalized) Histogram of JPEG Coefficients60
+ +       0.0249 * (normalized) Histogram of JPEG Coefficients61
+ +       0.0359 * (normalized) Histogram of JPEG Coefficients62
+ +       0.0731 * (normalized) Histogram of JPEG Coefficients63
+ +      -0.0159 * (normalized) Histogram of JPEG Coefficients64
+ +      -0.178  * (normalized) Histogram of JPEG Coefficients65
+ +      -0.0588 * (normalized) Histogram of JPEG Coefficients66
+ +      -0.0409 * (normalized) Histogram of JPEG Coefficients67
+ +      -0.0143 * (normalized) Histogram of JPEG Coefficients68
+ +      -0.0428 * (normalized) Histogram of JPEG Coefficients69
+ +      -0.035  * (normalized) Histogram of JPEG Coefficients70
+ +      -0.0756 * (normalized) Histogram of JPEG Coefficients71
+ +      -0.0973 * (normalized) Histogram of JPEG Coefficients72
+ +      -0.073  * (normalized) Histogram of JPEG Coefficients73
+ +       0.0247 * (normalized) Histogram of JPEG Coefficients74
+ +       0.0359 * (normalized) Histogram of JPEG Coefficients75
+ +       0.0375 * (normalized) Histogram of JPEG Coefficients76
+ +       0.0012 * (normalized) Histogram of JPEG Coefficients77
+ +       0.0432 * (normalized) Histogram of JPEG Coefficients78
+ +       0.0261 * (normalized) Histogram of JPEG Coefficients79
+ +      -0.0415 * (normalized) Histogram of JPEG Coefficients80
+ +       0.0292 * (normalized) Histogram of JPEG Coefficients81
+ +       0.0353 * (normalized) Histogram of JPEG Coefficients82
+ +       0.0274 * (normalized) Histogram of JPEG Coefficients83
+ +       0.0885 * (normalized) Histogram of JPEG Coefficients84
+ +      -0.0009 * (normalized) Histogram of JPEG Coefficients85
+ +      -0.0102 * (normalized) Histogram of JPEG Coefficients86
+ +       0.0018 * (normalized) Histogram of JPEG Coefficients87
+ +      -0.0135 * (normalized) Histogram of JPEG Coefficients88
+ +       0.0718 * (normalized) Histogram of JPEG Coefficients89
+ +       0.0719 * (normalized) Histogram of JPEG Coefficients90
+ +       0.0228 * (normalized) Histogram of JPEG Coefficients91
+ +       0.0452 * (normalized) Histogram of JPEG Coefficients92
+ +       0.0333 * (normalized) Histogram of JPEG Coefficients93
+ +       0.0563 * (normalized) Histogram of JPEG Coefficients94
+ +       0.0873 * (normalized) Histogram of JPEG Coefficients95
+ +       0.0117 * (normalized) Histogram of JPEG Coefficients96
+ +      -0.0282 * (normalized) Histogram of JPEG Coefficients97
+ +       0.0676 * (normalized) Histogram of JPEG Coefficients98
+ +       0.0164 * (normalized) Histogram of JPEG Coefficients99
+ +       0.0614 * (normalized) Histogram of JPEG Coefficients100
+ +       0.0026 * (normalized) Histogram of JPEG Coefficients101
+ +       0.0283 * (normalized) Histogram of JPEG Coefficients102
+ +       0.0278 * (normalized) Histogram of JPEG Coefficients103
+ +      -0.0677 * (normalized) Histogram of JPEG Coefficients104
+ +      -0.0477 * (normalized) Histogram of JPEG Coefficients105
+ +       0.0316 * (normalized) Histogram of JPEG Coefficients106
+ +       0.0107 * (normalized) Histogram of JPEG Coefficients107
+ +       0.0169 * (normalized) Histogram of JPEG Coefficients108
+ +       0.0092 * (normalized) Histogram of JPEG Coefficients109
+ +       0.0631 * (normalized) Histogram of JPEG Coefficients110
+ +       0.0506 * (normalized) Histogram of JPEG Coefficients111
+ +      -0.0551 * (normalized) Histogram of JPEG Coefficients112
+ +      -0.0021 * (normalized) Histogram of JPEG Coefficients113
+ +       0.0194 * (normalized) Histogram of JPEG Coefficients114
+ +       0.0219 * (normalized) Histogram of JPEG Coefficients115
+ +       0.0179 * (normalized) Histogram of JPEG Coefficients116
+ +       0.0242 * (normalized) Histogram of JPEG Coefficients117
+ +       0.0681 * (normalized) Histogram of JPEG Coefficients118
+ +       0.0504 * (normalized) Histogram of JPEG Coefficients119
+ +      -0.0053 * (normalized) Histogram of JPEG Coefficients120
+ +       0.0319 * (normalized) Histogram of JPEG Coefficients121
+ +       0.0588 * (normalized) Histogram of JPEG Coefficients122
+ +       0.03   * (normalized) Histogram of JPEG Coefficients123
+ +       0.0416 * (normalized) Histogram of JPEG Coefficients124
+ +       0.0578 * (normalized) Histogram of JPEG Coefficients125
+ +       0.0806 * (normalized) Histogram of JPEG Coefficients126
+ +       0.0992 * (normalized) Histogram of JPEG Coefficients127
+ +      -0.0014 * (normalized) Histogram of JPEG Coefficients128
+ +      -0.143  * (normalized) Histogram of JPEG Coefficients129
+ +      -0.0469 * (normalized) Histogram of JPEG Coefficients130
+ +      -0.0073 * (normalized) Histogram of JPEG Coefficients131
+ +       0.0167 * (normalized) Histogram of JPEG Coefficients132
+ +      -0.0688 * (normalized) Histogram of JPEG Coefficients133
+ +      -0.0391 * (normalized) Histogram of JPEG Coefficients134
+ +      -0.0905 * (normalized) Histogram of JPEG Coefficients135
+ +      -0.0932 * (normalized) Histogram of JPEG Coefficients136
+ +      -0.0987 * (normalized) Histogram of JPEG Coefficients137
+ +       0.012  * (normalized) Histogram of JPEG Coefficients138
+ +       0.0161 * (normalized) Histogram of JPEG Coefficients139
+ +       0.0171 * (normalized) Histogram of JPEG Coefficients140
+ +      -0.0377 * (normalized) Histogram of JPEG Coefficients141
+ +      -0.0236 * (normalized) Histogram of JPEG Coefficients142
+ +       0.017  * (normalized) Histogram of JPEG Coefficients143
+ +      -0.0526 * (normalized) Histogram of JPEG Coefficients144
+ +       0.0178 * (normalized) Histogram of JPEG Coefficients145
+ +       0.0257 * (normalized) Histogram of JPEG Coefficients146
+ +       0.0083 * (normalized) Histogram of JPEG Coefficients147
+ +       0.0627 * (normalized) Histogram of JPEG Coefficients148
+ +      -0.0112 * (normalized) Histogram of JPEG Coefficients149
+ +       0.0254 * (normalized) Histogram of JPEG Coefficients150
+ +       0.0257 * (normalized) Histogram of JPEG Coefficients151
+ +      -0.0317 * (normalized) Histogram of JPEG Coefficients152
+ +       0.0424 * (normalized) Histogram of JPEG Coefficients153
+ +       0.0611 * (normalized) Histogram of JPEG Coefficients154
+ +       0.0329 * (normalized) Histogram of JPEG Coefficients155
+ +       0.0383 * (normalized) Histogram of JPEG Coefficients156
+ +       0.0353 * (normalized) Histogram of JPEG Coefficients157
+ +       0.0691 * (normalized) Histogram of JPEG Coefficients158
+ +       0.0058 * (normalized) Histogram of JPEG Coefficients159
+ +      -0.0208 * (normalized) Histogram of JPEG Coefficients160
+ +      -0.0064 * (normalized) Histogram of JPEG Coefficients161
+ +       0.0634 * (normalized) Histogram of JPEG Coefficients162
+ +       0.0374 * (normalized) Histogram of JPEG Coefficients163
+ +       0.0368 * (normalized) Histogram of JPEG Coefficients164
+ +       0.0298 * (normalized) Histogram of JPEG Coefficients165
+ +       0.0483 * (normalized) Histogram of JPEG Coefficients166
+ +       0.0117 * (normalized) Histogram of JPEG Coefficients167
+ +      -0.055  * (normalized) Histogram of JPEG Coefficients168
+ +      -0.0193 * (normalized) Histogram of JPEG Coefficients169
+ +       0.0278 * (normalized) Histogram of JPEG Coefficients170
+ +       0.0062 * (normalized) Histogram of JPEG Coefficients171
+ +       0.0415 * (normalized) Histogram of JPEG Coefficients172
+ +       0.0949 * (normalized) Histogram of JPEG Coefficients173
+ +       0.0204 * (normalized) Histogram of JPEG Coefficients174
+ +       0.0218 * (normalized) Histogram of JPEG Coefficients175
+ +      -0.0306 * (normalized) Histogram of JPEG Coefficients176
+ +      -0.0021 * (normalized) Histogram of JPEG Coefficients177
+ +       0.0622 * (normalized) Histogram of JPEG Coefficients178
+ +       0.0289 * (normalized) Histogram of JPEG Coefficients179
+ +       0.0086 * (normalized) Histogram of JPEG Coefficients180
+ +       0.0137 * (normalized) Histogram of JPEG Coefficients181
+ +       0.0258 * (normalized) Histogram of JPEG Coefficients182
+ +       0.0267 * (normalized) Histogram of JPEG Coefficients183
+ +      -0.0344 * (normalized) Histogram of JPEG Coefficients184
+ +       0.0111 * (normalized) Histogram of JPEG Coefficients185
+ +       0.0272 * (normalized) Histogram of JPEG Coefficients186
+ +       0.0411 * (normalized) Histogram of JPEG Coefficients187
+ +       0.016  * (normalized) Histogram of JPEG Coefficients188
+ +       0.0347 * (normalized) Histogram of JPEG Coefficients189
+ +       0.0374 * (normalized) Histogram of JPEG Coefficients190
+ +       0.142  * (normalized) Histogram of JPEG Coefficients191
+ -       0.4537
+
+Number of kernel evaluations: 2011 (73.825% cached)
+
+Classifier for classes: K2, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0009 * (normalized) Histogram of JPEG Coefficients0
+ +      -0.0433 * (normalized) Histogram of JPEG Coefficients1
+ +      -0.1224 * (normalized) Histogram of JPEG Coefficients2
+ +      -0.0274 * (normalized) Histogram of JPEG Coefficients3
+ +       0.027  * (normalized) Histogram of JPEG Coefficients4
+ +      -0.0048 * (normalized) Histogram of JPEG Coefficients5
+ +       0.0446 * (normalized) Histogram of JPEG Coefficients6
+ +       0.1172 * (normalized) Histogram of JPEG Coefficients7
+ +      -0.0869 * (normalized) Histogram of JPEG Coefficients8
+ +      -0.0273 * (normalized) Histogram of JPEG Coefficients9
+ +      -0.0422 * (normalized) Histogram of JPEG Coefficients10
+ +       0.0292 * (normalized) Histogram of JPEG Coefficients11
+ +       0.0711 * (normalized) Histogram of JPEG Coefficients12
+ +       0.059  * (normalized) Histogram of JPEG Coefficients13
+ +       0.0626 * (normalized) Histogram of JPEG Coefficients14
+ +       0.0994 * (normalized) Histogram of JPEG Coefficients15
+ +      -0.1206 * (normalized) Histogram of JPEG Coefficients16
+ +      -0.0295 * (normalized) Histogram of JPEG Coefficients17
+ +      -0.0427 * (normalized) Histogram of JPEG Coefficients18
+ +       0.0533 * (normalized) Histogram of JPEG Coefficients19
+ +       0.0388 * (normalized) Histogram of JPEG Coefficients20
+ +       0.0449 * (normalized) Histogram of JPEG Coefficients21
+ +       0.074  * (normalized) Histogram of JPEG Coefficients22
+ +       0.0569 * (normalized) Histogram of JPEG Coefficients23
+ +      -0.09   * (normalized) Histogram of JPEG Coefficients24
+ +      -0.0537 * (normalized) Histogram of JPEG Coefficients25
+ +       0.0118 * (normalized) Histogram of JPEG Coefficients26
+ +       0.0352 * (normalized) Histogram of JPEG Coefficients27
+ +       0.0297 * (normalized) Histogram of JPEG Coefficients28
+ +       0.0386 * (normalized) Histogram of JPEG Coefficients29
+ +       0.0787 * (normalized) Histogram of JPEG Coefficients30
+ +       0.0579 * (normalized) Histogram of JPEG Coefficients31
+ +      -0.0642 * (normalized) Histogram of JPEG Coefficients32
+ +      -0.0069 * (normalized) Histogram of JPEG Coefficients33
+ +       0.0191 * (normalized) Histogram of JPEG Coefficients34
+ +       0.018  * (normalized) Histogram of JPEG Coefficients35
+ +       0.0235 * (normalized) Histogram of JPEG Coefficients36
+ +       0.013  * (normalized) Histogram of JPEG Coefficients37
+ +       0.0506 * (normalized) Histogram of JPEG Coefficients38
+ +       0.0582 * (normalized) Histogram of JPEG Coefficients39
+ +      -0.0555 * (normalized) Histogram of JPEG Coefficients40
+ +       0.0231 * (normalized) Histogram of JPEG Coefficients41
+ +       0.0216 * (normalized) Histogram of JPEG Coefficients42
+ +       0.0468 * (normalized) Histogram of JPEG Coefficients43
+ +       0.0317 * (normalized) Histogram of JPEG Coefficients44
+ +       0.0183 * (normalized) Histogram of JPEG Coefficients45
+ +       0.0181 * (normalized) Histogram of JPEG Coefficients46
+ +       0.0394 * (normalized) Histogram of JPEG Coefficients47
+ +      -0.0372 * (normalized) Histogram of JPEG Coefficients48
+ +       0.0111 * (normalized) Histogram of JPEG Coefficients49
+ +       0.0368 * (normalized) Histogram of JPEG Coefficients50
+ +       0.0368 * (normalized) Histogram of JPEG Coefficients51
+ +       0.0292 * (normalized) Histogram of JPEG Coefficients52
+ +       0.0237 * (normalized) Histogram of JPEG Coefficients53
+ +       0.0232 * (normalized) Histogram of JPEG Coefficients54
+ +       0.0466 * (normalized) Histogram of JPEG Coefficients55
+ +       0.0107 * (normalized) Histogram of JPEG Coefficients56
+ +       0.0426 * (normalized) Histogram of JPEG Coefficients57
+ +       0.0843 * (normalized) Histogram of JPEG Coefficients58
+ +       0.0268 * (normalized) Histogram of JPEG Coefficients59
+ +       0.0515 * (normalized) Histogram of JPEG Coefficients60
+ +       0.0237 * (normalized) Histogram of JPEG Coefficients61
+ +       0.0422 * (normalized) Histogram of JPEG Coefficients62
+ +       0.0513 * (normalized) Histogram of JPEG Coefficients63
+ +      -0.0152 * (normalized) Histogram of JPEG Coefficients64
+ +      -0.1494 * (normalized) Histogram of JPEG Coefficients65
+ +      -0.0592 * (normalized) Histogram of JPEG Coefficients66
+ +       0.0404 * (normalized) Histogram of JPEG Coefficients67
+ +       0.0368 * (normalized) Histogram of JPEG Coefficients68
+ +      -0.0654 * (normalized) Histogram of JPEG Coefficients69
+ +      -0.0132 * (normalized) Histogram of JPEG Coefficients70
+ +      -0.0299 * (normalized) Histogram of JPEG Coefficients71
+ +      -0.0928 * (normalized) Histogram of JPEG Coefficients72
+ +      -0.0814 * (normalized) Histogram of JPEG Coefficients73
+ +       0.0158 * (normalized) Histogram of JPEG Coefficients74
+ +       0.0261 * (normalized) Histogram of JPEG Coefficients75
+ +       0.0013 * (normalized) Histogram of JPEG Coefficients76
+ +       0.0023 * (normalized) Histogram of JPEG Coefficients77
+ +       0.0064 * (normalized) Histogram of JPEG Coefficients78
+ +       0.0318 * (normalized) Histogram of JPEG Coefficients79
+ +      -0.0339 * (normalized) Histogram of JPEG Coefficients80
+ +       0.0038 * (normalized) Histogram of JPEG Coefficients81
+ +       0.0139 * (normalized) Histogram of JPEG Coefficients82
+ +       0.0107 * (normalized) Histogram of JPEG Coefficients83
+ +       0.037  * (normalized) Histogram of JPEG Coefficients84
+ +       0.0452 * (normalized) Histogram of JPEG Coefficients85
+ +       0.0299 * (normalized) Histogram of JPEG Coefficients86
+ +       0.0446 * (normalized) Histogram of JPEG Coefficients87
+ +      -0.0045 * (normalized) Histogram of JPEG Coefficients88
+ +       0.0212 * (normalized) Histogram of JPEG Coefficients89
+ +       0.0294 * (normalized) Histogram of JPEG Coefficients90
+ +       0.0249 * (normalized) Histogram of JPEG Coefficients91
+ +       0.0182 * (normalized) Histogram of JPEG Coefficients92
+ +       0.018  * (normalized) Histogram of JPEG Coefficients93
+ +       0.0203 * (normalized) Histogram of JPEG Coefficients94
+ +       0.0509 * (normalized) Histogram of JPEG Coefficients95
+ +      -0.0026 * (normalized) Histogram of JPEG Coefficients96
+ +       0.0008 * (normalized) Histogram of JPEG Coefficients97
+ +       0.0422 * (normalized) Histogram of JPEG Coefficients98
+ +       0.0229 * (normalized) Histogram of JPEG Coefficients99
+ +       0.0543 * (normalized) Histogram of JPEG Coefficients100
+ +       0.0143 * (normalized) Histogram of JPEG Coefficients101
+ +       0.0006 * (normalized) Histogram of JPEG Coefficients102
+ +       0.0161 * (normalized) Histogram of JPEG Coefficients103
+ +      -0.0452 * (normalized) Histogram of JPEG Coefficients104
+ +       0.0003 * (normalized) Histogram of JPEG Coefficients105
+ +       0.0407 * (normalized) Histogram of JPEG Coefficients106
+ +       0.0131 * (normalized) Histogram of JPEG Coefficients107
+ +       0.0115 * (normalized) Histogram of JPEG Coefficients108
+ +       0.0049 * (normalized) Histogram of JPEG Coefficients109
+ +       0.0103 * (normalized) Histogram of JPEG Coefficients110
+ +       0.0227 * (normalized) Histogram of JPEG Coefficients111
+ +      -0.055  * (normalized) Histogram of JPEG Coefficients112
+ +       0.0169 * (normalized) Histogram of JPEG Coefficients113
+ +       0.0227 * (normalized) Histogram of JPEG Coefficients114
+ +       0.04   * (normalized) Histogram of JPEG Coefficients115
+ +       0.0275 * (normalized) Histogram of JPEG Coefficients116
+ +       0.0268 * (normalized) Histogram of JPEG Coefficients117
+ +       0.0294 * (normalized) Histogram of JPEG Coefficients118
+ +       0.0352 * (normalized) Histogram of JPEG Coefficients119
+ +      -0.0242 * (normalized) Histogram of JPEG Coefficients120
+ +       0.0365 * (normalized) Histogram of JPEG Coefficients121
+ +       0.0313 * (normalized) Histogram of JPEG Coefficients122
+ +       0.0208 * (normalized) Histogram of JPEG Coefficients123
+ +       0.0243 * (normalized) Histogram of JPEG Coefficients124
+ +       0.0229 * (normalized) Histogram of JPEG Coefficients125
+ +       0.013  * (normalized) Histogram of JPEG Coefficients126
+ +       0.0834 * (normalized) Histogram of JPEG Coefficients127
+ +      -0.0017 * (normalized) Histogram of JPEG Coefficients128
+ +      -0.1256 * (normalized) Histogram of JPEG Coefficients129
+ +      -0.0381 * (normalized) Histogram of JPEG Coefficients130
+ +       0.0404 * (normalized) Histogram of JPEG Coefficients131
+ +       0.0096 * (normalized) Histogram of JPEG Coefficients132
+ +      -0.0537 * (normalized) Histogram of JPEG Coefficients133
+ +      -0.029  * (normalized) Histogram of JPEG Coefficients134
+ +      -0.0195 * (normalized) Histogram of JPEG Coefficients135
+ +      -0.0906 * (normalized) Histogram of JPEG Coefficients136
+ +      -0.1022 * (normalized) Histogram of JPEG Coefficients137
+ +       0.0359 * (normalized) Histogram of JPEG Coefficients138
+ +       0.0654 * (normalized) Histogram of JPEG Coefficients139
+ +       0.0131 * (normalized) Histogram of JPEG Coefficients140
+ +       0.0005 * (normalized) Histogram of JPEG Coefficients141
+ +       0.0319 * (normalized) Histogram of JPEG Coefficients142
+ +       0.0116 * (normalized) Histogram of JPEG Coefficients143
+ +      -0.0589 * (normalized) Histogram of JPEG Coefficients144
+ +       0.0088 * (normalized) Histogram of JPEG Coefficients145
+ +       0.0281 * (normalized) Histogram of JPEG Coefficients146
+ +       0.0152 * (normalized) Histogram of JPEG Coefficients147
+ +       0.0672 * (normalized) Histogram of JPEG Coefficients148
+ +       0.0671 * (normalized) Histogram of JPEG Coefficients149
+ +       0.0348 * (normalized) Histogram of JPEG Coefficients150
+ +       0.0766 * (normalized) Histogram of JPEG Coefficients151
+ +      -0.0137 * (normalized) Histogram of JPEG Coefficients152
+ +       0.0333 * (normalized) Histogram of JPEG Coefficients153
+ +       0.0316 * (normalized) Histogram of JPEG Coefficients154
+ +       0.037  * (normalized) Histogram of JPEG Coefficients155
+ +       0.0184 * (normalized) Histogram of JPEG Coefficients156
+ +       0.056  * (normalized) Histogram of JPEG Coefficients157
+ +       0.126  * (normalized) Histogram of JPEG Coefficients158
+ +       0.0705 * (normalized) Histogram of JPEG Coefficients159
+ +       0.0041 * (normalized) Histogram of JPEG Coefficients160
+ +       0.0184 * (normalized) Histogram of JPEG Coefficients161
+ +       0.0586 * (normalized) Histogram of JPEG Coefficients162
+ +       0.0396 * (normalized) Histogram of JPEG Coefficients163
+ +       0.0429 * (normalized) Histogram of JPEG Coefficients164
+ +       0.0173 * (normalized) Histogram of JPEG Coefficients165
+ +       0.021  * (normalized) Histogram of JPEG Coefficients166
+ +       0.0328 * (normalized) Histogram of JPEG Coefficients167
+ +      -0.0421 * (normalized) Histogram of JPEG Coefficients168
+ +       0.0067 * (normalized) Histogram of JPEG Coefficients169
+ +       0.0771 * (normalized) Histogram of JPEG Coefficients170
+ +       0.0224 * (normalized) Histogram of JPEG Coefficients171
+ +       0.0534 * (normalized) Histogram of JPEG Coefficients172
+ +       0.0259 * (normalized) Histogram of JPEG Coefficients173
+ +       0.0139 * (normalized) Histogram of JPEG Coefficients174
+ +       0.0205 * (normalized) Histogram of JPEG Coefficients175
+ +      -0.0307 * (normalized) Histogram of JPEG Coefficients176
+ +       0.0299 * (normalized) Histogram of JPEG Coefficients177
+ +       0.0396 * (normalized) Histogram of JPEG Coefficients178
+ +       0.0668 * (normalized) Histogram of JPEG Coefficients179
+ +       0.0214 * (normalized) Histogram of JPEG Coefficients180
+ +       0.0374 * (normalized) Histogram of JPEG Coefficients181
+ +       0.015  * (normalized) Histogram of JPEG Coefficients182
+ +       0.0216 * (normalized) Histogram of JPEG Coefficients183
+ +       0.0081 * (normalized) Histogram of JPEG Coefficients184
+ +       0.0318 * (normalized) Histogram of JPEG Coefficients185
+ +       0.0421 * (normalized) Histogram of JPEG Coefficients186
+ +       0.037  * (normalized) Histogram of JPEG Coefficients187
+ +       0.0217 * (normalized) Histogram of JPEG Coefficients188
+ +       0.0563 * (normalized) Histogram of JPEG Coefficients189
+ +       0.038  * (normalized) Histogram of JPEG Coefficients190
+ +       0.0624 * (normalized) Histogram of JPEG Coefficients191
+ -       0.835 
+
+Number of kernel evaluations: 1119 (77.311% cached)
+
+Classifier for classes: K2, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K2, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K3, K4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.4994 * (normalized) Histogram of JPEG Coefficients0
+ +       0.385  * (normalized) Histogram of JPEG Coefficients1
+ +       1.4938 * (normalized) Histogram of JPEG Coefficients2
+ +       0.9022 * (normalized) Histogram of JPEG Coefficients3
+ +      -0.0203 * (normalized) Histogram of JPEG Coefficients4
+ +      -0.1771 * (normalized) Histogram of JPEG Coefficients5
+ +       0.1031 * (normalized) Histogram of JPEG Coefficients6
+ +       0.4436 * (normalized) Histogram of JPEG Coefficients7
+ +       0.0051 * (normalized) Histogram of JPEG Coefficients8
+ +      -0.6321 * (normalized) Histogram of JPEG Coefficients9
+ +      -0.447  * (normalized) Histogram of JPEG Coefficients10
+ +       0.4648 * (normalized) Histogram of JPEG Coefficients11
+ +       0.5116 * (normalized) Histogram of JPEG Coefficients12
+ +       0.282  * (normalized) Histogram of JPEG Coefficients13
+ +       0.9594 * (normalized) Histogram of JPEG Coefficients14
+ +       0.1625 * (normalized) Histogram of JPEG Coefficients15
+ +       0.1641 * (normalized) Histogram of JPEG Coefficients16
+ +      -1.1206 * (normalized) Histogram of JPEG Coefficients17
+ +      -2.205  * (normalized) Histogram of JPEG Coefficients18
+ +      -1.1777 * (normalized) Histogram of JPEG Coefficients19
+ +      -0.3484 * (normalized) Histogram of JPEG Coefficients20
+ +       0.066  * (normalized) Histogram of JPEG Coefficients21
+ +      -0.1634 * (normalized) Histogram of JPEG Coefficients22
+ +      -0.1324 * (normalized) Histogram of JPEG Coefficients23
+ +      -0.5742 * (normalized) Histogram of JPEG Coefficients24
+ +       0.0323 * (normalized) Histogram of JPEG Coefficients25
+ +      -0.3197 * (normalized) Histogram of JPEG Coefficients26
+ +      -1.042  * (normalized) Histogram of JPEG Coefficients27
+ +      -0.2549 * (normalized) Histogram of JPEG Coefficients28
+ +      -0.4213 * (normalized) Histogram of JPEG Coefficients29
+ +      -0.2065 * (normalized) Histogram of JPEG Coefficients30
+ +       0.9072 * (normalized) Histogram of JPEG Coefficients31
+ +       0.116  * (normalized) Histogram of JPEG Coefficients32
+ +      -0.1216 * (normalized) Histogram of JPEG Coefficients33
+ +      -0.1625 * (normalized) Histogram of JPEG Coefficients34
+ +       0.371  * (normalized) Histogram of JPEG Coefficients35
+ +      -0.5414 * (normalized) Histogram of JPEG Coefficients36
+ +      -0.0783 * (normalized) Histogram of JPEG Coefficients37
+ +       0.0816 * (normalized) Histogram of JPEG Coefficients38
+ +      -0.3721 * (normalized) Histogram of JPEG Coefficients39
+ +      -0.1397 * (normalized) Histogram of JPEG Coefficients40
+ +       1.0492 * (normalized) Histogram of JPEG Coefficients41
+ +       0.6264 * (normalized) Histogram of JPEG Coefficients42
+ +       0.1845 * (normalized) Histogram of JPEG Coefficients43
+ +       0.1398 * (normalized) Histogram of JPEG Coefficients44
+ +      -0.2284 * (normalized) Histogram of JPEG Coefficients45
+ +      -0.047  * (normalized) Histogram of JPEG Coefficients46
+ +       0.1595 * (normalized) Histogram of JPEG Coefficients47
+ +      -1.1265 * (normalized) Histogram of JPEG Coefficients48
+ +      -0.021  * (normalized) Histogram of JPEG Coefficients49
+ +       0.1118 * (normalized) Histogram of JPEG Coefficients50
+ +       0.379  * (normalized) Histogram of JPEG Coefficients51
+ +       0.2572 * (normalized) Histogram of JPEG Coefficients52
+ +      -0.4372 * (normalized) Histogram of JPEG Coefficients53
+ +      -0.26   * (normalized) Histogram of JPEG Coefficients54
+ +      -0.4477 * (normalized) Histogram of JPEG Coefficients55
+ +      -0.597  * (normalized) Histogram of JPEG Coefficients56
+ +       0.3075 * (normalized) Histogram of JPEG Coefficients57
+ +       0.5329 * (normalized) Histogram of JPEG Coefficients58
+ +      -0.0901 * (normalized) Histogram of JPEG Coefficients59
+ +      -0.6048 * (normalized) Histogram of JPEG Coefficients60
+ +       0.0959 * (normalized) Histogram of JPEG Coefficients61
+ +      -0.2152 * (normalized) Histogram of JPEG Coefficients62
+ +       0.1397 * (normalized) Histogram of JPEG Coefficients63
+ +      -0.0395 * (normalized) Histogram of JPEG Coefficients64
+ +       0.0553 * (normalized) Histogram of JPEG Coefficients65
+ +       0.0877 * (normalized) Histogram of JPEG Coefficients66
+ +      -0.062  * (normalized) Histogram of JPEG Coefficients67
+ +       0.6055 * (normalized) Histogram of JPEG Coefficients68
+ +       0.3562 * (normalized) Histogram of JPEG Coefficients69
+ +       0.508  * (normalized) Histogram of JPEG Coefficients70
+ +       0.4361 * (normalized) Histogram of JPEG Coefficients71
+ +       0.059  * (normalized) Histogram of JPEG Coefficients72
+ +       0.0862 * (normalized) Histogram of JPEG Coefficients73
+ +       0.0556 * (normalized) Histogram of JPEG Coefficients74
+ +       0.0116 * (normalized) Histogram of JPEG Coefficients75
+ +      -0.2154 * (normalized) Histogram of JPEG Coefficients76
+ +       0.1318 * (normalized) Histogram of JPEG Coefficients77
+ +      -0.3331 * (normalized) Histogram of JPEG Coefficients78
+ +      -0.3844 * (normalized) Histogram of JPEG Coefficients79
+ +       0.0255 * (normalized) Histogram of JPEG Coefficients80
+ +       0.0504 * (normalized) Histogram of JPEG Coefficients81
+ +      -0.2506 * (normalized) Histogram of JPEG Coefficients82
+ +       0.3629 * (normalized) Histogram of JPEG Coefficients83
+ +       0.3876 * (normalized) Histogram of JPEG Coefficients84
+ +      -0.2983 * (normalized) Histogram of JPEG Coefficients85
+ +       0.16   * (normalized) Histogram of JPEG Coefficients86
+ +       0.3109 * (normalized) Histogram of JPEG Coefficients87
+ +       0.0727 * (normalized) Histogram of JPEG Coefficients88
+ +       0.2162 * (normalized) Histogram of JPEG Coefficients89
+ +      -0.3061 * (normalized) Histogram of JPEG Coefficients90
+ +       0.1337 * (normalized) Histogram of JPEG Coefficients91
+ +       0.0027 * (normalized) Histogram of JPEG Coefficients92
+ +       0.1578 * (normalized) Histogram of JPEG Coefficients93
+ +       0.2302 * (normalized) Histogram of JPEG Coefficients94
+ +      -0.2651 * (normalized) Histogram of JPEG Coefficients95
+ +      -0.1942 * (normalized) Histogram of JPEG Coefficients96
+ +      -0.0905 * (normalized) Histogram of JPEG Coefficients97
+ +       0.0277 * (normalized) Histogram of JPEG Coefficients98
+ +      -0.4604 * (normalized) Histogram of JPEG Coefficients99
+ +      -0.3532 * (normalized) Histogram of JPEG Coefficients100
+ +       0.4458 * (normalized) Histogram of JPEG Coefficients101
+ +       0.6169 * (normalized) Histogram of JPEG Coefficients102
+ +      -0.2184 * (normalized) Histogram of JPEG Coefficients103
+ +      -0.1169 * (normalized) Histogram of JPEG Coefficients104
+ +       0.1825 * (normalized) Histogram of JPEG Coefficients105
+ +       0.451  * (normalized) Histogram of JPEG Coefficients106
+ +       0.3584 * (normalized) Histogram of JPEG Coefficients107
+ +      -0.3905 * (normalized) Histogram of JPEG Coefficients108
+ +       0.4511 * (normalized) Histogram of JPEG Coefficients109
+ +      -0.6961 * (normalized) Histogram of JPEG Coefficients110
+ +       0.2237 * (normalized) Histogram of JPEG Coefficients111
+ +      -0.102  * (normalized) Histogram of JPEG Coefficients112
+ +      -0.5621 * (normalized) Histogram of JPEG Coefficients113
+ +      -0.1234 * (normalized) Histogram of JPEG Coefficients114
+ +      -0.2639 * (normalized) Histogram of JPEG Coefficients115
+ +       0.1121 * (normalized) Histogram of JPEG Coefficients116
+ +      -0.2215 * (normalized) Histogram of JPEG Coefficients117
+ +       0.7032 * (normalized) Histogram of JPEG Coefficients118
+ +       0.42   * (normalized) Histogram of JPEG Coefficients119
+ +      -0.4353 * (normalized) Histogram of JPEG Coefficients120
+ +       0.1492 * (normalized) Histogram of JPEG Coefficients121
+ +      -0.7319 * (normalized) Histogram of JPEG Coefficients122
+ +       0.4046 * (normalized) Histogram of JPEG Coefficients123
+ +       0.0984 * (normalized) Histogram of JPEG Coefficients124
+ +       0.3446 * (normalized) Histogram of JPEG Coefficients125
+ +      -0.3333 * (normalized) Histogram of JPEG Coefficients126
+ +      -0.2888 * (normalized) Histogram of JPEG Coefficients127
+ +      -0.2213 * (normalized) Histogram of JPEG Coefficients128
+ +      -0.1031 * (normalized) Histogram of JPEG Coefficients129
+ +       0.1967 * (normalized) Histogram of JPEG Coefficients130
+ +      -0.0069 * (normalized) Histogram of JPEG Coefficients131
+ +      -1.1041 * (normalized) Histogram of JPEG Coefficients132
+ +       0.5042 * (normalized) Histogram of JPEG Coefficients133
+ +       0.6003 * (normalized) Histogram of JPEG Coefficients134
+ +       0.7845 * (normalized) Histogram of JPEG Coefficients135
+ +      -0.0283 * (normalized) Histogram of JPEG Coefficients136
+ +       0.0009 * (normalized) Histogram of JPEG Coefficients137
+ +       0.0338 * (normalized) Histogram of JPEG Coefficients138
+ +      -0.3005 * (normalized) Histogram of JPEG Coefficients139
+ +       0.209  * (normalized) Histogram of JPEG Coefficients140
+ +      -0.2199 * (normalized) Histogram of JPEG Coefficients141
+ +       0.3398 * (normalized) Histogram of JPEG Coefficients142
+ +      -0.2576 * (normalized) Histogram of JPEG Coefficients143
+ +      -0.0496 * (normalized) Histogram of JPEG Coefficients144
+ +       0.0704 * (normalized) Histogram of JPEG Coefficients145
+ +       0.3309 * (normalized) Histogram of JPEG Coefficients146
+ +      -0.3314 * (normalized) Histogram of JPEG Coefficients147
+ +       0.1785 * (normalized) Histogram of JPEG Coefficients148
+ +      -0.6203 * (normalized) Histogram of JPEG Coefficients149
+ +      -0.2887 * (normalized) Histogram of JPEG Coefficients150
+ +       0.6376 * (normalized) Histogram of JPEG Coefficients151
+ +       0.1464 * (normalized) Histogram of JPEG Coefficients152
+ +       0.7938 * (normalized) Histogram of JPEG Coefficients153
+ +      -0.3498 * (normalized) Histogram of JPEG Coefficients154
+ +      -0.1176 * (normalized) Histogram of JPEG Coefficients155
+ +      -0.5783 * (normalized) Histogram of JPEG Coefficients156
+ +      -0.1951 * (normalized) Histogram of JPEG Coefficients157
+ +       0.7172 * (normalized) Histogram of JPEG Coefficients158
+ +       0.0345 * (normalized) Histogram of JPEG Coefficients159
+ +      -0.4564 * (normalized) Histogram of JPEG Coefficients160
+ +       0.5121 * (normalized) Histogram of JPEG Coefficients161
+ +      -0.2836 * (normalized) Histogram of JPEG Coefficients162
+ +      -0.3074 * (normalized) Histogram of JPEG Coefficients163
+ +       0.0363 * (normalized) Histogram of JPEG Coefficients164
+ +      -0.3817 * (normalized) Histogram of JPEG Coefficients165
+ +       0.5101 * (normalized) Histogram of JPEG Coefficients166
+ +       0.4095 * (normalized) Histogram of JPEG Coefficients167
+ +      -0.2354 * (normalized) Histogram of JPEG Coefficients168
+ +       0.1346 * (normalized) Histogram of JPEG Coefficients169
+ +      -0.126  * (normalized) Histogram of JPEG Coefficients170
+ +      -0.15   * (normalized) Histogram of JPEG Coefficients171
+ +      -0.0753 * (normalized) Histogram of JPEG Coefficients172
+ +      -0.4215 * (normalized) Histogram of JPEG Coefficients173
+ +       0.297  * (normalized) Histogram of JPEG Coefficients174
+ +      -0.0786 * (normalized) Histogram of JPEG Coefficients175
+ +       0.0273 * (normalized) Histogram of JPEG Coefficients176
+ +      -0.237  * (normalized) Histogram of JPEG Coefficients177
+ +      -0.0466 * (normalized) Histogram of JPEG Coefficients178
+ +      -0.1618 * (normalized) Histogram of JPEG Coefficients179
+ +       0.3824 * (normalized) Histogram of JPEG Coefficients180
+ +      -0.4586 * (normalized) Histogram of JPEG Coefficients181
+ +      -0.1732 * (normalized) Histogram of JPEG Coefficients182
+ +      -0.5978 * (normalized) Histogram of JPEG Coefficients183
+ +      -0.0966 * (normalized) Histogram of JPEG Coefficients184
+ +      -0.0137 * (normalized) Histogram of JPEG Coefficients185
+ +      -0.3137 * (normalized) Histogram of JPEG Coefficients186
+ +      -0.6796 * (normalized) Histogram of JPEG Coefficients187
+ +      -0.1642 * (normalized) Histogram of JPEG Coefficients188
+ +       0.1269 * (normalized) Histogram of JPEG Coefficients189
+ +      -0.0255 * (normalized) Histogram of JPEG Coefficients190
+ +       0.1051 * (normalized) Histogram of JPEG Coefficients191
+ +       0.1582
+
+Number of kernel evaluations: 7658 (90.24% cached)
+
+Classifier for classes: K3, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.4539 * (normalized) Histogram of JPEG Coefficients0
+ +      -0.313  * (normalized) Histogram of JPEG Coefficients1
+ +      -0.2022 * (normalized) Histogram of JPEG Coefficients2
+ +       0.1941 * (normalized) Histogram of JPEG Coefficients3
+ +       0.0956 * (normalized) Histogram of JPEG Coefficients4
+ +       0.1391 * (normalized) Histogram of JPEG Coefficients5
+ +       0.0452 * (normalized) Histogram of JPEG Coefficients6
+ +      -0.0215 * (normalized) Histogram of JPEG Coefficients7
+ +      -0.0945 * (normalized) Histogram of JPEG Coefficients8
+ +      -0.2229 * (normalized) Histogram of JPEG Coefficients9
+ +      -0.1189 * (normalized) Histogram of JPEG Coefficients10
+ +       0.0764 * (normalized) Histogram of JPEG Coefficients11
+ +       0.0879 * (normalized) Histogram of JPEG Coefficients12
+ +       0.2008 * (normalized) Histogram of JPEG Coefficients13
+ +       0.2441 * (normalized) Histogram of JPEG Coefficients14
+ +       0.2046 * (normalized) Histogram of JPEG Coefficients15
+ +      -0.1045 * (normalized) Histogram of JPEG Coefficients16
+ +      -0.0331 * (normalized) Histogram of JPEG Coefficients17
+ +       0.0093 * (normalized) Histogram of JPEG Coefficients18
+ +       0.1082 * (normalized) Histogram of JPEG Coefficients19
+ +       0.088  * (normalized) Histogram of JPEG Coefficients20
+ +       0.2333 * (normalized) Histogram of JPEG Coefficients21
+ +       0.0714 * (normalized) Histogram of JPEG Coefficients22
+ +       0.2104 * (normalized) Histogram of JPEG Coefficients23
+ +      -0.1023 * (normalized) Histogram of JPEG Coefficients24
+ +      -0.1111 * (normalized) Histogram of JPEG Coefficients25
+ +      -0.0566 * (normalized) Histogram of JPEG Coefficients26
+ +      -0.0284 * (normalized) Histogram of JPEG Coefficients27
+ +       0.262  * (normalized) Histogram of JPEG Coefficients28
+ +       0.1375 * (normalized) Histogram of JPEG Coefficients29
+ +       0.1576 * (normalized) Histogram of JPEG Coefficients30
+ +      -0.0358 * (normalized) Histogram of JPEG Coefficients31
+ +      -0.0547 * (normalized) Histogram of JPEG Coefficients32
+ +       0.1909 * (normalized) Histogram of JPEG Coefficients33
+ +      -0.0252 * (normalized) Histogram of JPEG Coefficients34
+ +       0.1522 * (normalized) Histogram of JPEG Coefficients35
+ +       0.2262 * (normalized) Histogram of JPEG Coefficients36
+ +       0.1962 * (normalized) Histogram of JPEG Coefficients37
+ +       0.081  * (normalized) Histogram of JPEG Coefficients38
+ +      -0.0037 * (normalized) Histogram of JPEG Coefficients39
+ +       0.124  * (normalized) Histogram of JPEG Coefficients40
+ +       0.2668 * (normalized) Histogram of JPEG Coefficients41
+ +       0.3294 * (normalized) Histogram of JPEG Coefficients42
+ +       0.0506 * (normalized) Histogram of JPEG Coefficients43
+ +       0.0495 * (normalized) Histogram of JPEG Coefficients44
+ +       0.0477 * (normalized) Histogram of JPEG Coefficients45
+ +       0.0952 * (normalized) Histogram of JPEG Coefficients46
+ +      -0.1188 * (normalized) Histogram of JPEG Coefficients47
+ +       0.1137 * (normalized) Histogram of JPEG Coefficients48
+ +       0.1367 * (normalized) Histogram of JPEG Coefficients49
+ +      -0.0181 * (normalized) Histogram of JPEG Coefficients50
+ +       0.0377 * (normalized) Histogram of JPEG Coefficients51
+ +       0.0297 * (normalized) Histogram of JPEG Coefficients52
+ +      -0.0064 * (normalized) Histogram of JPEG Coefficients53
+ +       0.0372 * (normalized) Histogram of JPEG Coefficients54
+ +      -0.0405 * (normalized) Histogram of JPEG Coefficients55
+ +       0.0302 * (normalized) Histogram of JPEG Coefficients56
+ +       0.0242 * (normalized) Histogram of JPEG Coefficients57
+ +       0.0343 * (normalized) Histogram of JPEG Coefficients58
+ +      -0.0943 * (normalized) Histogram of JPEG Coefficients59
+ +      -0.1134 * (normalized) Histogram of JPEG Coefficients60
+ +      -0.0366 * (normalized) Histogram of JPEG Coefficients61
+ +       0.0254 * (normalized) Histogram of JPEG Coefficients62
+ +       0.0621 * (normalized) Histogram of JPEG Coefficients63
+ +      -0.4338 * (normalized) Histogram of JPEG Coefficients64
+ +      -0.1976 * (normalized) Histogram of JPEG Coefficients65
+ +      -0.0898 * (normalized) Histogram of JPEG Coefficients66
+ +      -0.0758 * (normalized) Histogram of JPEG Coefficients67
+ +       0.1423 * (normalized) Histogram of JPEG Coefficients68
+ +       0.1532 * (normalized) Histogram of JPEG Coefficients69
+ +       0.0927 * (normalized) Histogram of JPEG Coefficients70
+ +       0.1642 * (normalized) Histogram of JPEG Coefficients71
+ +       0.0224 * (normalized) Histogram of JPEG Coefficients72
+ +       0.128  * (normalized) Histogram of JPEG Coefficients73
+ +       0.1148 * (normalized) Histogram of JPEG Coefficients74
+ +      -0.0672 * (normalized) Histogram of JPEG Coefficients75
+ +       0.069  * (normalized) Histogram of JPEG Coefficients76
+ +       0.1027 * (normalized) Histogram of JPEG Coefficients77
+ +       0.1971 * (normalized) Histogram of JPEG Coefficients78
+ +       0.1039 * (normalized) Histogram of JPEG Coefficients79
+ +       0.0248 * (normalized) Histogram of JPEG Coefficients80
+ +       0.1833 * (normalized) Histogram of JPEG Coefficients81
+ +       0.0318 * (normalized) Histogram of JPEG Coefficients82
+ +       0.1123 * (normalized) Histogram of JPEG Coefficients83
+ +      -0.0286 * (normalized) Histogram of JPEG Coefficients84
+ +      -0.1321 * (normalized) Histogram of JPEG Coefficients85
+ +       0.041  * (normalized) Histogram of JPEG Coefficients86
+ +      -0.0751 * (normalized) Histogram of JPEG Coefficients87
+ +       0.0985 * (normalized) Histogram of JPEG Coefficients88
+ +       0.1338 * (normalized) Histogram of JPEG Coefficients89
+ +       0.0621 * (normalized) Histogram of JPEG Coefficients90
+ +       0.1382 * (normalized) Histogram of JPEG Coefficients91
+ +       0.0207 * (normalized) Histogram of JPEG Coefficients92
+ +       0.0429 * (normalized) Histogram of JPEG Coefficients93
+ +       0.0937 * (normalized) Histogram of JPEG Coefficients94
+ +       0.0519 * (normalized) Histogram of JPEG Coefficients95
+ +       0.1942 * (normalized) Histogram of JPEG Coefficients96
+ +       0.0138 * (normalized) Histogram of JPEG Coefficients97
+ +       0.0682 * (normalized) Histogram of JPEG Coefficients98
+ +      -0.0219 * (normalized) Histogram of JPEG Coefficients99
+ +       0.1589 * (normalized) Histogram of JPEG Coefficients100
+ +       0.0431 * (normalized) Histogram of JPEG Coefficients101
+ +      -0.0239 * (normalized) Histogram of JPEG Coefficients102
+ +      -0.0497 * (normalized) Histogram of JPEG Coefficients103
+ +       0.0409 * (normalized) Histogram of JPEG Coefficients104
+ +       0.1212 * (normalized) Histogram of JPEG Coefficients105
+ +      -0.0073 * (normalized) Histogram of JPEG Coefficients106
+ +      -0.1578 * (normalized) Histogram of JPEG Coefficients107
+ +      -0.1499 * (normalized) Histogram of JPEG Coefficients108
+ +      -0.0029 * (normalized) Histogram of JPEG Coefficients109
+ +       0.0655 * (normalized) Histogram of JPEG Coefficients110
+ +       0.0774 * (normalized) Histogram of JPEG Coefficients111
+ +       0.04   * (normalized) Histogram of JPEG Coefficients112
+ +      -0.106  * (normalized) Histogram of JPEG Coefficients113
+ +      -0.1193 * (normalized) Histogram of JPEG Coefficients114
+ +       0.0233 * (normalized) Histogram of JPEG Coefficients115
+ +      -0.1373 * (normalized) Histogram of JPEG Coefficients116
+ +      -0.1728 * (normalized) Histogram of JPEG Coefficients117
+ +       0.0084 * (normalized) Histogram of JPEG Coefficients118
+ +       0.0721 * (normalized) Histogram of JPEG Coefficients119
+ +       0.0531 * (normalized) Histogram of JPEG Coefficients120
+ +       0.0348 * (normalized) Histogram of JPEG Coefficients121
+ +      -0.0401 * (normalized) Histogram of JPEG Coefficients122
+ +      -0.0736 * (normalized) Histogram of JPEG Coefficients123
+ +      -0.1479 * (normalized) Histogram of JPEG Coefficients124
+ +       0.0722 * (normalized) Histogram of JPEG Coefficients125
+ +       0.0934 * (normalized) Histogram of JPEG Coefficients126
+ +       0.128  * (normalized) Histogram of JPEG Coefficients127
+ +      -0.3949 * (normalized) Histogram of JPEG Coefficients128
+ +      -0.1866 * (normalized) Histogram of JPEG Coefficients129
+ +      -0.0855 * (normalized) Histogram of JPEG Coefficients130
+ +      -0.0255 * (normalized) Histogram of JPEG Coefficients131
+ +       0.0621 * (normalized) Histogram of JPEG Coefficients132
+ +       0.0833 * (normalized) Histogram of JPEG Coefficients133
+ +       0.0752 * (normalized) Histogram of JPEG Coefficients134
+ +       0.107  * (normalized) Histogram of JPEG Coefficients135
+ +       0.0036 * (normalized) Histogram of JPEG Coefficients136
+ +       0.1234 * (normalized) Histogram of JPEG Coefficients137
+ +       0.1755 * (normalized) Histogram of JPEG Coefficients138
+ +       0.0818 * (normalized) Histogram of JPEG Coefficients139
+ +       0.1448 * (normalized) Histogram of JPEG Coefficients140
+ +      -0.0466 * (normalized) Histogram of JPEG Coefficients141
+ +       0.0872 * (normalized) Histogram of JPEG Coefficients142
+ +       0.0568 * (normalized) Histogram of JPEG Coefficients143
+ +       0.0276 * (normalized) Histogram of JPEG Coefficients144
+ +       0.1206 * (normalized) Histogram of JPEG Coefficients145
+ +       0.1393 * (normalized) Histogram of JPEG Coefficients146
+ +       0.0958 * (normalized) Histogram of JPEG Coefficients147
+ +       0.0062 * (normalized) Histogram of JPEG Coefficients148
+ +      -0.0554 * (normalized) Histogram of JPEG Coefficients149
+ +      -0.0741 * (normalized) Histogram of JPEG Coefficients150
+ +      -0.04   * (normalized) Histogram of JPEG Coefficients151
+ +       0.0348 * (normalized) Histogram of JPEG Coefficients152
+ +       0.161  * (normalized) Histogram of JPEG Coefficients153
+ +       0.2212 * (normalized) Histogram of JPEG Coefficients154
+ +       0.0633 * (normalized) Histogram of JPEG Coefficients155
+ +       0.0695 * (normalized) Histogram of JPEG Coefficients156
+ +       0.0962 * (normalized) Histogram of JPEG Coefficients157
+ +       0.1192 * (normalized) Histogram of JPEG Coefficients158
+ +      -0.0903 * (normalized) Histogram of JPEG Coefficients159
+ +       0.15   * (normalized) Histogram of JPEG Coefficients160
+ +       0.2327 * (normalized) Histogram of JPEG Coefficients161
+ +       0.1561 * (normalized) Histogram of JPEG Coefficients162
+ +      -0.1741 * (normalized) Histogram of JPEG Coefficients163
+ +       0.033  * (normalized) Histogram of JPEG Coefficients164
+ +       0.0063 * (normalized) Histogram of JPEG Coefficients165
+ +       0.1468 * (normalized) Histogram of JPEG Coefficients166
+ +       0.0954 * (normalized) Histogram of JPEG Coefficients167
+ +       0.042  * (normalized) Histogram of JPEG Coefficients168
+ +      -0.1123 * (normalized) Histogram of JPEG Coefficients169
+ +       0.0001 * (normalized) Histogram of JPEG Coefficients170
+ +       0.0123 * (normalized) Histogram of JPEG Coefficients171
+ +       0.0122 * (normalized) Histogram of JPEG Coefficients172
+ +       0.0581 * (normalized) Histogram of JPEG Coefficients173
+ +      -0.0161 * (normalized) Histogram of JPEG Coefficients174
+ +      -0.0159 * (normalized) Histogram of JPEG Coefficients175
+ +       0.1349 * (normalized) Histogram of JPEG Coefficients176
+ +       0.0028 * (normalized) Histogram of JPEG Coefficients177
+ +       0.1454 * (normalized) Histogram of JPEG Coefficients178
+ +       0.0002 * (normalized) Histogram of JPEG Coefficients179
+ +       0.0162 * (normalized) Histogram of JPEG Coefficients180
+ +       0.008  * (normalized) Histogram of JPEG Coefficients181
+ +       0.1466 * (normalized) Histogram of JPEG Coefficients182
+ +      -0.0056 * (normalized) Histogram of JPEG Coefficients183
+ +       0.0609 * (normalized) Histogram of JPEG Coefficients184
+ +      -0.1009 * (normalized) Histogram of JPEG Coefficients185
+ +      -0.2226 * (normalized) Histogram of JPEG Coefficients186
+ +      -0.1567 * (normalized) Histogram of JPEG Coefficients187
+ +      -0.1065 * (normalized) Histogram of JPEG Coefficients188
+ +      -0.1445 * (normalized) Histogram of JPEG Coefficients189
+ +       0.0345 * (normalized) Histogram of JPEG Coefficients190
+ +       0.1356 * (normalized) Histogram of JPEG Coefficients191
+ -       2.0264
+
+Number of kernel evaluations: 3986 (87.762% cached)
+
+Classifier for classes: K3, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3476 * (normalized) Histogram of JPEG Coefficients0
+ +      -0.2522 * (normalized) Histogram of JPEG Coefficients1
+ +      -0.1596 * (normalized) Histogram of JPEG Coefficients2
+ +      -0.0367 * (normalized) Histogram of JPEG Coefficients3
+ +       0.1951 * (normalized) Histogram of JPEG Coefficients4
+ +       0.1855 * (normalized) Histogram of JPEG Coefficients5
+ +       0.1393 * (normalized) Histogram of JPEG Coefficients6
+ +       0.2793 * (normalized) Histogram of JPEG Coefficients7
+ +      -0.019  * (normalized) Histogram of JPEG Coefficients8
+ +      -0.0568 * (normalized) Histogram of JPEG Coefficients9
+ +      -0.1025 * (normalized) Histogram of JPEG Coefficients10
+ +      -0.0113 * (normalized) Histogram of JPEG Coefficients11
+ +       0.0922 * (normalized) Histogram of JPEG Coefficients12
+ +       0.0978 * (normalized) Histogram of JPEG Coefficients13
+ +       0.2387 * (normalized) Histogram of JPEG Coefficients14
+ +       0.3503 * (normalized) Histogram of JPEG Coefficients15
+ +       0.0179 * (normalized) Histogram of JPEG Coefficients16
+ +       0.0195 * (normalized) Histogram of JPEG Coefficients17
+ +      -0.0953 * (normalized) Histogram of JPEG Coefficients18
+ +       0.0405 * (normalized) Histogram of JPEG Coefficients19
+ +       0.0306 * (normalized) Histogram of JPEG Coefficients20
+ +       0.1237 * (normalized) Histogram of JPEG Coefficients21
+ +       0.1379 * (normalized) Histogram of JPEG Coefficients22
+ +       0.1451 * (normalized) Histogram of JPEG Coefficients23
+ +      -0.0482 * (normalized) Histogram of JPEG Coefficients24
+ +      -0.0922 * (normalized) Histogram of JPEG Coefficients25
+ +      -0.0345 * (normalized) Histogram of JPEG Coefficients26
+ +      -0.023  * (normalized) Histogram of JPEG Coefficients27
+ +       0.0746 * (normalized) Histogram of JPEG Coefficients28
+ +       0.1101 * (normalized) Histogram of JPEG Coefficients29
+ +       0.1116 * (normalized) Histogram of JPEG Coefficients30
+ +       0.143  * (normalized) Histogram of JPEG Coefficients31
+ +       0.0516 * (normalized) Histogram of JPEG Coefficients32
+ +       0.0934 * (normalized) Histogram of JPEG Coefficients33
+ +       0.0566 * (normalized) Histogram of JPEG Coefficients34
+ +       0.023  * (normalized) Histogram of JPEG Coefficients35
+ +       0.025  * (normalized) Histogram of JPEG Coefficients36
+ +       0.0776 * (normalized) Histogram of JPEG Coefficients37
+ +       0.1432 * (normalized) Histogram of JPEG Coefficients38
+ +       0.0958 * (normalized) Histogram of JPEG Coefficients39
+ +       0.0754 * (normalized) Histogram of JPEG Coefficients40
+ +       0.0895 * (normalized) Histogram of JPEG Coefficients41
+ +       0.0095 * (normalized) Histogram of JPEG Coefficients42
+ +       0.0183 * (normalized) Histogram of JPEG Coefficients43
+ +       0.0629 * (normalized) Histogram of JPEG Coefficients44
+ +       0.0054 * (normalized) Histogram of JPEG Coefficients45
+ +      -0.0064 * (normalized) Histogram of JPEG Coefficients46
+ +       0.0583 * (normalized) Histogram of JPEG Coefficients47
+ +       0.033  * (normalized) Histogram of JPEG Coefficients48
+ +       0.1018 * (normalized) Histogram of JPEG Coefficients49
+ +       0.0891 * (normalized) Histogram of JPEG Coefficients50
+ +      -0.0298 * (normalized) Histogram of JPEG Coefficients51
+ +       0.0951 * (normalized) Histogram of JPEG Coefficients52
+ +      -0.0056 * (normalized) Histogram of JPEG Coefficients53
+ +       0.0217 * (normalized) Histogram of JPEG Coefficients54
+ +       0.0028 * (normalized) Histogram of JPEG Coefficients55
+ +       0.0656 * (normalized) Histogram of JPEG Coefficients56
+ +       0.148  * (normalized) Histogram of JPEG Coefficients57
+ +       0.1448 * (normalized) Histogram of JPEG Coefficients58
+ +       0.0353 * (normalized) Histogram of JPEG Coefficients59
+ +       0.099  * (normalized) Histogram of JPEG Coefficients60
+ +      -0.0602 * (normalized) Histogram of JPEG Coefficients61
+ +       0.0585 * (normalized) Histogram of JPEG Coefficients62
+ +      -0.0015 * (normalized) Histogram of JPEG Coefficients63
+ +      -0.3507 * (normalized) Histogram of JPEG Coefficients64
+ +      -0.1748 * (normalized) Histogram of JPEG Coefficients65
+ +      -0.1014 * (normalized) Histogram of JPEG Coefficients66
+ +      -0.0097 * (normalized) Histogram of JPEG Coefficients67
+ +       0.0622 * (normalized) Histogram of JPEG Coefficients68
+ +       0.0135 * (normalized) Histogram of JPEG Coefficients69
+ +       0.0559 * (normalized) Histogram of JPEG Coefficients70
+ +       0.1125 * (normalized) Histogram of JPEG Coefficients71
+ +       0.0036 * (normalized) Histogram of JPEG Coefficients72
+ +       0.0099 * (normalized) Histogram of JPEG Coefficients73
+ +       0.0286 * (normalized) Histogram of JPEG Coefficients74
+ +      -0.0246 * (normalized) Histogram of JPEG Coefficients75
+ +       0.0678 * (normalized) Histogram of JPEG Coefficients76
+ +       0.008  * (normalized) Histogram of JPEG Coefficients77
+ +       0.0951 * (normalized) Histogram of JPEG Coefficients78
+ +       0.0439 * (normalized) Histogram of JPEG Coefficients79
+ +       0.0235 * (normalized) Histogram of JPEG Coefficients80
+ +       0.0439 * (normalized) Histogram of JPEG Coefficients81
+ +      -0.0332 * (normalized) Histogram of JPEG Coefficients82
+ +       0.0696 * (normalized) Histogram of JPEG Coefficients83
+ +       0.0571 * (normalized) Histogram of JPEG Coefficients84
+ +       0.0481 * (normalized) Histogram of JPEG Coefficients85
+ +       0.0806 * (normalized) Histogram of JPEG Coefficients86
+ +       0.0736 * (normalized) Histogram of JPEG Coefficients87
+ +       0.057  * (normalized) Histogram of JPEG Coefficients88
+ +       0.0473 * (normalized) Histogram of JPEG Coefficients89
+ +       0.0606 * (normalized) Histogram of JPEG Coefficients90
+ +       0.0412 * (normalized) Histogram of JPEG Coefficients91
+ +       0.0837 * (normalized) Histogram of JPEG Coefficients92
+ +       0.0383 * (normalized) Histogram of JPEG Coefficients93
+ +      -0.0302 * (normalized) Histogram of JPEG Coefficients94
+ +       0.0699 * (normalized) Histogram of JPEG Coefficients95
+ +       0.1238 * (normalized) Histogram of JPEG Coefficients96
+ +       0.1641 * (normalized) Histogram of JPEG Coefficients97
+ +       0.141  * (normalized) Histogram of JPEG Coefficients98
+ +       0.0711 * (normalized) Histogram of JPEG Coefficients99
+ +       0.0502 * (normalized) Histogram of JPEG Coefficients100
+ +      -0.0057 * (normalized) Histogram of JPEG Coefficients101
+ +      -0.0429 * (normalized) Histogram of JPEG Coefficients102
+ +       0.0373 * (normalized) Histogram of JPEG Coefficients103
+ +       0.0433 * (normalized) Histogram of JPEG Coefficients104
+ +       0.096  * (normalized) Histogram of JPEG Coefficients105
+ +       0.0244 * (normalized) Histogram of JPEG Coefficients106
+ +      -0.0802 * (normalized) Histogram of JPEG Coefficients107
+ +      -0.0698 * (normalized) Histogram of JPEG Coefficients108
+ +      -0.0201 * (normalized) Histogram of JPEG Coefficients109
+ +      -0.021  * (normalized) Histogram of JPEG Coefficients110
+ +       0.0754 * (normalized) Histogram of JPEG Coefficients111
+ +       0.0487 * (normalized) Histogram of JPEG Coefficients112
+ +       0.0235 * (normalized) Histogram of JPEG Coefficients113
+ +       0.0031 * (normalized) Histogram of JPEG Coefficients114
+ +       0.0506 * (normalized) Histogram of JPEG Coefficients115
+ +      -0.0019 * (normalized) Histogram of JPEG Coefficients116
+ +      -0.0151 * (normalized) Histogram of JPEG Coefficients117
+ +      -0.0065 * (normalized) Histogram of JPEG Coefficients118
+ +       0.0736 * (normalized) Histogram of JPEG Coefficients119
+ +      -0.0171 * (normalized) Histogram of JPEG Coefficients120
+ +       0.0349 * (normalized) Histogram of JPEG Coefficients121
+ +       0.0162 * (normalized) Histogram of JPEG Coefficients122
+ +       0.0248 * (normalized) Histogram of JPEG Coefficients123
+ +      -0.0404 * (normalized) Histogram of JPEG Coefficients124
+ +      -0.0397 * (normalized) Histogram of JPEG Coefficients125
+ +       0.0218 * (normalized) Histogram of JPEG Coefficients126
+ +       0.053  * (normalized) Histogram of JPEG Coefficients127
+ +      -0.3259 * (normalized) Histogram of JPEG Coefficients128
+ +      -0.1607 * (normalized) Histogram of JPEG Coefficients129
+ +      -0.0784 * (normalized) Histogram of JPEG Coefficients130
+ +      -0.0215 * (normalized) Histogram of JPEG Coefficients131
+ +      -0.023  * (normalized) Histogram of JPEG Coefficients132
+ +      -0.0277 * (normalized) Histogram of JPEG Coefficients133
+ +       0.0393 * (normalized) Histogram of JPEG Coefficients134
+ +       0.0329 * (normalized) Histogram of JPEG Coefficients135
+ +      -0.0032 * (normalized) Histogram of JPEG Coefficients136
+ +       0.0193 * (normalized) Histogram of JPEG Coefficients137
+ +       0.0545 * (normalized) Histogram of JPEG Coefficients138
+ +       0.1179 * (normalized) Histogram of JPEG Coefficients139
+ +       0.0342 * (normalized) Histogram of JPEG Coefficients140
+ +       0.0065 * (normalized) Histogram of JPEG Coefficients141
+ +       0.0362 * (normalized) Histogram of JPEG Coefficients142
+ +      -0.0485 * (normalized) Histogram of JPEG Coefficients143
+ +       0.0319 * (normalized) Histogram of JPEG Coefficients144
+ +       0.0537 * (normalized) Histogram of JPEG Coefficients145
+ +       0.038  * (normalized) Histogram of JPEG Coefficients146
+ +       0.0284 * (normalized) Histogram of JPEG Coefficients147
+ +       0.0747 * (normalized) Histogram of JPEG Coefficients148
+ +       0.0735 * (normalized) Histogram of JPEG Coefficients149
+ +       0.0333 * (normalized) Histogram of JPEG Coefficients150
+ +      -0.0071 * (normalized) Histogram of JPEG Coefficients151
+ +       0.0206 * (normalized) Histogram of JPEG Coefficients152
+ +       0.0986 * (normalized) Histogram of JPEG Coefficients153
+ +       0.0472 * (normalized) Histogram of JPEG Coefficients154
+ +       0.0509 * (normalized) Histogram of JPEG Coefficients155
+ +       0.0158 * (normalized) Histogram of JPEG Coefficients156
+ +       0.0359 * (normalized) Histogram of JPEG Coefficients157
+ +       0.114  * (normalized) Histogram of JPEG Coefficients158
+ +       0.0747 * (normalized) Histogram of JPEG Coefficients159
+ +       0.0516 * (normalized) Histogram of JPEG Coefficients160
+ +       0.1189 * (normalized) Histogram of JPEG Coefficients161
+ +       0.0633 * (normalized) Histogram of JPEG Coefficients162
+ +       0.0313 * (normalized) Histogram of JPEG Coefficients163
+ +       0.1381 * (normalized) Histogram of JPEG Coefficients164
+ +       0.0045 * (normalized) Histogram of JPEG Coefficients165
+ +       0.0392 * (normalized) Histogram of JPEG Coefficients166
+ +      -0.0018 * (normalized) Histogram of JPEG Coefficients167
+ +       0.0133 * (normalized) Histogram of JPEG Coefficients168
+ +       0.046  * (normalized) Histogram of JPEG Coefficients169
+ +       0.0483 * (normalized) Histogram of JPEG Coefficients170
+ +       0.035  * (normalized) Histogram of JPEG Coefficients171
+ +       0.0379 * (normalized) Histogram of JPEG Coefficients172
+ +      -0.1109 * (normalized) Histogram of JPEG Coefficients173
+ +       0.0201 * (normalized) Histogram of JPEG Coefficients174
+ +      -0.0684 * (normalized) Histogram of JPEG Coefficients175
+ +       0.0729 * (normalized) Histogram of JPEG Coefficients176
+ +       0.1138 * (normalized) Histogram of JPEG Coefficients177
+ +       0.0734 * (normalized) Histogram of JPEG Coefficients178
+ +       0.1227 * (normalized) Histogram of JPEG Coefficients179
+ +       0.0161 * (normalized) Histogram of JPEG Coefficients180
+ +       0.0263 * (normalized) Histogram of JPEG Coefficients181
+ +       0.0376 * (normalized) Histogram of JPEG Coefficients182
+ +       0.0822 * (normalized) Histogram of JPEG Coefficients183
+ +       0.0805 * (normalized) Histogram of JPEG Coefficients184
+ +       0.08   * (normalized) Histogram of JPEG Coefficients185
+ +      -0.0721 * (normalized) Histogram of JPEG Coefficients186
+ +      -0.0552 * (normalized) Histogram of JPEG Coefficients187
+ +       0.0512 * (normalized) Histogram of JPEG Coefficients188
+ +      -0.052  * (normalized) Histogram of JPEG Coefficients189
+ +      -0.0139 * (normalized) Histogram of JPEG Coefficients190
+ +       0.0278 * (normalized) Histogram of JPEG Coefficients191
+ -       2.3481
+
+Number of kernel evaluations: 2012 (83.394% cached)
+
+Classifier for classes: K3, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K3, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K4, K5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.4048 * (normalized) Histogram of JPEG Coefficients0
+ +      -0.2893 * (normalized) Histogram of JPEG Coefficients1
+ +      -0.2497 * (normalized) Histogram of JPEG Coefficients2
+ +      -0.0052 * (normalized) Histogram of JPEG Coefficients3
+ +       0.0089 * (normalized) Histogram of JPEG Coefficients4
+ +       0.0457 * (normalized) Histogram of JPEG Coefficients5
+ +       0.132  * (normalized) Histogram of JPEG Coefficients6
+ +      -0.1124 * (normalized) Histogram of JPEG Coefficients7
+ +      -0.0436 * (normalized) Histogram of JPEG Coefficients8
+ +      -0.1491 * (normalized) Histogram of JPEG Coefficients9
+ +      -0.2216 * (normalized) Histogram of JPEG Coefficients10
+ +      -0.0273 * (normalized) Histogram of JPEG Coefficients11
+ +       0.0613 * (normalized) Histogram of JPEG Coefficients12
+ +       0.2069 * (normalized) Histogram of JPEG Coefficients13
+ +       0.1091 * (normalized) Histogram of JPEG Coefficients14
+ +       0.0724 * (normalized) Histogram of JPEG Coefficients15
+ +      -0.0916 * (normalized) Histogram of JPEG Coefficients16
+ +      -0.1543 * (normalized) Histogram of JPEG Coefficients17
+ +       0.2688 * (normalized) Histogram of JPEG Coefficients18
+ +       0.1886 * (normalized) Histogram of JPEG Coefficients19
+ +       0.1747 * (normalized) Histogram of JPEG Coefficients20
+ +       0.1528 * (normalized) Histogram of JPEG Coefficients21
+ +       0.0542 * (normalized) Histogram of JPEG Coefficients22
+ +       0.172  * (normalized) Histogram of JPEG Coefficients23
+ +      -0.0992 * (normalized) Histogram of JPEG Coefficients24
+ +      -0.0666 * (normalized) Histogram of JPEG Coefficients25
+ +      -0.0184 * (normalized) Histogram of JPEG Coefficients26
+ +       0.1259 * (normalized) Histogram of JPEG Coefficients27
+ +       0.1418 * (normalized) Histogram of JPEG Coefficients28
+ +       0.1055 * (normalized) Histogram of JPEG Coefficients29
+ +       0.0853 * (normalized) Histogram of JPEG Coefficients30
+ +      -0.0546 * (normalized) Histogram of JPEG Coefficients31
+ +       0.0037 * (normalized) Histogram of JPEG Coefficients32
+ +       0.157  * (normalized) Histogram of JPEG Coefficients33
+ +      -0.009  * (normalized) Histogram of JPEG Coefficients34
+ +       0.1728 * (normalized) Histogram of JPEG Coefficients35
+ +       0.2555 * (normalized) Histogram of JPEG Coefficients36
+ +       0.213  * (normalized) Histogram of JPEG Coefficients37
+ +       0.0748 * (normalized) Histogram of JPEG Coefficients38
+ +      -0.0221 * (normalized) Histogram of JPEG Coefficients39
+ +       0.142  * (normalized) Histogram of JPEG Coefficients40
+ +       0.0245 * (normalized) Histogram of JPEG Coefficients41
+ +       0.247  * (normalized) Histogram of JPEG Coefficients42
+ +       0.0606 * (normalized) Histogram of JPEG Coefficients43
+ +       0.0662 * (normalized) Histogram of JPEG Coefficients44
+ +       0.1025 * (normalized) Histogram of JPEG Coefficients45
+ +      -0.0564 * (normalized) Histogram of JPEG Coefficients46
+ +      -0.1424 * (normalized) Histogram of JPEG Coefficients47
+ +       0.1133 * (normalized) Histogram of JPEG Coefficients48
+ +      -0.0517 * (normalized) Histogram of JPEG Coefficients49
+ +      -0.0309 * (normalized) Histogram of JPEG Coefficients50
+ +       0.036  * (normalized) Histogram of JPEG Coefficients51
+ +      -0.1363 * (normalized) Histogram of JPEG Coefficients52
+ +       0.0432 * (normalized) Histogram of JPEG Coefficients53
+ +      -0.0305 * (normalized) Histogram of JPEG Coefficients54
+ +      -0.0373 * (normalized) Histogram of JPEG Coefficients55
+ +       0.0483 * (normalized) Histogram of JPEG Coefficients56
+ +       0.0377 * (normalized) Histogram of JPEG Coefficients57
+ +      -0.0296 * (normalized) Histogram of JPEG Coefficients58
+ +      -0.1218 * (normalized) Histogram of JPEG Coefficients59
+ +      -0.0585 * (normalized) Histogram of JPEG Coefficients60
+ +      -0.065  * (normalized) Histogram of JPEG Coefficients61
+ +      -0.012  * (normalized) Histogram of JPEG Coefficients62
+ +       0.0568 * (normalized) Histogram of JPEG Coefficients63
+ +      -0.3942 * (normalized) Histogram of JPEG Coefficients64
+ +      -0.1848 * (normalized) Histogram of JPEG Coefficients65
+ +      -0.0867 * (normalized) Histogram of JPEG Coefficients66
+ +      -0.1023 * (normalized) Histogram of JPEG Coefficients67
+ +       0.0148 * (normalized) Histogram of JPEG Coefficients68
+ +       0.1706 * (normalized) Histogram of JPEG Coefficients69
+ +       0.0189 * (normalized) Histogram of JPEG Coefficients70
+ +       0.0937 * (normalized) Histogram of JPEG Coefficients71
+ +       0.0187 * (normalized) Histogram of JPEG Coefficients72
+ +       0.0878 * (normalized) Histogram of JPEG Coefficients73
+ +       0.0624 * (normalized) Histogram of JPEG Coefficients74
+ +       0.025  * (normalized) Histogram of JPEG Coefficients75
+ +       0.1413 * (normalized) Histogram of JPEG Coefficients76
+ +       0.1524 * (normalized) Histogram of JPEG Coefficients77
+ +       0.1459 * (normalized) Histogram of JPEG Coefficients78
+ +       0.1811 * (normalized) Histogram of JPEG Coefficients79
+ +       0.0111 * (normalized) Histogram of JPEG Coefficients80
+ +       0.1443 * (normalized) Histogram of JPEG Coefficients81
+ +       0.0496 * (normalized) Histogram of JPEG Coefficients82
+ +       0.0844 * (normalized) Histogram of JPEG Coefficients83
+ +      -0.0636 * (normalized) Histogram of JPEG Coefficients84
+ +      -0.0152 * (normalized) Histogram of JPEG Coefficients85
+ +      -0.1275 * (normalized) Histogram of JPEG Coefficients86
+ +      -0.0786 * (normalized) Histogram of JPEG Coefficients87
+ +       0.0206 * (normalized) Histogram of JPEG Coefficients88
+ +      -0.0748 * (normalized) Histogram of JPEG Coefficients89
+ +       0.0778 * (normalized) Histogram of JPEG Coefficients90
+ +       0.1574 * (normalized) Histogram of JPEG Coefficients91
+ +      -0.0004 * (normalized) Histogram of JPEG Coefficients92
+ +       0.1424 * (normalized) Histogram of JPEG Coefficients93
+ +      -0.0072 * (normalized) Histogram of JPEG Coefficients94
+ +       0.1029 * (normalized) Histogram of JPEG Coefficients95
+ +       0.1398 * (normalized) Histogram of JPEG Coefficients96
+ +      -0.0626 * (normalized) Histogram of JPEG Coefficients97
+ +       0.0766 * (normalized) Histogram of JPEG Coefficients98
+ +      -0.0918 * (normalized) Histogram of JPEG Coefficients99
+ +       0.1065 * (normalized) Histogram of JPEG Coefficients100
+ +       0.0028 * (normalized) Histogram of JPEG Coefficients101
+ +      -0.1231 * (normalized) Histogram of JPEG Coefficients102
+ +      -0.0923 * (normalized) Histogram of JPEG Coefficients103
+ +       0.0119 * (normalized) Histogram of JPEG Coefficients104
+ +       0.0819 * (normalized) Histogram of JPEG Coefficients105
+ +       0.0445 * (normalized) Histogram of JPEG Coefficients106
+ +      -0.0102 * (normalized) Histogram of JPEG Coefficients107
+ +      -0.0025 * (normalized) Histogram of JPEG Coefficients108
+ +       0.0236 * (normalized) Histogram of JPEG Coefficients109
+ +       0.1551 * (normalized) Histogram of JPEG Coefficients110
+ +       0.0803 * (normalized) Histogram of JPEG Coefficients111
+ +       0.0555 * (normalized) Histogram of JPEG Coefficients112
+ +       0.1333 * (normalized) Histogram of JPEG Coefficients113
+ +      -0.0748 * (normalized) Histogram of JPEG Coefficients114
+ +       0.0966 * (normalized) Histogram of JPEG Coefficients115
+ +       0.0111 * (normalized) Histogram of JPEG Coefficients116
+ +      -0.04   * (normalized) Histogram of JPEG Coefficients117
+ +      -0.0303 * (normalized) Histogram of JPEG Coefficients118
+ +      -0.0001 * (normalized) Histogram of JPEG Coefficients119
+ +       0.0689 * (normalized) Histogram of JPEG Coefficients120
+ +       0.0311 * (normalized) Histogram of JPEG Coefficients121
+ +       0.0743 * (normalized) Histogram of JPEG Coefficients122
+ +      -0.0616 * (normalized) Histogram of JPEG Coefficients123
+ +       0.0258 * (normalized) Histogram of JPEG Coefficients124
+ +       0.0651 * (normalized) Histogram of JPEG Coefficients125
+ +      -0.0048 * (normalized) Histogram of JPEG Coefficients126
+ +       0.3224 * (normalized) Histogram of JPEG Coefficients127
+ +      -0.3857 * (normalized) Histogram of JPEG Coefficients128
+ +      -0.1788 * (normalized) Histogram of JPEG Coefficients129
+ +      -0.095  * (normalized) Histogram of JPEG Coefficients130
+ +      -0.0556 * (normalized) Histogram of JPEG Coefficients131
+ +       0.0949 * (normalized) Histogram of JPEG Coefficients132
+ +       0.1071 * (normalized) Histogram of JPEG Coefficients133
+ +       0.0132 * (normalized) Histogram of JPEG Coefficients134
+ +      -0.026  * (normalized) Histogram of JPEG Coefficients135
+ +       0.0016 * (normalized) Histogram of JPEG Coefficients136
+ +       0.0827 * (normalized) Histogram of JPEG Coefficients137
+ +       0.1211 * (normalized) Histogram of JPEG Coefficients138
+ +       0.103  * (normalized) Histogram of JPEG Coefficients139
+ +       0.1618 * (normalized) Histogram of JPEG Coefficients140
+ +       0.0297 * (normalized) Histogram of JPEG Coefficients141
+ +       0.1109 * (normalized) Histogram of JPEG Coefficients142
+ +      -0.1377 * (normalized) Histogram of JPEG Coefficients143
+ +       0.0161 * (normalized) Histogram of JPEG Coefficients144
+ +       0.0932 * (normalized) Histogram of JPEG Coefficients145
+ +       0.0781 * (normalized) Histogram of JPEG Coefficients146
+ +       0.1132 * (normalized) Histogram of JPEG Coefficients147
+ +       0.1066 * (normalized) Histogram of JPEG Coefficients148
+ +      -0.1298 * (normalized) Histogram of JPEG Coefficients149
+ +      -0.0636 * (normalized) Histogram of JPEG Coefficients150
+ +       0.0078 * (normalized) Histogram of JPEG Coefficients151
+ +      -0.0072 * (normalized) Histogram of JPEG Coefficients152
+ +       0.1621 * (normalized) Histogram of JPEG Coefficients153
+ +       0.2518 * (normalized) Histogram of JPEG Coefficients154
+ +       0.107  * (normalized) Histogram of JPEG Coefficients155
+ +       0.0785 * (normalized) Histogram of JPEG Coefficients156
+ +       0.1131 * (normalized) Histogram of JPEG Coefficients157
+ +       0.1146 * (normalized) Histogram of JPEG Coefficients158
+ +      -0.2225 * (normalized) Histogram of JPEG Coefficients159
+ +       0.1079 * (normalized) Histogram of JPEG Coefficients160
+ +       0.134  * (normalized) Histogram of JPEG Coefficients161
+ +       0.1845 * (normalized) Histogram of JPEG Coefficients162
+ +       0.0072 * (normalized) Histogram of JPEG Coefficients163
+ +      -0.0536 * (normalized) Histogram of JPEG Coefficients164
+ +       0.0371 * (normalized) Histogram of JPEG Coefficients165
+ +       0.1575 * (normalized) Histogram of JPEG Coefficients166
+ +      -0.1126 * (normalized) Histogram of JPEG Coefficients167
+ +       0.0492 * (normalized) Histogram of JPEG Coefficients168
+ +       0.071  * (normalized) Histogram of JPEG Coefficients169
+ +       0.1436 * (normalized) Histogram of JPEG Coefficients170
+ +       0.0349 * (normalized) Histogram of JPEG Coefficients171
+ +       0.0063 * (normalized) Histogram of JPEG Coefficients172
+ +       0.2126 * (normalized) Histogram of JPEG Coefficients173
+ +      -0.1    * (normalized) Histogram of JPEG Coefficients174
+ +       0.0043 * (normalized) Histogram of JPEG Coefficients175
+ +       0.0171 * (normalized) Histogram of JPEG Coefficients176
+ +      -0.002  * (normalized) Histogram of JPEG Coefficients177
+ +       0.1615 * (normalized) Histogram of JPEG Coefficients178
+ +      -0.0604 * (normalized) Histogram of JPEG Coefficients179
+ +      -0.0433 * (normalized) Histogram of JPEG Coefficients180
+ +       0.0643 * (normalized) Histogram of JPEG Coefficients181
+ +       0.0525 * (normalized) Histogram of JPEG Coefficients182
+ +      -0.0615 * (normalized) Histogram of JPEG Coefficients183
+ +      -0.0621 * (normalized) Histogram of JPEG Coefficients184
+ +      -0.0371 * (normalized) Histogram of JPEG Coefficients185
+ +       0.0043 * (normalized) Histogram of JPEG Coefficients186
+ +       0.0209 * (normalized) Histogram of JPEG Coefficients187
+ +      -0.0859 * (normalized) Histogram of JPEG Coefficients188
+ +      -0.0133 * (normalized) Histogram of JPEG Coefficients189
+ +       0.0204 * (normalized) Histogram of JPEG Coefficients190
+ +       0.1215 * (normalized) Histogram of JPEG Coefficients191
+ -       1.7043
+
+Number of kernel evaluations: 2826 (87.55% cached)
+
+Classifier for classes: K4, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3249 * (normalized) Histogram of JPEG Coefficients0
+ +      -0.255  * (normalized) Histogram of JPEG Coefficients1
+ +      -0.2883 * (normalized) Histogram of JPEG Coefficients2
+ +      -0.1353 * (normalized) Histogram of JPEG Coefficients3
+ +       0.1963 * (normalized) Histogram of JPEG Coefficients4
+ +       0.0897 * (normalized) Histogram of JPEG Coefficients5
+ +       0.2159 * (normalized) Histogram of JPEG Coefficients6
+ +       0.2107 * (normalized) Histogram of JPEG Coefficients7
+ +      -0.0082 * (normalized) Histogram of JPEG Coefficients8
+ +      -0.061  * (normalized) Histogram of JPEG Coefficients9
+ +      -0.124  * (normalized) Histogram of JPEG Coefficients10
+ +      -0.0229 * (normalized) Histogram of JPEG Coefficients11
+ +       0.1274 * (normalized) Histogram of JPEG Coefficients12
+ +       0.1711 * (normalized) Histogram of JPEG Coefficients13
+ +       0.1375 * (normalized) Histogram of JPEG Coefficients14
+ +       0.2971 * (normalized) Histogram of JPEG Coefficients15
+ +       0.0087 * (normalized) Histogram of JPEG Coefficients16
+ +      -0.0638 * (normalized) Histogram of JPEG Coefficients17
+ +       0.0396 * (normalized) Histogram of JPEG Coefficients18
+ +       0.0255 * (normalized) Histogram of JPEG Coefficients19
+ +       0.1612 * (normalized) Histogram of JPEG Coefficients20
+ +       0.1012 * (normalized) Histogram of JPEG Coefficients21
+ +       0.1904 * (normalized) Histogram of JPEG Coefficients22
+ +       0.1515 * (normalized) Histogram of JPEG Coefficients23
+ +      -0.0195 * (normalized) Histogram of JPEG Coefficients24
+ +      -0.0442 * (normalized) Histogram of JPEG Coefficients25
+ +      -0.0805 * (normalized) Histogram of JPEG Coefficients26
+ +       0.1143 * (normalized) Histogram of JPEG Coefficients27
+ +       0.0823 * (normalized) Histogram of JPEG Coefficients28
+ +       0.083  * (normalized) Histogram of JPEG Coefficients29
+ +       0.134  * (normalized) Histogram of JPEG Coefficients30
+ +       0.0261 * (normalized) Histogram of JPEG Coefficients31
+ +       0.0634 * (normalized) Histogram of JPEG Coefficients32
+ +       0.0982 * (normalized) Histogram of JPEG Coefficients33
+ +       0.031  * (normalized) Histogram of JPEG Coefficients34
+ +       0.0515 * (normalized) Histogram of JPEG Coefficients35
+ +       0.0088 * (normalized) Histogram of JPEG Coefficients36
+ +       0.0746 * (normalized) Histogram of JPEG Coefficients37
+ +       0.1472 * (normalized) Histogram of JPEG Coefficients38
+ +       0.1129 * (normalized) Histogram of JPEG Coefficients39
+ +       0.1575 * (normalized) Histogram of JPEG Coefficients40
+ +       0.0132 * (normalized) Histogram of JPEG Coefficients41
+ +       0.0146 * (normalized) Histogram of JPEG Coefficients42
+ +       0.0355 * (normalized) Histogram of JPEG Coefficients43
+ +       0.0545 * (normalized) Histogram of JPEG Coefficients44
+ +       0.04   * (normalized) Histogram of JPEG Coefficients45
+ +      -0.0607 * (normalized) Histogram of JPEG Coefficients46
+ +       0.0363 * (normalized) Histogram of JPEG Coefficients47
+ +       0.0546 * (normalized) Histogram of JPEG Coefficients48
+ +       0.0105 * (normalized) Histogram of JPEG Coefficients49
+ +       0.0713 * (normalized) Histogram of JPEG Coefficients50
+ +      -0.0005 * (normalized) Histogram of JPEG Coefficients51
+ +      -0.1363 * (normalized) Histogram of JPEG Coefficients52
+ +       0.0281 * (normalized) Histogram of JPEG Coefficients53
+ +      -0.0016 * (normalized) Histogram of JPEG Coefficients54
+ +       0.1215 * (normalized) Histogram of JPEG Coefficients55
+ +       0.1262 * (normalized) Histogram of JPEG Coefficients56
+ +       0.1665 * (normalized) Histogram of JPEG Coefficients57
+ +       0.1297 * (normalized) Histogram of JPEG Coefficients58
+ +       0.0238 * (normalized) Histogram of JPEG Coefficients59
+ +       0.1421 * (normalized) Histogram of JPEG Coefficients60
+ +      -0.1375 * (normalized) Histogram of JPEG Coefficients61
+ +      -0.0305 * (normalized) Histogram of JPEG Coefficients62
+ +       0.0047 * (normalized) Histogram of JPEG Coefficients63
+ +      -0.3043 * (normalized) Histogram of JPEG Coefficients64
+ +      -0.1536 * (normalized) Histogram of JPEG Coefficients65
+ +      -0.0883 * (normalized) Histogram of JPEG Coefficients66
+ +      -0.0209 * (normalized) Histogram of JPEG Coefficients67
+ +       0.0111 * (normalized) Histogram of JPEG Coefficients68
+ +       0.0189 * (normalized) Histogram of JPEG Coefficients69
+ +      -0.0069 * (normalized) Histogram of JPEG Coefficients70
+ +      -0.006  * (normalized) Histogram of JPEG Coefficients71
+ +       0.0056 * (normalized) Histogram of JPEG Coefficients72
+ +       0.0111 * (normalized) Histogram of JPEG Coefficients73
+ +      -0.0132 * (normalized) Histogram of JPEG Coefficients74
+ +       0.0546 * (normalized) Histogram of JPEG Coefficients75
+ +       0.104  * (normalized) Histogram of JPEG Coefficients76
+ +       0.037  * (normalized) Histogram of JPEG Coefficients77
+ +       0.0381 * (normalized) Histogram of JPEG Coefficients78
+ +       0.1003 * (normalized) Histogram of JPEG Coefficients79
+ +       0.0391 * (normalized) Histogram of JPEG Coefficients80
+ +       0.0297 * (normalized) Histogram of JPEG Coefficients81
+ +       0.0302 * (normalized) Histogram of JPEG Coefficients82
+ +       0.0654 * (normalized) Histogram of JPEG Coefficients83
+ +       0.0664 * (normalized) Histogram of JPEG Coefficients84
+ +       0.1374 * (normalized) Histogram of JPEG Coefficients85
+ +      -0.0536 * (normalized) Histogram of JPEG Coefficients86
+ +       0.08   * (normalized) Histogram of JPEG Coefficients87
+ +       0.0406 * (normalized) Histogram of JPEG Coefficients88
+ +      -0.0113 * (normalized) Histogram of JPEG Coefficients89
+ +       0.0901 * (normalized) Histogram of JPEG Coefficients90
+ +       0.0139 * (normalized) Histogram of JPEG Coefficients91
+ +       0.0774 * (normalized) Histogram of JPEG Coefficients92
+ +       0.052  * (normalized) Histogram of JPEG Coefficients93
+ +      -0.0668 * (normalized) Histogram of JPEG Coefficients94
+ +       0.1356 * (normalized) Histogram of JPEG Coefficients95
+ +       0.1271 * (normalized) Histogram of JPEG Coefficients96
+ +       0.0594 * (normalized) Histogram of JPEG Coefficients97
+ +       0.0628 * (normalized) Histogram of JPEG Coefficients98
+ +       0.065  * (normalized) Histogram of JPEG Coefficients99
+ +       0.0838 * (normalized) Histogram of JPEG Coefficients100
+ +      -0.0796 * (normalized) Histogram of JPEG Coefficients101
+ +      -0.0557 * (normalized) Histogram of JPEG Coefficients102
+ +       0.0081 * (normalized) Histogram of JPEG Coefficients103
+ +       0.0657 * (normalized) Histogram of JPEG Coefficients104
+ +       0.0878 * (normalized) Histogram of JPEG Coefficients105
+ +       0.0367 * (normalized) Histogram of JPEG Coefficients106
+ +       0.0417 * (normalized) Histogram of JPEG Coefficients107
+ +      -0.0132 * (normalized) Histogram of JPEG Coefficients108
+ +      -0.0048 * (normalized) Histogram of JPEG Coefficients109
+ +       0.0268 * (normalized) Histogram of JPEG Coefficients110
+ +       0.0557 * (normalized) Histogram of JPEG Coefficients111
+ +       0.0688 * (normalized) Histogram of JPEG Coefficients112
+ +       0.1814 * (normalized) Histogram of JPEG Coefficients113
+ +      -0.0191 * (normalized) Histogram of JPEG Coefficients114
+ +       0.0356 * (normalized) Histogram of JPEG Coefficients115
+ +      -0.0202 * (normalized) Histogram of JPEG Coefficients116
+ +      -0.0312 * (normalized) Histogram of JPEG Coefficients117
+ +      -0.0802 * (normalized) Histogram of JPEG Coefficients118
+ +       0.0726 * (normalized) Histogram of JPEG Coefficients119
+ +       0.0767 * (normalized) Histogram of JPEG Coefficients120
+ +       0.1075 * (normalized) Histogram of JPEG Coefficients121
+ +       0.015  * (normalized) Histogram of JPEG Coefficients122
+ +      -0.0494 * (normalized) Histogram of JPEG Coefficients123
+ +       0.0287 * (normalized) Histogram of JPEG Coefficients124
+ +      -0.0812 * (normalized) Histogram of JPEG Coefficients125
+ +       0.0216 * (normalized) Histogram of JPEG Coefficients126
+ +       0.2464 * (normalized) Histogram of JPEG Coefficients127
+ +      -0.3186 * (normalized) Histogram of JPEG Coefficients128
+ +      -0.1581 * (normalized) Histogram of JPEG Coefficients129
+ +      -0.0853 * (normalized) Histogram of JPEG Coefficients130
+ +      -0.0236 * (normalized) Histogram of JPEG Coefficients131
+ +      -0.0302 * (normalized) Histogram of JPEG Coefficients132
+ +      -0.0241 * (normalized) Histogram of JPEG Coefficients133
+ +      -0.0424 * (normalized) Histogram of JPEG Coefficients134
+ +      -0.0749 * (normalized) Histogram of JPEG Coefficients135
+ +       0.001  * (normalized) Histogram of JPEG Coefficients136
+ +       0.0156 * (normalized) Histogram of JPEG Coefficients137
+ +       0.0241 * (normalized) Histogram of JPEG Coefficients138
+ +       0.1448 * (normalized) Histogram of JPEG Coefficients139
+ +       0.0569 * (normalized) Histogram of JPEG Coefficients140
+ +       0.0438 * (normalized) Histogram of JPEG Coefficients141
+ +       0.1447 * (normalized) Histogram of JPEG Coefficients142
+ +      -0.1525 * (normalized) Histogram of JPEG Coefficients143
+ +       0.0397 * (normalized) Histogram of JPEG Coefficients144
+ +       0.0415 * (normalized) Histogram of JPEG Coefficients145
+ +      -0.0012 * (normalized) Histogram of JPEG Coefficients146
+ +       0.0345 * (normalized) Histogram of JPEG Coefficients147
+ +       0.1288 * (normalized) Histogram of JPEG Coefficients148
+ +       0.0831 * (normalized) Histogram of JPEG Coefficients149
+ +       0.0705 * (normalized) Histogram of JPEG Coefficients150
+ +      -0.0082 * (normalized) Histogram of JPEG Coefficients151
+ +       0.0407 * (normalized) Histogram of JPEG Coefficients152
+ +       0.0622 * (normalized) Histogram of JPEG Coefficients153
+ +       0.0892 * (normalized) Histogram of JPEG Coefficients154
+ +       0.0714 * (normalized) Histogram of JPEG Coefficients155
+ +       0.0254 * (normalized) Histogram of JPEG Coefficients156
+ +       0.0761 * (normalized) Histogram of JPEG Coefficients157
+ +       0.2076 * (normalized) Histogram of JPEG Coefficients158
+ +      -0.0461 * (normalized) Histogram of JPEG Coefficients159
+ +       0.0169 * (normalized) Histogram of JPEG Coefficients160
+ +       0.1117 * (normalized) Histogram of JPEG Coefficients161
+ +       0.0691 * (normalized) Histogram of JPEG Coefficients162
+ +       0.058  * (normalized) Histogram of JPEG Coefficients163
+ +       0.0479 * (normalized) Histogram of JPEG Coefficients164
+ +      -0.0395 * (normalized) Histogram of JPEG Coefficients165
+ +       0.0395 * (normalized) Histogram of JPEG Coefficients166
+ +      -0.0994 * (normalized) Histogram of JPEG Coefficients167
+ +       0.0578 * (normalized) Histogram of JPEG Coefficients168
+ +       0.1061 * (normalized) Histogram of JPEG Coefficients169
+ +       0.1795 * (normalized) Histogram of JPEG Coefficients170
+ +       0.0483 * (normalized) Histogram of JPEG Coefficients171
+ +       0.0151 * (normalized) Histogram of JPEG Coefficients172
+ +       0.0103 * (normalized) Histogram of JPEG Coefficients173
+ +       0.0141 * (normalized) Histogram of JPEG Coefficients174
+ +      -0.0198 * (normalized) Histogram of JPEG Coefficients175
+ +       0.0133 * (normalized) Histogram of JPEG Coefficients176
+ +       0.0956 * (normalized) Histogram of JPEG Coefficients177
+ +       0.0654 * (normalized) Histogram of JPEG Coefficients178
+ +       0.0364 * (normalized) Histogram of JPEG Coefficients179
+ +      -0.0337 * (normalized) Histogram of JPEG Coefficients180
+ +       0.0292 * (normalized) Histogram of JPEG Coefficients181
+ +      -0.0627 * (normalized) Histogram of JPEG Coefficients182
+ +       0.0193 * (normalized) Histogram of JPEG Coefficients183
+ +       0.0866 * (normalized) Histogram of JPEG Coefficients184
+ +       0.1084 * (normalized) Histogram of JPEG Coefficients185
+ +       0.0334 * (normalized) Histogram of JPEG Coefficients186
+ +       0.0221 * (normalized) Histogram of JPEG Coefficients187
+ +      -0.0144 * (normalized) Histogram of JPEG Coefficients188
+ +       0.0489 * (normalized) Histogram of JPEG Coefficients189
+ +       0.0041 * (normalized) Histogram of JPEG Coefficients190
+ +       0.0353 * (normalized) Histogram of JPEG Coefficients191
+ -       2.3355
+
+Number of kernel evaluations: 1585 (90.258% cached)
+
+Classifier for classes: K4, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K4, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K5, K6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0      * (normalized) Histogram of JPEG Coefficients0
+ +      -0.0361 * (normalized) Histogram of JPEG Coefficients1
+ +      -0.1727 * (normalized) Histogram of JPEG Coefficients2
+ +      -0.0282 * (normalized) Histogram of JPEG Coefficients3
+ +       0.1723 * (normalized) Histogram of JPEG Coefficients4
+ +       0.1984 * (normalized) Histogram of JPEG Coefficients5
+ +       0.358  * (normalized) Histogram of JPEG Coefficients6
+ +       0.4819 * (normalized) Histogram of JPEG Coefficients7
+ +      -0.0303 * (normalized) Histogram of JPEG Coefficients8
+ +       0.0535 * (normalized) Histogram of JPEG Coefficients9
+ +       0.0122 * (normalized) Histogram of JPEG Coefficients10
+ +       0.3165 * (normalized) Histogram of JPEG Coefficients11
+ +       0.2266 * (normalized) Histogram of JPEG Coefficients12
+ +      -0.1613 * (normalized) Histogram of JPEG Coefficients13
+ +       0.2854 * (normalized) Histogram of JPEG Coefficients14
+ +       0.4189 * (normalized) Histogram of JPEG Coefficients15
+ +       0.0147 * (normalized) Histogram of JPEG Coefficients16
+ +      -0.028  * (normalized) Histogram of JPEG Coefficients17
+ +      -0.1655 * (normalized) Histogram of JPEG Coefficients18
+ +       0.0789 * (normalized) Histogram of JPEG Coefficients19
+ +       0.0039 * (normalized) Histogram of JPEG Coefficients20
+ +       0.087  * (normalized) Histogram of JPEG Coefficients21
+ +       0.0866 * (normalized) Histogram of JPEG Coefficients22
+ +       0.222  * (normalized) Histogram of JPEG Coefficients23
+ +      -0.1431 * (normalized) Histogram of JPEG Coefficients24
+ +      -0.0217 * (normalized) Histogram of JPEG Coefficients25
+ +      -0.0739 * (normalized) Histogram of JPEG Coefficients26
+ +      -0.1013 * (normalized) Histogram of JPEG Coefficients27
+ +      -0.0966 * (normalized) Histogram of JPEG Coefficients28
+ +      -0.0908 * (normalized) Histogram of JPEG Coefficients29
+ +      -0.169  * (normalized) Histogram of JPEG Coefficients30
+ +       0.0751 * (normalized) Histogram of JPEG Coefficients31
+ +      -0.1463 * (normalized) Histogram of JPEG Coefficients32
+ +       0.1344 * (normalized) Histogram of JPEG Coefficients33
+ +      -0.0271 * (normalized) Histogram of JPEG Coefficients34
+ +      -0.3064 * (normalized) Histogram of JPEG Coefficients35
+ +      -0.3551 * (normalized) Histogram of JPEG Coefficients36
+ +      -0.1995 * (normalized) Histogram of JPEG Coefficients37
+ +       0.045  * (normalized) Histogram of JPEG Coefficients38
+ +       0.2085 * (normalized) Histogram of JPEG Coefficients39
+ +      -0.144  * (normalized) Histogram of JPEG Coefficients40
+ +      -0.132  * (normalized) Histogram of JPEG Coefficients41
+ +      -0.3479 * (normalized) Histogram of JPEG Coefficients42
+ +      -0.1354 * (normalized) Histogram of JPEG Coefficients43
+ +       0.0452 * (normalized) Histogram of JPEG Coefficients44
+ +      -0.1879 * (normalized) Histogram of JPEG Coefficients45
+ +      -0.1617 * (normalized) Histogram of JPEG Coefficients46
+ +      -0.0027 * (normalized) Histogram of JPEG Coefficients47
+ +      -0.2097 * (normalized) Histogram of JPEG Coefficients48
+ +      -0.0297 * (normalized) Histogram of JPEG Coefficients49
+ +       0.1474 * (normalized) Histogram of JPEG Coefficients50
+ +       0.1067 * (normalized) Histogram of JPEG Coefficients51
+ +       0.1229 * (normalized) Histogram of JPEG Coefficients52
+ +      -0.0674 * (normalized) Histogram of JPEG Coefficients53
+ +      -0.1503 * (normalized) Histogram of JPEG Coefficients54
+ +       0.2444 * (normalized) Histogram of JPEG Coefficients55
+ +      -0.0018 * (normalized) Histogram of JPEG Coefficients56
+ +      -0.0755 * (normalized) Histogram of JPEG Coefficients57
+ +       0.2814 * (normalized) Histogram of JPEG Coefficients58
+ +       0.1089 * (normalized) Histogram of JPEG Coefficients59
+ +       0.2498 * (normalized) Histogram of JPEG Coefficients60
+ +      -0.0751 * (normalized) Histogram of JPEG Coefficients61
+ +       0.0705 * (normalized) Histogram of JPEG Coefficients62
+ +       0.0015 * (normalized) Histogram of JPEG Coefficients63
+ +      -0.1303 * (normalized) Histogram of JPEG Coefficients64
+ +      -0.0932 * (normalized) Histogram of JPEG Coefficients65
+ +      -0.1151 * (normalized) Histogram of JPEG Coefficients66
+ +      -0.0032 * (normalized) Histogram of JPEG Coefficients67
+ +       0.0109 * (normalized) Histogram of JPEG Coefficients68
+ +      -0.1679 * (normalized) Histogram of JPEG Coefficients69
+ +      -0.1041 * (normalized) Histogram of JPEG Coefficients70
+ +       0.2072 * (normalized) Histogram of JPEG Coefficients71
+ +      -0.0071 * (normalized) Histogram of JPEG Coefficients72
+ +      -0.096  * (normalized) Histogram of JPEG Coefficients73
+ +      -0.2687 * (normalized) Histogram of JPEG Coefficients74
+ +      -0.0088 * (normalized) Histogram of JPEG Coefficients75
+ +      -0.122  * (normalized) Histogram of JPEG Coefficients76
+ +       0.0138 * (normalized) Histogram of JPEG Coefficients77
+ +       0.1337 * (normalized) Histogram of JPEG Coefficients78
+ +       0.1588 * (normalized) Histogram of JPEG Coefficients79
+ +       0.0226 * (normalized) Histogram of JPEG Coefficients80
+ +      -0.462  * (normalized) Histogram of JPEG Coefficients81
+ +      -0.1965 * (normalized) Histogram of JPEG Coefficients82
+ +      -0.0209 * (normalized) Histogram of JPEG Coefficients83
+ +       0.049  * (normalized) Histogram of JPEG Coefficients84
+ +       0.2788 * (normalized) Histogram of JPEG Coefficients85
+ +       0.1547 * (normalized) Histogram of JPEG Coefficients86
+ +       0.2632 * (normalized) Histogram of JPEG Coefficients87
+ +      -0.0001 * (normalized) Histogram of JPEG Coefficients88
+ +       0.0434 * (normalized) Histogram of JPEG Coefficients89
+ +      -0.0836 * (normalized) Histogram of JPEG Coefficients90
+ +      -0.1809 * (normalized) Histogram of JPEG Coefficients91
+ +       0.0948 * (normalized) Histogram of JPEG Coefficients92
+ +       0.0102 * (normalized) Histogram of JPEG Coefficients93
+ +       0.1186 * (normalized) Histogram of JPEG Coefficients94
+ +       0.2215 * (normalized) Histogram of JPEG Coefficients95
+ +       0.0417 * (normalized) Histogram of JPEG Coefficients96
+ +       0.0663 * (normalized) Histogram of JPEG Coefficients97
+ +       0.2745 * (normalized) Histogram of JPEG Coefficients98
+ +       0.2039 * (normalized) Histogram of JPEG Coefficients99
+ +       0.0022 * (normalized) Histogram of JPEG Coefficients100
+ +      -0.248  * (normalized) Histogram of JPEG Coefficients101
+ +      -0.0221 * (normalized) Histogram of JPEG Coefficients102
+ +       0.0181 * (normalized) Histogram of JPEG Coefficients103
+ +       0.0374 * (normalized) Histogram of JPEG Coefficients104
+ +       0.1615 * (normalized) Histogram of JPEG Coefficients105
+ +      -0.0603 * (normalized) Histogram of JPEG Coefficients106
+ +      -0.03   * (normalized) Histogram of JPEG Coefficients107
+ +      -0.2763 * (normalized) Histogram of JPEG Coefficients108
+ +      -0.05   * (normalized) Histogram of JPEG Coefficients109
+ +      -0.1204 * (normalized) Histogram of JPEG Coefficients110
+ +       0.0308 * (normalized) Histogram of JPEG Coefficients111
+ +       0.0111 * (normalized) Histogram of JPEG Coefficients112
+ +       0.3823 * (normalized) Histogram of JPEG Coefficients113
+ +      -0.0258 * (normalized) Histogram of JPEG Coefficients114
+ +       0.0004 * (normalized) Histogram of JPEG Coefficients115
+ +       0.1397 * (normalized) Histogram of JPEG Coefficients116
+ +       0.2192 * (normalized) Histogram of JPEG Coefficients117
+ +       0.0364 * (normalized) Histogram of JPEG Coefficients118
+ +       0.0834 * (normalized) Histogram of JPEG Coefficients119
+ +      -0.1086 * (normalized) Histogram of JPEG Coefficients120
+ +      -0.0715 * (normalized) Histogram of JPEG Coefficients121
+ +      -0.1868 * (normalized) Histogram of JPEG Coefficients122
+ +       0.0844 * (normalized) Histogram of JPEG Coefficients123
+ +       0.0328 * (normalized) Histogram of JPEG Coefficients124
+ +      -0.1279 * (normalized) Histogram of JPEG Coefficients125
+ +       0.0908 * (normalized) Histogram of JPEG Coefficients126
+ +      -0.0563 * (normalized) Histogram of JPEG Coefficients127
+ +      -0      * (normalized) Histogram of JPEG Coefficients128
+ +      -0.0102 * (normalized) Histogram of JPEG Coefficients129
+ +      -0.007  * (normalized) Histogram of JPEG Coefficients130
+ +       0.118  * (normalized) Histogram of JPEG Coefficients131
+ +      -0.0101 * (normalized) Histogram of JPEG Coefficients132
+ +      -0.1245 * (normalized) Histogram of JPEG Coefficients133
+ +      -0.0339 * (normalized) Histogram of JPEG Coefficients134
+ +      -0.0393 * (normalized) Histogram of JPEG Coefficients135
+ +       0.002  * (normalized) Histogram of JPEG Coefficients136
+ +      -0.1192 * (normalized) Histogram of JPEG Coefficients137
+ +      -0.2642 * (normalized) Histogram of JPEG Coefficients138
+ +       0.0094 * (normalized) Histogram of JPEG Coefficients139
+ +       0.0306 * (normalized) Histogram of JPEG Coefficients140
+ +       0.1746 * (normalized) Histogram of JPEG Coefficients141
+ +       0.1811 * (normalized) Histogram of JPEG Coefficients142
+ +       0.1405 * (normalized) Histogram of JPEG Coefficients143
+ +       0.0535 * (normalized) Histogram of JPEG Coefficients144
+ +      -0.2875 * (normalized) Histogram of JPEG Coefficients145
+ +      -0.3639 * (normalized) Histogram of JPEG Coefficients146
+ +      -0.1647 * (normalized) Histogram of JPEG Coefficients147
+ +       0.0683 * (normalized) Histogram of JPEG Coefficients148
+ +       0.4208 * (normalized) Histogram of JPEG Coefficients149
+ +       0.2728 * (normalized) Histogram of JPEG Coefficients150
+ +      -0.1772 * (normalized) Histogram of JPEG Coefficients151
+ +      -0.0825 * (normalized) Histogram of JPEG Coefficients152
+ +      -0.0748 * (normalized) Histogram of JPEG Coefficients153
+ +      -0.2816 * (normalized) Histogram of JPEG Coefficients154
+ +      -0.1441 * (normalized) Histogram of JPEG Coefficients155
+ +      -0.0823 * (normalized) Histogram of JPEG Coefficients156
+ +       0.1871 * (normalized) Histogram of JPEG Coefficients157
+ +       0.1247 * (normalized) Histogram of JPEG Coefficients158
+ +       0.2084 * (normalized) Histogram of JPEG Coefficients159
+ +      -0.2615 * (normalized) Histogram of JPEG Coefficients160
+ +      -0.249  * (normalized) Histogram of JPEG Coefficients161
+ +       0.1945 * (normalized) Histogram of JPEG Coefficients162
+ +       0.0122 * (normalized) Histogram of JPEG Coefficients163
+ +       0.0411 * (normalized) Histogram of JPEG Coefficients164
+ +       0.0101 * (normalized) Histogram of JPEG Coefficients165
+ +      -0.0291 * (normalized) Histogram of JPEG Coefficients166
+ +      -0.082  * (normalized) Histogram of JPEG Coefficients167
+ +      -0.1054 * (normalized) Histogram of JPEG Coefficients168
+ +       0.1766 * (normalized) Histogram of JPEG Coefficients169
+ +       0.1436 * (normalized) Histogram of JPEG Coefficients170
+ +       0.092  * (normalized) Histogram of JPEG Coefficients171
+ +       0.0217 * (normalized) Histogram of JPEG Coefficients172
+ +      -0.3458 * (normalized) Histogram of JPEG Coefficients173
+ +       0.0141 * (normalized) Histogram of JPEG Coefficients174
+ +       0.0685 * (normalized) Histogram of JPEG Coefficients175
+ +      -0.0078 * (normalized) Histogram of JPEG Coefficients176
+ +       0.1967 * (normalized) Histogram of JPEG Coefficients177
+ +      -0.2171 * (normalized) Histogram of JPEG Coefficients178
+ +       0.3766 * (normalized) Histogram of JPEG Coefficients179
+ +       0.1423 * (normalized) Histogram of JPEG Coefficients180
+ +       0.1516 * (normalized) Histogram of JPEG Coefficients181
+ +      -0.178  * (normalized) Histogram of JPEG Coefficients182
+ +       0.3193 * (normalized) Histogram of JPEG Coefficients183
+ +       0.1369 * (normalized) Histogram of JPEG Coefficients184
+ +       0.2085 * (normalized) Histogram of JPEG Coefficients185
+ +      -0.0103 * (normalized) Histogram of JPEG Coefficients186
+ +       0.2127 * (normalized) Histogram of JPEG Coefficients187
+ +       0.1549 * (normalized) Histogram of JPEG Coefficients188
+ +       0.1219 * (normalized) Histogram of JPEG Coefficients189
+ +      -0.14   * (normalized) Histogram of JPEG Coefficients190
+ +      -0.2558 * (normalized) Histogram of JPEG Coefficients191
+ -       2.1634
+
+Number of kernel evaluations: 2679 (91.053% cached)
+
+Classifier for classes: K5, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K5, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K6, K7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K6, K8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: K7, K8
+
+BinarySMO: No model built yet.
+
+
+
+
+Time taken to build model: 0.31 seconds
+
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         407               97.8365 %
+Incorrectly Classified Instances         9                2.1635 %
+Kappa statistic                          0.9721
+Mean absolute error                      0.1854
+Root mean squared error                  0.2902
+Relative absolute error                 94.7482 %
+Root relative squared error             92.8825 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.791    0.000    1.000      0.791    0.883      0.879    0.958     0.838     K1
+                 1.000    0.034    0.943      1.000    0.970      0.954    0.983     0.943     K2
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K3
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.978    0.012    0.980      0.978    0.977      0.971    0.990     0.963     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  34   9   0   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0   0   0 |   b = K2
+   0   0  76   0   0   0   0   0 |   c = K3
+   0   0   0  61   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.56 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         359               86.2981 %
+Incorrectly Classified Instances        57               13.7019 %
+Kappa statistic                          0.8235
+Mean absolute error                      0.1865
+Root mean squared error                  0.2922
+Relative absolute error                 95.3076 %
+Root relative squared error             93.507  %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.605    0.024    0.743      0.605    0.667      0.637    0.904     0.536     K1
+                 0.939    0.060    0.897      0.939    0.917      0.871    0.965     0.889     K2
+                 0.842    0.053    0.780      0.842    0.810      0.767    0.957     0.737     K3
+                 0.689    0.034    0.778      0.689    0.730      0.689    0.950     0.675     K4
+                 1.000    0.003    0.985      1.000    0.992      0.991    0.999     0.985     K5
+                 1.000    0.003    0.960      1.000    0.980      0.979    0.999     0.960     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.863    0.039    0.859      0.863    0.860      0.826    0.962     0.812     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  26  16   0   1   0   0   0   0 |   a = K1
+   9 139   0   0   0   0   0   0 |   b = K2
+   0   0  64  11   1   0   0   0 |   c = K3
+   0   0  18  42   0   1   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

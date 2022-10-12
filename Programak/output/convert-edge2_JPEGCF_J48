@@ -1,0 +1,155 @@
+
+Options: -C 0.25 -M 2 
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Histogram of JPEG Coefficients136 <= 11
+|   Histogram of JPEG Coefficients147 <= 62
+|   |   Histogram of JPEG Coefficients146 <= 117
+|   |   |   Histogram of JPEG Coefficients14 <= 146
+|   |   |   |   Histogram of JPEG Coefficients154 <= 53
+|   |   |   |   |   Histogram of JPEG Coefficients49 <= 106
+|   |   |   |   |   |   Histogram of JPEG Coefficients80 <= 28
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients173 <= 90
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients18 <= 141
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients119 <= 78: K3 (11.0)
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients119 > 78
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients45 <= 73
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients3 <= 190
+|   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients36 <= 35
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients85 <= 63
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients18 <= 123
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients52 <= 10: K3 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients52 > 10: K4 (22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients18 > 123: K3 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients85 > 63: K3 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients36 > 35: K3 (13.0)
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients3 > 190
+|   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients115 <= 29: K3 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients115 > 29: K4 (33.0)
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients45 > 73: K3 (3.0/1.0)
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients18 > 141: K3 (35.0/1.0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients173 > 90
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients144 <= 2: K3 (4.0/1.0)
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients144 > 2: K5 (6.0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients80 > 28: K6 (4.0/1.0)
+|   |   |   |   |   Histogram of JPEG Coefficients49 > 106
+|   |   |   |   |   |   Histogram of JPEG Coefficients0 <= 106: K6 (5.0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients0 > 106: K4 (2.0)
+|   |   |   |   Histogram of JPEG Coefficients154 > 53: K5 (4.0)
+|   |   |   Histogram of JPEG Coefficients14 > 146
+|   |   |   |   Histogram of JPEG Coefficients4 <= 165: K5 (3.0/1.0)
+|   |   |   |   Histogram of JPEG Coefficients4 > 165: K6 (14.0)
+|   |   Histogram of JPEG Coefficients146 > 117: K5 (8.0)
+|   Histogram of JPEG Coefficients147 > 62
+|   |   Histogram of JPEG Coefficients98 <= 70: K5 (43.0)
+|   |   Histogram of JPEG Coefficients98 > 70: K6 (2.0)
+Histogram of JPEG Coefficients136 > 11
+|   Histogram of JPEG Coefficients32 <= 123
+|   |   Histogram of JPEG Coefficients52 <= 1: K2 (5.0/1.0)
+|   |   Histogram of JPEG Coefficients52 > 1: K1 (17.0)
+|   Histogram of JPEG Coefficients32 > 123
+|   |   Histogram of JPEG Coefficients18 <= 228
+|   |   |   Histogram of JPEG Coefficients159 <= 106
+|   |   |   |   Histogram of JPEG Coefficients45 <= 3
+|   |   |   |   |   Histogram of JPEG Coefficients4 <= 250: K2 (128.0/3.0)
+|   |   |   |   |   Histogram of JPEG Coefficients4 > 250: K1 (3.0/1.0)
+|   |   |   |   Histogram of JPEG Coefficients45 > 3
+|   |   |   |   |   Histogram of JPEG Coefficients128 <= 0: K2 (13.0)
+|   |   |   |   |   Histogram of JPEG Coefficients128 > 0
+|   |   |   |   |   |   Histogram of JPEG Coefficients140 <= 52: K1 (8.0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients140 > 52: K2 (5.0/1.0)
+|   |   |   Histogram of JPEG Coefficients159 > 106: K1 (6.0/1.0)
+|   |   Histogram of JPEG Coefficients18 > 228: K1 (6.0)
+
+Number of Leaves  : 	30
+
+Size of the tree : 	59
+
+
+Time taken to build model: 0.29 seconds
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         403               96.875  %
+Incorrectly Classified Instances        13                3.125  %
+Kappa statistic                          0.9599
+Mean absolute error                      0.0126
+Root mean squared error                  0.0794
+Relative absolute error                  6.4507 %
+Root relative squared error             25.4266 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.884    0.005    0.950      0.884    0.916      0.907    0.985     0.932     K1
+                 0.986    0.019    0.967      0.986    0.977      0.964    0.994     0.979     K2
+                 0.987    0.012    0.949      0.987    0.968      0.961    0.998     0.989     K3
+                 0.934    0.000    1.000      0.934    0.966      0.961    0.998     0.990     K4
+                 0.984    0.003    0.984      0.984    0.984      0.982    1.000     0.999     K5
+                 1.000    0.003    0.960      1.000    0.980      0.979    1.000     0.995     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.969    0.010    0.969      0.969    0.969      0.960    0.996     0.982     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  38   5   0   0   0   0   0   0 |   a = K1
+   2 146   0   0   0   0   0   0 |   b = K2
+   0   0  75   0   0   1   0   0 |   c = K3
+   0   0   3  57   1   0   0   0 |   d = K4
+   0   0   1   0  63   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.52 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         312               75      %
+Incorrectly Classified Instances       104               25      %
+Kappa statistic                          0.6818
+Mean absolute error                      0.0639
+Root mean squared error                  0.2417
+Relative absolute error                 32.6541 %
+Root relative squared error             77.3411 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.651    0.064    0.538      0.651    0.589      0.540    0.811     0.431     K1
+                 0.845    0.056    0.893      0.845    0.868      0.799    0.913     0.826     K2
+                 0.618    0.074    0.653      0.618    0.635      0.557    0.829     0.509     K3
+                 0.574    0.062    0.614      0.574    0.593      0.526    0.775     0.477     K4
+                 0.906    0.043    0.795      0.906    0.847      0.819    0.955     0.779     K5
+                 0.792    0.008    0.864      0.792    0.826      0.817    0.973     0.823     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.750    0.056    0.755      0.750    0.751      0.692    0.877     0.669     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  28  15   0   0   0   0   0   0 |   a = K1
+  23 125   0   0   0   0   0   0 |   b = K2
+   0   0  47  20   9   0   0   0 |   c = K3
+   1   0  18  35   4   3   0   0 |   d = K4
+   0   0   4   2  58   0   0   0 |   e = K5
+   0   0   3   0   2  19   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

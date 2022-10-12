@@ -1,0 +1,160 @@
+
+Options: -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 3 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5 
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=61 #classindex=60
+Network structure (nodes followed by parents)
+Gabor Features0(3): class 
+Gabor Features1(4): class Gabor Features0 
+Gabor Features2(3): class Gabor Features0 
+Gabor Features3(4): class Gabor Features1 
+Gabor Features4(3): class Gabor Features0 
+Gabor Features5(4): class Gabor Features1 
+Gabor Features6(3): class Gabor Features0 
+Gabor Features7(4): class Gabor Features1 
+Gabor Features8(3): class Gabor Features0 
+Gabor Features9(4): class Gabor Features1 
+Gabor Features10(3): class Gabor Features0 
+Gabor Features11(4): class Gabor Features1 
+Gabor Features12(3): class Gabor Features0 
+Gabor Features13(4): class Gabor Features1 
+Gabor Features14(3): class Gabor Features0 
+Gabor Features15(4): class Gabor Features1 
+Gabor Features16(3): class Gabor Features0 
+Gabor Features17(4): class Gabor Features1 
+Gabor Features18(3): class Gabor Features0 
+Gabor Features19(4): class Gabor Features1 
+Gabor Features20(3): class Gabor Features0 
+Gabor Features21(4): class Gabor Features1 
+Gabor Features22(3): class Gabor Features0 
+Gabor Features23(4): class Gabor Features1 
+Gabor Features24(3): class Gabor Features0 
+Gabor Features25(4): class Gabor Features1 
+Gabor Features26(3): class Gabor Features0 
+Gabor Features27(4): class Gabor Features1 
+Gabor Features28(3): class Gabor Features0 
+Gabor Features29(4): class Gabor Features1 
+Gabor Features30(3): class Gabor Features0 
+Gabor Features31(4): class Gabor Features1 
+Gabor Features32(3): class Gabor Features0 
+Gabor Features33(4): class Gabor Features1 
+Gabor Features34(3): class Gabor Features0 
+Gabor Features35(4): class Gabor Features1 
+Gabor Features36(3): class Gabor Features0 
+Gabor Features37(4): class Gabor Features1 
+Gabor Features38(3): class Gabor Features0 
+Gabor Features39(4): class Gabor Features1 
+Gabor Features40(3): class Gabor Features0 
+Gabor Features41(4): class Gabor Features1 
+Gabor Features42(3): class Gabor Features0 
+Gabor Features43(4): class Gabor Features1 
+Gabor Features44(3): class Gabor Features0 
+Gabor Features45(4): class Gabor Features1 
+Gabor Features46(3): class Gabor Features0 
+Gabor Features47(4): class Gabor Features1 
+Gabor Features48(3): class Gabor Features0 
+Gabor Features49(4): class Gabor Features1 
+Gabor Features50(3): class Gabor Features0 
+Gabor Features51(4): class Gabor Features1 
+Gabor Features52(3): class Gabor Features0 
+Gabor Features53(4): class Gabor Features1 
+Gabor Features54(3): class Gabor Features0 
+Gabor Features55(4): class Gabor Features1 
+Gabor Features56(3): class Gabor Features0 
+Gabor Features57(4): class Gabor Features1 
+Gabor Features58(3): class Gabor Features0 
+Gabor Features59(4): class Gabor Features1 
+class(8): 
+LogScore Bayes: -5679.884698613557
+LogScore BDeu: -24152.368175835487
+LogScore MDL: -21610.37195563641
+LogScore ENTROPY: -8731.843582348303
+LogScore AIC: -13002.843582348385
+
+
+Time taken to build model: 0.29 seconds
+
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         220               52.8846 %
+Incorrectly Classified Instances       196               47.1154 %
+Kappa statistic                          0.3421
+Mean absolute error                      0.1262
+Root mean squared error                  0.2994
+Relative absolute error                 64.4775 %
+Root relative squared error             95.8246 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    ?          0.000    ?          ?        0.532     0.125     K1
+                 0.939    0.437    0.543      0.939    0.688      0.495    0.851     0.708     K2
+                 0.461    0.150    0.407      0.461    0.432      0.296    0.764     0.376     K3
+                 0.180    0.011    0.733      0.180    0.289      0.321    0.698     0.348     K4
+                 0.547    0.068    0.593      0.547    0.569      0.495    0.876     0.489     K5
+                 0.000    0.000    ?          0.000    ?          ?        0.820     0.145     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.529    0.195    ?          0.529    ?          ?        0.782     0.468     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+   0  31   5   0   7   0   0   0 |   a = K1
+   0 139   4   2   3   0   0   0 |   b = K2
+   0  33  35   2   6   0   0   0 |   c = K3
+   0  26  16  11   8   0   0   0 |   d = K4
+   0  11  18   0  35   0   0   0 |   e = K5
+   0  16   8   0   0   0   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.7 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         200               48.0769 %
+Incorrectly Classified Instances       216               51.9231 %
+Kappa statistic                          0.2968
+Mean absolute error                      0.1362
+Root mean squared error                  0.3137
+Relative absolute error                 69.5934 %
+Root relative squared error            100.4017 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    ?          0.000    ?          ?        0.432     0.091     K1
+                 0.804    0.325    0.578      0.804    0.672      0.459    0.808     0.635     K2
+                 0.474    0.241    0.305      0.474    0.371      0.199    0.684     0.287     K3
+                 0.164    0.031    0.476      0.164    0.244      0.215    0.602     0.288     K4
+                 0.547    0.102    0.493      0.547    0.519      0.426    0.819     0.398     K5
+                 0.000    0.000    ?          0.000    ?          ?        0.806     0.135     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.481    0.180    ?          0.481    ?          ?        0.718     0.399     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+   0  25   9   0   9   0   0   0 |   a = K1
+   0 119  22   2   5   0   0   0 |   b = K2
+   0  20  36   9  11   0   0   0 |   c = K3
+   0  22  20  10   9   0   0   0 |   d = K4
+   0  11  18   0  35   0   0   0 |   e = K5
+   0   9  13   0   2   0   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

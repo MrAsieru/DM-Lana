@@ -1,0 +1,182 @@
+
+=== Classifier model (full training set) ===
+
+The independent probability of a class
+--------------------------------------
+K1	0.1
+K2	0.35
+K3	0.18
+K4	0.15
+K5	0.15
+K6	0.06
+K7	0
+K8	0
+
+The probability of a word given the class
+-----------------------------------------
+	K1	K2	K3	K4	K5	K6	K7	K8	
+MPEG-7 Edge Histogram0	0.01	0.01	0	0	0.01	0.01	0.01	0.01	
+MPEG-7 Edge Histogram1	0.01	0.01	0	0	0.01	0	0.01	0.01	
+MPEG-7 Edge Histogram2	0.01	0.02	0.04	0.04	0.03	0.01	0.01	0.01	
+MPEG-7 Edge Histogram3	0.01	0.01	0	0	0.01	0.01	0.01	0.01	
+MPEG-7 Edge Histogram4	0	0	0	0	0	0	0.01	0.01	
+MPEG-7 Edge Histogram5	0.01	0.01	0	0	0.01	0	0.01	0.01	
+MPEG-7 Edge Histogram6	0.02	0.01	0.03	0.03	0.02	0.02	0.01	0.01	
+MPEG-7 Edge Histogram7	0.03	0.03	0.03	0.03	0.03	0.03	0.01	0.01	
+MPEG-7 Edge Histogram8	0.01	0.01	0	0	0	0.01	0.01	0.01	
+MPEG-7 Edge Histogram9	0	0	0	0	0	0	0.01	0.01	
+MPEG-7 Edge Histogram10	0.01	0.01	0	0	0.01	0	0.01	0.01	
+MPEG-7 Edge Histogram11	0.02	0.01	0.02	0.02	0.02	0.02	0.01	0.01	
+MPEG-7 Edge Histogram12	0.01	0.01	0.01	0	0.01	0.01	0.01	0.01	
+MPEG-7 Edge Histogram13	0.03	0.03	0.04	0.03	0.04	0.03	0.01	0.01	
+MPEG-7 Edge Histogram14	0	0	0	0	0	0	0.01	0.01	
+MPEG-7 Edge Histogram15	0.01	0.02	0	0	0.01	0.01	0.01	0.01	
+MPEG-7 Edge Histogram16	0.01	0.01	0	0	0.01	0.01	0.01	0.01	
+MPEG-7 Edge Histogram17	0.01	0.01	0	0	0.01	0.02	0.01	0.01	
+MPEG-7 Edge Histogram18	0.01	0.02	0.04	0.04	0.03	0.02	0.01	0.01	
+MPEG-7 Edge Histogram19	0	0	0	0	0	0	0.01	0.01	
+MPEG-7 Edge Histogram20	0.03	0.03	0.03	0.03	0.02	0.02	0.01	0.01	
+MPEG-7 Edge Histogram21	0	0.01	0	0	0.01	0.01	0.01	0.01	
+MPEG-7 Edge Histogram22	0.03	0.02	0.03	0.03	0.04	0.02	0.01	0.01	
+MPEG-7 Edge Histogram23	0.01	0.01	0.01	0	0.02	0.01	0.01	0.01	
+MPEG-7 Edge Histogram24	0	0	0	0	0	0	0.01	0.01	
+MPEG-7 Edge Histogram25	0.01	0.01	0	0.02	0	0.01	0.01	0.01	
+MPEG-7 Edge Histogram26	0.01	0.04	0.02	0.01	0	0.01	0.01	0.01	
+MPEG-7 Edge Histogram27	0.02	0.01	0.02	0.03	0.01	0.02	0.01	0.01	
+MPEG-7 Edge Histogram28	0.02	0	0.03	0.02	0	0.01	0.01	0.01	
+MPEG-7 Edge Histogram29	0	0	0	0	0	0	0.01	0.01	
+MPEG-7 Edge Histogram30	0.01	0.01	0.02	0.03	0	0.01	0.01	0.01	
+MPEG-7 Edge Histogram31	0.01	0.04	0.01	0.01	0	0.01	0.01	0.01	
+MPEG-7 Edge Histogram32	0.02	0	0.03	0.02	0	0.01	0.01	0.01	
+MPEG-7 Edge Histogram33	0.03	0.01	0.02	0.02	0.02	0.03	0.01	0.01	
+MPEG-7 Edge Histogram34	0.01	0	0	0	0	0	0.01	0.01	
+MPEG-7 Edge Histogram35	0.02	0.03	0.03	0.03	0.02	0.02	0.01	0.01	
+MPEG-7 Edge Histogram36	0.01	0.01	0	0	0.01	0.01	0.01	0.01	
+MPEG-7 Edge Histogram37	0.01	0.02	0.01	0	0.01	0.02	0.01	0.01	
+MPEG-7 Edge Histogram38	0.03	0.02	0.03	0.03	0.04	0.03	0.01	0.01	
+MPEG-7 Edge Histogram39	0	0	0	0	0	0	0.01	0.01	
+MPEG-7 Edge Histogram40	0.03	0.02	0.03	0.03	0.02	0.02	0.01	0.01	
+MPEG-7 Edge Histogram41	0.01	0.01	0	0	0.01	0.01	0.01	0.01	
+MPEG-7 Edge Histogram42	0.01	0.01	0.01	0	0.01	0.01	0.01	0.01	
+MPEG-7 Edge Histogram43	0.03	0.02	0.03	0.03	0.03	0.02	0.01	0.01	
+MPEG-7 Edge Histogram44	0	0	0	0	0	0	0.01	0.01	
+MPEG-7 Edge Histogram45	0.01	0	0	0.02	0	0.01	0.01	0.01	
+MPEG-7 Edge Histogram46	0.01	0.04	0	0.01	0	0.01	0.01	0.01	
+MPEG-7 Edge Histogram47	0.01	0	0.03	0.02	0	0.01	0.01	0.01	
+MPEG-7 Edge Histogram48	0.02	0.01	0.01	0.03	0.01	0.03	0.01	0.01	
+MPEG-7 Edge Histogram49	0	0	0	0	0	0	0.01	0.01	
+MPEG-7 Edge Histogram50	0.01	0	0.03	0.03	0	0.01	0.01	0.01	
+MPEG-7 Edge Histogram51	0.01	0.04	0	0.01	0	0.01	0.01	0.01	
+MPEG-7 Edge Histogram52	0.03	0.01	0.02	0.02	0.01	0.03	0.01	0.01	
+MPEG-7 Edge Histogram53	0.01	0	0.01	0.02	0	0.01	0.01	0.01	
+MPEG-7 Edge Histogram54	0.01	0	0	0	0	0	0.01	0.01	
+MPEG-7 Edge Histogram55	0.02	0.02	0.03	0.03	0.02	0.02	0.01	0.01	
+MPEG-7 Edge Histogram56	0.01	0.01	0	0	0.01	0.01	0.01	0.01	
+MPEG-7 Edge Histogram57	0.03	0.02	0.03	0.03	0.03	0.02	0.01	0.01	
+MPEG-7 Edge Histogram58	0.01	0.01	0	0	0.02	0.02	0.01	0.01	
+MPEG-7 Edge Histogram59	0	0	0	0	0	0	0.01	0.01	
+MPEG-7 Edge Histogram60	0.01	0.01	0	0	0.02	0.02	0.01	0.01	
+MPEG-7 Edge Histogram61	0.01	0.02	0	0	0.01	0.01	0.01	0.01	
+MPEG-7 Edge Histogram62	0.01	0.01	0	0	0.01	0.02	0.01	0.01	
+MPEG-7 Edge Histogram63	0.01	0.01	0.04	0.04	0.02	0.02	0.01	0.01	
+MPEG-7 Edge Histogram64	0	0	0	0	0	0	0.01	0.01	
+MPEG-7 Edge Histogram65	0.01	0.01	0	0	0.01	0.02	0.01	0.01	
+MPEG-7 Edge Histogram66	0.02	0.01	0.03	0.03	0.03	0.01	0.01	0.01	
+MPEG-7 Edge Histogram67	0.01	0.01	0.01	0	0.02	0.02	0.01	0.01	
+MPEG-7 Edge Histogram68	0.03	0.02	0.03	0.03	0.03	0.03	0.01	0.01	
+MPEG-7 Edge Histogram69	0	0	0	0	0	0	0.01	0.01	
+MPEG-7 Edge Histogram70	0.01	0.01	0	0	0.02	0.02	0.01	0.01	
+MPEG-7 Edge Histogram71	0.02	0.01	0.03	0.02	0.03	0.01	0.01	0.01	
+MPEG-7 Edge Histogram72	0.03	0.02	0.04	0.03	0.03	0.02	0.01	0.01	
+MPEG-7 Edge Histogram73	0.01	0.01	0.01	0	0.02	0.02	0.01	0.01	
+MPEG-7 Edge Histogram74	0.01	0	0	0	0	0	0.01	0.01	
+MPEG-7 Edge Histogram75	0.01	0.01	0	0	0.02	0.02	0.01	0.01	
+MPEG-7 Edge Histogram76	0.01	0.02	0	0	0.01	0.01	0.01	0.01	
+MPEG-7 Edge Histogram77	0.01	0.01	0.04	0.04	0.02	0.02	0.01	0.01	
+MPEG-7 Edge Histogram78	0.01	0.01	0	0	0.02	0.02	0.01	0.01	
+MPEG-7 Edge Histogram79	0	0	0	0	0	0	0.01	0.01	
+
+
+Time taken to build model: 0.15 seconds
+
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         368               88.4615 %
+Incorrectly Classified Instances        48               11.5385 %
+Kappa statistic                          0.8526
+Mean absolute error                      0.0308
+Root mean squared error                  0.1623
+Relative absolute error                 15.7215 %
+Root relative squared error             51.9495 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.605    0.011    0.867      0.605    0.712      0.699    0.960     0.851     K1
+                 0.986    0.004    0.993      0.986    0.990      0.984    1.000     1.000     K2
+                 0.803    0.029    0.859      0.803    0.830      0.794    0.976     0.924     K3
+                 0.918    0.059    0.727      0.918    0.812      0.782    0.972     0.923     K4
+                 0.875    0.009    0.949      0.875    0.911      0.896    0.985     0.966     K5
+                 0.958    0.015    0.793      0.958    0.868      0.863    0.998     0.974     K6
+                 ?        0.007    0.000      ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.885    0.019    0.898      0.885    0.887      0.870    0.985     0.952     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  26   0   1   9   1   4   2   0 |   a = K1
+   2 146   0   0   0   0   0   0 |   b = K2
+   1   1  61  12   1   0   0   0 |   c = K3
+   1   0   2  56   1   0   1   0 |   d = K4
+   0   0   6   0  56   2   0   0 |   e = K5
+   0   0   1   0   0  23   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.04 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         357               85.8173 %
+Incorrectly Classified Instances        59               14.1827 %
+Kappa statistic                          0.8196
+Mean absolute error                      0.0374
+Root mean squared error                  0.1796
+Relative absolute error                 19.0861 %
+Root relative squared error             57.4873 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.535    0.016    0.793      0.535    0.639      0.620    0.939     0.773     K1
+                 0.959    0.004    0.993      0.959    0.976      0.963    1.000     0.999     K2
+                 0.789    0.032    0.845      0.789    0.816      0.778    0.965     0.895     K3
+                 0.902    0.062    0.714      0.902    0.797      0.765    0.960     0.898     K4
+                 0.875    0.006    0.966      0.875    0.918      0.905    0.980     0.960     K5
+                 0.875    0.028    0.656      0.875    0.750      0.741    0.992     0.914     K6
+                 ?        0.014    0.000      ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.858    0.020    0.881      0.858    0.864      0.843    0.978     0.931     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  23   0   1   9   1   6   3   0 |   a = K1
+   2 142   0   0   0   2   2   0 |   b = K2
+   1   1  60  13   1   0   0   0 |   c = K3
+   1   0   3  55   0   1   1   0 |   d = K4
+   0   0   6   0  56   2   0   0 |   e = K5
+   2   0   1   0   0  21   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+

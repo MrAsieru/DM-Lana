@@ -1,0 +1,477 @@
+
+Options: -K 0 -M 1.0 -V 0.001 -S 1 
+
+=== Classifier model (full training set) ===
+
+
+RandomTree
+==========
+
+Auto Color Correlogram60 < 13.5
+|   Auto Color Correlogram52 < 10.5
+|   |   Auto Color Correlogram59 < 0.5
+|   |   |   Auto Color Correlogram2 < 0.5
+|   |   |   |   Auto Color Correlogram52 < 4 : K2 (2/0)
+|   |   |   |   Auto Color Correlogram52 >= 4
+|   |   |   |   |   Auto Color Correlogram62 < 4 : K2 (1/0)
+|   |   |   |   |   Auto Color Correlogram62 >= 4 : K5 (2/0)
+|   |   |   Auto Color Correlogram2 >= 0.5 : K3 (1/0)
+|   |   Auto Color Correlogram59 >= 0.5
+|   |   |   Auto Color Correlogram54 < 4.5
+|   |   |   |   Auto Color Correlogram51 < 11.5
+|   |   |   |   |   Auto Color Correlogram54 < 1.5
+|   |   |   |   |   |   Auto Color Correlogram62 < 8.5
+|   |   |   |   |   |   |   Auto Color Correlogram62 < 2.5 : K3 (1/0)
+|   |   |   |   |   |   |   Auto Color Correlogram62 >= 2.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram61 < 7 : K4 (1/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram61 >= 7 : K3 (1/0)
+|   |   |   |   |   |   Auto Color Correlogram62 >= 8.5
+|   |   |   |   |   |   |   Auto Color Correlogram62 < 10.5 : K5 (2/0)
+|   |   |   |   |   |   |   Auto Color Correlogram62 >= 10.5 : K4 (1/0)
+|   |   |   |   |   Auto Color Correlogram54 >= 1.5
+|   |   |   |   |   |   Auto Color Correlogram57 < 3 : K4 (1/0)
+|   |   |   |   |   |   Auto Color Correlogram57 >= 3
+|   |   |   |   |   |   |   Auto Color Correlogram57 < 6.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram62 < 5.5 : K3 (8/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram62 >= 5.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram57 < 5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram57 >= 5 : K3 (1/0)
+|   |   |   |   |   |   |   Auto Color Correlogram57 >= 6.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram0 < 3.5 : K4 (2/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram0 >= 3.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram48 < 13.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram59 < 12.5
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram56 < 13.5
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram62 < 0.5 : K3 (7/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram62 >= 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram63 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram60 < 4.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram60 >= 4.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram50 < 4.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram50 >= 4.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram62 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram61 < 2.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram61 >= 2.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram62 >= 2.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram63 >= 2.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram56 >= 13.5
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 < 3.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 >= 3.5 : K3 (11/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram59 >= 12.5
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram48 < 11.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram48 >= 11.5
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 < 4 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 >= 4 : K4 (2/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram48 >= 13.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 < 4.5 : K4 (5/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 >= 4.5 : K3 (2/0)
+|   |   |   |   Auto Color Correlogram51 >= 11.5
+|   |   |   |   |   Auto Color Correlogram62 < 1.5
+|   |   |   |   |   |   Auto Color Correlogram55 < 1.5 : K4 (1/0)
+|   |   |   |   |   |   Auto Color Correlogram55 >= 1.5
+|   |   |   |   |   |   |   Auto Color Correlogram58 < 11 : K2 (1/0)
+|   |   |   |   |   |   |   Auto Color Correlogram58 >= 11 : K3 (1/0)
+|   |   |   |   |   Auto Color Correlogram62 >= 1.5
+|   |   |   |   |   |   Auto Color Correlogram48 < 14.5
+|   |   |   |   |   |   |   Auto Color Correlogram3 < 6 : K5 (2/0)
+|   |   |   |   |   |   |   Auto Color Correlogram3 >= 6 : K3 (1/0)
+|   |   |   |   |   |   Auto Color Correlogram48 >= 14.5 : K5 (4/0)
+|   |   |   Auto Color Correlogram54 >= 4.5
+|   |   |   |   Auto Color Correlogram53 < 8.5
+|   |   |   |   |   Auto Color Correlogram59 < 5
+|   |   |   |   |   |   Auto Color Correlogram57 < 6.5
+|   |   |   |   |   |   |   Auto Color Correlogram52 < 7.5 : K3 (1/0)
+|   |   |   |   |   |   |   Auto Color Correlogram52 >= 7.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram59 < 2.5 : K4 (4/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram59 >= 2.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram53 < 7.5 : K4 (4/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram53 >= 7.5 : K3 (1/0)
+|   |   |   |   |   |   Auto Color Correlogram57 >= 6.5 : K3 (1/0)
+|   |   |   |   |   Auto Color Correlogram59 >= 5
+|   |   |   |   |   |   Auto Color Correlogram54 < 6.5
+|   |   |   |   |   |   |   Auto Color Correlogram60 < 10
+|   |   |   |   |   |   |   |   Auto Color Correlogram62 < 1
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram58 < 10 : K6 (1/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram58 >= 10 : K4 (1/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram62 >= 1 : K3 (1/0)
+|   |   |   |   |   |   |   Auto Color Correlogram60 >= 10
+|   |   |   |   |   |   |   |   Auto Color Correlogram63 < 5.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram63 >= 5.5 : K6 (2/0)
+|   |   |   |   |   |   Auto Color Correlogram54 >= 6.5 : K6 (5/0)
+|   |   |   |   Auto Color Correlogram53 >= 8.5 : K5 (2/0)
+|   Auto Color Correlogram52 >= 10.5
+|   |   Auto Color Correlogram61 < 0.5
+|   |   |   Auto Color Correlogram3 < 0.5
+|   |   |   |   Auto Color Correlogram51 < 11.5
+|   |   |   |   |   Auto Color Correlogram48 < 11 : K3 (3/0)
+|   |   |   |   |   Auto Color Correlogram48 >= 11
+|   |   |   |   |   |   Auto Color Correlogram52 < 12.5 : K5 (2/0)
+|   |   |   |   |   |   Auto Color Correlogram52 >= 12.5
+|   |   |   |   |   |   |   Auto Color Correlogram51 < 10.5 : K1 (1/0)
+|   |   |   |   |   |   |   Auto Color Correlogram51 >= 10.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram56 < 12 : K2 (1/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram56 >= 12
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram54 < 12.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram54 >= 12.5 : K5 (12/0)
+|   |   |   |   Auto Color Correlogram51 >= 11.5
+|   |   |   |   |   Auto Color Correlogram57 < 0.5
+|   |   |   |   |   |   Auto Color Correlogram58 < 0.5
+|   |   |   |   |   |   |   Auto Color Correlogram56 < 0.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram50 < 13.5 : K2 (5/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram50 >= 13.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram49 < 14.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 < 9 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 >= 9
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 < 11.5 : K2 (3/0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 >= 11.5
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram55 < 9.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram55 >= 9.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram49 >= 14.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram51 < 14.5 : K2 (24/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram51 >= 14.5
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram54 < 8.5
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram55 < 4.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram55 >= 4.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 < 8.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 >= 8.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram54 >= 8.5 : K2 (8/0)
+|   |   |   |   |   |   |   Auto Color Correlogram56 >= 0.5 : K1 (1/0)
+|   |   |   |   |   |   Auto Color Correlogram58 >= 0.5 : K2 (1/0)
+|   |   |   |   |   Auto Color Correlogram57 >= 0.5
+|   |   |   |   |   |   Auto Color Correlogram58 < 0.5 : K5 (2/0)
+|   |   |   |   |   |   Auto Color Correlogram58 >= 0.5
+|   |   |   |   |   |   |   Auto Color Correlogram52 < 12.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram53 < 8.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram49 < 14.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram55 < 5.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram55 >= 5.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram49 >= 14.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram51 < 14.5 : K2 (5/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram51 >= 14.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram53 >= 8.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram49 < 14.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram60 < 1
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram50 < 13.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram50 >= 13.5
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram56 < 8 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram56 >= 8 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram60 >= 1 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram49 >= 14.5 : K1 (1/0)
+|   |   |   |   |   |   |   Auto Color Correlogram52 >= 12.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram53 < 14.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram56 < 12.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 < 12.5 : K2 (6/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 >= 12.5
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram56 < 9 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram56 >= 9
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram58 < 3.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram58 >= 3.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram50 < 13.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram50 >= 13.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram56 >= 12.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram57 < 12 : K1 (2/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram57 >= 12
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram50 < 13.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram50 >= 13.5
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram55 < 9.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram55 >= 9.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram59 < 11.5 : K1 (2/1)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram59 >= 11.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram53 >= 14.5 : K1 (1/0)
+|   |   |   Auto Color Correlogram3 >= 0.5
+|   |   |   |   Auto Color Correlogram56 < 9.5
+|   |   |   |   |   Auto Color Correlogram52 < 11.5
+|   |   |   |   |   |   Auto Color Correlogram0 < 4.5
+|   |   |   |   |   |   |   Auto Color Correlogram54 < 8 : K3 (2/0)
+|   |   |   |   |   |   |   Auto Color Correlogram54 >= 8 : K4 (1/0)
+|   |   |   |   |   |   Auto Color Correlogram0 >= 4.5 : K3 (3/0)
+|   |   |   |   |   Auto Color Correlogram52 >= 11.5
+|   |   |   |   |   |   Auto Color Correlogram60 < 4
+|   |   |   |   |   |   |   Auto Color Correlogram57 < 3.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram58 < 0.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram0 < 12.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 < 13.5
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram52 < 12.5
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram49 < 9.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram49 >= 9.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram52 >= 12.5
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram49 < 12.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram50 < 7.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram50 >= 7.5 : K3 (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram49 >= 12.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 >= 13.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram0 >= 12.5 : K4 (4/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram58 >= 0.5 : K3 (2/0)
+|   |   |   |   |   |   |   Auto Color Correlogram57 >= 3.5 : K4 (1/0)
+|   |   |   |   |   |   Auto Color Correlogram60 >= 4 : K4 (1/0)
+|   |   |   |   Auto Color Correlogram56 >= 9.5 : K3 (2/0)
+|   |   Auto Color Correlogram61 >= 0.5
+|   |   |   Auto Color Correlogram57 < 7.5
+|   |   |   |   Auto Color Correlogram55 < 12.5
+|   |   |   |   |   Auto Color Correlogram54 < 11.5
+|   |   |   |   |   |   Auto Color Correlogram62 < 6
+|   |   |   |   |   |   |   Auto Color Correlogram48 < 14.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram49 < 7 : K5 (2/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram49 >= 7
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram56 < 5.5 : K3 (2/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram56 >= 5.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram54 < 10.5 : K5 (4/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram54 >= 10.5 : K3 (1/0)
+|   |   |   |   |   |   |   Auto Color Correlogram48 >= 14.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram61 < 5 : K2 (2/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram61 >= 5 : K1 (2/0)
+|   |   |   |   |   |   Auto Color Correlogram62 >= 6
+|   |   |   |   |   |   |   Auto Color Correlogram55 < 9.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram57 < 3.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram57 >= 3.5 : K5 (5/0)
+|   |   |   |   |   |   |   Auto Color Correlogram55 >= 9.5 : K6 (2/0)
+|   |   |   |   |   Auto Color Correlogram54 >= 11.5
+|   |   |   |   |   |   Auto Color Correlogram53 < 13.5
+|   |   |   |   |   |   |   Auto Color Correlogram54 < 12.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram59 < 1.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram56 < 6.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram2 < 10 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram2 >= 10
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram57 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram61 < 5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram61 >= 5 : K3 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram57 >= 2.5 : K4 (1/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram56 >= 6.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram59 >= 1.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram3 < 4.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram49 < 14
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram56 < 8.5 : K6 (2/0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram56 >= 8.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram49 >= 14 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram3 >= 4.5 : K4 (1/0)
+|   |   |   |   |   |   |   Auto Color Correlogram54 >= 12.5 : K3 (4/0)
+|   |   |   |   |   |   Auto Color Correlogram53 >= 13.5
+|   |   |   |   |   |   |   Auto Color Correlogram2 < 11.5 : K3 (1/0)
+|   |   |   |   |   |   |   Auto Color Correlogram2 >= 11.5 : K4 (2/0)
+|   |   |   |   Auto Color Correlogram55 >= 12.5
+|   |   |   |   |   Auto Color Correlogram48 < 12.5 : K5 (13/0)
+|   |   |   |   |   Auto Color Correlogram48 >= 12.5
+|   |   |   |   |   |   Auto Color Correlogram49 < 13.5
+|   |   |   |   |   |   |   Auto Color Correlogram58 < 3.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram56 < 5.5 : K3 (1/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram56 >= 5.5 : K4 (1/0)
+|   |   |   |   |   |   |   Auto Color Correlogram58 >= 3.5 : K4 (1/0)
+|   |   |   |   |   |   Auto Color Correlogram49 >= 13.5
+|   |   |   |   |   |   |   Auto Color Correlogram57 < 6 : K3 (1/0)
+|   |   |   |   |   |   |   Auto Color Correlogram57 >= 6 : K6 (2/0)
+|   |   |   Auto Color Correlogram57 >= 7.5
+|   |   |   |   Auto Color Correlogram63 < 0.5
+|   |   |   |   |   Auto Color Correlogram58 < 7.5
+|   |   |   |   |   |   Auto Color Correlogram51 < 12.5 : K4 (2/0)
+|   |   |   |   |   |   Auto Color Correlogram51 >= 12.5 : K2 (1/0)
+|   |   |   |   |   Auto Color Correlogram58 >= 7.5 : K2 (1/0)
+|   |   |   |   Auto Color Correlogram63 >= 0.5
+|   |   |   |   |   Auto Color Correlogram3 < 3
+|   |   |   |   |   |   Auto Color Correlogram59 < 9.5
+|   |   |   |   |   |   |   Auto Color Correlogram52 < 11.5 : K6 (6/0)
+|   |   |   |   |   |   |   Auto Color Correlogram52 >= 11.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram49 < 14.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram60 < 9
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 < 11.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 >= 11.5 : K6 (4/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram60 >= 9
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram58 < 5.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram58 >= 5.5 : K1 (6/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram49 >= 14.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram61 < 4.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram61 >= 4.5 : K2 (3/0)
+|   |   |   |   |   |   Auto Color Correlogram59 >= 9.5
+|   |   |   |   |   |   |   Auto Color Correlogram56 < 13.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram58 < 10.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram58 >= 10.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram48 < 11.5 : K5 (2/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram48 >= 11.5 : K2 (2/0)
+|   |   |   |   |   |   |   Auto Color Correlogram56 >= 13.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram49 < 14.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram63 < 6 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram63 >= 6 : K1 (1/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram49 >= 14.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram62 < 3.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram62 >= 3.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram61 < 9.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram61 >= 9.5 : K2 (1/0)
+|   |   |   |   |   Auto Color Correlogram3 >= 3
+|   |   |   |   |   |   Auto Color Correlogram2 < 11.5 : K4 (2/0)
+|   |   |   |   |   |   Auto Color Correlogram2 >= 11.5 : K3 (1/0)
+Auto Color Correlogram60 >= 13.5
+|   Auto Color Correlogram56 < 6.5
+|   |   Auto Color Correlogram55 < 6.5
+|   |   |   Auto Color Correlogram48 < 12 : K4 (1/0)
+|   |   |   Auto Color Correlogram48 >= 12 : K5 (4/0)
+|   |   Auto Color Correlogram55 >= 6.5
+|   |   |   Auto Color Correlogram50 < 7.5
+|   |   |   |   Auto Color Correlogram61 < 13.5 : K4 (1/0)
+|   |   |   |   Auto Color Correlogram61 >= 13.5
+|   |   |   |   |   Auto Color Correlogram2 < 6 : K2 (1/0)
+|   |   |   |   |   Auto Color Correlogram2 >= 6 : K4 (1/0)
+|   |   |   Auto Color Correlogram50 >= 7.5 : K4 (2/0)
+|   Auto Color Correlogram56 >= 6.5
+|   |   Auto Color Correlogram58 < 9.5
+|   |   |   Auto Color Correlogram55 < 11.5
+|   |   |   |   Auto Color Correlogram53 < 7.5
+|   |   |   |   |   Auto Color Correlogram1 < 11.5 : K3 (2/0)
+|   |   |   |   |   Auto Color Correlogram1 >= 11.5
+|   |   |   |   |   |   Auto Color Correlogram59 < 6.5 : K4 (1/0)
+|   |   |   |   |   |   Auto Color Correlogram59 >= 6.5 : K3 (1/0)
+|   |   |   |   Auto Color Correlogram53 >= 7.5
+|   |   |   |   |   Auto Color Correlogram54 < 11.5
+|   |   |   |   |   |   Auto Color Correlogram62 < 13.5
+|   |   |   |   |   |   |   Auto Color Correlogram48 < 6.5 : K5 (2/0)
+|   |   |   |   |   |   |   Auto Color Correlogram48 >= 6.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram60 < 14.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram60 >= 14.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram59 < 5.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram52 < 13.5
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram63 < 12.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram63 >= 12.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram52 >= 13.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram59 >= 5.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram55 < 8 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram55 >= 8 : K5 (2/0)
+|   |   |   |   |   |   Auto Color Correlogram62 >= 13.5
+|   |   |   |   |   |   |   Auto Color Correlogram63 < 13.5 : K1 (1/0)
+|   |   |   |   |   |   |   Auto Color Correlogram63 >= 13.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram56 < 11.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram57 < 8.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram57 >= 8.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram56 >= 11.5 : K5 (2/0)
+|   |   |   |   |   Auto Color Correlogram54 >= 11.5
+|   |   |   |   |   |   Auto Color Correlogram60 < 14.5
+|   |   |   |   |   |   |   Auto Color Correlogram50 < 10 : K4 (1/0)
+|   |   |   |   |   |   |   Auto Color Correlogram50 >= 10
+|   |   |   |   |   |   |   |   Auto Color Correlogram63 < 11.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram57 < 6 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram57 >= 6
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 < 12.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram53 >= 12.5 : K1 (2/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram63 >= 11.5 : K1 (1/0)
+|   |   |   |   |   |   Auto Color Correlogram60 >= 14.5
+|   |   |   |   |   |   |   Auto Color Correlogram57 < 7 : K3 (1/0)
+|   |   |   |   |   |   |   Auto Color Correlogram57 >= 7 : K1 (1/0)
+|   |   |   Auto Color Correlogram55 >= 11.5
+|   |   |   |   Auto Color Correlogram51 < 9.5 : K2 (8/0)
+|   |   |   |   Auto Color Correlogram51 >= 9.5
+|   |   |   |   |   Auto Color Correlogram63 < 9.5 : K1 (1/0)
+|   |   |   |   |   Auto Color Correlogram63 >= 9.5
+|   |   |   |   |   |   Auto Color Correlogram50 < 13.5
+|   |   |   |   |   |   |   Auto Color Correlogram58 < 7.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram54 < 13.5
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram58 < 5.5 : K2 (2/0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram58 >= 5.5
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram62 < 14.5
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram52 < 14.5
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram55 < 12.5 : K2 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram55 >= 12.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram52 >= 14.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram62 >= 14.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram54 >= 13.5 : K2 (1/0)
+|   |   |   |   |   |   |   Auto Color Correlogram58 >= 7.5 : K2 (3/0)
+|   |   |   |   |   |   Auto Color Correlogram50 >= 13.5 : K2 (8/0)
+|   |   Auto Color Correlogram58 >= 9.5
+|   |   |   Auto Color Correlogram58 < 13.5
+|   |   |   |   Auto Color Correlogram62 < 14.5
+|   |   |   |   |   Auto Color Correlogram1 < 6.5
+|   |   |   |   |   |   Auto Color Correlogram56 < 13.5
+|   |   |   |   |   |   |   Auto Color Correlogram54 < 10.5 : K2 (5/0)
+|   |   |   |   |   |   |   Auto Color Correlogram54 >= 10.5
+|   |   |   |   |   |   |   |   Auto Color Correlogram52 < 13.5 : K1 (1/0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram52 >= 13.5 : K2 (5/0)
+|   |   |   |   |   |   Auto Color Correlogram56 >= 13.5 : K2 (14/0)
+|   |   |   |   |   Auto Color Correlogram1 >= 6.5 : K4 (1/0)
+|   |   |   |   Auto Color Correlogram62 >= 14.5
+|   |   |   |   |   Auto Color Correlogram55 < 12 : K2 (1/0)
+|   |   |   |   |   Auto Color Correlogram55 >= 12 : K1 (1/0)
+|   |   |   Auto Color Correlogram58 >= 13.5
+|   |   |   |   Auto Color Correlogram63 < 11.5 : K1 (1/0)
+|   |   |   |   Auto Color Correlogram63 >= 11.5 : K2 (1/0)
+
+Size of the tree : 383
+
+Time taken to build model: 0.21 seconds
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         415               99.7596 %
+Incorrectly Classified Instances         1                0.2404 %
+Kappa statistic                          0.9969
+Mean absolute error                      0.0006
+Root mean squared error                  0.0173
+Relative absolute error                  0.3071 %
+Root relative squared error              5.5482 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.003    0.977      1.000    0.989      0.987    1.000     0.999     K1
+                 0.993    0.000    1.000      0.993    0.997      0.995    1.000     1.000     K2
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K3
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.998    0.000    0.998      0.998    0.998      0.997    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  43   0   0   0   0   0   0   0 |   a = K1
+   1 147   0   0   0   0   0   0 |   b = K2
+   0   0  76   0   0   0   0   0 |   c = K3
+   0   0   0  61   0   0   0   0 |   d = K4
+   0   0   0   0  64   0   0   0 |   e = K5
+   0   0   0   0   0  24   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
+Time taken to perform cross-validation: 0.23 seconds
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         288               69.2308 %
+Incorrectly Classified Instances       128               30.7692 %
+Kappa statistic                          0.6073
+Mean absolute error                      0.0766
+Root mean squared error                  0.2765
+Relative absolute error                 39.1477 %
+Root relative squared error             88.5025 %
+Total Number of Instances              416     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.302    0.067    0.342      0.302    0.321      0.249    0.618     0.178     K1
+                 0.784    0.101    0.811      0.784    0.797      0.688    0.845     0.716     K2
+                 0.618    0.085    0.618      0.618    0.618      0.533    0.767     0.452     K3
+                 0.508    0.085    0.508      0.508    0.508      0.424    0.712     0.330     K4
+                 0.938    0.028    0.857      0.938    0.896      0.877    0.955     0.813     K5
+                 0.875    0.018    0.750      0.875    0.808      0.798    0.929     0.663     K6
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
+                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+Weighted Avg.    0.692    0.076    0.687      0.692    0.689      0.611    0.809     0.568     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   <-- classified as
+  13  24   0   0   4   2   0   0 |   a = K1
+  25 116   1   0   4   2   0   0 |   b = K2
+   0   0  47  28   1   0   0   0 |   c = K3
+   0   0  28  31   1   1   0   0 |   d = K4
+   0   0   0   2  60   2   0   0 |   e = K5
+   0   3   0   0   0  21   0   0 |   f = K6
+   0   0   0   0   0   0   0   0 |   g = K7
+   0   0   0   0   0   0   0   0 |   h = K8
+
