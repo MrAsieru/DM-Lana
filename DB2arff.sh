@@ -46,7 +46,7 @@ echo "" > $irteerarff
 echo "@RELATION dm_prak" >> $irteerarff
 echo "" >> $irteerarff
 echo "@ATTRIBUTE filename string" >> $irteerarff
-echo "@ATTRIBUTE class {K1, K2, K3, K4, K5, K6, K7, K8}" >> $irteerarff
+echo "@ATTRIBUTE class {K1, K2, K3, K4, K5, K6}" >> $irteerarff
 echo "" >> $irteerarff
 echo "@DATA" >> $irteerarff
 

@@ -8,1982 +8,1119 @@ Logistic model tree
 
 RGB Color Histogram0 <= 67
 |   RGB Color Histogram42 <= 94
-|   |   RGB Color Histogram42 <= 52
-|   |   |   RGB Color Histogram21 <= 238: LM_1:0/24 (2)
-|   |   |   RGB Color Histogram21 > 238
-|   |   |   |   RGB Color Histogram42 <= 31
-|   |   |   |   |   RGB Color Histogram63 <= 162
-|   |   |   |   |   |   RGB Color Histogram63 <= 10: LM_2:6/48 (14)
-|   |   |   |   |   |   RGB Color Histogram63 > 10: LM_3:6/48 (13)
-|   |   |   |   |   RGB Color Histogram63 > 162: LM_4:0/36 (2)
-|   |   |   |   RGB Color Histogram42 > 31: LM_5:6/36 (19)
-|   |   RGB Color Histogram42 > 52: LM_6:6/24 (21)
+|   |   RGB Color Histogram42 <= 52: LM_1:4/16 (50)
+|   |   RGB Color Histogram42 > 52: LM_2:4/16 (21)
 |   RGB Color Histogram42 > 94
 |   |   RGB Color Histogram63 <= 32
-|   |   |   RGB Color Histogram63 <= 0: LM_7:6/30 (12)
-|   |   |   RGB Color Histogram63 > 0: LM_8:6/30 (17)
-|   |   RGB Color Histogram63 > 32
-|   |   |   RGB Color Histogram21 <= 147: LM_9:6/30 (5)
-|   |   |   RGB Color Histogram21 > 147: LM_10:6/30 (11)
+|   |   |   RGB Color Histogram63 <= 0: LM_3:4/20 (12)
+|   |   |   RGB Color Histogram63 > 0: LM_4:4/20 (17)
+|   |   RGB Color Histogram63 > 32: LM_5:4/16 (16)
 RGB Color Histogram0 > 67
 |   RGB Color Histogram42 <= 49
-|   |   RGB Color Histogram21 <= 158
-|   |   |   RGB Color Histogram42 <= 2
-|   |   |   |   RGB Color Histogram42 <= 0: LM_11:6/36 (46)
-|   |   |   |   RGB Color Histogram42 > 0: LM_12:6/36 (6)
-|   |   |   RGB Color Histogram42 > 2: LM_13:6/30 (17)
+|   |   RGB Color Histogram21 <= 158: LM_6:4/16 (69)
 |   |   RGB Color Histogram21 > 158
 |   |   |   RGB Color Histogram42 <= 16
 |   |   |   |   RGB Color Histogram42 <= 4
-|   |   |   |   |   RGB Color Histogram0 <= 243: LM_14:6/42 (14)
+|   |   |   |   |   RGB Color Histogram0 <= 243: LM_7:4/28 (14)
 |   |   |   |   |   RGB Color Histogram0 > 243
-|   |   |   |   |   |   RGB Color Histogram21 <= 174: LM_15:0/42 (4)
-|   |   |   |   |   |   RGB Color Histogram21 > 174
-|   |   |   |   |   |   |   RGB Color Histogram21 <= 237: LM_16:6/54 (18)
-|   |   |   |   |   |   |   RGB Color Histogram21 > 237: LM_17:6/54 (5)
-|   |   |   |   RGB Color Histogram42 > 4
-|   |   |   |   |   RGB Color Histogram63 <= 0: LM_18:6/42 (16)
-|   |   |   |   |   RGB Color Histogram63 > 0: LM_19:6/42 (9)
+|   |   |   |   |   |   RGB Color Histogram21 <= 174: LM_8:0/28 (4)
+|   |   |   |   |   |   RGB Color Histogram21 > 174: LM_9:4/32 (23)
+|   |   |   |   RGB Color Histogram42 > 4: LM_10:4/24 (25)
 |   |   |   RGB Color Histogram42 > 16
-|   |   |   |   RGB Color Histogram21 <= 211: LM_20:6/36 (13)
+|   |   |   |   RGB Color Histogram21 <= 211: LM_11:4/24 (13)
 |   |   |   |   RGB Color Histogram21 > 211
 |   |   |   |   |   RGB Color Histogram63 <= 16
-|   |   |   |   |   |   RGB Color Histogram0 <= 97: LM_21:6/48 (9)
-|   |   |   |   |   |   RGB Color Histogram0 > 97: LM_22:6/48 (14)
-|   |   |   |   |   RGB Color Histogram63 > 16: LM_23:6/42 (9)
+|   |   |   |   |   |   RGB Color Histogram0 <= 97: LM_12:4/32 (9)
+|   |   |   |   |   |   RGB Color Histogram0 > 97: LM_13:4/32 (14)
+|   |   |   |   |   RGB Color Histogram63 > 16: LM_14:4/28 (9)
 |   RGB Color Histogram42 > 49
 |   |   RGB Color Histogram21 <= 252
 |   |   |   RGB Color Histogram0 <= 249
-|   |   |   |   RGB Color Histogram0 <= 107: LM_24:0/30 (3)
-|   |   |   |   RGB Color Histogram0 > 107: LM_25:6/36 (22)
+|   |   |   |   RGB Color Histogram0 <= 107: LM_15:0/20 (3)
+|   |   |   |   RGB Color Histogram0 > 107: LM_16:4/24 (22)
 |   |   |   RGB Color Histogram0 > 249
 |   |   |   |   RGB Color Histogram42 <= 176
-|   |   |   |   |   RGB Color Histogram63 <= 9: LM_26:6/42 (24)
-|   |   |   |   |   RGB Color Histogram63 > 9: LM_27:6/42 (7)
-|   |   |   |   RGB Color Histogram42 > 176
-|   |   |   |   |   RGB Color Histogram63 <= 9: LM_28:6/42 (20)
-|   |   |   |   |   RGB Color Histogram63 > 9: LM_29:0/36 (3)
+|   |   |   |   |   RGB Color Histogram63 <= 9: LM_17:4/28 (24)
+|   |   |   |   |   RGB Color Histogram63 > 9: LM_18:4/28 (7)
+|   |   |   |   RGB Color Histogram42 > 176: LM_19:4/24 (23)
 |   |   RGB Color Histogram21 > 252
-|   |   |   RGB Color Histogram42 <= 67: LM_30:6/30 (11)
+|   |   |   RGB Color Histogram42 <= 67: LM_20:4/20 (11)
 |   |   |   RGB Color Histogram42 > 67
 |   |   |   |   RGB Color Histogram63 <= 0
-|   |   |   |   |   RGB Color Histogram42 <= 123: LM_31:6/42 (10)
-|   |   |   |   |   RGB Color Histogram42 > 123: LM_32:6/42 (6)
-|   |   |   |   RGB Color Histogram63 > 0: LM_33:6/36 (14)
+|   |   |   |   |   RGB Color Histogram42 <= 123: LM_21:4/28 (10)
+|   |   |   |   |   RGB Color Histogram42 > 123: LM_22:4/28 (6)
+|   |   |   |   RGB Color Histogram63 > 0: LM_23:4/24 (14)
 
-Number of Leaves  : 	33
+Number of Leaves  : 	23
 
-Size of the Tree : 	65
-
+Size of the Tree : 	45
 
 
 
 LM_1:
 Class K1 :
-21.49 + 
+21.5 + 
 [RGB Color Histogram0] * 0.01 +
 [RGB Color Histogram21] * -0.08 +
-[RGB Color Histogram42] * 0    +
+[RGB Color Histogram42] * 0.01 +
 [RGB Color Histogram63] * 0.01
 
 Class K2 :
--34.39 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * 0.15 +
+-18.84 + 
+[RGB Color Histogram0] * -0 +
+[RGB Color Histogram21] * 0.09 +
 [RGB Color Histogram42] * -0.07 +
 [RGB Color Histogram63] * 0   
 
 Class K3 :
--18.11 + 
+-11.94 + 
 [RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
 [RGB Color Histogram63] * -0
 
 Class K4 :
--18.67 + 
+-12.36 + 
 [RGB Color Histogram0] * 0.01 +
 [RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * 0   
+[RGB Color Histogram42] * 0   
 
 Class K5 :
--1.12 + 
+2.19 + 
 [RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.03 +
+[RGB Color Histogram21] * -0.01 +
+[RGB Color Histogram42] * 0.04 +
 [RGB Color Histogram63] * -0.01
 
 Class K6 :
--37.37 + 
-[RGB Color Histogram21] * 0.1  +
-[RGB Color Histogram42] * 0.02 +
+-12.07 + 
+[RGB Color Histogram21] * 0.02 +
+[RGB Color Histogram42] * 0.01 +
 [RGB Color Histogram63] * -0.02
-
-Class K7 :
--21.17 + 
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--21.17 + 
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-
-
 
 LM_2:
 Class K1 :
-23.33 + 
-[RGB Color Histogram0] * -0 +
-[RGB Color Histogram21] * -0.08 +
-[RGB Color Histogram42] * -0.06 +
-[RGB Color Histogram63] * -0.32
-
-Class K2 :
--35.59 + 
-[RGB Color Histogram0] * -0 +
-[RGB Color Histogram21] * 0.15 +
-[RGB Color Histogram42] * -0.03 +
-[RGB Color Histogram63] * -0.51
-
-Class K3 :
--38.74 + 
+16.97 + 
 [RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * -0
-
-Class K4 :
--34.31 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * -0.02 +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * 0   
-
-Class K5 :
--4.53 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.13 +
-[RGB Color Histogram63] * 0.48
-
-Class K6 :
--58.37 + 
-[RGB Color Histogram21] * 0.1  +
-[RGB Color Histogram42] * 0.02 +
-[RGB Color Histogram63] * -0.02
-
-Class K7 :
--39.04 + 
-[RGB Color Histogram21] * -0.01 +
+[RGB Color Histogram21] * -0.06 +
 [RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--39.04 + 
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-LM_3:
-Class K1 :
-20.4 + 
-[RGB Color Histogram0] * -0.03 +
-[RGB Color Histogram21] * -0.08 +
-[RGB Color Histogram42] * 0.06 +
-[RGB Color Histogram63] * 0.01
-
-Class K2 :
--34.57 + 
-[RGB Color Histogram0] * 0.04 +
-[RGB Color Histogram21] * 0.15 +
-[RGB Color Histogram42] * -0.04 +
-[RGB Color Histogram63] * 0.01
-
-Class K3 :
--40.54 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * -0
-
-Class K4 :
--34.98 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * -0.02 +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * 0   
-
-Class K5 :
--12.14 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.25 +
-[RGB Color Histogram63] * -0.04
-
-Class K6 :
--58.37 + 
-[RGB Color Histogram21] * 0.1  +
-[RGB Color Histogram42] * 0.02 +
-[RGB Color Histogram63] * -0.02
-
-Class K7 :
--39.04 + 
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--39.04 + 
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-LM_4:
-Class K1 :
-22.69 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.08 +
-[RGB Color Histogram42] * -0.02 +
-[RGB Color Histogram63] * 0   
-
-Class K2 :
--35.62 + 
-[RGB Color Histogram0] * -0 +
-[RGB Color Histogram21] * 0.15 +
-[RGB Color Histogram42] * -0.01 +
-[RGB Color Histogram63] * 0   
-
-Class K3 :
--28.61 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * -0
-
-Class K4 :
--29.17 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * 0   
-
-Class K5 :
--2.78 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.05 +
-[RGB Color Histogram63] * 0.01
-
-Class K6 :
--47.87 + 
-[RGB Color Histogram21] * 0.1  +
-[RGB Color Histogram42] * 0.02 +
-[RGB Color Histogram63] * -0.02
-
-Class K7 :
--31.67 + 
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--31.67 + 
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-LM_5:
-Class K1 :
-23.63 + 
-[RGB Color Histogram0] * 0.09 +
-[RGB Color Histogram21] * -0.08 +
-[RGB Color Histogram42] * -0.08 +
-[RGB Color Histogram63] * 0.02
-
-Class K2 :
--35.93 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * 0.15 +
-[RGB Color Histogram42] * -0.05 +
-[RGB Color Histogram63] * 0.01
-
-Class K3 :
--28.61 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * -0
-
-Class K4 :
--29.17 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * 0   
-
-Class K5 :
-0.32 + 
-[RGB Color Histogram0] * -0.16 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.03 +
-[RGB Color Histogram63] * -0.03
-
-Class K6 :
--47.87 + 
-[RGB Color Histogram21] * 0.1  +
-[RGB Color Histogram42] * 0.02 +
-[RGB Color Histogram63] * -0.02
-
-Class K7 :
--31.67 + 
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--31.67 + 
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-LM_6:
-Class K1 :
-22.22 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * -0.08 +
-[RGB Color Histogram42] * 0    +
 [RGB Color Histogram63] * -0.02
 
 Class K2 :
--35.43 + 
+-20.44 + 
 [RGB Color Histogram0] * 0    +
-[RGB Color Histogram21] * 0.15 +
-[RGB Color Histogram42] * -0.02 +
+[RGB Color Histogram21] * 0.09 +
+[RGB Color Histogram42] * -0.01 +
 [RGB Color Histogram63] * 0.02
 
 Class K3 :
--18.11 + 
+-11.94 + 
 [RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
 [RGB Color Histogram63] * -0
 
 Class K4 :
--18.67 + 
+-12.36 + 
 [RGB Color Histogram0] * 0.01 +
 [RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * 0   
+[RGB Color Histogram42] * 0   
 
 Class K5 :
--5.12 + 
+0.33 + 
 [RGB Color Histogram0] * -0.02 +
-[RGB Color Histogram21] * 0.01 +
+[RGB Color Histogram21] * -0.01 +
 [RGB Color Histogram42] * -0.02 +
 [RGB Color Histogram63] * -0.01
 
 Class K6 :
--37.37 + 
-[RGB Color Histogram21] * 0.1  +
+-12.08 + 
+[RGB Color Histogram21] * 0.02 +
+[RGB Color Histogram42] * 0.01 +
+[RGB Color Histogram63] * -0.02
+
+
+
+LM_3:
+Class K1 :
+-2.24 + 
+[RGB Color Histogram0] * -0.1 +
+[RGB Color Histogram21] * -0.01 +
+[RGB Color Histogram42] * 0.01 +
+[RGB Color Histogram63] * -0.01
+
+Class K2 :
+-8.78 + 
+[RGB Color Histogram0] * 0    +
+[RGB Color Histogram21] * 0    +
+[RGB Color Histogram42] * 0.01 +
+[RGB Color Histogram63] * 0.01
+
+Class K3 :
+-15.27 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram63] * -0
+
+Class K4 :
+-15.69 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * 0    +
+[RGB Color Histogram42] * 0    +
+[RGB Color Histogram63] * -0
+
+Class K5 :
+12.14 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * -0.02 +
+[RGB Color Histogram42] * -0.01 +
+[RGB Color Histogram63] * -0.04
+
+Class K6 :
+-404.37 + 
+[RGB Color Histogram0] * 0.03 +
+[RGB Color Histogram21] * 1.57 +
 [RGB Color Histogram42] * 0.02 +
 [RGB Color Histogram63] * -0.02
 
-Class K7 :
--21.17 + 
-[RGB Color Histogram42] * -0 +
+LM_4:
+Class K1 :
+11.82 + 
+[RGB Color Histogram0] * -0.3 +
+[RGB Color Histogram21] * -0.01 +
+[RGB Color Histogram42] * -0.04 +
+[RGB Color Histogram63] * -0.01
+
+Class K2 :
+-8.73 + 
+[RGB Color Histogram0] * 0    +
+[RGB Color Histogram21] * 0    +
+[RGB Color Histogram42] * 0.01 +
+[RGB Color Histogram63] * 0.01
+
+Class K3 :
+-15.27 + 
+[RGB Color Histogram0] * 0.01 +
 [RGB Color Histogram63] * -0
 
-Class K8 :
--21.17 + 
-[RGB Color Histogram42] * -0 +
+Class K4 :
+-15.69 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * 0    +
+[RGB Color Histogram42] * 0    +
 [RGB Color Histogram63] * -0
+
+Class K5 :
+2.4  + 
+[RGB Color Histogram0] * 0.15 +
+[RGB Color Histogram21] * -0.02 +
+[RGB Color Histogram42] * -0.02 +
+[RGB Color Histogram63] * 0.11
+
+Class K6 :
+-705.56 + 
+[RGB Color Histogram0] * 0.03 +
+[RGB Color Histogram21] * 2.76 +
+[RGB Color Histogram42] * 0.03 +
+[RGB Color Histogram63] * -0.04
+
+LM_5:
+Class K1 :
+-0.25 + 
+[RGB Color Histogram0] * -0.01 +
+[RGB Color Histogram21] * -0.01 +
+[RGB Color Histogram42] * -0.02 +
+[RGB Color Histogram63] * -0.01
+
+Class K2 :
+1.08 + 
+[RGB Color Histogram0] * -0.02 +
+[RGB Color Histogram21] * 0    +
+[RGB Color Histogram42] * 0    +
+[RGB Color Histogram63] * -0.01
+
+Class K3 :
+-11.94 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram63] * -0
+
+Class K4 :
+-12.36 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * 0    +
+[RGB Color Histogram42] * 0    +
+[RGB Color Histogram63] * -0
+
+Class K5 :
+3.32 + 
+[RGB Color Histogram0] * 0.03 +
+[RGB Color Histogram21] * -0.01 +
+[RGB Color Histogram42] * -0.01 +
+[RGB Color Histogram63] * 0   
+
+Class K6 :
+-61.71 + 
+[RGB Color Histogram21] * 0.23 +
+[RGB Color Histogram42] * 0.01 +
+[RGB Color Histogram63] * -0.02
+
+
+
+LM_6:
+Class K1 :
+3.43 + 
+[RGB Color Histogram0] * -0 +
+[RGB Color Histogram21] * -0.01 +
+[RGB Color Histogram42] * -0.18 +
+[RGB Color Histogram63] * -0
+
+Class K2 :
+3.57 + 
+[RGB Color Histogram0] * -0 +
+[RGB Color Histogram21] * 0    +
+[RGB Color Histogram42] * 0.13 +
+[RGB Color Histogram63] * 0   
+
+Class K3 :
+-0.79 + 
+[RGB Color Histogram0] * 0    +
+[RGB Color Histogram21] * -0.02 +
+[RGB Color Histogram42] * -0.1 +
+[RGB Color Histogram63] * -0.01
+
+Class K4 :
+-8.53 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * 0.01 +
+[RGB Color Histogram42] * -0.02 +
+[RGB Color Histogram63] * 0   
+
+Class K5 :
+-6.93 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * 0    +
+[RGB Color Histogram42] * 0.03 +
+[RGB Color Histogram63] * 0.01
+
+Class K6 :
+-10.57 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * 0.01 +
+[RGB Color Histogram42] * 0.03 +
+[RGB Color Histogram63] * -0.01
+
 
 
 
 LM_7:
 Class K1 :
--3.59 + 
-[RGB Color Histogram0] * -0.15 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * 0.01 +
-[RGB Color Histogram63] * 0.03
-
-Class K2 :
--11.89 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * 0.01
-
-Class K3 :
--23.36 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * -0
-
-Class K4 :
--23.92 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * 0   
-
-Class K5 :
-12.91 + 
-[RGB Color Histogram0] * 0.03 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.01 +
+-10.03 + 
+[RGB Color Histogram0] * -0 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * 0.05 +
 [RGB Color Histogram63] * -0.01
 
+Class K2 :
+-0.71 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * 0.01 +
+[RGB Color Histogram42] * 1.33 +
+[RGB Color Histogram63] * 0.11
+
+Class K3 :
+1.88 + 
+[RGB Color Histogram0] * -0.01 +
+[RGB Color Histogram21] * 0.01 +
+[RGB Color Histogram42] * -1.47 +
+[RGB Color Histogram63] * -0.05
+
+Class K4 :
+-25.7 + 
+[RGB Color Histogram0] * 0.09 +
+[RGB Color Histogram21] * 0    +
+[RGB Color Histogram42] * -0.01 +
+[RGB Color Histogram63] * -0.07
+
+Class K5 :
+-2.68 + 
+[RGB Color Histogram0] * -0.01 +
+[RGB Color Histogram21] * -0.02 +
+[RGB Color Histogram42] * 0.16 +
+[RGB Color Histogram63] * -0.31
+
 Class K6 :
--739.36 + 
-[RGB Color Histogram0] * 0.08 +
-[RGB Color Histogram21] * 2.87 +
-[RGB Color Histogram42] * 0.03 +
-[RGB Color Histogram63] * -0.06
+-10.31 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * -0.03 +
+[RGB Color Histogram42] * 0.06 +
+[RGB Color Histogram63] * -0.01
 
-Class K7 :
--26.42 + 
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--26.42 + 
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
 
 LM_8:
 Class K1 :
-14.78 + 
-[RGB Color Histogram0] * -0.52 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.04 +
-[RGB Color Histogram63] * -0.09
+-10.03 + 
+[RGB Color Histogram0] * -0 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * 0.05 +
+[RGB Color Histogram63] * -0.01
 
 Class K2 :
--11.88 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * 0.01
+-109.44 + 
+[RGB Color Histogram0] * 0.44 +
+[RGB Color Histogram21] * -0.01 +
+[RGB Color Histogram42] * -0.35 +
+[RGB Color Histogram63] * 0.11
 
 Class K3 :
--23.36 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * -0
+-126.47 + 
+[RGB Color Histogram0] * 0.48 +
+[RGB Color Histogram21] * 0.03 +
+[RGB Color Histogram42] * 0.21 +
+[RGB Color Histogram63] * -0.05
 
 Class K4 :
--23.92 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * 0   
+550.61 + 
+[RGB Color Histogram0] * -2.15 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * -0.01 +
+[RGB Color Histogram63] * -0.07
 
 Class K5 :
-249.54 + 
-[RGB Color Histogram0] * 0.2  +
-[RGB Color Histogram21] * -0.97 +
-[RGB Color Histogram42] * -0.04 +
-[RGB Color Histogram63] * 0.07
+-2.69 + 
+[RGB Color Histogram0] * -0.01 +
+[RGB Color Histogram21] * -0.02 +
+[RGB Color Histogram42] * 0.16 +
+[RGB Color Histogram63] * -0.31
 
 Class K6 :
--1126.14 + 
-[RGB Color Histogram0] * 0.08 +
-[RGB Color Histogram21] * 4.4  +
+-10.31 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * -0.03 +
 [RGB Color Histogram42] * 0.06 +
-[RGB Color Histogram63] * -0.11
-
-Class K7 :
--26.42 + 
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--26.42 + 
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
+[RGB Color Histogram63] * -0.01
 
 LM_9:
 Class K1 :
--7.77 + 
-[RGB Color Histogram0] * -0.04 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.01 +
+-13.37 + 
+[RGB Color Histogram0] * -0 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * 0.05 +
 [RGB Color Histogram63] * -0.01
 
 Class K2 :
-17.34 + 
-[RGB Color Histogram0] * -0.03 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * -0.16
+-100.1 + 
+[RGB Color Histogram0] * 0.44 +
+[RGB Color Histogram21] * -0.05 +
+[RGB Color Histogram42] * -0.54 +
+[RGB Color Histogram63] * 0.11
 
 Class K3 :
--23.36 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * -0
+-124.87 + 
+[RGB Color Histogram0] * 0.48 +
+[RGB Color Histogram21] * 0.02 +
+[RGB Color Histogram42] * 0.18 +
+[RGB Color Histogram63] * -0.05
 
 Class K4 :
--23.92 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * 0   
+541.45 + 
+[RGB Color Histogram0] * -2.15 +
+[RGB Color Histogram21] * 0.04 +
+[RGB Color Histogram42] * 0.21 +
+[RGB Color Histogram63] * -0.07
 
 Class K5 :
--11.21 + 
-[RGB Color Histogram0] * 0.03 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.01 +
-[RGB Color Histogram63] * 0.16
+-6.02 + 
+[RGB Color Histogram0] * -0.01 +
+[RGB Color Histogram21] * -0.02 +
+[RGB Color Histogram42] * 0.16 +
+[RGB Color Histogram63] * -0.31
 
 Class K6 :
--450.99 + 
-[RGB Color Histogram21] * 1.73 +
-[RGB Color Histogram42] * 0.02 +
-[RGB Color Histogram63] * -0.03
-
-Class K7 :
--26.42 + 
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--26.42 + 
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
+-13.64 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * -0.03 +
+[RGB Color Histogram42] * 0.06 +
+[RGB Color Histogram63] * -0.01
 
 LM_10:
 Class K1 :
--7.77 + 
-[RGB Color Histogram0] * -0.04 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.01 +
+-6.7 + 
+[RGB Color Histogram0] * -0 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * 0.05 +
 [RGB Color Histogram63] * -0.01
 
 Class K2 :
-36.78 + 
-[RGB Color Histogram0] * -0.03 +
-[RGB Color Histogram21] * -0.13 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0.02
+-1.15 + 
+[RGB Color Histogram0] * -0 +
+[RGB Color Histogram21] * 0.01 +
+[RGB Color Histogram42] * 0.06 +
+[RGB Color Histogram63] * -0.4
 
 Class K3 :
--23.36 + 
+-0.49 + 
 [RGB Color Histogram0] * 0.01 +
 [RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * -0
+[RGB Color Histogram42] * 0.05 +
+[RGB Color Histogram63] * -0.01
 
 Class K4 :
--23.92 + 
+-9.17 + 
 [RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * 0   
-
-Class K5 :
--30.67 + 
-[RGB Color Histogram0] * 0.03 +
-[RGB Color Histogram21] * 0.12 +
-[RGB Color Histogram42] * 0    +
-[RGB Color Histogram63] * 0.01
-
-Class K6 :
--450.99 + 
-[RGB Color Histogram21] * 1.73 +
-[RGB Color Histogram42] * 0.02 +
+[RGB Color Histogram21] * 0.03 +
+[RGB Color Histogram42] * 0.03 +
 [RGB Color Histogram63] * -0.03
 
-Class K7 :
--26.42 + 
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
+Class K5 :
+7.66 + 
+[RGB Color Histogram0] * -0.01 +
+[RGB Color Histogram21] * -0.03 +
+[RGB Color Histogram42] * 0.16 +
+[RGB Color Histogram63] * -1.64
 
-Class K8 :
--26.42 + 
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-
-
+Class K6 :
+-6.97 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * -0.03 +
+[RGB Color Histogram42] * 0.06 +
+[RGB Color Histogram63] * -0.01
 
 
 LM_11:
 Class K1 :
-4.83 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * 0.32 +
+-8.41 + 
+[RGB Color Histogram0] * 0.02 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * 0.12 +
 [RGB Color Histogram63] * -0.01
 
 Class K2 :
-5.27 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * -0.22 +
-[RGB Color Histogram63] * 0   
-
-Class K3 :
-1.04 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram21] * -0.04 +
-[RGB Color Histogram42] * -4.77 +
-[RGB Color Histogram63] * -0.04
-
-Class K4 :
--20.99 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * -0.02 +
-[RGB Color Histogram63] * 0   
-
-Class K5 :
--20.51 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0.04 +
+24.4 + 
+[RGB Color Histogram0] * -0 +
+[RGB Color Histogram21] * -0.09 +
+[RGB Color Histogram42] * -0.16 +
 [RGB Color Histogram63] * 0.01
 
-Class K6 :
--26.23 + 
-[RGB Color Histogram0] * 0.02 +
+Class K3 :
+-13.34 + 
+[RGB Color Histogram0] * -0 +
+[RGB Color Histogram21] * 0.05 +
+[RGB Color Histogram42] * -0.02 +
+[RGB Color Histogram63] * -0.06
+
+Class K4 :
+0.44 + 
+[RGB Color Histogram0] * 0.01 +
 [RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.07 +
-[RGB Color Histogram63] * -0.02
+[RGB Color Histogram42] * -0.17 +
+[RGB Color Histogram63] * 0.02
 
-Class K7 :
--31.67 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
+Class K5 :
+-19.07 + 
+[RGB Color Histogram0] * 0.07 +
+[RGB Color Histogram21] * -0.03 +
+[RGB Color Histogram42] * 0.28 +
+[RGB Color Histogram63] * 0   
 
-Class K8 :
--31.67 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
+Class K6 :
+11.27 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * -0.06 +
+[RGB Color Histogram42] * -0.05 +
+[RGB Color Histogram63] * -0.12
+
+
 
 LM_12:
 Class K1 :
-31.51 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.5 +
-[RGB Color Histogram42] * 0.32 +
-[RGB Color Histogram63] * -0.01
+-14.29 + 
+[RGB Color Histogram0] * 0.15 +
+[RGB Color Histogram21] * -0.01 +
+[RGB Color Histogram42] * 0.22 +
+[RGB Color Histogram63] * -0.31
 
 Class K2 :
--21.39 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * 0.49 +
-[RGB Color Histogram42] * -0.22 +
-[RGB Color Histogram63] * 0   
+27.13 + 
+[RGB Color Histogram0] * -0.16 +
+[RGB Color Histogram21] * -0.02 +
+[RGB Color Histogram42] * -0.27 +
+[RGB Color Histogram63] * 0.29
 
 Class K3 :
--4.3 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram21] * -0.04 +
-[RGB Color Histogram42] * -4.77 +
-[RGB Color Histogram63] * -0.04
+-21.89 + 
+[RGB Color Histogram0] * -0 +
+[RGB Color Histogram21] * 0.08 +
+[RGB Color Histogram42] * -0.02 +
+[RGB Color Histogram63] * -1.44
 
 Class K4 :
--20.99 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * -0.02 +
-[RGB Color Histogram63] * 0   
+-11.72 + 
+[RGB Color Histogram0] * 0.02 +
+[RGB Color Histogram21] * 0.02 +
+[RGB Color Histogram42] * 0    +
+[RGB Color Histogram63] * -0.03
 
 Class K5 :
--20.51 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0.04 +
-[RGB Color Histogram63] * 0.01
+-17.16 + 
+[RGB Color Histogram0] * 0.03 +
+[RGB Color Histogram21] * -0.02 +
+[RGB Color Histogram42] * 0.11 +
+[RGB Color Histogram63] * 0   
 
 Class K6 :
--26.23 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.07 +
+0.35 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * -0.06 +
+[RGB Color Histogram42] * -0.05 +
 [RGB Color Histogram63] * -0.02
-
-Class K7 :
--30.25 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--30.25 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
 
 LM_13:
 Class K1 :
--0.24 + 
-[RGB Color Histogram0] * -0.01 +
+3.26 + 
+[RGB Color Histogram0] * 0.02 +
 [RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.14 +
-[RGB Color Histogram63] * -0.01
+[RGB Color Histogram42] * -0.17 +
+[RGB Color Histogram63] * 0.1 
 
 Class K2 :
-10.39 + 
+6.39 + 
 [RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * 0.14 +
-[RGB Color Histogram63] * 0   
+[RGB Color Histogram21] * -0.02 +
+[RGB Color Histogram42] * 0.02 +
+[RGB Color Histogram63] * -1.53
 
 Class K3 :
--4.52 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram21] * -0.04 +
-[RGB Color Histogram42] * -0.25 +
-[RGB Color Histogram63] * -0.04
+-14.49 + 
+[RGB Color Histogram0] * -0.03 +
+[RGB Color Histogram21] * 0.08 +
+[RGB Color Histogram42] * 0.02 +
+[RGB Color Histogram63] * -2.75
 
 Class K4 :
--15.74 + 
+-4.97 + 
 [RGB Color Histogram0] * 0.01 +
 [RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * -0.02 +
-[RGB Color Histogram63] * 0   
+[RGB Color Histogram42] * 0.03 +
+[RGB Color Histogram63] * -0.08
 
 Class K5 :
--15.26 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0.04 +
-[RGB Color Histogram63] * 0.01
+-17.16 + 
+[RGB Color Histogram0] * 0.03 +
+[RGB Color Histogram21] * -0.02 +
+[RGB Color Histogram42] * 0.11 +
+[RGB Color Histogram63] * 0   
 
 Class K6 :
--20.98 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.07 +
+0.34 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * -0.06 +
+[RGB Color Histogram42] * -0.05 +
 [RGB Color Histogram63] * -0.02
-
-Class K7 :
--26.42 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--26.42 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-
-
 
 LM_14:
 Class K1 :
--15.04 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * 0.06 +
-[RGB Color Histogram63] * -0.01
+5.24 + 
+[RGB Color Histogram0] * -0 +
+[RGB Color Histogram21] * -0.01 +
+[RGB Color Histogram42] * -0.1 +
+[RGB Color Histogram63] * 0.01
 
 Class K2 :
--0.17 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 1.11 +
-[RGB Color Histogram63] * 0.14
+3.45 + 
+[RGB Color Histogram0] * -0 +
+[RGB Color Histogram21] * -0.01 +
+[RGB Color Histogram42] * 0.07 +
+[RGB Color Histogram63] * 0   
 
 Class K3 :
-3.4  + 
-[RGB Color Histogram0] * -0.02 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * -1.25 +
-[RGB Color Histogram63] * -0.07
+-13.17 + 
+[RGB Color Histogram0] * -0 +
+[RGB Color Histogram21] * 0.05 +
+[RGB Color Histogram42] * -0.02 +
+[RGB Color Histogram63] * -0.55
 
 Class K4 :
--32.75 + 
-[RGB Color Histogram0] * 0.11 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * -0.06 +
-[RGB Color Histogram63] * -0.09
+-7.11 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * 0.01 +
+[RGB Color Histogram42] * 0    +
+[RGB Color Histogram63] * -0.03
 
 Class K5 :
--4.94 + 
-[RGB Color Histogram0] * -0.01 +
+-13.84 + 
+[RGB Color Histogram0] * 0.03 +
 [RGB Color Histogram21] * -0.02 +
-[RGB Color Histogram42] * 0.16 +
-[RGB Color Histogram63] * -0.96
+[RGB Color Histogram42] * 0.11 +
+[RGB Color Histogram63] * 0   
 
 Class K6 :
--17.76 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * -0.04 +
-[RGB Color Histogram42] * 0.11 +
-[RGB Color Histogram63] * -0.04
+3.69 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * -0.06 +
+[RGB Color Histogram42] * -0.05 +
+[RGB Color Histogram63] * -0.02
 
-Class K7 :
--38.13 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
 
-Class K8 :
--38.13 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
 
 
 LM_15:
 Class K1 :
--15.04 + 
-[RGB Color Histogram0] * -0.01 +
+-2.43 + 
+[RGB Color Histogram0] * -0 +
 [RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * 0.06 +
+[RGB Color Histogram42] * -0.04 +
 [RGB Color Histogram63] * -0.01
 
 Class K2 :
--225.77 + 
-[RGB Color Histogram0] * 0.9  +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.38 +
-[RGB Color Histogram63] * 0.14
+-12.06 + 
+[RGB Color Histogram0] * 0.04 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * -0.01
 
 Class K3 :
--353.44 + 
-[RGB Color Histogram0] * 1.37 +
-[RGB Color Histogram21] * 0.03 +
-[RGB Color Histogram42] * 0.18 +
-[RGB Color Histogram63] * -0.07
+-3.73 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * 0.01 +
+[RGB Color Histogram63] * -0
 
 Class K4 :
-795.34 + 
-[RGB Color Histogram0] * -3.11 +
-[RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * -0.06 +
-[RGB Color Histogram63] * -0.09
+0.68 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * 0    +
+[RGB Color Histogram42] * -0.01 +
+[RGB Color Histogram63] * -0
 
 Class K5 :
--4.94 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.02 +
-[RGB Color Histogram42] * 0.16 +
-[RGB Color Histogram63] * -0.96
+-5.94 + 
+[RGB Color Histogram0] * -0.02 +
+[RGB Color Histogram21] * 0.01 +
+[RGB Color Histogram42] * 0.03 +
+[RGB Color Histogram63] * 0.01
 
 Class K6 :
--17.76 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * -0.04 +
-[RGB Color Histogram42] * 0.11 +
-[RGB Color Histogram63] * -0.04
-
-Class K7 :
--36.92 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--36.92 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
+-17.24 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * 0.04 +
+[RGB Color Histogram42] * -0.01 +
+[RGB Color Histogram63] * -0.01
 
 LM_16:
 Class K1 :
--25.54 + 
-[RGB Color Histogram0] * -0.01 +
+-5.76 + 
+[RGB Color Histogram0] * -0 +
 [RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * 0.06 +
+[RGB Color Histogram42] * -0.04 +
 [RGB Color Histogram63] * -0.01
 
 Class K2 :
--218.67 + 
-[RGB Color Histogram0] * 0.9  +
-[RGB Color Histogram21] * -0.04 +
-[RGB Color Histogram42] * -0.55 +
-[RGB Color Histogram63] * 0.14
+-15.39 + 
+[RGB Color Histogram0] * 0.04 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * -0.01
 
 Class K3 :
--356.26 + 
-[RGB Color Histogram0] * 1.37 +
-[RGB Color Histogram21] * 0.04 +
-[RGB Color Histogram42] * 0.26 +
-[RGB Color Histogram63] * -0.07
+-9.53 + 
+[RGB Color Histogram0] * 0.02 +
+[RGB Color Histogram21] * -0.01 +
+[RGB Color Histogram42] * 0.03 +
+[RGB Color Histogram63] * -0
 
 Class K4 :
-793.35 + 
-[RGB Color Histogram0] * -3.11 +
+9.46 + 
+[RGB Color Histogram0] * 0    +
 [RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0.03 +
-[RGB Color Histogram63] * -0.09
+[RGB Color Histogram42] * -0.03 +
+[RGB Color Histogram63] * -0
 
 Class K5 :
--15.44 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.02 +
-[RGB Color Histogram42] * 0.16 +
-[RGB Color Histogram63] * -0.96
+-14.46 + 
+[RGB Color Histogram0] * -0.02 +
+[RGB Color Histogram21] * 0.01 +
+[RGB Color Histogram42] * 0.06 +
+[RGB Color Histogram63] * 0.02
 
 Class K6 :
--28.26 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * -0.04 +
-[RGB Color Histogram42] * 0.11 +
-[RGB Color Histogram63] * -0.04
+-20.58 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * 0.04 +
+[RGB Color Histogram42] * -0.01 +
+[RGB Color Histogram63] * -0.01
 
-Class K7 :
--47.42 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
 
-Class K8 :
--47.42 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
 
 LM_17:
 Class K1 :
--25.54 + 
-[RGB Color Histogram0] * -0.01 +
+-9.1 + 
+[RGB Color Histogram0] * -0 +
 [RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * 0.06 +
+[RGB Color Histogram42] * -0.04 +
 [RGB Color Histogram63] * -0.01
 
 Class K2 :
--221.89 + 
-[RGB Color Histogram0] * 0.9  +
-[RGB Color Histogram21] * -0.05 +
-[RGB Color Histogram42] * -0.58 +
-[RGB Color Histogram63] * 0.14
+-13.58 + 
+[RGB Color Histogram0] * 0.04 +
+[RGB Color Histogram21] * 0    +
+[RGB Color Histogram42] * 0.02 +
+[RGB Color Histogram63] * 0   
 
 Class K3 :
--904.11 + 
-[RGB Color Histogram0] * 3.06 +
-[RGB Color Histogram21] * 0.51 +
-[RGB Color Histogram42] * 0.17 +
-[RGB Color Histogram63] * -0.07
+0.3  + 
+[RGB Color Histogram0] * 0.02 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * -0.01 +
+[RGB Color Histogram63] * 0.92
 
 Class K4 :
-1126.19 + 
-[RGB Color Histogram0] * -3.8 +
-[RGB Color Histogram21] * -0.62 +
-[RGB Color Histogram42] * 0.17 +
-[RGB Color Histogram63] * -0.09
+26.57 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * -0.34 +
+[RGB Color Histogram63] * -0
 
 Class K5 :
--15.44 + 
+-9.11 + 
 [RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.02 +
-[RGB Color Histogram42] * 0.16 +
-[RGB Color Histogram63] * -0.96
+[RGB Color Histogram21] * 0.02 +
+[RGB Color Histogram42] * 0.03 +
+[RGB Color Histogram63] * 0   
 
 Class K6 :
--28.26 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * -0.04 +
-[RGB Color Histogram42] * 0.11 +
-[RGB Color Histogram63] * -0.04
-
-Class K7 :
--47.42 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--47.42 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
+-23.9 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * 0.04 +
+[RGB Color Histogram42] * -0.01 +
+[RGB Color Histogram63] * -0.01
 
 LM_18:
 Class K1 :
--15.04 + 
-[RGB Color Histogram0] * -0.01 +
+-9.1 + 
+[RGB Color Histogram0] * -0 +
 [RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * 0.06 +
+[RGB Color Histogram42] * -0.04 +
 [RGB Color Histogram63] * -0.01
 
 Class K2 :
-7.45 + 
-[RGB Color Histogram0] * -0.01 +
+-2.16 + 
+[RGB Color Histogram0] * 0.04 +
 [RGB Color Histogram21] * -0.02 +
-[RGB Color Histogram42] * 0.05 +
-[RGB Color Histogram63] * -1.36
-
-Class K3 :
--1.96 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * -0.04 +
-[RGB Color Histogram63] * -0.03
-
-Class K4 :
--9.36 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.03 +
-[RGB Color Histogram42] * 0.02 +
-[RGB Color Histogram63] * -0.03
-
-Class K5 :
-5.03 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * 0.07 +
-[RGB Color Histogram63] * -3.91
-
-Class K6 :
--17.76 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * -0.04 +
-[RGB Color Histogram42] * 0.11 +
+[RGB Color Histogram42] * -0.02 +
 [RGB Color Histogram63] * -0.04
 
-Class K7 :
--36.92 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
+Class K3 :
+-9.09 + 
+[RGB Color Histogram0] * 0.02 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * 0    +
+[RGB Color Histogram63] * 0.1 
+
+Class K4 :
+0.41 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * -0.05 +
 [RGB Color Histogram63] * -0
 
-Class K8 :
--36.92 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
+Class K5 :
+-46.05 + 
+[RGB Color Histogram0] * -0.01 +
+[RGB Color Histogram21] * 0.02 +
+[RGB Color Histogram42] * 0.35 +
+[RGB Color Histogram63] * -0.03
+
+Class K6 :
+-23.9 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * 0.04 +
+[RGB Color Histogram42] * -0.01 +
+[RGB Color Histogram63] * -0.01
 
 LM_19:
 Class K1 :
--15.04 + 
-[RGB Color Histogram0] * -0.01 +
+-5.76 + 
+[RGB Color Histogram0] * -0 +
 [RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * 0.06 +
+[RGB Color Histogram42] * -0.04 +
 [RGB Color Histogram63] * -0.01
 
 Class K2 :
--3.45 + 
-[RGB Color Histogram0] * -0 +
+-9.55 + 
+[RGB Color Histogram0] * 0.04 +
 [RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * -0.02 +
-[RGB Color Histogram63] * -1.36
+[RGB Color Histogram42] * -0.03 +
+[RGB Color Histogram63] * -0
 
 Class K3 :
-3.09 + 
-[RGB Color Histogram0] * -0 +
-[RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0.15
+1.96 + 
+[RGB Color Histogram0] * 0.02 +
+[RGB Color Histogram21] * 0.01 +
+[RGB Color Histogram42] * -0.03 +
+[RGB Color Histogram63] * -0.06
 
 Class K4 :
--10.02 + 
+-7.5 + 
 [RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.04 +
-[RGB Color Histogram42] * -0.04 +
-[RGB Color Histogram63] * 0.05
+[RGB Color Histogram21] * -0.01 +
+[RGB Color Histogram42] * 0.04 +
+[RGB Color Histogram63] * 0.07
 
 Class K5 :
-1.21 + 
+-2.83 + 
 [RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.02 +
-[RGB Color Histogram42] * 0.07 +
-[RGB Color Histogram63] * -3.91
+[RGB Color Histogram21] * 0.01 +
+[RGB Color Histogram42] * -0.01 +
+[RGB Color Histogram63] * 0   
 
 Class K6 :
--17.76 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * -0.04 +
-[RGB Color Histogram42] * 0.11 +
-[RGB Color Histogram63] * -0.04
-
-Class K7 :
--36.92 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--36.92 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
+-20.57 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * 0.04 +
+[RGB Color Histogram42] * -0.01 +
+[RGB Color Histogram63] * -0.01
 
 
 LM_20:
 Class K1 :
--4.12 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * -0.03 +
-[RGB Color Histogram42] * 0.13 +
-[RGB Color Histogram63] * -0.01
+5.79 + 
+[RGB Color Histogram0] * -0.01 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * -0.01 +
+[RGB Color Histogram63] * -1.09
 
 Class K2 :
-35.74 + 
+0.69 + 
 [RGB Color Histogram0] * -0.02 +
-[RGB Color Histogram21] * -0.12 +
-[RGB Color Histogram42] * -0.17 +
-[RGB Color Histogram63] * 0   
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * -0.02 +
+[RGB Color Histogram63] * 0.12
 
 Class K3 :
--20.7 + 
-[RGB Color Histogram0] * -0 +
-[RGB Color Histogram21] * 0.07 +
-[RGB Color Histogram42] * -0.03 +
-[RGB Color Histogram63] * -0.28
-
-Class K4 :
--20.85 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.1  +
-[RGB Color Histogram42] * -0.13 +
-[RGB Color Histogram63] * 0.03
-
-Class K5 :
--36.83 + 
-[RGB Color Histogram0] * 0.08 +
-[RGB Color Histogram21] * 0.02 +
-[RGB Color Histogram42] * 0.39 +
+-8.7 + 
+[RGB Color Histogram0] * 0.03 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * -0.01 +
 [RGB Color Histogram63] * 0   
 
-Class K6 :
-7.96 + 
+Class K4 :
+-7.71 + 
 [RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * -0.05 +
-[RGB Color Histogram42] * -0.1 +
-[RGB Color Histogram63] * -1.47
-
-Class K7 :
--31.67 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
+[RGB Color Histogram21] * 0    +
+[RGB Color Histogram42] * 0.01 +
 [RGB Color Histogram63] * -0
 
-Class K8 :
--31.67 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
+Class K5 :
+-6.21 + 
+[RGB Color Histogram0] * -0.01 +
+[RGB Color Histogram21] * 0.01 +
+[RGB Color Histogram42] * 0.02 +
+[RGB Color Histogram63] * -0.01
+
+Class K6 :
+-11.99 + 
+[RGB Color Histogram0] * 0.02 +
+[RGB Color Histogram21] * 0.04 +
+[RGB Color Histogram42] * 0.01 +
+[RGB Color Histogram63] * -0.04
 
 
 
 LM_21:
 Class K1 :
--12.17 + 
-[RGB Color Histogram0] * 0.16 +
-[RGB Color Histogram21] * -0.02 +
-[RGB Color Histogram42] * 0.25 +
-[RGB Color Histogram63] * -0.22
+-3.55 + 
+[RGB Color Histogram0] * -0.01 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * -0.07 +
+[RGB Color Histogram63] * -0.03
 
 Class K2 :
-31.82 + 
-[RGB Color Histogram0] * -0.17 +
-[RGB Color Histogram21] * -0.03 +
-[RGB Color Histogram42] * -0.3 +
-[RGB Color Histogram63] * 0.27
+2.11 + 
+[RGB Color Histogram0] * -0.07 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * -0.02 +
+[RGB Color Histogram63] * 0.03
 
 Class K3 :
--108.53 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram21] * 0.41 +
-[RGB Color Histogram42] * -0.02 +
-[RGB Color Histogram63] * -3.09
+-8.19 + 
+[RGB Color Histogram0] * 0.03 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * 0.06 +
+[RGB Color Histogram63] * 0.01
 
 Class K4 :
--13.55 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * 0.02 +
-[RGB Color Histogram42] * 0.01 +
+1.47 + 
+[RGB Color Histogram0] * 0.04 +
+[RGB Color Histogram21] * 0    +
+[RGB Color Histogram42] * -0.1 +
 [RGB Color Histogram63] * -0.01
 
 Class K5 :
--23.25 + 
-[RGB Color Histogram0] * 0.04 +
-[RGB Color Histogram21] * -0.04 +
-[RGB Color Histogram42] * 0.12 +
-[RGB Color Histogram63] * 0   
+-2.19 + 
+[RGB Color Histogram0] * -0.04 +
+[RGB Color Histogram21] * 0.01 +
+[RGB Color Histogram42] * 0.04 +
+[RGB Color Histogram63] * -0.02
 
 Class K6 :
--6.51 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * -0.07 +
-[RGB Color Histogram42] * -0.02 +
-[RGB Color Histogram63] * -0.11
-
-Class K7 :
--42.17 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--42.17 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
+-20.81 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * 0.04 +
+[RGB Color Histogram42] * 0.01 +
+[RGB Color Histogram63] * -0.02
 
 LM_22:
 Class K1 :
-7.22 + 
-[RGB Color Histogram0] * 0.03 +
-[RGB Color Histogram21] * -0.02 +
-[RGB Color Histogram42] * -0.28 +
-[RGB Color Histogram63] * 0.12
+-3.55 + 
+[RGB Color Histogram0] * -0.01 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * -0.07 +
+[RGB Color Histogram63] * -0.03
 
 Class K2 :
-9.56 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.03 +
-[RGB Color Histogram42] * 0.03 +
-[RGB Color Histogram63] * -3.79
+2.11 + 
+[RGB Color Histogram0] * -0.07 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * -0.02 +
+[RGB Color Histogram63] * 0.03
 
 Class K3 :
--97.89 + 
-[RGB Color Histogram0] * -0.04 +
-[RGB Color Histogram21] * 0.41 +
-[RGB Color Histogram42] * 0.04 +
-[RGB Color Histogram63] * -4.25
+-8.88 + 
+[RGB Color Histogram0] * 0.05 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * -0.02 +
+[RGB Color Histogram63] * 0.01
 
 Class K4 :
-1.9  + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * 0.02 +
-[RGB Color Histogram63] * -0.12
+-29.45 + 
+[RGB Color Histogram0] * 0.02 +
+[RGB Color Histogram21] * 0    +
+[RGB Color Histogram42] * 0.16 +
+[RGB Color Histogram63] * -0.01
 
 Class K5 :
--23.25 + 
-[RGB Color Histogram0] * 0.04 +
-[RGB Color Histogram21] * -0.04 +
-[RGB Color Histogram42] * 0.12 +
-[RGB Color Histogram63] * 0   
+31.11 + 
+[RGB Color Histogram0] * -0.06 +
+[RGB Color Histogram21] * 0.01 +
+[RGB Color Histogram42] * -0.13 +
+[RGB Color Histogram63] * -0.02
 
 Class K6 :
--6.51 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * -0.07 +
-[RGB Color Histogram42] * -0.02 +
-[RGB Color Histogram63] * -0.11
-
-Class K7 :
--42.17 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--42.17 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
+-20.8 + 
+[RGB Color Histogram0] * 0.01 +
+[RGB Color Histogram21] * 0.04 +
+[RGB Color Histogram42] * 0.01 +
+[RGB Color Histogram63] * -0.02
 
 LM_23:
 Class K1 :
-7.24 + 
+-0.19 + 
 [RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.11 +
-[RGB Color Histogram63] * 0.01
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * -0.07 +
+[RGB Color Histogram63] * -0.03
 
 Class K2 :
-9.29 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.03 +
-[RGB Color Histogram42] * 0.07 +
-[RGB Color Histogram63] * 0   
+25.62 + 
+[RGB Color Histogram0] * -0.23 +
+[RGB Color Histogram21] * -0 +
+[RGB Color Histogram42] * -0.02 +
+[RGB Color Histogram63] * 0.03
 
 Class K3 :
--42.63 + 
-[RGB Color Histogram0] * -0 +
-[RGB Color Histogram21] * 0.16 +
-[RGB Color Histogram42] * -0.03 +
-[RGB Color Histogram63] * -2.33
-
-Class K4 :
--10.46 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.01 +
-[RGB Color Histogram63] * -0.08
-
-Class K5 :
--18.01 + 
-[RGB Color Histogram0] * 0.04 +
-[RGB Color Histogram21] * -0.04 +
-[RGB Color Histogram42] * 0.12 +
-[RGB Color Histogram63] * 0   
-
-Class K6 :
--1.25 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * -0.07 +
-[RGB Color Histogram42] * -0.02 +
-[RGB Color Histogram63] * -0.11
-
-Class K7 :
--36.92 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--36.92 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-
-
-
-LM_24:
-Class K1 :
--2.97 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.06 +
-[RGB Color Histogram63] * -0.02
-
-Class K2 :
--13.28 + 
+2.62 + 
 [RGB Color Histogram0] * 0.04 +
 [RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * -0.01 +
-[RGB Color Histogram63] * -0
-
-Class K3 :
--6.32 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0.02 +
-[RGB Color Histogram63] * 0   
-
-Class K4 :
-2.79 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * -0.02 +
-[RGB Color Histogram63] * -0.01
-
-Class K5 :
--9.69 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.04 +
+[RGB Color Histogram42] * -0.08 +
 [RGB Color Histogram63] * 0.02
 
-Class K6 :
--51.28 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.16 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0.02
-
-Class K7 :
--26.42 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--26.42 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-LM_25:
-Class K1 :
--8.22 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.06 +
-[RGB Color Histogram63] * -0.02
-
-Class K2 :
--18.53 + 
-[RGB Color Histogram0] * 0.04 +
-[RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * -0.01 +
-[RGB Color Histogram63] * -0
-
-Class K3 :
--16.12 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * 0.05 +
-[RGB Color Histogram63] * 0   
-
 Class K4 :
-21.96 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * -0.09 +
-[RGB Color Histogram63] * -0.01
+-14.54 + 
+[RGB Color Histogram0] * 0.02 +
+[RGB Color Histogram21] * 0    +
+[RGB Color Histogram42] * 0.04 +
+[RGB Color Histogram63] * 0.01
 
 Class K5 :
--28 + 
+-13.04 + 
 [RGB Color Histogram0] * -0.01 +
 [RGB Color Histogram21] * 0.01 +
 [RGB Color Histogram42] * 0.08 +
-[RGB Color Histogram63] * 0.07
-
-Class K6 :
--56.53 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.16 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0.02
-
-Class K7 :
--31.67 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--31.67 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-
-
-LM_26:
-Class K1 :
--13.47 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.06 +
-[RGB Color Histogram63] * -0.02
-
-Class K2 :
--18.21 + 
-[RGB Color Histogram0] * 0.04 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.04 +
-[RGB Color Histogram63] * 0.01
-
-Class K3 :
-4.85 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.03 +
-[RGB Color Histogram63] * 1.06
-
-Class K4 :
-55.58 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * -0.73 +
-[RGB Color Histogram63] * 0   
-
-Class K5 :
--12.6 + 
-[RGB Color Histogram0] * -0 +
-[RGB Color Histogram21] * 0.02 +
-[RGB Color Histogram42] * 0.04 +
-[RGB Color Histogram63] * 0.01
-
-Class K6 :
--61.78 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.16 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0.02
-
-Class K7 :
--32.31 + 
-[RGB Color Histogram0] * -0.02 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--32.31 + 
-[RGB Color Histogram0] * -0.02 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-LM_27:
-Class K1 :
--13.47 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.06 +
-[RGB Color Histogram63] * -0.02
-
-Class K2 :
--1.57 + 
-[RGB Color Histogram0] * 0.04 +
-[RGB Color Histogram21] * -0.03 +
-[RGB Color Histogram42] * -0.01 +
-[RGB Color Histogram63] * -0.04
-
-Class K3 :
--11.97 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * 0.16
-
-Class K4 :
-2.89 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * -0.12 +
-[RGB Color Histogram63] * 0   
-
-Class K5 :
--86.45 + 
-[RGB Color Histogram0] * -0 +
-[RGB Color Histogram21] * 0.02 +
-[RGB Color Histogram42] * 0.63 +
-[RGB Color Histogram63] * -0.02
-
-Class K6 :
--61.78 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.16 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0.02
-
-Class K7 :
--37.56 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--37.56 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-
-LM_28:
-Class K1 :
--13.47 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.06 +
-[RGB Color Histogram63] * -0.02
-
-Class K2 :
--16.11 + 
-[RGB Color Histogram0] * 0.04 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.03 +
-[RGB Color Histogram63] * -0
-
-Class K3 :
--0.56 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * -0.01 +
-[RGB Color Histogram63] * 0.02
-
-Class K4 :
--5.77 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * 0.03 +
-[RGB Color Histogram63] * -0.01
-
-Class K5 :
--10.79 + 
-[RGB Color Histogram0] * -0 +
-[RGB Color Histogram21] * 0.02 +
-[RGB Color Histogram42] * -0.01 +
-[RGB Color Histogram63] * 0   
-
-Class K6 :
--61.78 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.16 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0.02
-
-Class K7 :
--36.32 + 
-[RGB Color Histogram0] * -0 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--36.32 + 
-[RGB Color Histogram0] * -0 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-LM_29:
-Class K1 :
--8.22 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.06 +
-[RGB Color Histogram63] * -0.02
-
-Class K2 :
--10.86 + 
-[RGB Color Histogram0] * 0.04 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.03 +
-[RGB Color Histogram63] * -0
-
-Class K3 :
-1.08 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * -0.02 +
-[RGB Color Histogram63] * -0.06
-
-Class K4 :
--7.41 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * 0.04 +
-[RGB Color Histogram63] * 0.07
-
-Class K5 :
--5.54 + 
-[RGB Color Histogram0] * -0 +
-[RGB Color Histogram21] * 0.02 +
-[RGB Color Histogram42] * -0.01 +
-[RGB Color Histogram63] * 0   
-
-Class K6 :
--56.53 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.16 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0.02
-
-Class K7 :
--31.67 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--31.67 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-
-LM_30:
-Class K1 :
-26.22 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.3 +
-[RGB Color Histogram63] * -3.37
-
-Class K2 :
--0.79 + 
-[RGB Color Histogram0] * -0.03 +
-[RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * -0.02 +
-[RGB Color Histogram63] * 0.17
-
-Class K3 :
--11.26 + 
-[RGB Color Histogram0] * 0.03 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * -0.01 +
-[RGB Color Histogram63] * 0   
-
-Class K4 :
--9.6 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.01 +
-[RGB Color Histogram63] * -0
-
-Class K5 :
--9.33 + 
-[RGB Color Histogram0] * -0.01 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.03 +
-[RGB Color Histogram63] * -0.02
-
-Class K6 :
--46.71 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * 0.16 +
-[RGB Color Histogram42] * 0.11 +
-[RGB Color Histogram63] * -0.05
-
-Class K7 :
--26.42 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--26.42 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-
-
-LM_31:
-Class K1 :
--7.18 + 
-[RGB Color Histogram0] * -0 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.08 +
-[RGB Color Histogram63] * -0.69
-
-Class K2 :
-12.54 + 
-[RGB Color Histogram0] * -0.21 +
-[RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * -0.02 +
-[RGB Color Histogram63] * 0.03
-
-Class K3 :
--8.9 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * 0.09 +
-[RGB Color Histogram63] * 0.01
-
-Class K4 :
-0.97 + 
-[RGB Color Histogram0] * 0.04 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * -0.08 +
-[RGB Color Histogram63] * -0.01
-
-Class K5 :
--3.21 + 
-[RGB Color Histogram0] * -0.06 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.05 +
 [RGB Color Histogram63] * -0.03
 
 Class K6 :
--53.46 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.16 +
-[RGB Color Histogram42] * 0.01 +
-[RGB Color Histogram63] * -0.02
-
-Class K7 :
--36.25 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--36.25 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-LM_32:
-Class K1 :
--7.18 + 
-[RGB Color Histogram0] * -0 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.08 +
-[RGB Color Histogram63] * -0.69
-
-Class K2 :
-12.54 + 
-[RGB Color Histogram0] * -0.21 +
-[RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * -0.02 +
-[RGB Color Histogram63] * 0.03
-
-Class K3 :
--10.9 + 
-[RGB Color Histogram0] * 0.05 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * -0.02 +
-[RGB Color Histogram63] * 0.01
-
-Class K4 :
--46.01 + 
+-6.34 + 
 [RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.27 +
-[RGB Color Histogram63] * -0.01
-
-Class K5 :
-49.3 + 
-[RGB Color Histogram0] * -0.08 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * -0.22 +
+[RGB Color Histogram21] * 0.04 +
+[RGB Color Histogram42] * -0.04 +
 [RGB Color Histogram63] * -0.03
 
-Class K6 :
--53.46 + 
-[RGB Color Histogram0] * 0.01 +
-[RGB Color Histogram21] * 0.16 +
-[RGB Color Histogram42] * 0.01 +
-[RGB Color Histogram63] * -0.02
 
-Class K7 :
--35.16 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--35.16 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-LM_33:
-Class K1 :
--1.93 + 
-[RGB Color Histogram0] * -0 +
-[RGB Color Histogram21] * -0.01 +
-[RGB Color Histogram42] * -0.08 +
-[RGB Color Histogram63] * -0.69
-
-Class K2 :
-57.78 + 
-[RGB Color Histogram0] * -0.56 +
-[RGB Color Histogram21] * -0 +
-[RGB Color Histogram42] * -0.02 +
-[RGB Color Histogram63] * 0.03
-
-Class K3 :
-0.24 + 
-[RGB Color Histogram0] * 0.05 +
-[RGB Color Histogram21] * 0    +
-[RGB Color Histogram42] * -0.1 +
-[RGB Color Histogram63] * 0.04
-
-Class K4 :
--21.05 + 
-[RGB Color Histogram0] * 0.02 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.08 +
-[RGB Color Histogram63] * 0.02
-
-Class K5 :
--11.44 + 
-[RGB Color Histogram0] * -0.04 +
-[RGB Color Histogram21] * 0.01 +
-[RGB Color Histogram42] * 0.1  +
-[RGB Color Histogram63] * -0.03
-
-Class K6 :
--32.18 + 
-[RGB Color Histogram0] * 0.03 +
-[RGB Color Histogram21] * 0.16 +
-[RGB Color Histogram42] * -0.06 +
-[RGB Color Histogram63] * -0.03
-
-Class K7 :
--31.67 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-Class K8 :
--31.67 + 
-[RGB Color Histogram0] * 0    +
-[RGB Color Histogram42] * -0 +
-[RGB Color Histogram63] * -0
-
-
-Time taken to build model: 0.67 seconds
+Time taken to build model: 0.75 seconds
 
 Time taken to test model on training data: 0.01 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances         349               83.8942 %
-Incorrectly Classified Instances        67               16.1058 %
-Kappa statistic                          0.7905
-Mean absolute error                      0.0608
-Root mean squared error                  0.17  
-Relative absolute error                 31.0784 %
-Root relative squared error             54.4029 %
+Correctly Classified Instances         336               80.7692 %
+Incorrectly Classified Instances        80               19.2308 %
+Kappa statistic                          0.749 
+Mean absolute error                      0.1019
+Root mean squared error                  0.2208
+Relative absolute error                 39.0987 %
+Root relative squared error             61.2151 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.558    0.008    0.889      0.558    0.686      0.680    0.964     0.803     K1
-                 0.919    0.119    0.810      0.919    0.861      0.780    0.965     0.937     K2
-                 0.816    0.053    0.775      0.816    0.795      0.748    0.970     0.888     K3
-                 0.754    0.023    0.852      0.754    0.800      0.770    0.984     0.913     K4
-                 0.891    0.017    0.905      0.891    0.898      0.879    0.994     0.970     K5
-                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     0.997     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.839    0.059    0.843      0.839    0.835      0.790    0.975     0.919     
+                 0.395    0.016    0.739      0.395    0.515      0.505    0.926     0.648     K1
+                 0.905    0.142    0.779      0.905    0.838      0.742    0.946     0.898     K2
+                 0.816    0.056    0.765      0.816    0.790      0.742    0.963     0.865     K3
+                 0.738    0.020    0.865      0.738    0.796      0.768    0.978     0.885     K4
+                 0.859    0.026    0.859      0.859    0.859      0.834    0.981     0.925     K5
+                 0.958    0.003    0.958      0.958    0.958      0.956    0.998     0.972     K6
+Weighted Avg.    0.808    0.069    0.808      0.808    0.800      0.748    0.960     0.873     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  24  17   0   0   2   0   0   0 |   a = K1
-   3 136   7   0   2   0   0   0 |   b = K2
-   0   6  62   6   2   0   0   0 |   c = K3
-   0   6   9  46   0   0   0   0 |   d = K4
-   0   3   2   2  57   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  17  20   0   0   5   1 |   a = K1
+   4 134   7   0   3   0 |   b = K2
+   0   6  62   7   1   0 |   c = K3
+   0   6  10  45   0   0 |   d = K4
+   2   5   2   0  55   0 |   e = K5
+   0   1   0   0   0  23 |   f = K6
 
-Time taken to perform cross-validation: 2.19 seconds
+Time taken to perform cross-validation: 2.31 seconds
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances         247               59.375  %
-Incorrectly Classified Instances       169               40.625  %
-Kappa statistic                          0.471 
-Mean absolute error                      0.1151
-Root mean squared error                  0.2736
-Relative absolute error                 58.8002 %
-Root relative squared error             87.5728 %
+Correctly Classified Instances         249               59.8558 %
+Incorrectly Classified Instances       167               40.1442 %
+Kappa statistic                          0.479 
+Mean absolute error                      0.1556
+Root mean squared error                  0.3179
+Relative absolute error                 59.7196 %
+Root relative squared error             88.0984 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.163    0.029    0.389      0.163    0.230      0.199    0.768     0.290     K1
-                 0.757    0.209    0.667      0.757    0.709      0.534    0.833     0.713     K2
-                 0.539    0.138    0.466      0.539    0.500      0.380    0.814     0.467     K3
-                 0.361    0.065    0.489      0.361    0.415      0.337    0.799     0.466     K4
-                 0.750    0.060    0.696      0.750    0.722      0.670    0.950     0.698     K5
-                 0.708    0.028    0.607      0.708    0.654      0.633    0.936     0.516     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.594    0.123    0.576      0.594    0.577      0.469    0.842     0.574     
+                 0.116    0.027    0.333      0.116    0.172      0.146    0.764     0.287     K1
+                 0.750    0.198    0.677      0.750    0.712      0.541    0.827     0.719     K2
+                 0.579    0.118    0.524      0.579    0.550      0.444    0.826     0.485     K3
+                 0.377    0.073    0.469      0.377    0.418      0.333    0.764     0.436     K4
+                 0.750    0.071    0.658      0.750    0.701      0.644    0.944     0.705     K5
+                 0.750    0.033    0.581      0.750    0.655      0.636    0.928     0.429     K6
+Weighted Avg.    0.599    0.118    0.574      0.599    0.578      0.473    0.835     0.571     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-   7  28   2   0   3   3   0   0 |   a = K1
-   4 112  15   3  11   3   0   0 |   b = K2
-   2  14  41  15   3   1   0   0 |   c = K3
-   1   7  23  22   4   4   0   0 |   d = K4
-   1   5   6   4  48   0   0   0 |   e = K5
-   3   2   1   1   0  17   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+   5  29   1   0   5   3 |   a = K1
+   4 111  12   7  11   3 |   b = K2
+   1  13  44  13   4   1 |   c = K3
+   2   5  22  23   4   5 |   d = K4
+   1   4   5   5  48   1 |   e = K5
+   2   2   0   1   1  18 |   f = K6
 

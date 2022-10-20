@@ -199,27 +199,27 @@ Histogram of JPEG Coefficients188(3): class Histogram of JPEG Coefficients185 Hi
 Histogram of JPEG Coefficients189(3): class Histogram of JPEG Coefficients188 Histogram of JPEG Coefficients48 
 Histogram of JPEG Coefficients190(5): class Histogram of JPEG Coefficients188 Histogram of JPEG Coefficients53 
 Histogram of JPEG Coefficients191(4): class Histogram of JPEG Coefficients182 Histogram of JPEG Coefficients113 
-class(8): 
-LogScore Bayes: -47955.982996286744
-LogScore BDeu: -214525.04691168846
-LogScore MDL: -163138.95842595634
-LogScore ENTROPY: -69183.89741370508
-LogScore AIC: -100342.89741371121
+class(6): 
+LogScore Bayes: -47951.043737655484
+LogScore BDeu: -166152.803653371
+LogScore MDL: -132650.41594013164
+LogScore ENTROPY: -62184.87401660663
+LogScore AIC: -85553.87401660818
 
 
-Time taken to build model: 1.09 seconds
+Time taken to build model: 1 seconds
 
-Time taken to test model on training data: 0.09 seconds
+Time taken to test model on training data: 0.12 seconds
 
 === Error on training data ===
 
 Correctly Classified Instances         408               98.0769 %
 Incorrectly Classified Instances         8                1.9231 %
 Kappa statistic                          0.9753
-Mean absolute error                      0.0049
-Root mean squared error                  0.0654
-Relative absolute error                  2.5009 %
-Root relative squared error             20.9324 %
+Mean absolute error                      0.0065
+Root mean squared error                  0.0755
+Relative absolute error                  2.5042 %
+Root relative squared error             20.9327 %
 Total Number of Instances              416     
 
 
@@ -232,61 +232,53 @@ Total Number of Instances              416
                  1.000    0.003    0.984      1.000    0.992      0.991    1.000     0.999     K4
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.981    0.009    0.981      0.981    0.980      0.975    0.999     0.997     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  37   6   0   0   0   0   0   0 |   a = K1
-   1 147   0   0   0   0   0   0 |   b = K2
-   0   0  75   1   0   0   0   0 |   c = K3
-   0   0   0  61   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  37   6   0   0   0   0 |   a = K1
+   1 147   0   0   0   0 |   b = K2
+   0   0  75   1   0   0 |   c = K3
+   0   0   0  61   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
-Time taken to perform cross-validation: 4.7 seconds
+Time taken to perform cross-validation: 5.43 seconds
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances         342               82.2115 %
-Incorrectly Classified Instances        74               17.7885 %
-Kappa statistic                          0.7711
-Mean absolute error                      0.0445
-Root mean squared error                  0.1954
-Relative absolute error                 22.7437 %
-Root relative squared error             62.5344 %
+Correctly Classified Instances         347               83.4135 %
+Incorrectly Classified Instances        69               16.5865 %
+Kappa statistic                          0.7855
+Mean absolute error                      0.0549
+Root mean squared error                  0.2214
+Relative absolute error                 21.0633 %
+Root relative squared error             61.36   %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.535    0.021    0.742      0.535    0.622      0.595    0.930     0.605     K1
+                 0.535    0.021    0.742      0.535    0.622      0.595    0.929     0.604     K1
                  0.946    0.075    0.875      0.946    0.909      0.857    0.972     0.927     K2
-                 0.750    0.059    0.740      0.750    0.745      0.688    0.961     0.795     K3
-                 0.623    0.039    0.731      0.623    0.673      0.624    0.955     0.751     K4
+                 0.803    0.065    0.735      0.803    0.767      0.714    0.964     0.804     K3
+                 0.639    0.048    0.696      0.639    0.667      0.613    0.954     0.750     K4
                  0.953    0.000    1.000      0.953    0.976      0.972    0.999     0.998     K5
                  0.958    0.005    0.920      0.958    0.939      0.935    0.997     0.978     K6
-                 ?        0.024    0.000      ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.822    0.046    0.837      0.822    0.827      0.787    0.969     0.857     
+Weighted Avg.    0.834    0.048    0.831      0.834    0.830      0.790    0.969     0.859     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  23  20   0   0   0   0   0   0 |   a = K1
-   8 140   0   0   0   0   0   0 |   b = K2
-   0   0  57  12   0   0   7   0 |   c = K3
-   0   0  20  38   0   0   3   0 |   d = K4
-   0   0   0   1  61   2   0   0 |   e = K5
-   0   0   0   1   0  23   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  23  20   0   0   0   0 |   a = K1
+   8 140   0   0   0   0 |   b = K2
+   0   0  61  15   0   0 |   c = K3
+   0   0  22  39   0   0 |   d = K4
+   0   0   0   1  61   2 |   e = K5
+   0   0   0   1   0  23 |   f = K6
 

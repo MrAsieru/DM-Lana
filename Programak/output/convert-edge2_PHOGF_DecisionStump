@@ -12,29 +12,29 @@ PHOG352 is missing : K2
 Class distributions
 
 PHOG352 <= 1.5
-K1	K2	K3	K4	K5	K6	K7	K8	
-0.04419889502762431	0.8121546961325967	0.027624309392265192	0.055248618784530384	0.0	0.06077348066298342	0.0	0.0	
+K1	K2	K3	K4	K5	K6	
+0.04419889502762431	0.8121546961325967	0.027624309392265192	0.055248618784530384	0.0	0.06077348066298342	
 PHOG352 > 1.5
-K1	K2	K3	K4	K5	K6	K7	K8	
-0.14893617021276595	0.00425531914893617	0.3021276595744681	0.2170212765957447	0.2723404255319149	0.05531914893617021	0.0	0.0	
+K1	K2	K3	K4	K5	K6	
+0.14893617021276595	0.00425531914893617	0.3021276595744681	0.2170212765957447	0.2723404255319149	0.05531914893617021	
 PHOG352 is missing
-K1	K2	K3	K4	K5	K6	K7	K8	
-0.10336538461538461	0.3557692307692308	0.18269230769230768	0.1466346153846154	0.15384615384615385	0.057692307692307696	0.0	0.0	
+K1	K2	K3	K4	K5	K6	
+0.10336538461538461	0.3557692307692308	0.18269230769230768	0.1466346153846154	0.15384615384615385	0.057692307692307696	
 
 
-Time taken to build model: 0.2 seconds
+Time taken to build model: 0.25 seconds
 
-Time taken to test model on training data: 0.02 seconds
+Time taken to test model on training data: 0.04 seconds
 
 === Error on training data ===
 
 Correctly Classified Instances         218               52.4038 %
 Incorrectly Classified Instances       198               47.5962 %
 Kappa statistic                          0.3585
-Mean absolute error                      0.1436
-Root mean squared error                  0.268 
-Relative absolute error                 73.4122 %
-Root relative squared error             85.7764 %
+Mean absolute error                      0.1915
+Root mean squared error                  0.3095
+Relative absolute error                 73.5089 %
+Root relative squared error             85.7777 %
 Total Number of Instances              416     
 
 
@@ -47,24 +47,20 @@ Total Number of Instances              416
                  0.000    0.000    ?          0.000    ?          ?        0.659     0.205     K4
                  0.000    0.000    ?          0.000    ?          ?        0.757     0.272     K5
                  0.000    0.000    ?          0.000    ?          ?        0.512     0.059     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.524    0.133    ?          0.524    ?          ?        0.773     0.432     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-   0   8  35   0   0   0   0   0 |   a = K1
-   0 147   1   0   0   0   0   0 |   b = K2
-   0   5  71   0   0   0   0   0 |   c = K3
-   0  10  51   0   0   0   0   0 |   d = K4
-   0   0  64   0   0   0   0   0 |   e = K5
-   0  11  13   0   0   0   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+   0   8  35   0   0   0 |   a = K1
+   0 147   1   0   0   0 |   b = K2
+   0   5  71   0   0   0 |   c = K3
+   0  10  51   0   0   0 |   d = K4
+   0   0  64   0   0   0 |   e = K5
+   0  11  13   0   0   0 |   f = K6
 
-Time taken to perform cross-validation: 0.19 seconds
+Time taken to perform cross-validation: 0.26 seconds
 
 
 === Stratified cross-validation ===
@@ -72,10 +68,10 @@ Time taken to perform cross-validation: 0.19 seconds
 Correctly Classified Instances         218               52.4038 %
 Incorrectly Classified Instances       198               47.5962 %
 Kappa statistic                          0.3575
-Mean absolute error                      0.1446
-Root mean squared error                  0.2703
-Relative absolute error                 73.8673 %
-Root relative squared error             86.5049 %
+Mean absolute error                      0.1928
+Root mean squared error                  0.3121
+Relative absolute error                 73.9752 %
+Root relative squared error             86.5064 %
 Total Number of Instances              416     
 
 
@@ -88,20 +84,16 @@ Total Number of Instances              416
                  0.000    0.000    ?          0.000    ?          ?        0.635     0.206     K4
                  0.000    0.000    ?          0.000    ?          ?        0.744     0.258     K5
                  0.000    0.000    ?          0.000    ?          ?        0.413     0.051     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.524    0.136    ?          0.524    ?          ?        0.745     0.408     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-   0  12  31   0   0   0   0   0 |   a = K1
-   0 146   2   0   0   0   0   0 |   b = K2
-   0   4  72   0   0   0   0   0 |   c = K3
-   0  10  51   0   0   0   0   0 |   d = K4
-   0   2  62   0   0   0   0   0 |   e = K5
-   0  10  14   0   0   0   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+   0  12  31   0   0   0 |   a = K1
+   0 146   2   0   0   0 |   b = K2
+   0   4  72   0   0   0 |   c = K3
+   0  10  51   0   0   0 |   d = K4
+   0   2  62   0   0   0 |   e = K5
+   0  10  14   0   0   0 |   f = K6
 

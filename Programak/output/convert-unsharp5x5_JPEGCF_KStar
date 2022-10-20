@@ -9,9 +9,9 @@ Java port to Weka by Abdelaziz Mahoui (am14@cs.waikato.ac.nz).
 
 KStar options : -B 20 -M a 
 
-Time taken to build model: 0.18 seconds
+Time taken to build model: 0.24 seconds
 
-Time taken to test model on training data: 3.73 seconds
+Time taken to test model on training data: 4.93 seconds
 
 === Error on training data ===
 
@@ -34,24 +34,20 @@ Total Number of Instances              416
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  43   0   0   0   0   0   0   0 |   a = K1
-   0 148   0   0   0   0   0   0 |   b = K2
-   0   0  76   0   0   0   0   0 |   c = K3
-   0   0   0  61   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  43   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0 |   b = K2
+   0   0  76   0   0   0 |   c = K3
+   0   0   0  61   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
-Time taken to perform cross-validation: 4.82 seconds
+Time taken to perform cross-validation: 6.76 seconds
 
 
 === Stratified cross-validation ===
@@ -59,10 +55,10 @@ Time taken to perform cross-validation: 4.82 seconds
 Correctly Classified Instances         183               43.9904 %
 Incorrectly Classified Instances       233               56.0096 %
 Kappa statistic                          0.3446
-Mean absolute error                      0.1325
-Root mean squared error                  0.2693
-Relative absolute error                 67.7036 %
-Root relative squared error             86.1921 %
+Mean absolute error                      0.1691
+Root mean squared error                  0.3048
+Relative absolute error                 64.8813 %
+Root relative squared error             84.4805 %
 Total Number of Instances              416     
 
 
@@ -75,20 +71,16 @@ Total Number of Instances              416
                  0.098    0.006    0.750      0.098    0.174      0.239    0.764     0.310     K4
                  0.922    0.000    1.000      0.922    0.959      0.953    0.975     0.939     K5
                  0.875    0.000    1.000      0.875    0.933      0.932    0.964     0.887     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.440    0.070    0.790      0.440    0.458      0.455    0.820     0.583     
 
 
 === Confusion Matrix ===
 
-  a  b  c  d  e  f  g  h   <-- classified as
- 39  4  0  0  0  0  0  0 |  a = K1
- 94 54  0  0  0  0  0  0 |  b = K2
- 70  0  4  2  0  0  0  0 |  c = K3
- 53  0  2  6  0  0  0  0 |  d = K4
-  5  0  0  0 59  0  0  0 |  e = K5
-  3  0  0  0  0 21  0  0 |  f = K6
-  0  0  0  0  0  0  0  0 |  g = K7
-  0  0  0  0  0  0  0  0 |  h = K8
+  a  b  c  d  e  f   <-- classified as
+ 39  4  0  0  0  0 |  a = K1
+ 94 54  0  0  0  0 |  b = K2
+ 70  0  4  2  0  0 |  c = K3
+ 53  0  2  6  0  0 |  d = K4
+  5  0  0  0 59  0 |  e = K5
+  3  0  0  0  0 21 |  f = K6
 

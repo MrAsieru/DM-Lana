@@ -310,7 +310,7 @@ RGB Color Histogram16 >= 19.5
 
 Size of the tree : 301
 
-Time taken to build model: 0.18 seconds
+Time taken to build model: 0.2 seconds
 
 Time taken to test model on training data: 0.01 seconds
 
@@ -335,24 +335,20 @@ Total Number of Instances              416
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  43   0   0   0   0   0   0   0 |   a = K1
-   0 148   0   0   0   0   0   0 |   b = K2
-   0   0  76   0   0   0   0   0 |   c = K3
-   0   0   0  61   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  43   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0 |   b = K2
+   0   0  76   0   0   0 |   c = K3
+   0   0   0  61   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
-Time taken to perform cross-validation: 0.08 seconds
+Time taken to perform cross-validation: 0.07 seconds
 
 
 === Stratified cross-validation ===
@@ -360,10 +356,10 @@ Time taken to perform cross-validation: 0.08 seconds
 Correctly Classified Instances         276               66.3462 %
 Incorrectly Classified Instances       140               33.6538 %
 Kappa statistic                          0.5682
-Mean absolute error                      0.0841
-Root mean squared error                  0.2901
-Relative absolute error                 42.9857 %
-Root relative squared error             92.8305 %
+Mean absolute error                      0.1122
+Root mean squared error                  0.3349
+Relative absolute error                 43.0484 %
+Root relative squared error             92.8321 %
 Total Number of Instances              416     
 
 
@@ -376,20 +372,16 @@ Total Number of Instances              416
                  0.377    0.073    0.469      0.377    0.418      0.333    0.652     0.268     K4
                  0.969    0.020    0.899      0.969    0.932      0.920    0.974     0.875     K5
                  0.958    0.003    0.958      0.958    0.958      0.956    0.978     0.921     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.663    0.098    0.656      0.663    0.658      0.562    0.783     0.540     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  16  19   4   3   0   1   0   0 |   a = K1
-  21 106  12   7   2   0   0   0 |   b = K2
-   0  16  46  14   0   0   0   0 |   c = K3
-   4   8  22  23   4   0   0   0 |   d = K4
-   0   0   0   2  62   0   0   0 |   e = K5
-   0   0   0   0   1  23   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  16  19   4   3   0   1 |   a = K1
+  21 106  12   7   2   0 |   b = K2
+   0  16  46  14   0   0 |   c = K3
+   4   8  22  23   4   0 |   d = K4
+   0   0   0   2  62   0 |   e = K5
+   0   0   0   0   1  23 |   f = K6
 

@@ -147,55 +147,35 @@ Machine linear: showing attribute weights, not support vectors.
 
 Number of kernel evaluations: 851 (78.039% cached)
 
-Classifier for classes: K1, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K1, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
 Classifier for classes: K2, K3
 
 BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-         1.2537 * (normalized) Auto Color Correlogram0
- +       1.1562 * (normalized) Auto Color Correlogram1
- +       0.8349 * (normalized) Auto Color Correlogram2
- +       0.7629 * (normalized) Auto Color Correlogram3
- +      -0.377  * (normalized) Auto Color Correlogram48
- +      -0.6672 * (normalized) Auto Color Correlogram49
- +      -0.9377 * (normalized) Auto Color Correlogram50
- +      -1.1843 * (normalized) Auto Color Correlogram51
- +       0.3544 * (normalized) Auto Color Correlogram52
- +      -0.3479 * (normalized) Auto Color Correlogram53
- +      -0.4576 * (normalized) Auto Color Correlogram54
- +      -0.5083 * (normalized) Auto Color Correlogram55
- +      -0.2601 * (normalized) Auto Color Correlogram56
- +      -0.1708 * (normalized) Auto Color Correlogram57
- +      -0.1829 * (normalized) Auto Color Correlogram58
- +      -0.2542 * (normalized) Auto Color Correlogram59
- +      -0.4864 * (normalized) Auto Color Correlogram60
- +      -0.5254 * (normalized) Auto Color Correlogram61
- +      -0.4977 * (normalized) Auto Color Correlogram62
- +      -0.47   * (normalized) Auto Color Correlogram63
- +       2.1652
+         1.2527 * (normalized) Auto Color Correlogram0
+ +       1.1552 * (normalized) Auto Color Correlogram1
+ +       0.8344 * (normalized) Auto Color Correlogram2
+ +       0.7631 * (normalized) Auto Color Correlogram3
+ +      -0.3762 * (normalized) Auto Color Correlogram48
+ +      -0.6637 * (normalized) Auto Color Correlogram49
+ +      -0.9372 * (normalized) Auto Color Correlogram50
+ +      -1.1832 * (normalized) Auto Color Correlogram51
+ +       0.3485 * (normalized) Auto Color Correlogram52
+ +      -0.3473 * (normalized) Auto Color Correlogram53
+ +      -0.4537 * (normalized) Auto Color Correlogram54
+ +      -0.4992 * (normalized) Auto Color Correlogram55
+ +      -0.2482 * (normalized) Auto Color Correlogram56
+ +      -0.1733 * (normalized) Auto Color Correlogram57
+ +      -0.1871 * (normalized) Auto Color Correlogram58
+ +      -0.2603 * (normalized) Auto Color Correlogram59
+ +      -0.486  * (normalized) Auto Color Correlogram60
+ +      -0.5247 * (normalized) Auto Color Correlogram61
+ +      -0.4967 * (normalized) Auto Color Correlogram62
+ +      -0.4691 * (normalized) Auto Color Correlogram63
+ +       2.1616
 
-Number of kernel evaluations: 2201 (79.403% cached)
+Number of kernel evaluations: 3186 (78.15% cached)
 
 Classifier for classes: K2, K4
 
@@ -203,29 +183,29 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-         1.199  * (normalized) Auto Color Correlogram0
- +       1.1374 * (normalized) Auto Color Correlogram1
- +       0.6755 * (normalized) Auto Color Correlogram2
- +       0.4906 * (normalized) Auto Color Correlogram3
- +      -0.4347 * (normalized) Auto Color Correlogram48
+         1.1986 * (normalized) Auto Color Correlogram0
+ +       1.137  * (normalized) Auto Color Correlogram1
+ +       0.6751 * (normalized) Auto Color Correlogram2
+ +       0.4902 * (normalized) Auto Color Correlogram3
+ +      -0.4346 * (normalized) Auto Color Correlogram48
  +      -0.6015 * (normalized) Auto Color Correlogram49
  +      -0.9041 * (normalized) Auto Color Correlogram50
  +      -1.0298 * (normalized) Auto Color Correlogram51
- +       0.0565 * (normalized) Auto Color Correlogram52
- +      -0.2836 * (normalized) Auto Color Correlogram53
- +      -0.3572 * (normalized) Auto Color Correlogram54
+ +       0.0567 * (normalized) Auto Color Correlogram52
+ +      -0.2835 * (normalized) Auto Color Correlogram53
+ +      -0.3571 * (normalized) Auto Color Correlogram54
  +      -0.5193 * (normalized) Auto Color Correlogram55
- +      -0.0038 * (normalized) Auto Color Correlogram56
- +      -0.2628 * (normalized) Auto Color Correlogram57
- +      -0.2415 * (normalized) Auto Color Correlogram58
- +      -0.4152 * (normalized) Auto Color Correlogram59
- +      -0.1753 * (normalized) Auto Color Correlogram60
- +      -0.5511 * (normalized) Auto Color Correlogram61
- +      -0.527  * (normalized) Auto Color Correlogram62
- +      -0.3115 * (normalized) Auto Color Correlogram63
- +       1.9698
+ +      -0.0041 * (normalized) Auto Color Correlogram56
+ +      -0.2629 * (normalized) Auto Color Correlogram57
+ +      -0.2416 * (normalized) Auto Color Correlogram58
+ +      -0.4153 * (normalized) Auto Color Correlogram59
+ +      -0.1748 * (normalized) Auto Color Correlogram60
+ +      -0.5508 * (normalized) Auto Color Correlogram61
+ +      -0.5268 * (normalized) Auto Color Correlogram62
+ +      -0.3113 * (normalized) Auto Color Correlogram63
+ +       1.9696
 
-Number of kernel evaluations: 2824 (72.311% cached)
+Number of kernel evaluations: 2554 (70.069% cached)
 
 Classifier for classes: K2, K5
 
@@ -234,25 +214,25 @@ BinarySMO
 Machine linear: showing attribute weights, not support vectors.
 
          0.4286 * (normalized) Auto Color Correlogram0
- +      -0.3133 * (normalized) Auto Color Correlogram48
- +      -0.6856 * (normalized) Auto Color Correlogram49
- +      -1.1452 * (normalized) Auto Color Correlogram50
- +      -0.6835 * (normalized) Auto Color Correlogram51
- +      -3.0159 * (normalized) Auto Color Correlogram52
- +      -1.291  * (normalized) Auto Color Correlogram53
- +      -0.0209 * (normalized) Auto Color Correlogram54
- +       1.4668 * (normalized) Auto Color Correlogram55
- +      -0.229  * (normalized) Auto Color Correlogram56
- +      -0.6454 * (normalized) Auto Color Correlogram57
- +       0.0072 * (normalized) Auto Color Correlogram58
- +       0.7634 * (normalized) Auto Color Correlogram59
- +       0.5108 * (normalized) Auto Color Correlogram60
- +       0.1131 * (normalized) Auto Color Correlogram61
- +      -0.251  * (normalized) Auto Color Correlogram62
- +      -0.6769 * (normalized) Auto Color Correlogram63
- +       4.5052
+ +      -0.313  * (normalized) Auto Color Correlogram48
+ +      -0.6861 * (normalized) Auto Color Correlogram49
+ +      -1.1461 * (normalized) Auto Color Correlogram50
+ +      -0.684  * (normalized) Auto Color Correlogram51
+ +      -3.0148 * (normalized) Auto Color Correlogram52
+ +      -1.2894 * (normalized) Auto Color Correlogram53
+ +      -0.0208 * (normalized) Auto Color Correlogram54
+ +       1.4658 * (normalized) Auto Color Correlogram55
+ +      -0.2301 * (normalized) Auto Color Correlogram56
+ +      -0.6457 * (normalized) Auto Color Correlogram57
+ +       0.0079 * (normalized) Auto Color Correlogram58
+ +       0.7649 * (normalized) Auto Color Correlogram59
+ +       0.5052 * (normalized) Auto Color Correlogram60
+ +       0.1133 * (normalized) Auto Color Correlogram61
+ +      -0.2493 * (normalized) Auto Color Correlogram62
+ +      -0.6737 * (normalized) Auto Color Correlogram63
+ +       4.5061
 
-Number of kernel evaluations: 9111 (81.85% cached)
+Number of kernel evaluations: 8225 (77.095% cached)
 
 Classifier for classes: K2, K6
 
@@ -260,45 +240,25 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-         0.1123 * (normalized) Auto Color Correlogram48
- +       0.2065 * (normalized) Auto Color Correlogram49
- +      -0.02   * (normalized) Auto Color Correlogram50
- +      -0.3432 * (normalized) Auto Color Correlogram51
- +      -0.5357 * (normalized) Auto Color Correlogram52
- +      -0.0261 * (normalized) Auto Color Correlogram53
- +      -0.063  * (normalized) Auto Color Correlogram54
- +       0.1973 * (normalized) Auto Color Correlogram55
- +      -0.0629 * (normalized) Auto Color Correlogram56
- +       0.134  * (normalized) Auto Color Correlogram57
- +      -0.1387 * (normalized) Auto Color Correlogram58
- +       0.1299 * (normalized) Auto Color Correlogram59
- +       0.2929 * (normalized) Auto Color Correlogram60
- +      -0.2063 * (normalized) Auto Color Correlogram61
- +      -0.0942 * (normalized) Auto Color Correlogram62
- +      -0.0625 * (normalized) Auto Color Correlogram63
- -       0.7623
+         0.0187 * (normalized) Auto Color Correlogram48
+ +       0.0478 * (normalized) Auto Color Correlogram49
+ +       0.0066 * (normalized) Auto Color Correlogram50
+ +      -0.0864 * (normalized) Auto Color Correlogram51
+ +      -0.3636 * (normalized) Auto Color Correlogram52
+ +       0.0174 * (normalized) Auto Color Correlogram53
+ +      -0.0192 * (normalized) Auto Color Correlogram54
+ +       0.1222 * (normalized) Auto Color Correlogram55
+ +       0.0271 * (normalized) Auto Color Correlogram56
+ +       0.0462 * (normalized) Auto Color Correlogram57
+ +      -0.1275 * (normalized) Auto Color Correlogram58
+ +       0.0778 * (normalized) Auto Color Correlogram59
+ +       0.0748 * (normalized) Auto Color Correlogram60
+ +      -0.0726 * (normalized) Auto Color Correlogram61
+ +      -0.0217 * (normalized) Auto Color Correlogram62
+ +       0.0158 * (normalized) Auto Color Correlogram63
+ -       0.7813
 
-Number of kernel evaluations: 6245 (78.256% cached)
-
-Classifier for classes: K2, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K2, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
+Number of kernel evaluations: 6461 (92.478% cached)
 
 Classifier for classes: K3, K4
 
@@ -306,29 +266,29 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-         0.306  * (normalized) Auto Color Correlogram0
- +       1.3303 * (normalized) Auto Color Correlogram1
- +       1.0687 * (normalized) Auto Color Correlogram2
- +       1.1355 * (normalized) Auto Color Correlogram3
- +      -0.9281 * (normalized) Auto Color Correlogram48
- +      -1.0262 * (normalized) Auto Color Correlogram49
- +      -1.232  * (normalized) Auto Color Correlogram50
- +      -1.4429 * (normalized) Auto Color Correlogram51
- +      -0.3383 * (normalized) Auto Color Correlogram52
- +      -0.2134 * (normalized) Auto Color Correlogram53
- +      -0.077  * (normalized) Auto Color Correlogram54
- +       0.3251 * (normalized) Auto Color Correlogram55
- +      -0.9237 * (normalized) Auto Color Correlogram56
- +      -0.3811 * (normalized) Auto Color Correlogram57
- +       0.0035 * (normalized) Auto Color Correlogram58
- +      -0.1315 * (normalized) Auto Color Correlogram59
- +      -0.0885 * (normalized) Auto Color Correlogram60
- +      -0.0022 * (normalized) Auto Color Correlogram61
- +       0.0227 * (normalized) Auto Color Correlogram62
- +       0.3046 * (normalized) Auto Color Correlogram63
- +       0.7793
+         0.2796 * (normalized) Auto Color Correlogram0
+ +       1.3506 * (normalized) Auto Color Correlogram1
+ +       1.0564 * (normalized) Auto Color Correlogram2
+ +       1.1449 * (normalized) Auto Color Correlogram3
+ +      -0.9492 * (normalized) Auto Color Correlogram48
+ +      -1.0591 * (normalized) Auto Color Correlogram49
+ +      -1.2455 * (normalized) Auto Color Correlogram50
+ +      -1.4214 * (normalized) Auto Color Correlogram51
+ +      -0.3109 * (normalized) Auto Color Correlogram52
+ +      -0.1889 * (normalized) Auto Color Correlogram53
+ +      -0.0573 * (normalized) Auto Color Correlogram54
+ +       0.3278 * (normalized) Auto Color Correlogram55
+ +      -0.8804 * (normalized) Auto Color Correlogram56
+ +      -0.3737 * (normalized) Auto Color Correlogram57
+ +       0.0291 * (normalized) Auto Color Correlogram58
+ +      -0.1221 * (normalized) Auto Color Correlogram59
+ +      -0.1226 * (normalized) Auto Color Correlogram60
+ +       0.0114 * (normalized) Auto Color Correlogram61
+ +       0.0378 * (normalized) Auto Color Correlogram62
+ +       0.3203 * (normalized) Auto Color Correlogram63
+ +       0.7687
 
-Number of kernel evaluations: 4369 (78.331% cached)
+Number of kernel evaluations: 5266 (78.4% cached)
 
 Classifier for classes: K3, K5
 
@@ -336,29 +296,29 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -1.2764 * (normalized) Auto Color Correlogram0
- +      -1.2804 * (normalized) Auto Color Correlogram1
- +      -0.8894 * (normalized) Auto Color Correlogram2
- +      -0.736  * (normalized) Auto Color Correlogram3
- +       0.0312 * (normalized) Auto Color Correlogram48
- +       0.5908 * (normalized) Auto Color Correlogram49
- +       0.7791 * (normalized) Auto Color Correlogram50
- +       1.0363 * (normalized) Auto Color Correlogram51
- +       0.222  * (normalized) Auto Color Correlogram52
- +       0.6002 * (normalized) Auto Color Correlogram53
- +       0.6689 * (normalized) Auto Color Correlogram54
- +       0.5859 * (normalized) Auto Color Correlogram55
- +       0.4662 * (normalized) Auto Color Correlogram56
- +       0.4731 * (normalized) Auto Color Correlogram57
- +       0.4033 * (normalized) Auto Color Correlogram58
- +       0.5924 * (normalized) Auto Color Correlogram59
- +       0.5883 * (normalized) Auto Color Correlogram60
+        -1.2767 * (normalized) Auto Color Correlogram0
+ +      -1.2807 * (normalized) Auto Color Correlogram1
+ +      -0.8895 * (normalized) Auto Color Correlogram2
+ +      -0.7361 * (normalized) Auto Color Correlogram3
+ +       0.0319 * (normalized) Auto Color Correlogram48
+ +       0.5912 * (normalized) Auto Color Correlogram49
+ +       0.7794 * (normalized) Auto Color Correlogram50
+ +       1.0361 * (normalized) Auto Color Correlogram51
+ +       0.2217 * (normalized) Auto Color Correlogram52
+ +       0.6005 * (normalized) Auto Color Correlogram53
+ +       0.6692 * (normalized) Auto Color Correlogram54
+ +       0.5862 * (normalized) Auto Color Correlogram55
+ +       0.4673 * (normalized) Auto Color Correlogram56
+ +       0.4734 * (normalized) Auto Color Correlogram57
+ +       0.403  * (normalized) Auto Color Correlogram58
+ +       0.5913 * (normalized) Auto Color Correlogram59
+ +       0.5882 * (normalized) Auto Color Correlogram60
  +       0.5469 * (normalized) Auto Color Correlogram61
- +       0.5181 * (normalized) Auto Color Correlogram62
- +       0.485  * (normalized) Auto Color Correlogram63
- -       2.5383
+ +       0.518  * (normalized) Auto Color Correlogram62
+ +       0.4851 * (normalized) Auto Color Correlogram63
+ -       2.5398
 
-Number of kernel evaluations: 1622 (84.698% cached)
+Number of kernel evaluations: 1980 (82.201% cached)
 
 Classifier for classes: K3, K6
 
@@ -366,49 +326,29 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -0.8703 * (normalized) Auto Color Correlogram0
- +      -0.8362 * (normalized) Auto Color Correlogram1
- +      -0.6523 * (normalized) Auto Color Correlogram2
+        -0.8696 * (normalized) Auto Color Correlogram0
+ +      -0.8381 * (normalized) Auto Color Correlogram1
+ +      -0.6524 * (normalized) Auto Color Correlogram2
  +      -0.5705 * (normalized) Auto Color Correlogram3
- +       0.4151 * (normalized) Auto Color Correlogram48
- +       0.5658 * (normalized) Auto Color Correlogram49
- +       0.5911 * (normalized) Auto Color Correlogram50
- +       0.6512 * (normalized) Auto Color Correlogram51
- +       0.3164 * (normalized) Auto Color Correlogram52
- +       0.3609 * (normalized) Auto Color Correlogram53
- +       0.3541 * (normalized) Auto Color Correlogram54
- +       0.2822 * (normalized) Auto Color Correlogram55
- +       0.3425 * (normalized) Auto Color Correlogram56
- +       0.2768 * (normalized) Auto Color Correlogram57
- +       0.3182 * (normalized) Auto Color Correlogram58
- +       0.3189 * (normalized) Auto Color Correlogram59
- +       0.5615 * (normalized) Auto Color Correlogram60
- +       0.2337 * (normalized) Auto Color Correlogram61
+ +       0.4171 * (normalized) Auto Color Correlogram48
+ +       0.5672 * (normalized) Auto Color Correlogram49
+ +       0.5939 * (normalized) Auto Color Correlogram50
+ +       0.6535 * (normalized) Auto Color Correlogram51
+ +       0.3162 * (normalized) Auto Color Correlogram52
+ +       0.3605 * (normalized) Auto Color Correlogram53
+ +       0.3542 * (normalized) Auto Color Correlogram54
+ +       0.2815 * (normalized) Auto Color Correlogram55
+ +       0.3401 * (normalized) Auto Color Correlogram56
+ +       0.2769 * (normalized) Auto Color Correlogram57
+ +       0.3168 * (normalized) Auto Color Correlogram58
+ +       0.3188 * (normalized) Auto Color Correlogram59
+ +       0.5643 * (normalized) Auto Color Correlogram60
+ +       0.2348 * (normalized) Auto Color Correlogram61
  +       0.1646 * (normalized) Auto Color Correlogram62
- +       0.0647 * (normalized) Auto Color Correlogram63
- -       2.4217
+ +       0.0643 * (normalized) Auto Color Correlogram63
+ -       2.4256
 
-Number of kernel evaluations: 1077 (82.468% cached)
-
-Classifier for classes: K3, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K3, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
+Number of kernel evaluations: 1130 (87.115% cached)
 
 Classifier for classes: K4, K5
 
@@ -416,29 +356,29 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -1.4533 * (normalized) Auto Color Correlogram0
- +      -1.5    * (normalized) Auto Color Correlogram1
- +      -0.8441 * (normalized) Auto Color Correlogram2
- +      -0.5272 * (normalized) Auto Color Correlogram3
- +       0.2067 * (normalized) Auto Color Correlogram48
- +       0.5601 * (normalized) Auto Color Correlogram49
- +       0.7661 * (normalized) Auto Color Correlogram50
- +       0.804  * (normalized) Auto Color Correlogram51
- +       0.2878 * (normalized) Auto Color Correlogram52
- +       0.413  * (normalized) Auto Color Correlogram53
- +       0.5111 * (normalized) Auto Color Correlogram54
- +       0.5005 * (normalized) Auto Color Correlogram55
- +       0.0395 * (normalized) Auto Color Correlogram56
- +       0.545  * (normalized) Auto Color Correlogram57
- +       0.5068 * (normalized) Auto Color Correlogram58
- +       0.7812 * (normalized) Auto Color Correlogram59
- +       0.0995 * (normalized) Auto Color Correlogram60
- +       0.5204 * (normalized) Auto Color Correlogram61
- +       0.6857 * (normalized) Auto Color Correlogram62
- +       0.4367 * (normalized) Auto Color Correlogram63
- -       2.0984
+        -1.4528 * (normalized) Auto Color Correlogram0
+ +      -1.4987 * (normalized) Auto Color Correlogram1
+ +      -0.843  * (normalized) Auto Color Correlogram2
+ +      -0.5261 * (normalized) Auto Color Correlogram3
+ +       0.2056 * (normalized) Auto Color Correlogram48
+ +       0.5609 * (normalized) Auto Color Correlogram49
+ +       0.7679 * (normalized) Auto Color Correlogram50
+ +       0.8061 * (normalized) Auto Color Correlogram51
+ +       0.2897 * (normalized) Auto Color Correlogram52
+ +       0.414  * (normalized) Auto Color Correlogram53
+ +       0.5097 * (normalized) Auto Color Correlogram54
+ +       0.4989 * (normalized) Auto Color Correlogram55
+ +       0.0396 * (normalized) Auto Color Correlogram56
+ +       0.5454 * (normalized) Auto Color Correlogram57
+ +       0.5082 * (normalized) Auto Color Correlogram58
+ +       0.7824 * (normalized) Auto Color Correlogram59
+ +       0.1004 * (normalized) Auto Color Correlogram60
+ +       0.5202 * (normalized) Auto Color Correlogram61
+ +       0.6841 * (normalized) Auto Color Correlogram62
+ +       0.4353 * (normalized) Auto Color Correlogram63
+ -       2.1   
 
-Number of kernel evaluations: 1327 (75.62% cached)
+Number of kernel evaluations: 1445 (80.354% cached)
 
 Classifier for classes: K4, K6
 
@@ -446,49 +386,29 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -0.8752 * (normalized) Auto Color Correlogram0
- +      -0.8527 * (normalized) Auto Color Correlogram1
- +      -0.5368 * (normalized) Auto Color Correlogram2
- +      -0.4319 * (normalized) Auto Color Correlogram3
- +       0.5095 * (normalized) Auto Color Correlogram48
- +       0.577  * (normalized) Auto Color Correlogram49
- +       0.6533 * (normalized) Auto Color Correlogram50
- +       0.6052 * (normalized) Auto Color Correlogram51
- +       0.1602 * (normalized) Auto Color Correlogram52
- +       0.2896 * (normalized) Auto Color Correlogram53
- +       0.2911 * (normalized) Auto Color Correlogram54
- +       0.3715 * (normalized) Auto Color Correlogram55
- +       0.2407 * (normalized) Auto Color Correlogram56
- +       0.3165 * (normalized) Auto Color Correlogram57
- +       0.3604 * (normalized) Auto Color Correlogram58
- +       0.4982 * (normalized) Auto Color Correlogram59
- +       0.2293 * (normalized) Auto Color Correlogram60
- +       0.2411 * (normalized) Auto Color Correlogram61
- +       0.2639 * (normalized) Auto Color Correlogram62
- +       0.1876 * (normalized) Auto Color Correlogram63
- -       2.3161
+        -0.8751 * (normalized) Auto Color Correlogram0
+ +      -0.8526 * (normalized) Auto Color Correlogram1
+ +      -0.5366 * (normalized) Auto Color Correlogram2
+ +      -0.4318 * (normalized) Auto Color Correlogram3
+ +       0.5094 * (normalized) Auto Color Correlogram48
+ +       0.5769 * (normalized) Auto Color Correlogram49
+ +       0.6532 * (normalized) Auto Color Correlogram50
+ +       0.6051 * (normalized) Auto Color Correlogram51
+ +       0.1603 * (normalized) Auto Color Correlogram52
+ +       0.2898 * (normalized) Auto Color Correlogram53
+ +       0.2913 * (normalized) Auto Color Correlogram54
+ +       0.3718 * (normalized) Auto Color Correlogram55
+ +       0.2411 * (normalized) Auto Color Correlogram56
+ +       0.3168 * (normalized) Auto Color Correlogram57
+ +       0.3607 * (normalized) Auto Color Correlogram58
+ +       0.4985 * (normalized) Auto Color Correlogram59
+ +       0.2291 * (normalized) Auto Color Correlogram60
+ +       0.2412 * (normalized) Auto Color Correlogram61
+ +       0.264  * (normalized) Auto Color Correlogram62
+ +       0.1877 * (normalized) Auto Color Correlogram63
+ -       2.3175
 
-Number of kernel evaluations: 819 (78.328% cached)
-
-Classifier for classes: K4, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K4, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
+Number of kernel evaluations: 937 (73.381% cached)
 
 Classifier for classes: K5, K6
 
@@ -496,87 +416,42 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-         0      * (normalized) Auto Color Correlogram0
- +      -0.0266 * (normalized) Auto Color Correlogram48
- +       0.4169 * (normalized) Auto Color Correlogram49
- +       0.272  * (normalized) Auto Color Correlogram50
- +       0.0489 * (normalized) Auto Color Correlogram51
- +       0.2109 * (normalized) Auto Color Correlogram52
- +       0.2255 * (normalized) Auto Color Correlogram53
- +      -0.0754 * (normalized) Auto Color Correlogram54
- +      -0.0283 * (normalized) Auto Color Correlogram55
- +       0.1973 * (normalized) Auto Color Correlogram56
- +       0.4121 * (normalized) Auto Color Correlogram57
- +      -0.217  * (normalized) Auto Color Correlogram58
- +      -0.2417 * (normalized) Auto Color Correlogram59
- +       0.8495 * (normalized) Auto Color Correlogram60
- +      -0.071  * (normalized) Auto Color Correlogram61
- +      -0.439  * (normalized) Auto Color Correlogram62
- +      -0.4793 * (normalized) Auto Color Correlogram63
- -       1.9964
+        -0      * (normalized) Auto Color Correlogram0
+ +      -0.0287 * (normalized) Auto Color Correlogram48
+ +       0.4134 * (normalized) Auto Color Correlogram49
+ +       0.2856 * (normalized) Auto Color Correlogram50
+ +       0.0437 * (normalized) Auto Color Correlogram51
+ +       0.2112 * (normalized) Auto Color Correlogram52
+ +       0.2265 * (normalized) Auto Color Correlogram53
+ +      -0.0749 * (normalized) Auto Color Correlogram54
+ +      -0.0277 * (normalized) Auto Color Correlogram55
+ +       0.1959 * (normalized) Auto Color Correlogram56
+ +       0.4097 * (normalized) Auto Color Correlogram57
+ +      -0.2196 * (normalized) Auto Color Correlogram58
+ +      -0.2454 * (normalized) Auto Color Correlogram59
+ +       0.8525 * (normalized) Auto Color Correlogram60
+ +      -0.0689 * (normalized) Auto Color Correlogram61
+ +      -0.4386 * (normalized) Auto Color Correlogram62
+ +      -0.4797 * (normalized) Auto Color Correlogram63
+ -       2.0131
 
-Number of kernel evaluations: 1520 (87.516% cached)
-
-Classifier for classes: K5, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K5, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K6, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K6, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K7, K8
-
-BinarySMO: No model built yet.
+Number of kernel evaluations: 1347 (86.547% cached)
 
 
 
+Time taken to build model: 0.69 seconds
 
-Time taken to build model: 0.53 seconds
-
-Time taken to test model on training data: 0.04 seconds
+Time taken to test model on training data: 0.06 seconds
 
 === Error on training data ===
 
 Correctly Classified Instances         264               63.4615 %
 Incorrectly Classified Instances       152               36.5385 %
-Kappa statistic                          0.4986
-Mean absolute error                      0.1897
-Root mean squared error                  0.2975
-Relative absolute error                 96.9437 %
-Root relative squared error             95.2225 %
+Kappa statistic                          0.4988
+Mean absolute error                      0.233 
+Root mean squared error                  0.3272
+Relative absolute error                 89.4352 %
+Root relative squared error             90.7003 %
 Total Number of Instances              416     
 
 
@@ -585,39 +460,35 @@ Total Number of Instances              416
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
                  0.000    0.000    ?          0.000    ?          ?        0.788     0.218     K1
                  0.946    0.321    0.619      0.946    0.749      0.601    0.823     0.610     K2
-                 0.947    0.129    0.621      0.947    0.750      0.705    0.930     0.617     K3
-                 0.279    0.011    0.810      0.279    0.415      0.432    0.917     0.547     K4
+                 0.934    0.126    0.623      0.934    0.747      0.700    0.931     0.618     K3
+                 0.295    0.014    0.783      0.295    0.429      0.435    0.918     0.545     K4
                  0.547    0.051    0.660      0.547    0.598      0.536    0.889     0.557     K5
-                 0.000    0.000    ?          0.000    ?          ?        0.808     0.165     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
+                 0.000    0.000    ?          0.000    ?          ?        0.809     0.165     K6
 Weighted Avg.    0.635    0.147    ?          0.635    ?          ?        0.862     0.528     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-   0  42   0   0   1   0   0   0 |   a = K1
-   0 140   0   0   8   0   0   0 |   b = K2
-   0   0  72   4   0   0   0   0 |   c = K3
-   0   0  44  17   0   0   0   0 |   d = K4
-   0  29   0   0  35   0   0   0 |   e = K5
-   0  15   0   0   9   0   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+   0  42   0   0   1   0 |   a = K1
+   0 140   0   0   8   0 |   b = K2
+   0   0  71   5   0   0 |   c = K3
+   0   0  43  18   0   0 |   d = K4
+   0  29   0   0  35   0 |   e = K5
+   0  15   0   0   9   0 |   f = K6
 
-Time taken to perform cross-validation: 1.22 seconds
+Time taken to perform cross-validation: 1.58 seconds
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances         252               60.5769 %
-Incorrectly Classified Instances       164               39.4231 %
-Kappa statistic                          0.4598
-Mean absolute error                      0.19  
-Root mean squared error                  0.2981
-Relative absolute error                 97.093  %
-Root relative squared error             95.4039 %
+Correctly Classified Instances         253               60.8173 %
+Incorrectly Classified Instances       163               39.1827 %
+Kappa statistic                          0.4628
+Mean absolute error                      0.2338
+Root mean squared error                  0.3284
+Relative absolute error                 89.7252 %
+Root relative squared error             91.0242 %
 Total Number of Instances              416     
 
 
@@ -625,25 +496,21 @@ Total Number of Instances              416
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
                  0.000    0.000    ?          0.000    ?          ?        0.772     0.205     K1
-                 0.946    0.321    0.619      0.946    0.749      0.601    0.823     0.610     K2
-                 0.803    0.126    0.587      0.803    0.678      0.603    0.919     0.579     K3
-                 0.295    0.042    0.545      0.295    0.383      0.331    0.903     0.475     K4
-                 0.516    0.057    0.623      0.516    0.564      0.496    0.876     0.521     K5
+                 0.946    0.325    0.617      0.946    0.747      0.597    0.821     0.608     K2
+                 0.803    0.124    0.592      0.803    0.682      0.608    0.920     0.584     K3
+                 0.311    0.042    0.559      0.311    0.400      0.348    0.905     0.481     K4
+                 0.516    0.054    0.635      0.516    0.569      0.504    0.877     0.527     K5
                  0.000    0.000    ?          0.000    ?          ?        0.811     0.169     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.606    0.152    ?          0.606    ?          ?        0.855     0.504     
+Weighted Avg.    0.608    0.153    ?          0.608    ?          ?        0.855     0.505     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-   0  41   0   0   2   0   0   0 |   a = K1
-   0 140   0   0   8   0   0   0 |   b = K2
-   0   0  61  15   0   0   0   0 |   c = K3
-   0   0  43  18   0   0   0   0 |   d = K4
-   0  31   0   0  33   0   0   0 |   e = K5
-   0  14   0   0  10   0   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+   0  41   0   0   2   0 |   a = K1
+   0 140   0   0   8   0 |   b = K2
+   0   0  61  15   0   0 |   c = K3
+   0   0  42  19   0   0 |   d = K4
+   0  31   0   0  33   0 |   e = K5
+   0  15   0   0   9   0 |   f = K6
 

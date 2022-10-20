@@ -40,15 +40,15 @@ MPEG-7 Color Layout29(2): class MPEG-7 Color Layout2 MPEG-7 Color Layout14
 MPEG-7 Color Layout30(5): class MPEG-7 Color Layout24 
 MPEG-7 Color Layout31(2): class MPEG-7 Color Layout5 MPEG-7 Color Layout2 
 MPEG-7 Color Layout32(6): class MPEG-7 Color Layout30 
-class(8): 
-LogScore Bayes: -8396.68019343793
-LogScore BDeu: -32775.67531283788
-LogScore MDL: -24922.65830735972
-LogScore ENTROPY: -11392.815925963776
-LogScore AIC: -15879.81592596378
+class(6): 
+LogScore Bayes: -8391.740934806674
+LogScore BDeu: -25706.724267115103
+LogScore MDL: -20540.93856533296
+LogScore ENTROPY: -10394.31061494345
+LogScore AIC: -13759.310614943537
 
 
-Time taken to build model: 0.23 seconds
+Time taken to build model: 0.28 seconds
 
 Time taken to test model on training data: 0.03 seconds
 
@@ -57,10 +57,10 @@ Time taken to test model on training data: 0.03 seconds
 Correctly Classified Instances         407               97.8365 %
 Incorrectly Classified Instances         9                2.1635 %
 Kappa statistic                          0.9722
-Mean absolute error                      0.0096
-Root mean squared error                  0.0697
-Relative absolute error                  4.9172 %
-Root relative squared error             22.2959 %
+Mean absolute error                      0.0128
+Root mean squared error                  0.0804
+Relative absolute error                  4.9234 %
+Root relative squared error             22.2962 %
 Total Number of Instances              416     
 
 
@@ -73,24 +73,20 @@ Total Number of Instances              416
                  0.984    0.006    0.968      0.984    0.976      0.971    0.999     0.997     K4
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.978    0.008    0.978      0.978    0.978      0.972    0.999     0.996     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  38   5   0   0   0   0   0   0 |   a = K1
-   1 147   0   0   0   0   0   0 |   b = K2
-   0   0  74   2   0   0   0   0 |   c = K3
-   0   0   1  60   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  38   5   0   0   0   0 |   a = K1
+   1 147   0   0   0   0 |   b = K2
+   0   0  74   2   0   0 |   c = K3
+   0   0   1  60   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
-Time taken to perform cross-validation: 0.28 seconds
+Time taken to perform cross-validation: 0.32 seconds
 
 
 === Stratified cross-validation ===
@@ -98,36 +94,32 @@ Time taken to perform cross-validation: 0.28 seconds
 Correctly Classified Instances         354               85.0962 %
 Incorrectly Classified Instances        62               14.9038 %
 Kappa statistic                          0.8079
-Mean absolute error                      0.0409
-Root mean squared error                  0.1714
-Relative absolute error                 20.8985 %
-Root relative squared error             54.8411 %
+Mean absolute error                      0.0545
+Root mean squared error                  0.1984
+Relative absolute error                 20.917  %
+Root relative squared error             55.0019 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.372    0.051    0.457      0.372    0.410      0.352    0.883     0.478     K1
-                 0.865    0.104    0.821      0.865    0.842      0.752    0.957     0.894     K2
+                 0.372    0.051    0.457      0.372    0.410      0.352    0.884     0.474     K1
+                 0.865    0.104    0.821      0.865    0.842      0.752    0.956     0.890     K2
                  0.908    0.021    0.908      0.908    0.908      0.887    0.990     0.963     K3
                  0.885    0.014    0.915      0.885    0.900      0.883    0.989     0.949     K4
-                 1.000    0.009    0.955      1.000    0.977      0.973    1.000     0.999     K5
+                 1.000    0.009    0.955      1.000    0.977      0.973    1.000     1.000     K5
                  0.958    0.000    1.000      0.958    0.979      0.978    0.999     0.985     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.851    0.050    0.844      0.851    0.847      0.802    0.969     0.893     
+Weighted Avg.    0.851    0.050    0.844      0.851    0.847      0.802    0.969     0.891     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  16  26   0   0   1   0   0   0 |   a = K1
-  16 128   1   1   2   0   0   0 |   b = K2
-   2   1  69   4   0   0   0   0 |   c = K3
-   0   1   6  54   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   1   0   0   0   0  23   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  16  26   0   0   1   0 |   a = K1
+  16 128   1   1   2   0 |   b = K2
+   2   1  69   4   0   0 |   c = K3
+   0   1   6  54   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   1   0   0   0   0  23 |   f = K6
 

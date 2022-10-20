@@ -763,15 +763,15 @@ Spatial Pyramid of Local Binary Patterns752(3): class Spatial Pyramid of Local B
 Spatial Pyramid of Local Binary Patterns753(2): class Spatial Pyramid of Local Binary Patterns645 Spatial Pyramid of Local Binary Patterns608 
 Spatial Pyramid of Local Binary Patterns754(2): class Spatial Pyramid of Local Binary Patterns178 Spatial Pyramid of Local Binary Patterns747 
 Spatial Pyramid of Local Binary Patterns755(4): class Spatial Pyramid of Local Binary Patterns728 Spatial Pyramid of Local Binary Patterns754 
-class(8): 
-LogScore Bayes: -71954.35381619046
-LogScore BDeu: -192279.02550188714
-LogScore MDL: -166250.9967265051
-LogScore ENTROPY: -82837.57354918287
-LogScore AIC: -110500.57354918342
+class(6): 
+LogScore Bayes: -71949.4145575592
+LogScore BDeu: -156219.90686136557
+LogScore MDL: -140097.36901146756
+LogScore ENTROPY: -77538.05546414843
+LogScore AIC: -98285.05546414689
 
 
-Time taken to build model: 4.17 seconds
+Time taken to build model: 4.91 seconds
 
 Time taken to test model on training data: 0.15 seconds
 
@@ -780,10 +780,10 @@ Time taken to test model on training data: 0.15 seconds
 Correctly Classified Instances         412               99.0385 %
 Incorrectly Classified Instances         4                0.9615 %
 Kappa statistic                          0.9877
-Mean absolute error                      0.0026
-Root mean squared error                  0.0492
-Relative absolute error                  1.321  %
-Root relative squared error             15.7379 %
+Mean absolute error                      0.0034
+Root mean squared error                  0.0568
+Relative absolute error                  1.3228 %
+Root relative squared error             15.7381 %
 Total Number of Instances              416     
 
 
@@ -796,61 +796,53 @@ Total Number of Instances              416
                  0.984    0.000    1.000      0.984    0.992      0.990    0.999     0.996     K4
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
                  0.958    0.000    1.000      0.958    0.979      0.978    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.990    0.004    0.991      0.990    0.990      0.988    0.999     0.995     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  42   1   0   0   0   0   0   0 |   a = K1
-   0 148   0   0   0   0   0   0 |   b = K2
-   0   1  75   0   0   0   0   0 |   c = K3
-   0   1   0  60   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   1   0   0   0   0  23   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  42   1   0   0   0   0 |   a = K1
+   0 148   0   0   0   0 |   b = K2
+   0   1  75   0   0   0 |   c = K3
+   0   1   0  60   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   1   0   0   0   0  23 |   f = K6
 
-Time taken to perform cross-validation: 33.4 seconds
+Time taken to perform cross-validation: 37.84 seconds
 
 
 === Stratified cross-validation ===
 
 Correctly Classified Instances         357               85.8173 %
 Incorrectly Classified Instances        59               14.1827 %
-Kappa statistic                          0.8164
-Mean absolute error                      0.0344
-Root mean squared error                  0.1757
-Relative absolute error                 17.5909 %
-Root relative squared error             56.2306 %
+Kappa statistic                          0.8162
+Mean absolute error                      0.0459
+Root mean squared error                  0.2044
+Relative absolute error                 17.6165 %
+Root relative squared error             56.6403 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.674    0.013    0.853      0.674    0.753      0.735    0.968     0.875     K1
+                 0.674    0.016    0.829      0.674    0.744      0.722    0.966     0.862     K1
                  0.966    0.078    0.872      0.966    0.917      0.870    0.977     0.936     K2
                  0.803    0.050    0.782      0.803    0.792      0.745    0.970     0.871     K3
-                 0.689    0.037    0.764      0.689    0.724      0.681    0.958     0.851     K4
-                 0.922    0.000    1.000      0.922    0.959      0.953    0.996     0.987     K5
+                 0.689    0.042    0.737      0.689    0.712      0.665    0.954     0.813     K4
+                 0.922    0.000    1.000      0.922    0.959      0.953    1.000     1.000     K5
                  0.958    0.000    1.000      0.958    0.979      0.978    0.973     0.962     K6
-                 ?        0.007    0.000      ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.858    0.044    0.865      0.858    0.859      0.824    0.975     0.915     
+Weighted Avg.    0.858    0.045    0.858      0.858    0.856      0.821    0.974     0.910     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  29  14   0   0   0   0   0   0 |   a = K1
-   5 143   0   0   0   0   0   0 |   b = K2
-   0   4  61  11   0   0   0   0 |   c = K3
-   0   2  17  42   0   0   0   0 |   d = K4
-   0   0   0   2  59   0   3   0 |   e = K5
-   0   1   0   0   0  23   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  29  14   0   0   0   0 |   a = K1
+   5 143   0   0   0   0 |   b = K2
+   0   4  61  11   0   0 |   c = K3
+   0   2  17  42   0   0 |   d = K4
+   1   0   0   4  59   0 |   e = K5
+   0   1   0   0   0  23 |   f = K6
 

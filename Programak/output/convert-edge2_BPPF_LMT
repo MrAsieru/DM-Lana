@@ -5,154 +5,144 @@ Options: -I -1 -M 15 -W 0.0
 
 Logistic model tree 
 ------------------
-: LM_1:16/16 (416)
+: LM_1:19/19 (416)
 
 Number of Leaves  : 	1
 
 Size of the Tree : 	1
 LM_1:
 Class K1 :
--12.37 + 
-[Spatial Pyramid of Local Binary Patterns4] * 0.59 +
-[Spatial Pyramid of Local Binary Patterns111] * -1.05 +
-[Spatial Pyramid of Local Binary Patterns124] * 0.49 +
-[Spatial Pyramid of Local Binary Patterns146] * 0.36 +
-[Spatial Pyramid of Local Binary Patterns217] * 0.13 +
-[Spatial Pyramid of Local Binary Patterns259] * -0.69 +
-[Spatial Pyramid of Local Binary Patterns289] * 0.13 +
-[Spatial Pyramid of Local Binary Patterns395] * 0.17 +
-[Spatial Pyramid of Local Binary Patterns436] * 0.22 +
-[Spatial Pyramid of Local Binary Patterns506] * 0.16 +
-[Spatial Pyramid of Local Binary Patterns508] * 0.27 +
-[Spatial Pyramid of Local Binary Patterns574] * 0.27 +
-[Spatial Pyramid of Local Binary Patterns592] * 0.24 +
-[Spatial Pyramid of Local Binary Patterns614] * 0.14 +
-[Spatial Pyramid of Local Binary Patterns616] * 0.15 +
-[Spatial Pyramid of Local Binary Patterns726] * 1.44
+-14.03 + 
+[Spatial Pyramid of Local Binary Patterns4] * 0.51 +
+[Spatial Pyramid of Local Binary Patterns111] * -1.02 +
+[Spatial Pyramid of Local Binary Patterns112] * 0.35 +
+[Spatial Pyramid of Local Binary Patterns124] * 0.46 +
+[Spatial Pyramid of Local Binary Patterns146] * 0.32 +
+[Spatial Pyramid of Local Binary Patterns259] * -0.59 +
+[Spatial Pyramid of Local Binary Patterns289] * 0.21 +
+[Spatial Pyramid of Local Binary Patterns291] * -0.5 +
+[Spatial Pyramid of Local Binary Patterns362] * 0.2  +
+[Spatial Pyramid of Local Binary Patterns395] * 0.29 +
+[Spatial Pyramid of Local Binary Patterns436] * 0.21 +
+[Spatial Pyramid of Local Binary Patterns508] * 0.26 +
+[Spatial Pyramid of Local Binary Patterns585] * 0.44 +
+[Spatial Pyramid of Local Binary Patterns614] * 0.13 +
+[Spatial Pyramid of Local Binary Patterns655] * -0.87 +
+[Spatial Pyramid of Local Binary Patterns722] * 0.16 +
+[Spatial Pyramid of Local Binary Patterns726] * 0.93
 
 Class K2 :
--6.89 + 
-[Spatial Pyramid of Local Binary Patterns1] * 0.55 +
-[Spatial Pyramid of Local Binary Patterns9] * 0.74 +
-[Spatial Pyramid of Local Binary Patterns73] * 0.4  +
-[Spatial Pyramid of Local Binary Patterns76] * 0.32 +
-[Spatial Pyramid of Local Binary Patterns369] * 0.37 +
-[Spatial Pyramid of Local Binary Patterns433] * 0.1  +
-[Spatial Pyramid of Local Binary Patterns506] * -0.17 +
-[Spatial Pyramid of Local Binary Patterns513] * 0.25 +
-[Spatial Pyramid of Local Binary Patterns538] * 0.24 +
-[Spatial Pyramid of Local Binary Patterns540] * -0.62 +
-[Spatial Pyramid of Local Binary Patterns542] * -0.72 +
-[Spatial Pyramid of Local Binary Patterns574] * -0.5 +
-[Spatial Pyramid of Local Binary Patterns721] * 0.13
+-7.97 + 
+[Spatial Pyramid of Local Binary Patterns1] * 0.53 +
+[Spatial Pyramid of Local Binary Patterns2] * 0.32 +
+[Spatial Pyramid of Local Binary Patterns9] * 0.67 +
+[Spatial Pyramid of Local Binary Patterns73] * 0.36 +
+[Spatial Pyramid of Local Binary Patterns76] * 0.29 +
+[Spatial Pyramid of Local Binary Patterns369] * 0.35 +
+[Spatial Pyramid of Local Binary Patterns401] * -0.74 +
+[Spatial Pyramid of Local Binary Patterns433] * 0.11 +
+[Spatial Pyramid of Local Binary Patterns513] * 0.49 +
+[Spatial Pyramid of Local Binary Patterns538] * 0.23 +
+[Spatial Pyramid of Local Binary Patterns540] * -0.3 +
+[Spatial Pyramid of Local Binary Patterns542] * -0.89 +
+[Spatial Pyramid of Local Binary Patterns574] * -0.81 +
+[Spatial Pyramid of Local Binary Patterns727] * 0.73
 
 Class K3 :
-4.39 + 
-[Spatial Pyramid of Local Binary Patterns9] * -1.02 +
-[Spatial Pyramid of Local Binary Patterns44] * -0.23 +
-[Spatial Pyramid of Local Binary Patterns81] * -0.57 +
-[Spatial Pyramid of Local Binary Patterns113] * 0.53 +
-[Spatial Pyramid of Local Binary Patterns158] * 1.24 +
-[Spatial Pyramid of Local Binary Patterns289] * -0.16 +
-[Spatial Pyramid of Local Binary Patterns364] * -0.13 +
-[Spatial Pyramid of Local Binary Patterns410] * 0.54 +
-[Spatial Pyramid of Local Binary Patterns413] * 1.95 +
-[Spatial Pyramid of Local Binary Patterns469] * -0.2 +
-[Spatial Pyramid of Local Binary Patterns505] * -0.23 +
-[Spatial Pyramid of Local Binary Patterns548] * 0.1  +
-[Spatial Pyramid of Local Binary Patterns549] * 0.36 +
-[Spatial Pyramid of Local Binary Patterns720] * -0.23 +
-[Spatial Pyramid of Local Binary Patterns736] * -0.45 +
-[Spatial Pyramid of Local Binary Patterns754] * 1.03
+3.65 + 
+[Spatial Pyramid of Local Binary Patterns9] * -0.94 +
+[Spatial Pyramid of Local Binary Patterns73] * -0.21 +
+[Spatial Pyramid of Local Binary Patterns113] * 0.57 +
+[Spatial Pyramid of Local Binary Patterns129] * 1.35 +
+[Spatial Pyramid of Local Binary Patterns248] * 1.95 +
+[Spatial Pyramid of Local Binary Patterns384] * -0.32 +
+[Spatial Pyramid of Local Binary Patterns405] * -0.52 +
+[Spatial Pyramid of Local Binary Patterns410] * 0.83 +
+[Spatial Pyramid of Local Binary Patterns413] * 1.94 +
+[Spatial Pyramid of Local Binary Patterns469] * -0.19 +
+[Spatial Pyramid of Local Binary Patterns475] * 0.43 +
+[Spatial Pyramid of Local Binary Patterns505] * -0.2 +
+[Spatial Pyramid of Local Binary Patterns517] * -0.38 +
+[Spatial Pyramid of Local Binary Patterns544] * 0.13 +
+[Spatial Pyramid of Local Binary Patterns549] * 0.32 +
+[Spatial Pyramid of Local Binary Patterns716] * -1.74 +
+[Spatial Pyramid of Local Binary Patterns720] * -0.2 +
+[Spatial Pyramid of Local Binary Patterns721] * -0.14
 
 Class K4 :
-4.83 + 
-[Spatial Pyramid of Local Binary Patterns109] * -0.25 +
-[Spatial Pyramid of Local Binary Patterns115] * 0.8  +
-[Spatial Pyramid of Local Binary Patterns171] * -0.57 +
-[Spatial Pyramid of Local Binary Patterns252] * 0.14 +
-[Spatial Pyramid of Local Binary Patterns270] * -1.5 +
-[Spatial Pyramid of Local Binary Patterns288] * -0.17 +
-[Spatial Pyramid of Local Binary Patterns330] * -0.62 +
-[Spatial Pyramid of Local Binary Patterns361] * -0.19 +
-[Spatial Pyramid of Local Binary Patterns410] * -0.42 +
-[Spatial Pyramid of Local Binary Patterns413] * -1.96 +
+4.3  + 
+[Spatial Pyramid of Local Binary Patterns109] * -0.24 +
+[Spatial Pyramid of Local Binary Patterns113] * -0.55 +
+[Spatial Pyramid of Local Binary Patterns115] * 0.58 +
+[Spatial Pyramid of Local Binary Patterns171] * -0.55 +
+[Spatial Pyramid of Local Binary Patterns225] * -0.3 +
+[Spatial Pyramid of Local Binary Patterns248] * -1.9 +
+[Spatial Pyramid of Local Binary Patterns252] * 0.12 +
+[Spatial Pyramid of Local Binary Patterns270] * -1.47 +
+[Spatial Pyramid of Local Binary Patterns288] * -0.16 +
+[Spatial Pyramid of Local Binary Patterns361] * -0.16 +
+[Spatial Pyramid of Local Binary Patterns367] * 0.5  +
+[Spatial Pyramid of Local Binary Patterns372] * 0.84 +
+[Spatial Pyramid of Local Binary Patterns410] * -0.38 +
 [Spatial Pyramid of Local Binary Patterns432] * -0.15 +
-[Spatial Pyramid of Local Binary Patterns553] * -0.5 +
-[Spatial Pyramid of Local Binary Patterns613] * -0.12 +
-[Spatial Pyramid of Local Binary Patterns650] * -0.23 +
-[Spatial Pyramid of Local Binary Patterns722] * -0.24 +
-[Spatial Pyramid of Local Binary Patterns754] * -0.73
+[Spatial Pyramid of Local Binary Patterns553] * -0.49 +
+[Spatial Pyramid of Local Binary Patterns650] * -0.22 +
+[Spatial Pyramid of Local Binary Patterns721] * -0.11 +
+[Spatial Pyramid of Local Binary Patterns722] * -0.22 +
+[Spatial Pyramid of Local Binary Patterns754] * -0.52
 
 Class K5 :
--7.39 + 
-[Spatial Pyramid of Local Binary Patterns37] * -0.24 +
-[Spatial Pyramid of Local Binary Patterns86] * 1.22 +
-[Spatial Pyramid of Local Binary Patterns149] * 1.52 +
-[Spatial Pyramid of Local Binary Patterns374] * 0.43 +
-[Spatial Pyramid of Local Binary Patterns376] * 0.21 +
-[Spatial Pyramid of Local Binary Patterns391] * 0.49 +
-[Spatial Pyramid of Local Binary Patterns397] * 0.49 +
-[Spatial Pyramid of Local Binary Patterns403] * 0.54 +
-[Spatial Pyramid of Local Binary Patterns425] * 2    +
+-6.19 + 
+[Spatial Pyramid of Local Binary Patterns37] * -0.25 +
+[Spatial Pyramid of Local Binary Patterns149] * 1.41 +
+[Spatial Pyramid of Local Binary Patterns328] * -0.23 +
+[Spatial Pyramid of Local Binary Patterns365] * 0.35 +
+[Spatial Pyramid of Local Binary Patterns376] * 0.2  +
+[Spatial Pyramid of Local Binary Patterns391] * 0.51 +
+[Spatial Pyramid of Local Binary Patterns397] * 0.34 +
+[Spatial Pyramid of Local Binary Patterns403] * 0.52 +
+[Spatial Pyramid of Local Binary Patterns410] * 0.21 +
+[Spatial Pyramid of Local Binary Patterns425] * 1.84 +
+[Spatial Pyramid of Local Binary Patterns470] * -0.45 +
 [Spatial Pyramid of Local Binary Patterns514] * 0.19 +
-[Spatial Pyramid of Local Binary Patterns518] * 0.54 +
-[Spatial Pyramid of Local Binary Patterns558] * 0.7  +
-[Spatial Pyramid of Local Binary Patterns567] * 0.37 +
+[Spatial Pyramid of Local Binary Patterns518] * 0.86 +
+[Spatial Pyramid of Local Binary Patterns558] * 0.91 +
+[Spatial Pyramid of Local Binary Patterns567] * 0.59 +
 [Spatial Pyramid of Local Binary Patterns574] * 0.35
 
 Class K6 :
--0.19 + 
-[Spatial Pyramid of Local Binary Patterns16] * -1.64 +
-[Spatial Pyramid of Local Binary Patterns196] * -0.27 +
-[Spatial Pyramid of Local Binary Patterns215] * 0.09 +
-[Spatial Pyramid of Local Binary Patterns225] * 0.39 +
-[Spatial Pyramid of Local Binary Patterns333] * 0.8  +
-[Spatial Pyramid of Local Binary Patterns404] * 0.15 +
-[Spatial Pyramid of Local Binary Patterns505] * -0.25 +
-[Spatial Pyramid of Local Binary Patterns545] * 0.61 +
-[Spatial Pyramid of Local Binary Patterns547] * 0.83 +
-[Spatial Pyramid of Local Binary Patterns577] * 0.21 +
-[Spatial Pyramid of Local Binary Patterns620] * -0.25 +
-[Spatial Pyramid of Local Binary Patterns656] * -0.34 +
-[Spatial Pyramid of Local Binary Patterns720] * 0.32
-
-Class K7 :
--14.19 + 
-[Spatial Pyramid of Local Binary Patterns0] * -0 +
-[Spatial Pyramid of Local Binary Patterns260] * -0 +
-[Spatial Pyramid of Local Binary Patterns354] * -0 +
-[Spatial Pyramid of Local Binary Patterns369] * 0    +
-[Spatial Pyramid of Local Binary Patterns465] * -0 +
-[Spatial Pyramid of Local Binary Patterns540] * -0 +
-[Spatial Pyramid of Local Binary Patterns597] * -0 +
-[Spatial Pyramid of Local Binary Patterns638] * -0
-
-Class K8 :
--14.19 + 
-[Spatial Pyramid of Local Binary Patterns0] * -0 +
-[Spatial Pyramid of Local Binary Patterns260] * -0 +
-[Spatial Pyramid of Local Binary Patterns354] * -0 +
-[Spatial Pyramid of Local Binary Patterns369] * 0    +
-[Spatial Pyramid of Local Binary Patterns465] * -0 +
-[Spatial Pyramid of Local Binary Patterns540] * -0 +
-[Spatial Pyramid of Local Binary Patterns597] * -0 +
-[Spatial Pyramid of Local Binary Patterns638] * -0
+-0.93 + 
+[Spatial Pyramid of Local Binary Patterns16] * -1.52 +
+[Spatial Pyramid of Local Binary Patterns70] * -0.47 +
+[Spatial Pyramid of Local Binary Patterns72] * 0.35 +
+[Spatial Pyramid of Local Binary Patterns185] * -0.32 +
+[Spatial Pyramid of Local Binary Patterns225] * 0.38 +
+[Spatial Pyramid of Local Binary Patterns289] * 0.18 +
+[Spatial Pyramid of Local Binary Patterns324] * 0.26 +
+[Spatial Pyramid of Local Binary Patterns404] * 0.14 +
+[Spatial Pyramid of Local Binary Patterns477] * 0.52 +
+[Spatial Pyramid of Local Binary Patterns505] * -0.33 +
+[Spatial Pyramid of Local Binary Patterns545] * 0.55 +
+[Spatial Pyramid of Local Binary Patterns582] * 0.79 +
+[Spatial Pyramid of Local Binary Patterns655] * -0.41 +
+[Spatial Pyramid of Local Binary Patterns656] * -0.15 +
+[Spatial Pyramid of Local Binary Patterns664] * -0.32 +
+[Spatial Pyramid of Local Binary Patterns720] * 0.35
 
 
-Time taken to build model: 4.52 seconds
+Time taken to build model: 4.92 seconds
 
 Time taken to test model on training data: 0.04 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances         404               97.1154 %
-Incorrectly Classified Instances        12                2.8846 %
-Kappa statistic                          0.9631
-Mean absolute error                      0.0258
-Root mean squared error                  0.0873
-Relative absolute error                 13.173  %
-Root relative squared error             27.9392 %
+Correctly Classified Instances         409               98.3173 %
+Incorrectly Classified Instances         7                1.6827 %
+Kappa statistic                          0.9785
+Mean absolute error                      0.0289
+Root mean squared error                  0.0885
+Relative absolute error                 11.0761 %
+Root relative squared error             24.5401 %
 Total Number of Instances              416     
 
 
@@ -161,65 +151,57 @@ Total Number of Instances              416
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K1
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K2
-                 0.921    0.018    0.921      0.921    0.921      0.903    0.995     0.980     K3
-                 0.934    0.017    0.905      0.934    0.919      0.905    0.995     0.970     K4
-                 0.969    0.000    1.000      0.969    0.984      0.981    1.000     1.000     K5
+                 0.934    0.006    0.973      0.934    0.953      0.943    0.997     0.990     K3
+                 0.967    0.014    0.922      0.967    0.944      0.934    0.997     0.980     K4
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.971    0.006    0.972      0.971    0.971      0.966    0.998     0.992     
+Weighted Avg.    0.983    0.003    0.984      0.983    0.983      0.980    0.999     0.995     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  43   0   0   0   0   0   0   0 |   a = K1
-   0 148   0   0   0   0   0   0 |   b = K2
-   0   0  70   6   0   0   0   0 |   c = K3
-   0   0   4  57   0   0   0   0 |   d = K4
-   0   0   2   0  62   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  43   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0 |   b = K2
+   0   0  71   5   0   0 |   c = K3
+   0   0   2  59   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
-Time taken to perform cross-validation: 52.26 seconds
+Time taken to perform cross-validation: 47.16 seconds
 
 
 === Stratified cross-validation ===
 
 Correctly Classified Instances         351               84.375  %
 Incorrectly Classified Instances        65               15.625  %
-Kappa statistic                          0.7997
-Mean absolute error                      0.0453
-Root mean squared error                  0.1829
-Relative absolute error                 23.128  %
-Root relative squared error             58.5477 %
+Kappa statistic                          0.8007
+Mean absolute error                      0.0601
+Root mean squared error                  0.2059
+Relative absolute error                 23.0715 %
+Root relative squared error             57.0679 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.860    0.008    0.925      0.860    0.892      0.880    0.991     0.951     K1
-                 0.973    0.030    0.947      0.973    0.960      0.938    0.996     0.993     K2
-                 0.632    0.059    0.706      0.632    0.667      0.599    0.897     0.644     K3
-                 0.590    0.062    0.621      0.590    0.605      0.539    0.855     0.508     K4
-                 1.000    0.017    0.914      1.000    0.955      0.948    0.999     0.992     K5
-                 0.917    0.015    0.786      0.917    0.846      0.839    0.991     0.762     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.844    0.035    0.839      0.844    0.840      0.807    0.957     0.840     
+                 0.884    0.016    0.864      0.884    0.874      0.859    0.994     0.956     K1
+                 0.973    0.011    0.980      0.973    0.976      0.963    0.998     0.996     K2
+                 0.618    0.056    0.712      0.618    0.662      0.595    0.899     0.649     K3
+                 0.656    0.073    0.606      0.656    0.630      0.564    0.869     0.519     K4
+                 0.922    0.009    0.952      0.922    0.937      0.925    0.998     0.987     K5
+                 0.958    0.020    0.742      0.958    0.836      0.833    0.991     0.754     K6
+Weighted Avg.    0.844    0.029    0.846      0.844    0.843      0.813    0.960     0.843     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  37   5   1   0   0   0   0   0 |   a = K1
-   2 144   0   1   1   0   0   0 |   b = K2
-   1   1  48  20   3   3   0   0 |   c = K3
-   0   1  19  36   2   3   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   0   1   0   1   0  22   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  38   3   1   1   0   0 |   a = K1
+   4 144   0   0   0   0 |   b = K2
+   0   0  47  24   2   3 |   c = K3
+   0   0  15  40   1   5 |   d = K4
+   2   0   3   0  59   0 |   e = K5
+   0   0   0   1   0  23 |   f = K6
 

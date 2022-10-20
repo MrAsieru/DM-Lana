@@ -304,9 +304,9 @@ Gabor Features29 >= 0.09
 
 Size of the tree : 295
 
-Time taken to build model: 0.18 seconds
+Time taken to build model: 0.21 seconds
 
-Time taken to test model on training data: 0.03 seconds
+Time taken to test model on training data: 0.02 seconds
 
 === Error on training data ===
 
@@ -329,22 +329,18 @@ Total Number of Instances              416
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  43   0   0   0   0   0   0   0 |   a = K1
-   0 148   0   0   0   0   0   0 |   b = K2
-   0   0  76   0   0   0   0   0 |   c = K3
-   0   0   0  61   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  43   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0 |   b = K2
+   0   0  76   0   0   0 |   c = K3
+   0   0   0  61   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
 Time taken to perform cross-validation: 0.06 seconds
 
@@ -354,10 +350,10 @@ Time taken to perform cross-validation: 0.06 seconds
 Correctly Classified Instances         257               61.7788 %
 Incorrectly Classified Instances       159               38.2212 %
 Kappa statistic                          0.5131
-Mean absolute error                      0.0956
-Root mean squared error                  0.3091
-Relative absolute error                 48.8194 %
-Root relative squared error             98.9294 %
+Mean absolute error                      0.1274
+Root mean squared error                  0.3569
+Relative absolute error                 48.8907 %
+Root relative squared error             98.9311 %
 Total Number of Instances              416     
 
 
@@ -370,20 +366,16 @@ Total Number of Instances              416
                  0.279    0.082    0.370      0.279    0.318      0.222    0.598     0.209     K4
                  0.969    0.043    0.805      0.969    0.879      0.860    0.963     0.785     K5
                  0.958    0.028    0.676      0.958    0.793      0.792    0.965     0.651     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.618    0.093    0.601      0.618    0.606      0.513    0.762     0.499     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-   8  25   6   2   2   0   0   0 |   a = K1
-  29 111   3   4   1   0   0   0 |   b = K2
-   2   4  36  21   6   7   0   0 |   c = K3
-   3   4  27  17   6   4   0   0 |   d = K4
-   0   0   0   2  62   0   0   0 |   e = K5
-   0   0   1   0   0  23   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+   8  25   6   2   2   0 |   a = K1
+  29 111   3   4   1   0 |   b = K2
+   2   4  36  21   6   7 |   c = K3
+   3   4  27  17   6   4 |   d = K4
+   0   0   0   2  62   0 |   e = K5
+   0   0   1   0   0  23 |   f = K6
 

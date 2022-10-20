@@ -80,10 +80,10 @@ Time taken to test model on training data: 0.01 seconds
 Correctly Classified Instances         311               74.7596 %
 Incorrectly Classified Instances       105               25.2404 %
 Kappa statistic                          0.6933
-Mean absolute error                      0.0699
-Root mean squared error                  0.1989
-Relative absolute error                 35.7004 %
-Root relative squared error             63.6552 %
+Mean absolute error                      0.0931
+Root mean squared error                  0.2296
+Relative absolute error                 35.7475 %
+Root relative squared error             63.6561 %
 Total Number of Instances              416     
 
 
@@ -96,24 +96,20 @@ Total Number of Instances              416
                  0.705    0.020    0.860      0.705    0.775      0.745    0.962     0.824     K4
                  0.969    0.006    0.969      0.969    0.969      0.963    0.999     0.993     K5
                  1.000    0.020    0.750      1.000    0.857      0.857    0.992     0.798     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.748    0.040    0.833      0.748    0.752      0.716    0.962     0.830     
 
 
 === Confusion Matrix ===
 
-  a  b  c  d  e  f  g  h   <-- classified as
- 40  3  0  0  0  0  0  0 |  a = K1
- 65 73  1  5  0  4  0  0 |  b = K2
-  0  2 69  2  1  2  0  0 |  c = K3
-  0  1 16 43  1  0  0  0 |  d = K4
-  0  0  0  0 62  2  0  0 |  e = K5
-  0  0  0  0  0 24  0  0 |  f = K6
-  0  0  0  0  0  0  0  0 |  g = K7
-  0  0  0  0  0  0  0  0 |  h = K8
+  a  b  c  d  e  f   <-- classified as
+ 40  3  0  0  0  0 |  a = K1
+ 65 73  1  5  0  4 |  b = K2
+  0  2 69  2  1  2 |  c = K3
+  0  1 16 43  1  0 |  d = K4
+  0  0  0  0 62  2 |  e = K5
+  0  0  0  0  0 24 |  f = K6
 
-Time taken to perform cross-validation: 0.53 seconds
+Time taken to perform cross-validation: 0.79 seconds
 
 
 === Stratified cross-validation ===
@@ -121,10 +117,10 @@ Time taken to perform cross-validation: 0.53 seconds
 Correctly Classified Instances         282               67.7885 %
 Incorrectly Classified Instances       134               32.2115 %
 Kappa statistic                          0.6015
-Mean absolute error                      0.0894
-Root mean squared error                  0.2428
-Relative absolute error                 45.6777 %
-Root relative squared error             77.7006 %
+Mean absolute error                      0.1192
+Root mean squared error                  0.2803
+Relative absolute error                 45.7444 %
+Root relative squared error             77.7019 %
 Total Number of Instances              416     
 
 
@@ -137,20 +133,16 @@ Total Number of Instances              416
                  0.623    0.090    0.543      0.623    0.580      0.504    0.865     0.549     K4
                  0.938    0.011    0.938      0.938    0.938      0.926    0.998     0.990     K5
                  0.958    0.031    0.657      0.958    0.780      0.779    0.968     0.747     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.678    0.067    0.718      0.678    0.685      0.610    0.911     0.714     
 
 
 === Confusion Matrix ===
 
-  a  b  c  d  e  f  g  h   <-- classified as
- 28 12  0  0  1  2  0  0 |  a = K1
- 45 86  4  6  1  6  0  0 |  b = K2
-  0  3 47 23  2  1  0  0 |  c = K3
-  0  5 16 38  0  2  0  0 |  d = K4
-  1  0  0  2 60  1  0  0 |  e = K5
-  0  0  0  1  0 23  0  0 |  f = K6
-  0  0  0  0  0  0  0  0 |  g = K7
-  0  0  0  0  0  0  0  0 |  h = K8
+  a  b  c  d  e  f   <-- classified as
+ 28 12  0  0  1  2 |  a = K1
+ 45 86  4  6  1  6 |  b = K2
+  0  3 47 23  2  1 |  c = K3
+  0  5 16 38  0  2 |  d = K4
+  1  0  0  2 60  1 |  e = K5
+  0  0  0  1  0 23 |  f = K6
 

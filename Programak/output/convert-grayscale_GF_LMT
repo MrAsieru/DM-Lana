@@ -51,63 +51,48 @@ Size of the Tree : 	39
 
 LM_1:
 Class K1 :
-2.76 + 
-[Gabor Features2] * 0.64 +
-[Gabor Features51] * -103.95
+2.36 + 
+[Gabor Features2] * 0.6  +
+[Gabor Features51] * -99.74
 
 Class K2 :
-4.4  + 
-[Gabor Features1] * 17.14 +
-[Gabor Features24] * 0.2  +
-[Gabor Features26] * -0.01 +
-[Gabor Features27] * -104.63 +
-[Gabor Features38] * 0.29
+4.01 + 
+[Gabor Features1] * 16.41 +
+[Gabor Features24] * 0.18 +
+[Gabor Features26] * -0 +
+[Gabor Features27] * -100.23 +
+[Gabor Features38] * 0.26
 
 Class K3 :
-28.91 + 
-[Gabor Features3] * 1144.71 +
-[Gabor Features12] * -7.85 +
-[Gabor Features15] * 10.4 +
-[Gabor Features24] * -21.72 +
-[Gabor Features27] * 16.26 +
+27.5 + 
+[Gabor Features3] * 1087.35 +
+[Gabor Features12] * -7.01 +
+[Gabor Features15] * 9.7  +
+[Gabor Features24] * -21.22 +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.54
 
 Class K4 :
--5.56 + 
-[Gabor Features3] * 26.36 +
-[Gabor Features25] * 363.5 +
+-5.85 + 
+[Gabor Features3] * 26.04 +
+[Gabor Features25] * 362.05 +
 [Gabor Features38] * -2.61
 
 Class K5 :
--22.22 + 
+-21.52 + 
 [Gabor Features0] * -0.01 +
 [Gabor Features12] * -0.03 +
-[Gabor Features37] * -0.06 +
-[Gabor Features48] * 0.41 +
-[Gabor Features49] * -42.15
+[Gabor Features37] * -0.07 +
+[Gabor Features48] * 0.39 +
+[Gabor Features49] * -40.63
 
 Class K6 :
--6.69 + 
-[Gabor Features0] * -0.26 +
+-7.08 + 
+[Gabor Features0] * -0.28 +
 [Gabor Features1] * -0.12 +
-[Gabor Features24] * 0    +
-[Gabor Features25] * -38.94 +
-[Gabor Features38] * 0.31 +
-[Gabor Features49] * 174.8
-
-Class K7 :
--45.68 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--45.68 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features25] * -37.49 +
+[Gabor Features38] * 0.29 +
+[Gabor Features49] * 176.93
 
 
 
@@ -115,1049 +100,893 @@ Class K8 :
 
 LM_2:
 Class K1 :
--35 + 
-[Gabor Features1] * -37.16 +
-[Gabor Features2] * 1.7  +
-[Gabor Features12] * 0.03 +
-[Gabor Features13] * -19.52 +
+-35.13 + 
+[Gabor Features1] * -37.01 +
+[Gabor Features2] * 1.68 +
+[Gabor Features12] * 0.04 +
+[Gabor Features13] * -19.43 +
+[Gabor Features24] * -0.03 +
 [Gabor Features26] * -0.57 +
-[Gabor Features27] * 776.64 +
-[Gabor Features36] * 0.3  +
-[Gabor Features37] * -2.49 +
-[Gabor Features39] * -125.15 +
-[Gabor Features48] * -0.02 +
-[Gabor Features51] * -41.61
+[Gabor Features27] * 770.18 +
+[Gabor Features36] * 0.32 +
+[Gabor Features37] * -1.99 +
+[Gabor Features39] * -124.37 +
+[Gabor Features48] * -0.01 +
+[Gabor Features51] * -40.18
 
 Class K2 :
--3.57 + 
-[Gabor Features0] * 1.71 +
-[Gabor Features1] * 62.41 +
-[Gabor Features2] * -0.06 +
-[Gabor Features13] * -32.69 +
-[Gabor Features15] * -12.2 +
-[Gabor Features24] * 0.29 +
-[Gabor Features25] * 33.58 +
+-3.7 + 
+[Gabor Features0] * 1.66 +
+[Gabor Features1] * 63.17 +
+[Gabor Features2] * -0.02 +
+[Gabor Features13] * -32.48 +
+[Gabor Features15] * -14.9 +
+[Gabor Features24] * 0.28 +
+[Gabor Features25] * 33.16 +
 [Gabor Features26] * -0 +
-[Gabor Features27] * -57.84 +
-[Gabor Features37] * -7.23 +
+[Gabor Features27] * -60.26 +
+[Gabor Features37] * -6.07 +
 [Gabor Features48] * -0.59
 
 Class K3 :
-9.44 + 
-[Gabor Features2] * 0.18 +
-[Gabor Features14] * -0.98 +
-[Gabor Features15] * 10.85 +
-[Gabor Features24] * -0.34 +
-[Gabor Features27] * 16.26 +
+9.31 + 
+[Gabor Features2] * 0.09 +
+[Gabor Features14] * -0.9 +
+[Gabor Features15] * 10 +
+[Gabor Features24] * -0.35 +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.7 +
-[Gabor Features37] * 15.83 +
-[Gabor Features39] * -33.67 +
-[Gabor Features49] * 4.96 +
-[Gabor Features50] * 0.32 +
-[Gabor Features51] * -38.97
+[Gabor Features37] * 10.83 +
+[Gabor Features39] * -32.53 +
+[Gabor Features49] * 4.56 +
+[Gabor Features50] * 0.3  +
+[Gabor Features51] * -37.58
 
 Class K4 :
--23.23 + 
-[Gabor Features0] * -0.35 +
-[Gabor Features3] * 27.85 +
-[Gabor Features14] * 0.12 +
+-22.49 + 
+[Gabor Features0] * -0.37 +
+[Gabor Features3] * 27.87 +
+[Gabor Features14] * 0.11 +
 [Gabor Features15] * -16.5 +
-[Gabor Features27] * -20.66 +
-[Gabor Features38] * -0.56 +
-[Gabor Features39] * 85.87 +
-[Gabor Features48] * 0.03 +
-[Gabor Features49] * -3.05
+[Gabor Features27] * -20.4 +
+[Gabor Features38] * -0.54 +
+[Gabor Features39] * 86.6 +
+[Gabor Features48] * 0    +
+[Gabor Features49] * -2.65
 
 Class K5 :
-20.46 + 
-[Gabor Features0] * -0.43 +
-[Gabor Features2] * -0.62 +
+20.33 + 
+[Gabor Features0] * -0.47 +
+[Gabor Features2] * -0.57 +
 [Gabor Features12] * -0.04 +
-[Gabor Features14] * 1.13 +
-[Gabor Features15] * 270.09 +
-[Gabor Features25] * 8.2  +
+[Gabor Features14] * 1.11 +
+[Gabor Features15] * 255.96 +
+[Gabor Features25] * 6.32 +
 [Gabor Features36] * -0.21 +
-[Gabor Features37] * -663.53 +
-[Gabor Features39] * -16.58 +
-[Gabor Features48] * 0.41 +
-[Gabor Features49] * -42.15 +
-[Gabor Features51] * 61.8
+[Gabor Features37] * -653.05 +
+[Gabor Features39] * -15.84 +
+[Gabor Features48] * 0.4  +
+[Gabor Features49] * -40.63 +
+[Gabor Features51] * 61.76
 
 Class K6 :
--76.06 + 
-[Gabor Features3] * 6.34 +
-[Gabor Features15] * -77.95 +
-[Gabor Features24] * 1.65 +
-[Gabor Features25] * -57.95 +
-[Gabor Features36] * 1.88 +
-[Gabor Features37] * 209.86 +
-[Gabor Features38] * 1.42 +
+-74.34 + 
+[Gabor Features3] * 4.34 +
+[Gabor Features15] * -80.76 +
+[Gabor Features24] * 1.62 +
+[Gabor Features25] * -55.64 +
+[Gabor Features36] * 1.36 +
+[Gabor Features37] * 213.9 +
+[Gabor Features38] * 1.94 +
 [Gabor Features48] * -0.07 +
-[Gabor Features50] * -0.72
-
-Class K7 :
--136.68 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--136.68 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features50] * -0.7
 
 
 
 LM_3:
 Class K1 :
 -3.17 + 
-[Gabor Features0] * -0.74 +
-[Gabor Features1] * -93.64 +
-[Gabor Features2] * 1.7  +
-[Gabor Features13] * -19.52 +
-[Gabor Features26] * -0.82 +
-[Gabor Features27] * 214.62 +
-[Gabor Features36] * 0.63 +
-[Gabor Features37] * 51.36 +
-[Gabor Features39] * -125.15 +
-[Gabor Features48] * -0.02 +
-[Gabor Features49] * -0.25 +
-[Gabor Features51] * -41.61
+[Gabor Features0] * -0.76 +
+[Gabor Features1] * -92.91 +
+[Gabor Features2] * 1.68 +
+[Gabor Features13] * -19.43 +
+[Gabor Features24] * -0.03 +
+[Gabor Features26] * -0.83 +
+[Gabor Features27] * 210.93 +
+[Gabor Features36] * 0.64 +
+[Gabor Features37] * 49.8 +
+[Gabor Features39] * -124.37 +
+[Gabor Features48] * -0.01 +
+[Gabor Features49] * -0.19 +
+[Gabor Features51] * -40.18
 
 Class K2 :
--3.78 + 
-[Gabor Features0] * 0.39 +
-[Gabor Features1] * 159.37 +
-[Gabor Features13] * -32.69 +
-[Gabor Features15] * -9.95 +
-[Gabor Features24] * 1.11 +
-[Gabor Features25] * -8.95 +
+-3.79 + 
+[Gabor Features0] * 0.37 +
+[Gabor Features1] * 162.08 +
+[Gabor Features13] * -32.48 +
+[Gabor Features15] * -6.27 +
+[Gabor Features24] * 1.01 +
+[Gabor Features25] * -16.4 +
 [Gabor Features26] * -0 +
-[Gabor Features27] * -57.89 +
-[Gabor Features37] * -7.23 +
-[Gabor Features48] * -1
+[Gabor Features27] * -60.3 +
+[Gabor Features37] * -6.07 +
+[Gabor Features48] * -0.93
 
 Class K3 :
 1.56 + 
-[Gabor Features1] * 110.99 +
+[Gabor Features1] * 105.7 +
 [Gabor Features2] * 0.08 +
-[Gabor Features3] * -0.23 +
-[Gabor Features13] * 0.19 +
-[Gabor Features15] * 10.99 +
-[Gabor Features24] * -1.31 +
-[Gabor Features26] * 0.14 +
-[Gabor Features27] * 16.26 +
+[Gabor Features3] * -3.43 +
+[Gabor Features13] * 6.14 +
+[Gabor Features15] * 10.08 +
+[Gabor Features24] * -1.24 +
+[Gabor Features26] * 0.09 +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.7 +
-[Gabor Features37] * -15.62 +
-[Gabor Features39] * -50.3 +
-[Gabor Features49] * 5.97 +
-[Gabor Features50] * 0.86 +
-[Gabor Features51] * -5.17
+[Gabor Features37] * -16.27 +
+[Gabor Features39] * -48.65 +
+[Gabor Features49] * 4.69 +
+[Gabor Features50] * 0.79 +
+[Gabor Features51] * -4.28
 
 Class K4 :
 6.77 + 
-[Gabor Features0] * -0.36 +
-[Gabor Features1] * -9.72 +
-[Gabor Features3] * 27.85 +
-[Gabor Features14] * 0.21 +
-[Gabor Features15] * -74.72 +
-[Gabor Features38] * -0.56 +
-[Gabor Features39] * 110.05 +
-[Gabor Features48] * 0.88 +
-[Gabor Features49] * -3.05 +
-[Gabor Features50] * -0.05 +
-[Gabor Features51] * -157.75
+[Gabor Features0] * -0.39 +
+[Gabor Features1] * -14.42 +
+[Gabor Features3] * 27.87 +
+[Gabor Features14] * 0.22 +
+[Gabor Features15] * -70.7 +
+[Gabor Features38] * -0.54 +
+[Gabor Features39] * 105.64 +
+[Gabor Features48] * 0.82 +
+[Gabor Features49] * -2.65 +
+[Gabor Features50] * -0.04 +
+[Gabor Features51] * -155.41
 
 Class K5 :
--40.27 + 
-[Gabor Features0] * -0.43 +
-[Gabor Features2] * -0.62 +
+-37.32 + 
+[Gabor Features0] * -0.47 +
+[Gabor Features2] * -0.57 +
 [Gabor Features12] * -0.04 +
-[Gabor Features14] * 1.13 +
-[Gabor Features15] * 62.87 +
-[Gabor Features25] * 8.2  +
+[Gabor Features14] * 1.11 +
+[Gabor Features15] * 62.16 +
+[Gabor Features25] * 6.32 +
 [Gabor Features36] * -0.1 +
-[Gabor Features37] * -621.57 +
-[Gabor Features39] * -16.58 +
-[Gabor Features48] * 0.41 +
-[Gabor Features49] * -42.15 +
-[Gabor Features51] * 61.8
+[Gabor Features37] * -620.48 +
+[Gabor Features39] * -15.84 +
+[Gabor Features48] * 0.4  +
+[Gabor Features49] * -40.63 +
+[Gabor Features51] * 61.76
 
 Class K6 :
--121.56 + 
-[Gabor Features3] * 6.34 +
-[Gabor Features15] * -77.95 +
-[Gabor Features24] * 1.65 +
-[Gabor Features25] * -57.95 +
-[Gabor Features36] * 1.88 +
-[Gabor Features37] * 209.86 +
-[Gabor Features38] * 1.42 +
+-117.68 + 
+[Gabor Features3] * 4.34 +
+[Gabor Features15] * -80.76 +
+[Gabor Features24] * 1.62 +
+[Gabor Features25] * -55.64 +
+[Gabor Features36] * 1.36 +
+[Gabor Features37] * 213.9 +
+[Gabor Features38] * 1.94 +
 [Gabor Features48] * -0.07 +
-[Gabor Features50] * -0.72
-
-Class K7 :
--182.18 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--182.18 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features50] * -0.7
 
 LM_4:
 Class K1 :
-1890.29 + 
-[Gabor Features1] * -93.64 +
-[Gabor Features2] * 1.7  +
-[Gabor Features12] * -15.49 +
-[Gabor Features13] * -19.52 +
-[Gabor Features14] * -38.68 +
-[Gabor Features15] * -352.61 +
-[Gabor Features26] * -0.82 +
-[Gabor Features27] * 214.62 +
-[Gabor Features36] * -260.38 +
-[Gabor Features39] * -125.15 +
-[Gabor Features48] * -0.02 +
-[Gabor Features51] * -41.61
+1950.13 + 
+[Gabor Features0] * -30.49 +
+[Gabor Features1] * -92.91 +
+[Gabor Features2] * 1.68 +
+[Gabor Features13] * -19.43 +
+[Gabor Features14] * -36.29 +
+[Gabor Features24] * -0.03 +
+[Gabor Features26] * -0.83 +
+[Gabor Features27] * 210.93 +
+[Gabor Features36] * -262.55 +
+[Gabor Features39] * -124.37 +
+[Gabor Features48] * -0.01 +
+[Gabor Features51] * -40.18
 
 Class K2 :
--22.94 + 
-[Gabor Features0] * 0.39 +
-[Gabor Features1] * 156.9 +
-[Gabor Features13] * -32.69 +
+-22.01 + 
+[Gabor Features0] * 0.37 +
+[Gabor Features1] * 153.82 +
+[Gabor Features13] * -32.48 +
 [Gabor Features14] * -0 +
-[Gabor Features15] * -9.95 +
-[Gabor Features24] * 0.29 +
-[Gabor Features25] * -5.82 +
+[Gabor Features15] * -6.27 +
+[Gabor Features24] * 0.28 +
+[Gabor Features25] * -6.16 +
 [Gabor Features26] * -0 +
-[Gabor Features27] * -61.72 +
-[Gabor Features37] * -11.17 +
-[Gabor Features48] * -0.92
+[Gabor Features27] * -63.95 +
+[Gabor Features37] * -10.11 +
+[Gabor Features48] * -0.93
 
 Class K3 :
--1949.84 + 
-[Gabor Features1] * 110.99 +
+-1939.59 + 
+[Gabor Features1] * 105.7 +
 [Gabor Features2] * 0.08 +
-[Gabor Features3] * -0.23 +
-[Gabor Features13] * 0.19 +
-[Gabor Features14] * 50.34 +
-[Gabor Features15] * 10.99 +
-[Gabor Features24] * -0.61 +
-[Gabor Features26] * 0.14 +
-[Gabor Features27] * 16.26 +
-[Gabor Features36] * 276.29 +
-[Gabor Features39] * -50.3 +
-[Gabor Features49] * 4.96 +
-[Gabor Features50] * 0.63 +
-[Gabor Features51] * -5.17
+[Gabor Features3] * -3.43 +
+[Gabor Features13] * 6.14 +
+[Gabor Features14] * 47.33 +
+[Gabor Features15] * 10.08 +
+[Gabor Features24] * -0.57 +
+[Gabor Features26] * 0.09 +
+[Gabor Features27] * 16.64 +
+[Gabor Features36] * 277.72 +
+[Gabor Features39] * -48.65 +
+[Gabor Features49] * 4.56 +
+[Gabor Features50] * 0.6  +
+[Gabor Features51] * -4.28
 
 Class K4 :
--14.26 + 
-[Gabor Features0] * -0.36 +
-[Gabor Features1] * -9.72 +
-[Gabor Features3] * 27.85 +
-[Gabor Features14] * 0.22 +
-[Gabor Features15] * -74.72 +
+-13.29 + 
+[Gabor Features0] * -0.39 +
+[Gabor Features1] * -14.42 +
+[Gabor Features3] * 27.87 +
+[Gabor Features14] * 0.23 +
+[Gabor Features15] * -70.7 +
 [Gabor Features27] * 0    +
 [Gabor Features36] * 0.01 +
-[Gabor Features37] * -0 +
-[Gabor Features38] * -0.56 +
-[Gabor Features39] * 103.94 +
-[Gabor Features48] * 0.42 +
-[Gabor Features49] * -3.05 +
-[Gabor Features51] * -156.03
+[Gabor Features38] * -0.54 +
+[Gabor Features39] * 100.38 +
+[Gabor Features48] * 0.39 +
+[Gabor Features49] * -2.65 +
+[Gabor Features51] * -153.69
 
 Class K5 :
--40.27 + 
-[Gabor Features0] * -0.43 +
-[Gabor Features2] * -0.62 +
+-37.32 + 
+[Gabor Features0] * -0.47 +
+[Gabor Features2] * -0.57 +
 [Gabor Features12] * -0.04 +
-[Gabor Features14] * 1.13 +
-[Gabor Features15] * 62.87 +
-[Gabor Features25] * 8.2  +
+[Gabor Features14] * 1.11 +
+[Gabor Features15] * 62.16 +
+[Gabor Features25] * 6.32 +
 [Gabor Features36] * -0.1 +
-[Gabor Features37] * -621.57 +
-[Gabor Features39] * -16.58 +
-[Gabor Features48] * 0.41 +
-[Gabor Features49] * -42.15 +
-[Gabor Features51] * 61.8
+[Gabor Features37] * -620.48 +
+[Gabor Features39] * -15.84 +
+[Gabor Features48] * 0.4  +
+[Gabor Features49] * -40.63 +
+[Gabor Features51] * 61.76
 
 Class K6 :
--121.56 + 
-[Gabor Features3] * 6.34 +
-[Gabor Features15] * -77.95 +
-[Gabor Features24] * 1.65 +
-[Gabor Features25] * -57.95 +
-[Gabor Features36] * 1.88 +
-[Gabor Features37] * 209.86 +
-[Gabor Features38] * 1.42 +
+-117.68 + 
+[Gabor Features3] * 4.34 +
+[Gabor Features15] * -80.76 +
+[Gabor Features24] * 1.62 +
+[Gabor Features25] * -55.64 +
+[Gabor Features36] * 1.36 +
+[Gabor Features37] * 213.9 +
+[Gabor Features38] * 1.94 +
 [Gabor Features48] * -0.07 +
-[Gabor Features50] * -0.72
-
-Class K7 :
--182.18 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--182.18 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features50] * -0.7
 
 LM_5:
 Class K1 :
--20.36 + 
+-19.64 + 
 [Gabor Features0] * -0.03 +
-[Gabor Features1] * -93.45 +
-[Gabor Features2] * 1.7  +
+[Gabor Features1] * -92.77 +
+[Gabor Features2] * 1.68 +
 [Gabor Features12] * -0.09 +
-[Gabor Features13] * -19.52 +
+[Gabor Features13] * -19.43 +
+[Gabor Features24] * -0.03 +
 [Gabor Features26] * -0.57 +
-[Gabor Features27] * 100.89 +
-[Gabor Features36] * 0.63 +
-[Gabor Features39] * -120.16 +
-[Gabor Features48] * -0.02 +
-[Gabor Features51] * -41.61
+[Gabor Features27] * 99.54 +
+[Gabor Features36] * 0.64 +
+[Gabor Features39] * -119.23 +
+[Gabor Features48] * -0.01 +
+[Gabor Features51] * -40.18
 
 Class K2 :
--202.64 + 
-[Gabor Features0] * 0.39 +
-[Gabor Features1] * 2558.18 +
-[Gabor Features13] * -32.69 +
-[Gabor Features15] * -9.95 +
-[Gabor Features24] * 0.29 +
-[Gabor Features25] * 30.98 +
-[Gabor Features26] * 7.47 +
-[Gabor Features27] * -57.89 +
-[Gabor Features36] * -1.2 +
-[Gabor Features37] * -7.23 +
-[Gabor Features48] * -0.88 +
-[Gabor Features51] * -20
+-212.6 + 
+[Gabor Features0] * 0.37 +
+[Gabor Features1] * 2652.78 +
+[Gabor Features13] * -32.48 +
+[Gabor Features15] * -6.27 +
+[Gabor Features24] * 0.28 +
+[Gabor Features25] * 28.77 +
+[Gabor Features26] * 6.59 +
+[Gabor Features27] * -60.3 +
+[Gabor Features37] * -6.07 +
+[Gabor Features48] * -0.88
 
 Class K3 :
-19.05 + 
+8.59 + 
 [Gabor Features2] * 0.08 +
-[Gabor Features13] * -572.17 +
-[Gabor Features15] * 10.99 +
-[Gabor Features24] * -0.34 +
-[Gabor Features26] * -0.11 +
-[Gabor Features27] * 16.26 +
+[Gabor Features13] * -436.22 +
+[Gabor Features15] * 10.08 +
+[Gabor Features24] * -0.35 +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.7 +
-[Gabor Features37] * 73.88 +
-[Gabor Features39] * -589.78 +
-[Gabor Features48] * 5.46 +
-[Gabor Features49] * 408.55 +
-[Gabor Features50] * 0.63 +
-[Gabor Features51] * -5.17
+[Gabor Features37] * 30.57 +
+[Gabor Features39] * -519.3 +
+[Gabor Features48] * 5.69 +
+[Gabor Features49] * 361.93 +
+[Gabor Features50] * 0.6  +
+[Gabor Features51] * -4.28
 
 Class K4 :
-208.06 + 
-[Gabor Features0] * -9.06 +
-[Gabor Features1] * -687.23 +
-[Gabor Features3] * 27.85 +
-[Gabor Features14] * 0.21 +
-[Gabor Features15] * -74.72 +
-[Gabor Features27] * -1610.68 +
-[Gabor Features36] * 0.55 +
-[Gabor Features38] * -0.56 +
-[Gabor Features39] * 89.95 +
-[Gabor Features48] * 0.03 +
-[Gabor Features49] * -3.05 +
-[Gabor Features51] * 7.36
+195.69 + 
+[Gabor Features0] * -8.12 +
+[Gabor Features1] * -654.5 +
+[Gabor Features3] * 27.87 +
+[Gabor Features14] * 0.22 +
+[Gabor Features15] * -70.7 +
+[Gabor Features27] * -1497.78 +
+[Gabor Features38] * -0.54 +
+[Gabor Features39] * 87.1 +
+[Gabor Features48] * 0    +
+[Gabor Features49] * -2.65
 
 Class K5 :
--17.52 + 
-[Gabor Features0] * -0.43 +
-[Gabor Features2] * -0.62 +
+-15.66 + 
+[Gabor Features0] * -0.47 +
+[Gabor Features2] * -0.57 +
 [Gabor Features12] * -0.04 +
-[Gabor Features14] * 1.13 +
-[Gabor Features15] * 62.87 +
-[Gabor Features25] * 8.2  +
+[Gabor Features14] * 1.11 +
+[Gabor Features15] * 62.16 +
+[Gabor Features25] * 6.32 +
 [Gabor Features36] * -0.1 +
-[Gabor Features37] * -621.57 +
-[Gabor Features39] * -16.58 +
-[Gabor Features48] * 0.41 +
-[Gabor Features49] * -42.15 +
-[Gabor Features51] * 61.8
+[Gabor Features37] * -620.48 +
+[Gabor Features39] * -15.84 +
+[Gabor Features48] * 0.4  +
+[Gabor Features49] * -40.63 +
+[Gabor Features51] * 61.76
 
 Class K6 :
--98.81 + 
-[Gabor Features3] * 6.34 +
-[Gabor Features15] * -77.95 +
-[Gabor Features24] * 1.65 +
-[Gabor Features25] * -57.95 +
-[Gabor Features36] * 1.88 +
-[Gabor Features37] * 209.86 +
-[Gabor Features38] * 1.42 +
+-96.01 + 
+[Gabor Features3] * 4.34 +
+[Gabor Features15] * -80.76 +
+[Gabor Features24] * 1.62 +
+[Gabor Features25] * -55.64 +
+[Gabor Features36] * 1.36 +
+[Gabor Features37] * 213.9 +
+[Gabor Features38] * 1.94 +
 [Gabor Features48] * -0.07 +
-[Gabor Features50] * -0.72
-
-Class K7 :
--159.43 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--159.43 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features50] * -0.7
 
 LM_6:
 Class K1 :
-241.96 + 
-[Gabor Features1] * -37.16 +
-[Gabor Features2] * 1.7  +
-[Gabor Features3] * -942.55 +
-[Gabor Features13] * -1068.55 +
-[Gabor Features27] * 4.26 +
-[Gabor Features36] * 0.3  +
-[Gabor Features37] * -1876.87 +
-[Gabor Features39] * -125.15 +
-[Gabor Features48] * -0.02 +
-[Gabor Features51] * -41.61
+231.09 + 
+[Gabor Features1] * -37.01 +
+[Gabor Features2] * 1.68 +
+[Gabor Features3] * -898.27 +
+[Gabor Features13] * -1024.98 +
+[Gabor Features24] * -0.03 +
+[Gabor Features27] * 3.42 +
+[Gabor Features36] * 0.32 +
+[Gabor Features37] * -1794.32 +
+[Gabor Features39] * -124.37 +
+[Gabor Features48] * -0.01 +
+[Gabor Features51] * -40.18
 
 Class K2 :
--1023.54 + 
-[Gabor Features0] * 0.19 +
-[Gabor Features1] * 62.41 +
-[Gabor Features12] * 125.49 +
-[Gabor Features13] * -32.69 +
-[Gabor Features15] * 1299.63 +
-[Gabor Features24] * 16.64 +
-[Gabor Features25] * 30.98 +
+-974.46 + 
+[Gabor Features0] * 0.17 +
+[Gabor Features1] * 63.17 +
+[Gabor Features12] * 119.64 +
+[Gabor Features13] * -32.48 +
+[Gabor Features15] * 1229.01 +
+[Gabor Features24] * 15.74 +
+[Gabor Features25] * 28.77 +
 [Gabor Features26] * -0 +
-[Gabor Features27] * -50.77 +
-[Gabor Features37] * -7.23 +
+[Gabor Features27] * -49.34 +
+[Gabor Features37] * -6.07 +
 [Gabor Features48] * -0.59
 
 Class K3 :
--18.67 + 
+-17.87 + 
 [Gabor Features2] * 0.08 +
-[Gabor Features15] * 10.85 +
+[Gabor Features15] * 10 +
 [Gabor Features24] * -0.34 +
-[Gabor Features26] * 0.24 +
-[Gabor Features27] * 16.26 +
+[Gabor Features26] * 0.23 +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.7 +
-[Gabor Features37] * 0.15 +
-[Gabor Features39] * -28.17 +
-[Gabor Features49] * 4.95 +
-[Gabor Features50] * 0.05 +
-[Gabor Features51] * -4.64
+[Gabor Features37] * 0.18 +
+[Gabor Features39] * -26.98 +
+[Gabor Features49] * 4.54 +
+[Gabor Features50] * 0.03 +
+[Gabor Features51] * -3.71
 
 Class K4 :
--499.35 + 
-[Gabor Features0] * -0.35 +
-[Gabor Features3] * 27.85 +
-[Gabor Features25] * 8669.72 +
-[Gabor Features38] * -21.29 +
-[Gabor Features39] * 85.85 +
-[Gabor Features48] * 0.03 +
-[Gabor Features49] * -3.05
+-445.33 + 
+[Gabor Features0] * -0.37 +
+[Gabor Features3] * 27.87 +
+[Gabor Features25] * 7834.82 +
+[Gabor Features38] * -20.25 +
+[Gabor Features39] * 86.58 +
+[Gabor Features48] * 0    +
+[Gabor Features49] * -2.65
 
 Class K5 :
-9.28 + 
-[Gabor Features0] * -0.43 +
-[Gabor Features1] * 9.88 +
-[Gabor Features2] * -0.62 +
+10 + 
+[Gabor Features0] * -0.47 +
+[Gabor Features1] * 9.53 +
+[Gabor Features2] * -0.57 +
 [Gabor Features3] * 0    +
 [Gabor Features12] * -0.04 +
 [Gabor Features13] * -0 +
-[Gabor Features14] * 1.02 +
-[Gabor Features15] * 0    +
-[Gabor Features25] * 8.2  +
+[Gabor Features14] * 1.01 +
+[Gabor Features15] * 0.01 +
+[Gabor Features25] * 6.32 +
 [Gabor Features27] * -0 +
-[Gabor Features37] * -642.93 +
-[Gabor Features39] * -16.58 +
-[Gabor Features48] * 0.41 +
-[Gabor Features49] * -42.15 +
-[Gabor Features51] * 61.8
+[Gabor Features37] * -641.5 +
+[Gabor Features39] * -15.84 +
+[Gabor Features48] * 0.4  +
+[Gabor Features49] * -40.63 +
+[Gabor Features51] * 61.76
 
 Class K6 :
-664.42 + 
-[Gabor Features3] * 6.34 +
-[Gabor Features14] * -105.01 +
-[Gabor Features15] * -135.82 +
-[Gabor Features24] * 1.65 +
-[Gabor Features25] * -356.73 +
-[Gabor Features36] * 1.88 +
-[Gabor Features37] * 209.86 +
-[Gabor Features38] * 1.42 +
+623.92 + 
+[Gabor Features3] * 4.34 +
+[Gabor Features14] * -98.9 +
+[Gabor Features15] * -133.66 +
+[Gabor Features24] * 1.62 +
+[Gabor Features25] * -348.44 +
+[Gabor Features36] * 1.36 +
+[Gabor Features37] * 213.9 +
+[Gabor Features38] * 1.94 +
 [Gabor Features48] * -0.07
-
-Class K7 :
--113.93 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--113.93 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
 
 
 LM_7:
 Class K1 :
-6.71 + 
-[Gabor Features2] * 1.7  +
-[Gabor Features3] * -80.78 +
-[Gabor Features13] * 7.54 +
-[Gabor Features25] * 221.23 +
-[Gabor Features38] * -2.76 +
-[Gabor Features39] * -133.63 +
-[Gabor Features48] * -0.02 +
-[Gabor Features50] * 0.09 +
-[Gabor Features51] * -41.61
+6.57 + 
+[Gabor Features2] * 1.68 +
+[Gabor Features3] * -83.68 +
+[Gabor Features13] * 6.51 +
+[Gabor Features25] * 208.8 +
+[Gabor Features38] * -2.63 +
+[Gabor Features39] * -124.37 +
+[Gabor Features48] * -0.01 +
+[Gabor Features50] * 0.01 +
+[Gabor Features51] * -40.18
 
 Class K2 :
--71.96 + 
-[Gabor Features0] * 0.19 +
-[Gabor Features12] * 3.47 +
-[Gabor Features13] * -32.69 +
-[Gabor Features14] * 8.04 +
-[Gabor Features24] * 0.29 +
-[Gabor Features25] * 30.98 +
+-72.09 + 
+[Gabor Features0] * 0.17 +
+[Gabor Features12] * 4.06 +
+[Gabor Features13] * -32.48 +
+[Gabor Features14] * 7.51 +
+[Gabor Features24] * 0.28 +
+[Gabor Features25] * 28.77 +
 [Gabor Features26] * -0 +
-[Gabor Features27] * -50.77 +
+[Gabor Features27] * -49.34 +
 [Gabor Features36] * -0.02 +
-[Gabor Features37] * -33.32 +
-[Gabor Features48] * -0.33 +
-[Gabor Features49] * 16.28
+[Gabor Features37] * -32.36 +
+[Gabor Features48] * -0.32 +
+[Gabor Features49] * 10.19
 
 Class K3 :
-7.25 + 
-[Gabor Features1] * -80.03 +
-[Gabor Features2] * 0.1  +
+7.12 + 
+[Gabor Features1] * -70.37 +
+[Gabor Features2] * 0.12 +
 [Gabor Features14] * -0 +
-[Gabor Features15] * 10.85 +
-[Gabor Features24] * -0.11 +
-[Gabor Features27] * 16.26 +
+[Gabor Features15] * 10 +
+[Gabor Features24] * -0.12 +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.7 +
-[Gabor Features49] * 53.66 +
-[Gabor Features50] * -0.14 +
-[Gabor Features51] * -9.52
+[Gabor Features49] * 38.45 +
+[Gabor Features50] * -0.11 +
+[Gabor Features51] * -8.97
 
 Class K4 :
-4.78 + 
+4.65 + 
 [Gabor Features0] * 0.08 +
-[Gabor Features2] * -0.09 +
-[Gabor Features3] * 27.85 +
-[Gabor Features15] * 13.6 +
-[Gabor Features36] * 0.17 +
-[Gabor Features37] * 0.08 +
-[Gabor Features38] * -0.56 +
-[Gabor Features39] * 0.11 +
-[Gabor Features48] * 0.03 +
-[Gabor Features49] * -66.92
+[Gabor Features2] * -0.02 +
+[Gabor Features3] * 27.87 +
+[Gabor Features15] * 10.19 +
+[Gabor Features36] * 0.16 +
+[Gabor Features37] * 0.02 +
+[Gabor Features38] * -0.54 +
+[Gabor Features39] * 0.02 +
+[Gabor Features48] * 0    +
+[Gabor Features49] * -69.01
 
 Class K5 :
--8.7 + 
-[Gabor Features0] * -0.94 +
-[Gabor Features2] * -0.62 +
-[Gabor Features3] * 139.52 +
+-8.83 + 
+[Gabor Features0] * -0.95 +
+[Gabor Features2] * -0.57 +
+[Gabor Features3] * 134.52 +
 [Gabor Features12] * -0.04 +
-[Gabor Features14] * 0.18 +
-[Gabor Features15] * -5.28 +
-[Gabor Features25] * 8.2  +
-[Gabor Features39] * -16.58 +
-[Gabor Features48] * 0.41 +
-[Gabor Features49] * -42.15 +
-[Gabor Features51] * 72.71
+[Gabor Features14] * 0.2  +
+[Gabor Features15] * -3.19 +
+[Gabor Features25] * 6.32 +
+[Gabor Features39] * -15.84 +
+[Gabor Features48] * 0.4  +
+[Gabor Features49] * -40.63 +
+[Gabor Features51] * 69.44
 
 Class K6 :
--61.17 + 
-[Gabor Features3] * 6.34 +
-[Gabor Features15] * -67.49 +
-[Gabor Features24] * 1.65 +
-[Gabor Features25] * -57.95 +
-[Gabor Features36] * 0.86 +
-[Gabor Features38] * 1.1  +
+-59.29 + 
+[Gabor Features3] * 4.34 +
+[Gabor Features15] * -67.01 +
+[Gabor Features24] * 1.62 +
+[Gabor Features25] * -55.64 +
+[Gabor Features36] * 0.82 +
+[Gabor Features38] * 1.15 +
 [Gabor Features48] * -0.07 +
-[Gabor Features51] * 24.33
-
-Class K7 :
--113.93 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--113.93 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features51] * 23.75
 
 LM_8:
 Class K1 :
--16.52 + 
-[Gabor Features2] * 1.7  +
-[Gabor Features3] * -65.37 +
-[Gabor Features13] * 7.54 +
-[Gabor Features25] * 203.73 +
-[Gabor Features38] * -2.67 +
-[Gabor Features39] * -133.63 +
-[Gabor Features48] * -0.02 +
-[Gabor Features50] * 0.09 +
-[Gabor Features51] * -41.61
+-15.74 + 
+[Gabor Features2] * 1.68 +
+[Gabor Features3] * -69.83 +
+[Gabor Features13] * 6.51 +
+[Gabor Features25] * 194.71 +
+[Gabor Features38] * -2.54 +
+[Gabor Features39] * -124.37 +
+[Gabor Features48] * -0.01 +
+[Gabor Features50] * 0.01 +
+[Gabor Features51] * -40.18
 
 Class K2 :
--97.04 + 
-[Gabor Features0] * 0.19 +
-[Gabor Features12] * 3.47 +
-[Gabor Features13] * -32.69 +
-[Gabor Features14] * 8.04 +
-[Gabor Features24] * 0.29 +
-[Gabor Features25] * 30.98 +
+-96.26 + 
+[Gabor Features0] * 0.17 +
+[Gabor Features12] * 4.06 +
+[Gabor Features13] * -32.48 +
+[Gabor Features14] * 7.51 +
+[Gabor Features24] * 0.28 +
+[Gabor Features25] * 28.77 +
 [Gabor Features26] * -0 +
-[Gabor Features27] * -50.77 +
-[Gabor Features37] * -8.59 +
-[Gabor Features48] * -0.34 +
-[Gabor Features49] * 15.48
+[Gabor Features27] * -49.34 +
+[Gabor Features37] * -6.2 +
+[Gabor Features48] * -0.32 +
+[Gabor Features49] * 9.87
 
 Class K3 :
-4.3  + 
-[Gabor Features2] * 0.1  +
-[Gabor Features15] * 10.85 +
-[Gabor Features24] * -0.11 +
-[Gabor Features25] * -1.9 +
-[Gabor Features27] * 16.26 +
+3.98 + 
+[Gabor Features2] * 0.12 +
+[Gabor Features15] * 10 +
+[Gabor Features24] * -0.12 +
+[Gabor Features25] * -1.72 +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.7 +
-[Gabor Features37] * 0.41 +
+[Gabor Features37] * 0.29 +
 [Gabor Features38] * 0    +
-[Gabor Features49] * 12.83 +
-[Gabor Features50] * -0.14 +
-[Gabor Features51] * -9.52
+[Gabor Features49] * 9.01 +
+[Gabor Features50] * -0.11 +
+[Gabor Features51] * -8.97
 
 Class K4 :
-0.06 + 
-[Gabor Features2] * -0.08 +
-[Gabor Features3] * 27.85 +
-[Gabor Features15] * 13.6 +
-[Gabor Features25] * 0.09 +
-[Gabor Features36] * 0.17 +
-[Gabor Features37] * -1.64 +
-[Gabor Features38] * -0.58 +
-[Gabor Features39] * 0.11 +
-[Gabor Features48] * 0.03 +
-[Gabor Features49] * -3.36
+-0.26 + 
+[Gabor Features2] * -0.02 +
+[Gabor Features3] * 27.87 +
+[Gabor Features15] * 10.19 +
+[Gabor Features25] * 0.02 +
+[Gabor Features36] * 0.16 +
+[Gabor Features37] * -1.51 +
+[Gabor Features38] * -0.56 +
+[Gabor Features39] * 0.02 +
+[Gabor Features48] * 0    +
+[Gabor Features49] * -3.59
 
 Class K5 :
--21 + 
+-20.21 + 
 [Gabor Features0] * -0.58 +
-[Gabor Features2] * -0.62 +
+[Gabor Features2] * -0.57 +
 [Gabor Features12] * -0.04 +
-[Gabor Features14] * 0.18 +
-[Gabor Features15] * -1.2 +
-[Gabor Features25] * 8.2  +
-[Gabor Features39] * -16.58 +
-[Gabor Features48] * 0.41 +
-[Gabor Features49] * -42.15 +
-[Gabor Features51] * 72.71
+[Gabor Features14] * 0.2  +
+[Gabor Features15] * -2.06 +
+[Gabor Features25] * 6.32 +
+[Gabor Features39] * -15.84 +
+[Gabor Features48] * 0.4  +
+[Gabor Features49] * -40.63 +
+[Gabor Features51] * 69.44
 
 Class K6 :
--61.17 + 
-[Gabor Features3] * 6.34 +
-[Gabor Features15] * -67.49 +
-[Gabor Features24] * 1.65 +
-[Gabor Features25] * -57.95 +
-[Gabor Features36] * 0.86 +
-[Gabor Features38] * 1.1  +
+-59.29 + 
+[Gabor Features3] * 4.34 +
+[Gabor Features15] * -67.01 +
+[Gabor Features24] * 1.62 +
+[Gabor Features25] * -55.64 +
+[Gabor Features36] * 0.82 +
+[Gabor Features38] * 1.15 +
 [Gabor Features48] * -0.07 +
-[Gabor Features51] * 24.33
-
-Class K7 :
--113.93 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--113.93 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features51] * 23.75
 
 
 
 LM_9:
 Class K1 :
-362.23 + 
-[Gabor Features0] * -24.91 +
-[Gabor Features2] * 0.21 +
-[Gabor Features13] * 17.12 +
-[Gabor Features38] * -1.83 +
-[Gabor Features48] * -11.49 +
-[Gabor Features50] * -10.94 +
-[Gabor Features51] * -78.34
+345.24 + 
+[Gabor Features0] * -21.99 +
+[Gabor Features2] * 0.19 +
+[Gabor Features13] * 15.78 +
+[Gabor Features38] * -1.74 +
+[Gabor Features48] * -10.97 +
+[Gabor Features50] * -12.16 +
+[Gabor Features51] * -74.24
 
 Class K2 :
--7.93 + 
-[Gabor Features1] * 206.16 +
-[Gabor Features14] * 0.41 +
-[Gabor Features15] * 4.58 +
-[Gabor Features24] * 0.46 +
-[Gabor Features25] * 33.2 +
+-8.41 + 
+[Gabor Features1] * 197.14 +
+[Gabor Features14] * 0.39 +
+[Gabor Features15] * 8.69 +
+[Gabor Features24] * 0.42 +
+[Gabor Features25] * 30.86 +
 [Gabor Features26] * -0 +
-[Gabor Features27] * -50.77 +
-[Gabor Features37] * -124.24 +
-[Gabor Features48] * -0.08 +
-[Gabor Features49] * -0.51
+[Gabor Features27] * -49.34 +
+[Gabor Features37] * -108.49 +
+[Gabor Features38] * -0 +
+[Gabor Features48] * -0.07 +
+[Gabor Features49] * -2.33
 
 Class K3 :
--45.54 + 
-[Gabor Features0] * -0.1 +
-[Gabor Features2] * 0.01 +
-[Gabor Features12] * 0    +
-[Gabor Features15] * 31.46 +
-[Gabor Features24] * 0.11 +
-[Gabor Features27] * 16.26 +
+-43.72 + 
+[Gabor Features0] * -0.09 +
+[Gabor Features2] * 0    +
+[Gabor Features12] * 0.01 +
+[Gabor Features15] * 30.23 +
+[Gabor Features24] * 0.1  +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.7 +
-[Gabor Features51] * -2.64
+[Gabor Features51] * -1.89
 
 Class K4 :
--63.07 + 
-[Gabor Features3] * 41.64 +
-[Gabor Features12] * -15.78 +
-[Gabor Features15] * 1859.06 +
-[Gabor Features38] * -0.37 +
-[Gabor Features48] * 0.03 +
-[Gabor Features49] * -0.95 +
+-60.75 + 
+[Gabor Features3] * 41.21 +
+[Gabor Features12] * -14.91 +
+[Gabor Features15] * 1764.69 +
+[Gabor Features38] * -0.35 +
+[Gabor Features48] * 0    +
+[Gabor Features49] * -0.69 +
 [Gabor Features50] * 0.2 
 
 Class K5 :
-8.22 + 
-[Gabor Features1] * -140.53 +
-[Gabor Features2] * -0.03 +
-[Gabor Features3] * -36.7 +
+7.74 + 
+[Gabor Features1] * -121.45 +
+[Gabor Features2] * -0.02 +
+[Gabor Features3] * -36.58 +
 [Gabor Features12] * -0.04 +
-[Gabor Features14] * -0.03 +
-[Gabor Features15] * -60.57 +
-[Gabor Features25] * 8.2  +
-[Gabor Features37] * 57.72 +
-[Gabor Features38] * 0.48 +
-[Gabor Features39] * -16.58 +
-[Gabor Features48] * 0.63 +
-[Gabor Features49] * -42.15
+[Gabor Features14] * -0.04 +
+[Gabor Features15] * -58.26 +
+[Gabor Features25] * 6.32 +
+[Gabor Features37] * 44.72 +
+[Gabor Features38] * 0.46 +
+[Gabor Features39] * -15.84 +
+[Gabor Features48] * 0.6  +
+[Gabor Features49] * -40.63
 
 Class K6 :
--20.4 + 
+-19.7 + 
 [Gabor Features0] * 0.01 +
-[Gabor Features3] * 6.34 +
-[Gabor Features13] * -3.05 +
-[Gabor Features25] * -84.72 +
-[Gabor Features38] * 0.31 +
-[Gabor Features48] * -0.46 +
-[Gabor Features49] * -6.52 +
-[Gabor Features51] * 87.48
-
-Class K7 :
--113.93 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--113.93 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features3] * 4.34 +
+[Gabor Features13] * -3.21 +
+[Gabor Features25] * -79.36 +
+[Gabor Features38] * 0.29 +
+[Gabor Features48] * -0.47 +
+[Gabor Features49] * -6.21 +
+[Gabor Features51] * 86.78
 
 
 
 LM_10:
 Class K1 :
-6.2  + 
-[Gabor Features0] * -0.52 +
-[Gabor Features2] * 1.72 +
-[Gabor Features13] * 21.15 +
-[Gabor Features39] * 13.22 +
-[Gabor Features48] * -0.37 +
-[Gabor Features51] * -195.17
+5.88 + 
+[Gabor Features0] * -0.53 +
+[Gabor Features2] * 1.67 +
+[Gabor Features13] * 19.51 +
+[Gabor Features39] * 12.77 +
+[Gabor Features48] * -0.35 +
+[Gabor Features51] * -189.94
 
 Class K2 :
-3.02 + 
-[Gabor Features14] * -0.71 +
-[Gabor Features15] * 17.53 +
-[Gabor Features24] * 1.44 +
-[Gabor Features25] * 61.83 +
+2.72 + 
+[Gabor Features14] * -0.64 +
+[Gabor Features15] * 18.97 +
+[Gabor Features24] * 1.32 +
+[Gabor Features25] * 53.94 +
 [Gabor Features26] * -0 +
-[Gabor Features27] * -50.77 +
-[Gabor Features37] * -24.24 +
-[Gabor Features48] * -0.08 +
-[Gabor Features49] * -93.89
+[Gabor Features27] * -49.34 +
+[Gabor Features37] * -22.91 +
+[Gabor Features48] * -0.07 +
+[Gabor Features49] * -87.33
 
 Class K3 :
--91.04 + 
-[Gabor Features0] * -0.1 +
-[Gabor Features2] * 0.01 +
-[Gabor Features12] * 0    +
-[Gabor Features15] * 31.46 +
-[Gabor Features24] * 0.11 +
-[Gabor Features27] * 16.26 +
+-87.06 + 
+[Gabor Features0] * -0.09 +
+[Gabor Features2] * 0    +
+[Gabor Features12] * 0.01 +
+[Gabor Features15] * 30.23 +
+[Gabor Features24] * 0.1  +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.7 +
-[Gabor Features51] * -2.64
+[Gabor Features51] * -1.89
 
 Class K4 :
--120.08 + 
-[Gabor Features3] * 41.64 +
-[Gabor Features12] * -33.22 +
-[Gabor Features15] * 7534.8 +
-[Gabor Features36] * -36.49 +
-[Gabor Features38] * -0.37 +
-[Gabor Features48] * 0.03 +
-[Gabor Features49] * -0.95 +
+-114.06 + 
+[Gabor Features3] * 41.21 +
+[Gabor Features12] * -33.99 +
+[Gabor Features15] * 7153.97 +
+[Gabor Features36] * -32.23 +
+[Gabor Features38] * -0.35 +
+[Gabor Features48] * 0    +
+[Gabor Features49] * -0.69 +
 [Gabor Features50] * 0.2 
 
 Class K5 :
-20.9 + 
+20.55 + 
 [Gabor Features0] * -0.35 +
-[Gabor Features2] * -0.03 +
-[Gabor Features3] * -36.7 +
+[Gabor Features2] * -0.02 +
+[Gabor Features3] * -36.58 +
 [Gabor Features12] * -0.04 +
-[Gabor Features13] * -2.43 +
-[Gabor Features15] * -60.63 +
-[Gabor Features24] * -9.68 +
-[Gabor Features25] * 8.2  +
+[Gabor Features13] * -0.1 +
+[Gabor Features15] * -58.31 +
+[Gabor Features24] * -9.54 +
+[Gabor Features25] * 6.32 +
 [Gabor Features36] * 0.01 +
-[Gabor Features37] * 0.17 +
-[Gabor Features39] * 133.56 +
-[Gabor Features48] * 0.63 +
-[Gabor Features49] * -42.15 +
-[Gabor Features51] * 605
+[Gabor Features37] * 0.11 +
+[Gabor Features39] * 133.84 +
+[Gabor Features48] * 0.6  +
+[Gabor Features49] * -40.63 +
+[Gabor Features51] * 590.08
 
 Class K6 :
-8.11 + 
-[Gabor Features0] * 1.25 +
-[Gabor Features3] * 14.03 +
-[Gabor Features13] * -72.42 +
-[Gabor Features15] * -59.07 +
-[Gabor Features24] * -0.26 +
-[Gabor Features25] * -84.72 +
-[Gabor Features26] * -0.01 +
-[Gabor Features38] * 0.31 +
-[Gabor Features48] * -1.02 +
-[Gabor Features51] * 87.59
-
-Class K7 :
--159.43 + 
+7.82 + 
+[Gabor Features0] * 1.13 +
+[Gabor Features3] * 7.88 +
+[Gabor Features13] * -71.27 +
+[Gabor Features15] * -55.91 +
+[Gabor Features24] * -0.19 +
+[Gabor Features25] * -79.36 +
 [Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--159.43 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features38] * 0.29 +
+[Gabor Features48] * -1.01 +
+[Gabor Features51] * 86.78
 
 LM_11:
 Class K1 :
--10.46 + 
+-9.83 + 
 [Gabor Features0] * -0.76 +
-[Gabor Features1] * 0.7  +
-[Gabor Features2] * 0.97 +
-[Gabor Features13] * 21.15 +
-[Gabor Features37] * 1.45 +
-[Gabor Features48] * -0.37 +
-[Gabor Features51] * -167.36
+[Gabor Features1] * 0.85 +
+[Gabor Features2] * 0.93 +
+[Gabor Features13] * 19.51 +
+[Gabor Features37] * 1.56 +
+[Gabor Features48] * -0.35 +
+[Gabor Features51] * -163.71
 
 Class K2 :
--15.99 + 
+-15.21 + 
 [Gabor Features1] * 0.01 +
-[Gabor Features3] * 0.49 +
-[Gabor Features14] * -0.65 +
-[Gabor Features15] * 17.53 +
-[Gabor Features24] * 0.66 +
-[Gabor Features25] * 33.29 +
+[Gabor Features3] * 0.57 +
+[Gabor Features14] * -0.59 +
+[Gabor Features15] * 18.97 +
+[Gabor Features24] * 0.57 +
+[Gabor Features25] * 30.95 +
 [Gabor Features26] * -0 +
-[Gabor Features27] * -50.77 +
-[Gabor Features37] * -24.24 +
-[Gabor Features39] * 3.28 +
-[Gabor Features48] * -0.08 +
-[Gabor Features49] * -52.78 +
-[Gabor Features50] * 0.01
+[Gabor Features27] * -49.34 +
+[Gabor Features37] * -22.91 +
+[Gabor Features39] * 3.15 +
+[Gabor Features48] * -0.07 +
+[Gabor Features49] * -52.66 +
+[Gabor Features50] * 0   
 
 Class K3 :
--91.04 + 
-[Gabor Features0] * -0.1 +
-[Gabor Features2] * 0.01 +
-[Gabor Features12] * 0    +
-[Gabor Features15] * 31.46 +
-[Gabor Features24] * 0.11 +
-[Gabor Features27] * 16.26 +
+-87.06 + 
+[Gabor Features0] * -0.09 +
+[Gabor Features2] * 0    +
+[Gabor Features12] * 0.01 +
+[Gabor Features15] * 30.23 +
+[Gabor Features24] * 0.1  +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.7 +
-[Gabor Features51] * -2.64
+[Gabor Features51] * -1.89
 
 Class K4 :
--122.46 + 
-[Gabor Features3] * 41.64 +
-[Gabor Features12] * -33.22 +
-[Gabor Features15] * 5584 +
-[Gabor Features36] * -17.08 +
-[Gabor Features38] * -0.37 +
-[Gabor Features48] * 0.03 +
-[Gabor Features49] * -0.95 +
+-116.86 + 
+[Gabor Features3] * 41.21 +
+[Gabor Features12] * -33.99 +
+[Gabor Features15] * 5301.47 +
+[Gabor Features36] * -13.74 +
+[Gabor Features38] * -0.35 +
+[Gabor Features48] * 0    +
+[Gabor Features49] * -0.69 +
 [Gabor Features50] * 0.2 
 
 Class K5 :
-53.45 + 
-[Gabor Features0] * -4.99 +
-[Gabor Features1] * 45.83 +
-[Gabor Features2] * -0.03 +
-[Gabor Features3] * -351.11 +
+52.6 + 
+[Gabor Features0] * -4.42 +
+[Gabor Features1] * 3.27 +
+[Gabor Features2] * -0.02 +
+[Gabor Features3] * -305.04 +
 [Gabor Features12] * -0.04 +
-[Gabor Features13] * -2.43 +
-[Gabor Features15] * -60.63 +
-[Gabor Features25] * 8.2  +
-[Gabor Features36] * 0.68 +
-[Gabor Features37] * 0.17 +
-[Gabor Features39] * 133.56 +
-[Gabor Features48] * 0.63 +
-[Gabor Features49] * -42.15 +
-[Gabor Features51] * 18.87
+[Gabor Features13] * -0.1 +
+[Gabor Features15] * -58.31 +
+[Gabor Features25] * 6.32 +
+[Gabor Features36] * 0.15 +
+[Gabor Features37] * 0.11 +
+[Gabor Features39] * 133.84 +
+[Gabor Features48] * 0.6  +
+[Gabor Features49] * -40.63 +
+[Gabor Features51] * 16.21
 
 Class K6 :
--37.93 + 
-[Gabor Features0] * 5    +
-[Gabor Features1] * -45.63 +
-[Gabor Features3] * 186.55 +
-[Gabor Features13] * -0.28 +
-[Gabor Features15] * -59.07 +
-[Gabor Features24] * -0.25 +
-[Gabor Features25] * -84.72 +
-[Gabor Features26] * -0.01 +
-[Gabor Features36] * -0.66 +
-[Gabor Features38] * 0.31 +
-[Gabor Features48] * -0.46 +
-[Gabor Features51] * 87.48
-
-Class K7 :
--159.43 + 
+-38.84 + 
+[Gabor Features0] * 4.42 +
+[Gabor Features1] * -3.27 +
+[Gabor Features3] * 141.75 +
+[Gabor Features13] * -0.19 +
+[Gabor Features15] * -55.91 +
+[Gabor Features24] * -0.19 +
+[Gabor Features25] * -79.36 +
 [Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--159.43 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features36] * -0.15 +
+[Gabor Features38] * 0.29 +
+[Gabor Features48] * -0.47 +
+[Gabor Features51] * 86.78
 
 LM_12:
 Class K1 :
--10.56 + 
-[Gabor Features0] * -0.46 +
-[Gabor Features2] * 0.64 +
-[Gabor Features13] * 17.21 +
-[Gabor Features48] * -0.37 +
-[Gabor Features49] * 5.05 +
-[Gabor Features51] * -166.88
+-9.82 + 
+[Gabor Features0] * -0.5 +
+[Gabor Features2] * 0.62 +
+[Gabor Features13] * 15.83 +
+[Gabor Features48] * -0.35 +
+[Gabor Features49] * 4.95 +
+[Gabor Features51] * -163.16
 
 Class K2 :
-1    + 
+0.63 + 
 [Gabor Features14] * -0.03 +
-[Gabor Features15] * 17.53 +
-[Gabor Features24] * 0.46 +
-[Gabor Features25] * -35.38 +
+[Gabor Features15] * 18.97 +
+[Gabor Features24] * 0.42 +
+[Gabor Features25] * -15.14 +
 [Gabor Features26] * -0 +
-[Gabor Features27] * -50.77 +
-[Gabor Features36] * 0.36 +
-[Gabor Features37] * -24.24 +
-[Gabor Features48] * -0.37 +
-[Gabor Features49] * -47.42 +
-[Gabor Features51] * 99.74
+[Gabor Features27] * -49.34 +
+[Gabor Features36] * 0.26 +
+[Gabor Features37] * -22.91 +
+[Gabor Features48] * -0.25 +
+[Gabor Features49] * -46.98 +
+[Gabor Features51] * 76.71
 
 Class K3 :
--68.29 + 
-[Gabor Features0] * -0.1 +
-[Gabor Features2] * 0.01 +
-[Gabor Features12] * 0    +
-[Gabor Features15] * 31.46 +
-[Gabor Features24] * 0.11 +
-[Gabor Features27] * 16.26 +
+-65.39 + 
+[Gabor Features0] * -0.09 +
+[Gabor Features2] * 0    +
+[Gabor Features12] * 0.01 +
+[Gabor Features15] * 30.23 +
+[Gabor Features24] * 0.1  +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.7 +
-[Gabor Features51] * -2.64
+[Gabor Features51] * -1.89
 
 Class K4 :
--91.51 + 
-[Gabor Features3] * 41.64 +
-[Gabor Features12] * -33.22 +
-[Gabor Features15] * 3723.55 +
-[Gabor Features38] * -0.37 +
-[Gabor Features48] * 0.03 +
-[Gabor Features49] * -0.95 +
+-87.56 + 
+[Gabor Features3] * 41.21 +
+[Gabor Features12] * -31.5 +
+[Gabor Features15] * 3534.81 +
+[Gabor Features38] * -0.35 +
+[Gabor Features48] * 0    +
+[Gabor Features49] * -0.69 +
 [Gabor Features50] * 0.2 
 
 Class K5 :
-3.05 + 
+2.61 + 
 [Gabor Features0] * -0.08 +
-[Gabor Features2] * -0.03 +
-[Gabor Features3] * -36.7 +
+[Gabor Features2] * -0.02 +
+[Gabor Features3] * -36.58 +
 [Gabor Features12] * -0.04 +
-[Gabor Features15] * -60.63 +
-[Gabor Features25] * 74.78 +
-[Gabor Features36] * -0.56 +
-[Gabor Features37] * 0.17 +
-[Gabor Features39] * 133.56 +
-[Gabor Features48] * 0.91 +
-[Gabor Features49] * -42.15 +
-[Gabor Features51] * -103.44
+[Gabor Features15] * -58.31 +
+[Gabor Features25] * 50.48 +
+[Gabor Features36] * -0.45 +
+[Gabor Features37] * 0.11 +
+[Gabor Features39] * 133.84 +
+[Gabor Features48] * 0.77 +
+[Gabor Features49] * -40.63 +
+[Gabor Features51] * -80.41
 
 Class K6 :
--18.75 + 
-[Gabor Features0] * 0.14 +
-[Gabor Features3] * 11.68 +
-[Gabor Features13] * -0.28 +
-[Gabor Features15] * -58.64 +
-[Gabor Features24] * 0    +
-[Gabor Features25] * -84.72 +
-[Gabor Features26] * -0.01 +
-[Gabor Features38] * 0.38 +
-[Gabor Features48] * -0.46 +
-[Gabor Features51] * 87.48
-
-Class K7 :
--136.68 + 
+-17.98 + 
+[Gabor Features0] * 0.12 +
+[Gabor Features3] * 6.24 +
+[Gabor Features13] * -0.19 +
+[Gabor Features15] * -55.84 +
+[Gabor Features25] * -79.36 +
 [Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--136.68 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features38] * 0.37 +
+[Gabor Features48] * -0.47 +
+[Gabor Features51] * 86.78
 
 
 
@@ -1165,839 +994,713 @@ Class K8 :
 
 LM_13:
 Class K1 :
--112.21 + 
-[Gabor Features0] * -2.32 +
-[Gabor Features1] * -68.53 +
-[Gabor Features2] * 0.21 +
-[Gabor Features13] * 969.69 +
+-111.83 + 
+[Gabor Features0] * -2.31 +
+[Gabor Features1] * -66.68 +
+[Gabor Features2] * 0.19 +
+[Gabor Features13] * 978.85 +
 [Gabor Features14] * 0.16 +
-[Gabor Features27] * 544.84 +
-[Gabor Features48] * -0.02 +
+[Gabor Features27] * 523.61 +
+[Gabor Features48] * -0.01 +
 [Gabor Features50] * -0.56 +
-[Gabor Features51] * -55.58
+[Gabor Features51] * -53.92
 
 Class K2 :
-14.66 + 
-[Gabor Features0] * 0.07 +
+14.05 + 
+[Gabor Features0] * 0.06 +
 [Gabor Features2] * -0.07 +
-[Gabor Features15] * -372.76 +
-[Gabor Features24] * 0.29 +
-[Gabor Features25] * 33.2 +
-[Gabor Features26] * -0.05 +
-[Gabor Features27] * -50.77 +
-[Gabor Features37] * -24.24 +
-[Gabor Features39] * 64.82 +
-[Gabor Features48] * 4.41 +
-[Gabor Features49] * -198.31 +
-[Gabor Features50] * 0   
+[Gabor Features15] * -357.19 +
+[Gabor Features24] * 0.28 +
+[Gabor Features25] * 30.86 +
+[Gabor Features26] * -0.03 +
+[Gabor Features27] * -49.34 +
+[Gabor Features37] * -22.91 +
+[Gabor Features39] * 65.96 +
+[Gabor Features48] * 4.37 +
+[Gabor Features49] * -209.59
 
 Class K3 :
-263.08 + 
-[Gabor Features0] * -2.09 +
-[Gabor Features1] * -285.51 +
-[Gabor Features2] * 0.01 +
-[Gabor Features3] * -12.66 +
-[Gabor Features13] * -317.63 +
-[Gabor Features15] * 64.31 +
-[Gabor Features24] * 0.15 +
-[Gabor Features26] * -2.45 +
-[Gabor Features27] * 16.26 +
+256.9 + 
+[Gabor Features0] * -2 +
+[Gabor Features1] * -271.24 +
+[Gabor Features2] * 0    +
+[Gabor Features3] * -11.2 +
+[Gabor Features13] * -321.5 +
+[Gabor Features15] * 62.7 +
+[Gabor Features24] * 0.16 +
+[Gabor Features26] * -2.26 +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.7 +
 [Gabor Features38] * 0.83 +
-[Gabor Features48] * -22.4 +
-[Gabor Features51] * -369.65
+[Gabor Features48] * -22.11 +
+[Gabor Features51] * -358.58
 
 Class K4 :
-1.51 + 
+0.99 + 
 [Gabor Features0] * -0.34 +
-[Gabor Features1] * 114.14 +
-[Gabor Features2] * 0.06 +
-[Gabor Features3] * 51.57 +
-[Gabor Features13] * -6.46 +
-[Gabor Features15] * -16.63 +
-[Gabor Features38] * -2.16 +
-[Gabor Features48] * 0.03 +
-[Gabor Features49] * -0.95 +
-[Gabor Features50] * 0.51
+[Gabor Features1] * 110.94 +
+[Gabor Features2] * 0.14 +
+[Gabor Features3] * 50.38 +
+[Gabor Features13] * -2.33 +
+[Gabor Features15] * -14.67 +
+[Gabor Features38] * -2.18 +
+[Gabor Features48] * 0    +
+[Gabor Features49] * -0.69 +
+[Gabor Features50] * 0.47
 
 Class K5 :
--13.34 + 
-[Gabor Features2] * -0.03 +
-[Gabor Features3] * -36.7 +
+-13.84 + 
+[Gabor Features2] * -0.02 +
+[Gabor Features3] * -36.58 +
 [Gabor Features12] * -0.04 +
-[Gabor Features13] * 283.76 +
+[Gabor Features13] * 285.05 +
 [Gabor Features14] * -0.13 +
-[Gabor Features25] * -49.42 +
-[Gabor Features26] * 0.15 +
-[Gabor Features37] * 0.19 +
-[Gabor Features38] * 1.2  +
-[Gabor Features39] * -50.43 +
-[Gabor Features48] * -1.37 +
-[Gabor Features49] * -42.15 +
-[Gabor Features50] * -0.03 +
-[Gabor Features51] * 63.28
+[Gabor Features25] * -49.78 +
+[Gabor Features26] * 0.16 +
+[Gabor Features37] * 0.07 +
+[Gabor Features38] * 1.02 +
+[Gabor Features39] * -49.87 +
+[Gabor Features48] * -1.23 +
+[Gabor Features49] * -40.63 +
+[Gabor Features50] * -0.04 +
+[Gabor Features51] * 62.67
 
 Class K6 :
--85.04 + 
+-81.08 + 
 [Gabor Features0] * 0.01 +
-[Gabor Features3] * 6.34 +
-[Gabor Features25] * -81.63 +
-[Gabor Features37] * 4.97 +
-[Gabor Features38] * 0.31 +
-[Gabor Features48] * -0.39
-
-Class K7 :
--159.43 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--159.43 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features3] * 4.34 +
+[Gabor Features25] * -79.08 +
+[Gabor Features37] * 4.86 +
+[Gabor Features38] * 0.29 +
+[Gabor Features48] * -0.38
 
 LM_14:
 Class K1 :
--649.4 + 
-[Gabor Features0] * -2.32 +
-[Gabor Features1] * -68.53 +
-[Gabor Features2] * 0.21 +
-[Gabor Features12] * 27.48 +
-[Gabor Features13] * 969.69 +
+-627.57 + 
+[Gabor Features0] * -2.31 +
+[Gabor Features1] * -66.68 +
+[Gabor Features2] * 0.19 +
+[Gabor Features12] * 26.68 +
+[Gabor Features13] * 978.85 +
 [Gabor Features14] * 0.16 +
-[Gabor Features27] * 544.84 +
-[Gabor Features39] * 3372.93 +
-[Gabor Features48] * -0.02 +
+[Gabor Features27] * 523.61 +
+[Gabor Features39] * 3213.34 +
+[Gabor Features48] * -0.01 +
 [Gabor Features50] * -0.56 +
-[Gabor Features51] * -55.58
+[Gabor Features51] * -53.92
 
 Class K2 :
-12.86 + 
-[Gabor Features0] * 0.07 +
-[Gabor Features2] * -0.67 +
-[Gabor Features13] * 40.68 +
-[Gabor Features15] * -372.76 +
-[Gabor Features24] * 0.29 +
-[Gabor Features25] * 33.2 +
-[Gabor Features26] * -0.05 +
-[Gabor Features27] * -50.77 +
-[Gabor Features36] * -0.37 +
-[Gabor Features37] * -24.24 +
-[Gabor Features39] * 64.82 +
-[Gabor Features48] * 5.6  +
-[Gabor Features49] * -231.99 +
-[Gabor Features50] * 0   
+12.28 + 
+[Gabor Features0] * 0.06 +
+[Gabor Features2] * -0.58 +
+[Gabor Features13] * 31.58 +
+[Gabor Features15] * -357.19 +
+[Gabor Features24] * 0.28 +
+[Gabor Features25] * 30.86 +
+[Gabor Features26] * -0.03 +
+[Gabor Features27] * -49.34 +
+[Gabor Features36] * -0.35 +
+[Gabor Features37] * -22.91 +
+[Gabor Features39] * 65.96 +
+[Gabor Features48] * 5.47 +
+[Gabor Features49] * -237.29
 
 Class K3 :
-202.68 + 
-[Gabor Features0] * -2.09 +
-[Gabor Features1] * -285.51 +
-[Gabor Features2] * 0.01 +
-[Gabor Features3] * -12.66 +
-[Gabor Features13] * -317.63 +
-[Gabor Features15] * 64.31 +
-[Gabor Features24] * 5.36 +
-[Gabor Features26] * -2.45 +
-[Gabor Features27] * 16.26 +
+198.64 + 
+[Gabor Features0] * -2 +
+[Gabor Features1] * -271.24 +
+[Gabor Features2] * 0    +
+[Gabor Features3] * -11.2 +
+[Gabor Features13] * -321.5 +
+[Gabor Features15] * 62.7 +
+[Gabor Features24] * 5.22 +
+[Gabor Features26] * -2.26 +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.7 +
 [Gabor Features38] * 0.83 +
-[Gabor Features48] * -22.4 +
-[Gabor Features51] * -369.65
+[Gabor Features48] * -22.11 +
+[Gabor Features51] * -358.58
 
 Class K4 :
-16.49 + 
+15.84 + 
 [Gabor Features0] * -0.34 +
-[Gabor Features1] * 114.14 +
-[Gabor Features2] * 0.16 +
-[Gabor Features3] * 154.77 +
-[Gabor Features13] * -13.75 +
-[Gabor Features15] * -16.63 +
-[Gabor Features38] * -5.4 +
-[Gabor Features48] * 0.03 +
-[Gabor Features49] * -0.95 +
-[Gabor Features50] * 0.51
+[Gabor Features1] * 110.94 +
+[Gabor Features2] * 0.17 +
+[Gabor Features3] * 155.73 +
+[Gabor Features13] * -8.61 +
+[Gabor Features15] * -14.67 +
+[Gabor Features38] * -5.38 +
+[Gabor Features48] * 0    +
+[Gabor Features49] * -0.69 +
+[Gabor Features50] * 0.47
 
 Class K5 :
--4.55 + 
-[Gabor Features2] * -0.03 +
-[Gabor Features3] * -99.41 +
+-5.22 + 
+[Gabor Features2] * -0.02 +
+[Gabor Features3] * -85.63 +
 [Gabor Features12] * -0.04 +
-[Gabor Features13] * 300.8 +
+[Gabor Features13] * 291.59 +
 [Gabor Features14] * -0.13 +
-[Gabor Features25] * -49.42 +
-[Gabor Features26] * 0.15 +
-[Gabor Features37] * 0.19 +
-[Gabor Features38] * 1.76 +
-[Gabor Features39] * -50.43 +
-[Gabor Features48] * -2.53 +
-[Gabor Features49] * -42.15 +
-[Gabor Features50] * -0.03 +
-[Gabor Features51] * 63.28
+[Gabor Features25] * -49.78 +
+[Gabor Features26] * 0.16 +
+[Gabor Features37] * 0.07 +
+[Gabor Features38] * 1.57 +
+[Gabor Features39] * -49.87 +
+[Gabor Features48] * -2.39 +
+[Gabor Features49] * -40.63 +
+[Gabor Features50] * -0.04 +
+[Gabor Features51] * 62.67
 
 Class K6 :
--107.79 + 
+-102.75 + 
 [Gabor Features0] * 0.01 +
-[Gabor Features3] * 6.34 +
-[Gabor Features25] * -81.63 +
-[Gabor Features37] * 4.97 +
-[Gabor Features38] * 0.31 +
-[Gabor Features48] * -0.39
-
-Class K7 :
--182.18 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--182.18 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features3] * 4.34 +
+[Gabor Features25] * -79.08 +
+[Gabor Features37] * 4.86 +
+[Gabor Features38] * 0.29 +
+[Gabor Features48] * -0.38
 
 
 LM_15:
 Class K1 :
--16.46 + 
-[Gabor Features1] * -68.53 +
-[Gabor Features2] * 0.21 +
-[Gabor Features13] * 53.14 +
+-15.85 + 
+[Gabor Features1] * -66.68 +
+[Gabor Features2] * 0.19 +
+[Gabor Features13] * 50.79 +
 [Gabor Features14] * 0.16 +
-[Gabor Features37] * 2.74 +
-[Gabor Features48] * -0.02 +
+[Gabor Features37] * 2.67 +
+[Gabor Features48] * -0.01 +
 [Gabor Features50] * -0.56 +
-[Gabor Features51] * -54.99
+[Gabor Features51] * -53.31
 
 Class K2 :
-6.94 + 
-[Gabor Features0] * 0.11 +
+6.49 + 
+[Gabor Features0] * 0.09 +
 [Gabor Features2] * -0.07 +
-[Gabor Features15] * -33.97 +
-[Gabor Features24] * 0.29 +
-[Gabor Features25] * 30.93 +
-[Gabor Features26] * -1.19 +
-[Gabor Features27] * -50.77 +
-[Gabor Features37] * -24.24 +
-[Gabor Features39] * 78.13 +
-[Gabor Features49] * -0.02 +
-[Gabor Features50] * 0   
+[Gabor Features15] * -34.43 +
+[Gabor Features24] * 0.28 +
+[Gabor Features25] * 27.88 +
+[Gabor Features26] * -1.16 +
+[Gabor Features27] * -49.34 +
+[Gabor Features37] * -22.91 +
+[Gabor Features39] * 79.65 +
+[Gabor Features49] * -0.02
 
 Class K3 :
--10.09 + 
-[Gabor Features0] * -0.3 +
-[Gabor Features1] * -3.36 +
-[Gabor Features2] * 0.01 +
-[Gabor Features3] * -19.38 +
-[Gabor Features13] * -0.9 +
-[Gabor Features15] * 67.64 +
-[Gabor Features24] * 0.15 +
-[Gabor Features27] * 16.26 +
+-10.54 + 
+[Gabor Features0] * -0.29 +
+[Gabor Features1] * -3.15 +
+[Gabor Features2] * 0    +
+[Gabor Features3] * -15.86 +
+[Gabor Features13] * -0.94 +
+[Gabor Features15] * 63.7 +
+[Gabor Features24] * 0.16 +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.7 +
-[Gabor Features38] * 1.66 +
-[Gabor Features50] * -0.31 +
-[Gabor Features51] * -2.64
+[Gabor Features38] * 1.59 +
+[Gabor Features50] * -0.24 +
+[Gabor Features51] * -1.89
 
 Class K4 :
-3.32 + 
+2.87 + 
 [Gabor Features0] * -0.34 +
-[Gabor Features3] * 59.58 +
-[Gabor Features15] * -16.63 +
-[Gabor Features38] * -0.48 +
-[Gabor Features39] * -73.02 +
-[Gabor Features48] * 0.03 +
-[Gabor Features49] * -0.95 +
-[Gabor Features50] * 0.9 
+[Gabor Features3] * 56.32 +
+[Gabor Features15] * -14.67 +
+[Gabor Features38] * -0.41 +
+[Gabor Features39] * -71.32 +
+[Gabor Features48] * 0    +
+[Gabor Features49] * -0.69 +
+[Gabor Features50] * 0.84
 
 Class K5 :
--12.61 + 
-[Gabor Features2] * -0.03 +
-[Gabor Features3] * -36.7 +
+-11.99 + 
+[Gabor Features2] * -0.02 +
+[Gabor Features3] * -36.58 +
 [Gabor Features12] * -0.04 +
-[Gabor Features13] * 2.07 +
+[Gabor Features13] * 2.18 +
 [Gabor Features14] * -0.13 +
-[Gabor Features25] * -49.42 +
-[Gabor Features26] * 0.15 +
-[Gabor Features37] * 5.19 +
-[Gabor Features39] * -50.43 +
-[Gabor Features48] * -0.05 +
-[Gabor Features49] * -42.15 +
-[Gabor Features50] * -0.03 +
-[Gabor Features51] * 63.28
+[Gabor Features25] * -49.78 +
+[Gabor Features26] * 0.16 +
+[Gabor Features37] * 4.83 +
+[Gabor Features39] * -49.87 +
+[Gabor Features48] * -0.06 +
+[Gabor Features49] * -40.63 +
+[Gabor Features50] * -0.04 +
+[Gabor Features51] * 62.67
 
 Class K6 :
--85.04 + 
+-81.08 + 
 [Gabor Features0] * 0.01 +
-[Gabor Features3] * 6.34 +
-[Gabor Features25] * -81.63 +
-[Gabor Features37] * 4.97 +
-[Gabor Features38] * 0.31 +
-[Gabor Features48] * -0.39
-
-Class K7 :
--159.43 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--159.43 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features3] * 4.34 +
+[Gabor Features25] * -79.08 +
+[Gabor Features37] * 4.86 +
+[Gabor Features38] * 0.29 +
+[Gabor Features48] * -0.38
 
 
 LM_16:
 Class K1 :
--61.96 + 
-[Gabor Features1] * -68.53 +
-[Gabor Features2] * 0.21 +
-[Gabor Features13] * 53.14 +
+-59.18 + 
+[Gabor Features1] * -66.68 +
+[Gabor Features2] * 0.19 +
+[Gabor Features13] * 50.79 +
 [Gabor Features14] * 0.16 +
-[Gabor Features37] * 2.74 +
-[Gabor Features48] * -0.02 +
+[Gabor Features37] * 2.67 +
+[Gabor Features48] * -0.01 +
 [Gabor Features50] * -0.56 +
-[Gabor Features51] * -54.99
+[Gabor Features51] * -53.31
 
 Class K2 :
--5.29 + 
-[Gabor Features0] * 2.1  +
+-5.78 + 
+[Gabor Features0] * 2.06 +
 [Gabor Features2] * -0.07 +
-[Gabor Features15] * -130.75 +
-[Gabor Features24] * 0.29 +
-[Gabor Features25] * 30.93 +
-[Gabor Features26] * -1.19 +
-[Gabor Features27] * -50.77 +
-[Gabor Features37] * -24.24 +
-[Gabor Features38] * -0.03 +
-[Gabor Features39] * 149.45 +
-[Gabor Features49] * -0.02 +
-[Gabor Features50] * 0   
+[Gabor Features15] * -127.1 +
+[Gabor Features24] * 0.28 +
+[Gabor Features25] * 27.88 +
+[Gabor Features26] * -1.16 +
+[Gabor Features27] * -49.34 +
+[Gabor Features37] * -22.91 +
+[Gabor Features38] * -0.02 +
+[Gabor Features39] * 147.33 +
+[Gabor Features49] * -0.02
 
 Class K3 :
-6.16 + 
-[Gabor Features0] * -0.3 +
-[Gabor Features1] * -3.36 +
-[Gabor Features2] * 0.01 +
-[Gabor Features3] * -161.11 +
-[Gabor Features13] * -0.9 +
-[Gabor Features15] * 131.68 +
-[Gabor Features24] * 0.15 +
-[Gabor Features27] * 16.26 +
+5.66 + 
+[Gabor Features0] * -0.29 +
+[Gabor Features1] * -3.15 +
+[Gabor Features2] * 0    +
+[Gabor Features3] * -146.06 +
+[Gabor Features13] * -0.94 +
+[Gabor Features15] * 117.06 +
+[Gabor Features24] * 0.16 +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.7 +
-[Gabor Features38] * 1.7  +
-[Gabor Features50] * -1.46 +
-[Gabor Features51] * -2.64
+[Gabor Features38] * 1.62 +
+[Gabor Features50] * -1.38 +
+[Gabor Features51] * -1.89
 
 Class K4 :
--0.56 + 
+-1.06 + 
 [Gabor Features0] * -0.34 +
-[Gabor Features3] * 201.71 +
-[Gabor Features14] * -1.03 +
-[Gabor Features15] * -16.63 +
-[Gabor Features38] * -0.48 +
-[Gabor Features39] * -113.29 +
-[Gabor Features48] * 0.03 +
-[Gabor Features49] * -0.95 +
-[Gabor Features50] * 1.15
+[Gabor Features3] * 188.71 +
+[Gabor Features14] * -0.95 +
+[Gabor Features15] * -14.67 +
+[Gabor Features38] * -0.41 +
+[Gabor Features39] * -101.65 +
+[Gabor Features48] * 0    +
+[Gabor Features49] * -0.69 +
+[Gabor Features50] * 1.02
 
 Class K5 :
--58.11 + 
-[Gabor Features2] * -0.03 +
-[Gabor Features3] * -36.7 +
+-55.32 + 
+[Gabor Features2] * -0.02 +
+[Gabor Features3] * -36.58 +
 [Gabor Features12] * -0.04 +
-[Gabor Features13] * 2.07 +
+[Gabor Features13] * 2.18 +
 [Gabor Features14] * -0.13 +
-[Gabor Features25] * -49.42 +
-[Gabor Features26] * 0.15 +
-[Gabor Features37] * 5.19 +
-[Gabor Features39] * -50.43 +
-[Gabor Features48] * -0.05 +
-[Gabor Features49] * -42.15 +
-[Gabor Features50] * -0.03 +
-[Gabor Features51] * 63.28
+[Gabor Features25] * -49.78 +
+[Gabor Features26] * 0.16 +
+[Gabor Features37] * 4.83 +
+[Gabor Features39] * -49.87 +
+[Gabor Features48] * -0.06 +
+[Gabor Features49] * -40.63 +
+[Gabor Features50] * -0.04 +
+[Gabor Features51] * 62.67
 
 Class K6 :
--130.54 + 
+-124.42 + 
 [Gabor Features0] * 0.01 +
-[Gabor Features3] * 6.34 +
-[Gabor Features25] * -81.63 +
-[Gabor Features37] * 4.97 +
-[Gabor Features38] * 0.31 +
-[Gabor Features48] * -0.39
-
-Class K7 :
--204.93 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--204.93 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features3] * 4.34 +
+[Gabor Features25] * -79.08 +
+[Gabor Features37] * 4.86 +
+[Gabor Features38] * 0.29 +
+[Gabor Features48] * -0.38
 
 LM_17:
 Class K1 :
--39.21 + 
-[Gabor Features1] * -68.53 +
-[Gabor Features2] * 0.21 +
-[Gabor Features13] * 53.14 +
+-37.52 + 
+[Gabor Features1] * -66.68 +
+[Gabor Features2] * 0.19 +
+[Gabor Features13] * 50.79 +
 [Gabor Features14] * 0.16 +
-[Gabor Features37] * 2.74 +
-[Gabor Features48] * -0.02 +
+[Gabor Features37] * 2.67 +
+[Gabor Features48] * -0.01 +
 [Gabor Features50] * -0.56 +
-[Gabor Features51] * -54.99
+[Gabor Features51] * -53.31
 
 Class K2 :
-1.1  + 
-[Gabor Features0] * 2.04 +
+0.6  + 
+[Gabor Features0] * 2.02 +
 [Gabor Features2] * -0.07 +
-[Gabor Features15] * -119.81 +
-[Gabor Features24] * 0.29 +
-[Gabor Features25] * 30.93 +
-[Gabor Features26] * -1.19 +
-[Gabor Features27] * -50.77 +
-[Gabor Features37] * -24.24 +
-[Gabor Features38] * -0 +
-[Gabor Features39] * 78.42 +
-[Gabor Features49] * -0.02 +
-[Gabor Features50] * 0   
+[Gabor Features15] * -119.51 +
+[Gabor Features24] * 0.28 +
+[Gabor Features25] * 27.88 +
+[Gabor Features26] * -1.16 +
+[Gabor Features27] * -49.34 +
+[Gabor Features37] * -22.91 +
+[Gabor Features39] * 79.78 +
+[Gabor Features49] * -0.02
 
 Class K3 :
--6.61 + 
-[Gabor Features0] * -0.3 +
-[Gabor Features1] * -3.36 +
-[Gabor Features2] * 0.01 +
-[Gabor Features3] * -21.06 +
-[Gabor Features13] * -0.9 +
-[Gabor Features15] * 106.55 +
-[Gabor Features24] * 0.15 +
-[Gabor Features27] * 16.26 +
+-7.11 + 
+[Gabor Features0] * -0.29 +
+[Gabor Features1] * -3.15 +
+[Gabor Features2] * 0    +
+[Gabor Features3] * -16.1 +
+[Gabor Features13] * -0.94 +
+[Gabor Features15] * 101.8 +
+[Gabor Features24] * 0.16 +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.7 +
-[Gabor Features38] * 1.66 +
-[Gabor Features50] * -1.25 +
-[Gabor Features51] * -2.64
+[Gabor Features38] * 1.59 +
+[Gabor Features50] * -1.18 +
+[Gabor Features51] * -1.89
 
 Class K4 :
-7    + 
+6.51 + 
 [Gabor Features0] * -0.34 +
-[Gabor Features3] * 98.24 +
-[Gabor Features14] * -0.94 +
-[Gabor Features15] * -16.63 +
-[Gabor Features38] * -0.48 +
-[Gabor Features39] * -78.06 +
-[Gabor Features48] * 0.03 +
-[Gabor Features49] * -0.95 +
-[Gabor Features50] * 0.96
+[Gabor Features3] * 94.22 +
+[Gabor Features14] * -0.89 +
+[Gabor Features15] * -14.67 +
+[Gabor Features38] * -0.41 +
+[Gabor Features39] * -75.01 +
+[Gabor Features48] * 0    +
+[Gabor Features49] * -0.69 +
+[Gabor Features50] * 0.84
 
 Class K5 :
--35.36 + 
-[Gabor Features2] * -0.03 +
-[Gabor Features3] * -36.7 +
+-33.66 + 
+[Gabor Features2] * -0.02 +
+[Gabor Features3] * -36.58 +
 [Gabor Features12] * -0.04 +
-[Gabor Features13] * 2.07 +
+[Gabor Features13] * 2.18 +
 [Gabor Features14] * -0.13 +
-[Gabor Features25] * -49.42 +
-[Gabor Features26] * 0.15 +
-[Gabor Features37] * 5.19 +
-[Gabor Features39] * -50.43 +
-[Gabor Features48] * -0.05 +
-[Gabor Features49] * -42.15 +
-[Gabor Features50] * -0.03 +
-[Gabor Features51] * 63.28
+[Gabor Features25] * -49.78 +
+[Gabor Features26] * 0.16 +
+[Gabor Features37] * 4.83 +
+[Gabor Features39] * -49.87 +
+[Gabor Features48] * -0.06 +
+[Gabor Features49] * -40.63 +
+[Gabor Features50] * -0.04 +
+[Gabor Features51] * 62.67
 
 Class K6 :
--107.79 + 
+-102.75 + 
 [Gabor Features0] * 0.01 +
-[Gabor Features3] * 6.34 +
-[Gabor Features25] * -81.63 +
-[Gabor Features37] * 4.97 +
-[Gabor Features38] * 0.31 +
-[Gabor Features48] * -0.39
-
-Class K7 :
--182.18 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--182.18 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features3] * 4.34 +
+[Gabor Features25] * -79.08 +
+[Gabor Features37] * 4.86 +
+[Gabor Features38] * 0.29 +
+[Gabor Features48] * -0.38
 
 
 LM_18:
 Class K1 :
--4.66 + 
-[Gabor Features1] * -1.83 +
-[Gabor Features2] * 0.21 +
-[Gabor Features13] * 53.14 +
+-5.06 + 
+[Gabor Features1] * -1.43 +
+[Gabor Features2] * 0.19 +
+[Gabor Features13] * 50.79 +
 [Gabor Features14] * 0.16 +
-[Gabor Features27] * -0.37 +
-[Gabor Features39] * 63.16 +
-[Gabor Features48] * -0.52 +
-[Gabor Features49] * -0.02 +
+[Gabor Features27] * -0.06 +
+[Gabor Features39] * 63.06 +
+[Gabor Features48] * -0.51 +
+[Gabor Features49] * -0.01 +
 [Gabor Features50] * -0.01 +
-[Gabor Features51] * -55.68
+[Gabor Features51] * -53.99
 
 Class K2 :
-3.83 + 
-[Gabor Features0] * 0.07 +
-[Gabor Features1] * -6.76 +
-[Gabor Features15] * -55.53 +
-[Gabor Features24] * 0.5  +
-[Gabor Features25] * 33.2 +
-[Gabor Features26] * -0.11 +
-[Gabor Features27] * -50.77 +
-[Gabor Features37] * -24.24 +
-[Gabor Features39] * 25.07 +
-[Gabor Features49] * 4.15
+3.43 + 
+[Gabor Features0] * 0.06 +
+[Gabor Features1] * -6.53 +
+[Gabor Features15] * -55.04 +
+[Gabor Features24] * 0.48 +
+[Gabor Features25] * 30.86 +
+[Gabor Features26] * -0.07 +
+[Gabor Features27] * -49.34 +
+[Gabor Features37] * -22.91 +
+[Gabor Features39] * 24.81 +
+[Gabor Features49] * 3.18
 
 Class K3 :
--29.5 + 
-[Gabor Features0] * -0.3 +
-[Gabor Features1] * -3.36 +
-[Gabor Features2] * 0.01 +
-[Gabor Features13] * -0.9 +
-[Gabor Features15] * 64.27 +
-[Gabor Features24] * 0.15 +
-[Gabor Features27] * 44.25 +
+-28.83 + 
+[Gabor Features0] * -0.29 +
+[Gabor Features1] * -3.15 +
+[Gabor Features2] * 0    +
+[Gabor Features13] * -0.94 +
+[Gabor Features15] * 62.66 +
+[Gabor Features24] * 0.16 +
+[Gabor Features27] * 44.85 +
 [Gabor Features36] * -0.7 +
 [Gabor Features37] * -0.03 +
-[Gabor Features48] * -0.01 +
-[Gabor Features50] * 0.16 +
-[Gabor Features51] * -2.64
+[Gabor Features48] * 0    +
+[Gabor Features50] * 0.15 +
+[Gabor Features51] * -1.89
 
 Class K4 :
-4.78 + 
+4.37 + 
 [Gabor Features0] * -0.35 +
-[Gabor Features3] * 69.36 +
+[Gabor Features3] * 68.84 +
 [Gabor Features12] * -0.1 +
-[Gabor Features13] * 0.04 +
-[Gabor Features15] * -3.78 +
-[Gabor Features25] * -23.31 +
-[Gabor Features38] * -0.37 +
-[Gabor Features48] * 0.15 +
-[Gabor Features49] * -60.63 +
+[Gabor Features13] * 0.02 +
+[Gabor Features15] * -3.65 +
+[Gabor Features25] * -26.11 +
+[Gabor Features38] * -0.35 +
+[Gabor Features48] * 0.13 +
+[Gabor Features49] * -57.52 +
 [Gabor Features50] * 0.27
 
 Class K5 :
-1.71 + 
-[Gabor Features2] * -0.03 +
-[Gabor Features3] * -36.7 +
+1.3  + 
+[Gabor Features2] * -0.02 +
+[Gabor Features3] * -36.58 +
 [Gabor Features12] * -0.04 +
 [Gabor Features14] * -0.13 +
 [Gabor Features24] * -0.04 +
-[Gabor Features25] * 8.2  +
+[Gabor Features25] * 6.32 +
 [Gabor Features26] * 0.28 +
-[Gabor Features39] * -67.83 +
-[Gabor Features48] * 0.42 +
-[Gabor Features49] * -42.15 +
-[Gabor Features50] * -0.03 +
-[Gabor Features51] * 76.61
+[Gabor Features39] * -66.4 +
+[Gabor Features48] * 0.41 +
+[Gabor Features49] * -40.63 +
+[Gabor Features50] * -0.04 +
+[Gabor Features51] * 75.34
 
 Class K6 :
--85.04 + 
+-81.08 + 
 [Gabor Features0] * 0.01 +
-[Gabor Features3] * 6.34 +
-[Gabor Features25] * -81.63 +
-[Gabor Features37] * 4.97 +
-[Gabor Features38] * 0.31 +
-[Gabor Features48] * -0.39
-
-Class K7 :
--159.43 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--159.43 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features3] * 4.34 +
+[Gabor Features25] * -79.08 +
+[Gabor Features37] * 4.86 +
+[Gabor Features38] * 0.29 +
+[Gabor Features48] * -0.38
 
 LM_19:
 Class K1 :
-18.78 + 
-[Gabor Features1] * -1.83 +
-[Gabor Features2] * 0.21 +
-[Gabor Features13] * 53.14 +
+18.58 + 
+[Gabor Features1] * -1.43 +
+[Gabor Features2] * 0.19 +
+[Gabor Features13] * 50.79 +
 [Gabor Features14] * 0.16 +
-[Gabor Features24] * -0.06 +
-[Gabor Features27] * -0.37 +
-[Gabor Features36] * 2.86 +
-[Gabor Features39] * 11.96 +
-[Gabor Features48] * -0.11 +
+[Gabor Features27] * -0.06 +
+[Gabor Features36] * 2.56 +
+[Gabor Features39] * 11.86 +
+[Gabor Features48] * -0.1 +
 [Gabor Features50] * -0.01 +
-[Gabor Features51] * -519.51
+[Gabor Features51] * -497.25
 
 Class K2 :
--38.62 + 
-[Gabor Features0] * 0.07 +
-[Gabor Features15] * -55.53 +
-[Gabor Features24] * 0.33 +
-[Gabor Features25] * 33.2 +
-[Gabor Features26] * -0.07 +
-[Gabor Features27] * -50.77 +
-[Gabor Features37] * -24.24 +
-[Gabor Features39] * 659.35 +
+-34.46 + 
+[Gabor Features0] * 0.06 +
+[Gabor Features15] * -55.04 +
+[Gabor Features24] * 0.32 +
+[Gabor Features25] * 30.86 +
+[Gabor Features26] * -0.05 +
+[Gabor Features27] * -49.34 +
+[Gabor Features37] * -22.91 +
+[Gabor Features39] * 615.77 +
 [Gabor Features48] * -2.3 +
-[Gabor Features49] * 0.99 +
-[Gabor Features50] * -0.82
+[Gabor Features49] * 0.24 +
+[Gabor Features50] * -0.76
 
 Class K3 :
-1578.74 + 
-[Gabor Features0] * -0.3 +
-[Gabor Features1] * -3.36 +
-[Gabor Features2] * 0.01 +
-[Gabor Features3] * -12519.98 +
-[Gabor Features13] * -0.9 +
-[Gabor Features15] * 64.27 +
-[Gabor Features24] * 0.15 +
-[Gabor Features27] * 44.25 +
+1513.99 + 
+[Gabor Features0] * -0.29 +
+[Gabor Features1] * -3.15 +
+[Gabor Features2] * 0    +
+[Gabor Features3] * -12086.28 +
+[Gabor Features13] * -0.94 +
+[Gabor Features15] * 62.66 +
+[Gabor Features24] * 0.16 +
+[Gabor Features27] * 44.85 +
 [Gabor Features36] * -0.7 +
-[Gabor Features37] * -2583.92 +
+[Gabor Features37] * -2404.15 +
 [Gabor Features48] * -0.01 +
-[Gabor Features50] * 11.42 +
-[Gabor Features51] * -2.64
+[Gabor Features50] * 10.93 +
+[Gabor Features51] * -1.89
 
 Class K4 :
--19.39 + 
-[Gabor Features0] * -1.54 +
-[Gabor Features3] * 282.46 +
-[Gabor Features14] * 0.28 +
-[Gabor Features15] * -3.78 +
+-16.05 + 
+[Gabor Features0] * -1.52 +
+[Gabor Features1] * -5.57 +
+[Gabor Features3] * 254.27 +
+[Gabor Features14] * 0.27 +
+[Gabor Features15] * -3.65 +
 [Gabor Features25] * -0.01 +
-[Gabor Features38] * -0.37 +
-[Gabor Features48] * 0.15 +
-[Gabor Features49] * -0.95 +
+[Gabor Features38] * -0.35 +
+[Gabor Features48] * 0.13 +
+[Gabor Features49] * -0.69 +
 [Gabor Features50] * 0.27
 
 Class K5 :
-179.31 + 
-[Gabor Features0] * 2.26 +
-[Gabor Features2] * -0.03 +
-[Gabor Features3] * -1802.36 +
+168.18 + 
+[Gabor Features0] * 1.92 +
+[Gabor Features2] * -0.02 +
+[Gabor Features3] * -1675.52 +
 [Gabor Features12] * -0.04 +
 [Gabor Features14] * -0.13 +
 [Gabor Features24] * -0.04 +
-[Gabor Features25] * 8.2  +
+[Gabor Features25] * 6.32 +
 [Gabor Features26] * 0.16 +
-[Gabor Features39] * -55.62 +
-[Gabor Features48] * 0.42 +
-[Gabor Features49] * -42.15 +
-[Gabor Features50] * -0.03 +
-[Gabor Features51] * 76.56
+[Gabor Features39] * -54.22 +
+[Gabor Features48] * 0.41 +
+[Gabor Features49] * -40.63 +
+[Gabor Features50] * -0.04 +
+[Gabor Features51] * 75.32
 
 Class K6 :
--85.04 + 
+-81.08 + 
 [Gabor Features0] * 0.01 +
-[Gabor Features3] * 6.34 +
-[Gabor Features25] * -81.63 +
-[Gabor Features37] * 4.97 +
-[Gabor Features38] * 0.31 +
-[Gabor Features48] * -0.39
-
-Class K7 :
--159.43 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--159.43 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features3] * 4.34 +
+[Gabor Features25] * -79.08 +
+[Gabor Features37] * 4.86 +
+[Gabor Features38] * 0.29 +
+[Gabor Features48] * -0.38
 
 LM_20:
 Class K1 :
--23.55 + 
+-22.88 + 
 [Gabor Features0] * -0 +
-[Gabor Features2] * 0.21 +
-[Gabor Features13] * 27.74 +
-[Gabor Features14] * 0.15 +
+[Gabor Features2] * 0.19 +
+[Gabor Features13] * 26.02 +
+[Gabor Features14] * 0.16 +
 [Gabor Features38] * -0.04 +
-[Gabor Features48] * -0.02 +
+[Gabor Features48] * -0.01 +
 [Gabor Features50] * -0 +
-[Gabor Features51] * -55.68
+[Gabor Features51] * -53.99
 
 Class K2 :
--18.31 + 
-[Gabor Features0] * -0.02 +
-[Gabor Features15] * -30.64 +
-[Gabor Features24] * 0.29 +
-[Gabor Features25] * 33.2 +
-[Gabor Features26] * -0.03 +
-[Gabor Features27] * -50.77 +
-[Gabor Features37] * -24.24 +
-[Gabor Features39] * 11.62
+-17.65 + 
+[Gabor Features0] * -0.03 +
+[Gabor Features15] * -31.52 +
+[Gabor Features24] * 0.28 +
+[Gabor Features25] * 30.86 +
+[Gabor Features26] * -0.01 +
+[Gabor Features27] * -49.34 +
+[Gabor Features37] * -22.91 +
+[Gabor Features39] * 12
 
 Class K3 :
--2.18 + 
-[Gabor Features0] * -0.11 +
-[Gabor Features1] * -5.92 +
-[Gabor Features2] * 0.01 +
-[Gabor Features3] * 1.47 +
-[Gabor Features13] * -0.9 +
-[Gabor Features15] * 33.06 +
-[Gabor Features24] * 0.43 +
-[Gabor Features27] * 16.26 +
+-2.55 + 
+[Gabor Features0] * -0.09 +
+[Gabor Features1] * -5.6 +
+[Gabor Features2] * 0    +
+[Gabor Features3] * 1.4  +
+[Gabor Features13] * -0.94 +
+[Gabor Features15] * 31.75 +
+[Gabor Features24] * 0.42 +
+[Gabor Features27] * 16.64 +
 [Gabor Features36] * -0.7 +
-[Gabor Features51] * -2.64
+[Gabor Features51] * -1.89
 
 Class K4 :
--8.18 + 
-[Gabor Features1] * 1.24 +
-[Gabor Features3] * 40.8 +
-[Gabor Features14] * 0.52 +
-[Gabor Features15] * -3.78 +
+-8.55 + 
+[Gabor Features1] * 1.02 +
+[Gabor Features3] * 40.63 +
+[Gabor Features14] * 0.51 +
+[Gabor Features15] * -3.65 +
 [Gabor Features24] * -0.01 +
-[Gabor Features38] * -0.37 +
-[Gabor Features48] * 0.03 +
-[Gabor Features49] * -0.95 +
+[Gabor Features38] * -0.35 +
+[Gabor Features48] * 0    +
+[Gabor Features49] * -0.69 +
 [Gabor Features50] * 0.27
 
 Class K5 :
-9.97 + 
-[Gabor Features1] * 0.07 +
-[Gabor Features2] * -0.03 +
-[Gabor Features3] * -37.06 +
+9.6  + 
+[Gabor Features1] * 0.08 +
+[Gabor Features2] * -0.02 +
+[Gabor Features3] * -36.8 +
 [Gabor Features12] * -0.04 +
 [Gabor Features14] * -0.13 +
-[Gabor Features25] * 8.2  +
-[Gabor Features36] * -0.22 +
-[Gabor Features38] * 0.05 +
-[Gabor Features39] * -16.58 +
-[Gabor Features48] * 0.42 +
-[Gabor Features49] * -42.15 +
-[Gabor Features50] * -0.74 +
-[Gabor Features51] * 63.28
+[Gabor Features25] * 6.32 +
+[Gabor Features36] * -0.24 +
+[Gabor Features38] * 0.04 +
+[Gabor Features39] * -15.84 +
+[Gabor Features48] * 0.41 +
+[Gabor Features49] * -40.63 +
+[Gabor Features50] * -0.71 +
+[Gabor Features51] * 62.67
 
 Class K6 :
--39.54 + 
+-37.75 + 
 [Gabor Features0] * 0.01 +
-[Gabor Features3] * 6.34 +
-[Gabor Features25] * -81.63 +
-[Gabor Features37] * 4.97 +
-[Gabor Features38] * 0.31 +
-[Gabor Features48] * -0.39
-
-Class K7 :
--113.93 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
-
-Class K8 :
--113.93 + 
-[Gabor Features26] * -0 +
-[Gabor Features38] * 0    +
-[Gabor Features39] * -0.01 +
-[Gabor Features49] * -0.01
+[Gabor Features3] * 4.34 +
+[Gabor Features25] * -79.08 +
+[Gabor Features37] * 4.86 +
+[Gabor Features38] * 0.29 +
+[Gabor Features48] * -0.38
 
 
-Time taken to build model: 0.96 seconds
+Time taken to build model: 1.05 seconds
 
-Time taken to test model on training data: 0.03 seconds
+Time taken to test model on training data: 0.02 seconds
 
 === Error on training data ===
 
 Correctly Classified Instances         295               70.9135 %
 Incorrectly Classified Instances       121               29.0865 %
 Kappa statistic                          0.6197
-Mean absolute error                      0.1019
-Root mean squared error                  0.2258
-Relative absolute error                 52.0903 %
-Root relative squared error             72.2764 %
+Mean absolute error                      0.1359
+Root mean squared error                  0.2607
+Relative absolute error                 52.1796 %
+Root relative squared error             72.2718 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.279    0.005    0.857      0.279    0.421      0.462    0.863     0.546     K1
+                 0.279    0.005    0.857      0.279    0.421      0.462    0.864     0.547     K1
                  0.838    0.187    0.713      0.838    0.770      0.632    0.898     0.779     K2
                  0.816    0.079    0.697      0.816    0.752      0.694    0.947     0.749     K3
                  0.508    0.056    0.608      0.508    0.554      0.487    0.908     0.666     K4
-                 0.703    0.040    0.763      0.703    0.732      0.686    0.965     0.849     K5
+                 0.703    0.040    0.763      0.703    0.732      0.686    0.965     0.847     K5
                  0.875    0.020    0.724      0.875    0.792      0.782    0.990     0.878     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.709    0.097    0.718      0.709    0.694      0.622    0.921     0.749     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  12  24   2   1   1   3   0   0 |   a = K1
-   1 124   5   8   7   3   0   0 |   b = K2
-   0   1  62   9   4   0   0   0 |   c = K3
-   1  13  14  31   2   0   0   0 |   d = K4
-   0   9   6   2  45   2   0   0 |   e = K5
-   0   3   0   0   0  21   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  12  24   2   1   1   3 |   a = K1
+   1 124   5   8   7   3 |   b = K2
+   0   1  62   9   4   0 |   c = K3
+   1  13  14  31   2   0 |   d = K4
+   0   9   6   2  45   2 |   e = K5
+   0   3   0   0   0  21 |   f = K6
 
-Time taken to perform cross-validation: 3.17 seconds
+Time taken to perform cross-validation: 3.77 seconds
 
 
 === Stratified cross-validation ===
 
 Correctly Classified Instances         223               53.6058 %
 Incorrectly Classified Instances       193               46.3942 %
-Kappa statistic                          0.3956
-Mean absolute error                      0.137 
-Root mean squared error                  0.2849
-Relative absolute error                 69.9871 %
-Root relative squared error             91.1939 %
+Kappa statistic                          0.3954
+Mean absolute error                      0.1827
+Root mean squared error                  0.328 
+Relative absolute error                 70.1256 %
+Root relative squared error             90.9031 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.140    0.048    0.250      0.140    0.179      0.119    0.604     0.202     K1
-                 0.709    0.228    0.633      0.709    0.669      0.471    0.766     0.582     K2
-                 0.645    0.168    0.462      0.645    0.538      0.423    0.863     0.514     K3
-                 0.230    0.070    0.359      0.230    0.280      0.193    0.774     0.393     K4
-                 0.531    0.063    0.607      0.531    0.567      0.496    0.840     0.513     K5
-                 0.625    0.026    0.600      0.625    0.612      0.588    0.886     0.589     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.536    0.138    0.516      0.536    0.518      0.396    0.786     0.492     
+                 0.140    0.043    0.273      0.140    0.185      0.131    0.606     0.201     K1
+                 0.709    0.228    0.633      0.709    0.669      0.471    0.772     0.593     K2
+                 0.645    0.168    0.462      0.645    0.538      0.423    0.863     0.517     K3
+                 0.230    0.073    0.350      0.230    0.277      0.188    0.786     0.395     K4
+                 0.531    0.065    0.596      0.531    0.562      0.489    0.835     0.494     K5
+                 0.625    0.026    0.600      0.625    0.612      0.588    0.885     0.609     K6
+Weighted Avg.    0.536    0.138    0.515      0.536    0.518      0.395    0.790     0.495     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-   6  24   7   1   2   3   0   0 |   a = K1
-   7 105  12   8  11   5   0   0 |   b = K2
-   3   7  49  12   5   0   0   0 |   c = K3
-   2  16  27  14   1   1   0   0 |   d = K4
-   4  10  11   4  34   1   0   0 |   e = K5
-   2   4   0   0   3  15   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+   6  23   7   2   2   3 |   a = K1
+   6 105  12   8  12   5 |   b = K2
+   3   7  49  12   5   0 |   c = K3
+   3  15  27  14   1   1 |   d = K4
+   2  12  11   4  34   1 |   e = K5
+   2   4   0   0   3  15 |   f = K6
 

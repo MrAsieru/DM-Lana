@@ -458,112 +458,94 @@ Machine linear: showing attribute weights, not support vectors.
 
 Number of kernel evaluations: 1552 (94.216% cached)
 
-Classifier for classes: K1, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K1, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
 Classifier for classes: K2, K3
 
 BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -0.077  * (normalized) MPEG-7 Edge Histogram0
+        -0.0768 * (normalized) MPEG-7 Edge Histogram0
  +      -0.2434 * (normalized) MPEG-7 Edge Histogram1
- +       0.0595 * (normalized) MPEG-7 Edge Histogram2
- +      -0.2495 * (normalized) MPEG-7 Edge Histogram3
- +      -0.0436 * (normalized) MPEG-7 Edge Histogram4
+ +       0.0598 * (normalized) MPEG-7 Edge Histogram2
+ +      -0.2493 * (normalized) MPEG-7 Edge Histogram3
+ +      -0.0441 * (normalized) MPEG-7 Edge Histogram4
  +      -0.069  * (normalized) MPEG-7 Edge Histogram5
- +       0.1724 * (normalized) MPEG-7 Edge Histogram6
+ +       0.1723 * (normalized) MPEG-7 Edge Histogram6
  +      -0.0823 * (normalized) MPEG-7 Edge Histogram7
- +       0.1909 * (normalized) MPEG-7 Edge Histogram8
- +      -0.0316 * (normalized) MPEG-7 Edge Histogram9
- +       0.2658 * (normalized) MPEG-7 Edge Histogram10
- +       0.158  * (normalized) MPEG-7 Edge Histogram11
- +      -0.0332 * (normalized) MPEG-7 Edge Histogram12
+ +       0.191  * (normalized) MPEG-7 Edge Histogram8
+ +      -0.0317 * (normalized) MPEG-7 Edge Histogram9
+ +       0.2664 * (normalized) MPEG-7 Edge Histogram10
+ +       0.1578 * (normalized) MPEG-7 Edge Histogram11
+ +      -0.033  * (normalized) MPEG-7 Edge Histogram12
  +      -0.1804 * (normalized) MPEG-7 Edge Histogram13
- +      -0.0313 * (normalized) MPEG-7 Edge Histogram14
- +       0.0001 * (normalized) MPEG-7 Edge Histogram15
- +      -0.0716 * (normalized) MPEG-7 Edge Histogram16
- +      -0.1701 * (normalized) MPEG-7 Edge Histogram17
- +       0.1011 * (normalized) MPEG-7 Edge Histogram18
- +      -0.0045 * (normalized) MPEG-7 Edge Histogram19
- +       0.0247 * (normalized) MPEG-7 Edge Histogram20
- +      -0.0584 * (normalized) MPEG-7 Edge Histogram21
- +      -0.0573 * (normalized) MPEG-7 Edge Histogram22
- +      -0.1419 * (normalized) MPEG-7 Edge Histogram23
- +      -0.0334 * (normalized) MPEG-7 Edge Histogram24
- +       0.0345 * (normalized) MPEG-7 Edge Histogram25
- +      -0.1875 * (normalized) MPEG-7 Edge Histogram26
- +       0.0723 * (normalized) MPEG-7 Edge Histogram27
- +       0.2664 * (normalized) MPEG-7 Edge Histogram28
- +       0.0714 * (normalized) MPEG-7 Edge Histogram30
- +      -0.322  * (normalized) MPEG-7 Edge Histogram31
- +       0.1931 * (normalized) MPEG-7 Edge Histogram32
- +       0.1103 * (normalized) MPEG-7 Edge Histogram33
- +      -0.0484 * (normalized) MPEG-7 Edge Histogram35
- +      -0.0702 * (normalized) MPEG-7 Edge Histogram36
- +      -0.0893 * (normalized) MPEG-7 Edge Histogram37
- +       0.0714 * (normalized) MPEG-7 Edge Histogram38
- +      -0.0133 * (normalized) MPEG-7 Edge Histogram39
- +       0.2446 * (normalized) MPEG-7 Edge Histogram40
- +      -0.0357 * (normalized) MPEG-7 Edge Histogram41
- +      -0.1739 * (normalized) MPEG-7 Edge Histogram42
- +      -0.0416 * (normalized) MPEG-7 Edge Histogram43
- +      -0.0273 * (normalized) MPEG-7 Edge Histogram44
- +      -0.0941 * (normalized) MPEG-7 Edge Histogram45
- +      -0.2396 * (normalized) MPEG-7 Edge Histogram46
- +       0.1767 * (normalized) MPEG-7 Edge Histogram47
+ +      -0.0319 * (normalized) MPEG-7 Edge Histogram14
+ +      -0.0006 * (normalized) MPEG-7 Edge Histogram15
+ +      -0.0713 * (normalized) MPEG-7 Edge Histogram16
+ +      -0.1698 * (normalized) MPEG-7 Edge Histogram17
+ +       0.1007 * (normalized) MPEG-7 Edge Histogram18
+ +      -0.0044 * (normalized) MPEG-7 Edge Histogram19
+ +       0.0243 * (normalized) MPEG-7 Edge Histogram20
+ +      -0.0583 * (normalized) MPEG-7 Edge Histogram21
+ +      -0.0584 * (normalized) MPEG-7 Edge Histogram22
+ +      -0.1418 * (normalized) MPEG-7 Edge Histogram23
+ +      -0.0336 * (normalized) MPEG-7 Edge Histogram24
+ +       0.0336 * (normalized) MPEG-7 Edge Histogram25
+ +      -0.1882 * (normalized) MPEG-7 Edge Histogram26
+ +       0.0726 * (normalized) MPEG-7 Edge Histogram27
+ +       0.2662 * (normalized) MPEG-7 Edge Histogram28
+ +      -0      * (normalized) MPEG-7 Edge Histogram29
+ +       0.0709 * (normalized) MPEG-7 Edge Histogram30
+ +      -0.3222 * (normalized) MPEG-7 Edge Histogram31
+ +       0.1928 * (normalized) MPEG-7 Edge Histogram32
+ +       0.1101 * (normalized) MPEG-7 Edge Histogram33
+ +      -0      * (normalized) MPEG-7 Edge Histogram34
+ +      -0.0487 * (normalized) MPEG-7 Edge Histogram35
+ +      -0.0699 * (normalized) MPEG-7 Edge Histogram36
+ +      -0.0894 * (normalized) MPEG-7 Edge Histogram37
+ +       0.0717 * (normalized) MPEG-7 Edge Histogram38
+ +      -0.0132 * (normalized) MPEG-7 Edge Histogram39
+ +       0.2448 * (normalized) MPEG-7 Edge Histogram40
+ +      -0.0358 * (normalized) MPEG-7 Edge Histogram41
+ +      -0.1737 * (normalized) MPEG-7 Edge Histogram42
+ +      -0.0417 * (normalized) MPEG-7 Edge Histogram43
+ +      -0.0276 * (normalized) MPEG-7 Edge Histogram44
+ +      -0.0944 * (normalized) MPEG-7 Edge Histogram45
+ +      -0.2398 * (normalized) MPEG-7 Edge Histogram46
+ +       0.1764 * (normalized) MPEG-7 Edge Histogram47
  +       0.1201 * (normalized) MPEG-7 Edge Histogram48
  +       0      * (normalized) MPEG-7 Edge Histogram49
- +       0.2754 * (normalized) MPEG-7 Edge Histogram50
- +      -0.3407 * (normalized) MPEG-7 Edge Histogram51
+ +       0.275  * (normalized) MPEG-7 Edge Histogram50
+ +      -0.3406 * (normalized) MPEG-7 Edge Histogram51
  +       0.0861 * (normalized) MPEG-7 Edge Histogram52
- +       0.1441 * (normalized) MPEG-7 Edge Histogram53
- +       0.0485 * (normalized) MPEG-7 Edge Histogram55
- +      -0.0881 * (normalized) MPEG-7 Edge Histogram56
- +       0.1071 * (normalized) MPEG-7 Edge Histogram57
- +      -0.0388 * (normalized) MPEG-7 Edge Histogram58
- +      -0.0056 * (normalized) MPEG-7 Edge Histogram59
- +      -0.2876 * (normalized) MPEG-7 Edge Histogram60
- +      -0.1951 * (normalized) MPEG-7 Edge Histogram61
- +      -0.2343 * (normalized) MPEG-7 Edge Histogram62
- +       0.4565 * (normalized) MPEG-7 Edge Histogram63
- +      -0.0469 * (normalized) MPEG-7 Edge Histogram64
- +       0.0399 * (normalized) MPEG-7 Edge Histogram65
+ +       0.1443 * (normalized) MPEG-7 Edge Histogram53
+ +       0.0488 * (normalized) MPEG-7 Edge Histogram55
+ +      -0.0885 * (normalized) MPEG-7 Edge Histogram56
+ +       0.1075 * (normalized) MPEG-7 Edge Histogram57
+ +      -0.0389 * (normalized) MPEG-7 Edge Histogram58
+ +      -0.0057 * (normalized) MPEG-7 Edge Histogram59
+ +      -0.2874 * (normalized) MPEG-7 Edge Histogram60
+ +      -0.1947 * (normalized) MPEG-7 Edge Histogram61
+ +      -0.2342 * (normalized) MPEG-7 Edge Histogram62
+ +       0.4559 * (normalized) MPEG-7 Edge Histogram63
+ +      -0.0471 * (normalized) MPEG-7 Edge Histogram64
+ +       0.0403 * (normalized) MPEG-7 Edge Histogram65
  +       0.7795 * (normalized) MPEG-7 Edge Histogram66
  +       0.0289 * (normalized) MPEG-7 Edge Histogram67
- +       0.1746 * (normalized) MPEG-7 Edge Histogram68
- +      -0.1253 * (normalized) MPEG-7 Edge Histogram69
- +      -0.0888 * (normalized) MPEG-7 Edge Histogram70
- +       0.141  * (normalized) MPEG-7 Edge Histogram71
- +      -0.0076 * (normalized) MPEG-7 Edge Histogram72
- +      -0.1865 * (normalized) MPEG-7 Edge Histogram73
- +      -0.1334 * (normalized) MPEG-7 Edge Histogram74
- +      -0.1103 * (normalized) MPEG-7 Edge Histogram75
- +       0.0371 * (normalized) MPEG-7 Edge Histogram76
- +       0.3038 * (normalized) MPEG-7 Edge Histogram77
- +      -0.1103 * (normalized) MPEG-7 Edge Histogram78
+ +       0.1743 * (normalized) MPEG-7 Edge Histogram68
+ +      -0.1255 * (normalized) MPEG-7 Edge Histogram69
+ +      -0.0886 * (normalized) MPEG-7 Edge Histogram70
+ +       0.1408 * (normalized) MPEG-7 Edge Histogram71
+ +      -0.0071 * (normalized) MPEG-7 Edge Histogram72
+ +      -0.1868 * (normalized) MPEG-7 Edge Histogram73
+ +      -0.1335 * (normalized) MPEG-7 Edge Histogram74
+ +      -0.11   * (normalized) MPEG-7 Edge Histogram75
+ +       0.0373 * (normalized) MPEG-7 Edge Histogram76
+ +       0.3042 * (normalized) MPEG-7 Edge Histogram77
+ +      -0.1108 * (normalized) MPEG-7 Edge Histogram78
  +      -0.011  * (normalized) MPEG-7 Edge Histogram79
- -       0.995 
+ -       0.9938
 
-Number of kernel evaluations: 4333 (82.267% cached)
+Number of kernel evaluations: 5190 (86.265% cached)
 
 Classifier for classes: K2, K4
 
@@ -571,87 +553,88 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -0.2791 * (normalized) MPEG-7 Edge Histogram0
- +      -0.1289 * (normalized) MPEG-7 Edge Histogram1
- +       0.1316 * (normalized) MPEG-7 Edge Histogram2
+        -0.2792 * (normalized) MPEG-7 Edge Histogram0
+ +      -0.1288 * (normalized) MPEG-7 Edge Histogram1
+ +       0.1315 * (normalized) MPEG-7 Edge Histogram2
  +      -0.2316 * (normalized) MPEG-7 Edge Histogram3
- +      -0.1086 * (normalized) MPEG-7 Edge Histogram4
- +      -0.0262 * (normalized) MPEG-7 Edge Histogram5
+ +      -0.1084 * (normalized) MPEG-7 Edge Histogram4
+ +      -0.0263 * (normalized) MPEG-7 Edge Histogram5
  +       0.2023 * (normalized) MPEG-7 Edge Histogram6
  +      -0.0976 * (normalized) MPEG-7 Edge Histogram7
  +       0.0613 * (normalized) MPEG-7 Edge Histogram8
- +      -0.1206 * (normalized) MPEG-7 Edge Histogram9
- +      -0.0507 * (normalized) MPEG-7 Edge Histogram10
+ +      -0.1205 * (normalized) MPEG-7 Edge Histogram9
+ +      -0.0506 * (normalized) MPEG-7 Edge Histogram10
  +       0.1744 * (normalized) MPEG-7 Edge Histogram11
  +      -0.0123 * (normalized) MPEG-7 Edge Histogram12
- +      -0.195  * (normalized) MPEG-7 Edge Histogram13
- +      -0.0632 * (normalized) MPEG-7 Edge Histogram14
+ +      -0.1951 * (normalized) MPEG-7 Edge Histogram13
+ +      -0.063  * (normalized) MPEG-7 Edge Histogram14
  +      -0.0034 * (normalized) MPEG-7 Edge Histogram15
- +      -0.2329 * (normalized) MPEG-7 Edge Histogram16
- +      -0.173  * (normalized) MPEG-7 Edge Histogram17
- +       0.1729 * (normalized) MPEG-7 Edge Histogram18
- +       0.0281 * (normalized) MPEG-7 Edge Histogram19
- +       0.0711 * (normalized) MPEG-7 Edge Histogram20
- +      -0.1245 * (normalized) MPEG-7 Edge Histogram21
- +       0.2504 * (normalized) MPEG-7 Edge Histogram22
- +      -0.232  * (normalized) MPEG-7 Edge Histogram23
- +      -0.0719 * (normalized) MPEG-7 Edge Histogram24
+ +      -0.2332 * (normalized) MPEG-7 Edge Histogram16
+ +      -0.1729 * (normalized) MPEG-7 Edge Histogram17
+ +       0.1731 * (normalized) MPEG-7 Edge Histogram18
+ +       0.0282 * (normalized) MPEG-7 Edge Histogram19
+ +       0.0712 * (normalized) MPEG-7 Edge Histogram20
+ +      -0.1246 * (normalized) MPEG-7 Edge Histogram21
+ +       0.2505 * (normalized) MPEG-7 Edge Histogram22
+ +      -0.2322 * (normalized) MPEG-7 Edge Histogram23
+ +      -0.0718 * (normalized) MPEG-7 Edge Histogram24
  +      -0.0067 * (normalized) MPEG-7 Edge Histogram25
- +      -0.0493 * (normalized) MPEG-7 Edge Histogram26
- +       0.4545 * (normalized) MPEG-7 Edge Histogram27
- +       0.3638 * (normalized) MPEG-7 Edge Histogram28
+ +      -0.0495 * (normalized) MPEG-7 Edge Histogram26
+ +       0.4543 * (normalized) MPEG-7 Edge Histogram27
+ +       0.3637 * (normalized) MPEG-7 Edge Histogram28
  +       0      * (normalized) MPEG-7 Edge Histogram29
  +       0.1184 * (normalized) MPEG-7 Edge Histogram30
- +      -0.4494 * (normalized) MPEG-7 Edge Histogram31
- +       0.3025 * (normalized) MPEG-7 Edge Histogram32
- +       0.0056 * (normalized) MPEG-7 Edge Histogram33
- +       0.1752 * (normalized) MPEG-7 Edge Histogram35
+ +      -0.4495 * (normalized) MPEG-7 Edge Histogram31
+ +       0.3023 * (normalized) MPEG-7 Edge Histogram32
+ +       0.0054 * (normalized) MPEG-7 Edge Histogram33
+ +      -0      * (normalized) MPEG-7 Edge Histogram34
+ +       0.1754 * (normalized) MPEG-7 Edge Histogram35
  +      -0.1225 * (normalized) MPEG-7 Edge Histogram36
- +       0.325  * (normalized) MPEG-7 Edge Histogram37
- +      -0.125  * (normalized) MPEG-7 Edge Histogram38
- +       0.0116 * (normalized) MPEG-7 Edge Histogram39
- +       0.1495 * (normalized) MPEG-7 Edge Histogram40
+ +       0.3251 * (normalized) MPEG-7 Edge Histogram37
+ +      -0.1253 * (normalized) MPEG-7 Edge Histogram38
+ +       0.0117 * (normalized) MPEG-7 Edge Histogram39
+ +       0.1493 * (normalized) MPEG-7 Edge Histogram40
  +      -0.0864 * (normalized) MPEG-7 Edge Histogram41
- +      -0.0363 * (normalized) MPEG-7 Edge Histogram42
- +       0.188  * (normalized) MPEG-7 Edge Histogram43
- +      -0.0526 * (normalized) MPEG-7 Edge Histogram44
- +       0.0369 * (normalized) MPEG-7 Edge Histogram45
- +      -0.1179 * (normalized) MPEG-7 Edge Histogram46
+ +      -0.0364 * (normalized) MPEG-7 Edge Histogram42
+ +       0.1881 * (normalized) MPEG-7 Edge Histogram43
+ +      -0.0525 * (normalized) MPEG-7 Edge Histogram44
+ +       0.037  * (normalized) MPEG-7 Edge Histogram45
+ +      -0.1183 * (normalized) MPEG-7 Edge Histogram46
  +       0.2766 * (normalized) MPEG-7 Edge Histogram47
- +       0.3782 * (normalized) MPEG-7 Edge Histogram48
- +       0      * (normalized) MPEG-7 Edge Histogram49
+ +       0.3783 * (normalized) MPEG-7 Edge Histogram48
  +       0.3533 * (normalized) MPEG-7 Edge Histogram50
  +      -0.393  * (normalized) MPEG-7 Edge Histogram51
- +       0.0675 * (normalized) MPEG-7 Edge Histogram52
- +       0.2851 * (normalized) MPEG-7 Edge Histogram53
+ +       0.0672 * (normalized) MPEG-7 Edge Histogram52
+ +       0.285  * (normalized) MPEG-7 Edge Histogram53
+ +       0      * (normalized) MPEG-7 Edge Histogram54
  +       0.087  * (normalized) MPEG-7 Edge Histogram55
  +      -0.093  * (normalized) MPEG-7 Edge Histogram56
- +      -0.0005 * (normalized) MPEG-7 Edge Histogram57
+ +      -0.0006 * (normalized) MPEG-7 Edge Histogram57
  +      -0.0441 * (normalized) MPEG-7 Edge Histogram58
- +       0.0184 * (normalized) MPEG-7 Edge Histogram59
- +      -0.0865 * (normalized) MPEG-7 Edge Histogram60
- +      -0.2788 * (normalized) MPEG-7 Edge Histogram61
- +      -0.0343 * (normalized) MPEG-7 Edge Histogram62
- +       0.281  * (normalized) MPEG-7 Edge Histogram63
- +      -0.0701 * (normalized) MPEG-7 Edge Histogram64
- +      -0.1123 * (normalized) MPEG-7 Edge Histogram65
- +       0.3341 * (normalized) MPEG-7 Edge Histogram66
- +       0.0318 * (normalized) MPEG-7 Edge Histogram67
- +      -0.1099 * (normalized) MPEG-7 Edge Histogram68
- +      -0.0959 * (normalized) MPEG-7 Edge Histogram69
+ +       0.0185 * (normalized) MPEG-7 Edge Histogram59
+ +      -0.0867 * (normalized) MPEG-7 Edge Histogram60
+ +      -0.2786 * (normalized) MPEG-7 Edge Histogram61
+ +      -0.0341 * (normalized) MPEG-7 Edge Histogram62
+ +       0.2809 * (normalized) MPEG-7 Edge Histogram63
+ +      -0.07   * (normalized) MPEG-7 Edge Histogram64
+ +      -0.1122 * (normalized) MPEG-7 Edge Histogram65
+ +       0.3344 * (normalized) MPEG-7 Edge Histogram66
+ +       0.0319 * (normalized) MPEG-7 Edge Histogram67
+ +      -0.1098 * (normalized) MPEG-7 Edge Histogram68
+ +      -0.0958 * (normalized) MPEG-7 Edge Histogram69
  +      -0.0419 * (normalized) MPEG-7 Edge Histogram70
- +      -0.1173 * (normalized) MPEG-7 Edge Histogram71
- +      -0.0281 * (normalized) MPEG-7 Edge Histogram72
+ +      -0.1175 * (normalized) MPEG-7 Edge Histogram71
+ +      -0.0282 * (normalized) MPEG-7 Edge Histogram72
  +      -0.084  * (normalized) MPEG-7 Edge Histogram73
- +      -0.0959 * (normalized) MPEG-7 Edge Histogram74
- +      -0.0135 * (normalized) MPEG-7 Edge Histogram75
- +       0.0146 * (normalized) MPEG-7 Edge Histogram76
- +       0.2918 * (normalized) MPEG-7 Edge Histogram77
- +      -0.0037 * (normalized) MPEG-7 Edge Histogram78
- +       0.0006 * (normalized) MPEG-7 Edge Histogram79
+ +      -0.0958 * (normalized) MPEG-7 Edge Histogram74
+ +      -0.0134 * (normalized) MPEG-7 Edge Histogram75
+ +       0.0147 * (normalized) MPEG-7 Edge Histogram76
+ +       0.2921 * (normalized) MPEG-7 Edge Histogram77
+ +      -0.0036 * (normalized) MPEG-7 Edge Histogram78
+ +       0.0007 * (normalized) MPEG-7 Edge Histogram79
  -       1.0511
 
-Number of kernel evaluations: 3584 (81.659% cached)
+Number of kernel evaluations: 3770 (80.23% cached)
 
 Classifier for classes: K2, K5
 
@@ -659,89 +642,89 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -0.3398 * (normalized) MPEG-7 Edge Histogram0
+        -0.34   * (normalized) MPEG-7 Edge Histogram0
  +      -0.0147 * (normalized) MPEG-7 Edge Histogram1
- +       0.1949 * (normalized) MPEG-7 Edge Histogram2
- +      -0.0105 * (normalized) MPEG-7 Edge Histogram3
- +      -0.0206 * (normalized) MPEG-7 Edge Histogram4
- +       0.1282 * (normalized) MPEG-7 Edge Histogram5
- +       0.2214 * (normalized) MPEG-7 Edge Histogram6
- +       0.1528 * (normalized) MPEG-7 Edge Histogram7
- +      -0.1481 * (normalized) MPEG-7 Edge Histogram8
- +      -0.2242 * (normalized) MPEG-7 Edge Histogram9
- +      -0.0013 * (normalized) MPEG-7 Edge Histogram10
- +       0.2742 * (normalized) MPEG-7 Edge Histogram11
- +      -0.2609 * (normalized) MPEG-7 Edge Histogram12
- +       0.2751 * (normalized) MPEG-7 Edge Histogram13
+ +       0.1956 * (normalized) MPEG-7 Edge Histogram2
+ +      -0.0094 * (normalized) MPEG-7 Edge Histogram3
+ +      -0.0205 * (normalized) MPEG-7 Edge Histogram4
+ +       0.1287 * (normalized) MPEG-7 Edge Histogram5
+ +       0.2221 * (normalized) MPEG-7 Edge Histogram6
+ +       0.1527 * (normalized) MPEG-7 Edge Histogram7
+ +      -0.1477 * (normalized) MPEG-7 Edge Histogram8
+ +      -0.2236 * (normalized) MPEG-7 Edge Histogram9
+ +      -0.0004 * (normalized) MPEG-7 Edge Histogram10
+ +       0.2744 * (normalized) MPEG-7 Edge Histogram11
+ +      -0.2607 * (normalized) MPEG-7 Edge Histogram12
+ +       0.2755 * (normalized) MPEG-7 Edge Histogram13
  +       0.036  * (normalized) MPEG-7 Edge Histogram14
- +      -0.0618 * (normalized) MPEG-7 Edge Histogram15
- +       0.0612 * (normalized) MPEG-7 Edge Histogram16
- +      -0.1862 * (normalized) MPEG-7 Edge Histogram17
+ +      -0.0621 * (normalized) MPEG-7 Edge Histogram15
+ +       0.061  * (normalized) MPEG-7 Edge Histogram16
+ +      -0.1871 * (normalized) MPEG-7 Edge Histogram17
  +       0.2223 * (normalized) MPEG-7 Edge Histogram18
- +      -0.1198 * (normalized) MPEG-7 Edge Histogram19
+ +      -0.1199 * (normalized) MPEG-7 Edge Histogram19
  +      -0.1498 * (normalized) MPEG-7 Edge Histogram20
- +       0.0805 * (normalized) MPEG-7 Edge Histogram21
+ +       0.0804 * (normalized) MPEG-7 Edge Histogram21
  +       0.2964 * (normalized) MPEG-7 Edge Histogram22
- +      -0.0054 * (normalized) MPEG-7 Edge Histogram23
- +      -0.1044 * (normalized) MPEG-7 Edge Histogram24
+ +      -0.0052 * (normalized) MPEG-7 Edge Histogram23
+ +      -0.1046 * (normalized) MPEG-7 Edge Histogram24
  +      -0.2778 * (normalized) MPEG-7 Edge Histogram25
- +      -0.7803 * (normalized) MPEG-7 Edge Histogram26
+ +      -0.78   * (normalized) MPEG-7 Edge Histogram26
  +       0.3866 * (normalized) MPEG-7 Edge Histogram27
- +       0      * (normalized) MPEG-7 Edge Histogram28
+ +      -0      * (normalized) MPEG-7 Edge Histogram28
  +       0      * (normalized) MPEG-7 Edge Histogram29
- +      -0.3757 * (normalized) MPEG-7 Edge Histogram30
- +      -0.8093 * (normalized) MPEG-7 Edge Histogram31
- +      -0.0216 * (normalized) MPEG-7 Edge Histogram32
- +       0.2055 * (normalized) MPEG-7 Edge Histogram33
- +       0.0037 * (normalized) MPEG-7 Edge Histogram34
- +       0.1371 * (normalized) MPEG-7 Edge Histogram35
- +       0.1941 * (normalized) MPEG-7 Edge Histogram36
- +      -0.293  * (normalized) MPEG-7 Edge Histogram37
- +       0.4699 * (normalized) MPEG-7 Edge Histogram38
- +       0.0251 * (normalized) MPEG-7 Edge Histogram39
- +       0.3905 * (normalized) MPEG-7 Edge Histogram40
- +      -0.098  * (normalized) MPEG-7 Edge Histogram41
- +       0.0389 * (normalized) MPEG-7 Edge Histogram42
- +       0.2517 * (normalized) MPEG-7 Edge Histogram43
- +      -0.2748 * (normalized) MPEG-7 Edge Histogram44
- +      -0.0602 * (normalized) MPEG-7 Edge Histogram45
- +      -0.7648 * (normalized) MPEG-7 Edge Histogram46
- +      -0.0383 * (normalized) MPEG-7 Edge Histogram47
- +       0.1294 * (normalized) MPEG-7 Edge Histogram48
- +      -0.054  * (normalized) MPEG-7 Edge Histogram49
- +      -0.126  * (normalized) MPEG-7 Edge Histogram50
- +      -0.9284 * (normalized) MPEG-7 Edge Histogram51
- +       0.2169 * (normalized) MPEG-7 Edge Histogram52
- +      -0.0331 * (normalized) MPEG-7 Edge Histogram53
- +      -0.1161 * (normalized) MPEG-7 Edge Histogram54
- +       0.0245 * (normalized) MPEG-7 Edge Histogram55
- +      -0.0643 * (normalized) MPEG-7 Edge Histogram56
- +      -0.042  * (normalized) MPEG-7 Edge Histogram57
- +      -0.0006 * (normalized) MPEG-7 Edge Histogram58
- +       0.0618 * (normalized) MPEG-7 Edge Histogram59
- +       0.4541 * (normalized) MPEG-7 Edge Histogram60
- +      -0.1616 * (normalized) MPEG-7 Edge Histogram61
- +      -0.1159 * (normalized) MPEG-7 Edge Histogram62
- +      -0.1245 * (normalized) MPEG-7 Edge Histogram63
- +      -0.2564 * (normalized) MPEG-7 Edge Histogram64
- +       0.1639 * (normalized) MPEG-7 Edge Histogram65
- +       0.4476 * (normalized) MPEG-7 Edge Histogram66
- +       0.1044 * (normalized) MPEG-7 Edge Histogram67
- +      -0.1326 * (normalized) MPEG-7 Edge Histogram68
- +      -0.2359 * (normalized) MPEG-7 Edge Histogram69
- +       0.2342 * (normalized) MPEG-7 Edge Histogram70
- +       0.1714 * (normalized) MPEG-7 Edge Histogram71
- +       0.2151 * (normalized) MPEG-7 Edge Histogram72
- +       0.0507 * (normalized) MPEG-7 Edge Histogram73
+ +      -0.3755 * (normalized) MPEG-7 Edge Histogram30
+ +      -0.8097 * (normalized) MPEG-7 Edge Histogram31
+ +      -0.0215 * (normalized) MPEG-7 Edge Histogram32
+ +       0.2063 * (normalized) MPEG-7 Edge Histogram33
+ +       0.0035 * (normalized) MPEG-7 Edge Histogram34
+ +       0.1365 * (normalized) MPEG-7 Edge Histogram35
+ +       0.1942 * (normalized) MPEG-7 Edge Histogram36
+ +      -0.2943 * (normalized) MPEG-7 Edge Histogram37
+ +       0.4707 * (normalized) MPEG-7 Edge Histogram38
+ +       0.0254 * (normalized) MPEG-7 Edge Histogram39
+ +       0.39   * (normalized) MPEG-7 Edge Histogram40
+ +      -0.0984 * (normalized) MPEG-7 Edge Histogram41
+ +       0.0378 * (normalized) MPEG-7 Edge Histogram42
+ +       0.2513 * (normalized) MPEG-7 Edge Histogram43
+ +      -0.2747 * (normalized) MPEG-7 Edge Histogram44
+ +      -0.06   * (normalized) MPEG-7 Edge Histogram45
+ +      -0.7645 * (normalized) MPEG-7 Edge Histogram46
+ +      -0.0385 * (normalized) MPEG-7 Edge Histogram47
+ +       0.129  * (normalized) MPEG-7 Edge Histogram48
+ +      -0.0544 * (normalized) MPEG-7 Edge Histogram49
+ +      -0.1264 * (normalized) MPEG-7 Edge Histogram50
+ +      -0.928  * (normalized) MPEG-7 Edge Histogram51
+ +       0.2167 * (normalized) MPEG-7 Edge Histogram52
+ +      -0.0329 * (normalized) MPEG-7 Edge Histogram53
+ +      -0.1166 * (normalized) MPEG-7 Edge Histogram54
+ +       0.0251 * (normalized) MPEG-7 Edge Histogram55
+ +      -0.064  * (normalized) MPEG-7 Edge Histogram56
+ +      -0.0427 * (normalized) MPEG-7 Edge Histogram57
+ +      -0.0004 * (normalized) MPEG-7 Edge Histogram58
+ +       0.0617 * (normalized) MPEG-7 Edge Histogram59
+ +       0.4536 * (normalized) MPEG-7 Edge Histogram60
+ +      -0.1615 * (normalized) MPEG-7 Edge Histogram61
+ +      -0.1155 * (normalized) MPEG-7 Edge Histogram62
+ +      -0.1246 * (normalized) MPEG-7 Edge Histogram63
+ +      -0.2562 * (normalized) MPEG-7 Edge Histogram64
+ +       0.1632 * (normalized) MPEG-7 Edge Histogram65
+ +       0.4473 * (normalized) MPEG-7 Edge Histogram66
+ +       0.1041 * (normalized) MPEG-7 Edge Histogram67
+ +      -0.1331 * (normalized) MPEG-7 Edge Histogram68
+ +      -0.2353 * (normalized) MPEG-7 Edge Histogram69
+ +       0.2345 * (normalized) MPEG-7 Edge Histogram70
+ +       0.171  * (normalized) MPEG-7 Edge Histogram71
+ +       0.2156 * (normalized) MPEG-7 Edge Histogram72
+ +       0.0508 * (normalized) MPEG-7 Edge Histogram73
  +      -0.2347 * (normalized) MPEG-7 Edge Histogram74
- +       0.1438 * (normalized) MPEG-7 Edge Histogram75
- +      -0.2419 * (normalized) MPEG-7 Edge Histogram76
- +      -0.0793 * (normalized) MPEG-7 Edge Histogram77
- +      -0.1092 * (normalized) MPEG-7 Edge Histogram78
+ +       0.1436 * (normalized) MPEG-7 Edge Histogram75
+ +      -0.2413 * (normalized) MPEG-7 Edge Histogram76
+ +      -0.0791 * (normalized) MPEG-7 Edge Histogram77
+ +      -0.1093 * (normalized) MPEG-7 Edge Histogram78
  +      -0.1307 * (normalized) MPEG-7 Edge Histogram79
- -       1.0456
+ -       1.0454
 
-Number of kernel evaluations: 4937 (86.703% cached)
+Number of kernel evaluations: 5053 (90.521% cached)
 
 Classifier for classes: K2, K6
 
@@ -749,109 +732,89 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -0.1286 * (normalized) MPEG-7 Edge Histogram0
- +      -0.0885 * (normalized) MPEG-7 Edge Histogram1
- +       0.0403 * (normalized) MPEG-7 Edge Histogram2
- +       0.0077 * (normalized) MPEG-7 Edge Histogram3
- +      -0.0371 * (normalized) MPEG-7 Edge Histogram4
- +      -0.0306 * (normalized) MPEG-7 Edge Histogram5
- +       0.2332 * (normalized) MPEG-7 Edge Histogram6
- +       0.1661 * (normalized) MPEG-7 Edge Histogram7
- +       0.0224 * (normalized) MPEG-7 Edge Histogram8
- +      -0.0741 * (normalized) MPEG-7 Edge Histogram9
- +       0.0133 * (normalized) MPEG-7 Edge Histogram10
- +       0.1858 * (normalized) MPEG-7 Edge Histogram11
+        -0.1289 * (normalized) MPEG-7 Edge Histogram0
+ +      -0.0884 * (normalized) MPEG-7 Edge Histogram1
+ +       0.0405 * (normalized) MPEG-7 Edge Histogram2
+ +       0.0072 * (normalized) MPEG-7 Edge Histogram3
+ +      -0.0373 * (normalized) MPEG-7 Edge Histogram4
+ +      -0.0309 * (normalized) MPEG-7 Edge Histogram5
+ +       0.2335 * (normalized) MPEG-7 Edge Histogram6
+ +       0.1655 * (normalized) MPEG-7 Edge Histogram7
+ +       0.0222 * (normalized) MPEG-7 Edge Histogram8
+ +      -0.0739 * (normalized) MPEG-7 Edge Histogram9
+ +       0.0135 * (normalized) MPEG-7 Edge Histogram10
+ +       0.1859 * (normalized) MPEG-7 Edge Histogram11
  +      -0.0636 * (normalized) MPEG-7 Edge Histogram12
- +       0.1988 * (normalized) MPEG-7 Edge Histogram13
+ +       0.1982 * (normalized) MPEG-7 Edge Histogram13
  +      -0.0662 * (normalized) MPEG-7 Edge Histogram14
- +      -0.1065 * (normalized) MPEG-7 Edge Histogram15
- +      -0.0163 * (normalized) MPEG-7 Edge Histogram16
- +       0.0091 * (normalized) MPEG-7 Edge Histogram17
- +       0.1427 * (normalized) MPEG-7 Edge Histogram18
- +      -0.0279 * (normalized) MPEG-7 Edge Histogram19
- +      -0.1775 * (normalized) MPEG-7 Edge Histogram20
- +      -0.1149 * (normalized) MPEG-7 Edge Histogram21
- +      -0.0895 * (normalized) MPEG-7 Edge Histogram22
- +       0.0468 * (normalized) MPEG-7 Edge Histogram23
+ +      -0.1064 * (normalized) MPEG-7 Edge Histogram15
+ +      -0.0165 * (normalized) MPEG-7 Edge Histogram16
+ +       0.0092 * (normalized) MPEG-7 Edge Histogram17
+ +       0.1429 * (normalized) MPEG-7 Edge Histogram18
+ +      -0.0276 * (normalized) MPEG-7 Edge Histogram19
+ +      -0.1777 * (normalized) MPEG-7 Edge Histogram20
+ +      -0.1155 * (normalized) MPEG-7 Edge Histogram21
+ +      -0.0894 * (normalized) MPEG-7 Edge Histogram22
+ +       0.0476 * (normalized) MPEG-7 Edge Histogram23
  +      -0.0593 * (normalized) MPEG-7 Edge Histogram24
- +       0.0571 * (normalized) MPEG-7 Edge Histogram25
- +      -0.2279 * (normalized) MPEG-7 Edge Histogram26
- +       0.1473 * (normalized) MPEG-7 Edge Histogram27
- +       0.3856 * (normalized) MPEG-7 Edge Histogram28
- +       0.0378 * (normalized) MPEG-7 Edge Histogram29
- +       0.1389 * (normalized) MPEG-7 Edge Histogram30
+ +       0.0574 * (normalized) MPEG-7 Edge Histogram25
+ +      -0.2281 * (normalized) MPEG-7 Edge Histogram26
+ +       0.1469 * (normalized) MPEG-7 Edge Histogram27
+ +       0.3859 * (normalized) MPEG-7 Edge Histogram28
+ +       0.0377 * (normalized) MPEG-7 Edge Histogram29
+ +       0.139  * (normalized) MPEG-7 Edge Histogram30
  +      -0.3412 * (normalized) MPEG-7 Edge Histogram31
- +       0.4947 * (normalized) MPEG-7 Edge Histogram32
- +       0.2738 * (normalized) MPEG-7 Edge Histogram33
- +       0.0757 * (normalized) MPEG-7 Edge Histogram34
- +      -0.3242 * (normalized) MPEG-7 Edge Histogram35
- +      -0.0761 * (normalized) MPEG-7 Edge Histogram36
- +       0.0495 * (normalized) MPEG-7 Edge Histogram37
- +       0.2571 * (normalized) MPEG-7 Edge Histogram38
+ +       0.4953 * (normalized) MPEG-7 Edge Histogram32
+ +       0.2742 * (normalized) MPEG-7 Edge Histogram33
+ +       0.0754 * (normalized) MPEG-7 Edge Histogram34
+ +      -0.3245 * (normalized) MPEG-7 Edge Histogram35
+ +      -0.0766 * (normalized) MPEG-7 Edge Histogram36
+ +       0.0491 * (normalized) MPEG-7 Edge Histogram37
+ +       0.2577 * (normalized) MPEG-7 Edge Histogram38
  +      -0.0475 * (normalized) MPEG-7 Edge Histogram39
- +      -0.0159 * (normalized) MPEG-7 Edge Histogram40
- +      -0.1729 * (normalized) MPEG-7 Edge Histogram41
- +       0.0217 * (normalized) MPEG-7 Edge Histogram42
- +       0.1716 * (normalized) MPEG-7 Edge Histogram43
- +      -0.0342 * (normalized) MPEG-7 Edge Histogram44
- +       0.1674 * (normalized) MPEG-7 Edge Histogram45
- +      -0.2914 * (normalized) MPEG-7 Edge Histogram46
- +       0.1646 * (normalized) MPEG-7 Edge Histogram47
- +       0.4074 * (normalized) MPEG-7 Edge Histogram48
- +      -0.02   * (normalized) MPEG-7 Edge Histogram49
- +       0.2279 * (normalized) MPEG-7 Edge Histogram50
- +      -0.3657 * (normalized) MPEG-7 Edge Histogram51
- +       0.5184 * (normalized) MPEG-7 Edge Histogram52
- +       0.1874 * (normalized) MPEG-7 Edge Histogram53
- +       0.0962 * (normalized) MPEG-7 Edge Histogram54
- +       0.0177 * (normalized) MPEG-7 Edge Histogram55
- +      -0.2169 * (normalized) MPEG-7 Edge Histogram56
- +       0.0342 * (normalized) MPEG-7 Edge Histogram57
+ +      -0.0156 * (normalized) MPEG-7 Edge Histogram40
+ +      -0.1731 * (normalized) MPEG-7 Edge Histogram41
+ +       0.022  * (normalized) MPEG-7 Edge Histogram42
+ +       0.1712 * (normalized) MPEG-7 Edge Histogram43
+ +      -0.0345 * (normalized) MPEG-7 Edge Histogram44
+ +       0.1672 * (normalized) MPEG-7 Edge Histogram45
+ +      -0.291  * (normalized) MPEG-7 Edge Histogram46
+ +       0.164  * (normalized) MPEG-7 Edge Histogram47
+ +       0.408  * (normalized) MPEG-7 Edge Histogram48
+ +      -0.0203 * (normalized) MPEG-7 Edge Histogram49
+ +       0.2278 * (normalized) MPEG-7 Edge Histogram50
+ +      -0.3654 * (normalized) MPEG-7 Edge Histogram51
+ +       0.5185 * (normalized) MPEG-7 Edge Histogram52
+ +       0.1877 * (normalized) MPEG-7 Edge Histogram53
+ +       0.0956 * (normalized) MPEG-7 Edge Histogram54
+ +       0.017  * (normalized) MPEG-7 Edge Histogram55
+ +      -0.2167 * (normalized) MPEG-7 Edge Histogram56
+ +       0.0336 * (normalized) MPEG-7 Edge Histogram57
  +       0.0509 * (normalized) MPEG-7 Edge Histogram58
  +      -0.0088 * (normalized) MPEG-7 Edge Histogram59
- +       0.127  * (normalized) MPEG-7 Edge Histogram60
- +      -0.35   * (normalized) MPEG-7 Edge Histogram61
- +       0.0496 * (normalized) MPEG-7 Edge Histogram62
- +       0.0594 * (normalized) MPEG-7 Edge Histogram63
- +      -0.0533 * (normalized) MPEG-7 Edge Histogram64
- +       0.2209 * (normalized) MPEG-7 Edge Histogram65
- +       0.0557 * (normalized) MPEG-7 Edge Histogram66
- +       0.2203 * (normalized) MPEG-7 Edge Histogram67
+ +       0.1268 * (normalized) MPEG-7 Edge Histogram60
+ +      -0.3497 * (normalized) MPEG-7 Edge Histogram61
+ +       0.0498 * (normalized) MPEG-7 Edge Histogram62
+ +       0.0592 * (normalized) MPEG-7 Edge Histogram63
+ +      -0.0532 * (normalized) MPEG-7 Edge Histogram64
+ +       0.2213 * (normalized) MPEG-7 Edge Histogram65
+ +       0.0555 * (normalized) MPEG-7 Edge Histogram66
+ +       0.2206 * (normalized) MPEG-7 Edge Histogram67
  +      -0.0561 * (normalized) MPEG-7 Edge Histogram68
- +      -0.156  * (normalized) MPEG-7 Edge Histogram69
+ +      -0.1561 * (normalized) MPEG-7 Edge Histogram69
  +       0.0603 * (normalized) MPEG-7 Edge Histogram70
- +      -0.0628 * (normalized) MPEG-7 Edge Histogram71
- +       0.0387 * (normalized) MPEG-7 Edge Histogram72
- +       0.175  * (normalized) MPEG-7 Edge Histogram73
- +      -0.0139 * (normalized) MPEG-7 Edge Histogram74
- +      -0.0654 * (normalized) MPEG-7 Edge Histogram75
- +      -0.2403 * (normalized) MPEG-7 Edge Histogram76
- +       0.1465 * (normalized) MPEG-7 Edge Histogram77
+ +      -0.0629 * (normalized) MPEG-7 Edge Histogram71
+ +       0.0385 * (normalized) MPEG-7 Edge Histogram72
+ +       0.1746 * (normalized) MPEG-7 Edge Histogram73
+ +      -0.0141 * (normalized) MPEG-7 Edge Histogram74
+ +      -0.0647 * (normalized) MPEG-7 Edge Histogram75
+ +      -0.2401 * (normalized) MPEG-7 Edge Histogram76
+ +       0.146  * (normalized) MPEG-7 Edge Histogram77
  +       0.0546 * (normalized) MPEG-7 Edge Histogram78
  +      -0.0064 * (normalized) MPEG-7 Edge Histogram79
- -       1.2218
+ -       1.2211
 
-Number of kernel evaluations: 2111 (86.131% cached)
-
-Classifier for classes: K2, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K2, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
+Number of kernel evaluations: 1678 (89.157% cached)
 
 Classifier for classes: K3, K4
 
@@ -859,89 +822,89 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -0.606  * (normalized) MPEG-7 Edge Histogram0
- +       0      * (normalized) MPEG-7 Edge Histogram1
- +       0.269  * (normalized) MPEG-7 Edge Histogram2
- +       0.0692 * (normalized) MPEG-7 Edge Histogram3
- +      -0.1215 * (normalized) MPEG-7 Edge Histogram4
- +      -0.5143 * (normalized) MPEG-7 Edge Histogram5
- +      -0.5128 * (normalized) MPEG-7 Edge Histogram6
- +       0.3184 * (normalized) MPEG-7 Edge Histogram7
- +      -0.1275 * (normalized) MPEG-7 Edge Histogram8
- +       0.0869 * (normalized) MPEG-7 Edge Histogram9
- +      -0.2247 * (normalized) MPEG-7 Edge Histogram10
- +       0.2656 * (normalized) MPEG-7 Edge Histogram11
- +      -0.0457 * (normalized) MPEG-7 Edge Histogram12
+        -0.6055 * (normalized) MPEG-7 Edge Histogram0
+ +      -0      * (normalized) MPEG-7 Edge Histogram1
+ +       0.2698 * (normalized) MPEG-7 Edge Histogram2
+ +       0.0696 * (normalized) MPEG-7 Edge Histogram3
+ +      -0.121  * (normalized) MPEG-7 Edge Histogram4
+ +      -0.5137 * (normalized) MPEG-7 Edge Histogram5
+ +      -0.5121 * (normalized) MPEG-7 Edge Histogram6
+ +       0.3197 * (normalized) MPEG-7 Edge Histogram7
+ +      -0.1278 * (normalized) MPEG-7 Edge Histogram8
+ +       0.087  * (normalized) MPEG-7 Edge Histogram9
+ +      -0.2246 * (normalized) MPEG-7 Edge Histogram10
+ +       0.2658 * (normalized) MPEG-7 Edge Histogram11
+ +      -0.0454 * (normalized) MPEG-7 Edge Histogram12
  +      -0.3048 * (normalized) MPEG-7 Edge Histogram13
- +      -0.1839 * (normalized) MPEG-7 Edge Histogram14
- +       0.0808 * (normalized) MPEG-7 Edge Histogram15
- +      -0.3916 * (normalized) MPEG-7 Edge Histogram16
- +       0.3149 * (normalized) MPEG-7 Edge Histogram17
- +       0.1683 * (normalized) MPEG-7 Edge Histogram18
- +       0.1403 * (normalized) MPEG-7 Edge Histogram19
- +      -0.0795 * (normalized) MPEG-7 Edge Histogram20
- +      -0.2395 * (normalized) MPEG-7 Edge Histogram21
- +       0.4669 * (normalized) MPEG-7 Edge Histogram22
- +      -0.4152 * (normalized) MPEG-7 Edge Histogram23
- +       0.1287 * (normalized) MPEG-7 Edge Histogram24
- +       0.9502 * (normalized) MPEG-7 Edge Histogram25
- +      -0.4291 * (normalized) MPEG-7 Edge Histogram26
- +      -0.3706 * (normalized) MPEG-7 Edge Histogram27
- +      -0.5254 * (normalized) MPEG-7 Edge Histogram28
- +       0.0969 * (normalized) MPEG-7 Edge Histogram29
- +       1.1843 * (normalized) MPEG-7 Edge Histogram30
- +      -1.3641 * (normalized) MPEG-7 Edge Histogram31
+ +      -0.1837 * (normalized) MPEG-7 Edge Histogram14
+ +       0.0809 * (normalized) MPEG-7 Edge Histogram15
+ +      -0.3914 * (normalized) MPEG-7 Edge Histogram16
+ +       0.3148 * (normalized) MPEG-7 Edge Histogram17
+ +       0.1685 * (normalized) MPEG-7 Edge Histogram18
+ +       0.1409 * (normalized) MPEG-7 Edge Histogram19
+ +      -0.0794 * (normalized) MPEG-7 Edge Histogram20
+ +      -0.2394 * (normalized) MPEG-7 Edge Histogram21
+ +       0.4663 * (normalized) MPEG-7 Edge Histogram22
+ +      -0.4148 * (normalized) MPEG-7 Edge Histogram23
+ +       0.1296 * (normalized) MPEG-7 Edge Histogram24
+ +       0.9501 * (normalized) MPEG-7 Edge Histogram25
+ +      -0.4302 * (normalized) MPEG-7 Edge Histogram26
+ +      -0.3713 * (normalized) MPEG-7 Edge Histogram27
+ +      -0.5255 * (normalized) MPEG-7 Edge Histogram28
+ +       0.0965 * (normalized) MPEG-7 Edge Histogram29
+ +       1.1848 * (normalized) MPEG-7 Edge Histogram30
+ +      -1.3639 * (normalized) MPEG-7 Edge Histogram31
  +       0.367  * (normalized) MPEG-7 Edge Histogram32
- +      -0.36   * (normalized) MPEG-7 Edge Histogram33
- +       0.0241 * (normalized) MPEG-7 Edge Histogram34
- +       0.1205 * (normalized) MPEG-7 Edge Histogram35
- +       0.1151 * (normalized) MPEG-7 Edge Histogram36
- +       0.5619 * (normalized) MPEG-7 Edge Histogram37
- +      -0.9742 * (normalized) MPEG-7 Edge Histogram38
- +       0.4144 * (normalized) MPEG-7 Edge Histogram39
- +       0.3391 * (normalized) MPEG-7 Edge Histogram40
+ +      -0.3604 * (normalized) MPEG-7 Edge Histogram33
+ +       0.0235 * (normalized) MPEG-7 Edge Histogram34
+ +       0.1204 * (normalized) MPEG-7 Edge Histogram35
+ +       0.1153 * (normalized) MPEG-7 Edge Histogram36
+ +       0.5618 * (normalized) MPEG-7 Edge Histogram37
+ +      -0.9735 * (normalized) MPEG-7 Edge Histogram38
+ +       0.4139 * (normalized) MPEG-7 Edge Histogram39
+ +       0.3389 * (normalized) MPEG-7 Edge Histogram40
  +      -0.1701 * (normalized) MPEG-7 Edge Histogram41
- +      -0.3367 * (normalized) MPEG-7 Edge Histogram42
- +      -0.1519 * (normalized) MPEG-7 Edge Histogram43
- +       0.1079 * (normalized) MPEG-7 Edge Histogram44
- +       1.3226 * (normalized) MPEG-7 Edge Histogram45
- +       0.4689 * (normalized) MPEG-7 Edge Histogram46
- +       0.1398 * (normalized) MPEG-7 Edge Histogram47
- +       0.2611 * (normalized) MPEG-7 Edge Histogram48
- +      -0.1878 * (normalized) MPEG-7 Edge Histogram49
- +      -0.4761 * (normalized) MPEG-7 Edge Histogram50
- +       0.185  * (normalized) MPEG-7 Edge Histogram51
- +       0.1492 * (normalized) MPEG-7 Edge Histogram52
- +       0.6905 * (normalized) MPEG-7 Edge Histogram53
- +       0.445  * (normalized) MPEG-7 Edge Histogram54
- +       0.371  * (normalized) MPEG-7 Edge Histogram55
- +       0.2801 * (normalized) MPEG-7 Edge Histogram56
- +       0.0503 * (normalized) MPEG-7 Edge Histogram57
+ +      -0.3363 * (normalized) MPEG-7 Edge Histogram42
+ +      -0.1523 * (normalized) MPEG-7 Edge Histogram43
+ +       0.108  * (normalized) MPEG-7 Edge Histogram44
+ +       1.3224 * (normalized) MPEG-7 Edge Histogram45
+ +       0.4686 * (normalized) MPEG-7 Edge Histogram46
+ +       0.1393 * (normalized) MPEG-7 Edge Histogram47
+ +       0.2612 * (normalized) MPEG-7 Edge Histogram48
+ +      -0.1867 * (normalized) MPEG-7 Edge Histogram49
+ +      -0.4764 * (normalized) MPEG-7 Edge Histogram50
+ +       0.1835 * (normalized) MPEG-7 Edge Histogram51
+ +       0.1493 * (normalized) MPEG-7 Edge Histogram52
+ +       0.6906 * (normalized) MPEG-7 Edge Histogram53
+ +       0.4458 * (normalized) MPEG-7 Edge Histogram54
+ +       0.3712 * (normalized) MPEG-7 Edge Histogram55
+ +       0.2802 * (normalized) MPEG-7 Edge Histogram56
+ +       0.0489 * (normalized) MPEG-7 Edge Histogram57
  +       1.0303 * (normalized) MPEG-7 Edge Histogram58
- +       0.1671 * (normalized) MPEG-7 Edge Histogram59
- +       1.0214 * (normalized) MPEG-7 Edge Histogram60
- +      -0.5674 * (normalized) MPEG-7 Edge Histogram61
+ +       0.1674 * (normalized) MPEG-7 Edge Histogram59
+ +       1.0216 * (normalized) MPEG-7 Edge Histogram60
+ +      -0.5675 * (normalized) MPEG-7 Edge Histogram61
  +      -0.0164 * (normalized) MPEG-7 Edge Histogram62
- +      -0.1149 * (normalized) MPEG-7 Edge Histogram63
- +      -0.0013 * (normalized) MPEG-7 Edge Histogram64
- +      -0.1049 * (normalized) MPEG-7 Edge Histogram65
- +      -0.2797 * (normalized) MPEG-7 Edge Histogram66
+ +      -0.1143 * (normalized) MPEG-7 Edge Histogram63
+ +      -0.0003 * (normalized) MPEG-7 Edge Histogram64
+ +      -0.1048 * (normalized) MPEG-7 Edge Histogram65
+ +      -0.2792 * (normalized) MPEG-7 Edge Histogram66
  +       0.6173 * (normalized) MPEG-7 Edge Histogram67
- +       0.5585 * (normalized) MPEG-7 Edge Histogram68
- +       0.4248 * (normalized) MPEG-7 Edge Histogram69
- +       0.5529 * (normalized) MPEG-7 Edge Histogram70
- +       0.0774 * (normalized) MPEG-7 Edge Histogram71
- +      -0.0718 * (normalized) MPEG-7 Edge Histogram72
- +       0.1405 * (normalized) MPEG-7 Edge Histogram73
- +      -0.2602 * (normalized) MPEG-7 Edge Histogram74
- +      -0.0546 * (normalized) MPEG-7 Edge Histogram75
- +      -0.241  * (normalized) MPEG-7 Edge Histogram76
- +       0.1792 * (normalized) MPEG-7 Edge Histogram77
- +       0.6006 * (normalized) MPEG-7 Edge Histogram78
- +       0.1762 * (normalized) MPEG-7 Edge Histogram79
+ +       0.5583 * (normalized) MPEG-7 Edge Histogram68
+ +       0.4249 * (normalized) MPEG-7 Edge Histogram69
+ +       0.5536 * (normalized) MPEG-7 Edge Histogram70
+ +       0.0777 * (normalized) MPEG-7 Edge Histogram71
+ +      -0.0717 * (normalized) MPEG-7 Edge Histogram72
+ +       0.1402 * (normalized) MPEG-7 Edge Histogram73
+ +      -0.2605 * (normalized) MPEG-7 Edge Histogram74
+ +      -0.0545 * (normalized) MPEG-7 Edge Histogram75
+ +      -0.2408 * (normalized) MPEG-7 Edge Histogram76
+ +       0.1784 * (normalized) MPEG-7 Edge Histogram77
+ +       0.6005 * (normalized) MPEG-7 Edge Histogram78
+ +       0.1765 * (normalized) MPEG-7 Edge Histogram79
  -       1.1987
 
-Number of kernel evaluations: 6025 (90.059% cached)
+Number of kernel evaluations: 7483 (91.619% cached)
 
 Classifier for classes: K3, K5
 
@@ -949,88 +912,88 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-         0.2529 * (normalized) MPEG-7 Edge Histogram0
- +       0.319  * (normalized) MPEG-7 Edge Histogram1
- +      -0.0932 * (normalized) MPEG-7 Edge Histogram2
+         0.2528 * (normalized) MPEG-7 Edge Histogram0
+ +       0.3189 * (normalized) MPEG-7 Edge Histogram1
+ +      -0.0931 * (normalized) MPEG-7 Edge Histogram2
  +       0.0112 * (normalized) MPEG-7 Edge Histogram3
- +      -0.1157 * (normalized) MPEG-7 Edge Histogram4
- +      -0      * (normalized) MPEG-7 Edge Histogram5
- +       0.1407 * (normalized) MPEG-7 Edge Histogram6
- +       0.0803 * (normalized) MPEG-7 Edge Histogram7
- +       0.0821 * (normalized) MPEG-7 Edge Histogram8
- +       0.0131 * (normalized) MPEG-7 Edge Histogram9
- +       0.2732 * (normalized) MPEG-7 Edge Histogram10
- +      -0.0414 * (normalized) MPEG-7 Edge Histogram11
+ +      -0.1161 * (normalized) MPEG-7 Edge Histogram4
+ +      -0.0001 * (normalized) MPEG-7 Edge Histogram5
+ +       0.1398 * (normalized) MPEG-7 Edge Histogram6
+ +       0.0807 * (normalized) MPEG-7 Edge Histogram7
+ +       0.0818 * (normalized) MPEG-7 Edge Histogram8
+ +       0.013  * (normalized) MPEG-7 Edge Histogram9
+ +       0.2731 * (normalized) MPEG-7 Edge Histogram10
+ +      -0.0419 * (normalized) MPEG-7 Edge Histogram11
  +       0.2358 * (normalized) MPEG-7 Edge Histogram12
- +       0.7835 * (normalized) MPEG-7 Edge Histogram13
- +      -0.0331 * (normalized) MPEG-7 Edge Histogram14
- +       0.4972 * (normalized) MPEG-7 Edge Histogram15
- +       0.2136 * (normalized) MPEG-7 Edge Histogram16
+ +       0.7838 * (normalized) MPEG-7 Edge Histogram13
+ +      -0.0332 * (normalized) MPEG-7 Edge Histogram14
+ +       0.4973 * (normalized) MPEG-7 Edge Histogram15
+ +       0.2141 * (normalized) MPEG-7 Edge Histogram16
  +       0.2215 * (normalized) MPEG-7 Edge Histogram17
- +       0.0408 * (normalized) MPEG-7 Edge Histogram18
- +      -0.044  * (normalized) MPEG-7 Edge Histogram19
- +      -0.4184 * (normalized) MPEG-7 Edge Histogram20
- +      -0.0099 * (normalized) MPEG-7 Edge Histogram21
- +       0.4083 * (normalized) MPEG-7 Edge Histogram22
- +      -0.1776 * (normalized) MPEG-7 Edge Histogram23
+ +       0.0411 * (normalized) MPEG-7 Edge Histogram18
+ +      -0.0439 * (normalized) MPEG-7 Edge Histogram19
+ +      -0.418  * (normalized) MPEG-7 Edge Histogram20
+ +      -0.0093 * (normalized) MPEG-7 Edge Histogram21
+ +       0.408  * (normalized) MPEG-7 Edge Histogram22
+ +      -0.1778 * (normalized) MPEG-7 Edge Histogram23
  +       0.0098 * (normalized) MPEG-7 Edge Histogram24
- +       0.0168 * (normalized) MPEG-7 Edge Histogram25
- +      -0.5871 * (normalized) MPEG-7 Edge Histogram26
- +       0.1125 * (normalized) MPEG-7 Edge Histogram27
- +      -0.4986 * (normalized) MPEG-7 Edge Histogram28
- +       0      * (normalized) MPEG-7 Edge Histogram29
+ +       0.0172 * (normalized) MPEG-7 Edge Histogram25
+ +      -0.587  * (normalized) MPEG-7 Edge Histogram26
+ +       0.1136 * (normalized) MPEG-7 Edge Histogram27
+ +      -0.4981 * (normalized) MPEG-7 Edge Histogram28
+ +      -0      * (normalized) MPEG-7 Edge Histogram29
  +      -0.2123 * (normalized) MPEG-7 Edge Histogram30
- +      -0.1608 * (normalized) MPEG-7 Edge Histogram31
- +      -0.0147 * (normalized) MPEG-7 Edge Histogram32
- +       0.0431 * (normalized) MPEG-7 Edge Histogram33
+ +      -0.161  * (normalized) MPEG-7 Edge Histogram31
+ +      -0.0149 * (normalized) MPEG-7 Edge Histogram32
+ +       0.0433 * (normalized) MPEG-7 Edge Histogram33
  +       0      * (normalized) MPEG-7 Edge Histogram34
- +      -0.504  * (normalized) MPEG-7 Edge Histogram35
- +       0.4585 * (normalized) MPEG-7 Edge Histogram36
- +       0.2803 * (normalized) MPEG-7 Edge Histogram37
- +       0.6066 * (normalized) MPEG-7 Edge Histogram38
+ +      -0.5044 * (normalized) MPEG-7 Edge Histogram35
+ +       0.4583 * (normalized) MPEG-7 Edge Histogram36
+ +       0.2809 * (normalized) MPEG-7 Edge Histogram37
+ +       0.6067 * (normalized) MPEG-7 Edge Histogram38
  +      -0.0086 * (normalized) MPEG-7 Edge Histogram39
- +      -0.3337 * (normalized) MPEG-7 Edge Histogram40
- +       0.1944 * (normalized) MPEG-7 Edge Histogram41
- +      -0.1236 * (normalized) MPEG-7 Edge Histogram42
+ +      -0.3338 * (normalized) MPEG-7 Edge Histogram40
+ +       0.1949 * (normalized) MPEG-7 Edge Histogram41
+ +      -0.1237 * (normalized) MPEG-7 Edge Histogram42
  +       0.343  * (normalized) MPEG-7 Edge Histogram43
- +      -0.062  * (normalized) MPEG-7 Edge Histogram44
- +      -0.0074 * (normalized) MPEG-7 Edge Histogram45
- +      -0.2431 * (normalized) MPEG-7 Edge Histogram46
- +      -0.2461 * (normalized) MPEG-7 Edge Histogram47
- +      -0.6741 * (normalized) MPEG-7 Edge Histogram48
+ +      -0.0622 * (normalized) MPEG-7 Edge Histogram44
+ +      -0.0068 * (normalized) MPEG-7 Edge Histogram45
+ +      -0.2423 * (normalized) MPEG-7 Edge Histogram46
+ +      -0.2464 * (normalized) MPEG-7 Edge Histogram47
+ +      -0.6751 * (normalized) MPEG-7 Edge Histogram48
  +      -0.0462 * (normalized) MPEG-7 Edge Histogram49
- +      -0.3277 * (normalized) MPEG-7 Edge Histogram50
- +       0.0385 * (normalized) MPEG-7 Edge Histogram51
- +      -0.6731 * (normalized) MPEG-7 Edge Histogram52
- +      -0.1557 * (normalized) MPEG-7 Edge Histogram53
- +       0.0217 * (normalized) MPEG-7 Edge Histogram55
- +       0.353  * (normalized) MPEG-7 Edge Histogram56
- +       0.1841 * (normalized) MPEG-7 Edge Histogram57
+ +      -0.3282 * (normalized) MPEG-7 Edge Histogram50
+ +       0.0388 * (normalized) MPEG-7 Edge Histogram51
+ +      -0.6729 * (normalized) MPEG-7 Edge Histogram52
+ +      -0.1567 * (normalized) MPEG-7 Edge Histogram53
+ +       0.0225 * (normalized) MPEG-7 Edge Histogram55
+ +       0.3526 * (normalized) MPEG-7 Edge Histogram56
+ +       0.1836 * (normalized) MPEG-7 Edge Histogram57
  +       0.009  * (normalized) MPEG-7 Edge Histogram58
  +       0.0112 * (normalized) MPEG-7 Edge Histogram59
- +       0.5421 * (normalized) MPEG-7 Edge Histogram60
+ +       0.5415 * (normalized) MPEG-7 Edge Histogram60
  +       0.4537 * (normalized) MPEG-7 Edge Histogram61
  +       0.3706 * (normalized) MPEG-7 Edge Histogram62
- +      -0.2695 * (normalized) MPEG-7 Edge Histogram63
- +      -0.0826 * (normalized) MPEG-7 Edge Histogram64
- +       0.1405 * (normalized) MPEG-7 Edge Histogram65
- +      -0.004  * (normalized) MPEG-7 Edge Histogram66
- +       0.3789 * (normalized) MPEG-7 Edge Histogram67
- +      -0.4339 * (normalized) MPEG-7 Edge Histogram68
- +       0      * (normalized) MPEG-7 Edge Histogram69
- +       0.5911 * (normalized) MPEG-7 Edge Histogram70
- +       0.2516 * (normalized) MPEG-7 Edge Histogram71
- +       0.0194 * (normalized) MPEG-7 Edge Histogram72
- +       0.1308 * (normalized) MPEG-7 Edge Histogram73
- +       0.0131 * (normalized) MPEG-7 Edge Histogram74
- +       0.0887 * (normalized) MPEG-7 Edge Histogram75
- +       0.0227 * (normalized) MPEG-7 Edge Histogram76
- +       0.1485 * (normalized) MPEG-7 Edge Histogram77
- +       0.5299 * (normalized) MPEG-7 Edge Histogram78
- +      -0.066  * (normalized) MPEG-7 Edge Histogram79
- -       0.796 
+ +      -0.2696 * (normalized) MPEG-7 Edge Histogram63
+ +      -0.083  * (normalized) MPEG-7 Edge Histogram64
+ +       0.1401 * (normalized) MPEG-7 Edge Histogram65
+ +      -0.0049 * (normalized) MPEG-7 Edge Histogram66
+ +       0.3786 * (normalized) MPEG-7 Edge Histogram67
+ +      -0.4336 * (normalized) MPEG-7 Edge Histogram68
+ +      -0      * (normalized) MPEG-7 Edge Histogram69
+ +       0.5908 * (normalized) MPEG-7 Edge Histogram70
+ +       0.2521 * (normalized) MPEG-7 Edge Histogram71
+ +       0.0193 * (normalized) MPEG-7 Edge Histogram72
+ +       0.1309 * (normalized) MPEG-7 Edge Histogram73
+ +       0.013  * (normalized) MPEG-7 Edge Histogram74
+ +       0.0885 * (normalized) MPEG-7 Edge Histogram75
+ +       0.0232 * (normalized) MPEG-7 Edge Histogram76
+ +       0.1486 * (normalized) MPEG-7 Edge Histogram77
+ +       0.5303 * (normalized) MPEG-7 Edge Histogram78
+ +      -0.0661 * (normalized) MPEG-7 Edge Histogram79
+ -       0.7958
 
-Number of kernel evaluations: 3258 (83.957% cached)
+Number of kernel evaluations: 3097 (85.082% cached)
 
 Classifier for classes: K3, K6
 
@@ -1038,104 +1001,89 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -0.0873 * (normalized) MPEG-7 Edge Histogram0
+        -0.087  * (normalized) MPEG-7 Edge Histogram0
  +       0.0397 * (normalized) MPEG-7 Edge Histogram1
- +      -0.3334 * (normalized) MPEG-7 Edge Histogram2
- +       0.1425 * (normalized) MPEG-7 Edge Histogram3
- +       0      * (normalized) MPEG-7 Edge Histogram4
- +       0.1832 * (normalized) MPEG-7 Edge Histogram5
- +       0.1332 * (normalized) MPEG-7 Edge Histogram6
- +       0.2532 * (normalized) MPEG-7 Edge Histogram7
+ +      -0.3337 * (normalized) MPEG-7 Edge Histogram2
+ +       0.1423 * (normalized) MPEG-7 Edge Histogram3
+ +      -0      * (normalized) MPEG-7 Edge Histogram4
+ +       0.183  * (normalized) MPEG-7 Edge Histogram5
+ +       0.133  * (normalized) MPEG-7 Edge Histogram6
+ +       0.2534 * (normalized) MPEG-7 Edge Histogram7
  +       0.1116 * (normalized) MPEG-7 Edge Histogram8
  +      -0      * (normalized) MPEG-7 Edge Histogram9
- +      -0.038  * (normalized) MPEG-7 Edge Histogram10
- +      -0.0239 * (normalized) MPEG-7 Edge Histogram11
- +       0.0247 * (normalized) MPEG-7 Edge Histogram12
- +       0.3071 * (normalized) MPEG-7 Edge Histogram13
- +       0.0428 * (normalized) MPEG-7 Edge Histogram14
+ +      -0.0381 * (normalized) MPEG-7 Edge Histogram10
+ +      -0.0241 * (normalized) MPEG-7 Edge Histogram11
+ +       0.0249 * (normalized) MPEG-7 Edge Histogram12
+ +       0.307  * (normalized) MPEG-7 Edge Histogram13
+ +       0.0429 * (normalized) MPEG-7 Edge Histogram14
  +       0.0426 * (normalized) MPEG-7 Edge Histogram15
  +       0.0655 * (normalized) MPEG-7 Edge Histogram16
- +       0.2517 * (normalized) MPEG-7 Edge Histogram17
- +      -0.3471 * (normalized) MPEG-7 Edge Histogram18
+ +       0.2515 * (normalized) MPEG-7 Edge Histogram17
+ +      -0.347  * (normalized) MPEG-7 Edge Histogram18
+ +      -0      * (normalized) MPEG-7 Edge Histogram19
  +      -0.0693 * (normalized) MPEG-7 Edge Histogram20
- +       0.0472 * (normalized) MPEG-7 Edge Histogram21
+ +       0.0475 * (normalized) MPEG-7 Edge Histogram21
  +      -0.1691 * (normalized) MPEG-7 Edge Histogram22
- +       0.1912 * (normalized) MPEG-7 Edge Histogram23
+ +       0.1916 * (normalized) MPEG-7 Edge Histogram23
+ +      -0      * (normalized) MPEG-7 Edge Histogram24
  +      -0.0548 * (normalized) MPEG-7 Edge Histogram25
- +      -0.1406 * (normalized) MPEG-7 Edge Histogram26
- +      -0.0442 * (normalized) MPEG-7 Edge Histogram27
- +       0.013  * (normalized) MPEG-7 Edge Histogram28
- +      -0      * (normalized) MPEG-7 Edge Histogram29
- +       0.0609 * (normalized) MPEG-7 Edge Histogram30
- +      -0.1122 * (normalized) MPEG-7 Edge Histogram31
+ +      -0.1403 * (normalized) MPEG-7 Edge Histogram26
+ +      -0.0444 * (normalized) MPEG-7 Edge Histogram27
+ +       0.0133 * (normalized) MPEG-7 Edge Histogram28
+ +       0      * (normalized) MPEG-7 Edge Histogram29
+ +       0.0605 * (normalized) MPEG-7 Edge Histogram30
+ +      -0.1124 * (normalized) MPEG-7 Edge Histogram31
  +       0.1494 * (normalized) MPEG-7 Edge Histogram32
- +      -0.0334 * (normalized) MPEG-7 Edge Histogram33
- +      -0.2985 * (normalized) MPEG-7 Edge Histogram35
+ +      -0.0335 * (normalized) MPEG-7 Edge Histogram33
+ +       0      * (normalized) MPEG-7 Edge Histogram34
+ +      -0.2984 * (normalized) MPEG-7 Edge Histogram35
  +      -0.0175 * (normalized) MPEG-7 Edge Histogram36
- +       0.1126 * (normalized) MPEG-7 Edge Histogram37
- +       0.2525 * (normalized) MPEG-7 Edge Histogram38
+ +       0.1129 * (normalized) MPEG-7 Edge Histogram37
+ +       0.2524 * (normalized) MPEG-7 Edge Histogram38
  +      -0      * (normalized) MPEG-7 Edge Histogram39
- +       0.0094 * (normalized) MPEG-7 Edge Histogram40
- +       0.1967 * (normalized) MPEG-7 Edge Histogram41
- +       0.1064 * (normalized) MPEG-7 Edge Histogram42
- +       0.1813 * (normalized) MPEG-7 Edge Histogram43
+ +       0.0097 * (normalized) MPEG-7 Edge Histogram40
+ +       0.1964 * (normalized) MPEG-7 Edge Histogram41
+ +       0.1062 * (normalized) MPEG-7 Edge Histogram42
+ +       0.1811 * (normalized) MPEG-7 Edge Histogram43
  +      -0      * (normalized) MPEG-7 Edge Histogram44
  +       0.0592 * (normalized) MPEG-7 Edge Histogram45
- +       0.0264 * (normalized) MPEG-7 Edge Histogram46
- +      -0.05   * (normalized) MPEG-7 Edge Histogram47
- +       0.4249 * (normalized) MPEG-7 Edge Histogram48
- +      -0.1375 * (normalized) MPEG-7 Edge Histogram49
- +       0.0742 * (normalized) MPEG-7 Edge Histogram50
- +       0.0034 * (normalized) MPEG-7 Edge Histogram51
- +       0.2185 * (normalized) MPEG-7 Edge Histogram52
- +      -0.0116 * (normalized) MPEG-7 Edge Histogram53
+ +       0.0266 * (normalized) MPEG-7 Edge Histogram46
+ +      -0.0498 * (normalized) MPEG-7 Edge Histogram47
+ +       0.4247 * (normalized) MPEG-7 Edge Histogram48
+ +      -0.1374 * (normalized) MPEG-7 Edge Histogram49
+ +       0.0745 * (normalized) MPEG-7 Edge Histogram50
+ +       0.0037 * (normalized) MPEG-7 Edge Histogram51
+ +       0.2182 * (normalized) MPEG-7 Edge Histogram52
+ +      -0.0117 * (normalized) MPEG-7 Edge Histogram53
  +       0.0643 * (normalized) MPEG-7 Edge Histogram54
- +       0.1983 * (normalized) MPEG-7 Edge Histogram55
+ +       0.1982 * (normalized) MPEG-7 Edge Histogram55
  +       0.043  * (normalized) MPEG-7 Edge Histogram56
- +      -0.0402 * (normalized) MPEG-7 Edge Histogram57
+ +      -0.0403 * (normalized) MPEG-7 Edge Histogram57
  +       0.1151 * (normalized) MPEG-7 Edge Histogram58
  +      -0      * (normalized) MPEG-7 Edge Histogram59
  +       0.2395 * (normalized) MPEG-7 Edge Histogram60
- +       0.0048 * (normalized) MPEG-7 Edge Histogram61
- +       0.324  * (normalized) MPEG-7 Edge Histogram62
- +      -0.3729 * (normalized) MPEG-7 Edge Histogram63
+ +       0.0046 * (normalized) MPEG-7 Edge Histogram61
+ +       0.3237 * (normalized) MPEG-7 Edge Histogram62
+ +      -0.3728 * (normalized) MPEG-7 Edge Histogram63
+ +      -0      * (normalized) MPEG-7 Edge Histogram64
  +       0.2766 * (normalized) MPEG-7 Edge Histogram65
- +      -0.3475 * (normalized) MPEG-7 Edge Histogram66
- +       0.2633 * (normalized) MPEG-7 Edge Histogram67
- +      -0.3547 * (normalized) MPEG-7 Edge Histogram68
- +       0.1209 * (normalized) MPEG-7 Edge Histogram70
- +      -0.1014 * (normalized) MPEG-7 Edge Histogram71
- +       0.1889 * (normalized) MPEG-7 Edge Histogram72
- +       0.1855 * (normalized) MPEG-7 Edge Histogram73
+ +      -0.3474 * (normalized) MPEG-7 Edge Histogram66
+ +       0.2627 * (normalized) MPEG-7 Edge Histogram67
+ +      -0.3546 * (normalized) MPEG-7 Edge Histogram68
+ +      -0      * (normalized) MPEG-7 Edge Histogram69
+ +       0.1211 * (normalized) MPEG-7 Edge Histogram70
+ +      -0.1013 * (normalized) MPEG-7 Edge Histogram71
+ +       0.1888 * (normalized) MPEG-7 Edge Histogram72
+ +       0.1856 * (normalized) MPEG-7 Edge Histogram73
  +      -0      * (normalized) MPEG-7 Edge Histogram74
- +       0.2438 * (normalized) MPEG-7 Edge Histogram75
- +       0.1052 * (normalized) MPEG-7 Edge Histogram76
+ +       0.2437 * (normalized) MPEG-7 Edge Histogram75
+ +       0.1054 * (normalized) MPEG-7 Edge Histogram76
  +      -0.2901 * (normalized) MPEG-7 Edge Histogram77
  +       0.3327 * (normalized) MPEG-7 Edge Histogram78
  +      -0.003  * (normalized) MPEG-7 Edge Histogram79
- -       0.6223
+ -       0.6224
 
-Number of kernel evaluations: 1826 (80.061% cached)
-
-Classifier for classes: K3, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K3, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
+Number of kernel evaluations: 2136 (81.58% cached)
 
 Classifier for classes: K4, K5
 
@@ -1144,62 +1092,61 @@ BinarySMO
 Machine linear: showing attribute weights, not support vectors.
 
          0.2545 * (normalized) MPEG-7 Edge Histogram0
- +       0.1271 * (normalized) MPEG-7 Edge Histogram1
- +      -0.2711 * (normalized) MPEG-7 Edge Histogram2
- +       0.0149 * (normalized) MPEG-7 Edge Histogram3
+ +       0.1272 * (normalized) MPEG-7 Edge Histogram1
+ +      -0.2715 * (normalized) MPEG-7 Edge Histogram2
+ +       0.0148 * (normalized) MPEG-7 Edge Histogram3
  +      -0      * (normalized) MPEG-7 Edge Histogram4
- +      -0.0163 * (normalized) MPEG-7 Edge Histogram5
- +       0.0144 * (normalized) MPEG-7 Edge Histogram6
+ +      -0.0166 * (normalized) MPEG-7 Edge Histogram5
+ +       0.0147 * (normalized) MPEG-7 Edge Histogram6
  +       0.2482 * (normalized) MPEG-7 Edge Histogram7
- +      -0.2128 * (normalized) MPEG-7 Edge Histogram8
- +      -0      * (normalized) MPEG-7 Edge Histogram9
- +      -0.0382 * (normalized) MPEG-7 Edge Histogram10
- +      -0.0159 * (normalized) MPEG-7 Edge Histogram11
- +       0.0765 * (normalized) MPEG-7 Edge Histogram12
- +       0.5048 * (normalized) MPEG-7 Edge Histogram13
- +       0.0106 * (normalized) MPEG-7 Edge Histogram14
- +       0.0301 * (normalized) MPEG-7 Edge Histogram15
+ +      -0.2129 * (normalized) MPEG-7 Edge Histogram8
+ +      -0.0384 * (normalized) MPEG-7 Edge Histogram10
+ +      -0.0158 * (normalized) MPEG-7 Edge Histogram11
+ +       0.0767 * (normalized) MPEG-7 Edge Histogram12
+ +       0.5046 * (normalized) MPEG-7 Edge Histogram13
+ +       0.0107 * (normalized) MPEG-7 Edge Histogram14
+ +       0.0302 * (normalized) MPEG-7 Edge Histogram15
  +      -0.0325 * (normalized) MPEG-7 Edge Histogram16
- +      -0.0273 * (normalized) MPEG-7 Edge Histogram17
- +      -0.1055 * (normalized) MPEG-7 Edge Histogram18
+ +      -0.0272 * (normalized) MPEG-7 Edge Histogram17
+ +      -0.1056 * (normalized) MPEG-7 Edge Histogram18
  +      -0.1768 * (normalized) MPEG-7 Edge Histogram19
  +      -0.401  * (normalized) MPEG-7 Edge Histogram20
- +       0.1735 * (normalized) MPEG-7 Edge Histogram21
+ +       0.1734 * (normalized) MPEG-7 Edge Histogram21
  +       0.1669 * (normalized) MPEG-7 Edge Histogram22
  +       0.1399 * (normalized) MPEG-7 Edge Histogram23
  +       0.008  * (normalized) MPEG-7 Edge Histogram24
- +      -0.1097 * (normalized) MPEG-7 Edge Histogram25
- +      -0.4156 * (normalized) MPEG-7 Edge Histogram26
- +      -0.2721 * (normalized) MPEG-7 Edge Histogram27
- +      -0.5941 * (normalized) MPEG-7 Edge Histogram28
- +       0      * (normalized) MPEG-7 Edge Histogram29
- +      -0.1654 * (normalized) MPEG-7 Edge Histogram30
+ +      -0.1099 * (normalized) MPEG-7 Edge Histogram25
+ +      -0.4155 * (normalized) MPEG-7 Edge Histogram26
+ +      -0.2724 * (normalized) MPEG-7 Edge Histogram27
+ +      -0.5944 * (normalized) MPEG-7 Edge Histogram28
+ +      -0      * (normalized) MPEG-7 Edge Histogram29
+ +      -0.1657 * (normalized) MPEG-7 Edge Histogram30
  +      -0.0336 * (normalized) MPEG-7 Edge Histogram31
- +       0.1534 * (normalized) MPEG-7 Edge Histogram32
- +      -0.1321 * (normalized) MPEG-7 Edge Histogram33
+ +       0.1535 * (normalized) MPEG-7 Edge Histogram32
+ +      -0.1319 * (normalized) MPEG-7 Edge Histogram33
  +       0.0151 * (normalized) MPEG-7 Edge Histogram34
- +      -0.316  * (normalized) MPEG-7 Edge Histogram35
- +       0.3508 * (normalized) MPEG-7 Edge Histogram36
- +      -0.0183 * (normalized) MPEG-7 Edge Histogram37
- +       0.5048 * (normalized) MPEG-7 Edge Histogram38
- +      -0.1794 * (normalized) MPEG-7 Edge Histogram39
+ +      -0.3161 * (normalized) MPEG-7 Edge Histogram35
+ +       0.351  * (normalized) MPEG-7 Edge Histogram36
+ +      -0.0182 * (normalized) MPEG-7 Edge Histogram37
+ +       0.5047 * (normalized) MPEG-7 Edge Histogram38
+ +      -0.1795 * (normalized) MPEG-7 Edge Histogram39
  +      -0.2279 * (normalized) MPEG-7 Edge Histogram40
- +       0.216  * (normalized) MPEG-7 Edge Histogram41
- +      -0.0331 * (normalized) MPEG-7 Edge Histogram42
- +       0.1395 * (normalized) MPEG-7 Edge Histogram43
- +      -0.1962 * (normalized) MPEG-7 Edge Histogram45
- +      -0.4028 * (normalized) MPEG-7 Edge Histogram46
- +      -0.2233 * (normalized) MPEG-7 Edge Histogram47
- +      -0.0201 * (normalized) MPEG-7 Edge Histogram48
+ +       0.2158 * (normalized) MPEG-7 Edge Histogram41
+ +      -0.0332 * (normalized) MPEG-7 Edge Histogram42
+ +       0.1396 * (normalized) MPEG-7 Edge Histogram43
+ +      -0.1963 * (normalized) MPEG-7 Edge Histogram45
+ +      -0.4027 * (normalized) MPEG-7 Edge Histogram46
+ +      -0.2234 * (normalized) MPEG-7 Edge Histogram47
+ +      -0.0199 * (normalized) MPEG-7 Edge Histogram48
  +      -0      * (normalized) MPEG-7 Edge Histogram49
- +      -0.1221 * (normalized) MPEG-7 Edge Histogram50
+ +      -0.1223 * (normalized) MPEG-7 Edge Histogram50
  +       0.1072 * (normalized) MPEG-7 Edge Histogram51
  +      -0.5708 * (normalized) MPEG-7 Edge Histogram52
- +      -0.3012 * (normalized) MPEG-7 Edge Histogram53
- +       0.0159 * (normalized) MPEG-7 Edge Histogram54
- +      -0.1031 * (normalized) MPEG-7 Edge Histogram55
+ +      -0.3013 * (normalized) MPEG-7 Edge Histogram53
+ +       0.016  * (normalized) MPEG-7 Edge Histogram54
+ +      -0.1032 * (normalized) MPEG-7 Edge Histogram55
  +       0.1706 * (normalized) MPEG-7 Edge Histogram56
- +       0.0236 * (normalized) MPEG-7 Edge Histogram57
+ +       0.0234 * (normalized) MPEG-7 Edge Histogram57
  +      -0.099  * (normalized) MPEG-7 Edge Histogram58
  +      -0.1814 * (normalized) MPEG-7 Edge Histogram59
  +       0.14   * (normalized) MPEG-7 Edge Histogram60
@@ -1207,24 +1154,24 @@ Machine linear: showing attribute weights, not support vectors.
  +       0.2131 * (normalized) MPEG-7 Edge Histogram62
  +      -0.2267 * (normalized) MPEG-7 Edge Histogram63
  +      -0      * (normalized) MPEG-7 Edge Histogram64
- +       0.1785 * (normalized) MPEG-7 Edge Histogram65
- +       0.037  * (normalized) MPEG-7 Edge Histogram66
- +       0.1429 * (normalized) MPEG-7 Edge Histogram67
- +      -0.097  * (normalized) MPEG-7 Edge Histogram68
+ +       0.1784 * (normalized) MPEG-7 Edge Histogram65
+ +       0.0371 * (normalized) MPEG-7 Edge Histogram66
+ +       0.1427 * (normalized) MPEG-7 Edge Histogram67
+ +      -0.0971 * (normalized) MPEG-7 Edge Histogram68
  +      -0      * (normalized) MPEG-7 Edge Histogram69
- +       0.1906 * (normalized) MPEG-7 Edge Histogram70
- +       0.479  * (normalized) MPEG-7 Edge Histogram71
- +      -0.1203 * (normalized) MPEG-7 Edge Histogram72
- +      -0.0547 * (normalized) MPEG-7 Edge Histogram73
+ +       0.1903 * (normalized) MPEG-7 Edge Histogram70
+ +       0.4791 * (normalized) MPEG-7 Edge Histogram71
+ +      -0.1204 * (normalized) MPEG-7 Edge Histogram72
+ +      -0.0546 * (normalized) MPEG-7 Edge Histogram73
  +      -0      * (normalized) MPEG-7 Edge Histogram74
- +       0.3961 * (normalized) MPEG-7 Edge Histogram75
- +      -0.0559 * (normalized) MPEG-7 Edge Histogram76
- +      -0.1728 * (normalized) MPEG-7 Edge Histogram77
- +       0.2397 * (normalized) MPEG-7 Edge Histogram78
+ +       0.3959 * (normalized) MPEG-7 Edge Histogram75
+ +      -0.0558 * (normalized) MPEG-7 Edge Histogram76
+ +      -0.1729 * (normalized) MPEG-7 Edge Histogram77
+ +       0.24   * (normalized) MPEG-7 Edge Histogram78
  +      -0.1768 * (normalized) MPEG-7 Edge Histogram79
- +       0.4326
+ +       0.4337
 
-Number of kernel evaluations: 2381 (85.138% cached)
+Number of kernel evaluations: 2076 (82.255% cached)
 
 Classifier for classes: K4, K6
 
@@ -1233,108 +1180,88 @@ BinarySMO
 Machine linear: showing attribute weights, not support vectors.
 
          0.0617 * (normalized) MPEG-7 Edge Histogram0
- +       0.0437 * (normalized) MPEG-7 Edge Histogram1
- +      -0.4973 * (normalized) MPEG-7 Edge Histogram2
- +       0.1306 * (normalized) MPEG-7 Edge Histogram3
+ +       0.0438 * (normalized) MPEG-7 Edge Histogram1
+ +      -0.4977 * (normalized) MPEG-7 Edge Histogram2
+ +       0.1308 * (normalized) MPEG-7 Edge Histogram3
  +       0      * (normalized) MPEG-7 Edge Histogram4
  +       0.1561 * (normalized) MPEG-7 Edge Histogram5
- +       0.0634 * (normalized) MPEG-7 Edge Histogram6
- +       0.2526 * (normalized) MPEG-7 Edge Histogram7
- +       0.0331 * (normalized) MPEG-7 Edge Histogram8
- +       0.0009 * (normalized) MPEG-7 Edge Histogram9
- +       0.0135 * (normalized) MPEG-7 Edge Histogram10
- +      -0.0518 * (normalized) MPEG-7 Edge Histogram11
- +      -0.0026 * (normalized) MPEG-7 Edge Histogram12
- +       0.3622 * (normalized) MPEG-7 Edge Histogram13
- +       0.052  * (normalized) MPEG-7 Edge Histogram14
+ +       0.0638 * (normalized) MPEG-7 Edge Histogram6
+ +       0.2523 * (normalized) MPEG-7 Edge Histogram7
+ +       0.033  * (normalized) MPEG-7 Edge Histogram8
+ +       0.0011 * (normalized) MPEG-7 Edge Histogram9
+ +       0.0138 * (normalized) MPEG-7 Edge Histogram10
+ +      -0.0519 * (normalized) MPEG-7 Edge Histogram11
+ +      -0.0023 * (normalized) MPEG-7 Edge Histogram12
+ +       0.3621 * (normalized) MPEG-7 Edge Histogram13
+ +       0.0518 * (normalized) MPEG-7 Edge Histogram14
  +      -0.0592 * (normalized) MPEG-7 Edge Histogram15
- +       0.0681 * (normalized) MPEG-7 Edge Histogram16
+ +       0.0678 * (normalized) MPEG-7 Edge Histogram16
  +       0.2702 * (normalized) MPEG-7 Edge Histogram17
- +      -0.2632 * (normalized) MPEG-7 Edge Histogram18
- +      -0.0568 * (normalized) MPEG-7 Edge Histogram19
- +      -0.1714 * (normalized) MPEG-7 Edge Histogram20
+ +      -0.2629 * (normalized) MPEG-7 Edge Histogram18
+ +      -0.0569 * (normalized) MPEG-7 Edge Histogram19
+ +      -0.1713 * (normalized) MPEG-7 Edge Histogram20
  +       0.0928 * (normalized) MPEG-7 Edge Histogram21
- +      -0.2494 * (normalized) MPEG-7 Edge Histogram22
- +       0.2704 * (normalized) MPEG-7 Edge Histogram23
- +       0.0007 * (normalized) MPEG-7 Edge Histogram24
- +      -0.1205 * (normalized) MPEG-7 Edge Histogram25
- +      -0.0305 * (normalized) MPEG-7 Edge Histogram26
- +      -0.1983 * (normalized) MPEG-7 Edge Histogram27
- +      -0.029  * (normalized) MPEG-7 Edge Histogram28
- +       0.0009 * (normalized) MPEG-7 Edge Histogram29
- +      -0.0362 * (normalized) MPEG-7 Edge Histogram30
- +       0.1454 * (normalized) MPEG-7 Edge Histogram31
- +       0.1453 * (normalized) MPEG-7 Edge Histogram32
+ +      -0.2493 * (normalized) MPEG-7 Edge Histogram22
+ +       0.2703 * (normalized) MPEG-7 Edge Histogram23
+ +       0.0008 * (normalized) MPEG-7 Edge Histogram24
+ +      -0.121  * (normalized) MPEG-7 Edge Histogram25
+ +      -0.0302 * (normalized) MPEG-7 Edge Histogram26
+ +      -0.1979 * (normalized) MPEG-7 Edge Histogram27
+ +      -0.0288 * (normalized) MPEG-7 Edge Histogram28
+ +       0.0011 * (normalized) MPEG-7 Edge Histogram29
+ +      -0.0363 * (normalized) MPEG-7 Edge Histogram30
+ +       0.1451 * (normalized) MPEG-7 Edge Histogram31
+ +       0.1454 * (normalized) MPEG-7 Edge Histogram32
  +       0.1738 * (normalized) MPEG-7 Edge Histogram33
- +       0.0018 * (normalized) MPEG-7 Edge Histogram34
- +      -0.4628 * (normalized) MPEG-7 Edge Histogram35
- +       0.0655 * (normalized) MPEG-7 Edge Histogram36
- +       0.0019 * (normalized) MPEG-7 Edge Histogram37
- +       0.3272 * (normalized) MPEG-7 Edge Histogram38
+ +       0.0022 * (normalized) MPEG-7 Edge Histogram34
+ +      -0.4626 * (normalized) MPEG-7 Edge Histogram35
+ +       0.0653 * (normalized) MPEG-7 Edge Histogram36
+ +       0.0023 * (normalized) MPEG-7 Edge Histogram37
+ +       0.3267 * (normalized) MPEG-7 Edge Histogram38
  +      -0.0564 * (normalized) MPEG-7 Edge Histogram39
- +      -0.0295 * (normalized) MPEG-7 Edge Histogram40
- +       0.1967 * (normalized) MPEG-7 Edge Histogram41
- +       0.2235 * (normalized) MPEG-7 Edge Histogram42
- +      -0.0046 * (normalized) MPEG-7 Edge Histogram43
+ +      -0.0292 * (normalized) MPEG-7 Edge Histogram40
+ +       0.1966 * (normalized) MPEG-7 Edge Histogram41
+ +       0.2234 * (normalized) MPEG-7 Edge Histogram42
+ +      -0.0047 * (normalized) MPEG-7 Edge Histogram43
  +       0      * (normalized) MPEG-7 Edge Histogram44
- +      -0.0615 * (normalized) MPEG-7 Edge Histogram45
- +      -0.17   * (normalized) MPEG-7 Edge Histogram46
- +      -0.2979 * (normalized) MPEG-7 Edge Histogram47
- +       0.3156 * (normalized) MPEG-7 Edge Histogram48
- +       0.0009 * (normalized) MPEG-7 Edge Histogram49
- +      -0.0953 * (normalized) MPEG-7 Edge Histogram50
- +       0.0206 * (normalized) MPEG-7 Edge Histogram51
+ +      -0.0618 * (normalized) MPEG-7 Edge Histogram45
+ +      -0.1694 * (normalized) MPEG-7 Edge Histogram46
+ +      -0.2977 * (normalized) MPEG-7 Edge Histogram47
+ +       0.3153 * (normalized) MPEG-7 Edge Histogram48
+ +       0.0011 * (normalized) MPEG-7 Edge Histogram49
+ +      -0.0952 * (normalized) MPEG-7 Edge Histogram50
+ +       0.0203 * (normalized) MPEG-7 Edge Histogram51
  +       0.2323 * (normalized) MPEG-7 Edge Histogram52
- +      -0.165  * (normalized) MPEG-7 Edge Histogram53
+ +      -0.1646 * (normalized) MPEG-7 Edge Histogram53
  +       0.0794 * (normalized) MPEG-7 Edge Histogram54
- +       0.0772 * (normalized) MPEG-7 Edge Histogram55
- +      -0.0366 * (normalized) MPEG-7 Edge Histogram56
+ +       0.0768 * (normalized) MPEG-7 Edge Histogram55
+ +      -0.0365 * (normalized) MPEG-7 Edge Histogram56
  +      -0.0552 * (normalized) MPEG-7 Edge Histogram57
- +      -0.0471 * (normalized) MPEG-7 Edge Histogram58
+ +      -0.0466 * (normalized) MPEG-7 Edge Histogram58
  +      -0.0564 * (normalized) MPEG-7 Edge Histogram59
- +       0.1142 * (normalized) MPEG-7 Edge Histogram60
- +       0.0655 * (normalized) MPEG-7 Edge Histogram61
- +       0.2915 * (normalized) MPEG-7 Edge Histogram62
- +      -0.273  * (normalized) MPEG-7 Edge Histogram63
- +      -0      * (normalized) MPEG-7 Edge Histogram64
- +       0.3209 * (normalized) MPEG-7 Edge Histogram65
- +      -0.2559 * (normalized) MPEG-7 Edge Histogram66
- +       0.1336 * (normalized) MPEG-7 Edge Histogram67
- +       0.0333 * (normalized) MPEG-7 Edge Histogram68
- +      -0      * (normalized) MPEG-7 Edge Histogram69
- +       0.0478 * (normalized) MPEG-7 Edge Histogram70
- +       0.03   * (normalized) MPEG-7 Edge Histogram71
- +       0.1092 * (normalized) MPEG-7 Edge Histogram72
- +       0.055  * (normalized) MPEG-7 Edge Histogram73
- +      -0.0965 * (normalized) MPEG-7 Edge Histogram74
- +       0.1072 * (normalized) MPEG-7 Edge Histogram75
- +       0.0191 * (normalized) MPEG-7 Edge Histogram76
- +      -0.1443 * (normalized) MPEG-7 Edge Histogram77
- +       0.223  * (normalized) MPEG-7 Edge Histogram78
- +      -0.0341 * (normalized) MPEG-7 Edge Histogram79
- -       0.1912
+ +       0.1139 * (normalized) MPEG-7 Edge Histogram60
+ +       0.0654 * (normalized) MPEG-7 Edge Histogram61
+ +       0.2917 * (normalized) MPEG-7 Edge Histogram62
+ +      -0.2727 * (normalized) MPEG-7 Edge Histogram63
+ +       0      * (normalized) MPEG-7 Edge Histogram64
+ +       0.3211 * (normalized) MPEG-7 Edge Histogram65
+ +      -0.2553 * (normalized) MPEG-7 Edge Histogram66
+ +       0.1335 * (normalized) MPEG-7 Edge Histogram67
+ +       0.0329 * (normalized) MPEG-7 Edge Histogram68
+ +       0      * (normalized) MPEG-7 Edge Histogram69
+ +       0.0479 * (normalized) MPEG-7 Edge Histogram70
+ +       0.0301 * (normalized) MPEG-7 Edge Histogram71
+ +       0.1093 * (normalized) MPEG-7 Edge Histogram72
+ +       0.0551 * (normalized) MPEG-7 Edge Histogram73
+ +      -0.0962 * (normalized) MPEG-7 Edge Histogram74
+ +       0.1073 * (normalized) MPEG-7 Edge Histogram75
+ +       0.0192 * (normalized) MPEG-7 Edge Histogram76
+ +      -0.1446 * (normalized) MPEG-7 Edge Histogram77
+ +       0.2229 * (normalized) MPEG-7 Edge Histogram78
+ +      -0.0342 * (normalized) MPEG-7 Edge Histogram79
+ -       0.1916
 
-Number of kernel evaluations: 1060 (83.856% cached)
-
-Classifier for classes: K4, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K4, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
+Number of kernel evaluations: 1108 (85.742% cached)
 
 Classifier for classes: K5, K6
 
@@ -1342,137 +1269,93 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -0.1718 * (normalized) MPEG-7 Edge Histogram0
- +      -0.1786 * (normalized) MPEG-7 Edge Histogram1
- +       0.0498 * (normalized) MPEG-7 Edge Histogram2
- +       0.0614 * (normalized) MPEG-7 Edge Histogram3
- +       0.0259 * (normalized) MPEG-7 Edge Histogram5
- +       0.0222 * (normalized) MPEG-7 Edge Histogram6
- +       0.0704 * (normalized) MPEG-7 Edge Histogram7
- +       0.1775 * (normalized) MPEG-7 Edge Histogram8
- +       0.0034 * (normalized) MPEG-7 Edge Histogram9
+        -0.1717 * (normalized) MPEG-7 Edge Histogram0
+ +      -0.1787 * (normalized) MPEG-7 Edge Histogram1
+ +       0.0496 * (normalized) MPEG-7 Edge Histogram2
+ +       0.0615 * (normalized) MPEG-7 Edge Histogram3
+ +      -0      * (normalized) MPEG-7 Edge Histogram4
+ +       0.0256 * (normalized) MPEG-7 Edge Histogram5
+ +       0.0221 * (normalized) MPEG-7 Edge Histogram6
+ +       0.0702 * (normalized) MPEG-7 Edge Histogram7
+ +       0.1774 * (normalized) MPEG-7 Edge Histogram8
+ +       0.0033 * (normalized) MPEG-7 Edge Histogram9
  +      -0.2647 * (normalized) MPEG-7 Edge Histogram10
- +       0.0277 * (normalized) MPEG-7 Edge Histogram11
- +      -0.3503 * (normalized) MPEG-7 Edge Histogram12
- +       0.113  * (normalized) MPEG-7 Edge Histogram13
- +       0.0327 * (normalized) MPEG-7 Edge Histogram14
- +      -0.2143 * (normalized) MPEG-7 Edge Histogram15
- +       0.1113 * (normalized) MPEG-7 Edge Histogram16
- +       0.2189 * (normalized) MPEG-7 Edge Histogram17
- +      -0.0443 * (normalized) MPEG-7 Edge Histogram18
- +      -0.0121 * (normalized) MPEG-7 Edge Histogram19
- +      -0.0829 * (normalized) MPEG-7 Edge Histogram20
- +      -0.1269 * (normalized) MPEG-7 Edge Histogram21
- +      -0.3825 * (normalized) MPEG-7 Edge Histogram22
- +      -0.0282 * (normalized) MPEG-7 Edge Histogram23
+ +       0.0281 * (normalized) MPEG-7 Edge Histogram11
+ +      -0.3502 * (normalized) MPEG-7 Edge Histogram12
+ +       0.1131 * (normalized) MPEG-7 Edge Histogram13
+ +       0.0326 * (normalized) MPEG-7 Edge Histogram14
+ +      -0.2142 * (normalized) MPEG-7 Edge Histogram15
+ +       0.1111 * (normalized) MPEG-7 Edge Histogram16
+ +       0.2191 * (normalized) MPEG-7 Edge Histogram17
+ +      -0.0442 * (normalized) MPEG-7 Edge Histogram18
+ +      -0.012  * (normalized) MPEG-7 Edge Histogram19
+ +      -0.083  * (normalized) MPEG-7 Edge Histogram20
+ +      -0.1267 * (normalized) MPEG-7 Edge Histogram21
+ +      -0.3826 * (normalized) MPEG-7 Edge Histogram22
+ +      -0.028  * (normalized) MPEG-7 Edge Histogram23
  +       0.0256 * (normalized) MPEG-7 Edge Histogram24
- +       0.1645 * (normalized) MPEG-7 Edge Histogram25
- +       0.4502 * (normalized) MPEG-7 Edge Histogram26
+ +       0.1649 * (normalized) MPEG-7 Edge Histogram25
+ +       0.4503 * (normalized) MPEG-7 Edge Histogram26
  +       0.0567 * (normalized) MPEG-7 Edge Histogram27
- +       0.6031 * (normalized) MPEG-7 Edge Histogram28
- +       0.081  * (normalized) MPEG-7 Edge Histogram29
- +       0.3733 * (normalized) MPEG-7 Edge Histogram30
- +       0.3894 * (normalized) MPEG-7 Edge Histogram31
- +       0.4871 * (normalized) MPEG-7 Edge Histogram32
- +       0.0392 * (normalized) MPEG-7 Edge Histogram33
- +       0.1152 * (normalized) MPEG-7 Edge Histogram34
- +      -0.4734 * (normalized) MPEG-7 Edge Histogram35
- +      -0.2949 * (normalized) MPEG-7 Edge Histogram36
- +       0.091  * (normalized) MPEG-7 Edge Histogram37
+ +       0.6029 * (normalized) MPEG-7 Edge Histogram28
+ +       0.0809 * (normalized) MPEG-7 Edge Histogram29
+ +       0.3732 * (normalized) MPEG-7 Edge Histogram30
+ +       0.3896 * (normalized) MPEG-7 Edge Histogram31
+ +       0.4868 * (normalized) MPEG-7 Edge Histogram32
+ +       0.0393 * (normalized) MPEG-7 Edge Histogram33
+ +       0.115  * (normalized) MPEG-7 Edge Histogram34
+ +      -0.4735 * (normalized) MPEG-7 Edge Histogram35
+ +      -0.2948 * (normalized) MPEG-7 Edge Histogram36
+ +       0.0911 * (normalized) MPEG-7 Edge Histogram37
  +       0.1064 * (normalized) MPEG-7 Edge Histogram38
- +       0.0094 * (normalized) MPEG-7 Edge Histogram39
+ +       0.0095 * (normalized) MPEG-7 Edge Histogram39
  +       0.0626 * (normalized) MPEG-7 Edge Histogram40
- +       0.2644 * (normalized) MPEG-7 Edge Histogram41
- +       0.2653 * (normalized) MPEG-7 Edge Histogram42
- +       0.0569 * (normalized) MPEG-7 Edge Histogram43
+ +       0.2643 * (normalized) MPEG-7 Edge Histogram41
+ +       0.2652 * (normalized) MPEG-7 Edge Histogram42
+ +       0.0572 * (normalized) MPEG-7 Edge Histogram43
  +      -0.0582 * (normalized) MPEG-7 Edge Histogram44
- +       0.2814 * (normalized) MPEG-7 Edge Histogram45
+ +       0.2815 * (normalized) MPEG-7 Edge Histogram45
  +       0.3265 * (normalized) MPEG-7 Edge Histogram46
- +      -0.0273 * (normalized) MPEG-7 Edge Histogram47
- +       0.4239 * (normalized) MPEG-7 Edge Histogram48
- +       0.081  * (normalized) MPEG-7 Edge Histogram49
+ +      -0.0274 * (normalized) MPEG-7 Edge Histogram47
+ +       0.424  * (normalized) MPEG-7 Edge Histogram48
+ +       0.0809 * (normalized) MPEG-7 Edge Histogram49
  +       0.2979 * (normalized) MPEG-7 Edge Histogram50
- +       0.2304 * (normalized) MPEG-7 Edge Histogram51
- +       0.4857 * (normalized) MPEG-7 Edge Histogram52
- +       0.33   * (normalized) MPEG-7 Edge Histogram53
- +       0.2868 * (normalized) MPEG-7 Edge Histogram54
- +       0.1315 * (normalized) MPEG-7 Edge Histogram55
- +      -0.1082 * (normalized) MPEG-7 Edge Histogram56
- +       0.0334 * (normalized) MPEG-7 Edge Histogram57
- +       0.1104 * (normalized) MPEG-7 Edge Histogram58
+ +       0.2307 * (normalized) MPEG-7 Edge Histogram51
+ +       0.4859 * (normalized) MPEG-7 Edge Histogram52
+ +       0.3299 * (normalized) MPEG-7 Edge Histogram53
+ +       0.2865 * (normalized) MPEG-7 Edge Histogram54
+ +       0.1308 * (normalized) MPEG-7 Edge Histogram55
+ +      -0.1083 * (normalized) MPEG-7 Edge Histogram56
+ +       0.0335 * (normalized) MPEG-7 Edge Histogram57
+ +       0.1105 * (normalized) MPEG-7 Edge Histogram58
  +       0.0387 * (normalized) MPEG-7 Edge Histogram59
- +       0.0948 * (normalized) MPEG-7 Edge Histogram60
- +       0.0121 * (normalized) MPEG-7 Edge Histogram61
- +       0.275  * (normalized) MPEG-7 Edge Histogram62
- +       0.0333 * (normalized) MPEG-7 Edge Histogram63
- +       0.0093 * (normalized) MPEG-7 Edge Histogram64
- +       0.2066 * (normalized) MPEG-7 Edge Histogram65
- +      -0.6428 * (normalized) MPEG-7 Edge Histogram66
+ +       0.0945 * (normalized) MPEG-7 Edge Histogram60
+ +       0.0118 * (normalized) MPEG-7 Edge Histogram61
+ +       0.2752 * (normalized) MPEG-7 Edge Histogram62
+ +       0.0335 * (normalized) MPEG-7 Edge Histogram63
+ +       0.0094 * (normalized) MPEG-7 Edge Histogram64
+ +       0.2062 * (normalized) MPEG-7 Edge Histogram65
+ +      -0.6429 * (normalized) MPEG-7 Edge Histogram66
  +      -0.0898 * (normalized) MPEG-7 Edge Histogram67
- +       0.0364 * (normalized) MPEG-7 Edge Histogram68
+ +       0.0366 * (normalized) MPEG-7 Edge Histogram68
  +      -0.0775 * (normalized) MPEG-7 Edge Histogram69
- +      -0.3525 * (normalized) MPEG-7 Edge Histogram70
- +      -0.1912 * (normalized) MPEG-7 Edge Histogram71
- +       0.1938 * (normalized) MPEG-7 Edge Histogram72
+ +      -0.3529 * (normalized) MPEG-7 Edge Histogram70
+ +      -0.1909 * (normalized) MPEG-7 Edge Histogram71
+ +       0.1937 * (normalized) MPEG-7 Edge Histogram72
  +       0.1707 * (normalized) MPEG-7 Edge Histogram73
- +       0.081  * (normalized) MPEG-7 Edge Histogram74
- +      -0.1466 * (normalized) MPEG-7 Edge Histogram75
- +      -0.008  * (normalized) MPEG-7 Edge Histogram76
+ +       0.0809 * (normalized) MPEG-7 Edge Histogram74
+ +      -0.147  * (normalized) MPEG-7 Edge Histogram75
+ +      -0.0078 * (normalized) MPEG-7 Edge Histogram76
  +       0.0503 * (normalized) MPEG-7 Edge Histogram77
- +       0.011  * (normalized) MPEG-7 Edge Histogram78
+ +       0.0112 * (normalized) MPEG-7 Edge Histogram78
  +       0.0899 * (normalized) MPEG-7 Edge Histogram79
- -       1.1497
+ -       1.1499
 
-Number of kernel evaluations: 2121 (83.971% cached)
-
-Classifier for classes: K5, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K5, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K6, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K6, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K7, K8
-
-BinarySMO: No model built yet.
+Number of kernel evaluations: 1705 (85.889% cached)
 
 
 
-
-Time taken to build model: 0.26 seconds
+Time taken to build model: 0.35 seconds
 
 Time taken to test model on training data: 0.03 seconds
 
@@ -1481,10 +1364,10 @@ Time taken to test model on training data: 0.03 seconds
 Correctly Classified Instances         410               98.5577 %
 Incorrectly Classified Instances         6                1.4423 %
 Kappa statistic                          0.9815
-Mean absolute error                      0.1853
-Root mean squared error                  0.29  
-Relative absolute error                 94.7255 %
-Root relative squared error             92.8339 %
+Mean absolute error                      0.2226
+Root mean squared error                  0.3106
+Relative absolute error                 85.4371 %
+Root relative squared error             86.0862 %
 Total Number of Instances              416     
 
 
@@ -1497,24 +1380,20 @@ Total Number of Instances              416
                  0.967    0.006    0.967      0.967    0.967      0.962    0.994     0.950     K4
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.986    0.005    0.986      0.986    0.986      0.982    0.995     0.977     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  42   1   0   0   0   0   0   0 |   a = K1
-   0 148   0   0   0   0   0   0 |   b = K2
-   0   1  73   2   0   0   0   0 |   c = K3
-   0   0   2  59   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  42   1   0   0   0   0 |   a = K1
+   0 148   0   0   0   0 |   b = K2
+   0   1  73   2   0   0 |   c = K3
+   0   0   2  59   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
-Time taken to perform cross-validation: 0.65 seconds
+Time taken to perform cross-validation: 0.66 seconds
 
 
 === Stratified cross-validation ===
@@ -1522,10 +1401,10 @@ Time taken to perform cross-validation: 0.65 seconds
 Correctly Classified Instances         387               93.0288 %
 Incorrectly Classified Instances        29                6.9712 %
 Kappa statistic                          0.9106
-Mean absolute error                      0.1863
-Root mean squared error                  0.2916
-Relative absolute error                 95.1712 %
-Root relative squared error             93.3276 %
+Mean absolute error                      0.2248
+Root mean squared error                  0.314 
+Relative absolute error                 86.2813 %
+Root relative squared error             87.0292 %
 Total Number of Instances              416     
 
 
@@ -1538,20 +1417,16 @@ Total Number of Instances              416
                  0.836    0.028    0.836      0.836    0.836      0.808    0.945     0.759     K4
                  1.000    0.006    0.970      1.000    0.985      0.982    0.997     0.970     K5
                  0.958    0.003    0.958      0.958    0.958      0.956    0.970     0.921     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.930    0.016    0.929      0.930    0.930      0.915    0.974     0.896     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  39   2   0   0   1   1   0   0 |   a = K1
-   1 147   0   0   0   0   0   0 |   b = K2
-   0   2  63  10   1   0   0   0 |   c = K3
-   2   0   8  51   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   1   0   0   0   0  23   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  39   2   0   0   1   1 |   a = K1
+   1 147   0   0   0   0 |   b = K2
+   0   2  63  10   1   0 |   c = K3
+   2   0   8  51   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   1   0   0   0   0  23 |   f = K6
 

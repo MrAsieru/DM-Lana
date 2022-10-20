@@ -78,39 +78,19 @@ Machine linear: showing attribute weights, not support vectors.
 
 Number of kernel evaluations: 630 (64.587% cached)
 
-Classifier for classes: K1, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K1, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
 Classifier for classes: K2, K3
 
 BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-         2.6782 * (normalized) RGB Color Histogram0
- +       1.3174 * (normalized) RGB Color Histogram21
- +       3.3197 * (normalized) RGB Color Histogram42
- +      -1.0634 * (normalized) RGB Color Histogram63
- -       4.1826
+         2.6874 * (normalized) RGB Color Histogram0
+ +       1.3228 * (normalized) RGB Color Histogram21
+ +       3.3196 * (normalized) RGB Color Histogram42
+ +      -1.0581 * (normalized) RGB Color Histogram63
+ -       4.202 
 
-Number of kernel evaluations: 3841 (68.387% cached)
+Number of kernel evaluations: 4822 (65.925% cached)
 
 Classifier for classes: K2, K4
 
@@ -118,13 +98,13 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-         2.4452 * (normalized) RGB Color Histogram0
+         2.4451 * (normalized) RGB Color Histogram0
  +       0.7242 * (normalized) RGB Color Histogram21
- +       2.5671 * (normalized) RGB Color Histogram42
- +       0.7881 * (normalized) RGB Color Histogram63
- -       3.8163
+ +       2.5658 * (normalized) RGB Color Histogram42
+ +       0.7882 * (normalized) RGB Color Histogram63
+ -       3.8156
 
-Number of kernel evaluations: 3694 (72.146% cached)
+Number of kernel evaluations: 2984 (79.197% cached)
 
 Classifier for classes: K2, K5
 
@@ -132,13 +112,13 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -0.1466 * (normalized) RGB Color Histogram0
- +       0.182  * (normalized) RGB Color Histogram21
- +       2.7834 * (normalized) RGB Color Histogram42
- +      -1.1594 * (normalized) RGB Color Histogram63
- -       1.3148
+        -0.1346 * (normalized) RGB Color Histogram0
+ +       0.1333 * (normalized) RGB Color Histogram21
+ +       2.8003 * (normalized) RGB Color Histogram42
+ +      -1.1415 * (normalized) RGB Color Histogram63
+ -       1.2383
 
-Number of kernel evaluations: 3024 (72.596% cached)
+Number of kernel evaluations: 4875 (67.578% cached)
 
 Classifier for classes: K2, K6
 
@@ -146,33 +126,13 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-         0.4514 * (normalized) RGB Color Histogram0
- +       1.7363 * (normalized) RGB Color Histogram21
- +       2.5639 * (normalized) RGB Color Histogram42
- +      -2.3617 * (normalized) RGB Color Histogram63
- -       3.1107
+         0.4501 * (normalized) RGB Color Histogram0
+ +       1.737  * (normalized) RGB Color Histogram21
+ +       2.5632 * (normalized) RGB Color Histogram42
+ +      -2.3619 * (normalized) RGB Color Histogram63
+ -       3.1102
 
-Number of kernel evaluations: 1077 (71.064% cached)
-
-Classifier for classes: K2, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K2, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
+Number of kernel evaluations: 1178 (72.438% cached)
 
 Classifier for classes: K3, K4
 
@@ -180,13 +140,13 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-         0.1154 * (normalized) RGB Color Histogram0
- +       0.7209 * (normalized) RGB Color Histogram21
- +       0.7446 * (normalized) RGB Color Histogram42
- +       2.0297 * (normalized) RGB Color Histogram63
- -       1.7612
+         0.122  * (normalized) RGB Color Histogram0
+ +       0.7197 * (normalized) RGB Color Histogram21
+ +       0.7406 * (normalized) RGB Color Histogram42
+ +       2.0368 * (normalized) RGB Color Histogram63
+ -       1.7735
 
-Number of kernel evaluations: 1954 (75.278% cached)
+Number of kernel evaluations: 1928 (75.779% cached)
 
 Classifier for classes: K3, K5
 
@@ -194,13 +154,13 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -2.3138 * (normalized) RGB Color Histogram0
- +       0.1143 * (normalized) RGB Color Histogram21
- +       0.604  * (normalized) RGB Color Histogram42
- +       0.6951 * (normalized) RGB Color Histogram63
- +       0.7904
+        -2.3132 * (normalized) RGB Color Histogram0
+ +       0.1157 * (normalized) RGB Color Histogram21
+ +       0.6025 * (normalized) RGB Color Histogram42
+ +       0.6946 * (normalized) RGB Color Histogram63
+ +       0.7896
 
-Number of kernel evaluations: 2166 (74.563% cached)
+Number of kernel evaluations: 2231 (73.916% cached)
 
 Classifier for classes: K3, K6
 
@@ -208,33 +168,13 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -1.948  * (normalized) RGB Color Histogram0
- +       0.8381 * (normalized) RGB Color Histogram21
- +       0.8945 * (normalized) RGB Color Histogram42
- +      -0.5262 * (normalized) RGB Color Histogram63
- -       0.2882
+        -1.949  * (normalized) RGB Color Histogram0
+ +       0.8395 * (normalized) RGB Color Histogram21
+ +       0.8911 * (normalized) RGB Color Histogram42
+ +      -0.5261 * (normalized) RGB Color Histogram63
+ -       0.2873
 
-Number of kernel evaluations: 737 (67.845% cached)
-
-Classifier for classes: K3, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K3, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
+Number of kernel evaluations: 667 (71.653% cached)
 
 Classifier for classes: K4, K5
 
@@ -242,13 +182,13 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -2.7565 * (normalized) RGB Color Histogram0
- +      -0.0495 * (normalized) RGB Color Histogram21
- +      -0.2005 * (normalized) RGB Color Histogram42
- +      -0.6106 * (normalized) RGB Color Histogram63
- +       1.7849
+        -2.7579 * (normalized) RGB Color Histogram0
+ +      -0.0463 * (normalized) RGB Color Histogram21
+ +      -0.201  * (normalized) RGB Color Histogram42
+ +      -0.6092 * (normalized) RGB Color Histogram63
+ +       1.7824
 
-Number of kernel evaluations: 2642 (76.222% cached)
+Number of kernel evaluations: 2077 (78.492% cached)
 
 Classifier for classes: K4, K6
 
@@ -256,33 +196,13 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -2.2058 * (normalized) RGB Color Histogram0
+        -2.2066 * (normalized) RGB Color Histogram0
  +       1.1514 * (normalized) RGB Color Histogram21
- +      -0.2035 * (normalized) RGB Color Histogram42
- +      -0.5422 * (normalized) RGB Color Histogram63
- +       0.086 
+ +      -0.2022 * (normalized) RGB Color Histogram42
+ +      -0.5417 * (normalized) RGB Color Histogram63
+ +       0.0853
 
-Number of kernel evaluations: 928 (73.501% cached)
-
-Classifier for classes: K4, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K4, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
+Number of kernel evaluations: 755 (77.543% cached)
 
 Classifier for classes: K5, K6
 
@@ -290,74 +210,29 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-         0.536  * (normalized) RGB Color Histogram0
- +       1.1698 * (normalized) RGB Color Histogram21
- +      -0.0062 * (normalized) RGB Color Histogram42
- +      -0.2879 * (normalized) RGB Color Histogram63
- -       2.2993
+         0.384  * (normalized) RGB Color Histogram0
+ +       1.1649 * (normalized) RGB Color Histogram21
+ +       0.1669 * (normalized) RGB Color Histogram42
+ +      -0.3407 * (normalized) RGB Color Histogram63
+ -       2.2535
 
-Number of kernel evaluations: 942 (69.788% cached)
-
-Classifier for classes: K5, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K5, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K6, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K6, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K7, K8
-
-BinarySMO: No model built yet.
+Number of kernel evaluations: 781 (67.9% cached)
 
 
 
-
-Time taken to build model: 0.27 seconds
+Time taken to build model: 0.33 seconds
 
 Time taken to test model on training data: 0.03 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances         196               47.1154 %
-Incorrectly Classified Instances       220               52.8846 %
-Kappa statistic                          0.2499
-Mean absolute error                      0.194 
-Root mean squared error                  0.3045
-Relative absolute error                 99.1279 %
-Root relative squared error             97.4743 %
+Correctly Classified Instances         200               48.0769 %
+Incorrectly Classified Instances       216               51.9231 %
+Kappa statistic                          0.2651
+Mean absolute error                      0.2431
+Root mean squared error                  0.342 
+Relative absolute error                 93.2898 %
+Root relative squared error             94.7895 %
 Total Number of Instances              416     
 
 
@@ -365,40 +240,36 @@ Total Number of Instances              416
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
                  0.000    0.000    ?          0.000    ?          ?        0.749     0.191     K1
-                 0.926    0.530    0.491      0.926    0.642      0.403    0.708     0.488     K2
-                 0.487    0.144    0.430      0.487    0.457      0.327    0.789     0.368     K3
+                 0.926    0.519    0.496      0.926    0.646      0.412    0.713     0.493     K2
+                 0.487    0.141    0.435      0.487    0.460      0.331    0.791     0.370     K3
                  0.115    0.020    0.500      0.115    0.187      0.186    0.809     0.338     K4
-                 0.234    0.063    0.405      0.234    0.297      0.218    0.766     0.330     K5
+                 0.297    0.063    0.463      0.297    0.362      0.284    0.773     0.350     K5
                  0.000    0.000    ?          0.000    ?          ?        0.671     0.304     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.471    0.227    ?          0.471    ?          ?        0.749     0.379     
+Weighted Avg.    0.481    0.223    ?          0.481    ?          ?        0.752     0.384     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-   0  40   2   0   1   0   0   0 |   a = K1
-   0 137   4   0   7   0   0   0 |   b = K2
-   0  33  37   5   1   0   0   0 |   c = K3
-   0  25  28   7   1   0   0   0 |   d = K4
-   0  41   6   2  15   0   0   0 |   e = K5
-   0   3   9   0  12   0   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+   0  40   2   0   1   0 |   a = K1
+   0 137   4   0   7   0 |   b = K2
+   0  33  37   5   1   0 |   c = K3
+   0  26  27   7   1   0 |   d = K4
+   0  37   6   2  19   0 |   e = K5
+   0   3   9   0  12   0 |   f = K6
 
-Time taken to perform cross-validation: 0.54 seconds
+Time taken to perform cross-validation: 0.55 seconds
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances         193               46.3942 %
-Incorrectly Classified Instances       223               53.6058 %
-Kappa statistic                          0.2362
-Mean absolute error                      0.1947
-Root mean squared error                  0.3058
-Relative absolute error                 99.4925 %
-Root relative squared error             97.8709 %
+Correctly Classified Instances         195               46.875  %
+Incorrectly Classified Instances       221               53.125  %
+Kappa statistic                          0.2441
+Mean absolute error                      0.245 
+Root mean squared error                  0.3448
+Relative absolute error                 94.0301 %
+Root relative squared error             95.5694 %
 Total Number of Instances              416     
 
 
@@ -406,25 +277,21 @@ Total Number of Instances              416
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
                  0.000    0.000    ?          0.000    ?          ?        0.686     0.159     K1
-                 0.919    0.560    0.476      0.919    0.627      0.371    0.686     0.472     K2
-                 0.487    0.132    0.451      0.487    0.468      0.344    0.776     0.372     K3
-                 0.082    0.020    0.417      0.082    0.137      0.132    0.805     0.330     K4
-                 0.234    0.060    0.417      0.234    0.300      0.224    0.758     0.318     K5
-                 0.000    0.000    ?          0.000    ?          ?        0.657     0.182     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.464    0.235    ?          0.464    ?          ?        0.729     0.360     
+                 0.919    0.552    0.479      0.919    0.630      0.377    0.690     0.475     K2
+                 0.487    0.132    0.451      0.487    0.468      0.344    0.777     0.372     K3
+                 0.082    0.020    0.417      0.082    0.137      0.132    0.804     0.328     K4
+                 0.266    0.060    0.447      0.266    0.333      0.258    0.762     0.329     K5
+                 0.000    0.000    ?          0.000    ?          ?        0.656     0.182     K6
+Weighted Avg.    0.469    0.233    ?          0.469    ?          ?        0.731     0.363     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-   0  41   1   0   1   0   0   0 |   a = K1
-   0 136   5   0   7   0   0   0 |   b = K2
-   0  33  37   5   1   0   0   0 |   c = K3
-   0  27  28   5   1   0   0   0 |   d = K4
-   0  42   5   2  15   0   0   0 |   e = K5
-   0   7   6   0  11   0   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+   0  41   1   0   1   0 |   a = K1
+   0 136   5   0   7   0 |   b = K2
+   0  33  37   5   1   0 |   c = K3
+   0  27  28   5   1   0 |   d = K4
+   0  40   5   2  17   0 |   e = K5
+   0   7   6   0  11   0 |   f = K6
 

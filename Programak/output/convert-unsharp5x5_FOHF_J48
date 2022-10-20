@@ -10,7 +10,7 @@ Fuzzy Opponent Histogram10 <= 0
 |   Fuzzy Opponent Histogram7 <= 51
 |   |   Fuzzy Opponent Histogram13 <= 50
 |   |   |   Fuzzy Opponent Histogram25 <= 12
-|   |   |   |   Fuzzy Opponent Histogram1 <= 0
+|   |   |   |   Fuzzy Opponent Histogram22 <= 38
 |   |   |   |   |   Fuzzy Opponent Histogram13 <= 0
 |   |   |   |   |   |   Fuzzy Opponent Histogram19 <= 12
 |   |   |   |   |   |   |   Fuzzy Opponent Histogram21 <= 0
@@ -68,8 +68,8 @@ Fuzzy Opponent Histogram10 <= 0
 |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram8 > 12: K2 (13.0/1.0)
 |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram32 > 109: K1 (6.0)
 |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 > 7
-|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 <= 9: K5 (5.0/1.0)
-|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 > 9: K1 (3.0/1.0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 <= 21: K1 (2.0/1.0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 > 21: K5 (5.0/1.0)
 |   |   |   |   |   |   Fuzzy Opponent Histogram26 > 7
 |   |   |   |   |   |   |   Fuzzy Opponent Histogram18 <= 0
 |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 <= 11
@@ -77,7 +77,7 @@ Fuzzy Opponent Histogram10 <= 0
 |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram5 > 3: K3 (10.0/1.0)
 |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 > 11: K2 (2.0)
 |   |   |   |   |   |   |   Fuzzy Opponent Histogram18 > 0: K2 (10.0)
-|   |   |   |   Fuzzy Opponent Histogram1 > 0: K6 (3.0)
+|   |   |   |   Fuzzy Opponent Histogram22 > 38: K6 (4.0/1.0)
 |   |   |   Fuzzy Opponent Histogram25 > 12
 |   |   |   |   Fuzzy Opponent Histogram14 <= 31
 |   |   |   |   |   Fuzzy Opponent Histogram22 <= 8: K2 (2.0)
@@ -124,86 +124,78 @@ Number of Leaves  : 	57
 Size of the tree : 	113
 
 
-Time taken to build model: 0.38 seconds
+Time taken to build model: 0.49 seconds
 
-Time taken to test model on training data: 0.02 seconds
+Time taken to test model on training data: 0.03 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances         383               92.0673 %
-Incorrectly Classified Instances        33                7.9327 %
-Kappa statistic                          0.8979
-Mean absolute error                      0.0315
-Root mean squared error                  0.1255
-Relative absolute error                 16.0883 %
-Root relative squared error             40.155  %
+Correctly Classified Instances         382               91.8269 %
+Incorrectly Classified Instances        34                8.1731 %
+Kappa statistic                          0.8948
+Mean absolute error                      0.0429
+Root mean squared error                  0.1465
+Relative absolute error                 16.4683 %
+Root relative squared error             40.6003 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.814    0.011    0.897      0.814    0.854      0.839    0.988     0.919     K1
+                 0.791    0.011    0.895      0.791    0.840      0.824    0.986     0.913     K1
                  0.959    0.041    0.928      0.959    0.944      0.912    0.991     0.978     K2
-                 0.934    0.041    0.835      0.934    0.882      0.856    0.981     0.879     K3
+                 0.934    0.041    0.835      0.934    0.882      0.856    0.982     0.880     K3
                  0.770    0.006    0.959      0.770    0.855      0.839    0.980     0.907     K4
                  1.000    0.006    0.970      1.000    0.985      0.982    1.000     0.997     K5
-                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.921    0.025    0.923      0.921    0.920      0.899    0.989     0.948     
+                 1.000    0.003    0.960      1.000    0.980      0.979    1.000     0.995     K6
+Weighted Avg.    0.918    0.025    0.920      0.918    0.917      0.897    0.989     0.947     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  35   7   1   0   0   0   0   0 |   a = K1
-   4 142   0   1   1   0   0   0 |   b = K2
-   0   3  71   1   1   0   0   0 |   c = K3
-   0   1  13  47   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  34   7   1   0   0   1 |   a = K1
+   3 142   0   1   2   0 |   b = K2
+   1   3  71   1   0   0 |   c = K3
+   0   1  13  47   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
-Time taken to perform cross-validation: 0.72 seconds
+Time taken to perform cross-validation: 0.85 seconds
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances         263               63.2212 %
-Incorrectly Classified Instances       153               36.7788 %
-Kappa statistic                          0.5293
-Mean absolute error                      0.0968
-Root mean squared error                  0.2813
-Relative absolute error                 49.4641 %
-Root relative squared error             90.0247 %
+Correctly Classified Instances         265               63.7019 %
+Incorrectly Classified Instances       151               36.2981 %
+Kappa statistic                          0.5367
+Mean absolute error                      0.1268
+Root mean squared error                  0.3233
+Relative absolute error                 48.6673 %
+Root relative squared error             89.6132 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.256    0.075    0.282      0.256    0.268      0.189    0.725     0.222     K1
-                 0.689    0.160    0.703      0.689    0.696      0.531    0.805     0.636     K2
-                 0.618    0.121    0.534      0.618    0.573      0.471    0.770     0.431     K3
-                 0.508    0.073    0.544      0.508    0.525      0.447    0.746     0.420     K4
-                 0.797    0.028    0.836      0.797    0.816      0.784    0.955     0.841     K5
+                 0.256    0.083    0.262      0.256    0.259      0.175    0.724     0.220     K1
+                 0.682    0.149    0.716      0.682    0.699      0.539    0.806     0.639     K2
+                 0.671    0.118    0.560      0.671    0.611      0.517    0.807     0.462     K3
+                 0.492    0.068    0.556      0.492    0.522      0.446    0.737     0.415     K4
+                 0.797    0.031    0.823      0.797    0.810      0.776    0.954     0.838     K5
                  0.875    0.013    0.808      0.875    0.840      0.831    0.975     0.878     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.632    0.103    0.632      0.632    0.631      0.529    0.815     0.569     
+Weighted Avg.    0.637    0.099    0.639      0.637    0.637      0.537    0.820     0.575     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  11  27   2   0   3   0   0   0 |   a = K1
-  25 102  10   6   4   1   0   0 |   b = K2
-   1  10  47  16   2   0   0   0 |   c = K3
-   2   3  25  31   0   0   0   0 |   d = K4
-   0   3   4   2  51   4   0   0 |   e = K5
-   0   0   0   2   1  21   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  11  27   1   1   3   0 |   a = K1
+  27 101   9   5   5   1 |   b = K2
+   2   7  51  14   2   0 |   c = K3
+   2   3  26  30   0   0 |   d = K4
+   0   3   4   2  51   4 |   e = K5
+   0   0   0   2   1  21 |   f = K6
 

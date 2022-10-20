@@ -87,27 +87,27 @@ MPEG-7 Edge Histogram76(2): class MPEG-7 Edge Histogram66 MPEG-7 Edge Histogram5
 MPEG-7 Edge Histogram77(2): class MPEG-7 Edge Histogram55 MPEG-7 Edge Histogram4 
 MPEG-7 Edge Histogram78(2): class MPEG-7 Edge Histogram58 MPEG-7 Edge Histogram76 
 MPEG-7 Edge Histogram79(2): class MPEG-7 Edge Histogram74 MPEG-7 Edge Histogram78 
-class(8): 
-LogScore Bayes: -18939.136589740905
-LogScore BDeu: -48758.756574000334
-LogScore MDL: -40444.622988603354
-LogScore ENTROPY: -21511.286614013625
-LogScore AIC: -27790.28661401341
+class(6): 
+LogScore Bayes: -18934.19733110965
+LogScore BDeu: -39942.63390793139
+LogScore MDL: -34443.384989724414
+LogScore ENTROPY: -20244.13654443964
+LogScore AIC: -24953.136544439454
 
 
-Time taken to build model: 0.33 seconds
+Time taken to build model: 0.38 seconds
 
-Time taken to test model on training data: 0.05 seconds
+Time taken to test model on training data: 0.06 seconds
 
 === Error on training data ===
 
 Correctly Classified Instances         415               99.7596 %
 Incorrectly Classified Instances         1                0.2404 %
 Kappa statistic                          0.9969
-Mean absolute error                      0.0006
-Root mean squared error                  0.0232
-Relative absolute error                  0.3096 %
-Root relative squared error              7.421  %
+Mean absolute error                      0.0008
+Root mean squared error                  0.0268
+Relative absolute error                  0.31   %
+Root relative squared error              7.4212 %
 Total Number of Instances              416     
 
 
@@ -120,61 +120,53 @@ Total Number of Instances              416
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.998    0.001    0.998      0.998    0.998      0.997    1.000     1.000     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  42   1   0   0   0   0   0   0 |   a = K1
-   0 148   0   0   0   0   0   0 |   b = K2
-   0   0  76   0   0   0   0   0 |   c = K3
-   0   0   0  61   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  42   1   0   0   0   0 |   a = K1
+   0 148   0   0   0   0 |   b = K2
+   0   0  76   0   0   0 |   c = K3
+   0   0   0  61   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
-Time taken to perform cross-validation: 0.79 seconds
+Time taken to perform cross-validation: 0.94 seconds
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances         392               94.2308 %
-Incorrectly Classified Instances        24                5.7692 %
-Kappa statistic                          0.9263
-Mean absolute error                      0.0152
-Root mean squared error                  0.1105
-Relative absolute error                  7.7552 %
-Root relative squared error             35.3781 %
+Correctly Classified Instances         396               95.1923 %
+Incorrectly Classified Instances        20                4.8077 %
+Kappa statistic                          0.9384
+Mean absolute error                      0.0173
+Root mean squared error                  0.1189
+Relative absolute error                  6.6575 %
+Root relative squared error             32.9665 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.884    0.003    0.974      0.884    0.927      0.920    0.983     0.959     K1
-                 0.966    0.011    0.979      0.966    0.973      0.958    0.997     0.992     K2
-                 0.974    0.012    0.949      0.974    0.961      0.952    0.998     0.990     K3
-                 0.885    0.008    0.947      0.885    0.915      0.902    0.993     0.969     K4
-                 0.969    0.014    0.925      0.969    0.947      0.937    0.998     0.990     K5
+                 0.907    0.005    0.951      0.907    0.929      0.921    0.983     0.960     K1
+                 0.973    0.011    0.980      0.973    0.976      0.963    0.997     0.992     K2
+                 0.974    0.012    0.949      0.974    0.961      0.952    0.997     0.985     K3
+                 0.918    0.011    0.933      0.918    0.926      0.913    0.993     0.971     K4
+                 0.969    0.014    0.925      0.969    0.947      0.937    0.998     0.989     K5
                  0.875    0.005    0.913      0.875    0.894      0.887    0.994     0.960     K6
-                 ?        0.014    0.000      ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.942    0.010    0.956      0.942    0.949      0.938    0.995     0.982     
+Weighted Avg.    0.952    0.011    0.952      0.952    0.952      0.941    0.995     0.982     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  38   2   0   0   1   1   1   0 |   a = K1
-   0 143   0   0   2   1   2   0 |   b = K2
-   0   0  74   1   0   0   1   0 |   c = K3
-   0   1   4  54   0   0   2   0 |   d = K4
-   0   0   0   2  62   0   0   0 |   e = K5
-   1   0   0   0   2  21   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  39   2   0   0   1   1 |   a = K1
+   1 144   0   0   2   1 |   b = K2
+   0   0  74   2   0   0 |   c = K3
+   0   1   4  56   0   0 |   d = K4
+   0   0   0   2  62   0 |   e = K5
+   1   0   0   0   2  21 |   f = K6
 

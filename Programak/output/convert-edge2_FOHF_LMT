@@ -5,244 +5,197 @@ Options: -I -1 -M 15 -W 0.0
 
 Logistic model tree 
 ------------------
-: LM_1:125/125 (416)
+: LM_1:49/49 (416)
 
 Number of Leaves  : 	1
 
 Size of the Tree : 	1
 LM_1:
 Class K1 :
-9.48 + 
-[Fuzzy Opponent Histogram4] * -0.02 +
+6.17 + 
 [Fuzzy Opponent Histogram5] * -0.01 +
-[Fuzzy Opponent Histogram13] * 0.03 +
-[Fuzzy Opponent Histogram14] * -0.28 +
-[Fuzzy Opponent Histogram16] * -0.12 +
-[Fuzzy Opponent Histogram17] * -0.33 +
-[Fuzzy Opponent Histogram18] * -4.35 +
-[Fuzzy Opponent Histogram21] * -0.38 +
-[Fuzzy Opponent Histogram22] * 0.52 +
-[Fuzzy Opponent Histogram25] * -0.23 +
+[Fuzzy Opponent Histogram14] * -0.08 +
+[Fuzzy Opponent Histogram17] * -0.39 +
+[Fuzzy Opponent Histogram18] * -2.69 +
+[Fuzzy Opponent Histogram21] * -0.19 +
+[Fuzzy Opponent Histogram22] * 0.49 +
+[Fuzzy Opponent Histogram25] * -0.18 +
 [Fuzzy Opponent Histogram26] * -0.09 +
-[Fuzzy Opponent Histogram31] * -0.01 +
-[Fuzzy Opponent Histogram32] * -0.21 +
-[Fuzzy Opponent Histogram35] * 0.1 
+[Fuzzy Opponent Histogram32] * -0.09
 
 Class K2 :
-12.67 + 
-[Fuzzy Opponent Histogram7] * -0.02 +
-[Fuzzy Opponent Histogram8] * -0.02 +
-[Fuzzy Opponent Histogram13] * -0.16 +
+9.6  + 
+[Fuzzy Opponent Histogram4] * -0.01 +
+[Fuzzy Opponent Histogram7] * -0.01 +
+[Fuzzy Opponent Histogram8] * -0.01 +
+[Fuzzy Opponent Histogram13] * -0.11 +
 [Fuzzy Opponent Histogram14] * 0.12 +
-[Fuzzy Opponent Histogram16] * -0.68 +
-[Fuzzy Opponent Histogram17] * 0.02 +
-[Fuzzy Opponent Histogram18] * -2.72 +
-[Fuzzy Opponent Histogram22] * -0.21 +
-[Fuzzy Opponent Histogram25] * 0.22 +
-[Fuzzy Opponent Histogram28] * -1.16 +
-[Fuzzy Opponent Histogram31] * -0.16 +
-[Fuzzy Opponent Histogram32] * 0.15 +
-[Fuzzy Opponent Histogram35] * -0.22
+[Fuzzy Opponent Histogram16] * -0.47 +
+[Fuzzy Opponent Histogram17] * -0.06 +
+[Fuzzy Opponent Histogram18] * -1.63 +
+[Fuzzy Opponent Histogram19] * -1 +
+[Fuzzy Opponent Histogram22] * -0.12 +
+[Fuzzy Opponent Histogram25] * 0.1  +
+[Fuzzy Opponent Histogram28] * -0.99 +
+[Fuzzy Opponent Histogram31] * -0.09 +
+[Fuzzy Opponent Histogram35] * -0.09
 
 Class K3 :
--8.19 + 
-[Fuzzy Opponent Histogram4] * 0.02 +
+-6.21 + 
+[Fuzzy Opponent Histogram4] * 0.01 +
 [Fuzzy Opponent Histogram5] * 0.02 +
-[Fuzzy Opponent Histogram9] * 0.13 +
-[Fuzzy Opponent Histogram10] * -6.24 +
-[Fuzzy Opponent Histogram11] * -0.49 +
-[Fuzzy Opponent Histogram12] * 1.17 +
-[Fuzzy Opponent Histogram13] * -0.06 +
-[Fuzzy Opponent Histogram14] * -0.05 +
-[Fuzzy Opponent Histogram15] * 0.22 +
-[Fuzzy Opponent Histogram16] * -0.07 +
-[Fuzzy Opponent Histogram17] * 0.18 +
-[Fuzzy Opponent Histogram19] * -5.69 +
-[Fuzzy Opponent Histogram20] * -1.26 +
-[Fuzzy Opponent Histogram21] * 0.05 +
-[Fuzzy Opponent Histogram23] * -0.14 +
-[Fuzzy Opponent Histogram24] * -0.42 +
-[Fuzzy Opponent Histogram25] * -0.09 +
-[Fuzzy Opponent Histogram26] * 0.22 +
-[Fuzzy Opponent Histogram27] * 0.27 +
-[Fuzzy Opponent Histogram28] * 1.39 +
-[Fuzzy Opponent Histogram30] * 2.6  +
-[Fuzzy Opponent Histogram31] * -0 +
+[Fuzzy Opponent Histogram10] * -2.65 +
+[Fuzzy Opponent Histogram11] * -0.44 +
+[Fuzzy Opponent Histogram12] * 0.32 +
+[Fuzzy Opponent Histogram15] * 0.2  +
+[Fuzzy Opponent Histogram16] * -0.13 +
+[Fuzzy Opponent Histogram17] * 0.15 +
+[Fuzzy Opponent Histogram19] * -2.53 +
+[Fuzzy Opponent Histogram20] * -1.62 +
+[Fuzzy Opponent Histogram21] * 0.07 +
+[Fuzzy Opponent Histogram23] * -0.18 +
+[Fuzzy Opponent Histogram26] * 0.14 +
+[Fuzzy Opponent Histogram27] * 0.31 +
+[Fuzzy Opponent Histogram28] * 0.38 +
+[Fuzzy Opponent Histogram30] * 1.06 +
 [Fuzzy Opponent Histogram32] * 0.02 +
-[Fuzzy Opponent Histogram35] * 0.05 +
-[Fuzzy Opponent Histogram38] * 2.37 +
-[Fuzzy Opponent Histogram91] * 0.48 +
-[Fuzzy Opponent Histogram119] * -0.15 +
-[Fuzzy Opponent Histogram145] * 0.98 +
-[Fuzzy Opponent Histogram146] * -2.25 +
-[Fuzzy Opponent Histogram172] * 1.12 +
-[Fuzzy Opponent Histogram173] * -6.21
+[Fuzzy Opponent Histogram35] * 0.03 +
+[Fuzzy Opponent Histogram38] * 1.37 +
+[Fuzzy Opponent Histogram91] * 0.59 +
+[Fuzzy Opponent Histogram145] * 0.23 +
+[Fuzzy Opponent Histogram146] * -0.44 +
+[Fuzzy Opponent Histogram172] * 0.77 +
+[Fuzzy Opponent Histogram173] * -2.4
 
 Class K4 :
--12.52 + 
-[Fuzzy Opponent Histogram5] * 0.04 +
-[Fuzzy Opponent Histogram7] * 0.01 +
-[Fuzzy Opponent Histogram8] * 0.04 +
-[Fuzzy Opponent Histogram9] * -0.13 +
-[Fuzzy Opponent Histogram10] * 0.73 +
-[Fuzzy Opponent Histogram12] * -0.89 +
-[Fuzzy Opponent Histogram13] * -0.05 +
-[Fuzzy Opponent Histogram14] * 0.02 +
-[Fuzzy Opponent Histogram15] * -0.31 +
-[Fuzzy Opponent Histogram16] * 0.07 +
-[Fuzzy Opponent Histogram19] * 0.97 +
-[Fuzzy Opponent Histogram20] * 2.05 +
-[Fuzzy Opponent Histogram21] * -0.01 +
-[Fuzzy Opponent Histogram22] * -0.15 +
-[Fuzzy Opponent Histogram23] * 0.17 +
-[Fuzzy Opponent Histogram24] * 0.19 +
-[Fuzzy Opponent Histogram25] * 0.16 +
-[Fuzzy Opponent Histogram26] * -0.06 +
-[Fuzzy Opponent Histogram27] * -0.05 +
-[Fuzzy Opponent Histogram28] * -0.79 +
-[Fuzzy Opponent Histogram30] * -4.1 +
-[Fuzzy Opponent Histogram31] * 0.08 +
-[Fuzzy Opponent Histogram33] * 1.84 +
+-8.64 + 
+[Fuzzy Opponent Histogram5] * 0.03 +
+[Fuzzy Opponent Histogram7] * 0    +
+[Fuzzy Opponent Histogram8] * 0.02 +
+[Fuzzy Opponent Histogram12] * -0.57 +
+[Fuzzy Opponent Histogram15] * -0.17 +
+[Fuzzy Opponent Histogram16] * 0.05 +
+[Fuzzy Opponent Histogram19] * 1.04 +
+[Fuzzy Opponent Histogram21] * -0.06 +
+[Fuzzy Opponent Histogram22] * -0.17 +
+[Fuzzy Opponent Histogram23] * 0.1  +
+[Fuzzy Opponent Histogram24] * 0.43 +
+[Fuzzy Opponent Histogram25] * 0.06 +
+[Fuzzy Opponent Histogram26] * -0.03 +
+[Fuzzy Opponent Histogram28] * -0.23 +
+[Fuzzy Opponent Histogram30] * -1.73 +
+[Fuzzy Opponent Histogram31] * 0.05 +
+[Fuzzy Opponent Histogram33] * 1.06 +
 [Fuzzy Opponent Histogram34] * 0.01 +
-[Fuzzy Opponent Histogram38] * -2.32 +
-[Fuzzy Opponent Histogram119] * 0.72 +
-[Fuzzy Opponent Histogram145] * -0.74 +
-[Fuzzy Opponent Histogram146] * 2.79 +
-[Fuzzy Opponent Histogram172] * -1.49 +
-[Fuzzy Opponent Histogram173] * 10.16
+[Fuzzy Opponent Histogram119] * 0.46 +
+[Fuzzy Opponent Histogram145] * -0.22 +
+[Fuzzy Opponent Histogram146] * 0.46 +
+[Fuzzy Opponent Histogram172] * -0.74 +
+[Fuzzy Opponent Histogram173] * 3.66
 
 Class K5 :
--27.98 + 
-[Fuzzy Opponent Histogram5] * -0.02 +
-[Fuzzy Opponent Histogram7] * -0.33 +
-[Fuzzy Opponent Histogram9] * 8.36 +
-[Fuzzy Opponent Histogram10] * 2.12 +
-[Fuzzy Opponent Histogram13] * 1.25 +
-[Fuzzy Opponent Histogram16] * 0.21 +
-[Fuzzy Opponent Histogram17] * 0.48 +
-[Fuzzy Opponent Histogram18] * 0.47 +
-[Fuzzy Opponent Histogram20] * 1.6  +
+-12.44 + 
+[Fuzzy Opponent Histogram7] * -0.12 +
+[Fuzzy Opponent Histogram9] * 2.9  +
+[Fuzzy Opponent Histogram10] * 0.54 +
+[Fuzzy Opponent Histogram13] * 0.56 +
+[Fuzzy Opponent Histogram17] * 0.21 +
+[Fuzzy Opponent Histogram18] * 0.24 +
+[Fuzzy Opponent Histogram19] * 0.37 +
 [Fuzzy Opponent Histogram21] * 0.09 +
-[Fuzzy Opponent Histogram24] * 0.6  +
-[Fuzzy Opponent Histogram25] * 0.39 +
-[Fuzzy Opponent Histogram28] * 0.4  +
-[Fuzzy Opponent Histogram29] * 0.9  +
-[Fuzzy Opponent Histogram33] * 2.01
+[Fuzzy Opponent Histogram24] * 0.82 +
+[Fuzzy Opponent Histogram25] * 0.11 +
+[Fuzzy Opponent Histogram28] * 0.18 +
+[Fuzzy Opponent Histogram29] * 0.32 +
+[Fuzzy Opponent Histogram30] * 1.05 +
+[Fuzzy Opponent Histogram33] * 1.09
 
 Class K6 :
--63.45 + 
-[Fuzzy Opponent Histogram4] * -0.04 +
-[Fuzzy Opponent Histogram7] * -0.04 +
-[Fuzzy Opponent Histogram8] * -0.05 +
-[Fuzzy Opponent Histogram9] * -1.04 +
-[Fuzzy Opponent Histogram10] * 0.39 +
-[Fuzzy Opponent Histogram11] * 11.89 +
-[Fuzzy Opponent Histogram13] * 3.4  +
-[Fuzzy Opponent Histogram15] * -0.98 +
-[Fuzzy Opponent Histogram16] * 0.1  +
-[Fuzzy Opponent Histogram17] * -0.1 +
-[Fuzzy Opponent Histogram18] * -0.57 +
-[Fuzzy Opponent Histogram19] * 1.86 +
-[Fuzzy Opponent Histogram20] * 2.28 +
-[Fuzzy Opponent Histogram22] * 0.31 +
-[Fuzzy Opponent Histogram23] * 1.98 +
-[Fuzzy Opponent Histogram24] * -0.56 +
-[Fuzzy Opponent Histogram27] * -3.98 +
-[Fuzzy Opponent Histogram30] * -2.09
-
-Class K7 :
--109.55 + 
-[Fuzzy Opponent Histogram7] * 0    +
-[Fuzzy Opponent Histogram25] * -0 +
-[Fuzzy Opponent Histogram35] * -0
-
-Class K8 :
--109.55 + 
-[Fuzzy Opponent Histogram7] * 0    +
-[Fuzzy Opponent Histogram25] * -0 +
-[Fuzzy Opponent Histogram35] * -0
+-25.96 + 
+[Fuzzy Opponent Histogram8] * -0.04 +
+[Fuzzy Opponent Histogram9] * -2.06 +
+[Fuzzy Opponent Histogram11] * 5.25 +
+[Fuzzy Opponent Histogram13] * 1.51 +
+[Fuzzy Opponent Histogram15] * -0.48 +
+[Fuzzy Opponent Histogram17] * -0.08 +
+[Fuzzy Opponent Histogram18] * -0.23 +
+[Fuzzy Opponent Histogram23] * 0.73 +
+[Fuzzy Opponent Histogram27] * -0.77 +
+[Fuzzy Opponent Histogram29] * -0.2
 
 
-Time taken to build model: 7.41 seconds
+Time taken to build model: 5.23 seconds
 
 Time taken to test model on training data: 0.03 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances         349               83.8942 %
-Incorrectly Classified Instances        67               16.1058 %
-Kappa statistic                          0.7908
-Mean absolute error                      0.0552
-Root mean squared error                  0.163 
-Relative absolute error                 28.1986 %
-Root relative squared error             52.1801 %
+Correctly Classified Instances         340               81.7308 %
+Incorrectly Classified Instances        76               18.2692 %
+Kappa statistic                          0.7612
+Mean absolute error                      0.081 
+Root mean squared error                  0.1954
+Relative absolute error                 31.0906 %
+Root relative squared error             54.1511 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.349    0.027    0.600      0.349    0.441      0.412    0.937     0.535     K1
-                 0.932    0.104    0.831      0.932    0.879      0.809    0.974     0.951     K2
-                 0.803    0.041    0.813      0.803    0.808      0.765    0.980     0.921     K3
-                 0.770    0.042    0.758      0.770    0.764      0.723    0.976     0.865     K4
+                 0.186    0.024    0.471      0.186    0.267      0.249    0.927     0.510     K1
+                 0.932    0.131    0.798      0.932    0.860      0.779    0.969     0.940     K2
+                 0.829    0.056    0.768      0.829    0.797      0.751    0.976     0.904     K3
+                 0.705    0.037    0.768      0.705    0.735      0.693    0.973     0.837     K4
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.839    0.054    0.829      0.839    0.830      0.788    0.977     0.900     
+Weighted Avg.    0.817    0.065    0.797      0.817    0.798      0.753    0.973     0.887     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  15  28   0   0   0   0   0   0 |   a = K1
-  10 138   0   0   0   0   0   0 |   b = K2
-   0   0  61  15   0   0   0   0 |   c = K3
-   0   0  14  47   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+   8  35   0   0   0   0 |   a = K1
+   9 138   1   0   0   0 |   b = K2
+   0   0  63  13   0   0 |   c = K3
+   0   0  18  43   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
-Time taken to perform cross-validation: 20.27 seconds
+Time taken to perform cross-validation: 21.08 seconds
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances         306               73.5577 %
-Incorrectly Classified Instances       110               26.4423 %
-Kappa statistic                          0.6532
-Mean absolute error                      0.0812
-Root mean squared error                  0.2076
-Relative absolute error                 41.4764 %
-Root relative squared error             66.4308 %
+Correctly Classified Instances         308               74.0385 %
+Incorrectly Classified Instances       108               25.9615 %
+Kappa statistic                          0.6577
+Mean absolute error                      0.1081
+Root mean squared error                  0.2327
+Relative absolute error                 41.4702 %
+Root relative squared error             64.4964 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.093    0.029    0.267      0.093    0.138      0.104    0.886     0.372     K1
-                 0.926    0.149    0.774      0.926    0.843      0.752    0.955     0.908     K2
-                 0.684    0.100    0.605      0.684    0.642      0.557    0.913     0.616     K3
-                 0.459    0.065    0.549      0.459    0.500      0.425    0.896     0.511     K4
-                 0.969    0.003    0.984      0.969    0.976      0.972    0.998     0.993     K5
-                 0.958    0.003    0.958      0.958    0.958      0.956    0.999     0.989     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.736    0.085    0.701      0.736    0.710      0.647    0.940     0.759     
+                 0.047    0.013    0.286      0.047    0.080      0.078    0.895     0.427     K1
+                 0.959    0.153    0.776      0.959    0.858      0.778    0.954     0.904     K2
+                 0.684    0.106    0.591      0.684    0.634      0.547    0.929     0.645     K3
+                 0.426    0.065    0.531      0.426    0.473      0.397    0.913     0.584     K4
+                 0.984    0.006    0.969      0.984    0.977      0.973    1.000     0.999     K5
+                 0.958    0.003    0.958      0.958    0.958      0.956    1.000     0.995     K6
+Weighted Avg.    0.740    0.086    0.696      0.740    0.704      0.648    0.947     0.780     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-   4  39   0   0   0   0   0   0 |   a = K1
-  10 137   1   0   0   0   0   0 |   b = K2
-   0   1  52  23   0   0   0   0 |   c = K3
-   0   0  32  28   1   0   0   0 |   d = K4
-   0   0   1   0  62   1   0   0 |   e = K5
-   1   0   0   0   0  23   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+   2  40   1   0   0   0 |   a = K1
+   4 142   1   1   0   0 |   b = K2
+   0   1  52  22   1   0 |   c = K3
+   0   0  34  26   1   0 |   d = K4
+   0   0   0   0  63   1 |   e = K5
+   1   0   0   0   0  23 |   f = K6
 

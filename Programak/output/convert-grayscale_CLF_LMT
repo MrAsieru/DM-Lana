@@ -6,935 +6,1039 @@ Options: -I -1 -M 15 -W 0.0
 Logistic model tree 
 ------------------
 
-MPEG-7 Color Layout10 <= 14: LM_1:54/108 (152)
+MPEG-7 Color Layout10 <= 14
+|   MPEG-7 Color Layout12 <= 17: LM_1:33/99 (143)
+|   MPEG-7 Color Layout12 > 17: LM_2:17/83 (9)
 MPEG-7 Color Layout10 > 14
 |   MPEG-7 Color Layout12 <= 14
-|   |   MPEG-7 Color Layout0 <= 29: LM_2:54/216 (78)
-|   |   MPEG-7 Color Layout0 > 29: LM_3:54/216 (12)
+|   |   MPEG-7 Color Layout0 <= 29: LM_3:33/132 (78)
+|   |   MPEG-7 Color Layout0 > 29: LM_4:33/132 (12)
 |   MPEG-7 Color Layout12 > 14
 |   |   MPEG-7 Color Layout5 <= 21
-|   |   |   MPEG-7 Color Layout14 <= 14: LM_4:54/270 (30)
-|   |   |   MPEG-7 Color Layout14 > 14: LM_5:54/270 (121)
-|   |   MPEG-7 Color Layout5 > 21: LM_6:54/216 (23)
+|   |   |   MPEG-7 Color Layout14 <= 14: LM_5:33/165 (30)
+|   |   |   MPEG-7 Color Layout14 > 14
+|   |   |   |   MPEG-7 Color Layout10 <= 16: LM_6:33/198 (20)
+|   |   |   |   MPEG-7 Color Layout10 > 16: LM_7:33/198 (101)
+|   |   MPEG-7 Color Layout5 > 21: LM_8:33/132 (23)
 
-Number of Leaves  : 	6
+Number of Leaves  : 	8
 
-Size of the Tree : 	11
+Size of the Tree : 	15
+
 
 LM_1:
 Class K1 :
--259.97 + 
+-312.76 + 
 [MPEG-7 Color Layout0] * 0.01 +
-[MPEG-7 Color Layout1] * -0.12 +
-[MPEG-7 Color Layout2] * 0.01 +
-[MPEG-7 Color Layout3] * 0.31 +
-[MPEG-7 Color Layout4] * -0.04 +
-[MPEG-7 Color Layout5] * 2.12 +
-[MPEG-7 Color Layout6] * 0.41 +
-[MPEG-7 Color Layout8] * 12.17 +
-[MPEG-7 Color Layout9] * 0.23 +
-[MPEG-7 Color Layout10] * 0.91 +
-[MPEG-7 Color Layout11] * -0.1 +
-[MPEG-7 Color Layout13] * -0.11 +
-[MPEG-7 Color Layout14] * 2.11 +
-[MPEG-7 Color Layout15] * -0.07 +
-[MPEG-7 Color Layout16] * -1.47 +
-[MPEG-7 Color Layout17] * -0.37 +
-[MPEG-7 Color Layout18] * 0.15 +
-[MPEG-7 Color Layout19] * -0.05 +
-[MPEG-7 Color Layout20] * 0.11
+[MPEG-7 Color Layout1] * -0.06 +
+[MPEG-7 Color Layout2] * 0.04 +
+[MPEG-7 Color Layout5] * 3.23 +
+[MPEG-7 Color Layout6] * 0.27 +
+[MPEG-7 Color Layout8] * 9.21 +
+[MPEG-7 Color Layout9] * 0.2  +
+[MPEG-7 Color Layout10] * 1.85 +
+[MPEG-7 Color Layout14] * 4.79 +
+[MPEG-7 Color Layout15] * -0.06 +
+[MPEG-7 Color Layout16] * -0.52 +
+[MPEG-7 Color Layout17] * -0.27 +
+[MPEG-7 Color Layout18] * 0.73 +
+[MPEG-7 Color Layout19] * -0.07 +
+[MPEG-7 Color Layout20] * 0.06
 
 Class K2 :
--439.53 + 
-[MPEG-7 Color Layout0] * -0.02 +
-[MPEG-7 Color Layout2] * 0.04 +
-[MPEG-7 Color Layout3] * -0.08 +
-[MPEG-7 Color Layout4] * -0.02 +
-[MPEG-7 Color Layout5] * 0.12 +
-[MPEG-7 Color Layout6] * 0.02 +
-[MPEG-7 Color Layout7] * -0.04 +
-[MPEG-7 Color Layout8] * -0.06 +
-[MPEG-7 Color Layout10] * -0.58 +
-[MPEG-7 Color Layout11] * 4.2  +
-[MPEG-7 Color Layout12] * 0.46 +
+-251.84 + 
+[MPEG-7 Color Layout0] * -0.01 +
+[MPEG-7 Color Layout2] * -0.14 +
+[MPEG-7 Color Layout3] * -0.07 +
+[MPEG-7 Color Layout5] * 0.09 +
+[MPEG-7 Color Layout10] * -0.55 +
+[MPEG-7 Color Layout11] * -0.09 +
+[MPEG-7 Color Layout12] * 0.39 +
 [MPEG-7 Color Layout13] * 0.27 +
 [MPEG-7 Color Layout14] * 0.42 +
-[MPEG-7 Color Layout15] * 0.05 +
-[MPEG-7 Color Layout16] * 14.83 +
-[MPEG-7 Color Layout19] * -0.26 +
-[MPEG-7 Color Layout20] * 4.96
+[MPEG-7 Color Layout16] * 8.26 +
+[MPEG-7 Color Layout19] * -0.17 +
+[MPEG-7 Color Layout20] * 3.73
 
 Class K3 :
--2.25 + 
-[MPEG-7 Color Layout0] * -0.21 +
-[MPEG-7 Color Layout2] * -2.13 +
-[MPEG-7 Color Layout3] * -1.11 +
-[MPEG-7 Color Layout4] * 0.3  +
-[MPEG-7 Color Layout5] * 0.76 +
-[MPEG-7 Color Layout6] * 0.25 +
-[MPEG-7 Color Layout7] * 0.99 +
-[MPEG-7 Color Layout8] * 0.68 +
-[MPEG-7 Color Layout9] * 5.07 +
-[MPEG-7 Color Layout10] * 0.49 +
-[MPEG-7 Color Layout11] * 0.65 +
-[MPEG-7 Color Layout12] * 0.03 +
-[MPEG-7 Color Layout13] * 1.06 +
-[MPEG-7 Color Layout14] * -0.5 +
-[MPEG-7 Color Layout15] * 1.65 +
-[MPEG-7 Color Layout16] * -3.62 +
-[MPEG-7 Color Layout17] * -0.77 +
-[MPEG-7 Color Layout18] * -1.75 +
-[MPEG-7 Color Layout19] * 0.43 +
-[MPEG-7 Color Layout20] * -2.55
+40.77 + 
+[MPEG-7 Color Layout0] * -0.16 +
+[MPEG-7 Color Layout1] * 0.09 +
+[MPEG-7 Color Layout2] * -2.56 +
+[MPEG-7 Color Layout3] * -0.99 +
+[MPEG-7 Color Layout4] * 0.39 +
+[MPEG-7 Color Layout5] * 1.03 +
+[MPEG-7 Color Layout6] * 0.26 +
+[MPEG-7 Color Layout7] * 0.53 +
+[MPEG-7 Color Layout9] * 5.01 +
+[MPEG-7 Color Layout10] * 0.32 +
+[MPEG-7 Color Layout11] * 0.46 +
+[MPEG-7 Color Layout12] * 0.24 +
+[MPEG-7 Color Layout13] * 1.14 +
+[MPEG-7 Color Layout14] * -0.78 +
+[MPEG-7 Color Layout15] * 1.19 +
+[MPEG-7 Color Layout16] * -3.69 +
+[MPEG-7 Color Layout17] * -0.37 +
+[MPEG-7 Color Layout18] * -1.39 +
+[MPEG-7 Color Layout19] * -0.66 +
+[MPEG-7 Color Layout20] * -3.03
 
 Class K4 :
-8.24 + 
-[MPEG-7 Color Layout0] * -0.39 +
-[MPEG-7 Color Layout2] * 2.15 +
-[MPEG-7 Color Layout3] * 0.96 +
-[MPEG-7 Color Layout4] * -0.3 +
-[MPEG-7 Color Layout5] * -1.3 +
-[MPEG-7 Color Layout6] * -0.08 +
-[MPEG-7 Color Layout7] * -0.16 +
-[MPEG-7 Color Layout8] * -0.68 +
-[MPEG-7 Color Layout9] * -2.2 +
-[MPEG-7 Color Layout10] * -2.21 +
-[MPEG-7 Color Layout11] * -0.89 +
-[MPEG-7 Color Layout12] * -0.41 +
-[MPEG-7 Color Layout13] * -1.59 +
-[MPEG-7 Color Layout14] * -0.17 +
-[MPEG-7 Color Layout15] * -1.31 +
-[MPEG-7 Color Layout16] * 1.96 +
-[MPEG-7 Color Layout17] * 0.41 +
-[MPEG-7 Color Layout18] * 0.31 +
-[MPEG-7 Color Layout19] * 1.45 +
-[MPEG-7 Color Layout20] * 3.26
+-30.11 + 
+[MPEG-7 Color Layout0] * -0.19 +
+[MPEG-7 Color Layout1] * -0.08 +
+[MPEG-7 Color Layout2] * 2.36 +
+[MPEG-7 Color Layout3] * 0.82 +
+[MPEG-7 Color Layout4] * -0.39 +
+[MPEG-7 Color Layout5] * -1.37 +
+[MPEG-7 Color Layout6] * -0.25 +
+[MPEG-7 Color Layout9] * -2.79 +
+[MPEG-7 Color Layout10] * -1.86 +
+[MPEG-7 Color Layout11] * -1.01 +
+[MPEG-7 Color Layout12] * -0.36 +
+[MPEG-7 Color Layout13] * -1.35 +
+[MPEG-7 Color Layout14] * 0.22 +
+[MPEG-7 Color Layout15] * -1.03 +
+[MPEG-7 Color Layout16] * 2.23 +
+[MPEG-7 Color Layout17] * 0.66 +
+[MPEG-7 Color Layout18] * 0.58 +
+[MPEG-7 Color Layout19] * 1.76 +
+[MPEG-7 Color Layout20] * 3.44
 
 Class K5 :
-127.23 + 
-[MPEG-7 Color Layout0] * 0.53 +
-[MPEG-7 Color Layout1] * 0.44 +
-[MPEG-7 Color Layout2] * -0.13 +
-[MPEG-7 Color Layout3] * 0.2  +
-[MPEG-7 Color Layout4] * -0.42 +
-[MPEG-7 Color Layout5] * 0.07 +
-[MPEG-7 Color Layout6] * 0.04 +
-[MPEG-7 Color Layout7] * -3.46 +
-[MPEG-7 Color Layout8] * -0.04 +
-[MPEG-7 Color Layout9] * -5.79 +
-[MPEG-7 Color Layout10] * 2.92 +
-[MPEG-7 Color Layout11] * 2.31 +
-[MPEG-7 Color Layout12] * -0.17 +
-[MPEG-7 Color Layout13] * 0.15 +
-[MPEG-7 Color Layout14] * 0.12 +
-[MPEG-7 Color Layout15] * -6.39 +
-[MPEG-7 Color Layout16] * 4.71 +
-[MPEG-7 Color Layout17] * 0.8  +
-[MPEG-7 Color Layout18] * 0.28 +
-[MPEG-7 Color Layout19] * -4.76
+127.53 + 
+[MPEG-7 Color Layout0] * 0.68 +
+[MPEG-7 Color Layout1] * 0.14 +
+[MPEG-7 Color Layout2] * -0.12 +
+[MPEG-7 Color Layout3] * 0.14 +
+[MPEG-7 Color Layout4] * -0.19 +
+[MPEG-7 Color Layout5] * 0.08 +
+[MPEG-7 Color Layout7] * -3.59 +
+[MPEG-7 Color Layout9] * -9.45 +
+[MPEG-7 Color Layout10] * 4.03 +
+[MPEG-7 Color Layout11] * 2.43 +
+[MPEG-7 Color Layout12] * -0.13 +
+[MPEG-7 Color Layout13] * 0.08 +
+[MPEG-7 Color Layout14] * 0.14 +
+[MPEG-7 Color Layout15] * -7.17 +
+[MPEG-7 Color Layout16] * 7.61 +
+[MPEG-7 Color Layout17] * 1.08 +
+[MPEG-7 Color Layout18] * 0.95 +
+[MPEG-7 Color Layout19] * -5.22
 
 Class K6 :
-41.59 + 
-[MPEG-7 Color Layout0] * 0.03 +
-[MPEG-7 Color Layout1] * -0.29 +
-[MPEG-7 Color Layout2] * -0.28 +
-[MPEG-7 Color Layout3] * 1.96 +
-[MPEG-7 Color Layout4] * 0.43 +
-[MPEG-7 Color Layout5] * 0.06 +
-[MPEG-7 Color Layout6] * -0.3 +
-[MPEG-7 Color Layout7] * -4.55 +
-[MPEG-7 Color Layout8] * 0.08 +
-[MPEG-7 Color Layout9] * -0.26 +
-[MPEG-7 Color Layout10] * -0.43 +
-[MPEG-7 Color Layout11] * 0.2  +
-[MPEG-7 Color Layout12] * 2.51 +
-[MPEG-7 Color Layout13] * -2.04 +
-[MPEG-7 Color Layout14] * 0.07 +
-[MPEG-7 Color Layout15] * 0.28 +
-[MPEG-7 Color Layout16] * 0.23 +
-[MPEG-7 Color Layout18] * 6.67 +
-[MPEG-7 Color Layout19] * -2.8 +
-[MPEG-7 Color Layout20] * -3.79
-
-Class K7 :
--94.71 + 
-[MPEG-7 Color Layout0] * 0    +
-[MPEG-7 Color Layout9] * 0    +
-[MPEG-7 Color Layout10] * 0    +
-[MPEG-7 Color Layout12] * 0    +
-[MPEG-7 Color Layout19] * 0   
-
-Class K8 :
--94.71 + 
-[MPEG-7 Color Layout0] * 0    +
-[MPEG-7 Color Layout9] * 0    +
-[MPEG-7 Color Layout10] * 0    +
-[MPEG-7 Color Layout12] * 0    +
-[MPEG-7 Color Layout19] * 0   
-
-
+-403.27 + 
+[MPEG-7 Color Layout0] * -0.22 +
+[MPEG-7 Color Layout1] * -0.25 +
+[MPEG-7 Color Layout2] * 1.36 +
+[MPEG-7 Color Layout3] * 1.05 +
+[MPEG-7 Color Layout5] * 0.02 +
+[MPEG-7 Color Layout6] * -0.14 +
+[MPEG-7 Color Layout7] * -2.06 +
+[MPEG-7 Color Layout8] * 3.33 +
+[MPEG-7 Color Layout9] * -0.17 +
+[MPEG-7 Color Layout10] * -0.29 +
+[MPEG-7 Color Layout12] * 1.92 +
+[MPEG-7 Color Layout13] * -1.04 +
+[MPEG-7 Color Layout15] * 0.16 +
+[MPEG-7 Color Layout16] * 21.99 +
+[MPEG-7 Color Layout18] * 3.88 +
+[MPEG-7 Color Layout19] * -4.29 +
+[MPEG-7 Color Layout20] * -0.65
 
 LM_2:
 Class K1 :
--2.45 + 
-[MPEG-7 Color Layout0] * -0.3 +
-[MPEG-7 Color Layout1] * 0.06 +
-[MPEG-7 Color Layout2] * 0.38 +
-[MPEG-7 Color Layout3] * -0.13 +
-[MPEG-7 Color Layout4] * -0.41 +
-[MPEG-7 Color Layout5] * -0.53 +
-[MPEG-7 Color Layout6] * -0.18 +
-[MPEG-7 Color Layout7] * -0.57 +
-[MPEG-7 Color Layout8] * 0.34 +
-[MPEG-7 Color Layout9] * 1.21 +
-[MPEG-7 Color Layout10] * 0.78 +
-[MPEG-7 Color Layout11] * 0.05 +
-[MPEG-7 Color Layout12] * -2.17 +
-[MPEG-7 Color Layout13] * 1.48 +
-[MPEG-7 Color Layout14] * -0.87 +
-[MPEG-7 Color Layout15] * 0.8  +
-[MPEG-7 Color Layout16] * 0.03 +
-[MPEG-7 Color Layout17] * -0 +
-[MPEG-7 Color Layout18] * 0.41 +
-[MPEG-7 Color Layout19] * -0.29 +
-[MPEG-7 Color Layout20] * -0.45
+-194.93 + 
+[MPEG-7 Color Layout0] * 0.01 +
+[MPEG-7 Color Layout1] * -0.06 +
+[MPEG-7 Color Layout2] * 0.04 +
+[MPEG-7 Color Layout5] * 1.23 +
+[MPEG-7 Color Layout6] * 0.27 +
+[MPEG-7 Color Layout8] * 6.87 +
+[MPEG-7 Color Layout9] * 0.2  +
+[MPEG-7 Color Layout10] * 1.85 +
+[MPEG-7 Color Layout14] * 1.73 +
+[MPEG-7 Color Layout15] * -0.06 +
+[MPEG-7 Color Layout16] * -0.52 +
+[MPEG-7 Color Layout17] * -0.27 +
+[MPEG-7 Color Layout18] * 0.2  +
+[MPEG-7 Color Layout19] * -0.07 +
+[MPEG-7 Color Layout20] * 0.06
 
 Class K2 :
--48.13 + 
-[MPEG-7 Color Layout0] * -0.9 +
-[MPEG-7 Color Layout1] * 0.24 +
-[MPEG-7 Color Layout2] * 0.12 +
-[MPEG-7 Color Layout3] * -0.57 +
-[MPEG-7 Color Layout4] * 1.34 +
-[MPEG-7 Color Layout5] * 0.43 +
-[MPEG-7 Color Layout6] * 0.04 +
-[MPEG-7 Color Layout7] * -0.1 +
-[MPEG-7 Color Layout8] * -1.34 +
-[MPEG-7 Color Layout9] * -0.06 +
-[MPEG-7 Color Layout10] * 2.51 +
-[MPEG-7 Color Layout11] * 0.95 +
-[MPEG-7 Color Layout12] * 0.72 +
-[MPEG-7 Color Layout13] * 0.66 +
-[MPEG-7 Color Layout14] * 1.15 +
-[MPEG-7 Color Layout15] * -2.83 +
-[MPEG-7 Color Layout16] * -0.57 +
-[MPEG-7 Color Layout17] * -1.79 +
-[MPEG-7 Color Layout18] * 2.41 +
-[MPEG-7 Color Layout19] * -0.26 +
-[MPEG-7 Color Layout20] * 0.04
+-446.28 + 
+[MPEG-7 Color Layout0] * 2.21 +
+[MPEG-7 Color Layout2] * -0.14 +
+[MPEG-7 Color Layout3] * 16.6 +
+[MPEG-7 Color Layout5] * 0.09 +
+[MPEG-7 Color Layout10] * -0.55 +
+[MPEG-7 Color Layout11] * -0.09 +
+[MPEG-7 Color Layout12] * 0.39 +
+[MPEG-7 Color Layout13] * 0.27 +
+[MPEG-7 Color Layout14] * 0.42 +
+[MPEG-7 Color Layout16] * 8.26 +
+[MPEG-7 Color Layout19] * -0.17 +
+[MPEG-7 Color Layout20] * 3.73
 
 Class K3 :
--130.08 + 
-[MPEG-7 Color Layout0] * -0.28 +
-[MPEG-7 Color Layout2] * -0.93 +
-[MPEG-7 Color Layout3] * -0.29 +
-[MPEG-7 Color Layout5] * -0.11 +
-[MPEG-7 Color Layout7] * 0.6  +
-[MPEG-7 Color Layout9] * 2.81 +
-[MPEG-7 Color Layout10] * -0.26 +
-[MPEG-7 Color Layout11] * 0.24 +
-[MPEG-7 Color Layout12] * -0.07 +
-[MPEG-7 Color Layout14] * -0.5 +
-[MPEG-7 Color Layout15] * 0.63 +
-[MPEG-7 Color Layout16] * -0.74 +
-[MPEG-7 Color Layout17] * -0.35 +
-[MPEG-7 Color Layout18] * -1.25 +
-[MPEG-7 Color Layout19] * 0.43 +
-[MPEG-7 Color Layout20] * -1.2
+2.73 + 
+[MPEG-7 Color Layout0] * -0.16 +
+[MPEG-7 Color Layout1] * 0.09 +
+[MPEG-7 Color Layout2] * -1.44 +
+[MPEG-7 Color Layout3] * -0.49 +
+[MPEG-7 Color Layout5] * 0.37 +
+[MPEG-7 Color Layout6] * 0.26 +
+[MPEG-7 Color Layout7] * 0.53 +
+[MPEG-7 Color Layout9] * 3.95 +
+[MPEG-7 Color Layout10] * -0.01 +
+[MPEG-7 Color Layout12] * 0.14 +
+[MPEG-7 Color Layout13] * 0.85 +
+[MPEG-7 Color Layout14] * -0.61 +
+[MPEG-7 Color Layout15] * 0.83 +
+[MPEG-7 Color Layout16] * -2.79 +
+[MPEG-7 Color Layout18] * -0.91 +
+[MPEG-7 Color Layout20] * -2.08
 
 Class K4 :
--134.25 + 
-[MPEG-7 Color Layout0] * -11.61 +
-[MPEG-7 Color Layout1] * 1.69 +
-[MPEG-7 Color Layout2] * 0.79 +
-[MPEG-7 Color Layout3] * -1.18 +
-[MPEG-7 Color Layout5] * -4.11 +
-[MPEG-7 Color Layout6] * 4.74 +
-[MPEG-7 Color Layout7] * -1.57 +
-[MPEG-7 Color Layout9] * -0.37 +
-[MPEG-7 Color Layout10] * -16.45 +
-[MPEG-7 Color Layout11] * 4.16 +
-[MPEG-7 Color Layout12] * -3.51 +
-[MPEG-7 Color Layout13] * 2.86 +
-[MPEG-7 Color Layout14] * -0.17 +
-[MPEG-7 Color Layout15] * -0.9 +
-[MPEG-7 Color Layout16] * 0.26 +
-[MPEG-7 Color Layout18] * -4.44 +
-[MPEG-7 Color Layout19] * 26.12 +
-[MPEG-7 Color Layout20] * 3.11
+-20.41 + 
+[MPEG-7 Color Layout0] * -0.19 +
+[MPEG-7 Color Layout1] * -0.08 +
+[MPEG-7 Color Layout2] * 1.24 +
+[MPEG-7 Color Layout3] * 0.32 +
+[MPEG-7 Color Layout5] * -0.71 +
+[MPEG-7 Color Layout6] * -0.25 +
+[MPEG-7 Color Layout9] * -1.73 +
+[MPEG-7 Color Layout10] * -1.53 +
+[MPEG-7 Color Layout11] * -0.55 +
+[MPEG-7 Color Layout12] * -0.25 +
+[MPEG-7 Color Layout13] * -1.06 +
+[MPEG-7 Color Layout14] * 0.05 +
+[MPEG-7 Color Layout15] * -0.66 +
+[MPEG-7 Color Layout16] * 1.34 +
+[MPEG-7 Color Layout17] * 0.29 +
+[MPEG-7 Color Layout18] * 0.1  +
+[MPEG-7 Color Layout19] * 1.1  +
+[MPEG-7 Color Layout20] * 2.49
 
 Class K5 :
--19.27 + 
-[MPEG-7 Color Layout0] * 0.22 +
-[MPEG-7 Color Layout1] * 0.05 +
-[MPEG-7 Color Layout2] * -0.46 +
-[MPEG-7 Color Layout3] * 1    +
-[MPEG-7 Color Layout4] * 0.16 +
-[MPEG-7 Color Layout5] * 0.32 +
-[MPEG-7 Color Layout6] * 1.65 +
-[MPEG-7 Color Layout7] * 0.27 +
-[MPEG-7 Color Layout8] * 0.05 +
-[MPEG-7 Color Layout9] * -0.99 +
-[MPEG-7 Color Layout10] * -0.75 +
-[MPEG-7 Color Layout11] * 0.02 +
-[MPEG-7 Color Layout12] * -0.07 +
-[MPEG-7 Color Layout13] * -1.84 +
-[MPEG-7 Color Layout14] * -0.75 +
-[MPEG-7 Color Layout15] * -1.72 +
-[MPEG-7 Color Layout16] * 1.94 +
-[MPEG-7 Color Layout17] * 0.29 +
-[MPEG-7 Color Layout18] * -0.29 +
-[MPEG-7 Color Layout19] * 1.12 +
-[MPEG-7 Color Layout20] * 0.92
+94.01 + 
+[MPEG-7 Color Layout0] * 0.31 +
+[MPEG-7 Color Layout1] * 0.14 +
+[MPEG-7 Color Layout2] * -0.12 +
+[MPEG-7 Color Layout3] * 0.14 +
+[MPEG-7 Color Layout4] * -0.19 +
+[MPEG-7 Color Layout7] * -2.34 +
+[MPEG-7 Color Layout9] * -3.71 +
+[MPEG-7 Color Layout10] * 1.42 +
+[MPEG-7 Color Layout11] * 2.43 +
+[MPEG-7 Color Layout12] * -0.13 +
+[MPEG-7 Color Layout13] * 0.08 +
+[MPEG-7 Color Layout14] * 0.14 +
+[MPEG-7 Color Layout15] * -4.5 +
+[MPEG-7 Color Layout16] * 1.86 +
+[MPEG-7 Color Layout17] * 0.55 +
+[MPEG-7 Color Layout18] * 0.21 +
+[MPEG-7 Color Layout19] * -3.7
 
 Class K6 :
-84.28 + 
-[MPEG-7 Color Layout0] * 0.01 +
-[MPEG-7 Color Layout1] * -0.47 +
-[MPEG-7 Color Layout2] * -1.26 +
-[MPEG-7 Color Layout3] * 0.46 +
-[MPEG-7 Color Layout4] * -0.69 +
-[MPEG-7 Color Layout5] * 0.93 +
-[MPEG-7 Color Layout6] * -1.96 +
-[MPEG-7 Color Layout7] * 2.12 +
-[MPEG-7 Color Layout8] * -0.11 +
-[MPEG-7 Color Layout9] * -0.83 +
-[MPEG-7 Color Layout10] * 0.17 +
-[MPEG-7 Color Layout11] * -0.18 +
-[MPEG-7 Color Layout12] * 1.89 +
-[MPEG-7 Color Layout13] * -1.83 +
-[MPEG-7 Color Layout14] * 1.03 +
-[MPEG-7 Color Layout15] * 0.46 +
-[MPEG-7 Color Layout16] * -4.59 +
-[MPEG-7 Color Layout17] * 0.59 +
-[MPEG-7 Color Layout18] * -4.02 +
-[MPEG-7 Color Layout19] * 0.98 +
-[MPEG-7 Color Layout20] * 1.43
+217.03 + 
+[MPEG-7 Color Layout0] * -4.96 +
+[MPEG-7 Color Layout1] * -0.25 +
+[MPEG-7 Color Layout2] * -0.2 +
+[MPEG-7 Color Layout3] * -12.29 +
+[MPEG-7 Color Layout5] * 0.02 +
+[MPEG-7 Color Layout6] * -0.14 +
+[MPEG-7 Color Layout7] * -2.06 +
+[MPEG-7 Color Layout9] * -0.17 +
+[MPEG-7 Color Layout10] * -0.29 +
+[MPEG-7 Color Layout12] * 1.92 +
+[MPEG-7 Color Layout13] * -1.04 +
+[MPEG-7 Color Layout15] * 0.16 +
+[MPEG-7 Color Layout16] * -0.15 +
+[MPEG-7 Color Layout18] * 3.88 +
+[MPEG-7 Color Layout19] * -1.95 +
+[MPEG-7 Color Layout20] * -0.65
 
-Class K7 :
--189.21 + 
-[MPEG-7 Color Layout0] * 0    +
-[MPEG-7 Color Layout9] * 0    +
-[MPEG-7 Color Layout10] * 0    +
-[MPEG-7 Color Layout12] * 0    +
-[MPEG-7 Color Layout19] * 0   
 
-Class K8 :
--189.21 + 
-[MPEG-7 Color Layout0] * 0    +
-[MPEG-7 Color Layout9] * 0    +
-[MPEG-7 Color Layout10] * 0    +
-[MPEG-7 Color Layout12] * 0    +
-[MPEG-7 Color Layout19] * 0   
 
 LM_3:
 Class K1 :
--15 + 
-[MPEG-7 Color Layout0] * 1.01 +
-[MPEG-7 Color Layout1] * -0.15 +
-[MPEG-7 Color Layout2] * 0.13 +
-[MPEG-7 Color Layout3] * -0.06 +
-[MPEG-7 Color Layout4] * -0.41 +
-[MPEG-7 Color Layout5] * -0.08 +
-[MPEG-7 Color Layout6] * 2.55 +
-[MPEG-7 Color Layout7] * 0.23 +
-[MPEG-7 Color Layout8] * 1.64 +
-[MPEG-7 Color Layout9] * 0.24 +
-[MPEG-7 Color Layout10] * 0.59 +
-[MPEG-7 Color Layout11] * 0.98 +
-[MPEG-7 Color Layout12] * -5.23 +
-[MPEG-7 Color Layout13] * -1.07 +
-[MPEG-7 Color Layout14] * -0.42 +
-[MPEG-7 Color Layout15] * 0.41 +
-[MPEG-7 Color Layout16] * 0.54 +
-[MPEG-7 Color Layout17] * -0.25 +
-[MPEG-7 Color Layout18] * -0.16 +
-[MPEG-7 Color Layout19] * -0.29 +
-[MPEG-7 Color Layout20] * -2.14
+-1 + 
+[MPEG-7 Color Layout0] * -0.2 +
+[MPEG-7 Color Layout1] * -0.08 +
+[MPEG-7 Color Layout2] * 0.16 +
+[MPEG-7 Color Layout3] * -0.1 +
+[MPEG-7 Color Layout4] * -0.3 +
+[MPEG-7 Color Layout5] * -0.41 +
+[MPEG-7 Color Layout6] * -0.14 +
+[MPEG-7 Color Layout7] * -0.32 +
+[MPEG-7 Color Layout8] * 0.25 +
+[MPEG-7 Color Layout9] * 0.92 +
+[MPEG-7 Color Layout10] * 0.65 +
+[MPEG-7 Color Layout11] * 0.07 +
+[MPEG-7 Color Layout12] * -1.32 +
+[MPEG-7 Color Layout13] * 1.34 +
+[MPEG-7 Color Layout14] * -0.37 +
+[MPEG-7 Color Layout15] * 0.42 +
+[MPEG-7 Color Layout16] * 0.12 +
+[MPEG-7 Color Layout17] * -0.27 +
+[MPEG-7 Color Layout18] * 0.2  +
+[MPEG-7 Color Layout19] * -0.49 +
+[MPEG-7 Color Layout20] * -0.39
 
 Class K2 :
--1.87 + 
-[MPEG-7 Color Layout0] * -1.24 +
-[MPEG-7 Color Layout1] * -0.01 +
-[MPEG-7 Color Layout2] * 0.12 +
-[MPEG-7 Color Layout3] * -0.21 +
-[MPEG-7 Color Layout4] * 0.52 +
-[MPEG-7 Color Layout5] * 0.29 +
-[MPEG-7 Color Layout6] * -1.39 +
-[MPEG-7 Color Layout7] * -0.68 +
-[MPEG-7 Color Layout8] * -1.87 +
-[MPEG-7 Color Layout9] * -0.06 +
-[MPEG-7 Color Layout10] * 0.72 +
-[MPEG-7 Color Layout11] * -0.69 +
-[MPEG-7 Color Layout12] * 4.61 +
-[MPEG-7 Color Layout13] * 0.89 +
-[MPEG-7 Color Layout14] * 1    +
-[MPEG-7 Color Layout15] * -2.42 +
-[MPEG-7 Color Layout16] * -0.02 +
-[MPEG-7 Color Layout17] * 0.1  +
-[MPEG-7 Color Layout18] * 1.25 +
-[MPEG-7 Color Layout19] * -0.26 +
-[MPEG-7 Color Layout20] * 2.29
+-35.37 + 
+[MPEG-7 Color Layout0] * -0.48 +
+[MPEG-7 Color Layout2] * 0.14 +
+[MPEG-7 Color Layout3] * -0.33 +
+[MPEG-7 Color Layout4] * 0.51 +
+[MPEG-7 Color Layout5] * 0.19 +
+[MPEG-7 Color Layout6] * -0.03 +
+[MPEG-7 Color Layout7] * -0.08 +
+[MPEG-7 Color Layout8] * -0.87 +
+[MPEG-7 Color Layout9] * -0.01 +
+[MPEG-7 Color Layout10] * 1.57 +
+[MPEG-7 Color Layout11] * 0.92 +
+[MPEG-7 Color Layout12] * 0.47 +
+[MPEG-7 Color Layout13] * 1.05 +
+[MPEG-7 Color Layout14] * 0.93 +
+[MPEG-7 Color Layout15] * -2.31 +
+[MPEG-7 Color Layout16] * -0.07 +
+[MPEG-7 Color Layout17] * -1.76 +
+[MPEG-7 Color Layout18] * 2.04 +
+[MPEG-7 Color Layout19] * -0.17 +
+[MPEG-7 Color Layout20] * 0.04
 
 Class K3 :
--130.08 + 
-[MPEG-7 Color Layout0] * -0.28 +
-[MPEG-7 Color Layout2] * -0.93 +
+-78.64 + 
+[MPEG-7 Color Layout0] * -0.16 +
+[MPEG-7 Color Layout2] * -0.5 +
 [MPEG-7 Color Layout3] * -0.29 +
-[MPEG-7 Color Layout5] * -0.11 +
-[MPEG-7 Color Layout7] * 0.6  +
-[MPEG-7 Color Layout9] * 2.81 +
-[MPEG-7 Color Layout10] * -0.26 +
-[MPEG-7 Color Layout11] * 0.24 +
-[MPEG-7 Color Layout12] * -0.07 +
-[MPEG-7 Color Layout14] * -0.5 +
-[MPEG-7 Color Layout15] * 0.63 +
-[MPEG-7 Color Layout16] * -0.74 +
-[MPEG-7 Color Layout17] * -0.35 +
-[MPEG-7 Color Layout18] * -1.25 +
-[MPEG-7 Color Layout19] * 0.43 +
-[MPEG-7 Color Layout20] * -1.2
+[MPEG-7 Color Layout5] * -0.08 +
+[MPEG-7 Color Layout7] * 0.53 +
+[MPEG-7 Color Layout8] * -0 +
+[MPEG-7 Color Layout9] * 1.99 +
+[MPEG-7 Color Layout10] * -0.24 +
+[MPEG-7 Color Layout11] * 0.01 +
+[MPEG-7 Color Layout12] * 0    +
+[MPEG-7 Color Layout14] * -0.34 +
+[MPEG-7 Color Layout15] * 0.37 +
+[MPEG-7 Color Layout16] * -0.3 +
+[MPEG-7 Color Layout18] * -0.81 +
+[MPEG-7 Color Layout20] * -0.83
 
 Class K4 :
--217.66 + 
-[MPEG-7 Color Layout0] * -5.39 +
-[MPEG-7 Color Layout1] * 1.45 +
-[MPEG-7 Color Layout2] * 0.79 +
-[MPEG-7 Color Layout3] * -1.18 +
-[MPEG-7 Color Layout5] * -4.11 +
-[MPEG-7 Color Layout6] * 1.03 +
-[MPEG-7 Color Layout7] * -1.57 +
-[MPEG-7 Color Layout9] * -0.37 +
-[MPEG-7 Color Layout10] * -8.53 +
-[MPEG-7 Color Layout11] * 4.16 +
-[MPEG-7 Color Layout12] * -3.51 +
-[MPEG-7 Color Layout13] * 2.86 +
-[MPEG-7 Color Layout14] * -0.17 +
-[MPEG-7 Color Layout15] * -0.9 +
-[MPEG-7 Color Layout16] * 0.26 +
-[MPEG-7 Color Layout18] * -4.44 +
-[MPEG-7 Color Layout19] * 22.64 +
-[MPEG-7 Color Layout20] * 3.11
+72.43 + 
+[MPEG-7 Color Layout0] * -28.8 +
+[MPEG-7 Color Layout1] * 0.6  +
+[MPEG-7 Color Layout2] * 0.54 +
+[MPEG-7 Color Layout5] * -1.36 +
+[MPEG-7 Color Layout6] * 1.74 +
+[MPEG-7 Color Layout7] * -0.45 +
+[MPEG-7 Color Layout9] * 0.18 +
+[MPEG-7 Color Layout10] * -4.25 +
+[MPEG-7 Color Layout11] * 1.77 +
+[MPEG-7 Color Layout12] * -1.98 +
+[MPEG-7 Color Layout13] * -0.26 +
+[MPEG-7 Color Layout14] * -0.22 +
+[MPEG-7 Color Layout15] * -0.2 +
+[MPEG-7 Color Layout18] * -2.68 +
+[MPEG-7 Color Layout19] * 10.95 +
+[MPEG-7 Color Layout20] * 1.27
 
 Class K5 :
--68.55 + 
-[MPEG-7 Color Layout0] * 0.03 +
-[MPEG-7 Color Layout1] * 0.26 +
-[MPEG-7 Color Layout2] * -0.37 +
-[MPEG-7 Color Layout3] * 0.86 +
-[MPEG-7 Color Layout4] * 0.16 +
-[MPEG-7 Color Layout5] * 0.08 +
-[MPEG-7 Color Layout6] * 0.3  +
-[MPEG-7 Color Layout7] * -0.11 +
-[MPEG-7 Color Layout8] * -0.1 +
-[MPEG-7 Color Layout9] * -0.44 +
-[MPEG-7 Color Layout10] * -0.45 +
-[MPEG-7 Color Layout11] * -0.51 +
-[MPEG-7 Color Layout12] * -0.07 +
-[MPEG-7 Color Layout13] * -0.59 +
-[MPEG-7 Color Layout14] * -0.88 +
-[MPEG-7 Color Layout15] * 0.2  +
-[MPEG-7 Color Layout16] * 0.65 +
-[MPEG-7 Color Layout17] * 0.54 +
-[MPEG-7 Color Layout18] * 0.26 +
-[MPEG-7 Color Layout19] * 0.87 +
-[MPEG-7 Color Layout20] * 0.58
+-42.56 + 
+[MPEG-7 Color Layout0] * 0.12 +
+[MPEG-7 Color Layout1] * 0.15 +
+[MPEG-7 Color Layout2] * -0.24 +
+[MPEG-7 Color Layout3] * 0.8  +
+[MPEG-7 Color Layout4] * 0.19 +
+[MPEG-7 Color Layout5] * 0.1  +
+[MPEG-7 Color Layout6] * 0.77 +
+[MPEG-7 Color Layout7] * 0.06 +
+[MPEG-7 Color Layout9] * -0.54 +
+[MPEG-7 Color Layout10] * -0.53 +
+[MPEG-7 Color Layout11] * -0.26 +
+[MPEG-7 Color Layout12] * -0.1 +
+[MPEG-7 Color Layout13] * -1.07 +
+[MPEG-7 Color Layout14] * -0.46 +
+[MPEG-7 Color Layout15] * -0.83 +
+[MPEG-7 Color Layout16] * 1.68 +
+[MPEG-7 Color Layout17] * 0.33 +
+[MPEG-7 Color Layout18] * 0.39 +
+[MPEG-7 Color Layout19] * 1.5  +
+[MPEG-7 Color Layout20] * 0.64
 
 Class K6 :
-38.39 + 
-[MPEG-7 Color Layout0] * -0.03 +
-[MPEG-7 Color Layout1] * -0.29 +
-[MPEG-7 Color Layout2] * -0.85 +
-[MPEG-7 Color Layout3] * 0.46 +
-[MPEG-7 Color Layout4] * -0.59 +
-[MPEG-7 Color Layout5] * 0.64 +
-[MPEG-7 Color Layout6] * -1.03 +
-[MPEG-7 Color Layout7] * 0.57 +
-[MPEG-7 Color Layout8] * 0.26 +
-[MPEG-7 Color Layout9] * -0.26 +
-[MPEG-7 Color Layout10] * -0.23 +
-[MPEG-7 Color Layout11] * -0.18 +
-[MPEG-7 Color Layout12] * 1.07 +
-[MPEG-7 Color Layout13] * -1.83 +
-[MPEG-7 Color Layout14] * 0.13 +
-[MPEG-7 Color Layout15] * 0.46 +
-[MPEG-7 Color Layout16] * -3.38 +
-[MPEG-7 Color Layout17] * -0 +
-[MPEG-7 Color Layout18] * -1.76 +
-[MPEG-7 Color Layout19] * 0.5  +
-[MPEG-7 Color Layout20] * 0.44
-
-Class K7 :
--189.21 + 
-[MPEG-7 Color Layout0] * 0    +
-[MPEG-7 Color Layout9] * 0    +
-[MPEG-7 Color Layout10] * 0    +
-[MPEG-7 Color Layout12] * 0    +
-[MPEG-7 Color Layout19] * 0   
-
-Class K8 :
--189.21 + 
-[MPEG-7 Color Layout0] * 0    +
-[MPEG-7 Color Layout9] * 0    +
-[MPEG-7 Color Layout10] * 0    +
-[MPEG-7 Color Layout12] * 0    +
-[MPEG-7 Color Layout19] * 0   
-
-
+72.16 + 
+[MPEG-7 Color Layout0] * 0.04 +
+[MPEG-7 Color Layout1] * -0.35 +
+[MPEG-7 Color Layout2] * -0.91 +
+[MPEG-7 Color Layout3] * 0.35 +
+[MPEG-7 Color Layout4] * -0.48 +
+[MPEG-7 Color Layout5] * 0.46 +
+[MPEG-7 Color Layout6] * -1.31 +
+[MPEG-7 Color Layout7] * 1.43 +
+[MPEG-7 Color Layout8] * -0.09 +
+[MPEG-7 Color Layout9] * -0.17 +
+[MPEG-7 Color Layout10] * -0.07 +
+[MPEG-7 Color Layout11] * -0.03 +
+[MPEG-7 Color Layout12] * 1.33 +
+[MPEG-7 Color Layout13] * -0.91 +
+[MPEG-7 Color Layout14] * 0.68 +
+[MPEG-7 Color Layout15] * 0.16 +
+[MPEG-7 Color Layout16] * -2.86 +
+[MPEG-7 Color Layout18] * -3.18 +
+[MPEG-7 Color Layout19] * 0.34 +
+[MPEG-7 Color Layout20] * 0.66
 
 LM_4:
 Class K1 :
-290.86 + 
-[MPEG-7 Color Layout0] * 0.04 +
-[MPEG-7 Color Layout1] * 0.06 +
-[MPEG-7 Color Layout2] * -0.37 +
-[MPEG-7 Color Layout3] * -0.17 +
-[MPEG-7 Color Layout4] * 1.32 +
-[MPEG-7 Color Layout5] * -0.3 +
-[MPEG-7 Color Layout6] * 0.59 +
-[MPEG-7 Color Layout7] * -0.12 +
-[MPEG-7 Color Layout8] * -0.54 +
-[MPEG-7 Color Layout9] * 0.19 +
-[MPEG-7 Color Layout10] * -0.55 +
-[MPEG-7 Color Layout11] * 0.52 +
-[MPEG-7 Color Layout12] * -1.87 +
-[MPEG-7 Color Layout13] * -2.78 +
-[MPEG-7 Color Layout14] * -10.83 +
-[MPEG-7 Color Layout15] * -5.31 +
-[MPEG-7 Color Layout16] * 1.67 +
-[MPEG-7 Color Layout17] * -1.34 +
-[MPEG-7 Color Layout18] * 1.22 +
-[MPEG-7 Color Layout19] * -0.5 +
-[MPEG-7 Color Layout20] * -0.25
+-11.94 + 
+[MPEG-7 Color Layout0] * 0.47 +
+[MPEG-7 Color Layout1] * -0.35 +
+[MPEG-7 Color Layout2] * 0.16 +
+[MPEG-7 Color Layout3] * -0.26 +
+[MPEG-7 Color Layout4] * -0.3 +
+[MPEG-7 Color Layout5] * 0.09 +
+[MPEG-7 Color Layout6] * 1.34 +
+[MPEG-7 Color Layout8] * 0.98 +
+[MPEG-7 Color Layout9] * 0.29 +
+[MPEG-7 Color Layout10] * 0.7  +
+[MPEG-7 Color Layout11] * 0.49 +
+[MPEG-7 Color Layout12] * -3.16 +
+[MPEG-7 Color Layout13] * -0.9 +
+[MPEG-7 Color Layout14] * -0.26 +
+[MPEG-7 Color Layout15] * 0.22 +
+[MPEG-7 Color Layout16] * 0.39 +
+[MPEG-7 Color Layout17] * -0.27 +
+[MPEG-7 Color Layout18] * 0.2  +
+[MPEG-7 Color Layout19] * -0.07 +
+[MPEG-7 Color Layout20] * -0.73
 
 Class K2 :
--315.18 + 
-[MPEG-7 Color Layout0] * -0.01 +
-[MPEG-7 Color Layout1] * -0.2 +
-[MPEG-7 Color Layout2] * 0.57 +
-[MPEG-7 Color Layout3] * -0.02 +
-[MPEG-7 Color Layout4] * -1.21 +
-[MPEG-7 Color Layout5] * 0.22 +
-[MPEG-7 Color Layout6] * -0.16 +
-[MPEG-7 Color Layout7] * 0.02 +
-[MPEG-7 Color Layout8] * 0.47 +
-[MPEG-7 Color Layout9] * 0.06 +
-[MPEG-7 Color Layout10] * 1.85 +
-[MPEG-7 Color Layout11] * -0.76 +
-[MPEG-7 Color Layout12] * 2.27 +
-[MPEG-7 Color Layout13] * 2.99 +
-[MPEG-7 Color Layout14] * 10.11 +
-[MPEG-7 Color Layout15] * 5.7  +
-[MPEG-7 Color Layout16] * -1.33 +
-[MPEG-7 Color Layout17] * 0.94 +
-[MPEG-7 Color Layout18] * -1.25 +
-[MPEG-7 Color Layout19] * 0.05 +
-[MPEG-7 Color Layout20] * 0.49
+1.77 + 
+[MPEG-7 Color Layout0] * -0.65 +
+[MPEG-7 Color Layout1] * 0.21 +
+[MPEG-7 Color Layout2] * 0.14 +
+[MPEG-7 Color Layout3] * -0.08 +
+[MPEG-7 Color Layout4] * 0.33 +
+[MPEG-7 Color Layout5] * -0.13 +
+[MPEG-7 Color Layout6] * -1.01 +
+[MPEG-7 Color Layout7] * -0.38 +
+[MPEG-7 Color Layout8] * -1.14 +
+[MPEG-7 Color Layout9] * -0.01 +
+[MPEG-7 Color Layout10] * 0.52 +
+[MPEG-7 Color Layout11] * -0.4 +
+[MPEG-7 Color Layout12] * 2.69 +
+[MPEG-7 Color Layout13] * 0.73 +
+[MPEG-7 Color Layout14] * 0.93 +
+[MPEG-7 Color Layout15] * -1.93 +
+[MPEG-7 Color Layout16] * -0.07 +
+[MPEG-7 Color Layout18] * 1.08 +
+[MPEG-7 Color Layout19] * -0.17 +
+[MPEG-7 Color Layout20] * 0.89
 
 Class K3 :
--177.33 + 
-[MPEG-7 Color Layout0] * -0.28 +
-[MPEG-7 Color Layout2] * -0.93 +
+-78.64 + 
+[MPEG-7 Color Layout0] * -0.16 +
+[MPEG-7 Color Layout2] * -0.5 +
 [MPEG-7 Color Layout3] * -0.29 +
-[MPEG-7 Color Layout5] * -0.11 +
-[MPEG-7 Color Layout7] * 0.6  +
-[MPEG-7 Color Layout9] * 2.81 +
-[MPEG-7 Color Layout10] * -0.26 +
-[MPEG-7 Color Layout11] * 0.24 +
-[MPEG-7 Color Layout12] * -0.07 +
-[MPEG-7 Color Layout14] * -0.5 +
-[MPEG-7 Color Layout15] * 0.63 +
-[MPEG-7 Color Layout16] * -0.74 +
-[MPEG-7 Color Layout17] * -0.35 +
-[MPEG-7 Color Layout18] * -1.25 +
-[MPEG-7 Color Layout19] * 0.43 +
-[MPEG-7 Color Layout20] * -1.2
+[MPEG-7 Color Layout5] * -0.08 +
+[MPEG-7 Color Layout7] * 0.53 +
+[MPEG-7 Color Layout8] * -0 +
+[MPEG-7 Color Layout9] * 1.99 +
+[MPEG-7 Color Layout10] * -0.24 +
+[MPEG-7 Color Layout11] * 0.01 +
+[MPEG-7 Color Layout12] * 0    +
+[MPEG-7 Color Layout14] * -0.34 +
+[MPEG-7 Color Layout15] * 0.37 +
+[MPEG-7 Color Layout16] * -0.3 +
+[MPEG-7 Color Layout18] * -0.81 +
+[MPEG-7 Color Layout20] * -0.83
 
 Class K4 :
-5.28 + 
-[MPEG-7 Color Layout0] * -1.1 +
-[MPEG-7 Color Layout1] * 0.18 +
-[MPEG-7 Color Layout2] * 0.79 +
-[MPEG-7 Color Layout3] * 0.07 +
-[MPEG-7 Color Layout5] * -4.11 +
-[MPEG-7 Color Layout6] * 0.61 +
-[MPEG-7 Color Layout7] * -1.57 +
-[MPEG-7 Color Layout9] * -0.37 +
-[MPEG-7 Color Layout10] * -6.02 +
-[MPEG-7 Color Layout11] * 4.16 +
-[MPEG-7 Color Layout12] * -3.51 +
-[MPEG-7 Color Layout13] * 0.22 +
-[MPEG-7 Color Layout14] * -0.17 +
-[MPEG-7 Color Layout15] * -0.9 +
-[MPEG-7 Color Layout16] * 0.26 +
-[MPEG-7 Color Layout18] * -4.44 +
-[MPEG-7 Color Layout19] * 2.46 +
-[MPEG-7 Color Layout20] * 1.56
+-72.51 + 
+[MPEG-7 Color Layout0] * -8.13 +
+[MPEG-7 Color Layout1] * 0.6  +
+[MPEG-7 Color Layout2] * 0.54 +
+[MPEG-7 Color Layout5] * -1.36 +
+[MPEG-7 Color Layout6] * 1.74 +
+[MPEG-7 Color Layout7] * -0.45 +
+[MPEG-7 Color Layout9] * 0.18 +
+[MPEG-7 Color Layout10] * -4.25 +
+[MPEG-7 Color Layout11] * 1.77 +
+[MPEG-7 Color Layout12] * -1.98 +
+[MPEG-7 Color Layout13] * -0.26 +
+[MPEG-7 Color Layout14] * -0.22 +
+[MPEG-7 Color Layout15] * -0.2 +
+[MPEG-7 Color Layout18] * -2.68 +
+[MPEG-7 Color Layout19] * 10.95 +
+[MPEG-7 Color Layout20] * 1.27
 
 Class K5 :
--137.09 + 
-[MPEG-7 Color Layout0] * -0.07 +
-[MPEG-7 Color Layout1] * 0.18 +
-[MPEG-7 Color Layout2] * -0.32 +
-[MPEG-7 Color Layout3] * 2.15 +
-[MPEG-7 Color Layout4] * 0.09 +
-[MPEG-7 Color Layout5] * 1.43 +
-[MPEG-7 Color Layout6] * 0.18 +
+-55.23 + 
+[MPEG-7 Color Layout0] * -0.04 +
+[MPEG-7 Color Layout1] * 0.2  +
+[MPEG-7 Color Layout2] * -0.24 +
+[MPEG-7 Color Layout3] * 0.72 +
+[MPEG-7 Color Layout4] * 0.19 +
+[MPEG-7 Color Layout5] * -0.06 +
+[MPEG-7 Color Layout6] * 0.13 +
 [MPEG-7 Color Layout7] * -0.11 +
-[MPEG-7 Color Layout8] * -0.04 +
-[MPEG-7 Color Layout9] * -0.33 +
-[MPEG-7 Color Layout10] * -1.14 +
-[MPEG-7 Color Layout11] * -0.33 +
-[MPEG-7 Color Layout12] * -0.61 +
-[MPEG-7 Color Layout13] * -4.09 +
-[MPEG-7 Color Layout14] * 4.73 +
-[MPEG-7 Color Layout15] * 0.2  +
-[MPEG-7 Color Layout16] * 0.24 +
-[MPEG-7 Color Layout17] * -0.83 +
-[MPEG-7 Color Layout18] * 0.39 +
-[MPEG-7 Color Layout19] * -0.24
+[MPEG-7 Color Layout9] * -0.17 +
+[MPEG-7 Color Layout10] * -0.22 +
+[MPEG-7 Color Layout11] * -0.26 +
+[MPEG-7 Color Layout12] * -0.1 +
+[MPEG-7 Color Layout13] * -0.23 +
+[MPEG-7 Color Layout14] * -0.46 +
+[MPEG-7 Color Layout16] * 0.54 +
+[MPEG-7 Color Layout17] * 0.55 +
+[MPEG-7 Color Layout18] * 0.38 +
+[MPEG-7 Color Layout19] * 0.75 +
+[MPEG-7 Color Layout20] * 0.15
 
 Class K6 :
--95.33 + 
-[MPEG-7 Color Layout0] * -0.01 +
-[MPEG-7 Color Layout1] * -0.29 +
-[MPEG-7 Color Layout2] * -0.54 +
-[MPEG-7 Color Layout3] * 0.3  +
-[MPEG-7 Color Layout4] * -0.19 +
-[MPEG-7 Color Layout5] * 0.36 +
-[MPEG-7 Color Layout6] * -0.54 +
-[MPEG-7 Color Layout7] * 0.46 +
-[MPEG-7 Color Layout8] * 0.25 +
-[MPEG-7 Color Layout9] * -0.26 +
-[MPEG-7 Color Layout10] * -0.23 +
-[MPEG-7 Color Layout11] * 0.46 +
-[MPEG-7 Color Layout12] * 0.22 +
-[MPEG-7 Color Layout13] * -0.72 +
-[MPEG-7 Color Layout14] * 0.13 +
-[MPEG-7 Color Layout15] * 0.12 +
-[MPEG-7 Color Layout16] * -1.48 +
-[MPEG-7 Color Layout18] * -1.5 +
-[MPEG-7 Color Layout19] * 0.16
+30.33 + 
+[MPEG-7 Color Layout0] * -0 +
+[MPEG-7 Color Layout1] * -0.25 +
+[MPEG-7 Color Layout2] * -0.59 +
+[MPEG-7 Color Layout3] * 0.35 +
+[MPEG-7 Color Layout4] * -0.4 +
+[MPEG-7 Color Layout5] * 0.33 +
+[MPEG-7 Color Layout6] * -0.81 +
+[MPEG-7 Color Layout7] * 0.4  +
+[MPEG-7 Color Layout8] * 0.31 +
+[MPEG-7 Color Layout9] * -0.17 +
+[MPEG-7 Color Layout10] * -0.07 +
+[MPEG-7 Color Layout11] * -0.03 +
+[MPEG-7 Color Layout12] * 0.78 +
+[MPEG-7 Color Layout13] * -0.91 +
+[MPEG-7 Color Layout14] * 0.15 +
+[MPEG-7 Color Layout15] * 0.16 +
+[MPEG-7 Color Layout16] * -2.63 +
+[MPEG-7 Color Layout18] * -1.17 +
+[MPEG-7 Color Layout19] * 0.34 +
+[MPEG-7 Color Layout20] * 0.24
 
-Class K7 :
--236.46 + 
-[MPEG-7 Color Layout0] * 0    +
-[MPEG-7 Color Layout9] * 0    +
-[MPEG-7 Color Layout10] * 0    +
-[MPEG-7 Color Layout12] * 0    +
-[MPEG-7 Color Layout19] * 0   
 
-Class K8 :
--236.46 + 
-[MPEG-7 Color Layout0] * 0    +
-[MPEG-7 Color Layout9] * 0    +
-[MPEG-7 Color Layout10] * 0    +
-[MPEG-7 Color Layout12] * 0    +
-[MPEG-7 Color Layout19] * 0   
 
 LM_5:
 Class K1 :
-32.38 + 
-[MPEG-7 Color Layout0] * 0.21 +
-[MPEG-7 Color Layout1] * 0.06 +
-[MPEG-7 Color Layout2] * 0.34 +
-[MPEG-7 Color Layout3] * -0.69 +
-[MPEG-7 Color Layout4] * 0.91 +
-[MPEG-7 Color Layout5] * -0.73 +
-[MPEG-7 Color Layout6] * 1.55 +
-[MPEG-7 Color Layout7] * 0.13 +
-[MPEG-7 Color Layout8] * 0.11 +
-[MPEG-7 Color Layout9] * 0.9  +
-[MPEG-7 Color Layout10] * -1.82 +
-[MPEG-7 Color Layout11] * -0.35 +
-[MPEG-7 Color Layout12] * -1.37 +
-[MPEG-7 Color Layout13] * 0.17 +
-[MPEG-7 Color Layout14] * -3.46 +
-[MPEG-7 Color Layout15] * 0.34 +
-[MPEG-7 Color Layout16] * 1.02 +
-[MPEG-7 Color Layout17] * 0.32 +
-[MPEG-7 Color Layout18] * 0.03 +
-[MPEG-7 Color Layout19] * 1.44 +
-[MPEG-7 Color Layout20] * -1.09
+172.16 + 
+[MPEG-7 Color Layout0] * 0.06 +
+[MPEG-7 Color Layout1] * 0.08 +
+[MPEG-7 Color Layout2] * -0.18 +
+[MPEG-7 Color Layout3] * -0.12 +
+[MPEG-7 Color Layout4] * 0.94 +
+[MPEG-7 Color Layout5] * -0.29 +
+[MPEG-7 Color Layout6] * 0.43 +
+[MPEG-7 Color Layout7] * -0.07 +
+[MPEG-7 Color Layout8] * -0.16 +
+[MPEG-7 Color Layout9] * -0.01 +
+[MPEG-7 Color Layout10] * -0.26 +
+[MPEG-7 Color Layout11] * 0.45 +
+[MPEG-7 Color Layout12] * -1.06 +
+[MPEG-7 Color Layout13] * -1.21 +
+[MPEG-7 Color Layout14] * -7.41 +
+[MPEG-7 Color Layout15] * -2.78 +
+[MPEG-7 Color Layout16] * 0.85 +
+[MPEG-7 Color Layout17] * -1.12 +
+[MPEG-7 Color Layout18] * 0.58 +
+[MPEG-7 Color Layout19] * -0.34 +
+[MPEG-7 Color Layout20] * 0.12
 
 Class K2 :
--56.7 + 
-[MPEG-7 Color Layout0] * -0.17 +
-[MPEG-7 Color Layout1] * -0.2 +
-[MPEG-7 Color Layout2] * -0.14 +
-[MPEG-7 Color Layout3] * 0.5  +
-[MPEG-7 Color Layout4] * -0.81 +
-[MPEG-7 Color Layout5] * 0.65 +
-[MPEG-7 Color Layout6] * -1.12 +
-[MPEG-7 Color Layout7] * -0.24 +
-[MPEG-7 Color Layout8] * -0.18 +
-[MPEG-7 Color Layout9] * -0.65 +
-[MPEG-7 Color Layout10] * 3.12 +
-[MPEG-7 Color Layout11] * 0.11 +
-[MPEG-7 Color Layout12] * 1.77 +
-[MPEG-7 Color Layout13] * 0.04 +
-[MPEG-7 Color Layout14] * 2.74 +
-[MPEG-7 Color Layout15] * 0.05 +
-[MPEG-7 Color Layout16] * -0.69 +
-[MPEG-7 Color Layout17] * -0.72 +
-[MPEG-7 Color Layout18] * -0.06 +
-[MPEG-7 Color Layout19] * -1.89 +
-[MPEG-7 Color Layout20] * 1.33
+-198.42 + 
+[MPEG-7 Color Layout0] * -0.02 +
+[MPEG-7 Color Layout1] * -0.14 +
+[MPEG-7 Color Layout2] * 0.46 +
+[MPEG-7 Color Layout3] * -0.02 +
+[MPEG-7 Color Layout4] * -0.92 +
+[MPEG-7 Color Layout5] * 0.16 +
+[MPEG-7 Color Layout6] * -0.29 +
+[MPEG-7 Color Layout7] * -0.01 +
+[MPEG-7 Color Layout8] * 0.31 +
+[MPEG-7 Color Layout9] * 0.32 +
+[MPEG-7 Color Layout10] * 1.37 +
+[MPEG-7 Color Layout11] * -0.65 +
+[MPEG-7 Color Layout12] * 1.46 +
+[MPEG-7 Color Layout13] * 1.52 +
+[MPEG-7 Color Layout14] * 6.37 +
+[MPEG-7 Color Layout15] * 2.88 +
+[MPEG-7 Color Layout16] * -0.61 +
+[MPEG-7 Color Layout17] * 0.85 +
+[MPEG-7 Color Layout18] * -0.36 +
+[MPEG-7 Color Layout19] * 0.11 +
+[MPEG-7 Color Layout20] * 0.32
 
 Class K3 :
--177.33 + 
-[MPEG-7 Color Layout0] * -0.28 +
-[MPEG-7 Color Layout2] * -0.93 +
+-106.14 + 
+[MPEG-7 Color Layout0] * -0.16 +
+[MPEG-7 Color Layout2] * -0.5 +
 [MPEG-7 Color Layout3] * -0.29 +
-[MPEG-7 Color Layout5] * -0.11 +
-[MPEG-7 Color Layout7] * 0.6  +
-[MPEG-7 Color Layout9] * 2.81 +
-[MPEG-7 Color Layout10] * -0.26 +
-[MPEG-7 Color Layout11] * 0.24 +
-[MPEG-7 Color Layout12] * -0.07 +
-[MPEG-7 Color Layout14] * -0.5 +
-[MPEG-7 Color Layout15] * 0.63 +
-[MPEG-7 Color Layout16] * -0.74 +
-[MPEG-7 Color Layout17] * -0.35 +
-[MPEG-7 Color Layout18] * -1.25 +
-[MPEG-7 Color Layout19] * 0.43 +
-[MPEG-7 Color Layout20] * -1.2
+[MPEG-7 Color Layout5] * -0.08 +
+[MPEG-7 Color Layout7] * 0.53 +
+[MPEG-7 Color Layout8] * -0 +
+[MPEG-7 Color Layout9] * 1.99 +
+[MPEG-7 Color Layout10] * -0.24 +
+[MPEG-7 Color Layout11] * 0.01 +
+[MPEG-7 Color Layout12] * 0    +
+[MPEG-7 Color Layout14] * -0.34 +
+[MPEG-7 Color Layout15] * 0.37 +
+[MPEG-7 Color Layout16] * -0.3 +
+[MPEG-7 Color Layout18] * -0.81 +
+[MPEG-7 Color Layout20] * -0.83
 
 Class K4 :
-5.28 + 
-[MPEG-7 Color Layout0] * -1.1 +
-[MPEG-7 Color Layout1] * 0.18 +
-[MPEG-7 Color Layout2] * 0.79 +
-[MPEG-7 Color Layout3] * 0.07 +
-[MPEG-7 Color Layout5] * -4.11 +
-[MPEG-7 Color Layout6] * 0.61 +
-[MPEG-7 Color Layout7] * -1.57 +
-[MPEG-7 Color Layout9] * -0.37 +
-[MPEG-7 Color Layout10] * -6.02 +
-[MPEG-7 Color Layout11] * 4.16 +
-[MPEG-7 Color Layout12] * -3.51 +
-[MPEG-7 Color Layout13] * 0.22 +
-[MPEG-7 Color Layout14] * -0.17 +
-[MPEG-7 Color Layout15] * -0.9 +
-[MPEG-7 Color Layout16] * 0.26 +
-[MPEG-7 Color Layout18] * -4.44 +
-[MPEG-7 Color Layout19] * 2.46 +
-[MPEG-7 Color Layout20] * 1.56
+-10.44 + 
+[MPEG-7 Color Layout0] * -0.46 +
+[MPEG-7 Color Layout2] * 0.54 +
+[MPEG-7 Color Layout5] * -1.36 +
+[MPEG-7 Color Layout6] * 1.26 +
+[MPEG-7 Color Layout7] * -0.45 +
+[MPEG-7 Color Layout9] * 0.18 +
+[MPEG-7 Color Layout10] * -4.25 +
+[MPEG-7 Color Layout11] * 1.77 +
+[MPEG-7 Color Layout12] * -1.98 +
+[MPEG-7 Color Layout13] * -0.26 +
+[MPEG-7 Color Layout14] * -0.22 +
+[MPEG-7 Color Layout15] * -0.2 +
+[MPEG-7 Color Layout18] * -2.68 +
+[MPEG-7 Color Layout19] * 1.1  +
+[MPEG-7 Color Layout20] * 1.27
 
 Class K5 :
--137.09 + 
-[MPEG-7 Color Layout0] * -0.07 +
-[MPEG-7 Color Layout1] * 0.18 +
-[MPEG-7 Color Layout2] * -0.32 +
-[MPEG-7 Color Layout3] * 2.15 +
-[MPEG-7 Color Layout4] * 0.09 +
-[MPEG-7 Color Layout5] * 1.43 +
-[MPEG-7 Color Layout6] * 0.18 +
-[MPEG-7 Color Layout7] * -0.11 +
-[MPEG-7 Color Layout8] * -0.04 +
-[MPEG-7 Color Layout9] * -0.33 +
-[MPEG-7 Color Layout10] * -1.14 +
-[MPEG-7 Color Layout11] * -0.33 +
-[MPEG-7 Color Layout12] * -0.61 +
-[MPEG-7 Color Layout13] * -4.09 +
-[MPEG-7 Color Layout14] * 4.73 +
-[MPEG-7 Color Layout15] * 0.2  +
-[MPEG-7 Color Layout16] * 0.24 +
-[MPEG-7 Color Layout17] * -0.83 +
+-117.73 + 
+[MPEG-7 Color Layout0] * -0.04 +
+[MPEG-7 Color Layout1] * 0.14 +
+[MPEG-7 Color Layout2] * -0.26 +
+[MPEG-7 Color Layout3] * 1.59 +
+[MPEG-7 Color Layout4] * 0.1  +
+[MPEG-7 Color Layout5] * 0.81 +
+[MPEG-7 Color Layout6] * 0.13 +
+[MPEG-7 Color Layout7] * -0.04 +
+[MPEG-7 Color Layout9] * -0.21 +
+[MPEG-7 Color Layout10] * -0.48 +
+[MPEG-7 Color Layout11] * -0.19 +
+[MPEG-7 Color Layout12] * -0.36 +
+[MPEG-7 Color Layout13] * -1.76 +
+[MPEG-7 Color Layout14] * 3.43 +
+[MPEG-7 Color Layout15] * -0 +
+[MPEG-7 Color Layout16] * 0.31 +
+[MPEG-7 Color Layout17] * -0.02 +
 [MPEG-7 Color Layout18] * 0.39 +
-[MPEG-7 Color Layout19] * -0.24
+[MPEG-7 Color Layout19] * -0.36
 
 Class K6 :
--95.33 + 
-[MPEG-7 Color Layout0] * -0.01 +
-[MPEG-7 Color Layout1] * -0.29 +
-[MPEG-7 Color Layout2] * -0.54 +
-[MPEG-7 Color Layout3] * 0.3  +
-[MPEG-7 Color Layout4] * -0.19 +
-[MPEG-7 Color Layout5] * 0.36 +
-[MPEG-7 Color Layout6] * -0.54 +
-[MPEG-7 Color Layout7] * 0.46 +
-[MPEG-7 Color Layout8] * 0.25 +
-[MPEG-7 Color Layout9] * -0.26 +
-[MPEG-7 Color Layout10] * -0.23 +
-[MPEG-7 Color Layout11] * 0.46 +
-[MPEG-7 Color Layout12] * 0.22 +
-[MPEG-7 Color Layout13] * -0.72 +
-[MPEG-7 Color Layout14] * 0.13 +
-[MPEG-7 Color Layout15] * 0.12 +
-[MPEG-7 Color Layout16] * -1.48 +
-[MPEG-7 Color Layout18] * -1.5 +
-[MPEG-7 Color Layout19] * 0.16
+-47.19 + 
+[MPEG-7 Color Layout0] * -0 +
+[MPEG-7 Color Layout1] * -0.25 +
+[MPEG-7 Color Layout2] * -0.32 +
+[MPEG-7 Color Layout3] * 0.28 +
+[MPEG-7 Color Layout4] * -0.13 +
+[MPEG-7 Color Layout5] * 0.21 +
+[MPEG-7 Color Layout6] * -0.48 +
+[MPEG-7 Color Layout7] * 0.29 +
+[MPEG-7 Color Layout8] * 0.16 +
+[MPEG-7 Color Layout9] * -0.17 +
+[MPEG-7 Color Layout10] * -0.07 +
+[MPEG-7 Color Layout11] * 0.2  +
+[MPEG-7 Color Layout12] * 0.1  +
+[MPEG-7 Color Layout13] * -0.51 +
+[MPEG-7 Color Layout14] * 0.15 +
+[MPEG-7 Color Layout15] * 0.16 +
+[MPEG-7 Color Layout16] * -1.43 +
+[MPEG-7 Color Layout18] * -0.9 +
+[MPEG-7 Color Layout19] * 0.18
 
-Class K7 :
--236.46 + 
-[MPEG-7 Color Layout0] * 0    +
-[MPEG-7 Color Layout9] * 0    +
-[MPEG-7 Color Layout10] * 0    +
-[MPEG-7 Color Layout12] * 0    +
-[MPEG-7 Color Layout19] * 0   
-
-Class K8 :
--236.46 + 
-[MPEG-7 Color Layout0] * 0    +
-[MPEG-7 Color Layout9] * 0    +
-[MPEG-7 Color Layout10] * 0    +
-[MPEG-7 Color Layout12] * 0    +
-[MPEG-7 Color Layout19] * 0   
 
 LM_6:
 Class K1 :
--22.86 + 
-[MPEG-7 Color Layout0] * 0.08 +
-[MPEG-7 Color Layout1] * -0.12 +
-[MPEG-7 Color Layout2] * 0.12 +
-[MPEG-7 Color Layout3] * -0.22 +
-[MPEG-7 Color Layout4] * 0.32 +
-[MPEG-7 Color Layout5] * -0.24 +
-[MPEG-7 Color Layout6] * 0.57 +
+-20.88 + 
+[MPEG-7 Color Layout0] * 0.13 +
+[MPEG-7 Color Layout1] * 1.53 +
+[MPEG-7 Color Layout2] * 0.46 +
+[MPEG-7 Color Layout3] * -0.96 +
+[MPEG-7 Color Layout4] * 1.1  +
+[MPEG-7 Color Layout5] * -0.64 +
+[MPEG-7 Color Layout6] * 1.46 +
 [MPEG-7 Color Layout7] * -0.07 +
-[MPEG-7 Color Layout8] * -0.09 +
-[MPEG-7 Color Layout9] * 0.44 +
-[MPEG-7 Color Layout10] * 0.22 +
-[MPEG-7 Color Layout11] * 0.21 +
-[MPEG-7 Color Layout12] * -0.4 +
-[MPEG-7 Color Layout13] * -0.17 +
-[MPEG-7 Color Layout14] * -2.18 +
-[MPEG-7 Color Layout15] * -0.49 +
-[MPEG-7 Color Layout16] * 0.83 +
-[MPEG-7 Color Layout17] * -0.59 +
-[MPEG-7 Color Layout18] * 0.01 +
-[MPEG-7 Color Layout19] * 0.11 +
-[MPEG-7 Color Layout20] * 0.07
+[MPEG-7 Color Layout8] * -1.41 +
+[MPEG-7 Color Layout9] * 3.09 +
+[MPEG-7 Color Layout10] * -0.09 +
+[MPEG-7 Color Layout11] * -0.08 +
+[MPEG-7 Color Layout12] * -1.82 +
+[MPEG-7 Color Layout13] * -0.41 +
+[MPEG-7 Color Layout14] * -2.77 +
+[MPEG-7 Color Layout15] * -0.88 +
+[MPEG-7 Color Layout16] * -2.15 +
+[MPEG-7 Color Layout17] * 0.05 +
+[MPEG-7 Color Layout18] * 1.94 +
+[MPEG-7 Color Layout19] * 2.53 +
+[MPEG-7 Color Layout20] * 0.38
 
 Class K2 :
--116.47 + 
-[MPEG-7 Color Layout0] * -0.01 +
-[MPEG-7 Color Layout1] * 0.32 +
-[MPEG-7 Color Layout2] * 0.24 +
-[MPEG-7 Color Layout3] * -2.96 +
-[MPEG-7 Color Layout4] * -0.21 +
-[MPEG-7 Color Layout5] * 0.66 +
-[MPEG-7 Color Layout6] * 0.24 +
-[MPEG-7 Color Layout7] * -0.04 +
-[MPEG-7 Color Layout8] * 0.02 +
-[MPEG-7 Color Layout9] * -0.76 +
-[MPEG-7 Color Layout10] * 1.5  +
-[MPEG-7 Color Layout11] * -0.45 +
-[MPEG-7 Color Layout12] * 0.79 +
-[MPEG-7 Color Layout13] * 0.38 +
-[MPEG-7 Color Layout14] * 0.83 +
-[MPEG-7 Color Layout15] * 0.89 +
-[MPEG-7 Color Layout16] * 0.79 +
-[MPEG-7 Color Layout17] * 1.94 +
-[MPEG-7 Color Layout18] * -0.04 +
-[MPEG-7 Color Layout19] * 1.77 +
-[MPEG-7 Color Layout20] * 1.24
+-5.38 + 
+[MPEG-7 Color Layout0] * -0.1 +
+[MPEG-7 Color Layout1] * -1.59 +
+[MPEG-7 Color Layout2] * -0.18 +
+[MPEG-7 Color Layout3] * 0.81 +
+[MPEG-7 Color Layout4] * -1.08 +
+[MPEG-7 Color Layout5] * 0.51 +
+[MPEG-7 Color Layout6] * -1.32 +
+[MPEG-7 Color Layout7] * -0.01 +
+[MPEG-7 Color Layout8] * 1.56 +
+[MPEG-7 Color Layout9] * -2.78 +
+[MPEG-7 Color Layout10] * 1.19 +
+[MPEG-7 Color Layout11] * -0.12 +
+[MPEG-7 Color Layout12] * 2.22 +
+[MPEG-7 Color Layout13] * 0.72 +
+[MPEG-7 Color Layout14] * 1.73 +
+[MPEG-7 Color Layout15] * 0.97 +
+[MPEG-7 Color Layout16] * 2.39 +
+[MPEG-7 Color Layout17] * -0.32 +
+[MPEG-7 Color Layout18] * -1.72 +
+[MPEG-7 Color Layout19] * -2.75 +
+[MPEG-7 Color Layout20] * 0.06
 
 Class K3 :
--130.08 + 
-[MPEG-7 Color Layout0] * -0.28 +
-[MPEG-7 Color Layout2] * -0.93 +
+-133.64 + 
+[MPEG-7 Color Layout0] * -0.16 +
+[MPEG-7 Color Layout2] * -0.5 +
 [MPEG-7 Color Layout3] * -0.29 +
-[MPEG-7 Color Layout5] * -0.11 +
-[MPEG-7 Color Layout7] * 0.6  +
-[MPEG-7 Color Layout9] * 2.81 +
-[MPEG-7 Color Layout10] * -0.26 +
-[MPEG-7 Color Layout11] * 0.24 +
-[MPEG-7 Color Layout12] * -0.07 +
-[MPEG-7 Color Layout14] * -0.5 +
-[MPEG-7 Color Layout15] * 0.63 +
-[MPEG-7 Color Layout16] * -0.74 +
-[MPEG-7 Color Layout17] * -0.35 +
-[MPEG-7 Color Layout18] * -1.25 +
-[MPEG-7 Color Layout19] * 0.43 +
-[MPEG-7 Color Layout20] * -1.2
+[MPEG-7 Color Layout5] * -0.08 +
+[MPEG-7 Color Layout7] * 0.53 +
+[MPEG-7 Color Layout8] * -0 +
+[MPEG-7 Color Layout9] * 1.99 +
+[MPEG-7 Color Layout10] * -0.24 +
+[MPEG-7 Color Layout11] * 0.01 +
+[MPEG-7 Color Layout12] * 0    +
+[MPEG-7 Color Layout14] * -0.34 +
+[MPEG-7 Color Layout15] * 0.37 +
+[MPEG-7 Color Layout16] * -0.3 +
+[MPEG-7 Color Layout18] * -0.81 +
+[MPEG-7 Color Layout20] * -0.83
 
 Class K4 :
-52.53 + 
-[MPEG-7 Color Layout0] * -1.1 +
-[MPEG-7 Color Layout1] * 0.18 +
-[MPEG-7 Color Layout2] * 0.79 +
-[MPEG-7 Color Layout3] * 0.07 +
-[MPEG-7 Color Layout5] * -4.11 +
-[MPEG-7 Color Layout6] * 0.61 +
-[MPEG-7 Color Layout7] * -1.57 +
-[MPEG-7 Color Layout9] * -0.37 +
-[MPEG-7 Color Layout10] * -6.02 +
-[MPEG-7 Color Layout11] * 4.16 +
-[MPEG-7 Color Layout12] * -3.51 +
-[MPEG-7 Color Layout13] * 0.22 +
-[MPEG-7 Color Layout14] * -0.17 +
-[MPEG-7 Color Layout15] * -0.9 +
-[MPEG-7 Color Layout16] * 0.26 +
-[MPEG-7 Color Layout18] * -4.44 +
-[MPEG-7 Color Layout19] * 2.46 +
-[MPEG-7 Color Layout20] * 1.56
+-37.94 + 
+[MPEG-7 Color Layout0] * -0.46 +
+[MPEG-7 Color Layout2] * 0.54 +
+[MPEG-7 Color Layout5] * -1.36 +
+[MPEG-7 Color Layout6] * 1.26 +
+[MPEG-7 Color Layout7] * -0.45 +
+[MPEG-7 Color Layout9] * 0.18 +
+[MPEG-7 Color Layout10] * -4.25 +
+[MPEG-7 Color Layout11] * 1.77 +
+[MPEG-7 Color Layout12] * -1.98 +
+[MPEG-7 Color Layout13] * -0.26 +
+[MPEG-7 Color Layout14] * -0.22 +
+[MPEG-7 Color Layout15] * -0.2 +
+[MPEG-7 Color Layout18] * -2.68 +
+[MPEG-7 Color Layout19] * 1.1  +
+[MPEG-7 Color Layout20] * 1.27
 
 Class K5 :
--84.89 + 
-[MPEG-7 Color Layout0] * -0.19 +
-[MPEG-7 Color Layout1] * -0.16 +
-[MPEG-7 Color Layout2] * -0.48 +
-[MPEG-7 Color Layout3] * 5.73 +
-[MPEG-7 Color Layout4] * 0.09 +
-[MPEG-7 Color Layout5] * 0.93 +
-[MPEG-7 Color Layout6] * 0.18 +
-[MPEG-7 Color Layout7] * -0.11 +
-[MPEG-7 Color Layout8] * -0.04 +
-[MPEG-7 Color Layout9] * 1.5  +
-[MPEG-7 Color Layout10] * -1.55 +
-[MPEG-7 Color Layout11] * -0.33 +
-[MPEG-7 Color Layout12] * -0.61 +
-[MPEG-7 Color Layout13] * -4.09 +
-[MPEG-7 Color Layout14] * 5.37 +
-[MPEG-7 Color Layout15] * 0.2  +
-[MPEG-7 Color Layout16] * -0.9 +
-[MPEG-7 Color Layout17] * -0.83 +
+-145.23 + 
+[MPEG-7 Color Layout0] * -0.04 +
+[MPEG-7 Color Layout1] * 0.14 +
+[MPEG-7 Color Layout2] * -0.26 +
+[MPEG-7 Color Layout3] * 1.59 +
+[MPEG-7 Color Layout4] * 0.1  +
+[MPEG-7 Color Layout5] * 0.81 +
+[MPEG-7 Color Layout6] * 0.13 +
+[MPEG-7 Color Layout7] * -0.04 +
+[MPEG-7 Color Layout9] * -0.21 +
+[MPEG-7 Color Layout10] * -0.48 +
+[MPEG-7 Color Layout11] * -0.19 +
+[MPEG-7 Color Layout12] * -0.36 +
+[MPEG-7 Color Layout13] * -1.76 +
+[MPEG-7 Color Layout14] * 3.43 +
+[MPEG-7 Color Layout15] * -0 +
+[MPEG-7 Color Layout16] * 0.31 +
+[MPEG-7 Color Layout17] * -0.02 +
 [MPEG-7 Color Layout18] * 0.39 +
-[MPEG-7 Color Layout19] * -1.74 +
-[MPEG-7 Color Layout20] * -0.65
+[MPEG-7 Color Layout19] * -0.36
 
 Class K6 :
--48.08 + 
-[MPEG-7 Color Layout0] * -0.01 +
-[MPEG-7 Color Layout1] * -0.29 +
-[MPEG-7 Color Layout2] * -0.54 +
-[MPEG-7 Color Layout3] * 0.3  +
-[MPEG-7 Color Layout4] * -0.19 +
-[MPEG-7 Color Layout5] * 0.36 +
-[MPEG-7 Color Layout6] * -0.54 +
-[MPEG-7 Color Layout7] * 0.46 +
-[MPEG-7 Color Layout8] * 0.25 +
-[MPEG-7 Color Layout9] * -0.26 +
-[MPEG-7 Color Layout10] * -0.23 +
-[MPEG-7 Color Layout11] * 0.46 +
-[MPEG-7 Color Layout12] * 0.22 +
-[MPEG-7 Color Layout13] * -0.72 +
-[MPEG-7 Color Layout14] * 0.13 +
-[MPEG-7 Color Layout15] * 0.12 +
-[MPEG-7 Color Layout16] * -1.48 +
-[MPEG-7 Color Layout18] * -1.5 +
-[MPEG-7 Color Layout19] * 0.16
+-74.69 + 
+[MPEG-7 Color Layout0] * -0 +
+[MPEG-7 Color Layout1] * -0.25 +
+[MPEG-7 Color Layout2] * -0.32 +
+[MPEG-7 Color Layout3] * 0.28 +
+[MPEG-7 Color Layout4] * -0.13 +
+[MPEG-7 Color Layout5] * 0.21 +
+[MPEG-7 Color Layout6] * -0.48 +
+[MPEG-7 Color Layout7] * 0.29 +
+[MPEG-7 Color Layout8] * 0.16 +
+[MPEG-7 Color Layout9] * -0.17 +
+[MPEG-7 Color Layout10] * -0.07 +
+[MPEG-7 Color Layout11] * 0.2  +
+[MPEG-7 Color Layout12] * 0.1  +
+[MPEG-7 Color Layout13] * -0.51 +
+[MPEG-7 Color Layout14] * 0.15 +
+[MPEG-7 Color Layout15] * 0.16 +
+[MPEG-7 Color Layout16] * -1.43 +
+[MPEG-7 Color Layout18] * -0.9 +
+[MPEG-7 Color Layout19] * 0.18
 
-Class K7 :
--189.21 + 
-[MPEG-7 Color Layout0] * 0    +
-[MPEG-7 Color Layout9] * 0    +
-[MPEG-7 Color Layout10] * 0    +
+LM_7:
+Class K1 :
+82.58 + 
+[MPEG-7 Color Layout0] * 0.13 +
+[MPEG-7 Color Layout1] * 0.59 +
+[MPEG-7 Color Layout2] * 0.46 +
+[MPEG-7 Color Layout3] * -0.72 +
+[MPEG-7 Color Layout4] * 0.72 +
+[MPEG-7 Color Layout5] * 0.03 +
+[MPEG-7 Color Layout6] * 0.37 +
+[MPEG-7 Color Layout7] * -0.07 +
+[MPEG-7 Color Layout8] * 0.64 +
+[MPEG-7 Color Layout9] * 0.77 +
+[MPEG-7 Color Layout10] * -1.67 +
+[MPEG-7 Color Layout11] * -0.08 +
+[MPEG-7 Color Layout12] * -6.17 +
+[MPEG-7 Color Layout13] * 3.27 +
+[MPEG-7 Color Layout14] * -8.6 +
+[MPEG-7 Color Layout15] * 2.12 +
+[MPEG-7 Color Layout16] * 3.24 +
+[MPEG-7 Color Layout17] * 1.28 +
+[MPEG-7 Color Layout18] * 0.47 +
+[MPEG-7 Color Layout19] * 1.52 +
+[MPEG-7 Color Layout20] * -3.52
+
+Class K2 :
+-108.84 + 
+[MPEG-7 Color Layout0] * -0.1 +
+[MPEG-7 Color Layout1] * -0.65 +
+[MPEG-7 Color Layout2] * -0.18 +
+[MPEG-7 Color Layout3] * 0.58 +
+[MPEG-7 Color Layout4] * -0.7 +
+[MPEG-7 Color Layout5] * -0.17 +
+[MPEG-7 Color Layout6] * -0.23 +
+[MPEG-7 Color Layout7] * -0.01 +
+[MPEG-7 Color Layout8] * -0.49 +
+[MPEG-7 Color Layout9] * -0.45 +
+[MPEG-7 Color Layout10] * 2.77 +
+[MPEG-7 Color Layout11] * -0.12 +
+[MPEG-7 Color Layout12] * 6.57 +
+[MPEG-7 Color Layout13] * -2.97 +
+[MPEG-7 Color Layout14] * 7.56 +
+[MPEG-7 Color Layout15] * -2.02 +
+[MPEG-7 Color Layout16] * -3 +
+[MPEG-7 Color Layout17] * -1.55 +
+[MPEG-7 Color Layout18] * -0.25 +
+[MPEG-7 Color Layout19] * -1.75 +
+[MPEG-7 Color Layout20] * 3.96
+
+Class K3 :
+-133.64 + 
+[MPEG-7 Color Layout0] * -0.16 +
+[MPEG-7 Color Layout2] * -0.5 +
+[MPEG-7 Color Layout3] * -0.29 +
+[MPEG-7 Color Layout5] * -0.08 +
+[MPEG-7 Color Layout7] * 0.53 +
+[MPEG-7 Color Layout8] * -0 +
+[MPEG-7 Color Layout9] * 1.99 +
+[MPEG-7 Color Layout10] * -0.24 +
+[MPEG-7 Color Layout11] * 0.01 +
 [MPEG-7 Color Layout12] * 0    +
-[MPEG-7 Color Layout19] * 0   
+[MPEG-7 Color Layout14] * -0.34 +
+[MPEG-7 Color Layout15] * 0.37 +
+[MPEG-7 Color Layout16] * -0.3 +
+[MPEG-7 Color Layout18] * -0.81 +
+[MPEG-7 Color Layout20] * -0.83
 
-Class K8 :
--189.21 + 
+Class K4 :
+-37.94 + 
+[MPEG-7 Color Layout0] * -0.46 +
+[MPEG-7 Color Layout2] * 0.54 +
+[MPEG-7 Color Layout5] * -1.36 +
+[MPEG-7 Color Layout6] * 1.26 +
+[MPEG-7 Color Layout7] * -0.45 +
+[MPEG-7 Color Layout9] * 0.18 +
+[MPEG-7 Color Layout10] * -4.25 +
+[MPEG-7 Color Layout11] * 1.77 +
+[MPEG-7 Color Layout12] * -1.98 +
+[MPEG-7 Color Layout13] * -0.26 +
+[MPEG-7 Color Layout14] * -0.22 +
+[MPEG-7 Color Layout15] * -0.2 +
+[MPEG-7 Color Layout18] * -2.68 +
+[MPEG-7 Color Layout19] * 1.1  +
+[MPEG-7 Color Layout20] * 1.27
+
+Class K5 :
+-145.23 + 
+[MPEG-7 Color Layout0] * -0.04 +
+[MPEG-7 Color Layout1] * 0.14 +
+[MPEG-7 Color Layout2] * -0.26 +
+[MPEG-7 Color Layout3] * 1.59 +
+[MPEG-7 Color Layout4] * 0.1  +
+[MPEG-7 Color Layout5] * 0.81 +
+[MPEG-7 Color Layout6] * 0.13 +
+[MPEG-7 Color Layout7] * -0.04 +
+[MPEG-7 Color Layout9] * -0.21 +
+[MPEG-7 Color Layout10] * -0.48 +
+[MPEG-7 Color Layout11] * -0.19 +
+[MPEG-7 Color Layout12] * -0.36 +
+[MPEG-7 Color Layout13] * -1.76 +
+[MPEG-7 Color Layout14] * 3.43 +
+[MPEG-7 Color Layout15] * -0 +
+[MPEG-7 Color Layout16] * 0.31 +
+[MPEG-7 Color Layout17] * -0.02 +
+[MPEG-7 Color Layout18] * 0.39 +
+[MPEG-7 Color Layout19] * -0.36
+
+Class K6 :
+-74.69 + 
+[MPEG-7 Color Layout0] * -0 +
+[MPEG-7 Color Layout1] * -0.25 +
+[MPEG-7 Color Layout2] * -0.32 +
+[MPEG-7 Color Layout3] * 0.28 +
+[MPEG-7 Color Layout4] * -0.13 +
+[MPEG-7 Color Layout5] * 0.21 +
+[MPEG-7 Color Layout6] * -0.48 +
+[MPEG-7 Color Layout7] * 0.29 +
+[MPEG-7 Color Layout8] * 0.16 +
+[MPEG-7 Color Layout9] * -0.17 +
+[MPEG-7 Color Layout10] * -0.07 +
+[MPEG-7 Color Layout11] * 0.2  +
+[MPEG-7 Color Layout12] * 0.1  +
+[MPEG-7 Color Layout13] * -0.51 +
+[MPEG-7 Color Layout14] * 0.15 +
+[MPEG-7 Color Layout15] * 0.16 +
+[MPEG-7 Color Layout16] * -1.43 +
+[MPEG-7 Color Layout18] * -0.9 +
+[MPEG-7 Color Layout19] * 0.18
+
+LM_8:
+Class K1 :
+-10.74 + 
+[MPEG-7 Color Layout0] * 0.06 +
+[MPEG-7 Color Layout1] * -0.06 +
+[MPEG-7 Color Layout2] * 0.16 +
+[MPEG-7 Color Layout3] * -0.17 +
+[MPEG-7 Color Layout4] * 0.16 +
+[MPEG-7 Color Layout5] * -0.28 +
+[MPEG-7 Color Layout6] * 0.34 +
+[MPEG-7 Color Layout8] * 0.03 +
+[MPEG-7 Color Layout9] * 0.43 +
+[MPEG-7 Color Layout10] * 0.21 +
+[MPEG-7 Color Layout11] * 0.16 +
+[MPEG-7 Color Layout12] * -0.31 +
+[MPEG-7 Color Layout13] * -0.11 +
+[MPEG-7 Color Layout14] * -2.03 +
+[MPEG-7 Color Layout15] * -0.48 +
+[MPEG-7 Color Layout16] * 0.74 +
+[MPEG-7 Color Layout17] * -0.43 +
+[MPEG-7 Color Layout18] * 0.2  +
+[MPEG-7 Color Layout19] * 0.14 +
+[MPEG-7 Color Layout20] * 0.12
+
+Class K2 :
+-40.97 + 
 [MPEG-7 Color Layout0] * 0    +
-[MPEG-7 Color Layout9] * 0    +
-[MPEG-7 Color Layout10] * 0    +
+[MPEG-7 Color Layout2] * 0.12 +
+[MPEG-7 Color Layout3] * -3.02 +
+[MPEG-7 Color Layout4] * -0.14 +
+[MPEG-7 Color Layout5] * 0.14 +
+[MPEG-7 Color Layout6] * -0.2 +
+[MPEG-7 Color Layout7] * -0.08 +
+[MPEG-7 Color Layout8] * 0.12 +
+[MPEG-7 Color Layout9] * -0.51 +
+[MPEG-7 Color Layout10] * 1.4  +
+[MPEG-7 Color Layout11] * -0.36 +
+[MPEG-7 Color Layout12] * 0.85 +
+[MPEG-7 Color Layout13] * 0.42 +
+[MPEG-7 Color Layout14] * 0.14 +
+[MPEG-7 Color Layout15] * 0.57 +
+[MPEG-7 Color Layout16] * 0.44 +
+[MPEG-7 Color Layout17] * 0.89 +
+[MPEG-7 Color Layout18] * 0.02 +
+[MPEG-7 Color Layout19] * 2.49 +
+[MPEG-7 Color Layout20] * 0.32
+
+Class K3 :
+-78.64 + 
+[MPEG-7 Color Layout0] * -0.16 +
+[MPEG-7 Color Layout2] * -0.5 +
+[MPEG-7 Color Layout3] * -0.29 +
+[MPEG-7 Color Layout5] * -0.08 +
+[MPEG-7 Color Layout7] * 0.53 +
+[MPEG-7 Color Layout8] * -0 +
+[MPEG-7 Color Layout9] * 1.99 +
+[MPEG-7 Color Layout10] * -0.24 +
+[MPEG-7 Color Layout11] * 0.01 +
 [MPEG-7 Color Layout12] * 0    +
-[MPEG-7 Color Layout19] * 0   
+[MPEG-7 Color Layout14] * -0.34 +
+[MPEG-7 Color Layout15] * 0.37 +
+[MPEG-7 Color Layout16] * -0.3 +
+[MPEG-7 Color Layout18] * -0.81 +
+[MPEG-7 Color Layout20] * -0.83
+
+Class K4 :
+17.06 + 
+[MPEG-7 Color Layout0] * -0.46 +
+[MPEG-7 Color Layout2] * 0.54 +
+[MPEG-7 Color Layout5] * -1.36 +
+[MPEG-7 Color Layout6] * 1.26 +
+[MPEG-7 Color Layout7] * -0.45 +
+[MPEG-7 Color Layout9] * 0.18 +
+[MPEG-7 Color Layout10] * -4.25 +
+[MPEG-7 Color Layout11] * 1.77 +
+[MPEG-7 Color Layout12] * -1.98 +
+[MPEG-7 Color Layout13] * -0.26 +
+[MPEG-7 Color Layout14] * -0.22 +
+[MPEG-7 Color Layout15] * -0.2 +
+[MPEG-7 Color Layout18] * -2.68 +
+[MPEG-7 Color Layout19] * 1.1  +
+[MPEG-7 Color Layout20] * 1.27
+
+Class K5 :
+-87.68 + 
+[MPEG-7 Color Layout0] * -0.08 +
+[MPEG-7 Color Layout1] * 0.14 +
+[MPEG-7 Color Layout2] * -0.26 +
+[MPEG-7 Color Layout3] * 4.89 +
+[MPEG-7 Color Layout4] * 0.1  +
+[MPEG-7 Color Layout5] * 0.81 +
+[MPEG-7 Color Layout6] * 0.13 +
+[MPEG-7 Color Layout7] * -0.04 +
+[MPEG-7 Color Layout9] * 0.52 +
+[MPEG-7 Color Layout10] * -0.82 +
+[MPEG-7 Color Layout11] * -0.19 +
+[MPEG-7 Color Layout12] * -0.5 +
+[MPEG-7 Color Layout13] * -1.76 +
+[MPEG-7 Color Layout14] * 4.29 +
+[MPEG-7 Color Layout16] * -0.63 +
+[MPEG-7 Color Layout17] * -0.78 +
+[MPEG-7 Color Layout18] * 0.39 +
+[MPEG-7 Color Layout19] * -2.56
+
+Class K6 :
+-19.69 + 
+[MPEG-7 Color Layout0] * -0 +
+[MPEG-7 Color Layout1] * -0.25 +
+[MPEG-7 Color Layout2] * -0.32 +
+[MPEG-7 Color Layout3] * 0.28 +
+[MPEG-7 Color Layout4] * -0.13 +
+[MPEG-7 Color Layout5] * 0.21 +
+[MPEG-7 Color Layout6] * -0.48 +
+[MPEG-7 Color Layout7] * 0.29 +
+[MPEG-7 Color Layout8] * 0.16 +
+[MPEG-7 Color Layout9] * -0.17 +
+[MPEG-7 Color Layout10] * -0.07 +
+[MPEG-7 Color Layout11] * 0.2  +
+[MPEG-7 Color Layout12] * 0.1  +
+[MPEG-7 Color Layout13] * -0.51 +
+[MPEG-7 Color Layout14] * 0.15 +
+[MPEG-7 Color Layout15] * 0.16 +
+[MPEG-7 Color Layout16] * -1.43 +
+[MPEG-7 Color Layout18] * -0.9 +
+[MPEG-7 Color Layout19] * 0.18
 
 
-Time taken to build model: 1 seconds
+Time taken to build model: 1.01 seconds
 
 Time taken to test model on training data: 0.01 seconds
 
@@ -943,10 +1047,10 @@ Time taken to test model on training data: 0.01 seconds
 Correctly Classified Instances         416              100      %
 Incorrectly Classified Instances         0                0      %
 Kappa statistic                          1     
-Mean absolute error                      0.0028
-Root mean squared error                  0.0208
-Relative absolute error                  1.4565 %
-Root relative squared error              6.6504 %
+Mean absolute error                      0.0029
+Root mean squared error                  0.0202
+Relative absolute error                  1.1296 %
+Root relative squared error              5.6108 %
 Total Number of Instances              416     
 
 
@@ -959,61 +1063,53 @@ Total Number of Instances              416
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  43   0   0   0   0   0   0   0 |   a = K1
-   0 148   0   0   0   0   0   0 |   b = K2
-   0   0  76   0   0   0   0   0 |   c = K3
-   0   0   0  61   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  43   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0 |   b = K2
+   0   0  76   0   0   0 |   c = K3
+   0   0   0  61   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
-Time taken to perform cross-validation: 2.79 seconds
+Time taken to perform cross-validation: 3.16 seconds
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances         350               84.1346 %
-Incorrectly Classified Instances        66               15.8654 %
-Kappa statistic                          0.797 
-Mean absolute error                      0.0436
-Root mean squared error                  0.1904
-Relative absolute error                 22.2629 %
-Root relative squared error             60.9464 %
+Correctly Classified Instances         353               84.8558 %
+Incorrectly Classified Instances        63               15.1442 %
+Kappa statistic                          0.8067
+Mean absolute error                      0.0554
+Root mean squared error                  0.2125
+Relative absolute error                 21.2778 %
+Root relative squared error             58.9105 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.419    0.051    0.486      0.419    0.450      0.393    0.821     0.389     K1
-                 0.851    0.075    0.863      0.851    0.857      0.779    0.939     0.904     K2
-                 0.934    0.021    0.910      0.934    0.922      0.904    0.994     0.963     K3
-                 0.852    0.017    0.897      0.852    0.874      0.853    0.984     0.944     K4
-                 0.938    0.028    0.857      0.938    0.896      0.877    0.987     0.887     K5
-                 0.958    0.010    0.852      0.958    0.902      0.897    0.981     0.816     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.841    0.043    0.836      0.841    0.838      0.795    0.953     0.860     
+                 0.372    0.056    0.432      0.372    0.400      0.338    0.800     0.373     K1
+                 0.851    0.060    0.887      0.851    0.869      0.799    0.949     0.906     K2
+                 0.947    0.018    0.923      0.947    0.935      0.920    0.996     0.979     K3
+                 0.852    0.017    0.897      0.852    0.874      0.853    0.982     0.931     K4
+                 1.000    0.031    0.853      1.000    0.921      0.909    0.986     0.853     K5
+                 0.958    0.008    0.885      0.958    0.920      0.916    0.974     0.854     K6
+Weighted Avg.    0.849    0.038    0.843      0.849    0.844      0.805    0.954     0.857     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  18  18   0   0   5   2   0   0 |   a = K1
-  17 126   0   0   4   1   0   0 |   b = K2
-   0   0  71   5   0   0   0   0 |   c = K3
-   1   0   7  52   1   0   0   0 |   d = K4
-   1   2   0   0  60   1   0   0 |   e = K5
-   0   0   0   1   0  23   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  16  16   0   1   7   3 |   a = K1
+  20 126   0   0   2   0 |   b = K2
+   0   0  72   4   0   0 |   c = K3
+   1   0   6  52   2   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   1   0  23 |   f = K6
 

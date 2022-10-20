@@ -5,199 +5,205 @@ Options: -I -1 -M 15 -W 0.0
 
 Logistic model tree 
 ------------------
-: LM_1:13/13 (416)
+: LM_1:19/19 (416)
 
 Number of Leaves  : 	1
 
 Size of the Tree : 	1
 LM_1:
 Class K1 :
--2.89 + 
-[Auto Color Correlogram15] * -0.08 +
+-4.31 + 
+[Auto Color Correlogram13] * -0.05 +
+[Auto Color Correlogram23] * 0.13 +
 [Auto Color Correlogram82] * 0.12 +
 [Auto Color Correlogram144] * 0.14 +
-[Auto Color Correlogram159] * 2.68 +
-[Auto Color Correlogram206] * 0.21 +
+[Auto Color Correlogram159] * 2.53 +
+[Auto Color Correlogram206] * 0.17 +
+[Auto Color Correlogram207] * 0.24 +
+[Auto Color Correlogram600] * 0.12 +
+[Auto Color Correlogram670] * -0.17 +
 [Auto Color Correlogram704] * 0.13 +
-[Auto Color Correlogram787] * -0.45 +
+[Auto Color Correlogram787] * -0.84 +
 [Auto Color Correlogram788] * 0.22 +
-[Auto Color Correlogram833] * 0.11 +
-[Auto Color Correlogram836] * 0.09 +
-[Auto Color Correlogram916] * 0.23 +
-[Auto Color Correlogram979] * -0.16 +
-[Auto Color Correlogram1013] * -0.13
+[Auto Color Correlogram833] * 0.12 +
+[Auto Color Correlogram836] * 0.08 +
+[Auto Color Correlogram916] * 0.3  +
+[Auto Color Correlogram992] * -0.06 +
+[Auto Color Correlogram995] * 0.16
 
 Class K2 :
--2.94 + 
-[Auto Color Correlogram14] * 0.09 +
-[Auto Color Correlogram23] * -0.13 +
-[Auto Color Correlogram61] * 0.11 +
-[Auto Color Correlogram206] * -0.17 +
-[Auto Color Correlogram452] * -0.18 +
-[Auto Color Correlogram600] * -0.15 +
-[Auto Color Correlogram708] * 0.16 +
-[Auto Color Correlogram773] * 0.11 +
-[Auto Color Correlogram787] * 0.43 +
-[Auto Color Correlogram977] * 0.12 +
-[Auto Color Correlogram980] * 0.33 +
-[Auto Color Correlogram992] * 0.13 +
-[Auto Color Correlogram1005] * 0.2 
+-3.95 + 
+[Auto Color Correlogram13] * 0.06 +
+[Auto Color Correlogram15] * 0.07 +
+[Auto Color Correlogram61] * 0.21 +
+[Auto Color Correlogram176] * -0.81 +
+[Auto Color Correlogram206] * -0.15 +
+[Auto Color Correlogram452] * -0.19 +
+[Auto Color Correlogram601] * -0.29 +
+[Auto Color Correlogram708] * 0.15 +
+[Auto Color Correlogram773] * 0.1  +
+[Auto Color Correlogram787] * 0.48 +
+[Auto Color Correlogram929] * -0.44 +
+[Auto Color Correlogram932] * -0.17 +
+[Auto Color Correlogram977] * 0.13 +
+[Auto Color Correlogram980] * 0.32 +
+[Auto Color Correlogram992] * 0.25 +
+[Auto Color Correlogram1005] * 0.17
 
 Class K3 :
--0.47 + 
-[Auto Color Correlogram9] * 0.3  +
-[Auto Color Correlogram24] * -0.14 +
-[Auto Color Correlogram41] * -0.14 +
-[Auto Color Correlogram59] * -0.18 +
-[Auto Color Correlogram122] * 0.11 +
-[Auto Color Correlogram336] * -0.21 +
-[Auto Color Correlogram368] * 0.91 +
-[Auto Color Correlogram496] * 0.26 +
-[Auto Color Correlogram548] * 0.18 +
-[Auto Color Correlogram560] * 0.29 +
-[Auto Color Correlogram722] * -0.45 +
-[Auto Color Correlogram728] * -0.24 +
-[Auto Color Correlogram841] * -0.3
+-0.78 + 
+[Auto Color Correlogram41] * -0.13 +
+[Auto Color Correlogram122] * 0.09 +
+[Auto Color Correlogram208] * -0.17 +
+[Auto Color Correlogram336] * -0.22 +
+[Auto Color Correlogram368] * 0.83 +
+[Auto Color Correlogram432] * 0.57 +
+[Auto Color Correlogram498] * 1.21 +
+[Auto Color Correlogram548] * 0.17 +
+[Auto Color Correlogram560] * 0.28 +
+[Auto Color Correlogram728] * -0.45 +
+[Auto Color Correlogram841] * -0.29 +
+[Auto Color Correlogram852] * 0.24 +
+[Auto Color Correlogram881] * 0.59 +
+[Auto Color Correlogram882] * -1.24 +
+[Auto Color Correlogram896] * -0.11 +
+[Auto Color Correlogram919] * -0.75 +
+[Auto Color Correlogram969] * 0.36 +
+[Auto Color Correlogram972] * -0.14
 
 Class K4 :
--1.19 + 
-[Auto Color Correlogram3] * 0.13 +
-[Auto Color Correlogram368] * 0.81 +
-[Auto Color Correlogram369] * 0.59 +
-[Auto Color Correlogram370] * 0.64 +
-[Auto Color Correlogram548] * -0.17 +
-[Auto Color Correlogram688] * 0.3  +
-[Auto Color Correlogram752] * 0.29 +
-[Auto Color Correlogram801] * 0.71 +
-[Auto Color Correlogram919] * 0.94 +
-[Auto Color Correlogram920] * -0.19 +
+-1.6 + 
+[Auto Color Correlogram0] * 0.08 +
+[Auto Color Correlogram3] * 0.06 +
+[Auto Color Correlogram7] * -0.38 +
+[Auto Color Correlogram16] * -0.16 +
+[Auto Color Correlogram368] * 0.72 +
+[Auto Color Correlogram369] * 0.94 +
+[Auto Color Correlogram498] * -1.15 +
+[Auto Color Correlogram688] * 0.31 +
+[Auto Color Correlogram752] * 0.31 +
+[Auto Color Correlogram801] * 0.79 +
+[Auto Color Correlogram852] * -0.31 +
+[Auto Color Correlogram881] * -0.54 +
+[Auto Color Correlogram882] * 1.35 +
+[Auto Color Correlogram912] * -0.24 +
+[Auto Color Correlogram919] * 0.76 +
+[Auto Color Correlogram920] * -0.2 +
 [Auto Color Correlogram968] * -0.2 +
-[Auto Color Correlogram980] * -0.19 +
-[Auto Color Correlogram992] * -0.17
+[Auto Color Correlogram980] * -0.16 +
+[Auto Color Correlogram1019] * 0.16
 
 Class K5 :
-0.01 + 
-[Auto Color Correlogram0] * -0.22 +
-[Auto Color Correlogram1] * -0.13 +
-[Auto Color Correlogram197] * 0.33 +
-[Auto Color Correlogram392] * 0.31 +
-[Auto Color Correlogram580] * 0.21 +
-[Auto Color Correlogram628] * 0.22 +
-[Auto Color Correlogram636] * 0.28 +
-[Auto Color Correlogram648] * -0.16 +
+-0.59 + 
+[Auto Color Correlogram0] * -0.3 +
+[Auto Color Correlogram1] * -0.12 +
+[Auto Color Correlogram68] * 0.14 +
+[Auto Color Correlogram213] * 0.15 +
+[Auto Color Correlogram392] * 0.28 +
+[Auto Color Correlogram580] * 0.16 +
+[Auto Color Correlogram589] * 0.16 +
+[Auto Color Correlogram620] * 0.1  +
+[Auto Color Correlogram628] * 0.19 +
+[Auto Color Correlogram636] * 0.27 +
+[Auto Color Correlogram692] * 0.18 +
+[Auto Color Correlogram713] * -0.18 +
 [Auto Color Correlogram840] * -0.19 +
-[Auto Color Correlogram845] * -0.19 +
-[Auto Color Correlogram868] * 1.09
+[Auto Color Correlogram868] * 0.87 +
+[Auto Color Correlogram908] * -0.14 +
+[Auto Color Correlogram965] * -0.22
 
 Class K6 :
--7.04 + 
-[Auto Color Correlogram140] * 0.38 +
-[Auto Color Correlogram216] * 0.38 +
-[Auto Color Correlogram220] * 0.29 +
-[Auto Color Correlogram280] * 0.55 +
-[Auto Color Correlogram340] * 0.45 +
-[Auto Color Correlogram600] * 0.14 +
-[Auto Color Correlogram628] * 0.38 +
-[Auto Color Correlogram632] * 0.09 +
-[Auto Color Correlogram634] * 0.16 +
-[Auto Color Correlogram698] * 0.33 +
-[Auto Color Correlogram968] * -0.27
-
-Class K7 :
--11.58 + 
-[Auto Color Correlogram90] * -0 +
-[Auto Color Correlogram95] * -0 +
-[Auto Color Correlogram154] * -0 +
-[Auto Color Correlogram981] * 0.01
-
-Class K8 :
--11.58 + 
-[Auto Color Correlogram90] * -0 +
-[Auto Color Correlogram95] * -0 +
-[Auto Color Correlogram154] * -0 +
-[Auto Color Correlogram981] * 0.01
+-7.42 + 
+[Auto Color Correlogram140] * 0.32 +
+[Auto Color Correlogram152] * 0.5  +
+[Auto Color Correlogram220] * 0.26 +
+[Auto Color Correlogram221] * 1.02 +
+[Auto Color Correlogram232] * 0.19 +
+[Auto Color Correlogram280] * 0.52 +
+[Auto Color Correlogram340] * 0.56 +
+[Auto Color Correlogram601] * 0.14 +
+[Auto Color Correlogram616] * 0.44 +
+[Auto Color Correlogram628] * 0.46 +
+[Auto Color Correlogram633] * 0.14 +
+[Auto Color Correlogram664] * 0.25 +
+[Auto Color Correlogram696] * 0.18 +
+[Auto Color Correlogram836] * -0.39 +
+[Auto Color Correlogram904] * -0.23 +
+[Auto Color Correlogram964] * -0.23
 
 
-Time taken to build model: 6.08 seconds
+Time taken to build model: 7.51 seconds
 
-Time taken to test model on training data: 0.03 seconds
+Time taken to test model on training data: 0.04 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances         383               92.0673 %
-Incorrectly Classified Instances        33                7.9327 %
-Kappa statistic                          0.8976
-Mean absolute error                      0.0459
-Root mean squared error                  0.1278
-Relative absolute error                 23.4673 %
-Root relative squared error             40.9048 %
+Correctly Classified Instances         396               95.1923 %
+Incorrectly Classified Instances        20                4.8077 %
+Kappa statistic                          0.938 
+Mean absolute error                      0.0476
+Root mean squared error                  0.1233
+Relative absolute error                 18.2626 %
+Root relative squared error             34.1845 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.674    0.011    0.879      0.674    0.763      0.748    0.979     0.877     K1
-                 0.973    0.052    0.911      0.973    0.941      0.908    0.992     0.983     K2
-                 0.934    0.026    0.888      0.934    0.910      0.890    0.994     0.972     K3
-                 0.836    0.011    0.927      0.836    0.879      0.861    0.993     0.963     K4
-                 1.000    0.006    0.970      1.000    0.985      0.982    1.000     1.000     K5
+                 0.721    0.008    0.912      0.721    0.805      0.792    0.990     0.939     K1
+                 0.980    0.045    0.924      0.980    0.951      0.923    0.996     0.992     K2
+                 1.000    0.012    0.950      1.000    0.974      0.969    0.999     0.996     K3
+                 0.918    0.000    1.000      0.918    0.957      0.951    0.998     0.989     K4
+                 1.000    0.003    0.985      1.000    0.992      0.991    1.000     1.000     K5
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.921    0.027    0.920      0.921    0.918      0.898    0.993     0.971     
+Weighted Avg.    0.952    0.019    0.952      0.952    0.950      0.937    0.997     0.988     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  29  14   0   0   0   0   0   0 |   a = K1
-   4 144   0   0   0   0   0   0 |   b = K2
-   0   0  71   4   1   0   0   0 |   c = K3
-   0   0   9  51   1   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  31  12   0   0   0   0 |   a = K1
+   3 145   0   0   0   0 |   b = K2
+   0   0  76   0   0   0 |   c = K3
+   0   0   4  56   1   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
-Time taken to perform cross-validation: 79.94 seconds
+Time taken to perform cross-validation: 77.73 seconds
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances         322               77.4038 %
-Incorrectly Classified Instances        94               22.5962 %
-Kappa statistic                          0.7087
-Mean absolute error                      0.0659
-Root mean squared error                  0.2103
-Relative absolute error                 33.6839 %
-Root relative squared error             67.3096 %
+Correctly Classified Instances         323               77.6442 %
+Incorrectly Classified Instances        93               22.3558 %
+Kappa statistic                          0.7124
+Mean absolute error                      0.0852
+Root mean squared error                  0.2405
+Relative absolute error                 32.6987 %
+Root relative squared error             66.6518 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.395    0.051    0.472      0.395    0.430      0.373    0.853     0.371     K1
-                 0.865    0.104    0.821      0.865    0.842      0.752    0.936     0.855     K2
-                 0.737    0.059    0.737      0.737    0.737      0.678    0.949     0.773     K3
-                 0.623    0.056    0.655      0.623    0.639      0.579    0.929     0.683     K4
-                 0.969    0.017    0.912      0.969    0.939      0.929    0.997     0.978     K5
-                 0.875    0.003    0.955      0.875    0.913      0.909    1.000     0.993     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.774    0.064    0.767      0.774    0.770      0.710    0.942     0.792     
+                 0.372    0.059    0.421      0.372    0.395      0.331    0.851     0.346     K1
+                 0.845    0.104    0.817      0.845    0.831      0.735    0.935     0.855     K2
+                 0.750    0.062    0.731      0.750    0.740      0.681    0.961     0.823     K3
+                 0.623    0.051    0.679      0.623    0.650      0.593    0.946     0.756     K4
+                 1.000    0.011    0.941      1.000    0.970      0.965    0.996     0.965     K5
+                 0.958    0.000    1.000      0.958    0.979      0.978    0.996     0.976     K6
+Weighted Avg.    0.776    0.064    0.770      0.776    0.772      0.712    0.945     0.806     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  17  26   0   0   0   0   0   0 |   a = K1
-  19 128   0   0   1   0   0   0 |   b = K2
-   0   0  56  20   0   0   0   0 |   c = K3
-   0   2  18  38   2   1   0   0 |   d = K4
-   0   0   2   0  62   0   0   0 |   e = K5
-   0   0   0   0   3  21   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  16  27   0   0   0   0 |   a = K1
+  22 125   0   0   1   0 |   b = K2
+   0   0  57  18   1   0 |   c = K3
+   0   1  21  38   1   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   0   1  23 |   f = K6
 

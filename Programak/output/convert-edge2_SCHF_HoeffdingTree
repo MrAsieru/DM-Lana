@@ -5,19 +5,19 @@ Options: -L 2 -S 1 -E 1.0E-7 -H 0.05 -M 0.01 -G 200.0 -N 0.0
 
 K2 (149.000) NB1 NB adaptive1
 
-Time taken to build model: 0.23 seconds
+Time taken to build model: 0.29 seconds
 
-Time taken to test model on training data: 0.04 seconds
+Time taken to test model on training data: 0.03 seconds
 
 === Error on training data ===
 
 Correctly Classified Instances         207               49.7596 %
 Incorrectly Classified Instances       209               50.2404 %
 Kappa statistic                          0.4055
-Mean absolute error                      0.1263
-Root mean squared error                  0.3534
-Relative absolute error                 64.532  %
-Root relative squared error            113.1113 %
+Mean absolute error                      0.1684
+Root mean squared error                  0.4081
+Relative absolute error                 64.617  %
+Root relative squared error            113.1129 %
 Total Number of Instances              416     
 
 
@@ -30,24 +30,20 @@ Total Number of Instances              416
                  0.082    0.006    0.714      0.082    0.147      0.210    0.886     0.536     K4
                  0.688    0.011    0.917      0.688    0.786      0.764    0.974     0.905     K5
                  1.000    0.051    0.545      1.000    0.706      0.719    0.980     0.600     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.498    0.091    0.607      0.498    0.454      0.402    0.919     0.687     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  42   1   0   0   0   0   0   0 |   a = K1
- 121  26   1   0   0   0   0   0 |   b = K2
-   0   7  66   2   1   0   0   0 |   c = K3
-   2  14  33   5   3   4   0   0 |   d = K4
-   0   2   2   0  44  16   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  42   1   0   0   0   0 |   a = K1
+ 121  26   1   0   0   0 |   b = K2
+   0   7  66   2   1   0 |   c = K3
+   2  14  33   5   3   4 |   d = K4
+   0   2   2   0  44  16 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
-Time taken to perform cross-validation: 0.3 seconds
+Time taken to perform cross-validation: 0.26 seconds
 
 
 === Stratified cross-validation ===
@@ -55,10 +51,10 @@ Time taken to perform cross-validation: 0.3 seconds
 Correctly Classified Instances         190               45.6731 %
 Incorrectly Classified Instances       226               54.3269 %
 Kappa statistic                          0.3601
-Mean absolute error                      0.1355
-Root mean squared error                  0.3662
-Relative absolute error                 69.2475 %
-Root relative squared error            117.2062 %
+Mean absolute error                      0.1807
+Root mean squared error                  0.4229
+Relative absolute error                 69.3486 %
+Root relative squared error            117.2083 %
 Total Number of Instances              416     
 
 
@@ -71,20 +67,16 @@ Total Number of Instances              416
                  0.033    0.008    0.400      0.033    0.061      0.079    0.801     0.327     K4
                  0.688    0.026    0.830      0.688    0.752      0.716    0.959     0.795     K5
                  1.000    0.064    0.490      1.000    0.658      0.677    0.980     0.600     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.457    0.097    0.514      0.457    0.404      0.337    0.875     0.566     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  41   2   0   0   0   0   0   0 |   a = K1
- 125  21   2   0   0   0   0   0 |   b = K2
-   0   7  58   3   4   4   0   0 |   c = K3
-   2  14  33   2   5   5   0   0 |   d = K4
-   0   2   2   0  44  16   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  41   2   0   0   0   0 |   a = K1
+ 125  21   2   0   0   0 |   b = K2
+   0   7  58   3   4   4 |   c = K3
+   2  14  33   2   5   5 |   d = K4
+   0   2   2   0  44  16 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 

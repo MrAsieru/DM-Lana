@@ -54,9 +54,7 @@ Histogram of JPEG Coefficients136 > 11
 |   Histogram of JPEG Coefficients32 > 123
 |   |   Histogram of JPEG Coefficients18 <= 228
 |   |   |   Histogram of JPEG Coefficients159 <= 106
-|   |   |   |   Histogram of JPEG Coefficients45 <= 3
-|   |   |   |   |   Histogram of JPEG Coefficients4 <= 250: K2 (128.0/3.0)
-|   |   |   |   |   Histogram of JPEG Coefficients4 > 250: K1 (3.0/1.0)
+|   |   |   |   Histogram of JPEG Coefficients45 <= 3: K2 (131.0/5.0)
 |   |   |   |   Histogram of JPEG Coefficients45 > 3
 |   |   |   |   |   Histogram of JPEG Coefficients128 <= 0: K2 (13.0)
 |   |   |   |   |   Histogram of JPEG Coefficients128 > 0
@@ -65,65 +63,61 @@ Histogram of JPEG Coefficients136 > 11
 |   |   |   Histogram of JPEG Coefficients159 > 106: K1 (6.0/1.0)
 |   |   Histogram of JPEG Coefficients18 > 228: K1 (6.0)
 
-Number of Leaves  : 	30
+Number of Leaves  : 	29
 
-Size of the tree : 	59
+Size of the tree : 	57
 
 
-Time taken to build model: 0.29 seconds
+Time taken to build model: 0.34 seconds
 
-Time taken to test model on training data: 0.02 seconds
+Time taken to test model on training data: 0.03 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances         403               96.875  %
-Incorrectly Classified Instances        13                3.125  %
-Kappa statistic                          0.9599
-Mean absolute error                      0.0126
-Root mean squared error                  0.0794
-Relative absolute error                  6.4507 %
-Root relative squared error             25.4266 %
+Correctly Classified Instances         402               96.6346 %
+Incorrectly Classified Instances        14                3.3654 %
+Kappa statistic                          0.9567
+Mean absolute error                      0.0188
+Root mean squared error                  0.0969
+Relative absolute error                  7.2052 %
+Root relative squared error             26.8551 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.884    0.005    0.950      0.884    0.916      0.907    0.985     0.932     K1
-                 0.986    0.019    0.967      0.986    0.977      0.964    0.994     0.979     K2
+                 0.837    0.003    0.973      0.837    0.900      0.893    0.977     0.900     K1
+                 0.993    0.026    0.955      0.993    0.974      0.959    0.991     0.967     K2
                  0.987    0.012    0.949      0.987    0.968      0.961    0.998     0.989     K3
                  0.934    0.000    1.000      0.934    0.966      0.961    0.998     0.990     K4
                  0.984    0.003    0.984      0.984    0.984      0.982    1.000     0.999     K5
                  1.000    0.003    0.960      1.000    0.980      0.979    1.000     0.995     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.969    0.010    0.969      0.969    0.969      0.960    0.996     0.982     
+Weighted Avg.    0.966    0.012    0.967      0.966    0.966      0.957    0.994     0.974     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  38   5   0   0   0   0   0   0 |   a = K1
-   2 146   0   0   0   0   0   0 |   b = K2
-   0   0  75   0   0   1   0   0 |   c = K3
-   0   0   3  57   1   0   0   0 |   d = K4
-   0   0   1   0  63   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  36   7   0   0   0   0 |   a = K1
+   1 147   0   0   0   0 |   b = K2
+   0   0  75   0   0   1 |   c = K3
+   0   0   3  57   1   0 |   d = K4
+   0   0   1   0  63   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
-Time taken to perform cross-validation: 0.52 seconds
+Time taken to perform cross-validation: 0.65 seconds
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances         312               75      %
-Incorrectly Classified Instances       104               25      %
-Kappa statistic                          0.6818
-Mean absolute error                      0.0639
-Root mean squared error                  0.2417
-Relative absolute error                 32.6541 %
-Root relative squared error             77.3411 %
+Correctly Classified Instances         313               75.2404 %
+Incorrectly Classified Instances       103               24.7596 %
+Kappa statistic                          0.6849
+Mean absolute error                      0.0837
+Root mean squared error                  0.2755
+Relative absolute error                 32.1065 %
+Root relative squared error             76.3651 %
 Total Number of Instances              416     
 
 
@@ -132,24 +126,20 @@ Total Number of Instances              416
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
                  0.651    0.064    0.538      0.651    0.589      0.540    0.811     0.431     K1
                  0.845    0.056    0.893      0.845    0.868      0.799    0.913     0.826     K2
-                 0.618    0.074    0.653      0.618    0.635      0.557    0.829     0.509     K3
-                 0.574    0.062    0.614      0.574    0.593      0.526    0.775     0.477     K4
-                 0.906    0.043    0.795      0.906    0.847      0.819    0.955     0.779     K5
-                 0.792    0.008    0.864      0.792    0.826      0.817    0.973     0.823     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.750    0.056    0.755      0.750    0.751      0.692    0.877     0.669     
+                 0.605    0.065    0.676      0.605    0.639      0.565    0.830     0.508     K3
+                 0.590    0.065    0.610      0.590    0.600      0.533    0.786     0.500     K4
+                 0.922    0.048    0.776      0.922    0.843      0.816    0.972     0.810     K5
+                 0.792    0.005    0.905      0.792    0.844      0.838    0.975     0.877     K6
+Weighted Avg.    0.752    0.056    0.758      0.752    0.753      0.695    0.881     0.680     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  28  15   0   0   0   0   0   0 |   a = K1
-  23 125   0   0   0   0   0   0 |   b = K2
-   0   0  47  20   9   0   0   0 |   c = K3
-   1   0  18  35   4   3   0   0 |   d = K4
-   0   0   4   2  58   0   0   0 |   e = K5
-   0   0   3   0   2  19   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  28  15   0   0   0   0 |   a = K1
+  23 125   0   0   0   0 |   b = K2
+   0   0  46  20  10   0 |   c = K3
+   1   0  18  36   4   2 |   d = K4
+   0   0   2   3  59   0 |   e = K5
+   0   0   2   0   3  19 |   f = K6
 

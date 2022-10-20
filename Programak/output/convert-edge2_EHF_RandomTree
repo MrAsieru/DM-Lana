@@ -160,9 +160,9 @@ MPEG-7 Edge Histogram61 >= 1.5
 
 Size of the tree : 151
 
-Time taken to build model: 0.18 seconds
+Time taken to build model: 0.21 seconds
 
-Time taken to test model on training data: 0.01 seconds
+Time taken to test model on training data: 0.02 seconds
 
 === Error on training data ===
 
@@ -185,24 +185,20 @@ Total Number of Instances              416
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  43   0   0   0   0   0   0   0 |   a = K1
-   0 148   0   0   0   0   0   0 |   b = K2
-   0   0  76   0   0   0   0   0 |   c = K3
-   0   0   0  61   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  43   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0 |   b = K2
+   0   0  76   0   0   0 |   c = K3
+   0   0   0  61   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
-Time taken to perform cross-validation: 0.06 seconds
+Time taken to perform cross-validation: 0.07 seconds
 
 
 === Stratified cross-validation ===
@@ -210,10 +206,10 @@ Time taken to perform cross-validation: 0.06 seconds
 Correctly Classified Instances         332               79.8077 %
 Incorrectly Classified Instances        84               20.1923 %
 Kappa statistic                          0.7411
-Mean absolute error                      0.0505
-Root mean squared error                  0.2247
-Relative absolute error                 25.7914 %
-Root relative squared error             71.9062 %
+Mean absolute error                      0.0673
+Root mean squared error                  0.2594
+Relative absolute error                 25.8291 %
+Root relative squared error             71.9074 %
 Total Number of Instances              416     
 
 
@@ -226,20 +222,16 @@ Total Number of Instances              416
                  0.672    0.045    0.719      0.672    0.695      0.645    0.814     0.532     K4
                  0.953    0.034    0.836      0.953    0.891      0.872    0.960     0.804     K5
                  0.958    0.010    0.852      0.958    0.902      0.897    0.974     0.819     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    0.798    0.049    0.792      0.798    0.794      0.746    0.874     0.683     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  21  12   2   1   4   3   0   0 |   a = K1
-   7 134   2   2   3   0   0   0 |   b = K2
-   4   3  52  12   4   1   0   0 |   c = K3
-   4   2  13  41   1   0   0   0 |   d = K4
-   2   0   1   0  61   0   0   0 |   e = K5
-   0   0   0   1   0  23   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  21  12   2   1   4   3 |   a = K1
+   7 134   2   2   3   0 |   b = K2
+   4   3  52  12   4   1 |   c = K3
+   4   2  13  41   1   0 |   d = K4
+   2   0   1   0  61   0 |   e = K5
+   0   0   0   1   0  23 |   f = K6
 

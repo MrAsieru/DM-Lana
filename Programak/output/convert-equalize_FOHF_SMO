@@ -228,26 +228,6 @@ Machine linear: showing attribute weights, not support vectors.
 
 Number of kernel evaluations: 1042 (90.557% cached)
 
-Classifier for classes: K1, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K1, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
 Classifier for classes: K2, K3
 
 BinarySMO
@@ -255,45 +235,49 @@ BinarySMO
 Machine linear: showing attribute weights, not support vectors.
 
          1.4291 * (normalized) Fuzzy Opponent Histogram4
- +       1.6711 * (normalized) Fuzzy Opponent Histogram5
- +       1.4541 * (normalized) Fuzzy Opponent Histogram7
- +      -1.0304 * (normalized) Fuzzy Opponent Histogram8
- +      -1.0474 * (normalized) Fuzzy Opponent Histogram9
- +       0.2733 * (normalized) Fuzzy Opponent Histogram13
- +      -0.6537 * (normalized) Fuzzy Opponent Histogram14
- +       0      * (normalized) Fuzzy Opponent Histogram15
- +       0.0611 * (normalized) Fuzzy Opponent Histogram16
- +      -2.8306 * (normalized) Fuzzy Opponent Histogram17
- +      -2.3652 * (normalized) Fuzzy Opponent Histogram18
- +      -0.4769 * (normalized) Fuzzy Opponent Histogram20
- +      -0.9599 * (normalized) Fuzzy Opponent Histogram21
- +       0.9288 * (normalized) Fuzzy Opponent Histogram22
- +       1.1453 * (normalized) Fuzzy Opponent Histogram23
- +       0.6175 * (normalized) Fuzzy Opponent Histogram25
- +      -0.0831 * (normalized) Fuzzy Opponent Histogram26
- +      -1.0998 * (normalized) Fuzzy Opponent Histogram27
- +       0.0944 * (normalized) Fuzzy Opponent Histogram28
- +       0.083  * (normalized) Fuzzy Opponent Histogram29
+ +       1.6715 * (normalized) Fuzzy Opponent Histogram5
+ +       1.4542 * (normalized) Fuzzy Opponent Histogram7
+ +      -1.0286 * (normalized) Fuzzy Opponent Histogram8
+ +      -1.0462 * (normalized) Fuzzy Opponent Histogram9
+ +       0      * (normalized) Fuzzy Opponent Histogram10
+ +       0      * (normalized) Fuzzy Opponent Histogram11
+ +       0.2727 * (normalized) Fuzzy Opponent Histogram13
+ +      -0.6544 * (normalized) Fuzzy Opponent Histogram14
+ +      -0      * (normalized) Fuzzy Opponent Histogram15
+ +       0.0612 * (normalized) Fuzzy Opponent Histogram16
+ +      -2.8288 * (normalized) Fuzzy Opponent Histogram17
+ +      -2.3608 * (normalized) Fuzzy Opponent Histogram18
+ +      -0      * (normalized) Fuzzy Opponent Histogram19
+ +      -0.4771 * (normalized) Fuzzy Opponent Histogram20
+ +      -0.9598 * (normalized) Fuzzy Opponent Histogram21
+ +       0.9293 * (normalized) Fuzzy Opponent Histogram22
+ +       1.143  * (normalized) Fuzzy Opponent Histogram23
+ +       0      * (normalized) Fuzzy Opponent Histogram24
+ +       0.616  * (normalized) Fuzzy Opponent Histogram25
+ +      -0.0858 * (normalized) Fuzzy Opponent Histogram26
+ +      -1.098  * (normalized) Fuzzy Opponent Histogram27
+ +       0.0945 * (normalized) Fuzzy Opponent Histogram28
+ +       0.08   * (normalized) Fuzzy Opponent Histogram29
  +      -0.0869 * (normalized) Fuzzy Opponent Histogram30
- +       0.8414 * (normalized) Fuzzy Opponent Histogram31
- +       0.0764 * (normalized) Fuzzy Opponent Histogram32
- +       0.2721 * (normalized) Fuzzy Opponent Histogram34
- +       0.6006 * (normalized) Fuzzy Opponent Histogram35
- +       0.2894 * (normalized) Fuzzy Opponent Histogram37
- +       0.3057 * (normalized) Fuzzy Opponent Histogram38
- +       0.3152 * (normalized) Fuzzy Opponent Histogram64
- +       0.6033 * (normalized) Fuzzy Opponent Histogram65
- +       0.4239 * (normalized) Fuzzy Opponent Histogram91
+ +       0.8398 * (normalized) Fuzzy Opponent Histogram31
+ +       0.0778 * (normalized) Fuzzy Opponent Histogram32
+ +       0.2707 * (normalized) Fuzzy Opponent Histogram34
+ +       0.5996 * (normalized) Fuzzy Opponent Histogram35
+ +       0.2898 * (normalized) Fuzzy Opponent Histogram37
+ +       0.3059 * (normalized) Fuzzy Opponent Histogram38
+ +       0.3158 * (normalized) Fuzzy Opponent Histogram64
+ +       0.6039 * (normalized) Fuzzy Opponent Histogram65
+ +       0.4243 * (normalized) Fuzzy Opponent Histogram91
  +       0.0049 * (normalized) Fuzzy Opponent Histogram92
- +       0.068  * (normalized) Fuzzy Opponent Histogram118
- +       0.1441 * (normalized) Fuzzy Opponent Histogram119
- +       0.1142 * (normalized) Fuzzy Opponent Histogram145
- +       0.0898 * (normalized) Fuzzy Opponent Histogram146
- +       0.0244 * (normalized) Fuzzy Opponent Histogram172
- +       0.0898 * (normalized) Fuzzy Opponent Histogram173
- -       0.2545
+ +       0.0677 * (normalized) Fuzzy Opponent Histogram118
+ +       0.1436 * (normalized) Fuzzy Opponent Histogram119
+ +       0.1139 * (normalized) Fuzzy Opponent Histogram145
+ +       0.0891 * (normalized) Fuzzy Opponent Histogram146
+ +       0.0247 * (normalized) Fuzzy Opponent Histogram172
+ +       0.0891 * (normalized) Fuzzy Opponent Histogram173
+ -       0.2547
 
-Number of kernel evaluations: 4437 (81.196% cached)
+Number of kernel evaluations: 3827 (86.408% cached)
 
 Classifier for classes: K2, K4
 
@@ -301,41 +285,39 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-         1.5316 * (normalized) Fuzzy Opponent Histogram4
- +       1.5819 * (normalized) Fuzzy Opponent Histogram5
- +       1.4567 * (normalized) Fuzzy Opponent Histogram7
- +      -0.4205 * (normalized) Fuzzy Opponent Histogram8
- +      -0.4185 * (normalized) Fuzzy Opponent Histogram9
- +      -0.2816 * (normalized) Fuzzy Opponent Histogram13
- +      -0.6664 * (normalized) Fuzzy Opponent Histogram14
- +      -0.3552 * (normalized) Fuzzy Opponent Histogram16
- +      -1.6786 * (normalized) Fuzzy Opponent Histogram17
- +      -1.4436 * (normalized) Fuzzy Opponent Histogram18
- +      -0.0005 * (normalized) Fuzzy Opponent Histogram19
- +      -0.7071 * (normalized) Fuzzy Opponent Histogram20
- +      -0.8359 * (normalized) Fuzzy Opponent Histogram21
- +       0.9929 * (normalized) Fuzzy Opponent Histogram22
- +       0.6943 * (normalized) Fuzzy Opponent Histogram23
- +       0      * (normalized) Fuzzy Opponent Histogram24
- +       0.2786 * (normalized) Fuzzy Opponent Histogram25
- +      -0.1846 * (normalized) Fuzzy Opponent Histogram26
- +      -0.6013 * (normalized) Fuzzy Opponent Histogram27
- +       0.5904 * (normalized) Fuzzy Opponent Histogram28
- +       0.3316 * (normalized) Fuzzy Opponent Histogram29
- +      -0.0944 * (normalized) Fuzzy Opponent Histogram30
- +       0.4964 * (normalized) Fuzzy Opponent Histogram31
- +      -0.361  * (normalized) Fuzzy Opponent Histogram32
- +      -0.7695 * (normalized) Fuzzy Opponent Histogram34
- +       0.7231 * (normalized) Fuzzy Opponent Histogram35
- +       0.5307 * (normalized) Fuzzy Opponent Histogram37
- +       0.3514 * (normalized) Fuzzy Opponent Histogram38
- +       0.3019 * (normalized) Fuzzy Opponent Histogram64
- +       0.5246 * (normalized) Fuzzy Opponent Histogram65
- +       0.2705 * (normalized) Fuzzy Opponent Histogram91
- +       0.2029 * (normalized) Fuzzy Opponent Histogram172
- -       0.6124
+         1.5154 * (normalized) Fuzzy Opponent Histogram4
+ +       1.598  * (normalized) Fuzzy Opponent Histogram5
+ +       1.4916 * (normalized) Fuzzy Opponent Histogram7
+ +      -0.4392 * (normalized) Fuzzy Opponent Histogram8
+ +      -0.4646 * (normalized) Fuzzy Opponent Histogram9
+ +      -0.3153 * (normalized) Fuzzy Opponent Histogram13
+ +      -0.6977 * (normalized) Fuzzy Opponent Histogram14
+ +      -0.3469 * (normalized) Fuzzy Opponent Histogram16
+ +      -1.6545 * (normalized) Fuzzy Opponent Histogram17
+ +      -1.4465 * (normalized) Fuzzy Opponent Histogram18
+ +      -0.7329 * (normalized) Fuzzy Opponent Histogram20
+ +      -0.8334 * (normalized) Fuzzy Opponent Histogram21
+ +       0.9796 * (normalized) Fuzzy Opponent Histogram22
+ +       0.6832 * (normalized) Fuzzy Opponent Histogram23
+ +       0.2624 * (normalized) Fuzzy Opponent Histogram25
+ +      -0.206  * (normalized) Fuzzy Opponent Histogram26
+ +      -0.5858 * (normalized) Fuzzy Opponent Histogram27
+ +       0.5903 * (normalized) Fuzzy Opponent Histogram28
+ +       0.3204 * (normalized) Fuzzy Opponent Histogram29
+ +      -0.0958 * (normalized) Fuzzy Opponent Histogram30
+ +       0.4915 * (normalized) Fuzzy Opponent Histogram31
+ +      -0.3602 * (normalized) Fuzzy Opponent Histogram32
+ +      -0.7905 * (normalized) Fuzzy Opponent Histogram34
+ +       0.7271 * (normalized) Fuzzy Opponent Histogram35
+ +       0.5303 * (normalized) Fuzzy Opponent Histogram37
+ +       0.3513 * (normalized) Fuzzy Opponent Histogram38
+ +       0.3018 * (normalized) Fuzzy Opponent Histogram64
+ +       0.5242 * (normalized) Fuzzy Opponent Histogram65
+ +       0.2702 * (normalized) Fuzzy Opponent Histogram91
+ +       0.2026 * (normalized) Fuzzy Opponent Histogram172
+ -       0.5583
 
-Number of kernel evaluations: 3056 (78.237% cached)
+Number of kernel evaluations: 2899 (73% cached)
 
 Classifier for classes: K2, K5
 
@@ -344,40 +326,41 @@ BinarySMO
 Machine linear: showing attribute weights, not support vectors.
 
          0.3333 * (normalized) Fuzzy Opponent Histogram1
- +       0.0035 * (normalized) Fuzzy Opponent Histogram4
+ +      -0      * (normalized) Fuzzy Opponent Histogram2
+ +       0.004  * (normalized) Fuzzy Opponent Histogram4
  +      -0.2721 * (normalized) Fuzzy Opponent Histogram5
- +      -0.4165 * (normalized) Fuzzy Opponent Histogram7
- +      -0.9313 * (normalized) Fuzzy Opponent Histogram8
- +      -0.4613 * (normalized) Fuzzy Opponent Histogram9
- +       1.3026 * (normalized) Fuzzy Opponent Histogram10
- +       1.368  * (normalized) Fuzzy Opponent Histogram11
- +      -0      * (normalized) Fuzzy Opponent Histogram12
- +       1.6691 * (normalized) Fuzzy Opponent Histogram13
- +       1.0502 * (normalized) Fuzzy Opponent Histogram14
+ +      -0.4166 * (normalized) Fuzzy Opponent Histogram7
+ +      -0.9319 * (normalized) Fuzzy Opponent Histogram8
+ +      -0.4618 * (normalized) Fuzzy Opponent Histogram9
+ +       1.3025 * (normalized) Fuzzy Opponent Histogram10
+ +       1.3678 * (normalized) Fuzzy Opponent Histogram11
+ +       0      * (normalized) Fuzzy Opponent Histogram12
+ +       1.6696 * (normalized) Fuzzy Opponent Histogram13
+ +       1.0517 * (normalized) Fuzzy Opponent Histogram14
  +       0.1429 * (normalized) Fuzzy Opponent Histogram15
- +       0.0349 * (normalized) Fuzzy Opponent Histogram16
- +      -1.5831 * (normalized) Fuzzy Opponent Histogram17
- +      -0.741  * (normalized) Fuzzy Opponent Histogram18
- +       1.5266 * (normalized) Fuzzy Opponent Histogram19
+ +       0.0344 * (normalized) Fuzzy Opponent Histogram16
+ +      -1.5841 * (normalized) Fuzzy Opponent Histogram17
+ +      -0.7406 * (normalized) Fuzzy Opponent Histogram18
+ +       1.5257 * (normalized) Fuzzy Opponent Histogram19
  +      -0.2749 * (normalized) Fuzzy Opponent Histogram20
  +      -0.1926 * (normalized) Fuzzy Opponent Histogram21
- +       1.4628 * (normalized) Fuzzy Opponent Histogram22
+ +       1.4631 * (normalized) Fuzzy Opponent Histogram22
  +       0.9747 * (normalized) Fuzzy Opponent Histogram23
- +       0.2465 * (normalized) Fuzzy Opponent Histogram24
- +       1.1144 * (normalized) Fuzzy Opponent Histogram25
- +       0.2283 * (normalized) Fuzzy Opponent Histogram26
- +      -0.9069 * (normalized) Fuzzy Opponent Histogram27
- +       3.1011 * (normalized) Fuzzy Opponent Histogram28
- +       0.6831 * (normalized) Fuzzy Opponent Histogram29
+ +       0.2463 * (normalized) Fuzzy Opponent Histogram24
+ +       1.114  * (normalized) Fuzzy Opponent Histogram25
+ +       0.2284 * (normalized) Fuzzy Opponent Histogram26
+ +      -0.9065 * (normalized) Fuzzy Opponent Histogram27
+ +       3.0999 * (normalized) Fuzzy Opponent Histogram28
+ +       0.6828 * (normalized) Fuzzy Opponent Histogram29
  +      -0.0474 * (normalized) Fuzzy Opponent Histogram30
- +       1.238  * (normalized) Fuzzy Opponent Histogram31
- +      -0.1287 * (normalized) Fuzzy Opponent Histogram32
- +       0.7003 * (normalized) Fuzzy Opponent Histogram33
- +      -1.2358 * (normalized) Fuzzy Opponent Histogram34
- +       0.1441 * (normalized) Fuzzy Opponent Histogram35
- -       0.6576
+ +       1.2382 * (normalized) Fuzzy Opponent Histogram31
+ +      -0.1284 * (normalized) Fuzzy Opponent Histogram32
+ +       0.6996 * (normalized) Fuzzy Opponent Histogram33
+ +      -1.2354 * (normalized) Fuzzy Opponent Histogram34
+ +       0.1451 * (normalized) Fuzzy Opponent Histogram35
+ -       0.6582
 
-Number of kernel evaluations: 4573 (87.79% cached)
+Number of kernel evaluations: 5319 (81.565% cached)
 
 Classifier for classes: K2, K6
 
@@ -385,71 +368,50 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-         0.0812 * (normalized) Fuzzy Opponent Histogram4
- +       0.1124 * (normalized) Fuzzy Opponent Histogram5
- +      -0.1471 * (normalized) Fuzzy Opponent Histogram7
- +      -0.4424 * (normalized) Fuzzy Opponent Histogram8
- +      -0.2075 * (normalized) Fuzzy Opponent Histogram9
- +       1.1335 * (normalized) Fuzzy Opponent Histogram10
+         0.0794 * (normalized) Fuzzy Opponent Histogram4
+ +       0.1112 * (normalized) Fuzzy Opponent Histogram5
+ +      -0.1482 * (normalized) Fuzzy Opponent Histogram7
+ +      -0.4426 * (normalized) Fuzzy Opponent Histogram8
+ +      -0.2078 * (normalized) Fuzzy Opponent Histogram9
+ +       1.1339 * (normalized) Fuzzy Opponent Histogram10
  +       1.154  * (normalized) Fuzzy Opponent Histogram11
  +       0.1455 * (normalized) Fuzzy Opponent Histogram12
- +       2.4489 * (normalized) Fuzzy Opponent Histogram13
- +       0.6735 * (normalized) Fuzzy Opponent Histogram14
- +      -0      * (normalized) Fuzzy Opponent Histogram15
- +      -0.037  * (normalized) Fuzzy Opponent Histogram16
- +      -0.9845 * (normalized) Fuzzy Opponent Histogram17
- +      -0.0028 * (normalized) Fuzzy Opponent Histogram18
- +       0.8131 * (normalized) Fuzzy Opponent Histogram19
- +      -0.2552 * (normalized) Fuzzy Opponent Histogram20
- +       0.3145 * (normalized) Fuzzy Opponent Histogram21
- +       1.7179 * (normalized) Fuzzy Opponent Histogram22
- +      -0.1668 * (normalized) Fuzzy Opponent Histogram23
+ +       2.4494 * (normalized) Fuzzy Opponent Histogram13
+ +       0.6798 * (normalized) Fuzzy Opponent Histogram14
+ +      -0.0403 * (normalized) Fuzzy Opponent Histogram16
+ +      -0.9814 * (normalized) Fuzzy Opponent Histogram17
+ +      -0.002  * (normalized) Fuzzy Opponent Histogram18
+ +       0.8132 * (normalized) Fuzzy Opponent Histogram19
+ +      -0.2562 * (normalized) Fuzzy Opponent Histogram20
+ +       0.313  * (normalized) Fuzzy Opponent Histogram21
+ +       1.7167 * (normalized) Fuzzy Opponent Histogram22
+ +      -0.1746 * (normalized) Fuzzy Opponent Histogram23
  +      -0      * (normalized) Fuzzy Opponent Histogram24
- +       0.7163 * (normalized) Fuzzy Opponent Histogram25
- +      -0.6337 * (normalized) Fuzzy Opponent Histogram26
- +      -0.6872 * (normalized) Fuzzy Opponent Histogram27
- +       0.0066 * (normalized) Fuzzy Opponent Histogram28
- +      -0.2256 * (normalized) Fuzzy Opponent Histogram29
- +      -0.063  * (normalized) Fuzzy Opponent Histogram30
- +       0.0813 * (normalized) Fuzzy Opponent Histogram31
- +       0.184  * (normalized) Fuzzy Opponent Histogram32
- +      -0.8203 * (normalized) Fuzzy Opponent Histogram34
- +       0.6322 * (normalized) Fuzzy Opponent Histogram35
- +       0.0039 * (normalized) Fuzzy Opponent Histogram37
- +       0.0157 * (normalized) Fuzzy Opponent Histogram38
- +       0.0052 * (normalized) Fuzzy Opponent Histogram64
- +       0.0157 * (normalized) Fuzzy Opponent Histogram65
- +       0.0157 * (normalized) Fuzzy Opponent Histogram91
- +       0.0157 * (normalized) Fuzzy Opponent Histogram92
- +       0.0157 * (normalized) Fuzzy Opponent Histogram118
- +       0.0157 * (normalized) Fuzzy Opponent Histogram119
- +       0.0078 * (normalized) Fuzzy Opponent Histogram145
- +       0.0157 * (normalized) Fuzzy Opponent Histogram146
- +       0.0078 * (normalized) Fuzzy Opponent Histogram172
- +       0.0157 * (normalized) Fuzzy Opponent Histogram173
- -       1.0381
+ +       0.7164 * (normalized) Fuzzy Opponent Histogram25
+ +      -0.633  * (normalized) Fuzzy Opponent Histogram26
+ +      -0.6899 * (normalized) Fuzzy Opponent Histogram27
+ +       0.0067 * (normalized) Fuzzy Opponent Histogram28
+ +      -0.2248 * (normalized) Fuzzy Opponent Histogram29
+ +      -0.0626 * (normalized) Fuzzy Opponent Histogram30
+ +       0.0826 * (normalized) Fuzzy Opponent Histogram31
+ +       0.185  * (normalized) Fuzzy Opponent Histogram32
+ +      -0.821  * (normalized) Fuzzy Opponent Histogram34
+ +       0.632  * (normalized) Fuzzy Opponent Histogram35
+ +       0.004  * (normalized) Fuzzy Opponent Histogram37
+ +       0.0159 * (normalized) Fuzzy Opponent Histogram38
+ +       0.0053 * (normalized) Fuzzy Opponent Histogram64
+ +       0.0159 * (normalized) Fuzzy Opponent Histogram65
+ +       0.0159 * (normalized) Fuzzy Opponent Histogram91
+ +       0.0159 * (normalized) Fuzzy Opponent Histogram92
+ +       0.0159 * (normalized) Fuzzy Opponent Histogram118
+ +       0.0159 * (normalized) Fuzzy Opponent Histogram119
+ +       0.0079 * (normalized) Fuzzy Opponent Histogram145
+ +       0.0159 * (normalized) Fuzzy Opponent Histogram146
+ +       0.0079 * (normalized) Fuzzy Opponent Histogram172
+ +       0.0159 * (normalized) Fuzzy Opponent Histogram173
+ -       1.0382
 
-Number of kernel evaluations: 3776 (82.494% cached)
-
-Classifier for classes: K2, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K2, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
+Number of kernel evaluations: 4043 (83.347% cached)
 
 Classifier for classes: K3, K4
 
@@ -457,47 +419,47 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-         0.2404 * (normalized) Fuzzy Opponent Histogram4
- +       0.2319 * (normalized) Fuzzy Opponent Histogram5
- +       0.2779 * (normalized) Fuzzy Opponent Histogram7
- +      -0.7099 * (normalized) Fuzzy Opponent Histogram8
- +      -0.2667 * (normalized) Fuzzy Opponent Histogram9
- +      -0.2427 * (normalized) Fuzzy Opponent Histogram13
- +      -0.8071 * (normalized) Fuzzy Opponent Histogram14
+         0.2389 * (normalized) Fuzzy Opponent Histogram4
+ +       0.2317 * (normalized) Fuzzy Opponent Histogram5
+ +       0.2768 * (normalized) Fuzzy Opponent Histogram7
+ +      -0.7075 * (normalized) Fuzzy Opponent Histogram8
+ +      -0.2668 * (normalized) Fuzzy Opponent Histogram9
+ +      -0.2438 * (normalized) Fuzzy Opponent Histogram13
+ +      -0.8018 * (normalized) Fuzzy Opponent Histogram14
  +      -0.4286 * (normalized) Fuzzy Opponent Histogram15
- +       0.1506 * (normalized) Fuzzy Opponent Histogram16
- +       2.0755 * (normalized) Fuzzy Opponent Histogram17
- +      -0.107  * (normalized) Fuzzy Opponent Histogram18
+ +       0.1491 * (normalized) Fuzzy Opponent Histogram16
+ +       2.0733 * (normalized) Fuzzy Opponent Histogram17
+ +      -0.1091 * (normalized) Fuzzy Opponent Histogram18
  +       0.0556 * (normalized) Fuzzy Opponent Histogram19
- +      -0.9557 * (normalized) Fuzzy Opponent Histogram20
+ +      -0.9553 * (normalized) Fuzzy Opponent Histogram20
  +       0.3333 * (normalized) Fuzzy Opponent Histogram21
- +       0.2705 * (normalized) Fuzzy Opponent Histogram22
- +      -0.4677 * (normalized) Fuzzy Opponent Histogram23
+ +       0.2754 * (normalized) Fuzzy Opponent Histogram22
+ +      -0.4669 * (normalized) Fuzzy Opponent Histogram23
  +       0.0323 * (normalized) Fuzzy Opponent Histogram24
- +       1.1381 * (normalized) Fuzzy Opponent Histogram25
- +      -0.2514 * (normalized) Fuzzy Opponent Histogram26
+ +       1.1393 * (normalized) Fuzzy Opponent Histogram25
+ +      -0.2504 * (normalized) Fuzzy Opponent Histogram26
  +       0.2126 * (normalized) Fuzzy Opponent Histogram27
  +       1.706  * (normalized) Fuzzy Opponent Histogram28
- +       0.3534 * (normalized) Fuzzy Opponent Histogram29
+ +       0.3538 * (normalized) Fuzzy Opponent Histogram29
  +       0.1753 * (normalized) Fuzzy Opponent Histogram30
- +      -1.4241 * (normalized) Fuzzy Opponent Histogram31
- +      -0.6004 * (normalized) Fuzzy Opponent Histogram32
- +      -0.186  * (normalized) Fuzzy Opponent Histogram34
- +       0.0781 * (normalized) Fuzzy Opponent Histogram35
+ +      -1.4206 * (normalized) Fuzzy Opponent Histogram31
+ +      -0.5959 * (normalized) Fuzzy Opponent Histogram32
+ +      -0.1864 * (normalized) Fuzzy Opponent Histogram34
+ +       0.0771 * (normalized) Fuzzy Opponent Histogram35
  +       0.7838 * (normalized) Fuzzy Opponent Histogram37
  +       0.25   * (normalized) Fuzzy Opponent Histogram38
- +      -0.3648 * (normalized) Fuzzy Opponent Histogram64
+ +      -0.3649 * (normalized) Fuzzy Opponent Histogram64
  +      -0.1459 * (normalized) Fuzzy Opponent Histogram65
  +       0.0901 * (normalized) Fuzzy Opponent Histogram91
  +       0.427  * (normalized) Fuzzy Opponent Histogram92
  +       0.3784 * (normalized) Fuzzy Opponent Histogram118
  +      -0.5315 * (normalized) Fuzzy Opponent Histogram119
- +      -0.3648 * (normalized) Fuzzy Opponent Histogram145
+ +      -0.3649 * (normalized) Fuzzy Opponent Histogram145
  +       0.5    * (normalized) Fuzzy Opponent Histogram146
- +       0.1352 * (normalized) Fuzzy Opponent Histogram172
- -       0.5158
+ +       0.1351 * (normalized) Fuzzy Opponent Histogram172
+ -       0.5178
 
-Number of kernel evaluations: 3248 (81.785% cached)
+Number of kernel evaluations: 3350 (85.505% cached)
 
 Classifier for classes: K3, K5
 
@@ -505,52 +467,52 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-         0.4445 * (normalized) Fuzzy Opponent Histogram1
- +       0.1111 * (normalized) Fuzzy Opponent Histogram2
- +      -0.5716 * (normalized) Fuzzy Opponent Histogram4
- +      -0.8014 * (normalized) Fuzzy Opponent Histogram5
- +      -1.041  * (normalized) Fuzzy Opponent Histogram7
- +      -0.9347 * (normalized) Fuzzy Opponent Histogram8
- +       0.0999 * (normalized) Fuzzy Opponent Histogram9
- +       1.0196 * (normalized) Fuzzy Opponent Histogram10
- +       0.1231 * (normalized) Fuzzy Opponent Histogram11
- +       0.4746 * (normalized) Fuzzy Opponent Histogram12
- +       1.5015 * (normalized) Fuzzy Opponent Histogram13
- +       1.4464 * (normalized) Fuzzy Opponent Histogram14
- +       0.4836 * (normalized) Fuzzy Opponent Histogram15
- +      -0.0063 * (normalized) Fuzzy Opponent Histogram16
- +       0.7486 * (normalized) Fuzzy Opponent Histogram17
- +       2.0452 * (normalized) Fuzzy Opponent Histogram18
- +       1.16   * (normalized) Fuzzy Opponent Histogram19
+         0.4459 * (normalized) Fuzzy Opponent Histogram1
+ +       0.1125 * (normalized) Fuzzy Opponent Histogram2
+ +      -0.574  * (normalized) Fuzzy Opponent Histogram4
+ +      -0.802  * (normalized) Fuzzy Opponent Histogram5
+ +      -1.0404 * (normalized) Fuzzy Opponent Histogram7
+ +      -0.9335 * (normalized) Fuzzy Opponent Histogram8
+ +       0.1    * (normalized) Fuzzy Opponent Histogram9
+ +       1.0195 * (normalized) Fuzzy Opponent Histogram10
+ +       0.1246 * (normalized) Fuzzy Opponent Histogram11
+ +       0.4801 * (normalized) Fuzzy Opponent Histogram12
+ +       1.5077 * (normalized) Fuzzy Opponent Histogram13
+ +       1.4448 * (normalized) Fuzzy Opponent Histogram14
+ +       0.4776 * (normalized) Fuzzy Opponent Histogram15
+ +      -0.006  * (normalized) Fuzzy Opponent Histogram16
+ +       0.7401 * (normalized) Fuzzy Opponent Histogram17
+ +       2.0462 * (normalized) Fuzzy Opponent Histogram18
+ +       1.1604 * (normalized) Fuzzy Opponent Histogram19
  +       0.0295 * (normalized) Fuzzy Opponent Histogram20
- +       1.0728 * (normalized) Fuzzy Opponent Histogram21
- +       0.9839 * (normalized) Fuzzy Opponent Histogram22
- +       0.6269 * (normalized) Fuzzy Opponent Histogram23
- +       0.5838 * (normalized) Fuzzy Opponent Histogram24
- +      -0.3977 * (normalized) Fuzzy Opponent Histogram25
- +       0.4329 * (normalized) Fuzzy Opponent Histogram26
- +       0.2824 * (normalized) Fuzzy Opponent Histogram27
- +       1.2184 * (normalized) Fuzzy Opponent Histogram28
+ +       1.0727 * (normalized) Fuzzy Opponent Histogram21
+ +       0.984  * (normalized) Fuzzy Opponent Histogram22
+ +       0.6318 * (normalized) Fuzzy Opponent Histogram23
+ +       0.584  * (normalized) Fuzzy Opponent Histogram24
+ +      -0.3985 * (normalized) Fuzzy Opponent Histogram25
+ +       0.428  * (normalized) Fuzzy Opponent Histogram26
+ +       0.2829 * (normalized) Fuzzy Opponent Histogram27
+ +       1.2183 * (normalized) Fuzzy Opponent Histogram28
  +       0.2781 * (normalized) Fuzzy Opponent Histogram29
- +       0.0183 * (normalized) Fuzzy Opponent Histogram30
- +       0.3735 * (normalized) Fuzzy Opponent Histogram31
- +      -0.6423 * (normalized) Fuzzy Opponent Histogram32
- +       0.8865 * (normalized) Fuzzy Opponent Histogram33
- +      -2.2644 * (normalized) Fuzzy Opponent Histogram34
- +      -0.9252 * (normalized) Fuzzy Opponent Histogram35
- +      -0.241  * (normalized) Fuzzy Opponent Histogram37
- +      -0.2271 * (normalized) Fuzzy Opponent Histogram38
- +      -0.2828 * (normalized) Fuzzy Opponent Histogram64
- +      -0.4764 * (normalized) Fuzzy Opponent Histogram65
- +      -0.3399 * (normalized) Fuzzy Opponent Histogram91
- +      -0.0112 * (normalized) Fuzzy Opponent Histogram92
+ +       0.0182 * (normalized) Fuzzy Opponent Histogram30
+ +       0.3705 * (normalized) Fuzzy Opponent Histogram31
+ +      -0.6486 * (normalized) Fuzzy Opponent Histogram32
+ +       0.885  * (normalized) Fuzzy Opponent Histogram33
+ +      -2.2726 * (normalized) Fuzzy Opponent Histogram34
+ +      -0.9141 * (normalized) Fuzzy Opponent Histogram35
+ +      -0.2408 * (normalized) Fuzzy Opponent Histogram37
+ +      -0.2269 * (normalized) Fuzzy Opponent Histogram38
+ +      -0.2826 * (normalized) Fuzzy Opponent Histogram64
+ +      -0.476  * (normalized) Fuzzy Opponent Histogram65
+ +      -0.3397 * (normalized) Fuzzy Opponent Histogram91
+ +      -0.0111 * (normalized) Fuzzy Opponent Histogram92
  +      -0.0186 * (normalized) Fuzzy Opponent Histogram118
- +      -0.0558 * (normalized) Fuzzy Opponent Histogram119
- +      -0.0558 * (normalized) Fuzzy Opponent Histogram145
- +      -0.0558 * (normalized) Fuzzy Opponent Histogram172
- -       0.1328
+ +      -0.0557 * (normalized) Fuzzy Opponent Histogram119
+ +      -0.0557 * (normalized) Fuzzy Opponent Histogram145
+ +      -0.0557 * (normalized) Fuzzy Opponent Histogram172
+ -       0.1315
 
-Number of kernel evaluations: 2301 (82.072% cached)
+Number of kernel evaluations: 1621 (87.247% cached)
 
 Classifier for classes: K3, K6
 
@@ -558,67 +520,48 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -0.121  * (normalized) Fuzzy Opponent Histogram4
- +      -0.1483 * (normalized) Fuzzy Opponent Histogram5
- +      -0.2612 * (normalized) Fuzzy Opponent Histogram7
- +      -0.3254 * (normalized) Fuzzy Opponent Histogram8
+        -0.1207 * (normalized) Fuzzy Opponent Histogram4
+ +      -0.1477 * (normalized) Fuzzy Opponent Histogram5
+ +      -0.2613 * (normalized) Fuzzy Opponent Histogram7
+ +      -0.3256 * (normalized) Fuzzy Opponent Histogram8
  +       0.189  * (normalized) Fuzzy Opponent Histogram9
- +       1.1424 * (normalized) Fuzzy Opponent Histogram10
- +       1.242  * (normalized) Fuzzy Opponent Histogram11
+ +       1.1427 * (normalized) Fuzzy Opponent Histogram10
+ +       1.2422 * (normalized) Fuzzy Opponent Histogram11
  +       0.1351 * (normalized) Fuzzy Opponent Histogram12
- +       2.5561 * (normalized) Fuzzy Opponent Histogram13
- +       0.2561 * (normalized) Fuzzy Opponent Histogram14
- +      -0.0231 * (normalized) Fuzzy Opponent Histogram16
- +      -0.0837 * (normalized) Fuzzy Opponent Histogram17
- +       1.4981 * (normalized) Fuzzy Opponent Histogram18
+ +       2.5578 * (normalized) Fuzzy Opponent Histogram13
+ +       0.2568 * (normalized) Fuzzy Opponent Histogram14
+ +      -0      * (normalized) Fuzzy Opponent Histogram15
+ +      -0.0239 * (normalized) Fuzzy Opponent Histogram16
+ +      -0.084  * (normalized) Fuzzy Opponent Histogram17
+ +       1.4966 * (normalized) Fuzzy Opponent Histogram18
  +       0.7222 * (normalized) Fuzzy Opponent Histogram19
- +      -0.0042 * (normalized) Fuzzy Opponent Histogram20
- +       0.8857 * (normalized) Fuzzy Opponent Histogram21
- +       0.6414 * (normalized) Fuzzy Opponent Histogram22
- +      -0.2093 * (normalized) Fuzzy Opponent Histogram23
- +       0.1836 * (normalized) Fuzzy Opponent Histogram25
- +      -0.0374 * (normalized) Fuzzy Opponent Histogram26
+ +      -0.0038 * (normalized) Fuzzy Opponent Histogram20
+ +       0.8876 * (normalized) Fuzzy Opponent Histogram21
+ +       0.6423 * (normalized) Fuzzy Opponent Histogram22
+ +      -0.2116 * (normalized) Fuzzy Opponent Histogram23
+ +       0.1829 * (normalized) Fuzzy Opponent Histogram25
+ +      -0.0387 * (normalized) Fuzzy Opponent Histogram26
  +       0.0447 * (normalized) Fuzzy Opponent Histogram28
- +      -0.0271 * (normalized) Fuzzy Opponent Histogram29
- +      -0.0369 * (normalized) Fuzzy Opponent Histogram31
- +      -0.0534 * (normalized) Fuzzy Opponent Histogram32
- +      -0.8171 * (normalized) Fuzzy Opponent Histogram34
- +      -0.2841 * (normalized) Fuzzy Opponent Histogram35
+ +      -0.0268 * (normalized) Fuzzy Opponent Histogram29
+ +      -0.0346 * (normalized) Fuzzy Opponent Histogram31
+ +      -0.051  * (normalized) Fuzzy Opponent Histogram32
+ +      -0.8182 * (normalized) Fuzzy Opponent Histogram34
+ +      -0.2844 * (normalized) Fuzzy Opponent Histogram35
  +      -0.059  * (normalized) Fuzzy Opponent Histogram37
- +       0.076  * (normalized) Fuzzy Opponent Histogram38
- +      -0.0964 * (normalized) Fuzzy Opponent Histogram64
+ +       0.0759 * (normalized) Fuzzy Opponent Histogram38
+ +      -0.096  * (normalized) Fuzzy Opponent Histogram64
  +      -0.0472 * (normalized) Fuzzy Opponent Histogram65
- +      -0.0042 * (normalized) Fuzzy Opponent Histogram91
- +       0.1865 * (normalized) Fuzzy Opponent Histogram92
- +       0.1026 * (normalized) Fuzzy Opponent Histogram118
- +      -0.0129 * (normalized) Fuzzy Opponent Histogram119
- +      -0.0741 * (normalized) Fuzzy Opponent Histogram145
- +       0.0843 * (normalized) Fuzzy Opponent Histogram146
- +       0.04   * (normalized) Fuzzy Opponent Histogram172
- +       0.0843 * (normalized) Fuzzy Opponent Histogram173
- -       0.8782
+ +      -0.004  * (normalized) Fuzzy Opponent Histogram91
+ +       0.1869 * (normalized) Fuzzy Opponent Histogram92
+ +       0.1027 * (normalized) Fuzzy Opponent Histogram118
+ +      -0.0126 * (normalized) Fuzzy Opponent Histogram119
+ +      -0.0738 * (normalized) Fuzzy Opponent Histogram145
+ +       0.0841 * (normalized) Fuzzy Opponent Histogram146
+ +       0.0407 * (normalized) Fuzzy Opponent Histogram172
+ +       0.0841 * (normalized) Fuzzy Opponent Histogram173
+ -       0.8788
 
-Number of kernel evaluations: 887 (87.169% cached)
-
-Classifier for classes: K3, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K3, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
+Number of kernel evaluations: 1514 (84.11% cached)
 
 Classifier for classes: K4, K5
 
@@ -627,45 +570,46 @@ BinarySMO
 Machine linear: showing attribute weights, not support vectors.
 
          0.3333 * (normalized) Fuzzy Opponent Histogram1
- +      -0.9074 * (normalized) Fuzzy Opponent Histogram4
- +      -1.0215 * (normalized) Fuzzy Opponent Histogram5
- +      -1.2469 * (normalized) Fuzzy Opponent Histogram7
- +      -1.1724 * (normalized) Fuzzy Opponent Histogram8
+ +      -0.908  * (normalized) Fuzzy Opponent Histogram4
+ +      -1.0219 * (normalized) Fuzzy Opponent Histogram5
+ +      -1.2472 * (normalized) Fuzzy Opponent Histogram7
+ +      -1.1727 * (normalized) Fuzzy Opponent Histogram8
  +       0.0421 * (normalized) Fuzzy Opponent Histogram9
- +       0.9428 * (normalized) Fuzzy Opponent Histogram10
- +       0.076  * (normalized) Fuzzy Opponent Histogram12
- +       1.1491 * (normalized) Fuzzy Opponent Histogram13
- +       1.2626 * (normalized) Fuzzy Opponent Histogram14
- +       0.4141 * (normalized) Fuzzy Opponent Histogram15
- +       0.2824 * (normalized) Fuzzy Opponent Histogram16
- +       0.4839 * (normalized) Fuzzy Opponent Histogram17
- +       1.9697 * (normalized) Fuzzy Opponent Histogram18
- +       1.0973 * (normalized) Fuzzy Opponent Histogram19
+ +       0.9429 * (normalized) Fuzzy Opponent Histogram10
+ +       0      * (normalized) Fuzzy Opponent Histogram11
+ +       0.0755 * (normalized) Fuzzy Opponent Histogram12
+ +       1.1496 * (normalized) Fuzzy Opponent Histogram13
+ +       1.2617 * (normalized) Fuzzy Opponent Histogram14
+ +       0.4156 * (normalized) Fuzzy Opponent Histogram15
+ +       0.2822 * (normalized) Fuzzy Opponent Histogram16
+ +       0.484  * (normalized) Fuzzy Opponent Histogram17
+ +       1.9698 * (normalized) Fuzzy Opponent Histogram18
+ +       1.0972 * (normalized) Fuzzy Opponent Histogram19
  +       0.0212 * (normalized) Fuzzy Opponent Histogram20
  +       0.9745 * (normalized) Fuzzy Opponent Histogram21
- +       0.798  * (normalized) Fuzzy Opponent Histogram22
- +       0.4408 * (normalized) Fuzzy Opponent Histogram23
- +       0.3079 * (normalized) Fuzzy Opponent Histogram24
- +       0.0276 * (normalized) Fuzzy Opponent Histogram25
- +       0.212  * (normalized) Fuzzy Opponent Histogram26
+ +       0.7976 * (normalized) Fuzzy Opponent Histogram22
+ +       0.4401 * (normalized) Fuzzy Opponent Histogram23
+ +       0.3078 * (normalized) Fuzzy Opponent Histogram24
+ +       0.0269 * (normalized) Fuzzy Opponent Histogram25
+ +       0.2119 * (normalized) Fuzzy Opponent Histogram26
  +       0.0979 * (normalized) Fuzzy Opponent Histogram27
- +       0.6076 * (normalized) Fuzzy Opponent Histogram28
- +      -0.1386 * (normalized) Fuzzy Opponent Histogram29
+ +       0.6086 * (normalized) Fuzzy Opponent Histogram28
+ +      -0.1383 * (normalized) Fuzzy Opponent Histogram29
  +       0.0017 * (normalized) Fuzzy Opponent Histogram30
- +       0.3058 * (normalized) Fuzzy Opponent Histogram31
- +      -0.5344 * (normalized) Fuzzy Opponent Histogram32
+ +       0.3039 * (normalized) Fuzzy Opponent Histogram31
+ +      -0.5346 * (normalized) Fuzzy Opponent Histogram32
  +       0.5839 * (normalized) Fuzzy Opponent Histogram33
- +      -0.9494 * (normalized) Fuzzy Opponent Histogram34
- +      -0.9217 * (normalized) Fuzzy Opponent Histogram35
- +      -0.3856 * (normalized) Fuzzy Opponent Histogram37
+ +      -0.9496 * (normalized) Fuzzy Opponent Histogram34
+ +      -0.9218 * (normalized) Fuzzy Opponent Histogram35
+ +      -0.3854 * (normalized) Fuzzy Opponent Histogram37
  +      -0.3151 * (normalized) Fuzzy Opponent Histogram38
  +      -0.2535 * (normalized) Fuzzy Opponent Histogram64
- +      -0.4085 * (normalized) Fuzzy Opponent Histogram65
- +      -0.1737 * (normalized) Fuzzy Opponent Histogram91
- +      -0.1303 * (normalized) Fuzzy Opponent Histogram172
- +       0.0785
+ +      -0.4083 * (normalized) Fuzzy Opponent Histogram65
+ +      -0.1736 * (normalized) Fuzzy Opponent Histogram91
+ +      -0.1302 * (normalized) Fuzzy Opponent Histogram172
+ +       0.0798
 
-Number of kernel evaluations: 1267 (85.319% cached)
+Number of kernel evaluations: 1402 (79.885% cached)
 
 Classifier for classes: K4, K6
 
@@ -673,69 +617,49 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -0.1269 * (normalized) Fuzzy Opponent Histogram4
- +      -0.138  * (normalized) Fuzzy Opponent Histogram5
- +      -0.2525 * (normalized) Fuzzy Opponent Histogram7
- +      -0.2689 * (normalized) Fuzzy Opponent Histogram8
+        -0.1317 * (normalized) Fuzzy Opponent Histogram4
+ +      -0.1392 * (normalized) Fuzzy Opponent Histogram5
+ +      -0.2557 * (normalized) Fuzzy Opponent Histogram7
+ +      -0.2703 * (normalized) Fuzzy Opponent Histogram8
  +       0.189  * (normalized) Fuzzy Opponent Histogram9
- +       1.0996 * (normalized) Fuzzy Opponent Histogram10
- +       1.3043 * (normalized) Fuzzy Opponent Histogram11
+ +       1.098  * (normalized) Fuzzy Opponent Histogram10
+ +       1.3024 * (normalized) Fuzzy Opponent Histogram11
  +       0.1351 * (normalized) Fuzzy Opponent Histogram12
- +       2.5828 * (normalized) Fuzzy Opponent Histogram13
- +       0.2004 * (normalized) Fuzzy Opponent Histogram14
- +      -0.0629 * (normalized) Fuzzy Opponent Histogram16
- +      -0.0432 * (normalized) Fuzzy Opponent Histogram17
- +       1.622  * (normalized) Fuzzy Opponent Histogram18
- +       0.7146 * (normalized) Fuzzy Opponent Histogram19
- +      -0.036  * (normalized) Fuzzy Opponent Histogram20
- +       0.8399 * (normalized) Fuzzy Opponent Histogram21
- +       0.5288 * (normalized) Fuzzy Opponent Histogram22
- +      -0.1761 * (normalized) Fuzzy Opponent Histogram23
- +       0.3675 * (normalized) Fuzzy Opponent Histogram25
- +       0.1525 * (normalized) Fuzzy Opponent Histogram26
- +      -0.0025 * (normalized) Fuzzy Opponent Histogram27
- +       0.0098 * (normalized) Fuzzy Opponent Histogram28
- +      -0.0434 * (normalized) Fuzzy Opponent Histogram29
- +      -0.0227 * (normalized) Fuzzy Opponent Histogram30
- +       0.2936 * (normalized) Fuzzy Opponent Histogram31
- +      -0.0693 * (normalized) Fuzzy Opponent Histogram32
- +      -0.4477 * (normalized) Fuzzy Opponent Histogram34
- +      -0.3598 * (normalized) Fuzzy Opponent Histogram35
- +      -0.066  * (normalized) Fuzzy Opponent Histogram37
- +       0.0687 * (normalized) Fuzzy Opponent Histogram38
- +      -0.0372 * (normalized) Fuzzy Opponent Histogram64
+ +       2.5815 * (normalized) Fuzzy Opponent Histogram13
+ +       0.1938 * (normalized) Fuzzy Opponent Histogram14
+ +      -0.0615 * (normalized) Fuzzy Opponent Histogram16
+ +      -0.0319 * (normalized) Fuzzy Opponent Histogram17
+ +       1.6187 * (normalized) Fuzzy Opponent Histogram18
+ +       0.7129 * (normalized) Fuzzy Opponent Histogram19
+ +      -0.0295 * (normalized) Fuzzy Opponent Histogram20
+ +       0.8405 * (normalized) Fuzzy Opponent Histogram21
+ +       0.5456 * (normalized) Fuzzy Opponent Histogram22
+ +      -0.1729 * (normalized) Fuzzy Opponent Histogram23
+ +       0.3619 * (normalized) Fuzzy Opponent Histogram25
+ +       0.1477 * (normalized) Fuzzy Opponent Histogram26
+ +      -0.0024 * (normalized) Fuzzy Opponent Histogram27
+ +       0.0124 * (normalized) Fuzzy Opponent Histogram28
+ +      -0.0376 * (normalized) Fuzzy Opponent Histogram29
+ +      -0.0278 * (normalized) Fuzzy Opponent Histogram30
+ +       0.2887 * (normalized) Fuzzy Opponent Histogram31
+ +      -0.0749 * (normalized) Fuzzy Opponent Histogram32
+ +      -0.4445 * (normalized) Fuzzy Opponent Histogram34
+ +      -0.362  * (normalized) Fuzzy Opponent Histogram35
+ +      -0.0656 * (normalized) Fuzzy Opponent Histogram37
+ +       0.0685 * (normalized) Fuzzy Opponent Histogram38
+ +      -0.0364 * (normalized) Fuzzy Opponent Histogram64
  +       0.0178 * (normalized) Fuzzy Opponent Histogram65
- +      -0.0044 * (normalized) Fuzzy Opponent Histogram91
- +       0.08   * (normalized) Fuzzy Opponent Histogram92
- +       0.0475 * (normalized) Fuzzy Opponent Histogram118
- +       0.0475 * (normalized) Fuzzy Opponent Histogram119
- +      -0.0169 * (normalized) Fuzzy Opponent Histogram145
- +       0.0475 * (normalized) Fuzzy Opponent Histogram146
- +      -0.0152 * (normalized) Fuzzy Opponent Histogram172
- +       0.0882 * (normalized) Fuzzy Opponent Histogram173
- -       1.0076
+ +      -0.0036 * (normalized) Fuzzy Opponent Histogram91
+ +       0.0799 * (normalized) Fuzzy Opponent Histogram92
+ +       0.0481 * (normalized) Fuzzy Opponent Histogram118
+ +       0.0481 * (normalized) Fuzzy Opponent Histogram119
+ +      -0.0157 * (normalized) Fuzzy Opponent Histogram145
+ +       0.0481 * (normalized) Fuzzy Opponent Histogram146
+ +      -0.0148 * (normalized) Fuzzy Opponent Histogram172
+ +       0.0879 * (normalized) Fuzzy Opponent Histogram173
+ -       1.0066
 
-Number of kernel evaluations: 1088 (87.242% cached)
-
-Classifier for classes: K4, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K4, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
+Number of kernel evaluations: 729 (88.747% cached)
 
 Classifier for classes: K5, K6
 
@@ -743,112 +667,69 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -0.1875 * (normalized) Fuzzy Opponent Histogram1
- +      -0.1572 * (normalized) Fuzzy Opponent Histogram4
- +      -0.2759 * (normalized) Fuzzy Opponent Histogram5
+        -0.1858 * (normalized) Fuzzy Opponent Histogram1
+ +      -0.1579 * (normalized) Fuzzy Opponent Histogram4
+ +      -0.2765 * (normalized) Fuzzy Opponent Histogram5
  +       0.175  * (normalized) Fuzzy Opponent Histogram7
- +       0.1049 * (normalized) Fuzzy Opponent Histogram8
- +      -0.2679 * (normalized) Fuzzy Opponent Histogram9
- +       0.2352 * (normalized) Fuzzy Opponent Histogram10
+ +       0.1047 * (normalized) Fuzzy Opponent Histogram8
+ +      -0.2682 * (normalized) Fuzzy Opponent Histogram9
+ +       0.2362 * (normalized) Fuzzy Opponent Histogram10
  +       1.5556 * (normalized) Fuzzy Opponent Histogram11
- +      -2.289  * (normalized) Fuzzy Opponent Histogram12
- +       1.9017 * (normalized) Fuzzy Opponent Histogram13
- +       0.0903 * (normalized) Fuzzy Opponent Histogram14
+ +      -2.2902 * (normalized) Fuzzy Opponent Histogram12
+ +       1.9004 * (normalized) Fuzzy Opponent Histogram13
+ +       0.0892 * (normalized) Fuzzy Opponent Histogram14
  +      -0.5714 * (normalized) Fuzzy Opponent Histogram15
- +      -0.0229 * (normalized) Fuzzy Opponent Histogram16
- +      -0.819  * (normalized) Fuzzy Opponent Histogram17
- +       1.0811 * (normalized) Fuzzy Opponent Histogram18
- +      -0.5596 * (normalized) Fuzzy Opponent Histogram19
- +       1.4101 * (normalized) Fuzzy Opponent Histogram21
- +      -0.2194 * (normalized) Fuzzy Opponent Histogram22
- +      -0.8314 * (normalized) Fuzzy Opponent Histogram23
- +      -0.0687 * (normalized) Fuzzy Opponent Histogram24
- +       0.3868 * (normalized) Fuzzy Opponent Histogram25
- +      -0.7432 * (normalized) Fuzzy Opponent Histogram26
- +      -0.4525 * (normalized) Fuzzy Opponent Histogram27
- +      -1.4973 * (normalized) Fuzzy Opponent Histogram28
- +      -0.5281 * (normalized) Fuzzy Opponent Histogram29
+ +      -0.0235 * (normalized) Fuzzy Opponent Histogram16
+ +      -0.8174 * (normalized) Fuzzy Opponent Histogram17
+ +       1.0825 * (normalized) Fuzzy Opponent Histogram18
+ +      -0.5616 * (normalized) Fuzzy Opponent Histogram19
+ +       0      * (normalized) Fuzzy Opponent Histogram20
+ +       1.4111 * (normalized) Fuzzy Opponent Histogram21
+ +      -0.2192 * (normalized) Fuzzy Opponent Histogram22
+ +      -0.8315 * (normalized) Fuzzy Opponent Histogram23
+ +      -0.069  * (normalized) Fuzzy Opponent Histogram24
+ +       0.3853 * (normalized) Fuzzy Opponent Histogram25
+ +      -0.7425 * (normalized) Fuzzy Opponent Histogram26
+ +      -0.4523 * (normalized) Fuzzy Opponent Histogram27
+ +      -1.5008 * (normalized) Fuzzy Opponent Histogram28
+ +      -0.5292 * (normalized) Fuzzy Opponent Histogram29
  +      -0      * (normalized) Fuzzy Opponent Histogram30
- +      -0.8915 * (normalized) Fuzzy Opponent Histogram31
- +      -0.0915 * (normalized) Fuzzy Opponent Histogram32
- +      -0.6341 * (normalized) Fuzzy Opponent Histogram34
- +       0.3299 * (normalized) Fuzzy Opponent Histogram35
- +       0.0198 * (normalized) Fuzzy Opponent Histogram37
- +       0.079  * (normalized) Fuzzy Opponent Histogram38
- +       0.0263 * (normalized) Fuzzy Opponent Histogram64
+ +      -0.8908 * (normalized) Fuzzy Opponent Histogram31
+ +      -0.0907 * (normalized) Fuzzy Opponent Histogram32
+ +      -0      * (normalized) Fuzzy Opponent Histogram33
+ +      -0.6342 * (normalized) Fuzzy Opponent Histogram34
+ +       0.331  * (normalized) Fuzzy Opponent Histogram35
+ +       0.0199 * (normalized) Fuzzy Opponent Histogram37
+ +       0.0796 * (normalized) Fuzzy Opponent Histogram38
+ +       0.0265 * (normalized) Fuzzy Opponent Histogram64
  +       0.2622 * (normalized) Fuzzy Opponent Histogram65
- +       0.079  * (normalized) Fuzzy Opponent Histogram91
+ +       0.0796 * (normalized) Fuzzy Opponent Histogram91
  +       0.2622 * (normalized) Fuzzy Opponent Histogram92
- +       0.079  * (normalized) Fuzzy Opponent Histogram118
- +       0.3843 * (normalized) Fuzzy Opponent Histogram119
- +       0.0395 * (normalized) Fuzzy Opponent Histogram145
- +       0.537  * (normalized) Fuzzy Opponent Histogram146
- +       0.0395 * (normalized) Fuzzy Opponent Histogram172
- +       0.079  * (normalized) Fuzzy Opponent Histogram173
- -       0.7022
+ +       0.0796 * (normalized) Fuzzy Opponent Histogram118
+ +       0.3839 * (normalized) Fuzzy Opponent Histogram119
+ +       0.0398 * (normalized) Fuzzy Opponent Histogram145
+ +       0.5361 * (normalized) Fuzzy Opponent Histogram146
+ +       0.0398 * (normalized) Fuzzy Opponent Histogram172
+ +       0.0796 * (normalized) Fuzzy Opponent Histogram173
+ -       0.7021
 
-Number of kernel evaluations: 1389 (81.433% cached)
-
-Classifier for classes: K5, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K5, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K6, K7
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K6, K8
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
- -       1     
-
-Number of kernel evaluations: -1
-
-Classifier for classes: K7, K8
-
-BinarySMO: No model built yet.
+Number of kernel evaluations: 1795 (78.115% cached)
 
 
 
+Time taken to build model: 0.55 seconds
 
-Time taken to build model: 0.41 seconds
-
-Time taken to test model on training data: 0.03 seconds
+Time taken to test model on training data: 0.04 seconds
 
 === Error on training data ===
 
 Correctly Classified Instances         308               74.0385 %
 Incorrectly Classified Instances       108               25.9615 %
 Kappa statistic                          0.6524
-Mean absolute error                      0.1882
-Root mean squared error                  0.295 
-Relative absolute error                 96.2043 %
-Root relative squared error             94.4245 %
+Mean absolute error                      0.2295
+Root mean squared error                  0.3216
+Relative absolute error                 88.082  %
+Root relative squared error             89.1345 %
 Total Number of Instances              416     
 
 
@@ -858,38 +739,34 @@ Total Number of Instances              416
                  0.070    0.003    0.750      0.070    0.128      0.209    0.794     0.233     K1
                  0.973    0.201    0.727      0.973    0.832      0.740    0.895     0.724     K2
                  0.934    0.129    0.617      0.934    0.743      0.695    0.926     0.607     K3
-                 0.295    0.008    0.857      0.295    0.439      0.463    0.902     0.555     K4
+                 0.295    0.008    0.857      0.295    0.439      0.463    0.905     0.558     K4
                  0.875    0.014    0.918      0.875    0.896      0.878    0.984     0.885     K5
                  0.667    0.003    0.941      0.667    0.780      0.782    0.977     0.750     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.740    0.099    0.770      0.740    0.692      0.660    0.910     0.653     
+Weighted Avg.    0.740    0.099    0.770      0.740    0.692      0.660    0.910     0.654     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-   3  38   1   0   0   1   0   0 |   a = K1
-   1 144   2   0   1   0   0   0 |   b = K2
-   0   2  71   3   0   0   0   0 |   c = K3
-   0   2  41  18   0   0   0   0 |   d = K4
-   0   8   0   0  56   0   0   0 |   e = K5
-   0   4   0   0   4  16   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+   3  38   1   0   0   1 |   a = K1
+   1 144   2   0   1   0 |   b = K2
+   0   2  71   3   0   0 |   c = K3
+   0   2  41  18   0   0 |   d = K4
+   0   8   0   0  56   0 |   e = K5
+   0   4   0   0   4  16 |   f = K6
 
-Time taken to perform cross-validation: 0.89 seconds
+Time taken to perform cross-validation: 0.92 seconds
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances         290               69.7115 %
-Incorrectly Classified Instances       126               30.2885 %
-Kappa statistic                          0.5937
-Mean absolute error                      0.1892
-Root mean squared error                  0.2967
-Relative absolute error                 96.6723 %
-Root relative squared error             94.943  %
+Correctly Classified Instances         291               69.9519 %
+Incorrectly Classified Instances       125               30.0481 %
+Kappa statistic                          0.5969
+Mean absolute error                      0.2318
+Root mean squared error                  0.3252
+Relative absolute error                 88.9667 %
+Root relative squared error             90.1301 %
 Total Number of Instances              416     
 
 
@@ -898,24 +775,20 @@ Total Number of Instances              416
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
                  0.023    0.008    0.250      0.023    0.043      0.047    0.733     0.186     K1
                  0.953    0.213    0.712      0.953    0.815      0.709    0.883     0.705     K2
-                 0.895    0.147    0.576      0.895    0.701      0.641    0.911     0.562     K3
-                 0.213    0.017    0.684      0.213    0.325      0.332    0.866     0.464     K4
+                 0.908    0.147    0.580      0.908    0.708      0.651    0.913     0.567     K3
+                 0.213    0.014    0.722      0.213    0.329      0.346    0.868     0.475     K4
                  0.875    0.026    0.862      0.875    0.868      0.844    0.962     0.815     K5
-                 0.458    0.003    0.917      0.458    0.611      0.635    0.966     0.619     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.697    0.110    0.670      0.697    0.639      0.590    0.887     0.602     
+                 0.458    0.003    0.917      0.458    0.611      0.635    0.966     0.620     K6
+Weighted Avg.    0.700    0.110    0.676      0.700    0.641      0.593    0.888     0.605     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-   1  39   2   0   0   1   0   0 |   a = K1
-   3 141   3   0   1   0   0   0 |   b = K2
-   0   2  68   6   0   0   0   0 |   c = K3
-   0   3  45  13   0   0   0   0 |   d = K4
-   0   8   0   0  56   0   0   0 |   e = K5
-   0   5   0   0   8  11   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+   1  39   2   0   0   1 |   a = K1
+   3 141   3   0   1   0 |   b = K2
+   0   2  69   5   0   0 |   c = K3
+   0   3  45  13   0   0 |   d = K4
+   0   8   0   0  56   0 |   e = K5
+   0   5   0   0   8  11 |   f = K6
 

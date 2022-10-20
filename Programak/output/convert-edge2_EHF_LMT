@@ -5,152 +5,116 @@ Options: -I -1 -M 15 -W 0.0
 
 Logistic model tree 
 ------------------
-: LM_1:25/25 (416)
+: LM_1:18/18 (416)
 
 Number of Leaves  : 	1
 
 Size of the Tree : 	1
 LM_1:
 Class K1 :
-6.98 + 
-[MPEG-7 Edge Histogram3] * 0.13 +
-[MPEG-7 Edge Histogram9] * -0.33 +
+4.45 + 
+[MPEG-7 Edge Histogram3] * 0.18 +
+[MPEG-7 Edge Histogram4] * -0.25 +
+[MPEG-7 Edge Histogram9] * -0.17 +
 [MPEG-7 Edge Histogram15] * -0.17 +
-[MPEG-7 Edge Histogram19] * -0.13 +
-[MPEG-7 Edge Histogram22] * 0.21 +
-[MPEG-7 Edge Histogram26] * -0.53 +
-[MPEG-7 Edge Histogram35] * -0.48 +
-[MPEG-7 Edge Histogram38] * 0.17 +
-[MPEG-7 Edge Histogram40] * -0.19 +
-[MPEG-7 Edge Histogram45] * 0.25 +
-[MPEG-7 Edge Histogram46] * -0.59 +
-[MPEG-7 Edge Histogram47] * -0.16 +
-[MPEG-7 Edge Histogram49] * -0.38 +
-[MPEG-7 Edge Histogram51] * -0.21 +
-[MPEG-7 Edge Histogram57] * 0.15 +
-[MPEG-7 Edge Histogram63] * 0.41 +
-[MPEG-7 Edge Histogram64] * -0.22 +
-[MPEG-7 Edge Histogram72] * 0.28 +
-[MPEG-7 Edge Histogram74] * -0.19 +
-[MPEG-7 Edge Histogram78] * 0.29
+[MPEG-7 Edge Histogram22] * 0.19 +
+[MPEG-7 Edge Histogram26] * -0.49 +
+[MPEG-7 Edge Histogram28] * -0.18 +
+[MPEG-7 Edge Histogram35] * -0.22 +
+[MPEG-7 Edge Histogram46] * -0.34 +
+[MPEG-7 Edge Histogram49] * -0.3 +
+[MPEG-7 Edge Histogram57] * 0.19 +
+[MPEG-7 Edge Histogram63] * 0.38 +
+[MPEG-7 Edge Histogram64] * -0.18 +
+[MPEG-7 Edge Histogram72] * 0.26 +
+[MPEG-7 Edge Histogram74] * -0.18 +
+[MPEG-7 Edge Histogram78] * 0.24
 
 Class K2 :
-3.31 + 
-[MPEG-7 Edge Histogram6] * -0.3 +
-[MPEG-7 Edge Histogram26] * 0.34 +
-[MPEG-7 Edge Histogram27] * -0.38 +
-[MPEG-7 Edge Histogram29] * -0.66 +
-[MPEG-7 Edge Histogram31] * 0.71 +
-[MPEG-7 Edge Histogram41] * 0.37 +
-[MPEG-7 Edge Histogram45] * -0.39 +
-[MPEG-7 Edge Histogram46] * 0.36 +
-[MPEG-7 Edge Histogram48] * -0.28 +
-[MPEG-7 Edge Histogram49] * -0.61 +
-[MPEG-7 Edge Histogram51] * 1.19 +
-[MPEG-7 Edge Histogram52] * -0.29 +
-[MPEG-7 Edge Histogram54] * -0.33 +
-[MPEG-7 Edge Histogram56] * 0.52 +
-[MPEG-7 Edge Histogram57] * -0.47 +
-[MPEG-7 Edge Histogram58] * 0.17 +
-[MPEG-7 Edge Histogram62] * 0.23 +
-[MPEG-7 Edge Histogram66] * -0.34 +
-[MPEG-7 Edge Histogram73] * 0.26
+2.78 + 
+[MPEG-7 Edge Histogram6] * -0.31 +
+[MPEG-7 Edge Histogram27] * -0.32 +
+[MPEG-7 Edge Histogram29] * -0.64 +
+[MPEG-7 Edge Histogram31] * 0.45 +
+[MPEG-7 Edge Histogram41] * 0.36 +
+[MPEG-7 Edge Histogram45] * -0.37 +
+[MPEG-7 Edge Histogram46] * 0.34 +
+[MPEG-7 Edge Histogram49] * -0.59 +
+[MPEG-7 Edge Histogram51] * 1.09 +
+[MPEG-7 Edge Histogram52] * -0.23 +
+[MPEG-7 Edge Histogram54] * -0.3 +
+[MPEG-7 Edge Histogram56] * 0.35 +
+[MPEG-7 Edge Histogram57] * -0.27 +
+[MPEG-7 Edge Histogram62] * 0.22 +
+[MPEG-7 Edge Histogram69] * 0.19
 
 Class K3 :
--0.93 + 
-[MPEG-7 Edge Histogram2] * -0.25 +
-[MPEG-7 Edge Histogram3] * -0.3 +
-[MPEG-7 Edge Histogram6] * 0.62 +
-[MPEG-7 Edge Histogram15] * -0.27 +
-[MPEG-7 Edge Histogram20] * 0.38 +
-[MPEG-7 Edge Histogram23] * 0.42 +
-[MPEG-7 Edge Histogram25] * -1.26 +
-[MPEG-7 Edge Histogram26] * 1.05 +
-[MPEG-7 Edge Histogram48] * -0.6 +
-[MPEG-7 Edge Histogram50] * 0.74 +
-[MPEG-7 Edge Histogram51] * -1.55 +
-[MPEG-7 Edge Histogram60] * -0.34 +
-[MPEG-7 Edge Histogram78] * -0.63 +
-[MPEG-7 Edge Histogram79] * -0.24
+-1.39 + 
+[MPEG-7 Edge Histogram3] * -0.27 +
+[MPEG-7 Edge Histogram6] * 0.27 +
+[MPEG-7 Edge Histogram15] * -0.21 +
+[MPEG-7 Edge Histogram20] * 0.35 +
+[MPEG-7 Edge Histogram23] * 0.24 +
+[MPEG-7 Edge Histogram25] * -0.88 +
+[MPEG-7 Edge Histogram26] * 0.72 +
+[MPEG-7 Edge Histogram34] * 0.27 +
+[MPEG-7 Edge Histogram48] * -0.33 +
+[MPEG-7 Edge Histogram50] * 0.5  +
+[MPEG-7 Edge Histogram51] * -1.56 +
+[MPEG-7 Edge Histogram64] * -0.23 +
+[MPEG-7 Edge Histogram75] * -0.22 +
+[MPEG-7 Edge Histogram78] * -0.38
 
 Class K4 :
--7.99 + 
-[MPEG-7 Edge Histogram0] * -0.4 +
-[MPEG-7 Edge Histogram1] * -0.35 +
-[MPEG-7 Edge Histogram3] * -0.54 +
-[MPEG-7 Edge Histogram11] * 0.63 +
-[MPEG-7 Edge Histogram13] * -0.2 +
-[MPEG-7 Edge Histogram19] * 0.17 +
-[MPEG-7 Edge Histogram25] * 0.31 +
-[MPEG-7 Edge Histogram26] * -0.45 +
-[MPEG-7 Edge Histogram28] * -0.18 +
-[MPEG-7 Edge Histogram30] * 0.85 +
-[MPEG-7 Edge Histogram37] * 0.21 +
-[MPEG-7 Edge Histogram38] * 0.15 +
+-5.88 + 
+[MPEG-7 Edge Histogram0] * -0.34 +
+[MPEG-7 Edge Histogram1] * -0.54 +
+[MPEG-7 Edge Histogram11] * 0.56 +
+[MPEG-7 Edge Histogram25] * 0.24 +
+[MPEG-7 Edge Histogram26] * -0.41 +
+[MPEG-7 Edge Histogram28] * -0.16 +
+[MPEG-7 Edge Histogram30] * 0.78 +
 [MPEG-7 Edge Histogram44] * 0.27 +
-[MPEG-7 Edge Histogram54] * 0.21 +
-[MPEG-7 Edge Histogram55] * 0.39 +
-[MPEG-7 Edge Histogram62] * -0.67 +
-[MPEG-7 Edge Histogram65] * -0.31 +
-[MPEG-7 Edge Histogram66] * 0.28 +
-[MPEG-7 Edge Histogram76] * -0.47 +
-[MPEG-7 Edge Histogram79] * 0.17
+[MPEG-7 Edge Histogram48] * 0.18 +
+[MPEG-7 Edge Histogram55] * 0.27 +
+[MPEG-7 Edge Histogram62] * -0.73 +
+[MPEG-7 Edge Histogram65] * -0.28 +
+[MPEG-7 Edge Histogram66] * 0.35 +
+[MPEG-7 Edge Histogram76] * -0.26
 
 Class K5 :
--24.57 + 
-[MPEG-7 Edge Histogram4] * 1.05 +
-[MPEG-7 Edge Histogram15] * 0.67 +
-[MPEG-7 Edge Histogram25] * 0.36 +
-[MPEG-7 Edge Histogram28] * 0.34 +
-[MPEG-7 Edge Histogram29] * 0.4  +
-[MPEG-7 Edge Histogram32] * 0.51 +
+-21.55 + 
+[MPEG-7 Edge Histogram4] * 0.65 +
+[MPEG-7 Edge Histogram15] * 0.39 +
+[MPEG-7 Edge Histogram25] * 0.38 +
+[MPEG-7 Edge Histogram28] * 0.29 +
+[MPEG-7 Edge Histogram32] * 0.3  +
 [MPEG-7 Edge Histogram34] * 1.17 +
 [MPEG-7 Edge Histogram45] * -0.31 +
-[MPEG-7 Edge Histogram47] * 1.19 +
-[MPEG-7 Edge Histogram53] * 0.81 +
-[MPEG-7 Edge Histogram60] * 0.25 +
-[MPEG-7 Edge Histogram63] * -0.22 +
+[MPEG-7 Edge Histogram47] * 1.1  +
+[MPEG-7 Edge Histogram53] * 0.72 +
+[MPEG-7 Edge Histogram60] * 0.31 +
 [MPEG-7 Edge Histogram68] * -0.34 +
-[MPEG-7 Edge Histogram69] * -0.37 +
-[MPEG-7 Edge Histogram72] * -0.27 +
-[MPEG-7 Edge Histogram76] * 0.28
+[MPEG-7 Edge Histogram76] * 0.25
 
 Class K6 :
--9.05 + 
-[MPEG-7 Edge Histogram8] * -0.62 +
-[MPEG-7 Edge Histogram9] * 0.56 +
-[MPEG-7 Edge Histogram15] * 0.37 +
-[MPEG-7 Edge Histogram19] * 0.2  +
-[MPEG-7 Edge Histogram20] * -0.29 +
-[MPEG-7 Edge Histogram35] * -1 +
-[MPEG-7 Edge Histogram41] * -0.26 +
-[MPEG-7 Edge Histogram47] * -0.26 +
-[MPEG-7 Edge Histogram48] * 0.58 +
-[MPEG-7 Edge Histogram49] * 1.22 +
-[MPEG-7 Edge Histogram53] * -0.18 +
-[MPEG-7 Edge Histogram54] * 0.35 +
-[MPEG-7 Edge Histogram66] * -0.49 +
-[MPEG-7 Edge Histogram71] * -0.24 +
-[MPEG-7 Edge Histogram75] * 0.84
-
-Class K7 :
--22.04 + 
-[MPEG-7 Edge Histogram47] * 0    +
-[MPEG-7 Edge Histogram49] * -0 +
-[MPEG-7 Edge Histogram50] * 0    +
-[MPEG-7 Edge Histogram62] * -0 +
-[MPEG-7 Edge Histogram68] * 0   
-
-Class K8 :
--22.04 + 
-[MPEG-7 Edge Histogram47] * 0    +
-[MPEG-7 Edge Histogram49] * -0 +
-[MPEG-7 Edge Histogram50] * 0    +
-[MPEG-7 Edge Histogram62] * -0 +
-[MPEG-7 Edge Histogram68] * 0   
+-11.57 + 
+[MPEG-7 Edge Histogram9] * 0.32 +
+[MPEG-7 Edge Histogram15] * 0.22 +
+[MPEG-7 Edge Histogram35] * -0.71 +
+[MPEG-7 Edge Histogram47] * -0.33 +
+[MPEG-7 Edge Histogram48] * 0.25 +
+[MPEG-7 Edge Histogram49] * 0.59 +
+[MPEG-7 Edge Histogram54] * 0.7  +
+[MPEG-7 Edge Histogram57] * -0.3 +
+[MPEG-7 Edge Histogram65] * 0.38 +
+[MPEG-7 Edge Histogram68] * 0.25 +
+[MPEG-7 Edge Histogram71] * -0.41 +
+[MPEG-7 Edge Histogram74] * 0.3  +
+[MPEG-7 Edge Histogram75] * 0.78
 
 
-Time taken to build model: 1.03 seconds
+Time taken to build model: 1.06 seconds
 
 Time taken to test model on training data: 0.01 seconds
 
@@ -159,10 +123,10 @@ Time taken to test model on training data: 0.01 seconds
 Correctly Classified Instances         416              100      %
 Incorrectly Classified Instances         0                0      %
 Kappa statistic                          1     
-Mean absolute error                      0.005 
-Root mean squared error                  0.0242
-Relative absolute error                  2.5444 %
-Root relative squared error              7.7524 %
+Mean absolute error                      0.015 
+Root mean squared error                  0.0511
+Relative absolute error                  5.7661 %
+Root relative squared error             14.1533 %
 Total Number of Instances              416     
 
 
@@ -175,61 +139,53 @@ Total Number of Instances              416
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K4
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
 Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  43   0   0   0   0   0   0   0 |   a = K1
-   0 148   0   0   0   0   0   0 |   b = K2
-   0   0  76   0   0   0   0   0 |   c = K3
-   0   0   0  61   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  43   0   0   0   0   0 |   a = K1
+   0 148   0   0   0   0 |   b = K2
+   0   0  76   0   0   0 |   c = K3
+   0   0   0  61   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
-Time taken to perform cross-validation: 3.91 seconds
+Time taken to perform cross-validation: 4.36 seconds
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances         383               92.0673 %
-Incorrectly Classified Instances        33                7.9327 %
-Kappa statistic                          0.8981
-Mean absolute error                      0.0277
-Root mean squared error                  0.1239
-Relative absolute error                 14.1732 %
-Root relative squared error             39.6682 %
+Correctly Classified Instances         384               92.3077 %
+Incorrectly Classified Instances        32                7.6923 %
+Kappa statistic                          0.9013
+Mean absolute error                      0.0376
+Root mean squared error                  0.1421
+Relative absolute error                 14.4413 %
+Root relative squared error             39.3735 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.767    0.029    0.750      0.767    0.759      0.730    0.960     0.797     K1
-                 0.959    0.037    0.934      0.959    0.947      0.917    0.992     0.982     K2
-                 0.934    0.018    0.922      0.934    0.928      0.912    0.994     0.972     K3
-                 0.869    0.011    0.930      0.869    0.898      0.882    0.986     0.954     K4
-                 1.000    0.003    0.985      1.000    0.992      0.991    1.000     1.000     K5
-                 0.833    0.003    0.952      0.833    0.889      0.885    0.984     0.950     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.921    0.022    0.921      0.921    0.920      0.901    0.989     0.958     
+                 0.721    0.021    0.795      0.721    0.756      0.731    0.963     0.804     K1
+                 0.966    0.030    0.947      0.966    0.957      0.932    0.993     0.984     K2
+                 0.908    0.012    0.945      0.908    0.926      0.910    0.991     0.967     K3
+                 0.902    0.020    0.887      0.902    0.894      0.876    0.966     0.938     K4
+                 0.984    0.006    0.969      0.984    0.977      0.973    1.000     0.998     K5
+                 0.958    0.008    0.885      0.958    0.920      0.916    0.979     0.961     K6
+Weighted Avg.    0.923    0.019    0.922      0.923    0.922      0.904    0.986     0.957     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  33   9   0   0   0   1   0   0 |   a = K1
-   6 142   0   0   0   0   0   0 |   b = K2
-   1   0  71   4   0   0   0   0 |   c = K3
-   1   1   6  53   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   3   0   0   0   1  20   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  31   7   0   2   2   1 |   a = K1
+   5 143   0   0   0   0 |   b = K2
+   0   1  69   5   0   1 |   c = K3
+   2   0   4  55   0   0 |   d = K4
+   0   0   0   0  63   1 |   e = K5
+   1   0   0   0   0  23 |   f = K6
 

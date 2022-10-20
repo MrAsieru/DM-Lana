@@ -5,258 +5,195 @@ Options: -I -1 -M 15 -W 0.0
 
 Logistic model tree 
 ------------------
-: LM_1:28/28 (416)
+: LM_1:19/19 (416)
 
 Number of Leaves  : 	1
 
 Size of the Tree : 	1
 LM_1:
 Class K1 :
-3.55 + 
-[Histogram of JPEG Coefficients2] * 0.01 +
-[Histogram of JPEG Coefficients5] * -0.02 +
-[Histogram of JPEG Coefficients6] * -0.01 +
+2.6  + 
+[Histogram of JPEG Coefficients6] * -0.02 +
 [Histogram of JPEG Coefficients9] * 0.01 +
-[Histogram of JPEG Coefficients13] * -0.03 +
-[Histogram of JPEG Coefficients20] * -0.04 +
-[Histogram of JPEG Coefficients31] * -0.05 +
-[Histogram of JPEG Coefficients38] * -0.04 +
-[Histogram of JPEG Coefficients44] * -0.2 +
+[Histogram of JPEG Coefficients13] * -0.04 +
+[Histogram of JPEG Coefficients20] * -0.09 +
 [Histogram of JPEG Coefficients55] * -0.03 +
-[Histogram of JPEG Coefficients58] * -0.05 +
-[Histogram of JPEG Coefficients63] * -0.01 +
-[Histogram of JPEG Coefficients77] * 0.04 +
-[Histogram of JPEG Coefficients84] * -0.07 +
-[Histogram of JPEG Coefficients86] * -0.04 +
-[Histogram of JPEG Coefficients97] * 0.06 +
-[Histogram of JPEG Coefficients128] * 0.01 +
+[Histogram of JPEG Coefficients62] * -0.03 +
+[Histogram of JPEG Coefficients63] * -0.02 +
+[Histogram of JPEG Coefficients97] * 0.05 +
+[Histogram of JPEG Coefficients105] * 0.09 +
+[Histogram of JPEG Coefficients117] * -0.05 +
+[Histogram of JPEG Coefficients128] * 0    +
 [Histogram of JPEG Coefficients135] * 0.01 +
 [Histogram of JPEG Coefficients138] * -0.02 +
 [Histogram of JPEG Coefficients144] * -0.03 +
-[Histogram of JPEG Coefficients145] * -0.05 +
-[Histogram of JPEG Coefficients159] * -0.02 +
-[Histogram of JPEG Coefficients160] * -0.02 +
-[Histogram of JPEG Coefficients184] * 0.02
+[Histogram of JPEG Coefficients167] * -0.02 +
+[Histogram of JPEG Coefficients184] * 0.01
 
 Class K2 :
-3.23 + 
-[Histogram of JPEG Coefficients4] * -0.01 +
+2.65 + 
 [Histogram of JPEG Coefficients7] * 0.01 +
 [Histogram of JPEG Coefficients18] * -0.01 +
-[Histogram of JPEG Coefficients19] * -0.02 +
-[Histogram of JPEG Coefficients24] * 0.02 +
-[Histogram of JPEG Coefficients25] * -0.02 +
+[Histogram of JPEG Coefficients19] * -0.03 +
+[Histogram of JPEG Coefficients24] * 0.01 +
+[Histogram of JPEG Coefficients56] * 0.02 +
 [Histogram of JPEG Coefficients66] * -0.02 +
-[Histogram of JPEG Coefficients71] * 0.02 +
+[Histogram of JPEG Coefficients71] * 0.01 +
 [Histogram of JPEG Coefficients74] * -0.02 +
-[Histogram of JPEG Coefficients89] * -0.09 +
-[Histogram of JPEG Coefficients97] * -0.02 +
 [Histogram of JPEG Coefficients128] * -0 +
 [Histogram of JPEG Coefficients130] * -0.01 +
 [Histogram of JPEG Coefficients133] * 0.01 +
-[Histogram of JPEG Coefficients136] * 0.01 +
-[Histogram of JPEG Coefficients142] * 0.02 +
-[Histogram of JPEG Coefficients143] * 0.01 +
-[Histogram of JPEG Coefficients145] * -0.01 +
-[Histogram of JPEG Coefficients160] * 0.03 +
-[Histogram of JPEG Coefficients167] * 0.01 +
-[Histogram of JPEG Coefficients176] * -0.01 +
+[Histogram of JPEG Coefficients136] * 0    +
+[Histogram of JPEG Coefficients160] * 0.04 +
 [Histogram of JPEG Coefficients180] * -0.06 +
-[Histogram of JPEG Coefficients182] * -0.08 +
-[Histogram of JPEG Coefficients184] * -0.02
+[Histogram of JPEG Coefficients182] * -0.06 +
+[Histogram of JPEG Coefficients184] * -0.01
 
 Class K3 :
-4.57 + 
-[Histogram of JPEG Coefficients0] * 0    +
-[Histogram of JPEG Coefficients2] * -0 +
-[Histogram of JPEG Coefficients9] * 0    +
-[Histogram of JPEG Coefficients17] * 0.01 +
-[Histogram of JPEG Coefficients18] * 0.01 +
+3.79 + 
+[Histogram of JPEG Coefficients0] * 0.01 +
+[Histogram of JPEG Coefficients17] * 0    +
 [Histogram of JPEG Coefficients23] * -0.01 +
-[Histogram of JPEG Coefficients27] * 0.01 +
-[Histogram of JPEG Coefficients41] * -0.03 +
+[Histogram of JPEG Coefficients27] * 0.02 +
+[Histogram of JPEG Coefficients41] * -0.02 +
 [Histogram of JPEG Coefficients55] * 0.02 +
 [Histogram of JPEG Coefficients66] * -0.01 +
-[Histogram of JPEG Coefficients68] * -0.01 +
-[Histogram of JPEG Coefficients69] * -0.03 +
+[Histogram of JPEG Coefficients69] * -0.05 +
 [Histogram of JPEG Coefficients73] * -0.01 +
-[Histogram of JPEG Coefficients80] * 0.01 +
-[Histogram of JPEG Coefficients89] * -0.01 +
-[Histogram of JPEG Coefficients92] * 0.04 +
-[Histogram of JPEG Coefficients118] * 0.02 +
-[Histogram of JPEG Coefficients120] * -0.02 +
-[Histogram of JPEG Coefficients129] * -0 +
-[Histogram of JPEG Coefficients132] * -0.04 +
+[Histogram of JPEG Coefficients74] * -0.01 +
+[Histogram of JPEG Coefficients118] * 0.01 +
+[Histogram of JPEG Coefficients132] * -0.02 +
 [Histogram of JPEG Coefficients133] * -0.02 +
 [Histogram of JPEG Coefficients143] * -0.02 +
-[Histogram of JPEG Coefficients155] * 0.05 +
 [Histogram of JPEG Coefficients179] * -0.04
 
 Class K4 :
-1.73 + 
+1.97 + 
+[Histogram of JPEG Coefficients0] * 0.01 +
 [Histogram of JPEG Coefficients2] * 0    +
-[Histogram of JPEG Coefficients5] * 0.01 +
 [Histogram of JPEG Coefficients8] * -0.02 +
-[Histogram of JPEG Coefficients9] * -0 +
 [Histogram of JPEG Coefficients18] * -0.01 +
-[Histogram of JPEG Coefficients24] * -0.02 +
+[Histogram of JPEG Coefficients23] * 0.01 +
+[Histogram of JPEG Coefficients24] * -0.01 +
 [Histogram of JPEG Coefficients27] * -0.01 +
-[Histogram of JPEG Coefficients39] * 0.01 +
-[Histogram of JPEG Coefficients40] * -0.03 +
-[Histogram of JPEG Coefficients41] * 0.02 +
+[Histogram of JPEG Coefficients40] * -0.02 +
+[Histogram of JPEG Coefficients41] * 0.01 +
 [Histogram of JPEG Coefficients56] * -0.02 +
-[Histogram of JPEG Coefficients58] * 0.04 +
-[Histogram of JPEG Coefficients80] * -0.01 +
+[Histogram of JPEG Coefficients58] * 0.02 +
 [Histogram of JPEG Coefficients89] * 0.01 +
-[Histogram of JPEG Coefficients94] * 0.03 +
-[Histogram of JPEG Coefficients99] * 0.03 +
 [Histogram of JPEG Coefficients130] * 0.01 +
-[Histogram of JPEG Coefficients131] * 0.01 +
-[Histogram of JPEG Coefficients138] * 0.01 +
-[Histogram of JPEG Coefficients141] * -0.03 +
-[Histogram of JPEG Coefficients156] * -0.06 +
 [Histogram of JPEG Coefficients161] * -0.04 +
-[Histogram of JPEG Coefficients184] * -0.02 +
+[Histogram of JPEG Coefficients184] * -0.04 +
 [Histogram of JPEG Coefficients190] * 0.01
 
 Class K5 :
--10.2 + 
+-8.6 + 
 [Histogram of JPEG Coefficients0] * -0.03 +
-[Histogram of JPEG Coefficients1] * -0.01 +
-[Histogram of JPEG Coefficients2] * -0 +
-[Histogram of JPEG Coefficients8] * 0.01 +
-[Histogram of JPEG Coefficients10] * 0.01 +
+[Histogram of JPEG Coefficients3] * -0.01 +
+[Histogram of JPEG Coefficients8] * 0    +
 [Histogram of JPEG Coefficients18] * 0.01 +
-[Histogram of JPEG Coefficients19] * 0.01 +
-[Histogram of JPEG Coefficients27] * 0.01 +
+[Histogram of JPEG Coefficients19] * 0.02 +
 [Histogram of JPEG Coefficients35] * 0.03 +
+[Histogram of JPEG Coefficients40] * 0.01 +
 [Histogram of JPEG Coefficients48] * 0.01 +
-[Histogram of JPEG Coefficients63] * -0.01 +
-[Histogram of JPEG Coefficients73] * 0.02 +
-[Histogram of JPEG Coefficients74] * 0.02 +
-[Histogram of JPEG Coefficients80] * 0.01 +
-[Histogram of JPEG Coefficients98] * -0.02 +
-[Histogram of JPEG Coefficients108] * -0.04 +
+[Histogram of JPEG Coefficients73] * 0.01 +
+[Histogram of JPEG Coefficients74] * 0.01 +
 [Histogram of JPEG Coefficients114] * 0.03 +
 [Histogram of JPEG Coefficients118] * -0.01 +
+[Histogram of JPEG Coefficients119] * -0.01 +
 [Histogram of JPEG Coefficients137] * 0.01
 
 Class K6 :
--19.71 + 
-[Histogram of JPEG Coefficients0] * -0.01 +
-[Histogram of JPEG Coefficients3] * 0.01 +
+-14.28 + 
 [Histogram of JPEG Coefficients4] * 0.01 +
-[Histogram of JPEG Coefficients9] * 0.01 +
-[Histogram of JPEG Coefficients11] * 0.02 +
-[Histogram of JPEG Coefficients14] * 0.02 +
-[Histogram of JPEG Coefficients36] * -0.01 +
-[Histogram of JPEG Coefficients39] * 0.01 +
-[Histogram of JPEG Coefficients66] * 0.03 +
-[Histogram of JPEG Coefficients72] * 0.01 +
-[Histogram of JPEG Coefficients87] * -0.02 +
+[Histogram of JPEG Coefficients11] * 0.01 +
+[Histogram of JPEG Coefficients14] * 0.01 +
+[Histogram of JPEG Coefficients66] * 0.01 +
+[Histogram of JPEG Coefficients72] * 0.02 +
 [Histogram of JPEG Coefficients97] * 0.01 +
 [Histogram of JPEG Coefficients98] * 0.04 +
-[Histogram of JPEG Coefficients126] * -0.06 +
-[Histogram of JPEG Coefficients128] * -0.01 +
-[Histogram of JPEG Coefficients139] * 0.02 +
-[Histogram of JPEG Coefficients179] * 0.07 +
-[Histogram of JPEG Coefficients181] * 0.06 +
+[Histogram of JPEG Coefficients103] * -0.02 +
+[Histogram of JPEG Coefficients105] * 0.02 +
+[Histogram of JPEG Coefficients126] * -0.03 +
+[Histogram of JPEG Coefficients139] * 0.01 +
+[Histogram of JPEG Coefficients146] * 0.01 +
+[Histogram of JPEG Coefficients181] * 0.05 +
 [Histogram of JPEG Coefficients184] * 0.04 +
-[Histogram of JPEG Coefficients190] * 0.03
-
-Class K7 :
--24.69 + 
-[Histogram of JPEG Coefficients59] * -0 +
-[Histogram of JPEG Coefficients82] * 0    +
-[Histogram of JPEG Coefficients156] * 0   
-
-Class K8 :
--24.69 + 
-[Histogram of JPEG Coefficients59] * -0 +
-[Histogram of JPEG Coefficients82] * 0    +
-[Histogram of JPEG Coefficients156] * 0   
+[Histogram of JPEG Coefficients190] * 0.02
 
 
-Time taken to build model: 1.63 seconds
+Time taken to build model: 1.75 seconds
 
-Time taken to test model on training data: 0.03 seconds
+Time taken to test model on training data: 0.02 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances         407               97.8365 %
-Incorrectly Classified Instances         9                2.1635 %
-Kappa statistic                          0.9722
-Mean absolute error                      0.0187
-Root mean squared error                  0.0719
-Relative absolute error                  9.5451 %
-Root relative squared error             22.9987 %
+Correctly Classified Instances         399               95.9135 %
+Incorrectly Classified Instances        17                4.0865 %
+Kappa statistic                          0.9475
+Mean absolute error                      0.0413
+Root mean squared error                  0.1149
+Relative absolute error                 15.8423 %
+Root relative squared error             31.8576 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.907    0.003    0.975      0.907    0.940      0.934    0.996     0.980     K1
-                 0.993    0.015    0.974      0.993    0.983      0.974    0.999     0.997     K2
-                 0.987    0.009    0.962      0.987    0.974      0.968    1.000     0.999     K3
-                 0.951    0.003    0.983      0.951    0.967      0.961    1.000     0.998     K4
+                 0.814    0.008    0.921      0.814    0.864      0.852    0.992     0.946     K1
+                 0.980    0.030    0.948      0.980    0.963      0.943    0.997     0.994     K2
+                 0.961    0.009    0.961      0.961    0.961      0.952    0.998     0.990     K3
+                 0.951    0.008    0.951      0.951    0.951      0.942    0.998     0.988     K4
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K5
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.978    0.008    0.978      0.978    0.978      0.972    0.999     0.996     
+Weighted Avg.    0.959    0.014    0.959      0.959    0.959      0.947    0.997     0.989     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  39   4   0   0   0   0   0   0 |   a = K1
-   1 147   0   0   0   0   0   0 |   b = K2
-   0   0  75   1   0   0   0   0 |   c = K3
-   0   0   3  58   0   0   0   0 |   d = K4
-   0   0   0   0  64   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  35   8   0   0   0   0 |   a = K1
+   3 145   0   0   0   0 |   b = K2
+   0   0  73   3   0   0 |   c = K3
+   0   0   3  58   0   0 |   d = K4
+   0   0   0   0  64   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
-Time taken to perform cross-validation: 9.38 seconds
+Time taken to perform cross-validation: 10.55 seconds
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances         360               86.5385 %
-Incorrectly Classified Instances        56               13.4615 %
-Kappa statistic                          0.827 
-Mean absolute error                      0.0478
-Root mean squared error                  0.1707
-Relative absolute error                 24.4372 %
-Root relative squared error             54.6435 %
+Correctly Classified Instances         362               87.0192 %
+Incorrectly Classified Instances        54               12.9808 %
+Kappa statistic                          0.8327
+Mean absolute error                      0.0587
+Root mean squared error                  0.1863
+Relative absolute error                 22.5241 %
+Root relative squared error             51.6333 %
 Total Number of Instances              416     
 
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.651    0.029    0.718      0.651    0.683      0.649    0.939     0.715     K1
-                 0.919    0.060    0.895      0.919    0.907      0.854    0.974     0.935     K2
-                 0.829    0.047    0.797      0.829    0.813      0.770    0.949     0.803     K3
-                 0.770    0.028    0.825      0.770    0.797      0.764    0.943     0.754     K4
-                 0.969    0.009    0.954      0.969    0.961      0.954    0.998     0.989     K5
+                 0.674    0.021    0.784      0.674    0.725      0.698    0.959     0.781     K1
+                 0.946    0.060    0.897      0.946    0.921      0.876    0.980     0.944     K2
+                 0.829    0.050    0.788      0.829    0.808      0.764    0.947     0.773     K3
+                 0.721    0.023    0.846      0.721    0.779      0.747    0.937     0.837     K4
+                 0.969    0.014    0.925      0.969    0.947      0.937    0.997     0.970     K5
                  1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     K6
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K7
-                 ?        0.000    ?          ?        ?          ?        ?         ?         K8
-Weighted Avg.    0.865    0.038    0.864      0.865    0.864      0.828    0.967     0.874     
+Weighted Avg.    0.870    0.038    0.868      0.870    0.868      0.835    0.969     0.887     
 
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   f   g   h   <-- classified as
-  28  13   1   1   0   0   0   0 |   a = K1
-  11 136   1   0   0   0   0   0 |   b = K2
-   0   2  63   9   2   0   0   0 |   c = K3
-   0   1  12  47   1   0   0   0 |   d = K4
-   0   0   2   0  62   0   0   0 |   e = K5
-   0   0   0   0   0  24   0   0 |   f = K6
-   0   0   0   0   0   0   0   0 |   g = K7
-   0   0   0   0   0   0   0   0 |   h = K8
+   a   b   c   d   e   f   <-- classified as
+  29  13   1   0   0   0 |   a = K1
+   8 140   0   0   0   0 |   b = K2
+   0   3  63   8   2   0 |   c = K3
+   0   0  14  44   3   0 |   d = K4
+   0   0   2   0  62   0 |   e = K5
+   0   0   0   0   0  24 |   f = K6
 
