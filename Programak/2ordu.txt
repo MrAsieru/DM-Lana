@@ -1,0 +1,291 @@
+convert-equalize_EHF - Bagging(BayesNet) kalkulatuta dago
+Eginda: 1/128 (0:00:00.039187) ETA:(0:00:04.980305)
+convert-equalize_EHF - Boosting(BayesNet) kalkulatuta dago
+Eginda: 2/128 (0:00:00.044945) ETA:(0:00:02.832291)
+convert-equalize_EHF - Bagging(NaiveBayes) kalkulatuta dago
+Eginda: 3/128 (0:00:00.050736) ETA:(0:00:02.114458)
+convert-equalize_EHF - Boosting(NaiveBayes) kalkulatuta dago
+Eginda: 4/128 (0:00:00.056866) ETA:(0:00:01.763218)
+convert-equalize_EHF - Bagging(NaiveBayesMultinomial) kalkulatuta dago
+Eginda: 5/128 (0:00:00.062290) ETA:(0:00:01.532580)
+convert-equalize_EHF - Boosting(NaiveBayesMultinomial) kalkulatuta dago
+Eginda: 6/128 (0:00:00.067778) ETA:(0:00:01.378356)
+convert-equalize_EHF - Bagging(NaiveBayesMultinomialUpdateable) kalkulatuta dago
+Eginda: 7/128 (0:00:00.073445) ETA:(0:00:01.269791)
+convert-equalize_EHF - Boosting(NaiveBayesMultinomialUpdateable) kalkulatuta dago
+Eginda: 8/128 (0:00:00.079880) ETA:(0:00:01.198395)
+convert-equalize_EHF - Bagging(NaiveBayesUpdateable) kalkulatuta dago
+Eginda: 9/128 (0:00:00.085307) ETA:(0:00:01.128094)
+convert-equalize_EHF - Boosting(NaiveBayesUpdateable) kalkulatuta dago
+Eginda: 10/128 (0:00:00.091331) ETA:(0:00:01.077859)
+convert-equalize_EHF - Bagging(1-NN) kalkulatuta dago
+Eginda: 11/128 (0:00:00.097039) ETA:(0:00:01.032259)
+convert-equalize_EHF - Boosting(1-NN) kalkulatuta dago
+Eginda: 12/128 (0:00:00.103797) ETA:(0:00:01.003535)
+convert-equalize_EHF - Bagging(3-NN) kalkulatuta dago
+Eginda: 13/128 (0:00:00.110031) ETA:(0:00:00.973493)
+convert-equalize_EHF - Boosting(3-NN) kalkulatuta dago
+Eginda: 14/128 (0:00:00.115627) ETA:(0:00:00.941648)
+convert-equalize_EHF - Bagging(7-NN) kalkulatuta dago
+Eginda: 15/128 (0:00:00.122675) ETA:(0:00:00.924408)
+convert-equalize_EHF - Boosting(7-NN) kalkulatuta dago
+Eginda: 16/128 (0:00:00.129156) ETA:(0:00:00.904190)
+convert-equalize_EHF - Bagging(11-NN) kalkulatuta dago
+Eginda: 17/128 (0:00:00.135680) ETA:(0:00:00.886022)
+convert-equalize_EHF - Boosting(11-NN) kalkulatuta dago
+Eginda: 18/128 (0:00:00.141372) ETA:(0:00:00.864019)
+convert-equalize_EHF - Bagging(KStar) kalkulatuta dago
+Eginda: 19/128 (0:00:00.146716) ETA:(0:00:00.841755)
+convert-equalize_EHF - Boosting(KStar) exekutatzen
+Eginda: 20/128 (0:05:02.237761) ETA:(0:27:12.084120)
+convert-equalize_EHF - Bagging(HoeffdingTree) kalkulatuta dago
+Eginda: 21/128 (0:05:02.243979) ETA:(0:25:40.005184)
+convert-equalize_EHF - Boosting(HoeffdingTree) kalkulatuta dago
+Eginda: 22/128 (0:05:02.249488) ETA:(0:24:16.293079)
+convert-equalize_EHF - Bagging(J48) kalkulatuta dago
+Eginda: 23/128 (0:05:02.254379) ETA:(0:22:59.857021)
+convert-equalize_EHF - Boosting(J48) kalkulatuta dago
+Eginda: 24/128 (0:05:02.259408) ETA:(0:21:49.790833)
+convert-equalize_EHF - Bagging(LMT) kalkulatuta dago
+Eginda: 25/128 (0:05:02.264327) ETA:(0:20:45.329085)
+convert-equalize_EHF - Boosting(LMT) kalkulatuta dago
+Eginda: 26/128 (0:05:02.269480) ETA:(0:19:45.826473)
+convert-equalize_EHF - Bagging(RandomForest) kalkulatuta dago
+Eginda: 27/128 (0:05:02.273792) ETA:(0:18:50.727941)
+convert-equalize_EHF - Boosting(RandomForest) kalkulatuta dago
+Eginda: 28/128 (0:05:02.279051) ETA:(0:17:59.568089)
+convert-equalize_EHF - Bagging(RandomTree) kalkulatuta dago
+Eginda: 29/128 (0:05:02.283647) ETA:(0:17:11.933867)
+convert-equalize_EHF - Boosting(RandomTree) kalkulatuta dago
+Eginda: 30/128 (0:05:02.288386) ETA:(0:16:27.475433)
+convert-equalize_EHF - Bagging(REPTree) kalkulatuta dago
+Eginda: 31/128 (0:05:02.292729) ETA:(0:15:45.883738)
+convert-equalize_EHF - Boosting(REPTree) kalkulatuta dago
+Eginda: 32/128 (0:05:02.297315) ETA:(0:15:06.891978)
+convert-equalize_PHOGF - Bagging(BayesNet) exekutatzen
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by weka.core.WekaPackageClassLoaderManager (file:/mnt/c/Users/asies/OneDrive%20-%20UPV%20EHU/DM/Lana/Programak/weka.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of weka.core.WekaPackageClassLoaderManager
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Eginda: 33/128 (0:12:33.853937) ETA:(0:36:10.185743)
+convert-equalize_PHOGF - Boosting(BayesNet) exekutatzen
+Eginda: 34/128 (0:13:20.886341) ETA:(0:36:54.215267)
+convert-equalize_PHOGF - Bagging(NaiveBayes) kalkulatuta dago
+Eginda: 35/128 (0:13:20.893716) ETA:(0:35:28.089112)
+convert-equalize_PHOGF - Boosting(NaiveBayes) kalkulatuta dago
+Eginda: 36/128 (0:13:20.899932) ETA:(0:34:06.744332)
+convert-equalize_PHOGF - Bagging(NaiveBayesMultinomial) kalkulatuta dago
+Eginda: 37/128 (0:13:20.905839) ETA:(0:32:49.795528)
+convert-equalize_PHOGF - Boosting(NaiveBayesMultinomial) kalkulatuta dago
+Eginda: 38/128 (0:13:20.911351) ETA:(0:31:36.895383)
+convert-equalize_PHOGF - Bagging(NaiveBayesMultinomialUpdateable) kalkulatuta dago
+Eginda: 39/128 (0:13:20.916921) ETA:(0:30:27.733537)
+convert-equalize_PHOGF - Boosting(NaiveBayesMultinomialUpdateable) kalkulatuta dago
+Eginda: 40/128 (0:13:20.922210) ETA:(0:29:22.028919)
+convert-equalize_PHOGF - Bagging(NaiveBayesUpdateable) kalkulatuta dago
+Eginda: 41/128 (0:13:20.927307) ETA:(0:28:19.528725)
+convert-equalize_PHOGF - Boosting(NaiveBayesUpdateable) kalkulatuta dago
+Eginda: 42/128 (0:13:20.932939) ETA:(0:27:20.005589)
+convert-equalize_PHOGF - Bagging(1-NN) kalkulatuta dago
+Eginda: 43/128 (0:13:20.937766) ETA:(0:26:23.249116)
+convert-equalize_PHOGF - Boosting(1-NN) kalkulatuta dago
+Eginda: 44/128 (0:13:20.942862) ETA:(0:25:29.072777)
+convert-equalize_PHOGF - Bagging(3-NN) kalkulatuta dago
+Eginda: 45/128 (0:13:20.948352) ETA:(0:24:37.304784)
+convert-equalize_PHOGF - Boosting(3-NN) kalkulatuta dago
+Eginda: 46/128 (0:13:20.953616) ETA:(0:23:47.786929)
+convert-equalize_PHOGF - Bagging(7-NN) kalkulatuta dago
+Eginda: 47/128 (0:13:20.958744) ETA:(0:23:00.375747)
+convert-equalize_PHOGF - Boosting(7-NN) kalkulatuta dago
+Eginda: 48/128 (0:13:20.964928) ETA:(0:22:14.941587)
+convert-equalize_PHOGF - Bagging(11-NN) kalkulatuta dago
+Eginda: 49/128 (0:13:20.970984) ETA:(0:21:31.361423)
+convert-equalize_PHOGF - Boosting(11-NN) kalkulatuta dago
+Eginda: 50/128 (0:13:20.976963) ETA:(0:20:49.524101)
+convert-equalize_PHOGF - Bagging(KStar) exekutatzen
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by weka.core.WekaPackageClassLoaderManager (file:/mnt/c/Users/asies/OneDrive%20-%20UPV%20EHU/DM/Lana/Programak/weka.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of weka.core.WekaPackageClassLoaderManager
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Eginda: 51/128 (0:17:36.065257) ETA:(0:26:34.451539)
+convert-equalize_PHOGF - Boosting(KStar) exekutatzen
+Eginda: 52/128 (0:56:43.734188) ETA:(1:22:54.688489)
+convert-equalize_PHOGF - Bagging(HoeffdingTree) kalkulatuta dago
+Eginda: 53/128 (0:56:43.739906) ETA:(1:20:16.613110)
+convert-equalize_PHOGF - Boosting(HoeffdingTree) kalkulatuta dago
+Eginda: 54/128 (0:56:43.745413) ETA:(1:17:44.391894)
+convert-equalize_PHOGF - Bagging(J48) kalkulatuta dago
+Eginda: 55/128 (0:56:43.749790) ETA:(1:15:17.704285)
+convert-equalize_PHOGF - Boosting(J48) kalkulatuta dago
+Eginda: 56/128 (0:56:43.754359) ETA:(1:12:56.255622)
+convert-equalize_PHOGF - Bagging(LMT) exekutatzen
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by weka.core.WekaPackageClassLoaderManager (file:/mnt/c/Users/asies/OneDrive%20-%20UPV%20EHU/DM/Lana/Programak/weka.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of weka.core.WekaPackageClassLoaderManager
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Eginda: 57/128 (1:00:48.357433) ETA:(1:15:44.445310)
+convert-equalize_PHOGF - Boosting(LMT) exekutatzen
+Eginda: 58/128 (1:04:26.360681) ETA:(1:17:46.297424)
+convert-equalize_PHOGF - Bagging(RandomForest) kalkulatuta dago
+Eginda: 59/128 (1:04:26.366833) ETA:(1:15:21.683270)
+convert-equalize_PHOGF - Boosting(RandomForest) kalkulatuta dago
+Eginda: 60/128 (1:04:26.372047) ETA:(1:13:01.888345)
+convert-equalize_PHOGF - Bagging(RandomTree) kalkulatuta dago
+Eginda: 61/128 (1:04:26.376941) ETA:(1:10:46.676330)
+convert-equalize_PHOGF - Boosting(RandomTree) kalkulatuta dago
+Eginda: 62/128 (1:04:26.381811) ETA:(1:08:35.825818)
+convert-equalize_PHOGF - Bagging(REPTree) kalkulatuta dago
+Eginda: 63/128 (1:04:26.386362) ETA:(1:06:29.128802)
+convert-equalize_PHOGF - Boosting(REPTree) kalkulatuta dago
+Eginda: 64/128 (1:04:26.390778) ETA:(1:04:26.390792)
+convert-unsharp5x5_EHF - Bagging(BayesNet) kalkulatuta dago
+Eginda: 65/128 (1:04:26.423159) ETA:(1:02:27.456320)
+convert-unsharp5x5_EHF - Boosting(BayesNet) exekutatzen
+Eginda: 66/128 (1:04:37.639517) ETA:(1:00:42.631095)
+convert-unsharp5x5_EHF - Bagging(NaiveBayes) kalkulatuta dago
+Eginda: 67/128 (1:04:37.645369) ETA:(0:58:50.393570)
+convert-unsharp5x5_EHF - Boosting(NaiveBayes) kalkulatuta dago
+Eginda: 68/128 (1:04:37.649991) ETA:(0:57:01.455890)
+convert-unsharp5x5_EHF - Bagging(NaiveBayesMultinomial) kalkulatuta dago
+Eginda: 69/128 (1:04:37.654410) ETA:(0:55:15.675524)
+convert-unsharp5x5_EHF - Boosting(NaiveBayesMultinomial) kalkulatuta dago
+Eginda: 70/128 (1:04:37.659083) ETA:(0:53:32.917539)
+convert-unsharp5x5_EHF - Bagging(NaiveBayesMultinomialUpdateable) kalkulatuta dago
+Eginda: 71/128 (1:04:37.663273) ETA:(0:51:53.053624)
+convert-unsharp5x5_EHF - Boosting(NaiveBayesMultinomialUpdateable) kalkulatuta dago
+Eginda: 72/128 (1:04:37.667578) ETA:(0:50:15.963683)
+convert-unsharp5x5_EHF - Bagging(NaiveBayesUpdateable) kalkulatuta dago
+Eginda: 73/128 (1:04:37.672344) ETA:(0:48:41.533972)
+convert-unsharp5x5_EHF - Boosting(NaiveBayesUpdateable) kalkulatuta dago
+Eginda: 74/128 (1:04:37.677042) ETA:(0:47:09.656230)
+convert-unsharp5x5_EHF - Bagging(1-NN) kalkulatuta dago
+Eginda: 75/128 (1:04:37.681256) ETA:(0:45:40.228097)
+convert-unsharp5x5_EHF - Boosting(1-NN) kalkulatuta dago
+Eginda: 76/128 (1:04:37.685626) ETA:(0:44:13.153333)
+convert-unsharp5x5_EHF - Bagging(3-NN) kalkulatuta dago
+Eginda: 77/128 (1:04:37.690460) ETA:(0:42:48.340442)
+convert-unsharp5x5_EHF - Boosting(3-NN) kalkulatuta dago
+Eginda: 78/128 (1:04:37.694997) ETA:(0:41:25.701928)
+convert-unsharp5x5_EHF - Bagging(7-NN) kalkulatuta dago
+Eginda: 79/128 (1:04:37.699222) ETA:(0:40:05.155222)
+convert-unsharp5x5_EHF - Boosting(7-NN) kalkulatuta dago
+Eginda: 80/128 (1:04:37.704204) ETA:(0:38:46.622530)
+convert-unsharp5x5_EHF - Bagging(11-NN) kalkulatuta dago
+Eginda: 81/128 (1:04:37.708514) ETA:(0:37:30.028403)
+convert-unsharp5x5_EHF - Boosting(11-NN) kalkulatuta dago
+Eginda: 82/128 (1:04:37.712783) ETA:(0:36:15.302301)
+convert-unsharp5x5_EHF - Bagging(KStar) exekutatzen
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by weka.core.WekaPackageClassLoaderManager (file:/mnt/c/Users/asies/OneDrive%20-%20UPV%20EHU/DM/Lana/Programak/weka.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of weka.core.WekaPackageClassLoaderManager
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Eginda: 83/128 (1:05:08.602681) ETA:(0:35:19.121955)
+convert-unsharp5x5_EHF - Boosting(KStar) exekutatzen
+Eginda: 84/128 (1:09:59.610909) ETA:(0:36:39.796210)
+convert-unsharp5x5_EHF - Bagging(HoeffdingTree) kalkulatuta dago
+Eginda: 85/128 (1:09:59.616472) ETA:(0:35:24.511870)
+convert-unsharp5x5_EHF - Boosting(HoeffdingTree) kalkulatuta dago
+Eginda: 86/128 (1:09:59.621245) ETA:(0:34:10.977825)
+convert-unsharp5x5_EHF - Bagging(J48) kalkulatuta dago
+Eginda: 87/128 (1:09:59.625521) ETA:(0:32:59.133871)
+convert-unsharp5x5_EHF - Boosting(J48) kalkulatuta dago
+Eginda: 88/128 (1:09:59.629638) ETA:(0:31:48.922567)
+convert-unsharp5x5_EHF - Bagging(LMT) kalkulatuta dago
+Eginda: 89/128 (1:09:59.633923) ETA:(0:30:40.289026)
+convert-unsharp5x5_EHF - Boosting(LMT) exekutatzen
+Eginda: 90/128 (1:10:39.900345) ETA:(0:29:50.180161)
+convert-unsharp5x5_EHF - Bagging(RandomForest) kalkulatuta dago
+Eginda: 91/128 (1:10:39.905959) ETA:(0:28:43.917815)
+convert-unsharp5x5_EHF - Boosting(RandomForest) kalkulatuta dago
+Eginda: 92/128 (1:10:39.911061) ETA:(0:27:39.095639)
+convert-unsharp5x5_EHF - Bagging(RandomTree) kalkulatuta dago
+Eginda: 93/128 (1:10:39.915316) ETA:(0:26:35.667059)
+convert-unsharp5x5_EHF - Boosting(RandomTree) kalkulatuta dago
+Eginda: 94/128 (1:10:39.919780) ETA:(0:25:33.588010)
+convert-unsharp5x5_EHF - Bagging(REPTree) kalkulatuta dago
+Eginda: 95/128 (1:10:39.924108) ETA:(0:24:32.815747)
+convert-unsharp5x5_EHF - Boosting(REPTree) kalkulatuta dago
+Eginda: 96/128 (1:10:39.928409) ETA:(0:23:33.309474)
+convert-unsharp5x5_PHOGF - Bagging(BayesNet) exekutatzen
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by weka.core.WekaPackageClassLoaderManager (file:/mnt/c/Users/asies/OneDrive%20-%20UPV%20EHU/DM/Lana/Programak/weka.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of weka.core.WekaPackageClassLoaderManager
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Eginda: 97/128 (1:19:36.720494) ETA:(0:25:26.580814)
+convert-unsharp5x5_PHOGF - Boosting(BayesNet) exekutatzen
+Eginda: 98/128 (1:28:20.142957) ETA:(0:27:02.492766)
+convert-unsharp5x5_PHOGF - Bagging(NaiveBayes) kalkulatuta dago
+Eginda: 99/128 (1:28:20.149136) ETA:(0:25:52.568947)
+convert-unsharp5x5_PHOGF - Boosting(NaiveBayes) kalkulatuta dago
+Eginda: 100/128 (1:28:20.154581) ETA:(0:24:44.043288)
+convert-unsharp5x5_PHOGF - Bagging(NaiveBayesMultinomial) kalkulatuta dago
+Eginda: 101/128 (1:28:20.159351) ETA:(0:23:36.874286)
+convert-unsharp5x5_PHOGF - Boosting(NaiveBayesMultinomial) kalkulatuta dago
+Eginda: 102/128 (1:28:20.164478) ETA:(0:22:31.022322)
+convert-unsharp5x5_PHOGF - Bagging(NaiveBayesMultinomialUpdateable) kalkulatuta dago
+Eginda: 103/128 (1:28:20.170384) ETA:(0:21:26.449126)
+convert-unsharp5x5_PHOGF - Boosting(NaiveBayesMultinomialUpdateable) kalkulatuta dago
+Eginda: 104/128 (1:28:20.174513) ETA:(0:20:23.117198)
+convert-unsharp5x5_PHOGF - Bagging(NaiveBayesUpdateable) kalkulatuta dago
+Eginda: 105/128 (1:28:20.179214) ETA:(0:19:20.991641)
+convert-unsharp5x5_PHOGF - Boosting(NaiveBayesUpdateable) kalkulatuta dago
+Eginda: 106/128 (1:28:20.183533) ETA:(0:18:20.038094)
+convert-unsharp5x5_PHOGF - Bagging(1-NN) kalkulatuta dago
+Eginda: 107/128 (1:28:20.187723) ETA:(0:17:20.223761)
+convert-unsharp5x5_PHOGF - Boosting(1-NN) kalkulatuta dago
+Eginda: 108/128 (1:28:20.191988) ETA:(0:16:21.517037)
+convert-unsharp5x5_PHOGF - Bagging(3-NN) kalkulatuta dago
+Eginda: 109/128 (1:28:20.196905) ETA:(0:15:23.887536)
+convert-unsharp5x5_PHOGF - Boosting(3-NN) kalkulatuta dago
+Eginda: 110/128 (1:28:20.201058) ETA:(0:14:27.305629)
+convert-unsharp5x5_PHOGF - Bagging(7-NN) kalkulatuta dago
+Eginda: 111/128 (1:28:20.205178) ETA:(0:13:31.743137)
+convert-unsharp5x5_PHOGF - Boosting(7-NN) kalkulatuta dago
+Eginda: 112/128 (1:28:20.209962) ETA:(0:12:37.172853)
+convert-unsharp5x5_PHOGF - Bagging(11-NN) kalkulatuta dago
+Eginda: 113/128 (1:28:20.214153) ETA:(0:11:43.568252)
+convert-unsharp5x5_PHOGF - Boosting(11-NN) kalkulatuta dago
+Eginda: 114/128 (1:28:20.218338) ETA:(0:10:50.904008)
+convert-unsharp5x5_PHOGF - Bagging(KStar) exekutatzen
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by weka.core.WekaPackageClassLoaderManager (file:/mnt/c/Users/asies/OneDrive%20-%20UPV%20EHU/DM/Lana/Programak/weka.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of weka.core.WekaPackageClassLoaderManager
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Eginda: 115/128 (1:32:28.748922) ETA:(0:10:27.249882)
+convert-unsharp5x5_PHOGF - Boosting(KStar) exekutatzen
+Eginda: 116/128 (2:10:51.685762) ETA:(0:13:32.243387)
+convert-unsharp5x5_PHOGF - Bagging(HoeffdingTree) kalkulatuta dago
+Eginda: 117/128 (2:10:51.692163) ETA:(0:12:18.193283)
+convert-unsharp5x5_PHOGF - Boosting(HoeffdingTree) kalkulatuta dago
+Eginda: 118/128 (2:10:51.697464) ETA:(0:11:05.398092)
+convert-unsharp5x5_PHOGF - Bagging(J48) kalkulatuta dago
+Eginda: 119/128 (2:10:51.701610) ETA:(0:09:53.826173)
+convert-unsharp5x5_PHOGF - Boosting(J48) kalkulatuta dago
+Eginda: 120/128 (2:10:51.706074) ETA:(0:08:43.447072)
+convert-unsharp5x5_PHOGF - Bagging(LMT) exekutatzen
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by weka.core.WekaPackageClassLoaderManager (file:/mnt/c/Users/asies/OneDrive%20-%20UPV%20EHU/DM/Lana/Programak/weka.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of weka.core.WekaPackageClassLoaderManager
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Eginda: 121/128 (2:15:06.183084) ETA:(0:07:48.952743)
+convert-unsharp5x5_PHOGF - Boosting(LMT) exekutatzen
+Eginda: 122/128 (2:19:09.226329) ETA:(0:06:50.617690)
+convert-unsharp5x5_PHOGF - Bagging(RandomForest) kalkulatuta dago
+Eginda: 123/128 (2:19:09.232265) ETA:(0:05:39.399686)
+convert-unsharp5x5_PHOGF - Boosting(RandomForest) kalkulatuta dago
+Eginda: 124/128 (2:19:09.237986) ETA:(0:04:29.330258)
+convert-unsharp5x5_PHOGF - Bagging(RandomTree) kalkulatuta dago
+Eginda: 125/128 (2:19:09.242775) ETA:(0:03:20.381827)
+convert-unsharp5x5_PHOGF - Boosting(RandomTree) kalkulatuta dago
+Eginda: 126/128 (2:19:09.247470) ETA:(0:02:12.527738)
+convert-unsharp5x5_PHOGF - Bagging(REPTree) kalkulatuta dago
+Eginda: 127/128 (2:19:09.252204) ETA:(0:01:05.742143)
+convert-unsharp5x5_PHOGF - Boosting(REPTree) kalkulatuta dago
+Eginda: 128/128 (2:19:09.256861) ETA:(0:00:00)

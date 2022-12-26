@@ -1,16 +1,21 @@
 import os
 import re
+import sys
 
-output_karpeta = 'output'
+OUTPUT = "output"
+OUTPUT_MULT = "output/multisailkatzaileak"
+OUTPUT_FILTER = "output/filter"
 
 class Emaitza:
-    def __init__(self, db=None, sailkatzailea=None, zuzen=None, oker=None):
+    def __init__(self, db=None, sailkatzailea=None, zuzen=None, oker=None, sailkatzaileak=None):
         self.db = db
         self.sailkatzailea = sailkatzailea
+        self.sailkatzaileak = sailkatzaileak
         if zuzen != None: 
             self.zuzen = int(zuzen)
         else:
             self.zuzen = 0
+
         if oker != None: 
             self.oker = int(oker)
         else:
@@ -39,6 +44,18 @@ class Emaitza:
     def sailkatzailea(self):
         return self.sailkatzailea
 
+    def konbinaketa_da(self):
+        return not self.sailkatzaileak is None
+
+    def sailkatzaileak(self):
+        return self.sailkatzaileak
+
+    def sailkatzailea_izena(self):
+        if self.sailkatzaileak is None:
+            return self.sailkatzailea
+        else:
+            return self.sailkatzailea+"_"+"_".join(self.sailkatzaileak)
+
 
 class EmaitzaZerrenda:
     def __init__(self):
@@ -49,7 +66,7 @@ class EmaitzaZerrenda:
     def gehitu(self, ema: Emaitza):
         self.zerrenda.append(ema)
         self.__db_gehitu(ema.db)
-        self.__sailkatzailea_gehitu(ema.sailkatzailea)
+        self.__sailkatzailea_gehitu(ema.sailkatzailea_izena())
     
     def __db_gehitu(self, db):
         if not db in self.db_zerrenda:
@@ -78,19 +95,28 @@ class EmaitzaZerrenda:
     def sailkatzaileko_emaitzak(self, sailkatzailea):
         tmp = []
         for e in self.zerrenda:
-            if sailkatzailea == e.sailkatzailea():
+            if sailkatzailea == e.sailkatzailea_izena():
                 tmp.append(e)
         return tmp
 
     def dbko_sailkatzaileko_emaitza(self, db, sailkatzailea):
         for e in self.zerrenda:
-            if db == e.db and sailkatzailea == e.sailkatzailea:
+            if db == e.db and sailkatzailea == e.sailkatzailea_izena():
                 return e
         return None
 
+def informazioa_lortu(izena):
+    r1 = re.search(r"(?P<convert>[^_]+)_(?P<filtroa>[^_]+)_(?P<sailkatzailea>[^_\.]+)_?(?P<sailkatzaileak>[^.]*)?", izena)
+    sailkatzaileak = None
+    if (s := r1.group("sailkatzaileak")) != '':
+        sailkatzaileak = s.split("_")
+    return (r1.group("convert"), r1.group("filtroa"), r1.group("sailkatzailea"), sailkatzaileak)
 
 def lortu_emaitza(file):
     cross_validation = False
+
+    convert, filtroa, sailkatzailea, sailkatzaileak = informazioa_lortu(os.path.basename(file))
+
     with open(file, 'r') as f:
         while line := f.readline():
             if line.startswith("=== Stratified cross-validation ==="):
@@ -99,9 +125,9 @@ def lortu_emaitza(file):
             if cross_validation and line.startswith("Correctly Classified Instances"):
                 correct = line
                 incorrect = f.readline()
-                db, sailkatzailea = db_sailkatzailea(os.path.basename(file))
-                return Emaitza(db, sailkatzailea, lerroa(correct), lerroa(incorrect))
-        return Emaitza()
+                
+                return Emaitza(db=convert+"_"+filtroa, sailkatzailea=sailkatzailea, zuzen=lerroa(correct), oker=lerroa(incorrect), sailkatzaileak=sailkatzaileak)
+        return Emaitza(db=convert+"_"+filtroa, sailkatzailea=sailkatzailea, sailkatzaileak=sailkatzaileak)
 
 
 def lerroa(line):
@@ -136,8 +162,20 @@ def emaitzak2csv(emaitzak: EmaitzaZerrenda):
 def main():
     emaitza_zerrenda = EmaitzaZerrenda()
 
-    for filename in os.listdir(output_karpeta):
-        file = os.path.join(output_karpeta, filename)
+    # for filename in os.listdir(OUTPUT):
+    #     file = os.path.join(OUTPUT, filename)
+        
+    #     if os.path.isfile(file):
+    #         emaitza_zerrenda.gehitu(lortu_emaitza(file))
+
+    # for filename in os.listdir(OUTPUT_MULT):
+    #     file = os.path.join(OUTPUT_MULT, filename)
+        
+    #     if os.path.isfile(file):
+    #         emaitza_zerrenda.gehitu(lortu_emaitza(file))
+
+    for filename in os.listdir(OUTPUT_FILTER):
+        file = os.path.join(OUTPUT_FILTER, filename)
         
         if os.path.isfile(file):
             emaitza_zerrenda.gehitu(lortu_emaitza(file))
